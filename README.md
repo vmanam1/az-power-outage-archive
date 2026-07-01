@@ -1,8 +1,18 @@
 # Arizona Power Outage Archive
 
-Automatically archives outage data from Arizona utility providers.
-
-Currently supported:
-
+## Providers
 - APS
-- SRP (coming soon)
+- SRP (Coming Soon)
+
+## Project Structure
+...
+
+## Running Locally
+
+python -m scripts.run
+
+## Output
+
+data/
+├── aps/
+└── srp/
