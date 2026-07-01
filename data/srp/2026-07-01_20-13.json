@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-01 20:13:55 UTC",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.39011453561075,
+            "longitude": -111.639731785195,
+            "boundary": "S HAWES RD TO S ELLSWORTH RD AND E SOUTHERN AVE TO E SUPERSTITION FWY",
+            "customers": 13,
+            "cause": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-01 19:31 UTC",
+            "etr": "2026-07-01 21:30 UTC"
+        }
+    ]
+}
