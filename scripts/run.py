@@ -1,15 +1,13 @@
 from providers.aps import APSProvider
 from scripts.archive import save_snapshot
 from scripts.logger import logger
-
-
-
-
+from providers.srp import SRPProvider
 
 def main():
 
     providers = [
         APSProvider(),
+        SRPProvider(),
     ]
 
     for provider in providers:
