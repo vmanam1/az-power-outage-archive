@@ -1,0 +1,32 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-01 22:56:43 UTC",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 66
+    },
+    "outages": [
+        {
+            "latitude": 33.454463782964595,
+            "longitude": -111.7266549645215,
+            "boundary": "N GREENFIELD RD TO N HIGLEY RD AND E MCDOWELL RD TO E MCLELLAN RD",
+            "customers": 4,
+            "cause": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-01 22:26 UTC",
+            "etr": "2026-07-02 00:25 UTC"
+        },
+        {
+            "latitude": 33.293634082293195,
+            "longitude": -111.71878366593401,
+            "boundary": "S GREENFIELD RD TO S RECKER RD AND E FRYE RD TO E WILLIS RD",
+            "customers": 62,
+            "cause": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-01 21:46 UTC",
+            "etr": "2026-07-01 23:46 UTC"
+        }
+    ]
+}
