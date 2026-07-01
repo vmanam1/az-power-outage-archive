@@ -1,0 +1,30 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-01 16:30:07 UTC",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 45
+    },
+    "outages": [
+        {
+            "city": "Phoenix",
+            "boundary": "Osborn Rd. and 22nd Dr.",
+            "customers": 5,
+            "cause": "Planned outage",
+            "start_time": "2026-07-01 08:14:00 UTC",
+            "etr": "2026-07-01 11:30:00 UTC"
+        },
+        {
+            "city": "Yuma",
+            "boundary": "24th St. and US 95",
+            "customers": 40,
+            "cause": "Being Investigated",
+            "start_time": "2026-07-01 08:26:00 UTC",
+            "etr": "2026-07-01 11:45:00 UTC"
+        }
+    ]
+}
