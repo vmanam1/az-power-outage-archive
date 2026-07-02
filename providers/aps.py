@@ -28,15 +28,19 @@ class APSProvider(BaseProvider):
             for feature in features:
 
                 attr = feature.get("attributes", {})
+                geometry = feature.get("geometry") or {}
 
                 customers = attr.get("customers") or 0
                 customers_affected += customers
 
                 outages.append({
+                    "latitude": geometry.get("y"),
+                    "longitude": geometry.get("x"),
                     "city": attr.get("City"),
                     "boundary": attr.get("Boundary"),
                     "customers": customers,
                     "cause": attr.get("Cause"),
+                    "comments": attr.get("Comments"),
                     "start_time": format_epoch(attr.get("off")),
                     "etr": format_epoch(attr.get("etr"))
                 })

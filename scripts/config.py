@@ -3,6 +3,8 @@ APS_URL = "https://aps-ags.esriemcs.com/arcgis/rest/services/APSOutageMap/MapSer
 APS_PARAMS = {
     "f": "json",
     "outFields": "*",
+    "outSR": 4326,
+    "returnGeometry": "true",
     "spatialRel": "esriSpatialRelIntersects",
     "where": "(outagestatus = 0) AND (datastatus = 'current')"
 }
