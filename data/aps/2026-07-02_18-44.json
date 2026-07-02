@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-02 18:44:27 UTC",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 100
+    },
+    "outages": [
+        {
+            "city": "Yuma",
+            "boundary": "32nd St to Kings Ln and South Avenue A to 8th Ave",
+            "customers": 100,
+            "cause": "Temporary equipment problems",
+            "start_time": "2026-07-02 10:57:00 UTC",
+            "etr": "2026-07-02 14:10:00 UTC"
+        }
+    ]
+}
