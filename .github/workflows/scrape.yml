@@ -2,8 +2,8 @@ name: Archive APS & SRP Outages
 
 on:
   schedule:
-    # Every hour
-    - cron: "0 * * * *"
+    # Every hour at minute 7 to avoid peak scheduler traffic
+    - cron: "7 * * * *"
 
   # Allow manual runs from the GitHub Actions tab
   workflow_dispatch:
