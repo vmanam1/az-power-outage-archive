@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-02 10:44:54 UTC",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 421
+    },
+    "outages": [
+        {
+            "city": "Tonopah",
+            "boundary": "Salome Hwy to Elliot Rd and 365th Ave to 335th Ave",
+            "customers": 421,
+            "cause": "Planned outage",
+            "start_time": "2026-07-02 00:39:00 UTC",
+            "etr": "2026-07-02 04:00:00 UTC"
+        }
+    ]
+}
