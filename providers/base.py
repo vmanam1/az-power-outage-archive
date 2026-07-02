@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
-from datetime import datetime, timezone
+
+from scripts.utils import current_time
 
 
 class BaseProvider(ABC):
@@ -9,7 +10,7 @@ class BaseProvider(ABC):
     def build_metadata(self):
         return {
             "provider": self.name.upper(),
-            "scraped_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
+            "scraped_at": current_time(),
             "source": self.get_source(),
             "scraper_version": "1.0.0"
         }

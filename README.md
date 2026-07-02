@@ -64,7 +64,7 @@ Each archived snapshot follows a standardized structure.
 {
   "metadata": {
     "provider": "APS",
-    "scraped_at": "2026-07-02 00:00:00 UTC",
+    "scraped_at": "2026-07-01 17:00:00 MST",
     "source": "APS ArcGIS REST API",
     "scraper_version": "1.0.0"
   },
@@ -78,8 +78,8 @@ Each archived snapshot follows a standardized structure.
       "longitude": -111.95,
       "customers": 42,
       "cause": "Equipment Failure",
-      "start_time": "2026-07-01 20:31 UTC",
-      "etr": "2026-07-02 04:00 UTC"
+      "start_time": "2026-07-01 13:31 MST",
+      "etr": "2026-07-01 21:00 MST"
     }
   ]
 }

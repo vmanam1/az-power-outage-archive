@@ -1,7 +1,8 @@
 import requests
-from datetime import datetime, timezone
+from datetime import datetime
 
 from providers.base import BaseProvider
+from scripts.utils import ARIZONA_TZ
 
 
 class SRPProvider(BaseProvider):
@@ -63,6 +64,6 @@ class SRPProvider(BaseProvider):
             datetime.fromisoformat(
                 value.replace("Z", "+00:00")
             )
-            .astimezone(timezone.utc)
-            .strftime("%Y-%m-%d %H:%M UTC")
+            .astimezone(ARIZONA_TZ)
+            .strftime("%Y-%m-%d %H:%M %Z")
         )
