@@ -1,0 +1,46 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-02 17:01:56 UTC",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 67
+    },
+    "outages": [
+        {
+            "city": "Munds Park",
+            "boundary": "Lodge Dr to Barnwood Trail and Mountain side Place to Janice Place",
+            "customers": 17,
+            "cause": "Temporary equipment problems",
+            "start_time": "2026-07-02 08:34:00 UTC",
+            "etr": "2026-07-02 11:30:00 UTC"
+        },
+        {
+            "city": "Phoenix",
+            "boundary": "West Pierson St to West Elm St and North 7th Ave to North 1St Ave",
+            "customers": 38,
+            "cause": "Planned outage",
+            "start_time": "2026-07-02 08:56:00 UTC",
+            "etr": "2026-07-02 12:56:00 UTC"
+        },
+        {
+            "city": "Scottsdale",
+            "boundary": "East Mountain View Rd to Brog Ave and North 96th St to Players Ln",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "start_time": "2026-07-02 09:31:00 UTC",
+            "etr": "2026-07-02 12:30:00 UTC"
+        },
+        {
+            "city": "Glendale",
+            "boundary": "West Via De Luna Dr to West La Senda Dr to North 72nd Ave",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "start_time": "2026-07-02 09:11:00 UTC",
+            "etr": "2026-07-02 12:20:00 UTC"
+        }
+    ]
+}
