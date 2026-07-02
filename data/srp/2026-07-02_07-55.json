@@ -1,0 +1,50 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-02 07:55:24 UTC",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 57
+    },
+    "outages": [
+        {
+            "latitude": 33.4084721517613,
+            "longitude": -111.795391169974,
+            "boundary": "S STAPLEY DR TO S GILBERT RD AND E MAIN ST TO E 8TH AVE",
+            "customers": 37,
+            "cause": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-02 02:44 UTC",
+            "etr": "2026-07-02 11:30 UTC"
+        },
+        {
+            "latitude": 33.413755967625704,
+            "longitude": -111.683866262951,
+            "boundary": "S 64TH ST TO S 72ND ST AND E MAIN ST TO E BROADWAY RD",
+            "customers": 4,
+            "cause": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-02 06:00 UTC",
+            "etr": "2026-07-02 14:00 UTC"
+        },
+        {
+            "latitude": 33.293849223905795,
+            "longitude": -111.7176515172265,
+            "boundary": "S HIGLEY RD TO S RECKER RD AND E FRYE RD TO E WILLIS RD",
+            "customers": 15,
+            "cause": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-07-01 21:46 UTC",
+            "etr": "2026-07-02 11:00 UTC"
+        },
+        {
+            "latitude": 33.3380252378196,
+            "longitude": -111.88563478658,
+            "boundary": "N PRICE FWY TO N DOBSON RD AND W MESQUITE ST TO W WARNER RD",
+            "customers": 1,
+            "cause": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-02 06:38 UTC",
+            "etr": "2026-07-02 11:30 UTC"
+        }
+    ]
+}
