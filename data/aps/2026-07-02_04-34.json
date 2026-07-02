@@ -1,0 +1,46 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-02 04:34:59 UTC",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 81
+    },
+    "outages": [
+        {
+            "city": "Phoenix",
+            "boundary": "Angela Dr to Helena Dr and 2nd Ave",
+            "customers": 12,
+            "cause": "Transformer replacement",
+            "start_time": "2026-07-01 19:20:00 UTC",
+            "etr": "2026-07-01 22:30:00 UTC"
+        },
+        {
+            "city": "Phoenix",
+            "boundary": "Myrtle Ave. to Glendale Ave. and 14th St to 15th Pl.",
+            "customers": 36,
+            "cause": "Faulted cable",
+            "start_time": "2026-07-01 21:05:00 UTC",
+            "etr": "2026-07-02 00:00:00 UTC"
+        },
+        {
+            "city": "Phoenix",
+            "boundary": "Portland St to Roosevelt St and 9th Ave to 7th Ave",
+            "customers": 15,
+            "cause": "Planned outage",
+            "start_time": "2026-07-01 21:00:00 UTC",
+            "etr": "2026-07-02 01:00:00 UTC"
+        },
+        {
+            "city": "Yuma",
+            "boundary": "5th St. and 16th Ave. to 15th Ave.",
+            "customers": 18,
+            "cause": "Outage Reported in Area",
+            "start_time": "2026-07-01 21:21:00 UTC",
+            "etr": "2026-07-02 00:45:00 UTC"
+        }
+    ]
+}
