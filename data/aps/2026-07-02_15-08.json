@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-02 15:08:26 UTC",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1985
+    },
+    "outages": [
+        {
+            "city": "Prescott",
+            "boundary": "Southwest Prescott",
+            "customers": 1985,
+            "cause": "Temporary equipment problems",
+            "start_time": "2026-07-02 07:53:00 UTC",
+            "etr": "2026-07-02 11:40:00 UTC"
+        }
+    ]
+}
