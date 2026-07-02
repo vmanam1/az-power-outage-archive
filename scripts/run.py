@@ -2,12 +2,16 @@ from providers.aps import APSProvider
 from scripts.archive import save_snapshot
 from scripts.logger import logger
 from providers.srp import SRPProvider
+from providers.tep import TEPProvider
+from providers.ues import UESProvider
 
 def main():
 
     providers = [
         APSProvider(),
         SRPProvider(),
+        TEPProvider(),
+        UESProvider(),
     ]
 
     for provider in providers:

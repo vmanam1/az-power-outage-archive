@@ -8,6 +8,8 @@ An automated archival system that periodically collects and stores public power 
 - Supports multiple utility providers
   - APS (Arizona Public Service)
   - SRP (Salt River Project)
+  - TEP (Tucson Electric Power)
+  - UES (UniSource Energy Services)
 - Timestamped JSON archives
 - Standardized data format across providers
 - Scheduled execution using GitHub Actions
@@ -27,6 +29,8 @@ az-power-outage-archive/
 ├── providers/
 │   ├── aps.py
 │   ├── srp.py
+│   ├── tep.py
+│   ├── ues.py
 │   ├── base.py
 │   └── __init__.py
 │
@@ -39,7 +43,9 @@ az-power-outage-archive/
 │
 ├── data/
 │   ├── aps/
-│   └── srp/
+│   ├── srp/
+│   ├── tep/
+│   └── ues/
 │
 ├── requirements.txt
 └── README.md
@@ -53,6 +59,8 @@ az-power-outage-archive/
 |----------|--------|
 | APS (Arizona Public Service) | ✅ Supported |
 | SRP (Salt River Project) | ✅ Supported |
+| TEP (Tucson Electric Power) | ✅ Supported |
+| UES (UniSource Energy Services) | ✅ Supported |
 
 ---
 
@@ -143,7 +151,9 @@ Archived outage snapshots are stored under
 ```
 data/
 ├── aps/
-└── srp/
+├── srp/
+├── tep/
+└── ues/
 ```
 
 Each provider directory contains timestamped JSON snapshots generated during scheduled runs.
@@ -162,4 +172,4 @@ Each provider directory contains timestamped JSON snapshots generated during sch
 
 ## Disclaimer
 
-This project archives publicly available outage information provided by Arizona utility companies. It is intended for research, educational, and historical purposes and is not affiliated with APS or SRP.
+This project archives publicly available outage information provided by Arizona utility companies. It is intended for research, educational, and historical purposes and is not affiliated with APS, SRP, TEP, or UES.
