@@ -1,7 +1,28 @@
 import requests
-from datetime import datetime, timezone
+from datetime import datetime
 
 from providers.base import BaseProvider
+from scripts.config import REQUEST_TIMEOUT
+from scripts.http import request_with_retries
+from scripts.utils import ARIZONA_TZ
+
+
+CAUSE_SUMMARIES = {
+    "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.": "Critical equipment maintenance",
+    "An underground power cable has failed. SRP crews are working to restore power.": "Underground cable failure",
+    "We are investigating the cause of the outage.": "Cause under investigation",
+    "Electrical equipment has been hit or damaged. SRP crews are working to restore power.": "Electrical equipment damage",
+    "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.": "Excavation damaged underground lines",
+    "Public safety power shutoff due to wildfire mitigation in the area.": "Wildfire safety power shutoff",
+    "Power lines are down in the area. SRP crews are working to restore power.": "Downed power lines",
+}
+
+
+def summarize_cause(comments):
+    if not comments:
+        return None
+
+    return CAUSE_SUMMARIES.get(comments, "Other outage cause")
 
 
 class SRPProvider(BaseProvider):
@@ -15,19 +36,34 @@ class SRPProvider(BaseProvider):
         return "SRP Outage API"
 
     def fetch_data(self):
+        try:
+            response = request_with_retries(
+                requests.get,
+                self.API_URL,
+                timeout=REQUEST_TIMEOUT,
+            )
+            outages = response.json()
+        except (requests.RequestException, ValueError) as exc:
+            raise RuntimeError(f"Failed to fetch SRP data: {exc}") from exc
 
-        response = requests.get(self.API_URL, timeout=30)
-        response.raise_for_status()
-
-        outages = response.json()
+        if not isinstance(outages, list):
+            raise RuntimeError("Failed to fetch SRP data: response must be a list")
 
         formatted = []
 
         total_customers = 0
 
         for outage in outages:
+            if not isinstance(outage, dict):
+                raise RuntimeError("Failed to fetch SRP data: outage must be an object")
 
-            customers = outage.get("numberCustomersAffected", 0)
+            try:
+                customers = int(outage.get("numberCustomersAffected") or 0)
+            except (TypeError, ValueError) as exc:
+                raise RuntimeError(
+                    "Failed to fetch SRP data: invalid customer count"
+                ) from exc
+            comments = outage.get("outageProblem")
             total_customers += customers
 
             formatted.append({
@@ -35,7 +71,8 @@ class SRPProvider(BaseProvider):
                 "longitude": outage.get("longitude"),
                 "boundary": outage.get("crossRoadText"),
                 "customers": customers,
-                "cause": outage.get("outageProblem"),
+                "cause": summarize_cause(comments),
+                "comments": comments,
                 "start_time": self.format_time(
                     outage.get("outageBegan")
                 ),
@@ -44,14 +81,14 @@ class SRPProvider(BaseProvider):
                 )
             })
 
-        return {
+        return self.validate_snapshot({
             "metadata": self.build_metadata(),
             "summary": {
                 "outage_count": len(formatted),
                 "customers_affected": total_customers
             },
             "outages": formatted
-        }
+        })
 
     @staticmethod
     def format_time(value):
@@ -63,6 +100,6 @@ class SRPProvider(BaseProvider):
             datetime.fromisoformat(
                 value.replace("Z", "+00:00")
             )
-            .astimezone(timezone.utc)
-            .strftime("%Y-%m-%d %H:%M UTC")
+            .astimezone(ARIZONA_TZ)
+            .strftime("%Y-%m-%d %H:%M %Z")
         )

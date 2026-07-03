@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime
 
-from scripts.utils import calculate_hash
+from scripts.utils import ARIZONA_TZ, calculate_hash
 
 DATA_FOLDER = Path("data")
 
@@ -37,9 +37,7 @@ def save_snapshot(provider_name: str, data: dict):
         if calculate_hash(old_data) == calculate_hash(data):
             return False, latest
 
-    filename = datetime.now(
-        timezone.utc
-    ).strftime("%Y-%m-%d_%H-%M.json")
+    filename = datetime.now(ARIZONA_TZ).strftime("%Y-%m-%d_%H-%M.json")
 
     filepath = provider_folder / filename
 

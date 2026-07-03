@@ -8,6 +8,11 @@ An automated archival system that periodically collects and stores public power 
 - Supports multiple utility providers
   - APS (Arizona Public Service)
   - SRP (Salt River Project)
+  - SSVEC (Sulphur Springs Valley Electric Cooperative)
+  - Trico Electric Cooperative
+  - Electrical District No. 3 (ED3)
+  - Mohave Electric Cooperative
+  - Navopache Electric Cooperative
 - Timestamped JSON archives
 - Standardized data format across providers
 - Scheduled execution using GitHub Actions
@@ -27,6 +32,12 @@ az-power-outage-archive/
 ├── providers/
 │   ├── aps.py
 │   ├── srp.py
+│   ├── ssvec.py
+│   ├── nisc.py
+│   ├── trico.py
+│   ├── ed3.py
+│   ├── mohave.py
+│   ├── navopache.py
 │   ├── base.py
 │   └── __init__.py
 │
@@ -39,7 +50,12 @@ az-power-outage-archive/
 │
 ├── data/
 │   ├── aps/
-│   └── srp/
+│   ├── srp/
+│   ├── ssvec/
+│   ├── trico/
+│   ├── ed3/
+│   ├── mohave/
+│   └── navopache/
 │
 ├── requirements.txt
 └── README.md
@@ -47,12 +63,29 @@ az-power-outage-archive/
 
 ---
 
-## Supported Providers
+## Supported Providers and Sources
 
-| Provider | Status |
-|----------|--------|
-| APS (Arizona Public Service) | ✅ Supported |
-| SRP (Salt River Project) | ✅ Supported |
+| Provider | Public outage website | Collection method |
+|----------|-----------------------|-------------------|
+| APS (Arizona Public Service) | [APS Outage Center](https://www.aps.com/en/Utility/Outage/Outage-Center) | ArcGIS REST API |
+| SRP (Salt River Project) | [SRP Outages and Storm Safety](https://www.srpnet.com/customer-service/safety/outages-storm) | Public outage API |
+| SSVEC (Sulphur Springs Valley Electric Cooperative) | [SSVEC Outage Center](https://www.ssvec.org/outage/) | ArcGIS REST API |
+| Trico Electric Cooperative | [Trico Outage Map](https://ebill.trico.org/maps/Trico_External/OutageWebMap/) | NISC public map |
+| Electrical District No. 3 (ED3) | [ED3 Outage Map](https://ww3.ed3online.org/OMSWebMap/OMSWebMap.htm) | Public XML outage service |
+| Mohave Electric Cooperative | [Mohave Outage Map](https://ebill.mohaveelectric.com/maps/OutageWebMap/) | NISC public map |
+| Navopache Electric Cooperative | [Navopache Outage Map](https://ebill1.navopache.org/maps/OutageWebMap/) | NISC public map |
+
+### Collection Notes
+
+- Snapshot timestamps and outage times are normalized to Arizona time (`MST`, UTC-7).
+- Utilities may suppress small outages, delay updates, or omit fields for safety and privacy reasons.
+- Trico, Mohave, and Navopache use NISC browser-based maps. Their collectors require Google Chrome and Selenium.
+- ED3 provides an XML feed; APS and SSVEC provide ArcGIS feature layers; SRP provides JSON.
+- Provider websites and response formats are controlled by the utilities and may change without notice.
+- Temporary HTTP and browser failures are retried up to three times with exponential backoff.
+- Each provider is isolated so successful snapshots are preserved when another provider fails.
+- Snapshot schemas and summary totals are validated before files are written.
+- The archive is historical reference data, not an emergency notification service. Always confirm current conditions on the utility's website.
 
 ---
 
@@ -64,7 +97,7 @@ Each archived snapshot follows a standardized structure.
 {
   "metadata": {
     "provider": "APS",
-    "scraped_at": "2026-07-02 00:00:00 UTC",
+    "scraped_at": "2026-07-01 17:00:00 MST",
     "source": "APS ArcGIS REST API",
     "scraper_version": "1.0.0"
   },
@@ -78,8 +111,8 @@ Each archived snapshot follows a standardized structure.
       "longitude": -111.95,
       "customers": 42,
       "cause": "Equipment Failure",
-      "start_time": "2026-07-01 20:31 UTC",
-      "etr": "2026-07-02 04:00 UTC"
+      "start_time": "2026-07-01 13:31 MST",
+      "etr": "2026-07-01 21:00 MST"
     }
   ]
 }
@@ -122,10 +155,18 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
+Google Chrome must be installed when collecting Trico, Mohave, or Navopache data.
+
 Run the scraper
 
 ```bash
 python -m scripts.run
+```
+
+Run the test suite
+
+```bash
+python -m unittest discover -s tests -v
 ```
 
 ---
@@ -143,7 +184,12 @@ Archived outage snapshots are stored under
 ```
 data/
 ├── aps/
-└── srp/
+├── srp/
+├── ssvec/
+├── trico/
+├── ed3/
+├── mohave/
+└── navopache/
 ```
 
 Each provider directory contains timestamped JSON snapshots generated during scheduled runs.
@@ -154,6 +200,7 @@ Each provider directory contains timestamped JSON snapshots generated during sch
 
 - Python
 - Requests
+- Selenium and Google Chrome for NISC outage maps
 - GitHub Actions
 - JSON
 - REST APIs
@@ -162,4 +209,4 @@ Each provider directory contains timestamped JSON snapshots generated during sch
 
 ## Disclaimer
 
-This project archives publicly available outage information provided by Arizona utility companies. It is intended for research, educational, and historical purposes and is not affiliated with APS or SRP.
+This project archives publicly available outage information provided by Arizona utility companies. It is intended for research, educational, and historical purposes and is not affiliated with the listed utilities.

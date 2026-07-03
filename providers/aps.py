@@ -2,7 +2,8 @@ import requests
 
 from providers.base import BaseProvider
 from scripts.config import APS_URL, APS_PARAMS, REQUEST_TIMEOUT
-from scripts.utils import format_epoch, current_time
+from scripts.http import request_with_retries
+from scripts.utils import format_epoch
 
 
 class APSProvider(BaseProvider):
@@ -10,50 +11,64 @@ class APSProvider(BaseProvider):
     def __init__(self):
         super().__init__("aps")
 
+    def get_source(self):
+        return "APS ArcGIS REST API"
+
     def fetch_data(self):
         try:
-            response = requests.get(
+            response = request_with_retries(
+                requests.get,
                 APS_URL,
                 params=APS_PARAMS,
                 timeout=REQUEST_TIMEOUT
             )
 
-            response.raise_for_status()
+            payload = response.json()
+            if isinstance(payload, dict) and payload.get("error"):
+                raise ValueError(f"APS API returned an error: {payload['error']}")
+            if not isinstance(payload, dict) or not isinstance(
+                payload.get("features"), list
+            ):
+                raise ValueError("APS response is missing a features list")
 
-            features = response.json().get("features", [])
+            features = payload["features"]
 
             outages = []
             customers_affected = 0
 
             for feature in features:
 
-                attr = feature.get("attributes", {})
+                if not isinstance(feature, dict):
+                    raise ValueError("APS feature must be an object")
+                attr = feature.get("attributes") or {}
+                geometry = feature.get("geometry") or {}
 
-                customers = attr.get("customers") or 0
+                if not isinstance(attr, dict) or not isinstance(geometry, dict):
+                    raise ValueError("APS feature has malformed attributes or geometry")
+
+                customers = int(attr.get("customers") or 0)
                 customers_affected += customers
 
                 outages.append({
+                    "latitude": geometry.get("y"),
+                    "longitude": geometry.get("x"),
                     "city": attr.get("City"),
                     "boundary": attr.get("Boundary"),
                     "customers": customers,
                     "cause": attr.get("Cause"),
+                    "comments": attr.get("Comments"),
                     "start_time": format_epoch(attr.get("off")),
                     "etr": format_epoch(attr.get("etr"))
                 })
 
-            return {
-                "metadata": {
-                    "provider": "APS",
-                    "scraped_at": current_time(),
-                    "source": "APS ArcGIS REST API",
-                    "scraper_version": "1.0.0"
-                },
+            return self.validate_snapshot({
+                "metadata": self.build_metadata(),
                 "summary": {
                     "outage_count": len(outages),
                     "customers_affected": customers_affected
                 },
                 "outages": outages
-            }
+            })
     
-        except requests.RequestException as e:
+        except (requests.RequestException, ValueError, TypeError) as e:
             raise RuntimeError(f"Failed to fetch APS data: {e}")
