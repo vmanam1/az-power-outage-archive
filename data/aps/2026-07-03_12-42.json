@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-03 12:42:53 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 100
+    },
+    "outages": [
+        {
+            "latitude": 35.21602995221405,
+            "longitude": -111.58946060280216,
+            "city": "Flagstaff",
+            "boundary": "East Industrial Dr to Huntington Dr and South Fanning Dr to East Eagle Mountain Dr",
+            "customers": 33,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-03 02:24:00 MST",
+            "etr": "2026-07-03 06:45:00 MST"
+        },
+        {
+            "latitude": 32.759589357012636,
+            "longitude": -111.56611350894215,
+            "city": "Eloy",
+            "boundary": "West 11th St to West Frontier St and North Eleven-Mile Corner Rd to North Adams St",
+            "customers": 67,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-03 05:14:00 MST",
+            "etr": "2026-07-03 08:45:00 MST"
+        }
+    ]
+}
