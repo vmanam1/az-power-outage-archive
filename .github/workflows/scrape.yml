@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write
 
+# Do not let two archive jobs race while committing snapshots.
+concurrency:
+  group: outage-archive-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -26,16 +31,27 @@ jobs:
         with:
           python-version: "3.11"
 
+      # NISC outage maps are rendered in a browser before their public data
+      # can be read by the Trico, Mohave, and Navopache providers.
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v2
+        with:
+          chrome-version: stable
+          install-chromedriver: true
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run scraper
+        id: scrape
         run: |
           python -m scripts.run
 
       - name: Commit and push new snapshots
+        # Preserve snapshots from successful providers if another provider fails.
+        if: ${{ always() && steps.scrape.outcome != 'skipped' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
