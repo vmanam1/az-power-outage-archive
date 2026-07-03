@@ -60,6 +60,8 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Archive outage snapshot $(date -u '+%Y-%m-%d %H:%M UTC')"
+            utc_time="$(date -u '+%Y-%m-%d %H:%M UTC')"
+            mst_time="$(TZ=America/Phoenix date '+%Y-%m-%d %H:%M MST')"
+            git commit -m "Archive outage snapshot ${utc_time} / ${mst_time}"
             git push
           fi
