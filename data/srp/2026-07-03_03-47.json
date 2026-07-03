@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-03 03:47:32 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1426
+    },
+    "outages": [
+        {
+            "latitude": 33.4490634365813,
+            "longitude": -111.84566053661,
+            "boundary": "N LONGMORE RD TO N CENTER ST AND E MCDOWELL RD TO W BROWN RD",
+            "customers": 1426,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-03 02:42 MST",
+            "etr": "2026-07-03 05:04 MST"
+        }
+    ]
+}
