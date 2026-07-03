@@ -62,6 +62,16 @@ class SSVECProviderTests(unittest.TestCase):
         self.assertEqual(result["summary"]["outage_count"], 0)
         self.assertEqual(result["summary"]["customers_affected"], 0)
 
+    def test_malformed_customer_count_is_not_treated_as_zero(self):
+        payload = {
+            "features": [{
+                "attributes": {"INCIDENT_ID": 1, "CUSTOMER_COUNT": "unknown"},
+                "geometry": None,
+            }]
+        }
+        with self.assertRaisesRegex(ValueError, "valid customer count"):
+            SSVECProvider().parse_data(payload)
+
     @patch("providers.ssvec.requests.get")
     def test_arcgis_error_is_reported(self, get):
         response = Mock()

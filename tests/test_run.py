@@ -3,6 +3,11 @@ from unittest.mock import patch
 
 from scripts.run import run_providers
 
+VALID_SNAPSHOT = {
+    "summary": {"outage_count": 0, "customers_affected": 0},
+    "outages": [],
+}
+
 
 class FakeProvider:
     def __init__(self, name, result=None, error=None):
@@ -25,22 +30,22 @@ class RunProvidersTests(unittest.TestCase):
     @patch("scripts.run.save_snapshot")
     def test_failure_does_not_block_later_providers(self, save_snapshot):
         failed = FakeProvider("failed", error=RuntimeError("unavailable"))
-        successful = FakeProvider("successful", result={"ok": True})
+        successful = FakeProvider("successful", result=VALID_SNAPSHOT)
         save_snapshot.return_value = (True, "snapshot.json")
 
         with self.assertRaisesRegex(RuntimeError, "Providers failed: failed"):
             run_providers([failed, successful])
 
         self.assertTrue(successful.validated)
-        save_snapshot.assert_called_once_with("successful", {"ok": True})
+        save_snapshot.assert_called_once_with("successful", VALID_SNAPSHOT)
 
     @patch("scripts.run.save_snapshot", return_value=(False, "latest.json"))
     def test_successful_run_does_not_raise(self, save_snapshot):
-        provider = FakeProvider("working", result={"ok": True})
+        provider = FakeProvider("working", result=VALID_SNAPSHOT)
 
         run_providers([provider])
 
-        save_snapshot.assert_called_once_with("working", {"ok": True})
+        save_snapshot.assert_called_once_with("working", VALID_SNAPSHOT)
 
 
 if __name__ == "__main__":

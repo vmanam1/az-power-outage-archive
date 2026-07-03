@@ -40,13 +40,15 @@ class APSProvider(BaseProvider):
 
                 if not isinstance(feature, dict):
                     raise ValueError("APS feature must be an object")
-                attr = feature.get("attributes") or {}
-                geometry = feature.get("geometry") or {}
+                attr = feature.get("attributes")
+                geometry = feature.get("geometry")
 
                 if not isinstance(attr, dict) or not isinstance(geometry, dict):
                     raise ValueError("APS feature has malformed attributes or geometry")
 
-                customers = int(attr.get("customers") or 0)
+                customers = self.parse_customer_count(
+                    attr.get("customers"), "customers"
+                )
                 customers_affected += customers
 
                 outages.append({

@@ -58,11 +58,12 @@ class SRPProvider(BaseProvider):
                 raise RuntimeError("Failed to fetch SRP data: outage must be an object")
 
             try:
-                customers = int(outage.get("numberCustomersAffected") or 0)
-            except (TypeError, ValueError) as exc:
-                raise RuntimeError(
-                    "Failed to fetch SRP data: invalid customer count"
-                ) from exc
+                customers = self.parse_customer_count(
+                    outage.get("numberCustomersAffected"),
+                    "numberCustomersAffected",
+                )
+            except ValueError as exc:
+                raise RuntimeError(f"Failed to fetch SRP data: {exc}") from exc
             comments = outage.get("outageProblem")
             total_customers += customers
 

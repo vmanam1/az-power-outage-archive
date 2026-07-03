@@ -47,7 +47,9 @@ class SSVECProvider(BaseProvider):
                 raise ValueError(
                     "SSVEC feature has malformed attributes or geometry"
                 )
-            customers = int(attributes.get("CUSTOMER_COUNT") or 0)
+            customers = self.parse_customer_count(
+                attributes.get("CUSTOMER_COUNT"), "CUSTOMER_COUNT"
+            )
             customers_affected += customers
 
             outages.append({

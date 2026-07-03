@@ -17,6 +17,13 @@ def run_providers(providers):
         try:
             data = provider.fetch_data()
             provider.validate_snapshot(data)
+            summary = data["summary"]
+            logger.info(
+                "%s quality check passed: %s outages, %s customers affected",
+                provider.name,
+                summary["outage_count"],
+                summary["customers_affected"],
+            )
             saved, path = save_snapshot(provider.name, data)
         except Exception:
             logger.exception(f"Failed to archive {provider.name}")

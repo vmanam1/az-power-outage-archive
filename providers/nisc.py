@@ -100,11 +100,16 @@ class NISCOutageProvider(BaseProvider):
                 raise ValueError(f"{self.name}: outage card is missing coordinates")
 
             fields, status = self._parse_card(record.get("text") or "")
-            customers = self._to_int(
+            customer_text = (
                 fields.get("number out")
                 or fields.get("customers affected")
                 or fields.get("customers out")
             )
+            if not customer_text or not re.search(r"\d", customer_text):
+                raise ValueError(
+                    f"{self.name}: outage card is missing a customer count"
+                )
+            customers = self._to_int(customer_text)
             customers_affected += customers
             latitude, longitude = self._web_mercator_to_wgs84(
                 record.get("x"), record.get("y")

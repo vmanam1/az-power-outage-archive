@@ -16,6 +16,9 @@ An automated archival system that periodically collects and stores public power 
 - Timestamped JSON archives
 - Standardized data format across providers
 - Scheduled execution using GitHub Actions
+- Automated tests on every push and pull request
+- Source and snapshot data-quality validation
+- GitHub issue alerts for scraper failures and recoveries
 - Historical outage snapshots for long-term analysis
 
 ---
@@ -84,7 +87,8 @@ az-power-outage-archive/
 - Provider websites and response formats are controlled by the utilities and may change without notice.
 - Temporary HTTP and browser failures are retried up to three times with exponential backoff.
 - Each provider is isolated so successful snapshots are preserved when another provider fails.
-- Snapshot schemas and summary totals are validated before files are written.
+- Snapshot metadata, timestamps, coordinates, customer counts, identifiers, and summary totals are validated before files are written.
+- Malformed source counts are rejected rather than silently converted to zero. Structurally valid empty utility feeds remain valid zero-outage snapshots.
 - The archive is historical reference data, not an emergency notification service. Always confirm current conditions on the utility's website.
 
 ---
@@ -173,7 +177,25 @@ python -m unittest discover -s tests -v
 
 ## Automation
 
-The project uses GitHub Actions to automatically execute the scraper on a scheduled interval and archive new outage snapshots.
+The project uses two GitHub Actions workflows:
+
+- `scrape.yml` runs the scraper hourly at minute 7 and can also be started manually. Successful provider snapshots are committed even if another provider fails.
+- `test.yml` runs the complete unit test suite on every push and pull request.
+
+The scraper job has a 15-minute timeout. If a run fails, the workflow opens an `Outage archive workflow failure` issue or adds the failed run to the existing open alert. The next successful run comments with the recovery run and closes that issue automatically. This requires the workflow's scoped `issues: write` permission.
+
+### Data-quality checks
+
+Before a snapshot is archived, the collector verifies:
+
+- Provider identity and Arizona MST timestamp metadata
+- Non-negative outage and customer totals
+- Agreement between summary totals and outage records
+- Valid, complete coordinate pairs and record identifiers
+- Valid MST timestamps for outage lifecycle fields
+- Required provider customer counts without malformed-to-zero coercion
+
+A provider that fails validation is reported as failed, while other providers continue and preserve their successful snapshots.
 
 ---
 

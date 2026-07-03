@@ -42,9 +42,9 @@ class ED3Provider(BaseProvider):
         customers_affected = 0
 
         for outage in self._children(root, "MobileOutage"):
-            if self._text(outage, "CutomersAffected") is None:
-                raise ValueError("ED3 outage is missing CutomersAffected")
-            customers = self._to_int(self._text(outage, "CutomersAffected"))
+            customers = self.parse_customer_count(
+                self._text(outage, "CutomersAffected"), "CutomersAffected"
+            )
             customers_affected += customers
             latitude, longitude = self._coordinates(
                 self._to_float(self._text(outage, "X")),
@@ -67,7 +67,9 @@ class ED3Provider(BaseProvider):
             "summary": {
                 "outage_count": len(outages),
                 "customers_affected": customers_affected,
-                "total_customers": self._to_int(self._text(root, "TotalCustomers")),
+                "total_customers": self.parse_customer_count(
+                    self._text(root, "TotalCustomers"), "TotalCustomers"
+                ),
             },
             "outages": outages,
         })
@@ -82,13 +84,6 @@ class ED3Provider(BaseProvider):
         if not elements or not elements[0].text:
             return None
         return elements[0].text.strip() or None
-
-    @staticmethod
-    def _to_int(value):
-        try:
-            return int(str(value).replace(",", ""))
-        except (TypeError, ValueError):
-            return 0
 
     @staticmethod
     def _to_float(value):

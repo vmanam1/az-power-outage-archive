@@ -1,5 +1,6 @@
 import unittest
 from unittest.mock import Mock, patch
+from xml.etree import ElementTree
 
 from providers.ed3 import ED3Provider
 
@@ -44,6 +45,14 @@ class ED3ProviderTests(unittest.TestCase):
         self.assertEqual(outage["longitude"], -111.95)
         self.assertEqual(outage["start_time"], "2026-07-02 15:15:00 MST")
         self.assertEqual(outage["etr"], "2026-07-02 17:00:00 MST")
+
+    def test_malformed_customer_count_is_not_treated_as_zero(self):
+        malformed = SAMPLE_XML.replace(
+            b"<CutomersAffected>12</CutomersAffected>",
+            b"<CutomersAffected>unknown</CutomersAffected>",
+        )
+        with self.assertRaisesRegex(ValueError, "valid customer count"):
+            ED3Provider().parse_xml(ElementTree.fromstring(malformed))
 
 
 if __name__ == "__main__":
