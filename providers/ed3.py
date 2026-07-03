@@ -6,6 +6,7 @@ import requests
 
 from providers.base import BaseProvider
 from scripts.config import REQUEST_TIMEOUT
+from scripts.http import request_with_retries
 from scripts.utils import ARIZONA_TZ
 
 
@@ -20,11 +21,19 @@ class ED3Provider(BaseProvider):
 
     def fetch_data(self):
         try:
-            response = requests.get(self.API_URL, timeout=REQUEST_TIMEOUT)
-            response.raise_for_status()
+            response = request_with_retries(
+                requests.get,
+                self.API_URL,
+                timeout=REQUEST_TIMEOUT,
+            )
             root = ElementTree.fromstring(response.content)
         except (requests.RequestException, ElementTree.ParseError) as exc:
             raise RuntimeError(f"Failed to fetch ED3 data: {exc}") from exc
+
+        if root.tag.rsplit("}", 1)[-1] != "MobileOutageInfo":
+            raise RuntimeError("ED3 response has an unexpected root element")
+        if not self._children(root, "Outages"):
+            raise RuntimeError("ED3 response is missing the Outages element")
 
         return self.parse_xml(root)
 
@@ -33,6 +42,8 @@ class ED3Provider(BaseProvider):
         customers_affected = 0
 
         for outage in self._children(root, "MobileOutage"):
+            if self._text(outage, "CutomersAffected") is None:
+                raise ValueError("ED3 outage is missing CutomersAffected")
             customers = self._to_int(self._text(outage, "CutomersAffected"))
             customers_affected += customers
             latitude, longitude = self._coordinates(
@@ -51,7 +62,7 @@ class ED3Provider(BaseProvider):
                 "pole_number": self._text(outage, "PoleNumber"),
             })
 
-        return {
+        return self.validate_snapshot({
             "metadata": self.build_metadata(),
             "summary": {
                 "outage_count": len(outages),
@@ -59,7 +70,7 @@ class ED3Provider(BaseProvider):
                 "total_customers": self._to_int(self._text(root, "TotalCustomers")),
             },
             "outages": outages,
-        }
+        })
 
     @staticmethod
     def _children(root, name):

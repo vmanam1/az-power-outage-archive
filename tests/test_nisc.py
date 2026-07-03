@@ -2,6 +2,8 @@ import unittest
 from datetime import datetime
 from unittest.mock import patch
 
+from selenium.common.exceptions import WebDriverException
+
 from providers.mohave import MohaveProvider
 from providers.navopache import NavopacheProvider
 from providers.trico import TricoProvider
@@ -42,6 +44,20 @@ class NISCProviderTests(unittest.TestCase):
         result = MohaveProvider().parse_records([])
         self.assertEqual(result["summary"]["outage_count"], 0)
         self.assertEqual(result["summary"]["customers_affected"], 0)
+
+    @patch("providers.nisc.time.sleep")
+    @patch.object(TricoProvider, "scrape_records")
+    def test_retries_browser_failure(self, scrape_records, sleep):
+        scrape_records.side_effect = [
+            WebDriverException("temporary"),
+            SAMPLE_RECORDS,
+        ]
+
+        result = TricoProvider().fetch_data()
+
+        self.assertEqual(result["summary"]["outage_count"], 1)
+        self.assertEqual(scrape_records.call_count, 2)
+        sleep.assert_called_once_with(1)
 
     def test_utility_urls_are_distinct(self):
         self.assertIn("trico.org", TricoProvider.MAP_URL)

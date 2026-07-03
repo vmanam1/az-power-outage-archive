@@ -2,6 +2,8 @@ import requests
 from datetime import datetime
 
 from providers.base import BaseProvider
+from scripts.config import REQUEST_TIMEOUT
+from scripts.http import request_with_retries
 from scripts.utils import ARIZONA_TZ
 
 
@@ -34,19 +36,33 @@ class SRPProvider(BaseProvider):
         return "SRP Outage API"
 
     def fetch_data(self):
+        try:
+            response = request_with_retries(
+                requests.get,
+                self.API_URL,
+                timeout=REQUEST_TIMEOUT,
+            )
+            outages = response.json()
+        except (requests.RequestException, ValueError) as exc:
+            raise RuntimeError(f"Failed to fetch SRP data: {exc}") from exc
 
-        response = requests.get(self.API_URL, timeout=30)
-        response.raise_for_status()
-
-        outages = response.json()
+        if not isinstance(outages, list):
+            raise RuntimeError("Failed to fetch SRP data: response must be a list")
 
         formatted = []
 
         total_customers = 0
 
         for outage in outages:
+            if not isinstance(outage, dict):
+                raise RuntimeError("Failed to fetch SRP data: outage must be an object")
 
-            customers = outage.get("numberCustomersAffected", 0)
+            try:
+                customers = int(outage.get("numberCustomersAffected") or 0)
+            except (TypeError, ValueError) as exc:
+                raise RuntimeError(
+                    "Failed to fetch SRP data: invalid customer count"
+                ) from exc
             comments = outage.get("outageProblem")
             total_customers += customers
 
@@ -65,14 +81,14 @@ class SRPProvider(BaseProvider):
                 )
             })
 
-        return {
+        return self.validate_snapshot({
             "metadata": self.build_metadata(),
             "summary": {
                 "outage_count": len(formatted),
                 "customers_affected": total_customers
             },
             "outages": formatted
-        }
+        })
 
     @staticmethod
     def format_time(value):

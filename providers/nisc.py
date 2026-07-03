@@ -1,5 +1,6 @@
 import math
 import re
+import time
 from datetime import datetime
 
 from selenium import webdriver
@@ -19,12 +20,16 @@ class NISCOutageProvider(BaseProvider):
         return f"{self.name.upper()} NISC Outage Web Map"
 
     def fetch_data(self):
-        try:
-            records = self.scrape_records()
-        except WebDriverException as exc:
-            raise RuntimeError(
-                f"Failed to fetch {self.name.upper()} outage data: {exc}"
-            ) from exc
+        for attempt in range(3):
+            try:
+                records = self.scrape_records()
+                break
+            except WebDriverException as exc:
+                if attempt == 2:
+                    raise RuntimeError(
+                        f"Failed to fetch {self.name.upper()} outage data: {exc}"
+                    ) from exc
+                time.sleep(2 ** attempt)
 
         return self.parse_records(records)
 
@@ -78,10 +83,22 @@ class NISCOutageProvider(BaseProvider):
             driver.quit()
 
     def parse_records(self, records):
+        if not isinstance(records, list):
+            raise ValueError(f"{self.name}: browser records must be a list")
+
         outages = []
         customers_affected = 0
 
         for record in records:
+            if not isinstance(record, dict):
+                raise ValueError(f"{self.name}: browser record must be an object")
+            if not isinstance(record.get("text"), str) or not record["text"].strip():
+                raise ValueError(f"{self.name}: outage card is missing text")
+            if not isinstance(record.get("x"), (int, float)) or not isinstance(
+                record.get("y"), (int, float)
+            ):
+                raise ValueError(f"{self.name}: outage card is missing coordinates")
+
             fields, status = self._parse_card(record.get("text") or "")
             customers = self._to_int(
                 fields.get("number out")
@@ -109,14 +126,14 @@ class NISCOutageProvider(BaseProvider):
                 ),
             })
 
-        return {
+        return self.validate_snapshot({
             "metadata": self.build_metadata(),
             "summary": {
                 "outage_count": len(outages),
                 "customers_affected": customers_affected,
             },
             "outages": outages,
-        }
+        })
 
     @staticmethod
     def _parse_card(text):

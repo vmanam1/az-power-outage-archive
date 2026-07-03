@@ -82,6 +82,9 @@ az-power-outage-archive/
 - Trico, Mohave, and Navopache use NISC browser-based maps. Their collectors require Google Chrome and Selenium.
 - ED3 provides an XML feed; APS and SSVEC provide ArcGIS feature layers; SRP provides JSON.
 - Provider websites and response formats are controlled by the utilities and may change without notice.
+- Temporary HTTP and browser failures are retried up to three times with exponential backoff.
+- Each provider is isolated so successful snapshots are preserved when another provider fails.
+- Snapshot schemas and summary totals are validated before files are written.
 - The archive is historical reference data, not an emergency notification service. Always confirm current conditions on the utility's website.
 
 ---

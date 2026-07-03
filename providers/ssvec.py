@@ -2,6 +2,7 @@ import requests
 
 from providers.base import BaseProvider
 from scripts.config import REQUEST_TIMEOUT, SSVEC_PARAMS, SSVEC_URL
+from scripts.http import request_with_retries
 from scripts.utils import format_epoch
 
 
@@ -14,18 +15,22 @@ class SSVECProvider(BaseProvider):
 
     def fetch_data(self):
         try:
-            response = requests.get(
+            response = request_with_retries(
+                requests.get,
                 SSVEC_URL,
                 params=SSVEC_PARAMS,
                 timeout=REQUEST_TIMEOUT,
             )
-            response.raise_for_status()
             payload = response.json()
         except (requests.RequestException, ValueError) as exc:
             raise RuntimeError(f"Failed to fetch SSVEC data: {exc}") from exc
 
+        if not isinstance(payload, dict):
+            raise RuntimeError("SSVEC response must be an object")
         if payload.get("error"):
             raise RuntimeError(f"SSVEC API returned an error: {payload['error']}")
+        if not isinstance(payload.get("features"), list):
+            raise RuntimeError("SSVEC response is missing a features list")
 
         return self.parse_data(payload)
 
@@ -33,10 +38,16 @@ class SSVECProvider(BaseProvider):
         outages = []
         customers_affected = 0
 
-        for feature in payload.get("features") or []:
+        for feature in payload["features"]:
+            if not isinstance(feature, dict):
+                raise ValueError("SSVEC feature must be an object")
             attributes = feature.get("attributes") or {}
             geometry = feature.get("geometry") or {}
-            customers = attributes.get("CUSTOMER_COUNT") or 0
+            if not isinstance(attributes, dict) or not isinstance(geometry, dict):
+                raise ValueError(
+                    "SSVEC feature has malformed attributes or geometry"
+                )
+            customers = int(attributes.get("CUSTOMER_COUNT") or 0)
             customers_affected += customers
 
             outages.append({
@@ -52,11 +63,11 @@ class SSVECProvider(BaseProvider):
                 "restored_time": format_epoch(attributes.get("TIME_RESTORED")),
             })
 
-        return {
+        return self.validate_snapshot({
             "metadata": self.build_metadata(),
             "summary": {
                 "outage_count": len(outages),
                 "customers_affected": customers_affected,
             },
             "outages": outages,
-        }
+        })
