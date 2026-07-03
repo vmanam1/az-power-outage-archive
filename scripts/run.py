@@ -2,12 +2,22 @@ from providers.aps import APSProvider
 from scripts.archive import save_snapshot
 from scripts.logger import logger
 from providers.srp import SRPProvider
+from providers.ssvec import SSVECProvider
+from providers.ed3 import ED3Provider
+from providers.mohave import MohaveProvider
+from providers.navopache import NavopacheProvider
+from providers.trico import TricoProvider
 
 def main():
 
     providers = [
         APSProvider(),
         SRPProvider(),
+        SSVECProvider(),
+        TricoProvider(),
+        ED3Provider(),
+        MohaveProvider(),
+        NavopacheProvider(),
     ]
 
     for provider in providers:

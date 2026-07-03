@@ -1,0 +1,41 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-02 16:57:13 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 32.42050980246394,
+            "longitude": -111.32202205506456,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-04-23 07:22:00 MST",
+            "etr": null
+        },
+        {
+            "latitude": 32.424528543392384,
+            "longitude": -111.16319231150229,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-06-25 08:22:00 MST",
+            "etr": null
+        },
+        {
+            "latitude": 32.455857108391875,
+            "longitude": -111.34087438593733,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-06-24 08:30:00 MST",
+            "etr": "2026-06-24 11:30:00 MST"
+        }
+    ]
+}
