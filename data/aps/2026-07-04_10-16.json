@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-04 10:16:18 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 34.89745442475504,
+            "longitude": -112.47589009863277,
+            "city": "Paulden",
+            "boundary": "Arrowhead Dr. to Venice Way and Naples St. to Kyoto Ave.",
+            "customers": 23,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-04 03:04:00 MST",
+            "etr": "2026-07-04 06:25:00 MST"
+        }
+    ]
+}
