@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-04 08:16:57 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 153
+    },
+    "outages": [
+        {
+            "latitude": 33.43791160577769,
+            "longitude": -110.80892428718644,
+            "city": "Globe",
+            "boundary": "Jack Rabbit Flats Rd to Rock Ridge Trail and Orient Dr to Silverhill Rd",
+            "customers": 22,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-03 21:23:00 MST",
+            "etr": "2026-07-04 02:00:00 MST"
+        },
+        {
+            "latitude": 33.654765766369835,
+            "longitude": -112.29542796970237,
+            "city": "Sun City",
+            "boundary": "West Cimarron Dr to West Union Hills Dr and North 111th Ave to North 107th Ave",
+            "customers": 131,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-04 01:12:00 MST",
+            "etr": "2026-07-04 03:00:00 MST"
+        }
+    ]
+}
