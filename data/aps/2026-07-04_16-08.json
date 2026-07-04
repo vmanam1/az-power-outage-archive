@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-04 16:08:27 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 288
+    },
+    "outages": [
+        {
+            "latitude": 34.22027054778307,
+            "longitude": -112.75191400766286,
+            "city": "Yarnell",
+            "boundary": "Date Creek Rd. to Stanton Rd. and Cotton Creek to Broadway",
+            "customers": 288,
+            "cause": "Fire",
+            "comments": "A fire in the area damaged electrical equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-04 07:48:00 MST",
+            "etr": "2026-07-04 13:15:00 MST"
+        }
+    ]
+}
