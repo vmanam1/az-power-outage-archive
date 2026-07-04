@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-03 20:56:07 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1390
+    },
+    "outages": [
+        {
+            "latitude": 33.356144419195104,
+            "longitude": -111.919862419785,
+            "boundary": "S MILL AVE TO S COUNTRY CLUB WAY AND E BASELINE RD TO E CARVER RD",
+            "customers": 1065,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-03 18:09 MST",
+            "etr": "2026-07-03 20:11 MST"
+        },
+        {
+            "latitude": 33.4038492739072,
+            "longitude": -111.6730370411415,
+            "boundary": "S REVOLTA CIR TO S 76TH ST AND E MAIN ST TO E SOUTHERN AVE",
+            "customers": 263,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-03 18:49 MST",
+            "etr": "2026-07-03 20:58 MST"
+        },
+        {
+            "latitude": 33.424245960094055,
+            "longitude": -111.86940903506999,
+            "boundary": "N DOBSON RD TO N LONGMORE AND W RIO SALADO PKWY TO W UNIVERSITY DR",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-03 19:29 MST",
+            "etr": "2026-07-04 03:15 MST"
+        },
+        {
+            "latitude": 33.46684575249275,
+            "longitude": -111.97027402136601,
+            "boundary": "N 48TH ST TO N 56TH ST AND E OAK ST TO E ROOSEVELT ST",
+            "customers": 53,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-03 19:55 MST",
+            "etr": "2026-07-03 21:55 MST"
+        }
+    ]
+}

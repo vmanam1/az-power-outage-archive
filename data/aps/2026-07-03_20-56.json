@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-03 20:56:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 33.58517656493182,
+            "longitude": -112.22534282608194,
+            "city": "Peoria",
+            "boundary": "Desert Cove Ave to Mercer Ln and 79th Ave to 77th Ave",
+            "customers": 42,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-03 12:51:00 MST",
+            "etr": "2026-07-04 15:45:00 MST"
+        }
+    ]
+}
