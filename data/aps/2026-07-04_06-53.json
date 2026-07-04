@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-04 06:53:35 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 183
+    },
+    "outages": [
+        {
+            "latitude": 33.43791160577769,
+            "longitude": -110.80892428718644,
+            "city": "Globe",
+            "boundary": "Jack Rabbit Flats Rd to Rock Ridge Trail and Orient Dr to Silverhill Rd",
+            "customers": 22,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-03 21:23:00 MST",
+            "etr": "2026-07-04 01:30:00 MST"
+        },
+        {
+            "latitude": 33.64551601002818,
+            "longitude": -112.17930881116254,
+            "city": "Glendale",
+            "boundary": "Grovers Ave to Angela Dr and 56th Ave to 55th Ave",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-03 21:57:00 MST",
+            "etr": "2026-07-04 02:00:00 MST"
+        },
+        {
+            "latitude": 33.65274595077242,
+            "longitude": -112.29241289482549,
+            "city": "Sun City",
+            "boundary": "West Cimarron Dr to West Union Hills Dr and North 111th Ave to North 107th Ave",
+            "customers": 131,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-03 23:43:00 MST",
+            "etr": "2026-07-04 03:00:00 MST"
+        }
+    ]
+}
