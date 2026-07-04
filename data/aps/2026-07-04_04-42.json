@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-04 04:42:01 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 33.43791160577769,
+            "longitude": -110.80892428718644,
+            "city": "Globe",
+            "boundary": "Jack Rabbit Flats Rd to Rock Ridge Trail and Orient Dr to Silverhill Rd",
+            "customers": 22,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-03 21:23:00 MST",
+            "etr": "2026-07-04 01:30:00 MST"
+        }
+    ]
+}
