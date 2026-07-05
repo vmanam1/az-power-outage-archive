@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-05 12:38:57 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 60
+    },
+    "outages": [
+        {
+            "latitude": 33.50305987782668,
+            "longitude": -112.05824933537829,
+            "city": "Phoenix",
+            "boundary": "East Meadowbrook Ave to East Campbell Ave and North 11th St to North 12th St",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-05 01:21:00 MST",
+            "etr": "2026-07-05 06:30:00 MST"
+        },
+        {
+            "latitude": 33.42389995620994,
+            "longitude": -110.81486767585349,
+            "city": "Globe",
+            "boundary": "Chaparral Loop to Sotol Loop and Picacho St",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-05 02:24:00 MST",
+            "etr": "2026-07-05 06:30:00 MST"
+        },
+        {
+            "latitude": 35.81916013697969,
+            "longitude": -110.31211601573376,
+            "city": "Polacca",
+            "boundary": "Hopi Jr/Sr Highschool",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-05 04:20:00 MST",
+            "etr": "2026-07-05 07:45:00 MST"
+        },
+        {
+            "latitude": 33.548448366232996,
+            "longitude": -112.45308894241194,
+            "city": "Waddell",
+            "boundary": "Northern Ave. and 183rd Ave.",
+            "customers": 37,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-05 04:48:00 MST",
+            "etr": "2026-07-05 07:35:00 MST"
+        }
+    ]
+}
