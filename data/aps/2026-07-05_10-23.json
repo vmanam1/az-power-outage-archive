@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-05 10:23:03 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 55
+    },
+    "outages": [
+        {
+            "latitude": 33.649253924137646,
+            "longitude": -112.16448475036024,
+            "city": "Glendale",
+            "boundary": "Villa Rita Dr. to Libby St. and 49th Dr. to 48th Ave.",
+            "customers": 12,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-04 23:45:00 MST",
+            "etr": "2026-07-05 03:55:00 MST"
+        },
+        {
+            "latitude": 33.43657677422642,
+            "longitude": -110.73850536104749,
+            "city": "Globe",
+            "boundary": "Carlos Wy. to Globe-Show Low Hwy. and San Carlos Dr.",
+            "customers": 9,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-04 23:48:00 MST",
+            "etr": "2026-07-05 03:45:00 MST"
+        },
+        {
+            "latitude": 33.50305987782668,
+            "longitude": -112.05824933537829,
+            "city": "Phoenix",
+            "boundary": "East Meadowbrook Ave to East Campbell Ave and North 11th St to North 12th St",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-05 01:21:00 MST",
+            "etr": "2026-07-05 04:15:00 MST"
+        },
+        {
+            "latitude": 33.42389995620994,
+            "longitude": -110.81486767585349,
+            "city": "Globe",
+            "boundary": "Chaparral Loop to Sotol Loop and Picacho St",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-05 02:24:00 MST",
+            "etr": "2026-07-05 05:30:00 MST"
+        },
+        {
+            "latitude": 34.73130958889271,
+            "longitude": -112.43347436023554,
+            "city": "Chino Valley",
+            "boundary": "Road 2 South and Willow Ln.",
+            "customers": 17,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-05 02:55:00 MST",
+            "etr": "2026-07-05 06:15:00 MST"
+        }
+    ]
+}
