@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-05 04:09:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 34.564186918247536,
+            "longitude": -111.87212902210385,
+            "city": "Camp Verde",
+            "boundary": "Finnie flat Rd. to Groseta Dr. and General Crook Trl. to Deep George Rd.",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-04 18:58:00 MST",
+            "etr": "2026-07-04 22:30:00 MST"
+        }
+    ]
+}
