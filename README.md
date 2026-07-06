@@ -8,6 +8,8 @@ An automated archival system that periodically collects and stores public power 
 - Supports multiple utility providers
   - APS (Arizona Public Service)
   - SRP (Salt River Project)
+  - TEP (Tucson Electric Power)
+  - UES (UniSource Energy Services)
   - SSVEC (Sulphur Springs Valley Electric Cooperative)
   - Trico Electric Cooperative
   - Electrical District No. 3 (ED3)
@@ -35,6 +37,8 @@ az-power-outage-archive/
 ├── providers/
 │   ├── aps.py
 │   ├── srp.py
+│   ├── tep.py
+│   ├── ues.py
 │   ├── ssvec.py
 │   ├── nisc.py
 │   ├── trico.py
@@ -54,6 +58,8 @@ az-power-outage-archive/
 ├── data/
 │   ├── aps/
 │   ├── srp/
+│   ├── tep/
+│   ├── ues/
 │   ├── ssvec/
 │   ├── trico/
 │   ├── ed3/
@@ -72,6 +78,8 @@ az-power-outage-archive/
 |----------|-----------------------|-------------------|
 | APS (Arizona Public Service) | [APS Outage Center](https://www.aps.com/en/Utility/Outage/Outage-Center) | ArcGIS REST API |
 | SRP (Salt River Project) | [SRP Outages and Storm Safety](https://www.srpnet.com/customer-service/safety/outages-storm) | Public outage API |
+| TEP (Tucson Electric Power) | [TEP Outages](https://www.tep.com/outages/) | Public outage API |
+| UES (UniSource Energy Services) | [UES Electric Outage Map](https://www.uesaz.com/electric-outage-map/) | Public outage API |
 | SSVEC (Sulphur Springs Valley Electric Cooperative) | [SSVEC Outage Center](https://www.ssvec.org/outage/) | ArcGIS REST API |
 | Trico Electric Cooperative | [Trico Outage Map](https://ebill.trico.org/maps/Trico_External/OutageWebMap/) | NISC public map |
 | Electrical District No. 3 (ED3) | [ED3 Outage Map](https://ww3.ed3online.org/OMSWebMap/OMSWebMap.htm) | Public XML outage service |
@@ -83,7 +91,7 @@ az-power-outage-archive/
 - Snapshot timestamps and outage times are normalized to Arizona time (`MST`, UTC-7).
 - Utilities may suppress small outages, delay updates, or omit fields for safety and privacy reasons.
 - Trico, Mohave, and Navopache use NISC browser-based maps. Their collectors require Google Chrome and Selenium.
-- ED3 provides an XML feed; APS and SSVEC provide ArcGIS feature layers; SRP provides JSON.
+- ED3 provides an XML feed; APS and SSVEC provide ArcGIS feature layers; SRP provides JSON; TEP and UES provide JSON via a map feed API.
 - Provider websites and response formats are controlled by the utilities and may change without notice.
 - Temporary HTTP and browser failures are retried up to three times with exponential backoff.
 - Each provider is isolated so successful snapshots are preserved when another provider fails.
@@ -207,6 +215,8 @@ Archived outage snapshots are stored under
 data/
 ├── aps/
 ├── srp/
+├── tep/
+├── ues/
 ├── ssvec/
 ├── trico/
 ├── ed3/

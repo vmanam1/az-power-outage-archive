@@ -7,6 +7,8 @@ from providers.ed3 import ED3Provider
 from providers.mohave import MohaveProvider
 from providers.navopache import NavopacheProvider
 from providers.trico import TricoProvider
+from providers.tep import TEPProvider
+from providers.ues import UESProvider
 
 def run_providers(providers):
     failures = []
@@ -43,6 +45,8 @@ def main():
     providers = [
         APSProvider(),
         SRPProvider(),
+        TEPProvider(),
+        UESProvider(),
         SSVECProvider(),
         TricoProvider(),
         ED3Provider(),
