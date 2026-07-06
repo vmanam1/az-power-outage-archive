@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-06 06:57:48 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 431
+    },
+    "outages": [
+        {
+            "latitude": 33.491453829364595,
+            "longitude": -112.13393724627298,
+            "city": "Phoenix",
+            "boundary": "Indian School Rd. to Thomas Rd. and 35th Ave. to 31st Ave.",
+            "customers": 122,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-07-05 16:12:00 MST",
+            "etr": "2026-07-06 02:00:00 MST"
+        },
+        {
+            "latitude": 33.44061016830563,
+            "longitude": -112.56468611116895,
+            "city": "Buckeye",
+            "boundary": "Twilight Tl to Hadley St and 239th Ln to 238th Ln",
+            "customers": 6,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-07-05 19:45:00 MST",
+            "etr": "2026-07-06 01:00:00 MST"
+        },
+        {
+            "latitude": 32.60336866533796,
+            "longitude": -110.63730530237203,
+            "city": "San Manuel",
+            "boundary": "West 5th Ave to West 3rd Ave and North Nichols Ave to West Main St",
+            "customers": 303,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-05 22:54:00 MST",
+            "etr": "2026-07-06 02:20:00 MST"
+        }
+    ]
+}
