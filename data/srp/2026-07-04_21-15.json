@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-04 21:15:52 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.4157403879199,
+            "longitude": -111.58008478035,
+            "boundary": "N MOUNTAIN RD TO N DELAWARE DR AND W SUPERSTITION BLVD TO W BROADWAY AVE",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-04 12:58 MST",
+            "etr": "2026-07-04 23:08 MST"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-07-05 01:09:52 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "incident_id": 17687,
+            "latitude": 31.696529796786315,
+            "longitude": -110.3683805659107,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-04 22:54:24 MST",
+            "etr": "2026-07-05 01:54:24 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17591,
+            "latitude": 31.61117944380002,
+            "longitude": -109.4770465685657,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Equipment Failure",
+            "comments": "Power Out",
+            "start_time": "2026-06-23 21:15:24 MST",
+            "etr": null,
+            "restored_time": null
+        }
+    ]
+}

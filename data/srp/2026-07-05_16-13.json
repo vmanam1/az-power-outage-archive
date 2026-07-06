@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-05 16:13:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1337
+    },
+    "outages": [
+        {
+            "latitude": 33.4179898707815,
+            "longitude": -111.7184388585695,
+            "boundary": "S 48TH ST TO N 54TH ST AND E UNIVERSITY DR TO E MAIN ST",
+            "customers": 3,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-05 11:04 MST",
+            "etr": "2026-07-05 18:03 MST"
+        },
+        {
+            "latitude": 33.49164812526485,
+            "longitude": -111.9877906077015,
+            "boundary": "N 40TH ST TO N 48TH ST AND E INDIAN SCHOOL RD TO E OSBORN RD",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-05 13:17 MST",
+            "etr": "2026-07-05 18:30 MST"
+        },
+        {
+            "latitude": 33.5141673879568,
+            "longitude": -112.0091326848005,
+            "boundary": "N 32ND ST TO N 36TH ST AND E STANFORD DR TO E CAMELBACK RD",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-05 14:28 MST",
+            "etr": "2026-07-05 16:11 MST"
+        },
+        {
+            "latitude": 33.3632856139839,
+            "longitude": -111.919385610036,
+            "boundary": "S RURAL RD TO S MCCLINTOCK DR AND E BASELINE RD TO E ELLIOT RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-05 09:18 MST",
+            "etr": "2026-07-05 17:00 MST"
+        },
+        {
+            "latitude": 33.3882017421327,
+            "longitude": -111.6765047753215,
+            "boundary": "S POWER RD TO S HAWES RD AND E PUEBLO AVE TO E MADERO AVE",
+            "customers": 1318,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-05 16:00 MST",
+            "etr": "2026-07-05 17:59 MST"
+        }
+    ]
+}

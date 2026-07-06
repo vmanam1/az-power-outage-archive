@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-03 16:15:14 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 53
+    },
+    "outages": [
+        {
+            "latitude": 34.53337779412903,
+            "longitude": -112.2905697000845,
+            "city": "Dewey",
+            "boundary": "Chestnut Hill Rd to Laura Way and Newton Ave to Shelter Rd",
+            "customers": 53,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-03 09:06:00 MST",
+            "etr": "2026-07-03 13:00:00 MST"
+        }
+    ]
+}

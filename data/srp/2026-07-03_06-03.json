@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-03 06:03:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 354
+    },
+    "outages": [
+        {
+            "latitude": 33.443703016111854,
+            "longitude": -111.8436174423545,
+            "boundary": "N ALMA SCHOOL RD TO N CENTER ST AND W MCKELLIPS RD TO W BROWN RD",
+            "customers": 307,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-03 02:42 MST",
+            "etr": "2026-07-03 11:00 MST"
+        },
+        {
+            "latitude": 33.52459021870265,
+            "longitude": -111.91169396007601,
+            "boundary": "N CATTLE TRACK RD TO N GRANITE REEF RD AND E LINCOLN DR TO E JACKRABBIT RD",
+            "customers": 47,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-03 05:31 MST",
+            "etr": "2026-07-03 07:30 MST"
+        }
+    ]
+}

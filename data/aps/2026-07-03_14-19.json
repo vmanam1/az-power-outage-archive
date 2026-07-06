@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-03 14:19:19 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 43
+    },
+    "outages": [
+        {
+            "latitude": 35.21602995221405,
+            "longitude": -111.58946060280216,
+            "city": "Flagstaff",
+            "boundary": "East Industrial Dr to Huntington Dr and South Fanning Dr to East Eagle Mountain Dr",
+            "customers": 33,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-03 02:24:00 MST",
+            "etr": "2026-07-03 07:40:00 MST"
+        },
+        {
+            "latitude": 33.405372840913614,
+            "longitude": -112.67822903622123,
+            "city": "Palo Verde",
+            "boundary": "West Broadway Rd to West Southern Ave and South Johnson Rd to South Palo Verde Rd",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-03 06:12:00 MST",
+            "etr": "2026-07-03 09:45:00 MST"
+        }
+    ]
+}

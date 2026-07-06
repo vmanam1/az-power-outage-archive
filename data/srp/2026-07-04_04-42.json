@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-04 04:42:02 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1106
+    },
+    "outages": [
+        {
+            "latitude": 33.356144419195104,
+            "longitude": -111.919862419785,
+            "boundary": "S MILL AVE TO S COUNTRY CLUB WAY AND E BASELINE RD TO E CARVER RD",
+            "customers": 1065,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-03 18:09 MST",
+            "etr": "2026-07-03 20:11 MST"
+        },
+        {
+            "latitude": 33.1877073107276,
+            "longitude": -111.6415781351555,
+            "boundary": "N WILD HORSE DR TO N ELLSWORTH AVE AND W SKYLINE DR TO W PHILLIPS RD",
+            "customers": 2,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-04 01:13 MST",
+            "etr": "2026-07-04 10:00 MST"
+        },
+        {
+            "latitude": 33.473013177476,
+            "longitude": -110.83956963086149,
+            "boundary": "UNKNOWN TO EASTERN BOUNDS OF SERVICE TERRITORY AND NORTHERN BOUNDS OF SERVICE TERRITORY TO HWY 60",
+            "customers": 13,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-04 04:02 MST",
+            "etr": "2026-07-04 06:01 MST"
+        },
+        {
+            "latitude": 33.6025093993754,
+            "longitude": -112.1987660659165,
+            "boundary": "N 71ST AVE TO N 59TH AVE AND W THUNDERBIRD RD TO W CACTUS RD",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-04 03:06 MST",
+            "etr": "2026-07-04 10:30 MST"
+        },
+        {
+            "latitude": 33.53731133138035,
+            "longitude": -111.990630469837,
+            "boundary": "N 40TH ST TO N SILVER MOUNTAIN RD AND UNKNOWN TO E LINCOLN DR",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-03 21:44 MST",
+            "etr": "2026-07-04 07:00 MST"
+        }
+    ]
+}

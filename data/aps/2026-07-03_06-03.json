@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-03 06:03:27 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 34.50973675369339,
+            "longitude": -110.07988757293565,
+            "city": "Snowflake",
+            "boundary": "North St and 5th West St to 4th West St",
+            "customers": 6,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-02 22:20:00 MST",
+            "etr": "2026-07-03 01:55:00 MST"
+        }
+    ]
+}

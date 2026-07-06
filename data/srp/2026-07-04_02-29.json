@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-04 02:29:22 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1111
+    },
+    "outages": [
+        {
+            "latitude": 33.356144419195104,
+            "longitude": -111.919862419785,
+            "boundary": "S MILL AVE TO S COUNTRY CLUB WAY AND E BASELINE RD TO E CARVER RD",
+            "customers": 1065,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-03 18:09 MST",
+            "etr": "2026-07-03 20:11 MST"
+        },
+        {
+            "latitude": 33.53731133138035,
+            "longitude": -111.990630469837,
+            "boundary": "N 40TH ST TO N SILVER MOUNTAIN RD AND UNKNOWN TO E LINCOLN DR",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-03 21:44 MST",
+            "etr": "2026-07-04 05:00 MST"
+        },
+        {
+            "latitude": 33.19197424657385,
+            "longitude": -111.6382750481095,
+            "boundary": "N WILD HORSE DR TO N VALLEY VIEW RD AND W HUNT HWY TO W PHILLIPS RD",
+            "customers": 39,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-04 01:13 MST",
+            "etr": "2026-07-04 03:17 MST"
+        }
+    ]
+}

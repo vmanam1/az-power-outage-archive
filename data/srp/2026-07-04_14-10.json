@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-04 14:10:49 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1069
+    },
+    "outages": [
+        {
+            "latitude": 33.40875871177745,
+            "longitude": -111.5873869643905,
+            "boundary": "S SIGNAL BUTTE RD TO S MERIDIAN RD AND E APACHE TRL TO E PUEBLO AVE",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-04 13:02 MST",
+            "etr": "2026-07-04 15:00 MST"
+        },
+        {
+            "latitude": 33.417731100787,
+            "longitude": -111.58063388109599,
+            "boundary": "N SIGNAL BUTTE RD TO N IRONWOOD DR AND W TEPEE ST TO W 16TH AVE",
+            "customers": 1062,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-04 12:58 MST",
+            "etr": "2026-07-04 15:08 MST"
+        }
+    ]
+}

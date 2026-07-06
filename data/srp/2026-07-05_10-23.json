@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-05 10:23:03 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.3632856139839,
+            "longitude": -111.919385610036,
+            "boundary": "S RURAL RD TO S MCCLINTOCK DR AND E BASELINE RD TO E ELLIOT RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-05 09:18 MST",
+            "etr": "2026-07-05 15:31 MST"
+        }
+    ]
+}

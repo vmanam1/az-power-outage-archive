@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-05 16:13:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 35.81916013697969,
+            "longitude": -110.31211601573376,
+            "city": "Polacca",
+            "boundary": "Hopi Jr/Sr Highschool",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-05 04:20:00 MST",
+            "etr": "2026-07-05 11:30:00 MST"
+        }
+    ]
+}
