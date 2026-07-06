@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-05 21:23:26 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 39
+    },
+    "outages": [
+        {
+            "latitude": 33.49067195390379,
+            "longitude": -112.40710339878862,
+            "city": "Goodyear",
+            "boundary": "Fairmount Ave to Whitton Ave and 162nd Ln to 161st Ave",
+            "customers": 39,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-05 13:54:00 MST",
+            "etr": "2026-07-06 16:30:00 MST"
+        }
+    ]
+}
