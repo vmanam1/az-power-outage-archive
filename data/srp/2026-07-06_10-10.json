@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-06 10:10:43 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 1370
+    },
+    "outages": [
+        {
+            "latitude": 33.488340234189096,
+            "longitude": -112.135130650534,
+            "boundary": "N 39TH AVE TO GRAND AVE AND GRAND AVE TO W THOMAS RD",
+            "customers": 6,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-05 23:40 MST",
+            "etr": "2026-07-06 11:00 MST"
+        },
+        {
+            "latitude": 33.5213054776299,
+            "longitude": -112.201232115995,
+            "boundary": "N 71ST AVE TO N 63RD AVE AND W BETHANY HOME RD TO W MISSOURI AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-06 06:23 MST",
+            "etr": "2026-07-06 13:27 MST"
+        },
+        {
+            "latitude": 33.4272256157518,
+            "longitude": -111.5775528749475,
+            "boundary": "N MERIDIAN RD TO N DELAWARE DR AND W TEPEE ST TO W SUPERSTITION BLVD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-06 07:28 MST",
+            "etr": "2026-07-06 10:27 MST"
+        },
+        {
+            "latitude": 33.36961624010515,
+            "longitude": -111.5737142034155,
+            "boundary": "S MERIDIAN RD TO S IRONWOOD DR AND W HOUSTON AVE TO W GUADALUPE RD",
+            "customers": 4,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-06 09:48 MST",
+            "etr": "2026-07-06 14:23 MST"
+        },
+        {
+            "latitude": 33.396610347161996,
+            "longitude": -111.67606968717101,
+            "boundary": "S RECKER RD TO S 80TH ST AND E BROADWAY RD TO E BASELINE RD",
+            "customers": 983,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-06 09:27 MST",
+            "etr": "2026-07-06 11:45 MST"
+        },
+        {
+            "latitude": 33.50170922912435,
+            "longitude": -112.190277894346,
+            "boundary": "N 67TH AVE TO N 55TH AVE AND W CAMELBACK RD TO W INDIAN SCHOOL RD",
+            "customers": 31,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-06 07:14 MST",
+            "etr": "2026-07-06 12:00 MST"
+        },
+        {
+            "latitude": 33.50250730967825,
+            "longitude": -111.79896983534249,
+            "boundary": "N EXTENSION RD TO N BEELINE HWY AND E SHEA BLVD TO E MCDOWELL RD",
+            "customers": 339,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-06 10:10 MST",
+            "etr": "2026-07-06 12:09 MST"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-06 10:10:42 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 34.86725528785754,
+            "longitude": -111.79923934894614,
+            "city": "Sedona",
+            "boundary": "Grasshopper Ln to Yavapai Dr and Goodrow Ln",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-06 01:46:00 MST",
+            "etr": "2026-07-06 06:00:00 MST"
+        }
+    ]
+}
