@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-06 02:07:48 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 139
+    },
+    "outages": [
+        {
+            "latitude": 33.411427394890396,
+            "longitude": -111.65095110662949,
+            "boundary": "S 80TH ST TO N 88TH ST AND E UNIVERSITY DR TO E PUEBLO AVE",
+            "customers": 118,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-05 23:51 MST",
+            "etr": "2026-07-06 03:38 MST"
+        },
+        {
+            "latitude": 33.48963003028,
+            "longitude": -112.1339388534105,
+            "boundary": "N 39TH AVE TO GRAND AVE AND GRAND AVE TO W THOMAS RD",
+            "customers": 9,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-05 23:40 MST",
+            "etr": "2026-07-06 11:00 MST"
+        },
+        {
+            "latitude": 33.520693702719356,
+            "longitude": -112.196483609064,
+            "boundary": "N 67TH AVE TO N 59TH AVE AND W BETHANY HOME RD TO W MISSOURI AVE",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-05 20:05 MST",
+            "etr": "2026-07-06 03:02 MST"
+        }
+    ]
+}

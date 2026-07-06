@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-06 02:07:48 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 122
+    },
+    "outages": [
+        {
+            "latitude": 33.491453829364595,
+            "longitude": -112.13393724627298,
+            "city": "Phoenix",
+            "boundary": "Indian School Rd. to Thomas Rd. and 35th Ave. to 31st Ave.",
+            "customers": 122,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-07-05 16:12:00 MST",
+            "etr": "2026-07-05 20:30:00 MST"
+        }
+    ]
+}
