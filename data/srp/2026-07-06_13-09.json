@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-06 13:09:53 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 210
+    },
+    "outages": [
+        {
+            "latitude": 33.39682466020215,
+            "longitude": -111.68016836337151,
+            "boundary": "S RECKER RD TO S SOSSAMAN RD AND E BROADWAY RD TO E SUPERSTITION FWY",
+            "customers": 155,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-06 12:25 MST",
+            "etr": "2026-07-06 18:09 MST"
+        },
+        {
+            "latitude": 33.47813363867015,
+            "longitude": -112.017842042252,
+            "boundary": "N 28TH ST TO N 32ND ST AND E THOMAS RD TO E OAK ST",
+            "customers": 7,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-06 11:00 MST",
+            "etr": "2026-07-06 18:00 MST"
+        },
+        {
+            "latitude": 33.4774121744278,
+            "longitude": -112.01778511397751,
+            "boundary": "N 28TH ST TO N 32ND ST AND E THOMAS RD TO E OAK ST",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-06 11:00 MST",
+            "etr": "2026-07-06 18:00 MST"
+        },
+        {
+            "latitude": 33.485197204148605,
+            "longitude": -111.83839098500701,
+            "boundary": "N EXTENSION RD TO N CENTER ST AND E INDIAN SCHOOL RD TO E OAK ST",
+            "customers": 36,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-06 12:30 MST",
+            "etr": "2026-07-06 14:31 MST"
+        }
+    ]
+}

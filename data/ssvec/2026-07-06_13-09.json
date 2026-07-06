@@ -1,0 +1,86 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-07-06 13:09:53 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "incident_id": 17700,
+            "latitude": 32.3271343816911,
+            "longitude": -109.47551793077248,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-06 13:04:55 MST",
+            "etr": "2026-07-06 16:04:55 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17591,
+            "latitude": 31.61117944380002,
+            "longitude": -109.4770465685657,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Equipment Failure",
+            "comments": "Power Out",
+            "start_time": "2026-06-23 21:15:24 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 17692,
+            "latitude": 31.978109007985914,
+            "longitude": -110.25651848773772,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-07-06 09:52:40 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 17690,
+            "latitude": 31.53756776541422,
+            "longitude": -110.2924081190875,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-06 08:16:35 MST",
+            "etr": "2026-07-06 11:16:35 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17693,
+            "latitude": 31.97502500007606,
+            "longitude": -110.25281099956406,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-07-06 09:52:40 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 17695,
+            "latitude": 32.23664600029826,
+            "longitude": -109.84207199982991,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-07-06 10:34:17 MST",
+            "etr": null,
+            "restored_time": null
+        }
+    ]
+}
