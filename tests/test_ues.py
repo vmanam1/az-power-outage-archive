@@ -11,14 +11,31 @@ class UESProviderTests(unittest.TestCase):
         response.json.return_value = {
             "mapLastRefreshed": "Jul 2, 2:42 PM",
             "outages": [
-                {"division": "USE", "customersOut": "10"},
-                {"division": "UEE", "customersOut": "20"},
-                {"division": "TEP", "customersOut": "30"},
+                {
+                    "division": "USE",
+                    "customersOut": "10",
+                    "coordLat": "32.218",
+                    "coordLng": "-110.970",
+                },
+                {
+                    "division": "UEE",
+                    "customersOut": "20",
+                    "coordLat": "32.219",
+                    "coordLng": "-110.971",
+                },
+                {
+                    "division": "TEP",
+                    "customersOut": "30",
+                    "coordLat": "32.220",
+                    "coordLng": "-110.972",
+                },
             ],
         }
         post.return_value = response
 
-        result = UESProvider().fetch_data()
+        provider = UESProvider()
+        result = provider.fetch_data()
+        provider.validate_snapshot(result)
 
         self.assertEqual(result["metadata"]["provider"], "UES")
         self.assertEqual(result["summary"]["outage_count"], 2)
@@ -32,6 +49,16 @@ class UESProviderTests(unittest.TestCase):
             headers=UESProvider.HEADERS,
             timeout=30,
         )
+
+    def test_malformed_customer_count_is_rejected(self):
+        payload = {
+            "outages": [{
+                "division": "USE",
+                "customersOut": "unknown",
+            }]
+        }
+        with self.assertRaisesRegex(ValueError, "valid customer count"):
+            UESProvider().parse_data(payload)
 
 
 if __name__ == "__main__":

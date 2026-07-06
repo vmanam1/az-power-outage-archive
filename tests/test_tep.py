@@ -57,6 +57,16 @@ class TEPProviderTests(unittest.TestCase):
         self.assertEqual(result["summary"]["outage_count"], 0)
         self.assertEqual(result["summary"]["customers_affected"], 0)
 
+    def test_malformed_customer_count_is_rejected(self):
+        payload = {
+            "outages": [{
+                "division": "TEP",
+                "customersOut": "unknown",
+            }]
+        }
+        with self.assertRaisesRegex(ValueError, "valid customer count"):
+            TEPProvider().parse_data(payload)
+
 
 if __name__ == "__main__":
     unittest.main()

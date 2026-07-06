@@ -47,8 +47,20 @@ class TEPProvider(BaseProvider):
             if outage.get("division") not in self.DIVISIONS:
                 continue
 
-            customers = self._to_int(outage.get("customersOut"))
+            customers = self.parse_customer_count(
+                outage.get("customersOut"), "customersOut"
+            )
             customers_affected += customers
+
+            cr = outage.get("customersRestored")
+            if cr is not None and str(cr).strip() != "":
+                try:
+                    customers_restored = self.parse_customer_count(cr, "customersRestored")
+                except ValueError:
+                    customers_restored = 0
+            else:
+                customers_restored = 0
+
             outages.append({
                 "latitude": self._to_float(outage.get("coordLat")),
                 "longitude": self._to_float(outage.get("coordLng")),
@@ -60,7 +72,7 @@ class TEPProvider(BaseProvider):
                 "etr": self.format_time(outage.get("formattedEstimatedRestoration")),
                 "event": outage.get("event") or None,
                 "division": outage.get("division") or None,
-                "customers_restored": self._to_int(outage.get("customersRestored")),
+                "customers_restored": customers_restored,
                 "last_update": self.format_time(
                     outage.get("lastUpdate"),
                     formats=("%m/%d/%Y %I:%M:%S %p",),
