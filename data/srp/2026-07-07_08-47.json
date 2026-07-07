@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-07 08:47:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 111
+    },
+    "outages": [
+        {
+            "latitude": 33.45411046493035,
+            "longitude": -111.66663833041301,
+            "boundary": "N 72ND ST TO N 80TH ST AND E HERMOSA VISTA DR TO E MCKELLIPS RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 07:19 MST",
+            "etr": "2026-07-07 12:00 MST"
+        },
+        {
+            "latitude": 33.4543669395268,
+            "longitude": -112.147101003163,
+            "boundary": "N 43RD AVE TO N 39TH AVE AND W ROOSEVELT ST TO W VAN BUREN ST",
+            "customers": 21,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 07:25 MST",
+            "etr": "2026-07-07 12:00 MST"
+        },
+        {
+            "latitude": 33.4126982114512,
+            "longitude": -111.6774540991715,
+            "boundary": "S POWER RD TO S SOSSAMAN RD AND E MAIN ST TO E BROADWAY RD",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 07:28 MST",
+            "etr": "2026-07-07 12:00 MST"
+        },
+        {
+            "latitude": 33.4971203978578,
+            "longitude": -112.12880373954201,
+            "boundary": "N 35TH AVE TO N 31ST AVE AND W CAMPBELL AVE TO W INDIAN SCHOOL RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 07:37 MST",
+            "etr": "2026-07-07 10:36 MST"
+        },
+        {
+            "latitude": 33.50613353946045,
+            "longitude": -111.98618647521599,
+            "boundary": "N 40TH ST TO N CAMELHEAD RD AND E CAMELBACK RD TO E CAMPBELL AVE",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 07:37 MST",
+            "etr": "2026-07-07 11:00 MST"
+        },
+        {
+            "latitude": 33.41839479162175,
+            "longitude": -111.6662612407245,
+            "boundary": "N 72ND ST TO S 80TH ST AND E UNIVERSITY DR TO E MAIN ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 08:01 MST",
+            "etr": "2026-07-07 11:30 MST"
+        },
+        {
+            "latitude": 33.4050667159475,
+            "longitude": -111.540295350478,
+            "boundary": "S IDAHO RD TO S TOMAHAWK RD AND E BROADWAY AVE TO E HONDO AVE",
+            "customers": 49,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 08:23 MST",
+            "etr": "2026-07-07 12:30 MST"
+        },
+        {
+            "latitude": 33.49335312510544,
+            "longitude": -112.164139765097,
+            "boundary": "N 51ST AVE TO N 47TH AVE AND W CAMPBELL AVE TO W OSBORN RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 08:28 MST",
+            "etr": "2026-07-07 10:26 MST"
+        }
+    ]
+}
