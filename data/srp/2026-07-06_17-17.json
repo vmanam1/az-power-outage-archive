@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-06 17:17:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 54
+    },
+    "outages": [
+        {
+            "latitude": 33.4721418073893,
+            "longitude": -111.93443124661499,
+            "boundary": "N 64TH ST TO N SCOTTSDALE RD AND E THOMAS RD TO E MCDOWELL RD",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-06 13:59 MST",
+            "etr": "2026-07-06 19:00 MST"
+        },
+        {
+            "latitude": 33.4831525432988,
+            "longitude": -112.1438204388185,
+            "boundary": "N 43RD AVE TO N 35TH AVE AND W OSBORN RD TO W THOMAS RD",
+            "customers": 11,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-06 16:12 MST",
+            "etr": "2026-07-06 21:00 MST"
+        },
+        {
+            "latitude": 33.47255459014505,
+            "longitude": -111.935766815281,
+            "boundary": "N 64TH ST TO N SCOTTSDALE RD AND E THOMAS RD TO E MCDOWELL RD",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-06 16:24 MST",
+            "etr": "2026-07-06 20:30 MST"
+        },
+        {
+            "latitude": 33.512621667635045,
+            "longitude": -112.00527091416649,
+            "boundary": "N 32ND ST TO N 40TH ST AND E STANFORD DR TO E CAMELBACK RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-06 16:56 MST",
+            "etr": "2026-07-06 18:54 MST"
+        },
+        {
+            "latitude": 33.4703039610089,
+            "longitude": -111.96894731807299,
+            "boundary": "N 48TH ST TO N 56TH ST AND E OAK ST TO E MCDOWELL RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-06 16:14 MST",
+            "etr": "2026-07-06 20:22 MST"
+        },
+        {
+            "latitude": 33.4703039610089,
+            "longitude": -111.96894731807299,
+            "boundary": "N 48TH ST TO N 56TH ST AND E OAK ST TO E MCDOWELL RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-06 16:14 MST",
+            "etr": "2026-07-06 20:22 MST"
+        },
+        {
+            "latitude": 33.4703039610089,
+            "longitude": -111.96894731807299,
+            "boundary": "N 48TH ST TO N 56TH ST AND E OAK ST TO E MCDOWELL RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-06 16:14 MST",
+            "etr": "2026-07-06 20:22 MST"
+        }
+    ]
+}
