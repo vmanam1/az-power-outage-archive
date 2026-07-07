@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-07 01:33:52 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 28
+    },
+    "outages": [
+        {
+            "latitude": 33.61810204230157,
+            "longitude": -111.9890226110636,
+            "city": "Phoenix",
+            "boundary": "Acoma Dr. to Winchcomb Dr. and 43rd Pl. to 44th St.",
+            "customers": 28,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-06 17:29:00 MST",
+            "etr": "2026-07-06 20:20:00 MST"
+        }
+    ]
+}
