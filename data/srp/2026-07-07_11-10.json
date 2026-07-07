@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-07 11:10:20 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 33.41839479162175,
+            "longitude": -111.6662612407245,
+            "boundary": "N 72ND ST TO S 80TH ST AND E UNIVERSITY DR TO E MAIN ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 08:01 MST",
+            "etr": "2026-07-07 11:30 MST"
+        },
+        {
+            "latitude": 33.39220199021925,
+            "longitude": -112.278955035353,
+            "boundary": "S 107TH AVE TO S 99TH AVE AND W ROESER RD TO E BASELINE RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 10:07 MST",
+            "etr": "2026-07-07 12:04 MST"
+        },
+        {
+            "latitude": 33.50613353946045,
+            "longitude": -111.98618647521599,
+            "boundary": "N 40TH ST TO N CAMELHEAD RD AND E CAMELBACK RD TO E CAMPBELL AVE",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 07:37 MST",
+            "etr": "2026-07-07 12:00 MST"
+        },
+        {
+            "latitude": 33.3746037887131,
+            "longitude": -111.83727965549,
+            "boundary": "N ARIZONA AVE TO S CENTER ST AND W BASELINE RD TO W GUADALUPE RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-07 10:58 MST",
+            "etr": "2026-07-07 12:57 MST"
+        }
+    ]
+}
