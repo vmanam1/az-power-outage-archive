@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-07 13:55:46 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 289
+    },
+    "outages": [
+        {
+            "latitude": 33.429538400345585,
+            "longitude": -112.11367299978814,
+            "city": "Phoenix",
+            "boundary": "Pima St To Hilton Ave And 27Th Ave To 23Rd Ave",
+            "customers": 5,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-07-07 02:56:00 MST",
+            "etr": "2026-07-07 08:00:00 MST"
+        },
+        {
+            "latitude": 33.54567765425517,
+            "longitude": -112.32759548928482,
+            "city": "Youngtown",
+            "boundary": "Fooks Dr  To Glen Harbor Blvd And 125Th Ave To 103Rd Ave",
+            "customers": 284,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-07 03:31:00 MST",
+            "etr": "2026-07-07 11:00:00 MST"
+        }
+    ]
+}
