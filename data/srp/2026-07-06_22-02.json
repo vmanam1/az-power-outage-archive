@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-06 22:02:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 33.505498596527204,
+            "longitude": -112.034171402656,
+            "boundary": "N 20TH ST TO N 24TH ST AND E CAMELBACK RD TO E CAMPBELL AVE",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-06 17:20 MST",
+            "etr": "2026-07-06 23:00 MST"
+        },
+        {
+            "latitude": 33.512952391188804,
+            "longitude": -112.0052723780745,
+            "boundary": "N 32ND ST TO N 40TH ST AND E STANFORD DR TO E CAMELBACK RD",
+            "customers": 15,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-06 16:56 MST",
+            "etr": "2026-07-07 03:00 MST"
+        },
+        {
+            "latitude": 33.24801402333,
+            "longitude": -111.73895411090601,
+            "boundary": "S 156TH ST TO S HIGLEY RD AND E QUEEN CREEK RD TO E BROOKS FARM RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-06 21:22 MST",
+            "etr": "2026-07-06 23:01 MST"
+        },
+        {
+            "latitude": 33.4703039610089,
+            "longitude": -111.96894731807299,
+            "boundary": "N 48TH ST TO N 56TH ST AND E OAK ST TO E MCDOWELL RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-06 16:14 MST",
+            "etr": "2026-07-06 23:22 MST"
+        }
+    ]
+}

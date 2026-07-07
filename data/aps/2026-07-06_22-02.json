@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-06 22:02:20 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 148
+    },
+    "outages": [
+        {
+            "latitude": 35.21143416416795,
+            "longitude": -111.59230642609639,
+            "city": "Flagstaff",
+            "boundary": "Soliere Ave.",
+            "customers": 12,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-06 11:56:00 MST",
+            "etr": "2026-07-06 15:20:00 MST"
+        },
+        {
+            "latitude": 33.70994886027882,
+            "longitude": -111.84809203558034,
+            "city": "Scottsdale",
+            "boundary": "E La Junta Rd.",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-06 12:17:00 MST",
+            "etr": "2026-07-06 16:30:00 MST"
+        },
+        {
+            "latitude": 34.232980277754855,
+            "longitude": -111.335631891418,
+            "city": "Payson",
+            "boundary": "Randall Ln. to Frontier St. and Bootleg Aly. to Meadows St.",
+            "customers": 42,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-06 12:38:00 MST",
+            "etr": "2026-07-06 16:00:00 MST"
+        },
+        {
+            "latitude": 33.633638814011555,
+            "longitude": -111.86189801411157,
+            "city": "Scottsdale",
+            "boundary": "Paradise Ln. and 99th Pl.",
+            "customers": 65,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-06 12:51:00 MST",
+            "etr": "2026-07-06 15:40:00 MST"
+        },
+        {
+            "latitude": 32.658820433855794,
+            "longitude": -114.50769651804973,
+            "city": "Yuma",
+            "boundary": "38th St. and Briania Dr.",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-06 12:57:00 MST",
+            "etr": "2026-07-06 16:10:00 MST"
+        },
+        {
+            "latitude": 34.36296081680341,
+            "longitude": -110.00099912907538,
+            "city": "Show Low",
+            "boundary": "Silver Creek Dr. and Village Cr.",
+            "customers": 17,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-06 13:05:00 MST",
+            "etr": "2026-07-06 16:10:00 MST"
+        }
+    ]
+}
