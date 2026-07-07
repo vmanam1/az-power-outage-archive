@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-07 05:07:18 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 32.97754527911546,
+            "longitude": -111.52653217355693,
+            "city": "Coolidge",
+            "boundary": "Pinkley Ave. to Roosevelt Ave. and 7th St. to Arizona Blvd.",
+            "customers": 6,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-06 19:19:00 MST",
+            "etr": "2026-07-06 23:40:00 MST"
+        }
+    ]
+}
