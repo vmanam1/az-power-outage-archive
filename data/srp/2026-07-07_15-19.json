@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-07 15:19:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 172
+    },
+    "outages": [
+        {
+            "latitude": 33.298428419711556,
+            "longitude": -111.95314335906599,
+            "boundary": "S 56TH ST TO S KYRENE RD AND W CHANDLER BLVD TO E SANTAN FWY",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-07-07 13:24 MST",
+            "etr": "2026-07-07 16:00 MST"
+        },
+        {
+            "latitude": 33.49132418875015,
+            "longitude": -112.1632982485325,
+            "boundary": "N 51ST AVE TO N 43RD AVE AND W CAMPBELL AVE TO W THOMAS RD",
+            "customers": 134,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-07 14:52 MST",
+            "etr": "2026-07-07 16:52 MST"
+        },
+        {
+            "latitude": 33.5211173801717,
+            "longitude": -112.1196788118125,
+            "boundary": "N 31ST AVE TO N BLACK CANYON HWY AND W BETHANY HOME RD TO W MISSOURI AVE",
+            "customers": 24,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-07 13:59 MST",
+            "etr": "2026-07-07 19:59 MST"
+        }
+    ]
+}

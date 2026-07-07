@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-07 15:19:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 900
+    },
+    "outages": [
+        {
+            "latitude": 33.54567765425517,
+            "longitude": -112.32759548928482,
+            "city": "Youngtown",
+            "boundary": "Fooks Dr  To Glen Harbor Blvd And 125Th Ave To 103Rd Ave",
+            "customers": 284,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-07 03:31:00 MST",
+            "etr": "2026-07-07 11:00:00 MST"
+        },
+        {
+            "latitude": 33.649274264247936,
+            "longitude": -112.0957693390204,
+            "city": "Phoenix",
+            "boundary": "Michigan Ave. to Michelle Dr. and 17th Ave. to 15th Ave.",
+            "customers": 53,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-07 06:44:00 MST",
+            "etr": "2026-07-07 09:20:00 MST"
+        },
+        {
+            "latitude": 33.568001824312525,
+            "longitude": -112.01355524484174,
+            "city": "Phoenix",
+            "boundary": "Las Rocas Dr. to Puget Ave. and 32nd St.",
+            "customers": 12,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-07 07:05:00 MST",
+            "etr": "2026-07-07 09:35:00 MST"
+        },
+        {
+            "latitude": 34.53718953877326,
+            "longitude": -112.44327742789443,
+            "city": "Prescott",
+            "boundary": "Cordes Junction-Prescott Highway to Robinson Dr and Eastwood Dr to Eacho Hill Cr",
+            "customers": 551,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-07 07:54:00 MST",
+            "etr": "2026-07-07 11:30:00 MST"
+        }
+    ]
+}
