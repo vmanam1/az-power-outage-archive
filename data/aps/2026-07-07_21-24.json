@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-07 21:24:38 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 196
+    },
+    "outages": [
+        {
+            "latitude": 34.53718953877326,
+            "longitude": -112.44327742789443,
+            "city": "Prescott",
+            "boundary": "Cordes Junction-Prescott Highway to Robinson Dr and Eastwood Dr to Eacho Hill Cr",
+            "customers": 5,
+            "cause": "Fire",
+            "comments": "An issue affecting electrical equipment in the area has resulted in a power outage. Our crews are actively working to restore service  and we appreciate your patience as we complete repairs safely.",
+            "start_time": "2026-07-07 07:54:00 MST",
+            "etr": "2026-07-07 15:00:00 MST"
+        },
+        {
+            "latitude": 33.42317600034242,
+            "longitude": -112.39895300038548,
+            "city": "Goodyear",
+            "boundary": "Lincoln St  To Elwood St And Sarival Ave To Estrella Pkwy",
+            "customers": 142,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-07-07 08:48:00 MST",
+            "etr": "2026-07-07 16:00:00 MST"
+        },
+        {
+            "latitude": 33.60270021693125,
+            "longitude": -111.88853323925383,
+            "city": "Scottsdale",
+            "boundary": "Sweetwater Ave. to Larspur Dr. and 88th Wy. to 89th Pl.",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-07 11:08:00 MST",
+            "etr": "2026-07-07 16:00:00 MST"
+        },
+        {
+            "latitude": 34.579928975110676,
+            "longitude": -112.5175499163965,
+            "city": "Prescott",
+            "boundary": "Wildwood Dr. and Broadmoor St.",
+            "customers": 44,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-07 13:55:00 MST",
+            "etr": "2026-07-07 17:15:00 MST"
+        }
+    ]
+}
