@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-08 03:28:53 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 33.59724748641595,
+            "longitude": -111.7164645546745,
+            "boundary": "N 144TH ST TO N BEELINE HWY AND E JOMAX RD TO E SHEA BLVD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-08 02:05 MST",
+            "etr": "2026-07-08 08:00 MST"
+        }
+    ]
+}

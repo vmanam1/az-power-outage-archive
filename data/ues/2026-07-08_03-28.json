@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-07-08 03:28:54 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 0,
+        "map_last_refreshed": "Jul 8, 3:27 AM"
+    },
+    "outages": [
+        {
+            "latitude": 34.468507218084,
+            "longitude": -114.322555063449,
+            "boundary": {
+                "coordLatSW": "34.468507218084",
+                "coordLngSW": "-114.322555063449",
+                "coordLatNE": "34.468507218084",
+                "coordLngNE": "-114.322555063449",
+                "coordLatCenter": "34.468506",
+                "coordLngCenter": "-114.322556"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage",
+            "comments": null,
+            "start_time": "2026-07-07 22:56 MST",
+            "etr": "2026-07-08 00:35 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 35,
+            "last_update": "2026-07-08 00:49 MST"
+        }
+    ]
+}
