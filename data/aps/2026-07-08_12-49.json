@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-08 12:49:07 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 64
+    },
+    "outages": [
+        {
+            "latitude": 34.54464131481543,
+            "longitude": -112.46061284944773,
+            "city": "Prescott",
+            "boundary": "Whispering Canyon Dr and Durango Sky Tl",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-08 04:13:00 MST",
+            "etr": "2026-07-08 07:30:00 MST"
+        },
+        {
+            "latitude": 33.53277618093743,
+            "longitude": -112.05942833196791,
+            "city": "Phoenix",
+            "boundary": "East McLellan Bv to East Maryland Ave and North 10th St to North 12th St",
+            "customers": 19,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-08 04:42:00 MST",
+            "etr": "2026-07-08 08:42:00 MST"
+        },
+        {
+            "latitude": 34.608670250946,
+            "longitude": -111.1869882641243,
+            "city": "Happy Jack",
+            "boundary": "Woodford Rd and Pleasantview",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-08 05:25:00 MST",
+            "etr": "2026-07-08 08:20:00 MST"
+        },
+        {
+            "latitude": 34.71060560389079,
+            "longitude": -111.89187011042843,
+            "city": "Cornville",
+            "boundary": "Cornville Rd and Koch Ranch Rd",
+            "customers": 31,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-08 05:31:00 MST",
+            "etr": "2026-07-08 09:00:00 MST"
+        }
+    ]
+}
