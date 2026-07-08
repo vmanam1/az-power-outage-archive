@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-08 10:48:37 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 35.28449111032112,
+            "longitude": -111.93305240265177,
+            "city": "Parks",
+            "boundary": "Wild Bill Dr and Keith Dr",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-08 02:08:00 MST",
+            "etr": "2026-07-08 06:20:00 MST"
+        },
+        {
+            "latitude": 34.228778990657624,
+            "longitude": -110.0406683089156,
+            "city": "Show Low",
+            "boundary": "Pleasantview and Columbine Court",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-08 02:12:00 MST",
+            "etr": "2026-07-08 06:12:00 MST"
+        }
+    ]
+}

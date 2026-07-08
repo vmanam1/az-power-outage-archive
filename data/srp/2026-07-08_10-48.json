@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-08 10:48:37 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.3645153657024,
+            "longitude": -111.727909950682,
+            "boundary": "N 164TH ST TO N HIGLEY RD AND E HOUSTON AVE TO E OLNEY AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-08 07:48 MST",
+            "etr": "2026-07-08 16:00 MST"
+        },
+        {
+            "latitude": 33.2998954419226,
+            "longitude": -111.97071183541101,
+            "boundary": "S 48TH ST TO S 56TH ST AND W CHANDLER BLVD TO W SANTAN FWY",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-07-08 09:24 MST",
+            "etr": "2026-07-08 13:20 MST"
+        },
+        {
+            "latitude": 33.3921643939184,
+            "longitude": -111.543517217092,
+            "boundary": "S IDAHO RD TO S ROYAL PALM RD AND E 16TH AVE TO E SUPERSTITION FWY",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-08 09:45 MST",
+            "etr": "2026-07-08 14:30 MST"
+        },
+        {
+            "latitude": 33.5145656068662,
+            "longitude": -111.99963207849001,
+            "boundary": "N 36TH ST TO N 40TH ST AND E STANFORD DR TO E CAMELBACK RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-08 07:46 MST",
+            "etr": "2026-07-08 14:00 MST"
+        },
+        {
+            "latitude": 33.349857421468855,
+            "longitude": -111.662851973876,
+            "boundary": "S SOSSAMAN RD TO S HAWES RD AND E PALOMA AVE TO E WARNER RD",
+            "customers": 26,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-08 10:41 MST",
+            "etr": "2026-07-08 12:41 MST"
+        }
+    ]
+}
