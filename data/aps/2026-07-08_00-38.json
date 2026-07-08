@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-08 00:38:23 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 184
+    },
+    "outages": [
+        {
+            "latitude": 33.42317600034242,
+            "longitude": -112.39895300038548,
+            "city": "Goodyear",
+            "boundary": "Lincoln St  To Elwood St And Sarival Ave To Estrella Pkwy",
+            "customers": 142,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-07-07 08:48:00 MST",
+            "etr": "2026-07-07 19:30:00 MST"
+        },
+        {
+            "latitude": 33.6251913803104,
+            "longitude": -112.29848957371773,
+            "city": "Sun City",
+            "boundary": "W Pleasant Valley Rd. to N Ridgeview Rd. and N 111th Ave. to N 110th Ave.",
+            "customers": 42,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-07 16:31:00 MST",
+            "etr": "2026-07-07 19:00:00 MST"
+        }
+    ]
+}
