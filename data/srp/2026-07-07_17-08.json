@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-07 17:08:58 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 164
+    },
+    "outages": [
+        {
+            "latitude": 33.5211173801717,
+            "longitude": -112.11845635895901,
+            "boundary": "N 31ST AVE TO N BLACK CANYON HWY AND W BETHANY HOME RD TO W MISSOURI AVE",
+            "customers": 23,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-07 13:59 MST",
+            "etr": "2026-07-07 19:59 MST"
+        },
+        {
+            "latitude": 33.229227109805805,
+            "longitude": -111.54959413918951,
+            "boundary": "N GANTZEL RD TO N COYOTE RD AND E SOUTHWOOD RD TO E COMBS RD",
+            "customers": 140,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-07 16:59 MST",
+            "etr": "2026-07-07 18:58 MST"
+        },
+        {
+            "latitude": 33.4032904334104,
+            "longitude": -111.955761927168,
+            "boundary": "S PRIEST DR TO S HARDY DR AND W BROADWAY RD TO W ALAMEDA DR",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-07 17:01 MST",
+            "etr": "2026-07-08 00:00 MST"
+        }
+    ]
+}

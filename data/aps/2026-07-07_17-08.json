@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-07 17:08:58 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1350
+    },
+    "outages": [
+        {
+            "latitude": 33.54567765425517,
+            "longitude": -112.32759548928482,
+            "city": "Youngtown",
+            "boundary": "Fooks Dr  To Glen Harbor Blvd And 125Th Ave To 103Rd Ave",
+            "customers": 284,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-07 03:31:00 MST",
+            "etr": "2026-07-07 11:00:00 MST"
+        },
+        {
+            "latitude": 34.53718953877326,
+            "longitude": -112.44327742789443,
+            "city": "Prescott",
+            "boundary": "Cordes Junction-Prescott Highway to Robinson Dr and Eastwood Dr to Eacho Hill Cr",
+            "customers": 58,
+            "cause": "Fire",
+            "comments": "An issue affecting electrical equipment in the area has resulted in a power outage. Our crews are actively working to restore service  and we appreciate your patience as we complete repairs safely.",
+            "start_time": "2026-07-07 07:54:00 MST",
+            "etr": "2026-07-07 11:30:00 MST"
+        },
+        {
+            "latitude": 33.42317600034242,
+            "longitude": -112.39895300038548,
+            "city": "Goodyear",
+            "boundary": "Lincoln St  To Elwood St And Sarival Ave To Estrella Pkwy",
+            "customers": 779,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-07 08:48:00 MST",
+            "etr": "2026-07-07 11:10:00 MST"
+        },
+        {
+            "latitude": 33.46514399962736,
+            "longitude": -113.11561299973951,
+            "city": "Tonopah",
+            "boundary": "Buckeye Salome Rd To Buckeye Rd And 523Rd Ave To 479Th Ave",
+            "customers": 40,
+            "cause": "Fire",
+            "comments": "An issue affecting electrical equipment in the area has resulted in a power outage. Our crews are actively working to restore service  and we appreciate your patience as we complete repairs safely.",
+            "start_time": "2026-07-07 09:28:00 MST",
+            "etr": "2026-07-07 13:40:00 MST"
+        },
+        {
+            "latitude": 33.01565409979309,
+            "longitude": -113.34971609987312,
+            "city": "Dateland",
+            "boundary": "County 21St St To Skousen And Avenue 76E To Hyder Rd",
+            "customers": 137,
+            "cause": "Fire",
+            "comments": "An issue affecting electrical equipment in the area has resulted in a power outage. Our crews are actively working to restore service  and we appreciate your patience as we complete repairs safely.",
+            "start_time": "2026-07-07 09:37:00 MST",
+            "etr": "2026-07-07 13:30:00 MST"
+        },
+        {
+            "latitude": 33.088310099809924,
+            "longitude": -113.31654589963519,
+            "city": "Dateland",
+            "boundary": "High Line Rd To Hyder Rd And 76Th Ave To 555Th Ave",
+            "customers": 52,
+            "cause": "Fire",
+            "comments": "An issue affecting electrical equipment in the area has resulted in a power outage. Our crews are actively working to restore service  and we appreciate your patience as we complete repairs safely.",
+            "start_time": "2026-07-07 09:37:00 MST",
+            "etr": "2026-07-07 13:40:00 MST"
+        }
+    ]
+}
