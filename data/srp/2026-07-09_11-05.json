@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-09 11:05:58 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 135
+    },
+    "outages": [
+        {
+            "latitude": 33.408253934309,
+            "longitude": -111.540697993289,
+            "boundary": "S IDAHO RD TO S ROYAL PALM RD AND E JUNCTION ST TO E HONDO AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-09 08:43 MST",
+            "etr": "2026-07-09 12:30 MST"
+        },
+        {
+            "latitude": 33.498188904961154,
+            "longitude": -111.902354785429,
+            "boundary": "N HAYDEN RD TO N PIMA RD AND E CAMELBACK RD TO E INDIAN SCHOOL RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 08:29 MST",
+            "etr": "2026-07-09 13:00 MST"
+        },
+        {
+            "latitude": 33.3043160516903,
+            "longitude": -111.67405495739101,
+            "boundary": "S POWER RD TO S SOSSAMAN RD AND E WILLIAMS FIELD RD TO E OLD PECOS RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-09 08:20 MST",
+            "etr": "2026-07-09 11:30 MST"
+        },
+        {
+            "latitude": 33.3351018871169,
+            "longitude": -111.649977083229,
+            "boundary": "S SOSSAMAN RD TO S EVERTON TER AND E ELLIOT RD TO E RAY RD",
+            "customers": 120,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 10:05 MST",
+            "etr": "2026-07-09 11:56 MST"
+        }
+    ]
+}

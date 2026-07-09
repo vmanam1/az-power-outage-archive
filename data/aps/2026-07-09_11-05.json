@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-09 11:05:58 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 34.68995366380695,
+            "longitude": -111.99127043305971,
+            "city": "Cottonwood",
+            "boundary": "Western Dr to Vaguero Ln and Mohave Ln",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-09 01:38:00 MST",
+            "etr": "2026-07-09 06:00:00 MST"
+        },
+        {
+            "latitude": 34.53177075763839,
+            "longitude": -112.48580051586642,
+            "city": "Prescott",
+            "boundary": "Middlebrook Rd to Copper Basin Rd and Birch Dr to Highland Ave",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-09 03:28:00 MST",
+            "etr": "2026-07-09 07:00:00 MST"
+        }
+    ]
+}
