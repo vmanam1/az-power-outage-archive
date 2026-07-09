@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-07-09 04:16:10 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 0,
+        "map_last_refreshed": "Jul 9, 4:15 AM"
+    },
+    "outages": [
+        {
+            "latitude": 32.213606288548895,
+            "longitude": -110.790003414997,
+            "boundary": {
+                "coordLatSW": "32.213606288548895",
+                "coordLngSW": "-110.790003414997",
+                "coordLatNE": "32.213606288548895",
+                "coordLngNE": "-110.790003414997",
+                "coordLatCenter": "32.213608",
+                "coordLngCenter": "-110.79"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Weather",
+            "comments": null,
+            "start_time": "2026-07-08 16:47 MST",
+            "etr": "2026-07-08 18:00 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 29,
+            "last_update": "2026-07-08 18:30 MST"
+        }
+    ]
+}

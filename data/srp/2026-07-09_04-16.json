@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-09 04:16:09 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 33.4859114942182,
+            "longitude": -111.9526321225755,
+            "boundary": "N 56TH ST TO N 64TH ST AND E INDIAN SCHOOL RD TO E THOMAS RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 01:07 MST",
+            "etr": "2026-07-09 02:58 MST"
+        },
+        {
+            "latitude": 33.35335120932295,
+            "longitude": -111.6364453329195,
+            "boundary": "S HAWES RD TO S 96TH ST AND E SANTAN FWY TO E ELLIOT RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-09 01:42 MST",
+            "etr": "2026-07-09 05:42 MST"
+        },
+        {
+            "latitude": 33.3726780377962,
+            "longitude": -111.781624484827,
+            "boundary": "N GILBERT RD TO N LINDSAY RD AND E BASELINE RD TO E GUADALUPE RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-09 03:05 MST",
+            "etr": "2026-07-09 06:03 MST"
+        },
+        {
+            "latitude": 33.36457815701135,
+            "longitude": -111.9731685987385,
+            "boundary": "S 48TH ST TO S MARICOPA FWY AND W BASELINE RD TO E ELLIOT RD",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 03:51 MST",
+            "etr": "2026-07-09 05:50 MST"
+        },
+        {
+            "latitude": 33.598102237896754,
+            "longitude": -112.2439151600535,
+            "boundary": "N AGUA FRIA FWY TO N 83RD AVE AND W SWEETWATER AVE TO W CACTUS RD",
+            "customers": 29,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-09 02:33 MST",
+            "etr": "2026-07-09 04:40 MST"
+        }
+    ]
+}
