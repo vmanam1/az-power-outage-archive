@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-09 13:01:14 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 33.73114141675096,
+            "longitude": -111.90937251711496,
+            "city": "Scottsdale",
+            "boundary": "East Nimitz Rd to East Jomax Rd and North Miller Rd to North Hayden Rd",
+            "customers": 22,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-09 05:21:00 MST",
+            "etr": "2026-07-09 09:21:00 MST"
+        }
+    ]
+}
