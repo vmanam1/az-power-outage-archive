@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-09 16:22:25 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 462
+    },
+    "outages": [
+        {
+            "latitude": 33.6097315712791,
+            "longitude": -111.87178949665568,
+            "city": "Scottsdale",
+            "boundary": "East Daven port and North 96th Ln to North 97th Wy",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-09 08:25:00 MST",
+            "etr": "2026-07-09 11:30:00 MST"
+        },
+        {
+            "latitude": 34.3061570212726,
+            "longitude": -112.09797752195628,
+            "city": "Mayer",
+            "boundary": "East Quail Run Dr to East Kino Rd and East Fremont Dr to South Rolling Ridge Dr",
+            "customers": 456,
+            "cause": "Fire",
+            "comments": "An issue affecting electrical equipment in the area has resulted in a power outage. Our crews are actively working to restore service  and we appreciate your patience as we complete repairs safely.",
+            "start_time": "2026-07-09 08:37:00 MST",
+            "etr": "2026-07-09 12:30:00 MST"
+        }
+    ]
+}

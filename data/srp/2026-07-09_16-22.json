@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-09 16:22:26 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 73
+    },
+    "outages": [
+        {
+            "latitude": 33.41014792331905,
+            "longitude": -112.043963821844,
+            "boundary": "S 16TH ST TO S 20TH ST AND E ELWOOD ST TO E BROADWAY RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 12:53 MST",
+            "etr": "2026-07-09 14:52 MST"
+        },
+        {
+            "latitude": 33.3346128198166,
+            "longitude": -111.67772657273801,
+            "boundary": "S WREN DR TO S HAWES RD AND E ELLIOT RD TO E RAY RD",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 15:40 MST",
+            "etr": "2026-07-09 17:31 MST"
+        },
+        {
+            "latitude": 33.3871827426749,
+            "longitude": -112.1449216837625,
+            "boundary": "N 43RD AVE TO S 35TH AVE AND W SOUTHERN AVE TO W BASELINE RD",
+            "customers": 15,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-09 15:45 MST",
+            "etr": "2026-07-09 20:30 MST"
+        }
+    ]
+}
