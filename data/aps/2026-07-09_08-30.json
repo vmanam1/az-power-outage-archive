@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-09 08:30:50 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 35.36004926780587,
+            "longitude": -112.14459941775382,
+            "city": "Williams",
+            "boundary": "East Tamarack St to East San Marcos Dr and North Hazlewood Dr to Elk Run Tl",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-09 00:52:00 MST",
+            "etr": "2026-07-09 04:15:00 MST"
+        }
+    ]
+}
