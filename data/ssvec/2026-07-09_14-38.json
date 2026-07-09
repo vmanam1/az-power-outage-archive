@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-07-09 14:38:45 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "incident_id": 17725,
+            "latitude": 31.998461183203414,
+            "longitude": -110.0908504506679,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-07-09 10:07:15 MST",
+            "etr": "2026-07-09 13:07:15 MST",
+            "restored_time": null
+        }
+    ]
+}

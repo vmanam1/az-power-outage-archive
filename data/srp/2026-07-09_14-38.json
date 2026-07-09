@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-09 14:38:44 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.38568333155225,
+            "longitude": -112.050694881663,
+            "boundary": "S 12TH ST TO S 16TH ST AND E SOUTHERN AVE TO E BASELINE RD",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-09 11:30 MST",
+            "etr": "2026-07-09 18:44 MST"
+        },
+        {
+            "latitude": 33.41014792331905,
+            "longitude": -112.043963821844,
+            "boundary": "S 16TH ST TO S 20TH ST AND E ELWOOD ST TO E BROADWAY RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 12:53 MST",
+            "etr": "2026-07-09 14:52 MST"
+        }
+    ]
+}
