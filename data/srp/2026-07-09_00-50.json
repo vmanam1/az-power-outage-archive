@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-09 00:50:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.4214319700026,
+            "longitude": -111.915320147748,
+            "boundary": "S RURAL RD TO S MCCLINTOCK DR AND E RIO SALADO PKWY TO E APACHE BLVD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-09 00:38 MST",
+            "etr": "2026-07-09 03:36 MST"
+        }
+    ]
+}

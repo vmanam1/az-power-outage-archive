@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-09 00:50:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 143
+    },
+    "outages": [
+        {
+            "latitude": 34.57480332469491,
+            "longitude": -112.43954741442562,
+            "city": "Prescott",
+            "boundary": "Reading Ln. to Savage Ln. and Boardwalk Ave. to Rosser St.",
+            "customers": 57,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-08 15:02:00 MST",
+            "etr": "2026-07-08 18:15:00 MST"
+        },
+        {
+            "latitude": 33.549253138643,
+            "longitude": -111.89629543070694,
+            "city": "Scottsdale",
+            "boundary": "Via Paseo Del Norte to Via Taz Norte and Via Del Sendero",
+            "customers": 46,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-08 16:09:00 MST",
+            "etr": "2026-07-08 18:40:00 MST"
+        },
+        {
+            "latitude": 32.653148504748174,
+            "longitude": -114.48345191828766,
+            "city": "Yuma",
+            "boundary": "40th Ln. to 41st Pl. and Hinckley Dr. to Cactus Wren Wy.",
+            "customers": 40,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-08 17:42:00 MST",
+            "etr": "2026-07-08 21:05:00 MST"
+        }
+    ]
+}
