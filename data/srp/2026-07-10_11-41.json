@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-10 11:41:41 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 33.3685599276381,
+            "longitude": -111.57328843620701,
+            "boundary": "S MERIDIAN RD TO S IRONWOOD DR AND W HOUSTON AVE TO W GUADALUPE RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-10 07:58 MST",
+            "etr": "2026-07-10 12:00 MST"
+        },
+        {
+            "latitude": 33.3921643939184,
+            "longitude": -111.543517217092,
+            "boundary": "S IDAHO RD TO S ROYAL PALM RD AND E 16TH AVE TO E SUPERSTITION FWY",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-10 09:06 MST",
+            "etr": "2026-07-10 14:14 MST"
+        },
+        {
+            "latitude": 33.48538457276145,
+            "longitude": -112.2388188037745,
+            "boundary": "N 87TH AVE TO N 79TH AVE AND W INDIAN SCHOOL RD TO W THOMAS RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-10 09:07 MST",
+            "etr": "2026-07-10 14:05 MST"
+        },
+        {
+            "latitude": 33.5273086663091,
+            "longitude": -112.09382551677851,
+            "boundary": "N 19TH AVE TO N 15TH AVE AND W MARYLAND AVE TO W BETHANY HOME RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-10 10:49 MST",
+            "etr": "2026-07-10 14:00 MST"
+        }
+    ]
+}
