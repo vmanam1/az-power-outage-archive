@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-10 00:49:41 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 975
+    },
+    "outages": [
+        {
+            "latitude": 33.59463900024898,
+            "longitude": -111.92363999973352,
+            "city": "Scottsdale",
+            "boundary": "Sweetwater Ave To Shea Blvd And 64Th St  To Hayden Rd",
+            "customers": 975,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-09 16:36:00 MST",
+            "etr": "2026-07-09 22:25:00 MST"
+        }
+    ]
+}

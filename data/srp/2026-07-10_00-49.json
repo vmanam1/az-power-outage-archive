@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-10 00:49:41 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 33
+    },
+    "outages": [
+        {
+            "latitude": 33.3940221827239,
+            "longitude": -111.8268352232715,
+            "boundary": "S CENTER ST TO S MESA DR AND W 8TH AVE TO E SUPERSTITION FWY",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 23:33 MST",
+            "etr": "2026-07-10 04:00 MST"
+        },
+        {
+            "latitude": 33.4797400079399,
+            "longitude": -111.957286855487,
+            "boundary": "N 56TH ST TO N 60TH ST AND E OSBORN RD TO E OAK ST",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-09 23:39 MST",
+            "etr": "2026-07-10 08:30 MST"
+        },
+        {
+            "latitude": 33.414516396282096,
+            "longitude": -111.6340094807905,
+            "boundary": "N 88TH ST TO S 96TH ST AND E RED MOUNTAIN FWY TO E BROADWAY RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-10 00:42 MST",
+            "etr": "2026-07-10 04:00 MST"
+        },
+        {
+            "latitude": 33.3578142128535,
+            "longitude": -111.844567278553,
+            "boundary": "S EXTENSION RD TO S HAMILTON ST AND W GUADALUPE RD TO W ELLIOT RD",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 22:54 MST",
+            "etr": "2026-07-10 01:52 MST"
+        },
+        {
+            "latitude": 33.5398627971121,
+            "longitude": -112.221673561485,
+            "boundary": "N 79TH AVE TO N 71ST AVE AND W ORANGEWOOD AVE TO W GLENDALE AVE",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 22:23 MST",
+            "etr": "2026-07-10 02:56 MST"
+        }
+    ]
+}
