@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-10 04:15:27 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.4797400079399,
+            "longitude": -111.957286855487,
+            "boundary": "N 56TH ST TO N 60TH ST AND E OSBORN RD TO E OAK ST",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-09 23:39 MST",
+            "etr": "2026-07-10 08:30 MST"
+        },
+        {
+            "latitude": 33.494189370268,
+            "longitude": -112.27961339881,
+            "boundary": "N 103RD AVE TO N 99TH AVE AND W CAMPBELL AVE TO W GARDEN LAKES PKWY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-10 02:30 MST",
+            "etr": "2026-07-10 11:00 MST"
+        },
+        {
+            "latitude": 33.43968928638735,
+            "longitude": -111.72983531683599,
+            "boundary": "N GREENFIELD RD TO N HIGLEY RD AND E MCLELLAN RD TO E BROWN RD",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-10 03:11 MST",
+            "etr": "2026-07-10 05:13 MST"
+        },
+        {
+            "latitude": 33.414516396282096,
+            "longitude": -111.6340094807905,
+            "boundary": "N 88TH ST TO S 96TH ST AND E RED MOUNTAIN FWY TO E BROADWAY RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-10 00:42 MST",
+            "etr": "2026-07-10 05:00 MST"
+        }
+    ]
+}
