@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-10 07:47:57 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 624
+    },
+    "outages": [
+        {
+            "latitude": 32.71958258368971,
+            "longitude": -114.63152390624354,
+            "city": "Yuma",
+            "boundary": "3rd St. to 4th St. and 10th Ave. to 9th Ave.",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-09 18:29:00 MST",
+            "etr": "2026-07-10 02:00:00 MST"
+        },
+        {
+            "latitude": 33.72366119311619,
+            "longitude": -111.9862838283237,
+            "city": "Phoenix",
+            "boundary": "Briles Rd to Lariat Ln and 44th St",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-09 22:29:00 MST",
+            "etr": "2026-07-10 01:30:00 MST"
+        },
+        {
+            "latitude": 32.59747619978176,
+            "longitude": -110.63414959983065,
+            "city": "San Manuel",
+            "boundary": "Copper Creek Rd to Redfield Canyon Rd and Nichols Ave to Reddington Rd",
+            "customers": 524,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-09 22:40:00 MST",
+            "etr": "2026-07-10 01:40:00 MST"
+        },
+        {
+            "latitude": 34.757701353074346,
+            "longitude": -112.0513803675583,
+            "city": "Clarkdale",
+            "boundary": "Avenida Dr to Lincoln Dr and AZ 89A to Rabbit Run",
+            "customers": 66,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-09 23:58:00 MST",
+            "etr": "2026-07-10 02:30:00 MST"
+        },
+        {
+            "latitude": 33.54933721228384,
+            "longitude": -111.90526998936579,
+            "city": "Scottsdale",
+            "boundary": "Via De Viva and Via de Fonda",
+            "customers": 8,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-10 00:24:00 MST",
+            "etr": "2026-07-10 03:15:00 MST"
+        }
+    ]
+}
