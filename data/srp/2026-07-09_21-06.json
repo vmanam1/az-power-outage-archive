@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-09 21:06:57 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 33.354553402440644,
+            "longitude": -111.69642935481349,
+            "boundary": "N RECKER RD TO S POWER RD AND E OLNEY AVE TO E ELLIOT RD",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-09 18:33 MST",
+            "etr": "2026-07-09 23:34 MST"
+        },
+        {
+            "latitude": 33.47302243073925,
+            "longitude": -111.7546644252655,
+            "boundary": "N 32ND ST TO N 40TH ST AND E THOMAS RD TO E MCDOWELL RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-09 20:36 MST",
+            "etr": "2026-07-09 22:33 MST"
+        },
+        {
+            "latitude": 33.5199210572289,
+            "longitude": -112.15832048225951,
+            "boundary": "NW GRAND AVE TO N 43RD AVE AND W BETHANY HOME RD TO W MISSOURI AVE",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-09 20:38 MST",
+            "etr": "2026-07-09 23:00 MST"
+        }
+    ]
+}

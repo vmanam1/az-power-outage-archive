@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-09 21:06:56 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1057
+    },
+    "outages": [
+        {
+            "latitude": 34.3061570212726,
+            "longitude": -112.09797752195628,
+            "city": "Mayer",
+            "boundary": "East Quail Run Dr to East Kino Rd and East Fremont Dr to South Rolling Ridge Dr",
+            "customers": 457,
+            "cause": "Fire",
+            "comments": "An issue affecting electrical equipment in the area has resulted in a power outage. Our crews are actively working to restore service  and we appreciate your patience as we complete repairs safely.",
+            "start_time": "2026-07-09 08:37:00 MST",
+            "etr": "2026-07-09 15:00:00 MST"
+        },
+        {
+            "latitude": 33.66495004189619,
+            "longitude": -112.1892894056845,
+            "city": "Glendale",
+            "boundary": "Beherend Dr to Piute Ave and 59th Ave",
+            "customers": 25,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-09 12:48:00 MST",
+            "etr": "2026-07-09 16:48:00 MST"
+        },
+        {
+            "latitude": 34.3137563950668,
+            "longitude": -109.9754750274131,
+            "city": "Show Low",
+            "boundary": "Silver Creek Dr. to Red Fox Ln. and Rain Bow Trout Dr. to KB Ranch Rd.",
+            "customers": 575,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-09 13:04:00 MST",
+            "etr": "2026-07-09 16:25:00 MST"
+        }
+    ]
+}
