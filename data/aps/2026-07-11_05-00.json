@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-11 05:00:17 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.36731460078788,
+            "longitude": -112.40665613389686,
+            "city": "Goodyear",
+            "boundary": "Hillside Dr to 165th Ave and Pedro Ln to Ardmore Rd",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-10 19:17:00 MST",
+            "etr": "2026-07-11 00:00:00 MST"
+        }
+    ]
+}
