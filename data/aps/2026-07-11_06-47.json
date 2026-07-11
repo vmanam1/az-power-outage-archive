@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-11 06:47:02 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 73
+    },
+    "outages": [
+        {
+            "latitude": 33.42018984501065,
+            "longitude": -112.77220218975843,
+            "city": "Tonopah",
+            "boundary": "Van Buren St to Baseline Rd and 339th Ave to 331st Ave",
+            "customers": 73,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-07-10 21:56:00 MST",
+            "etr": "2026-07-11 01:30:00 MST"
+        }
+    ]
+}

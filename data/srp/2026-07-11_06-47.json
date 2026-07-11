@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-11 06:47:02 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.46517293511815,
+            "longitude": -112.204272468217,
+            "boundary": "N 71ST AVE TO N 63RD AVE AND W ENCANTO BLVD TO W ROOSEVELT ST",
+            "customers": 7,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-10 20:45 MST",
+            "etr": "2026-07-11 08:00 MST"
+        }
+    ]
+}
