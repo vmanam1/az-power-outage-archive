@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-10 20:37:22 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 137
+    },
+    "outages": [
+        {
+            "latitude": 33.45406100136765,
+            "longitude": -112.13836353134211,
+            "city": "Phoenix",
+            "boundary": "Taylor St to Polk St and 37th Ave to 35th Ave",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-10 06:10:00 MST",
+            "etr": "2026-07-10 14:00:00 MST"
+        },
+        {
+            "latitude": 31.419192369928144,
+            "longitude": -109.63618948962583,
+            "city": "Douglas",
+            "boundary": "Yuma Rd to Coyote Crossing Rd and Kings Hwy",
+            "customers": 112,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-10 12:03:00 MST",
+            "etr": "2026-07-10 16:05:00 MST"
+        },
+        {
+            "latitude": 32.759095648197,
+            "longitude": -111.6680698888997,
+            "city": "Arizona City",
+            "boundary": "Raven Dr. to Concordia Dr. and Sunland Gin Dr. to Ventage Rd.",
+            "customers": 20,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-10 12:20:00 MST",
+            "etr": "2026-07-10 15:45:00 MST"
+        }
+    ]
+}

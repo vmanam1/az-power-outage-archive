@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-10 20:37:22 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 33.31848411041845,
+            "longitude": -112.0094328866765,
+            "boundary": "S 32ND ST TO S 36TH ST AND E RANCH N CIR TO E RAY RD",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-10 16:42 MST",
+            "etr": "2026-07-10 17:00 MST"
+        },
+        {
+            "latitude": 33.43782363267425,
+            "longitude": -111.823302367971,
+            "boundary": "N CENTER ST TO N HORNE AND E MCLELLAN RD TO E BROWN RD",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-10 17:15 MST",
+            "etr": "2026-07-10 17:43 MST"
+        },
+        {
+            "latitude": 33.4261218412357,
+            "longitude": -111.8645621366885,
+            "boundary": "N DOBSON RD TO N ALMA SCHOOL RD AND W RIO SALADO PKWY TO W UNIVERSITY DR",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-10 19:04 MST",
+            "etr": "2026-07-10 20:28 MST"
+        },
+        {
+            "latitude": 33.414595207521,
+            "longitude": -112.32470709145551,
+            "boundary": "S 127TH AVE TO S AVONDALE BLVD AND W LOWER BUCKEYE RD TO W BROADWAY RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-10 18:25 MST",
+            "etr": "2026-07-11 01:00 MST"
+        },
+        {
+            "latitude": 33.413160393245,
+            "longitude": -112.052383874874,
+            "boundary": "S 12TH ST TO S 16TH ST AND E MARICOPA FWY TO E BROADWAY RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-10 20:10 MST",
+            "etr": "2026-07-11 05:00 MST"
+        }
+    ]
+}
