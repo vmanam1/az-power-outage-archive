@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-11 12:20:14 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3075
+    },
+    "outages": [
+        {
+            "latitude": 33.42018984501065,
+            "longitude": -112.77220218975843,
+            "city": "Tonopah",
+            "boundary": "Van Buren St to Baseline Rd and 339th Ave to 331st Ave",
+            "customers": 5,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-07-10 21:56:00 MST",
+            "etr": "2026-07-11 06:00:00 MST"
+        },
+        {
+            "latitude": 33.646877265075105,
+            "longitude": -112.29121053036042,
+            "city": "Phoenix",
+            "boundary": "Friess Dr to Thunderbird Rd and 46th St to Tatum Blvd",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-11 01:39:00 MST",
+            "etr": "2026-07-11 06:00:00 MST"
+        },
+        {
+            "latitude": 33.41274170037124,
+            "longitude": -111.92305960002508,
+            "city": "Tempe",
+            "boundary": "University Dr To Broadway Rd And Rural Rd To Dorsey Ln",
+            "customers": 3064,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-11 04:57:00 MST",
+            "etr": "2026-07-11 09:00:00 MST"
+        }
+    ]
+}
