@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-11 08:07:26 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.330759839669795,
+            "longitude": -111.8130207465095,
+            "boundary": "S ISLANDS W DR TO S COOPER RD AND W WARNER RD TO E RAY RD",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-11 07:23 MST",
+            "etr": "2026-07-11 13:00 MST"
+        }
+    ]
+}

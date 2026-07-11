@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-11 08:07:25 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 124
+    },
+    "outages": [
+        {
+            "latitude": 33.42018984501065,
+            "longitude": -112.77220218975843,
+            "city": "Tonopah",
+            "boundary": "Van Buren St to Baseline Rd and 339th Ave to 331st Ave",
+            "customers": 73,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-07-10 21:56:00 MST",
+            "etr": "2026-07-11 03:00:00 MST"
+        },
+        {
+            "latitude": 33.646877265075105,
+            "longitude": -112.29121053036042,
+            "city": "Sun City",
+            "boundary": "Boswell Blvd to Welk Dr and Kaibab Dr to Sequoia Dr",
+            "customers": 11,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-10 23:44:00 MST",
+            "etr": "2026-07-11 02:10:00 MST"
+        },
+        {
+            "latitude": 33.56594497012549,
+            "longitude": -112.08218758717062,
+            "city": "Phoenix",
+            "boundary": "Puget Ave to Why Worry Ln and 9th Ave to Alive Ave",
+            "customers": 40,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-11 00:37:00 MST",
+            "etr": "2026-07-11 04:10:00 MST"
+        }
+    ]
+}
