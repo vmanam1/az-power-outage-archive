@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-11 16:01:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 176
+    },
+    "outages": [
+        {
+            "latitude": 35.03672521909933,
+            "longitude": -110.71727830383439,
+            "city": "Winslow",
+            "boundary": "Leppin Ranch Rd. to Mercury Ln. and Desert View Dr and 3rd St",
+            "customers": 158,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-07-11 05:56:00 MST",
+            "etr": "2026-07-11 12:00:00 MST"
+        },
+        {
+            "latitude": 33.713527291744235,
+            "longitude": -111.86695371995417,
+            "city": "Scottsdale",
+            "boundary": "Bills Place to Sunrise St and Coy St to Cameo St",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-11 07:50:00 MST",
+            "etr": "2026-07-11 11:30:00 MST"
+        },
+        {
+            "latitude": 34.386197515175034,
+            "longitude": -111.45502363230082,
+            "city": "Pine",
+            "boundary": "South Rd. to Torrie Pines Ln. and Pine Creek Dr. to Old County Rd.",
+            "customers": 13,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-11 07:35:00 MST",
+            "etr": "2026-07-11 11:15:00 MST"
+        }
+    ]
+}
