@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-11 14:01:07 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1109
+    },
+    "outages": [
+        {
+            "latitude": 35.03672521909933,
+            "longitude": -110.71727830383439,
+            "city": "Winslow",
+            "boundary": "Leppin Ranch Rd. to Mercury Ln. and Desert View Dr and 3rd St",
+            "customers": 1049,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-07-11 05:56:00 MST",
+            "etr": "2026-07-11 09:40:00 MST"
+        },
+        {
+            "latitude": 31.40292547694254,
+            "longitude": -109.93138309108619,
+            "city": "Bisbee",
+            "boundary": "Bills Place to Cochise Ln and Sunrise Trail to James St",
+            "customers": 60,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-11 06:15:00 MST",
+            "etr": "2026-07-11 09:00:00 MST"
+        }
+    ]
+}

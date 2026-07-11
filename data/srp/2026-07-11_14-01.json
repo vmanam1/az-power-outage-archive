@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-11 14:01:08 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 26
+    },
+    "outages": [
+        {
+            "latitude": 33.458639502611945,
+            "longitude": -111.978768154985,
+            "boundary": "N HOHOKAM EXPY TO N 52ND ST AND E MCDOWELL RD TO E VAN BUREN ST",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-11 12:46 MST",
+            "etr": "2026-07-11 16:00 MST"
+        },
+        {
+            "latitude": 33.35476546549075,
+            "longitude": -111.72581534505551,
+            "boundary": "N 164TH ST TO N HIGLEY RD AND E OLNEY AVE TO E ELLIOT RD",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 12:49 MST",
+            "etr": "2026-07-11 19:00 MST"
+        }
+    ]
+}
