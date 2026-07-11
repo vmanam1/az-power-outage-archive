@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-10 17:06:47 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 32.32061038847674,
+            "longitude": -111.1883156424176,
+            "customers": 15,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-10 23:40:00 MST",
+            "etr": "2026-07-11 02:40:00 MST"
+        }
+    ]
+}

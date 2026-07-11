@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-10 17:06:33 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 372
+    },
+    "outages": [
+        {
+            "latitude": 33.45406100136765,
+            "longitude": -112.13836353134211,
+            "city": "Phoenix",
+            "boundary": "Taylor St to Polk St and 37th Ave to 35th Ave",
+            "customers": 7,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-10 06:10:00 MST",
+            "etr": "2026-07-10 13:00:00 MST"
+        },
+        {
+            "latitude": 34.75008390008362,
+            "longitude": -112.03457140008399,
+            "city": "Cottonwood",
+            "boundary": "Pecks Lake Rd To Grahm St And W/O Cement Plant Rd To Golden Eagle Rd",
+            "customers": 188,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-10 07:36:00 MST",
+            "etr": "2026-07-10 13:00:00 MST"
+        },
+        {
+            "latitude": 33.487947199974094,
+            "longitude": -112.11173329993449,
+            "city": "Phoenix",
+            "boundary": "Indian School Rd To Catalina Dr  And 32Nd Ave To 21St Dr",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-10 07:28:00 MST",
+            "etr": "2026-07-10 13:00:00 MST"
+        },
+        {
+            "latitude": 34.608224851149174,
+            "longitude": -112.29865741764037,
+            "city": "Prescott Valley",
+            "boundary": "McClintock Cir to Superstition Dr and Tonopah Dr to Kearny Dr",
+            "customers": 62,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-10 08:47:00 MST",
+            "etr": "2026-07-10 12:15:00 MST"
+        },
+        {
+            "latitude": 34.757701353074346,
+            "longitude": -112.0513803675583,
+            "city": "Clarkdale",
+            "boundary": "Avenida Centerville to Lincoln Dr and Calle Rosas to Rabbit Run",
+            "customers": 108,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-10 08:51:00 MST",
+            "etr": "2026-07-10 11:30:00 MST"
+        }
+    ]
+}
