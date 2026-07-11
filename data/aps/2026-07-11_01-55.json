@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-11 01:55:42 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.70407113420027,
+            "longitude": -112.1895496054015,
+            "city": "Glendale",
+            "boundary": "Alameda Rd to Calle Lejos and Cielo Grande",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-10 17:00:00 MST",
+            "etr": "2026-07-10 20:00:00 MST"
+        }
+    ]
+}
