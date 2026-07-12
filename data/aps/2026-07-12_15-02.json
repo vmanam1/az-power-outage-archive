@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-12 15:02:07 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.595823586627645,
+            "longitude": -112.03183978859501,
+            "city": "Phoenix",
+            "boundary": "Cactus Rd. to Laurel Ln. and 22nd St. to 24th St.",
+            "customers": 12,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-12 06:32:00 MST",
+            "etr": "2026-07-12 09:15:00 MST"
+        },
+        {
+            "latitude": 33.40109369682221,
+            "longitude": -110.777574660314,
+            "city": "Globe",
+            "boundary": "Mesquite St to Cedar St and 6th St to Josephine St",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 07:45:00 MST",
+            "etr": "2026-07-12 11:00:00 MST"
+        },
+        {
+            "latitude": 33.70636080316701,
+            "longitude": -112.41642243261285,
+            "city": "Surprise",
+            "boundary": "166th Dr and Audrey Ave",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-12 07:48:00 MST",
+            "etr": "2026-07-12 09:30:00 MST"
+        }
+    ]
+}
