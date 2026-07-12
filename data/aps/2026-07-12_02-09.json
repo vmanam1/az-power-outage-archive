@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-12 02:09:52 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 147
+    },
+    "outages": [
+        {
+            "latitude": 33.53098151963589,
+            "longitude": -112.07794454224977,
+            "city": "Phoenix",
+            "boundary": "Sierra Vista Dr. to Maryland Ave. and 3rd Ave to 2nd Dr.",
+            "customers": 22,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-11 17:05:00 MST",
+            "etr": "2026-07-11 20:00:00 MST"
+        },
+        {
+            "latitude": 33.35440886811373,
+            "longitude": -111.7825481038932,
+            "city": "Gilbert",
+            "boundary": "Stonebridge Dr to Page Ave and Cottonwood Dr to Burk St",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-11 17:37:00 MST",
+            "etr": "2026-07-11 20:30:00 MST"
+        },
+        {
+            "latitude": 33.6385856540196,
+            "longitude": -111.95836440399061,
+            "city": "Scottsdale",
+            "boundary": "Bell Rd to Aire Libre Ave and 56th St to 57th St",
+            "customers": 120,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-11 18:59:00 MST",
+            "etr": "2026-07-11 22:00:00 MST"
+        }
+    ]
+}

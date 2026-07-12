@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-12 02:09:52 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 99
+    },
+    "outages": [
+        {
+            "latitude": 33.414150698884,
+            "longitude": -112.04829562614,
+            "boundary": "S 12TH ST TO S 20TH ST AND E MARICOPA FWY TO E BROADWAY RD",
+            "customers": 38,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-11 20:23 MST",
+            "etr": "2026-07-12 06:00 MST"
+        },
+        {
+            "latitude": 33.414856484021996,
+            "longitude": -111.746170212853,
+            "boundary": "S VAL VISTA DR TO S GREENFIELD RD AND E UNIVERSITY DR TO E BROADWAY RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 22:09 MST",
+            "etr": "2026-07-12 08:04 MST"
+        },
+        {
+            "latitude": 33.5170982858742,
+            "longitude": -112.15236343347601,
+            "boundary": "NW GRAND AVE TO N 39TH AVE AND W BETHANY HOME RD TO NW GRAND AVE",
+            "customers": 43,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 22:39 MST",
+            "etr": "2026-07-12 06:00 MST"
+        },
+        {
+            "latitude": 33.52213519052185,
+            "longitude": -112.151216336449,
+            "boundary": "N 47TH AVE TO N 39TH AVE AND W MARYLAND AVE TO W MISSOURI AVE",
+            "customers": 6,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 22:33 MST",
+            "etr": "2026-07-12 06:00 MST"
+        },
+        {
+            "latitude": 33.47129834495385,
+            "longitude": -112.201328243201,
+            "boundary": "N 71ST AVE TO N 63RD AVE AND W ENCANTO BLVD TO W MCDOWELL RD",
+            "customers": 11,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 17:13 MST",
+            "etr": "2026-07-12 03:00 MST"
+        }
+    ]
+}
