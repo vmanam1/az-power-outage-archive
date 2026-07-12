@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-12 04:20:16 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 392
+    },
+    "outages": [
+        {
+            "latitude": 33.53098151963589,
+            "longitude": -112.07794454224977,
+            "city": "Phoenix",
+            "boundary": "Sierra Vista Dr. to Maryland Ave. and 3rd Ave to 2nd Dr.",
+            "customers": 22,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-11 17:05:00 MST",
+            "etr": "2026-07-11 23:00:00 MST"
+        },
+        {
+            "latitude": 33.6385856540196,
+            "longitude": -111.95836440399061,
+            "city": "Scottsdale",
+            "boundary": "Bell Rd to Aire Libre Ave and 56th St to 57th St",
+            "customers": 120,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-11 18:59:00 MST",
+            "etr": "2026-07-11 23:00:00 MST"
+        },
+        {
+            "latitude": 31.364165301677357,
+            "longitude": -110.16000638983324,
+            "city": "Hereford",
+            "boundary": "State Route 92 to Xana Wy and Hutchinson Rd to Palominas Rd",
+            "customers": 45,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-11 19:15:00 MST",
+            "etr": "2026-07-11 22:40:00 MST"
+        },
+        {
+            "latitude": 33.63792515610127,
+            "longitude": -112.14755970438155,
+            "city": "Phoenix",
+            "boundary": "Bell Rd. to Kings Ave. to 42nd Ave. to 40th Ave.",
+            "customers": 171,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-11 19:37:00 MST",
+            "etr": "2026-07-11 23:10:00 MST"
+        },
+        {
+            "latitude": 32.88443030732851,
+            "longitude": -111.74468261897262,
+            "city": "Casa Grande",
+            "boundary": "11th St to 10th St and Brown Ave to Kadota Ave",
+            "customers": 34,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-11 21:06:00 MST",
+            "etr": "2026-07-12 00:15:00 MST"
+        }
+    ]
+}

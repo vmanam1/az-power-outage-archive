@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-12 04:20:17 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 1204
+    },
+    "outages": [
+        {
+            "latitude": 33.414150698884,
+            "longitude": -112.04829562614,
+            "boundary": "S 12TH ST TO S 20TH ST AND E MARICOPA FWY TO E BROADWAY RD",
+            "customers": 38,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-11 20:23 MST",
+            "etr": "2026-07-12 06:00 MST"
+        },
+        {
+            "latitude": 33.414856484021996,
+            "longitude": -111.746170212853,
+            "boundary": "S VAL VISTA DR TO S GREENFIELD RD AND E UNIVERSITY DR TO E BROADWAY RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 22:09 MST",
+            "etr": "2026-07-12 08:04 MST"
+        },
+        {
+            "latitude": 33.5170982858742,
+            "longitude": -112.15236343347601,
+            "boundary": "NW GRAND AVE TO N 39TH AVE AND W BETHANY HOME RD TO NW GRAND AVE",
+            "customers": 43,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 22:39 MST",
+            "etr": "2026-07-12 06:00 MST"
+        },
+        {
+            "latitude": 33.52213519052185,
+            "longitude": -112.151216336449,
+            "boundary": "N 47TH AVE TO N 39TH AVE AND W MARYLAND AVE TO W MISSOURI AVE",
+            "customers": 6,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 22:33 MST",
+            "etr": "2026-07-12 06:00 MST"
+        },
+        {
+            "latitude": 33.35884785215115,
+            "longitude": -111.9272552238245,
+            "boundary": "S ALL AMERICAN WAY TO S LAKESHORE DR AND E GUADALUPE RD TO E ELLIOT RD",
+            "customers": 33,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 03:24 MST",
+            "etr": "2026-07-12 05:24 MST"
+        },
+        {
+            "latitude": 33.465153166405955,
+            "longitude": -112.187286089891,
+            "boundary": "N 67TH AVE TO N 51ST AVE AND W THOMAS RD TO W VAN BUREN ST",
+            "customers": 1036,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 03:17 MST",
+            "etr": "2026-07-12 05:33 MST"
+        },
+        {
+            "latitude": 33.50542259516175,
+            "longitude": -112.2185679663425,
+            "boundary": "N 79TH AVE TO N 71ST AVE AND W CAMELBACK RD TO W SELLS DR",
+            "customers": 47,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-12 03:56 MST",
+            "etr": "2026-07-12 07:00 MST"
+        }
+    ]
+}
