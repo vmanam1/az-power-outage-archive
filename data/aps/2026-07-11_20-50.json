@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-11 20:50:23 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 930
+    },
+    "outages": [
+        {
+            "latitude": 33.407465699643474,
+            "longitude": -110.84553300027846,
+            "city": "Globe",
+            "boundary": "Us 60 To Milton Avenue And Latham Boulevard To Russell Road",
+            "customers": 637,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-11 09:56:00 MST",
+            "etr": "2026-07-11 15:00:00 MST"
+        },
+        {
+            "latitude": 35.04311818714388,
+            "longitude": -110.7244212191885,
+            "city": "Winslow",
+            "boundary": "Papago Blvd to Hipikoe Dr  and Yuma Dr to Kathie Dr",
+            "customers": 5,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-11 11:40:00 MST",
+            "etr": "2026-07-11 15:00:00 MST"
+        },
+        {
+            "latitude": 32.711209165816406,
+            "longitude": -111.49825804584066,
+            "city": "Picacho",
+            "boundary": "Milligan Rd to Spur St and Sunshine Blvd to Central Main Canal",
+            "customers": 123,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-11 12:09:00 MST",
+            "etr": "2026-07-11 15:40:00 MST"
+        },
+        {
+            "latitude": 31.37829646291223,
+            "longitude": -110.12523074926561,
+            "city": "Hereford",
+            "boundary": "State Route 92 to Internation Rd. and Hutchinson Rd. to Blm Rd.",
+            "customers": 165,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-11 13:25:00 MST",
+            "etr": "2026-07-11 17:30:00 MST"
+        }
+    ]
+}
