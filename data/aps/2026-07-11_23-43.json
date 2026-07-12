@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-11 23:43:22 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 53
+    },
+    "outages": [
+        {
+            "latitude": 33.353818763233626,
+            "longitude": -111.78369046718552,
+            "city": "Gilbert",
+            "boundary": "Stonebridge Dr. to Cullumber Ave. and Cottonwood Dr. to Riata St.",
+            "customers": 42,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-11 14:06:00 MST",
+            "etr": "2026-07-11 18:00:00 MST"
+        },
+        {
+            "latitude": 31.3488473718336,
+            "longitude": -109.4916558317251,
+            "city": "Douglas",
+            "boundary": "Geronimo Trail and Duffy Pl to Alegre Pl",
+            "customers": 11,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-11 16:30:00 MST",
+            "etr": "2026-07-11 20:00:00 MST"
+        }
+    ]
+}
