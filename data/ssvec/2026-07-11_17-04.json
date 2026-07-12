@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-07-11 17:04:46 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "incident_id": 17755,
+            "latitude": 31.957283355511578,
+            "longitude": -110.45123528913157,
+            "city": "Benson",
+            "customers": 2,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-11 16:31:35 MST",
+            "etr": "2026-07-11 19:31:35 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17725,
+            "latitude": 31.998461183203414,
+            "longitude": -110.0908504506679,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-07-09 10:07:15 MST",
+            "etr": "2026-07-09 13:07:15 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17754,
+            "latitude": 32.050836188630825,
+            "longitude": -110.32438814197016,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-11 16:31:10 MST",
+            "etr": "2026-07-11 19:31:10 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17747,
+            "latitude": 31.72939049805475,
+            "longitude": -109.70292045960728,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-10 18:38:53 MST",
+            "etr": "2026-07-10 21:38:53 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17729,
+            "latitude": 31.53727949952068,
+            "longitude": -110.75722650004487,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-09 14:51:38 MST",
+            "etr": "2026-07-09 17:51:38 MST",
+            "restored_time": null
+        }
+    ]
+}
