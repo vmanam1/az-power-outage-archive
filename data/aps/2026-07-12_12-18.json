@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-12 12:18:56 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 39
+    },
+    "outages": [
+        {
+            "latitude": 33.565962331324975,
+            "longitude": -112.07887898957127,
+            "city": "Phoenix",
+            "boundary": "Puget Ave to Why Worry Ln and 9th Ave to Alice Ave",
+            "customers": 39,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 05:01:00 MST",
+            "etr": "2026-07-12 09:00:00 MST"
+        }
+    ]
+}
