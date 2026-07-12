@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-12 10:11:52 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 11
+    },
+    "outages": [
+        {
+            "latitude": 33.44677835111773,
+            "longitude": -112.35775223341003,
+            "city": "Goodyear",
+            "boundary": "La Mar Blvd to La Canada Blvd and Litchfield Rd to Las Palmas Dr",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 03:03:00 MST",
+            "etr": "2026-07-12 06:10:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-12 10:11:53 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 33.46458222279495,
+            "longitude": -112.2155499497365,
+            "boundary": "N 75TH AVE TO N 71ST AVE AND W ENCANTO BLVD TO W ROOSEVELT ST",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 10:01 MST",
+            "etr": "2026-07-12 12:01 MST"
+        }
+    ]
+}
