@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-12 14:02:01 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 626
+    },
+    "outages": [
+        {
+            "latitude": 31.49570489501022,
+            "longitude": -109.54519520257136,
+            "city": "Douglas",
+            "boundary": "Leslie Canyon Rd and US Highway 80",
+            "customers": 22,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 06:38:00 MST",
+            "etr": "2026-07-12 10:00:00 MST"
+        },
+        {
+            "latitude": 33.595823586627645,
+            "longitude": -112.03183978859501,
+            "city": "Phoenix",
+            "boundary": "Cactus Rd. to Laurel Ln. and 22nd St. to 24th St.",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 06:32:00 MST",
+            "etr": "2026-07-12 09:15:00 MST"
+        },
+        {
+            "latitude": 33.57667015421532,
+            "longitude": -112.08491380337802,
+            "city": "Phoenix",
+            "boundary": "Cheryl Dr to Hatcher Rd and 13th Ave to 7th Ave",
+            "customers": 592,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 06:49:00 MST",
+            "etr": "2026-07-12 10:20:00 MST"
+        }
+    ]
+}

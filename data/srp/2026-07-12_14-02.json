@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-12 14:02:01 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 758
+    },
+    "outages": [
+        {
+            "latitude": 33.465359929937506,
+            "longitude": -112.215665229593,
+            "boundary": "N 75TH AVE TO N 71ST AVE AND W ENCANTO BLVD TO W PAPAGO FWY",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 10:01 MST",
+            "etr": "2026-07-12 16:04 MST"
+        },
+        {
+            "latitude": 33.510598601379755,
+            "longitude": -112.19427264454549,
+            "boundary": "N 67TH AVE TO N 59TH AVE AND W MISSOURI AVE TO W CAMPBELL AVE",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 12:32 MST",
+            "etr": "2026-07-12 14:12 MST"
+        },
+        {
+            "latitude": 33.37154095276335,
+            "longitude": -112.055448478324,
+            "boundary": "S 1ST ST TO S 20TH ST AND E VINEYARD RD TO E MINERAL RD",
+            "customers": 743,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 10:26 MST",
+            "etr": "2026-07-12 14:00 MST"
+        }
+    ]
+}
