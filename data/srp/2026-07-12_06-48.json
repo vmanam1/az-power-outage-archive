@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-12 06:48:55 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 73
+    },
+    "outages": [
+        {
+            "latitude": 33.414856484021996,
+            "longitude": -111.746170212853,
+            "boundary": "S VAL VISTA DR TO S GREENFIELD RD AND E UNIVERSITY DR TO E BROADWAY RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 22:09 MST",
+            "etr": "2026-07-12 08:04 MST"
+        },
+        {
+            "latitude": 33.52182129632495,
+            "longitude": -112.151216271984,
+            "boundary": "N 47TH AVE TO N 39TH AVE AND W MARYLAND AVE TO W MISSOURI AVE",
+            "customers": 4,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 22:33 MST",
+            "etr": "2026-07-12 07:30 MST"
+        },
+        {
+            "latitude": 33.5170982858742,
+            "longitude": -112.15236343347601,
+            "boundary": "NW GRAND AVE TO N 39TH AVE AND W BETHANY HOME RD TO NW GRAND AVE",
+            "customers": 43,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-11 22:39 MST",
+            "etr": "2026-07-12 07:30 MST"
+        },
+        {
+            "latitude": 33.35884785215115,
+            "longitude": -111.927755550849,
+            "boundary": "S ALL AMERICAN WAY TO S LAKESHORE DR AND E GUADALUPE RD TO E ELLIOT RD",
+            "customers": 25,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 03:24 MST",
+            "etr": "2026-07-12 10:30 MST"
+        }
+    ]
+}
