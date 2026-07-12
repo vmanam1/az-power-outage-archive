@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-12 16:01:17 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 2207
+    },
+    "outages": [
+        {
+            "latitude": 33.595823586627645,
+            "longitude": -112.03183978859501,
+            "city": "Phoenix",
+            "boundary": "Cactus Rd. to Laurel Ln. and 22nd St. to 24th St.",
+            "customers": 12,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-12 06:32:00 MST",
+            "etr": "2026-07-12 11:15:00 MST"
+        },
+        {
+            "latitude": 33.70636080316701,
+            "longitude": -112.41642243261285,
+            "city": "Surprise",
+            "boundary": "166th Dr and Audrey Ave",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-12 07:48:00 MST",
+            "etr": "2026-07-12 09:55:00 MST"
+        },
+        {
+            "latitude": 35.23410314878408,
+            "longitude": -112.11095730285271,
+            "city": "Williams",
+            "boundary": "Mountain Man Trail to Pinetree Dr. and Depot Rd. to Garland Praire Rd.",
+            "customers": 108,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 08:03:00 MST",
+            "etr": "2026-07-12 11:30:00 MST"
+        },
+        {
+            "latitude": 34.45188463078427,
+            "longitude": -112.40017448818634,
+            "city": "Prescott",
+            "boundary": "Bradshaw Dr. to Yankee Doodle Dr. and Copper Lode Dr. to Dahlin Rd.",
+            "customers": 499,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 08:18:00 MST",
+            "etr": "2026-07-12 11:45:00 MST"
+        },
+        {
+            "latitude": 34.85568614074122,
+            "longitude": -112.4884828026598,
+            "city": "Paulden",
+            "boundary": "Gunsite Rd. to Frontier Rd. and Antelope Rd. to Roberts Rd.",
+            "customers": 276,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 08:32:00 MST",
+            "etr": "2026-07-12 12:00:00 MST"
+        },
+        {
+            "latitude": 33.619551224122944,
+            "longitude": -112.02656500341753,
+            "city": "Phoenix",
+            "boundary": "Marilyn Rd. to Acoma Dr. and 23rd Pl. to 25th Pl.",
+            "customers": 51,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-12 08:35:00 MST",
+            "etr": "2026-07-12 11:15:00 MST"
+        },
+        {
+            "latitude": 33.82821200005658,
+            "longitude": -111.92565699961735,
+            "city": "Cave Creek",
+            "boundary": "Grapevine Rd To Leisure Ln And Basin Rd To Pima Rd",
+            "customers": 1256,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 08:54:00 MST",
+            "etr": "2026-07-12 13:00:00 MST"
+        }
+    ]
+}

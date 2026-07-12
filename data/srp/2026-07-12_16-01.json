@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-12 16:01:17 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 384
+    },
+    "outages": [
+        {
+            "latitude": 33.377435021787605,
+            "longitude": -112.047914863991,
+            "boundary": "S 12TH ST TO S 20TH ST AND E VINEYARD RD TO E SOUTH MOUNTAIN AVE",
+            "customers": 4,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 10:26 MST",
+            "etr": "2026-07-12 21:30 MST"
+        },
+        {
+            "latitude": 33.510598601379755,
+            "longitude": -112.19427264454549,
+            "boundary": "N 67TH AVE TO N 59TH AVE AND W MISSOURI AVE TO W CAMPBELL AVE",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 12:32 MST",
+            "etr": "2026-07-12 17:43 MST"
+        },
+        {
+            "latitude": 33.52596226838965,
+            "longitude": -111.8468658400605,
+            "boundary": "N PIMA LOOP TO N STAPLEY DR AND UNKNOWN TO E OSBORN RD",
+            "customers": 354,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 15:27 MST",
+            "etr": "2026-07-12 17:26 MST"
+        },
+        {
+            "latitude": 33.3982549415418,
+            "longitude": -111.672552697867,
+            "boundary": "S 72ND ST TO S SOSSAMAN AVE AND E BROADWAY RD TO E SOUTHERN AVE",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 16:00 MST",
+            "etr": "2026-07-12 17:57 MST"
+        }
+    ]
+}
