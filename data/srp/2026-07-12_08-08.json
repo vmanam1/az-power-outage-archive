@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-12 08:08:05 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.35884785215115,
+            "longitude": -111.927755550849,
+            "boundary": "S ALL AMERICAN WAY TO S LAKESHORE DR AND E GUADALUPE RD TO E ELLIOT RD",
+            "customers": 25,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 03:24 MST",
+            "etr": "2026-07-12 10:30 MST"
+        },
+        {
+            "latitude": 33.5576726086735,
+            "longitude": -111.884844151581,
+            "boundary": "N PIMA RD TO N PIMA LOOP AND NORTHERN BOUNDS OF SERVICE TERRITORY TO E VIA DE VENTURA",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-12 07:59 MST",
+            "etr": "2026-07-12 13:56 MST"
+        }
+    ]
+}

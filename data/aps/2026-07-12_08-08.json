@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-12 08:08:04 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 70
+    },
+    "outages": [
+        {
+            "latitude": 35.30448593268025,
+            "longitude": -111.54758752768491,
+            "city": "Flagstaff",
+            "boundary": "Timberline Tl. to Campbell Ave. and Valley View Dr. to Zady Ln.",
+            "customers": 20,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-11 22:02:00 MST",
+            "etr": "2026-07-12 01:25:00 MST"
+        },
+        {
+            "latitude": 33.629052504906454,
+            "longitude": -112.03582689001665,
+            "city": "Phoenix",
+            "boundary": "Linda Ct. to Greenway Rd. and 20th St. to 22nd St.",
+            "customers": 50,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-11 23:48:00 MST",
+            "etr": "2026-07-12 02:45:00 MST"
+        }
+    ]
+}
