@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-13 04:25:23 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 260
+    },
+    "outages": [
+        {
+            "latitude": 33.414150698884,
+            "longitude": -112.04829562614,
+            "boundary": "S 12TH ST TO S 20TH ST AND E MARICOPA FWY TO E BROADWAY RD",
+            "customers": 38,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-12 21:11 MST",
+            "etr": "2026-07-13 05:00 MST"
+        },
+        {
+            "latitude": 33.344738994704656,
+            "longitude": -111.9943792684665,
+            "boundary": "S 36TH ST TO S WARNER-ELLIOT LOOP AND E ELLIOT RD TO E WARNER RD",
+            "customers": 53,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 23:10 MST",
+            "etr": "2026-07-13 07:00 MST"
+        },
+        {
+            "latitude": 33.344651021800345,
+            "longitude": -111.8771275847495,
+            "boundary": "N CARRIAGE LN TO N ALMA SCHOOL RD AND W ELLIOT RD TO W MESQUITE ST",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 01:54 MST",
+            "etr": "2026-07-13 02:38 MST"
+        },
+        {
+            "latitude": 33.39528374010205,
+            "longitude": -111.8705194901365,
+            "boundary": "S DOBSON RD TO S LONGMORE AND W 8TH AVE TO W SOUTHERN AVE",
+            "customers": 10,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 00:06 MST",
+            "etr": "2026-07-13 06:00 MST"
+        },
+        {
+            "latitude": 33.56821467316215,
+            "longitude": -112.11338741345699,
+            "boundary": "N BLACK CANYON HWY TO N 23RD AVE AND W MOUNTAIN VIEW RD TO W BUTLER DR",
+            "customers": 24,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 19:38 MST",
+            "etr": "2026-07-13 06:00 MST"
+        },
+        {
+            "latitude": 33.3828389629647,
+            "longitude": -111.482247751477,
+            "boundary": "S MOUNTAIN VIEW RD TO S EDGEMORE RD AND E SOUTHERN AVE TO E HWY 60",
+            "customers": 103,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 01:02 MST",
+            "etr": "2026-07-13 05:00 MST"
+        },
+        {
+            "latitude": 33.4033163252665,
+            "longitude": -111.618536513911,
+            "boundary": "S 96TH ST TO S CRISMON RD AND E BROADWAY RD TO E PUEBLO AVE",
+            "customers": 30,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 04:02 MST",
+            "etr": "2026-07-13 06:01 MST"
+        }
+    ]
+}

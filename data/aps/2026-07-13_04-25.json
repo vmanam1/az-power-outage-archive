@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-13 04:25:22 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 91
+    },
+    "outages": [
+        {
+            "latitude": 33.199425091320236,
+            "longitude": -112.42383800372369,
+            "city": "Buckeye",
+            "boundary": "West Riggs Rd to West Patterson Rd and South Cotton Ln",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 16:08:00 MST",
+            "etr": "2026-07-12 23:15:00 MST"
+        },
+        {
+            "latitude": 33.96034225319336,
+            "longitude": -112.74299733194933,
+            "city": "Wickenburg",
+            "boundary": "Palo Verde Dr and South Mariposa Dr to Earl Dr",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 21:12:00 MST",
+            "etr": "2026-07-13 00:00:00 MST"
+        },
+        {
+            "latitude": 31.415913269988433,
+            "longitude": -109.54705125220408,
+            "city": "Douglas",
+            "boundary": "East Madrone Dr to East Golf Course Rd and Guadalajara Rd to Leslie Canyone Rd",
+            "customers": 70,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 21:17:00 MST",
+            "etr": "2026-07-13 00:30:00 MST"
+        }
+    ]
+}
