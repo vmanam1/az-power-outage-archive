@@ -1,0 +1,179 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-13 00:32:00 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 15,
+        "customers_affected": 2773
+    },
+    "outages": [
+        {
+            "latitude": 33.457764844024595,
+            "longitude": -112.13850918957215,
+            "city": "Phoenix",
+            "boundary": "Roosevelt St to Mckinley St and 37th Ave to 36th Ave",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 12:56:00 MST",
+            "etr": "2026-07-12 19:00:00 MST"
+        },
+        {
+            "latitude": 34.7333768836816,
+            "longitude": -112.0263667093017,
+            "city": "Cottonwood",
+            "boundary": "East Beech St to AZ89 and South Willard St to South 6th St",
+            "customers": 17,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-12 13:08:00 MST",
+            "etr": "2026-07-12 18:00:00 MST"
+        },
+        {
+            "latitude": 32.93978627571554,
+            "longitude": -112.69828907677736,
+            "city": "Gila Bend",
+            "boundary": "Main St to Walnut St and 1st St to 2nd St",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 13:42:00 MST",
+            "etr": "2026-07-12 19:00:00 MST"
+        },
+        {
+            "latitude": 33.01565409979309,
+            "longitude": -113.34971609987312,
+            "city": "Dateland",
+            "boundary": "County 21St St To Skousen And Avenue 76E To Hyder Rd",
+            "customers": 137,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 14:12:00 MST",
+            "etr": "2026-07-12 19:00:00 MST"
+        },
+        {
+            "latitude": 33.52331381401481,
+            "longitude": -112.08221818828075,
+            "city": "Wickenburg",
+            "boundary": "Bethany Home Rd to Palo Verde Dr and 7th Ave to 5th Ave",
+            "customers": 11,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-12 15:26:00 MST",
+            "etr": "2026-07-12 18:15:00 MST"
+        },
+        {
+            "latitude": 33.61970189373143,
+            "longitude": -111.98805525486,
+            "city": "Phoenix",
+            "boundary": "Nisbet Rd to Acoma Dr and 42nd St to 44th St",
+            "customers": 58,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-12 15:34:00 MST",
+            "etr": "2026-07-12 18:30:00 MST"
+        },
+        {
+            "latitude": 33.199425091320236,
+            "longitude": -112.42383800372369,
+            "city": "Buckeye",
+            "boundary": "West Riggs Rd to West Patterson Rd and South Cotton Ln",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 16:08:00 MST",
+            "etr": "2026-07-12 19:45:00 MST"
+        },
+        {
+            "latitude": 31.349755300204954,
+            "longitude": -109.55975100037868,
+            "city": "Douglas",
+            "boundary": "Lawrence Ave. to International Ave. and F Ave. to Airport Rd.",
+            "customers": 1645,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 16:27:00 MST",
+            "etr": "2026-07-13 00:00:00 MST"
+        },
+        {
+            "latitude": 31.3908190709337,
+            "longitude": -109.59566004983186,
+            "city": "Douglas",
+            "boundary": "Double Adobe Rd to Tierra Buena Pl and Brooks Rd to US 191",
+            "customers": 112,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 16:35:00 MST",
+            "etr": "2026-07-13 00:00:00 MST"
+        },
+        {
+            "latitude": 31.379052999790733,
+            "longitude": -109.63037199984588,
+            "city": "Douglas",
+            "boundary": "Oro Road To Mexican Border And Rose Ct To Central Hwy",
+            "customers": 76,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 16:53:00 MST",
+            "etr": "2026-07-13 00:00:00 MST"
+        },
+        {
+            "latitude": 31.346377605047397,
+            "longitude": -109.54519711508462,
+            "city": "Douglas",
+            "boundary": "13th St to 10th St and C Ave to Bonita Ave",
+            "customers": 100,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 17:01:00 MST",
+            "etr": "2026-07-13 00:00:00 MST"
+        },
+        {
+            "latitude": 31.378027074320027,
+            "longitude": -109.63136087429379,
+            "city": "Douglas",
+            "boundary": "West El Sol Dr to US80 and Valley Vista Ave to North Plantation Rd",
+            "customers": 84,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 17:02:00 MST",
+            "etr": "2026-07-13 00:00:00 MST"
+        },
+        {
+            "latitude": 31.404073160823888,
+            "longitude": -109.91698424692532,
+            "city": "Bisbee",
+            "boundary": "Emerris St to Santa Cruz Dr and Navajo Dr to Bisbee - Naco Hwy",
+            "customers": 385,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 17:04:00 MST",
+            "etr": "2026-07-13 00:00:00 MST"
+        },
+        {
+            "latitude": 31.382489794826125,
+            "longitude": -109.97153261538018,
+            "city": "Bisbee",
+            "boundary": "West Oldsmobile Rd to West Purdy Ln and South Rio Vista Rd to Naco Highway",
+            "customers": 10,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 17:07:00 MST",
+            "etr": "2026-07-13 00:00:00 MST"
+        },
+        {
+            "latitude": 31.47987402277441,
+            "longitude": -109.98101468803863,
+            "city": "Bisbee",
+            "boundary": "AZ 90 to Juniper Flats Rd and Historic US 80",
+            "customers": 94,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 17:11:00 MST",
+            "etr": "2026-07-13 00:00:00 MST"
+        }
+    ]
+}

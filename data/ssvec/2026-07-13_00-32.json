@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-07-13 00:32:02 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 27
+    },
+    "outages": [
+        {
+            "incident_id": 17874,
+            "latitude": 31.375123620499956,
+            "longitude": -110.17609088702378,
+            "city": "Sierra Vista",
+            "customers": 2,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-13 00:15:11 MST",
+            "etr": "2026-07-13 03:15:11 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17782,
+            "latitude": 31.67371527101418,
+            "longitude": -110.61306468181161,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-12 15:57:25 MST",
+            "etr": "2026-07-12 18:57:25 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17725,
+            "latitude": 31.998461183203414,
+            "longitude": -110.0908504506679,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-07-09 10:07:15 MST",
+            "etr": "2026-07-09 13:07:15 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17873,
+            "latitude": 31.49896317357313,
+            "longitude": -109.75033377811113,
+            "city": "Elfrida",
+            "customers": 2,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-13 00:12:53 MST",
+            "etr": "2026-07-13 03:12:53 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17747,
+            "latitude": 31.72939049805475,
+            "longitude": -109.70292045960728,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-10 18:38:53 MST",
+            "etr": "2026-07-10 21:38:53 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17729,
+            "latitude": 31.53727949952068,
+            "longitude": -110.75722650004487,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-09 14:51:38 MST",
+            "etr": "2026-07-09 17:51:38 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 17783,
+            "latitude": 32.25570438161533,
+            "longitude": -109.47793059992343,
+            "city": "Willcox",
+            "customers": 19,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-07-12 16:00:40 MST",
+            "etr": "2026-07-12 19:00:40 MST",
+            "restored_time": null
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-13 00:32:01 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 14,
+        "customers_affected": 329
+    },
+    "outages": [
+        {
+            "latitude": 33.414150698884,
+            "longitude": -112.04829562614,
+            "boundary": "S 12TH ST TO S 20TH ST AND E MARICOPA FWY TO E BROADWAY RD",
+            "customers": 38,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-12 21:11 MST",
+            "etr": "2026-07-13 05:00 MST"
+        },
+        {
+            "latitude": 33.56821467316215,
+            "longitude": -112.11338741345699,
+            "boundary": "N BLACK CANYON HWY TO N 23RD AVE AND W MOUNTAIN VIEW RD TO W BUTLER DR",
+            "customers": 24,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 19:38 MST",
+            "etr": "2026-07-13 03:00 MST"
+        },
+        {
+            "latitude": 33.377435021787605,
+            "longitude": -112.047914863991,
+            "boundary": "S 12TH ST TO S 20TH ST AND E VINEYARD RD TO E SOUTH MOUNTAIN AVE",
+            "customers": 4,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 10:26 MST",
+            "etr": "2026-07-13 04:00 MST"
+        },
+        {
+            "latitude": 33.3648973422695,
+            "longitude": -111.9658935136055,
+            "boundary": "S MARICOPA FWY TO S AVENIDA DEL YAQUI AND W BASELINE RD TO W ELLIOT RD",
+            "customers": 25,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 19:52 MST",
+            "etr": "2026-07-13 04:00 MST"
+        },
+        {
+            "latitude": 33.3795007532151,
+            "longitude": -112.036522895124,
+            "boundary": "S 20TH ST TO S 24TH ST AND E VINEYARD RD TO E SOUTH MOUNTAIN AVE",
+            "customers": 3,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 21:12 MST",
+            "etr": "2026-07-13 02:00 MST"
+        },
+        {
+            "latitude": 33.1395197921605,
+            "longitude": -111.435092167579,
+            "boundary": "N ALADDIN RD TO N YEAGER RD AND E JUDD RD TO W ARIZONA FARMS RD",
+            "customers": 102,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 18:07 MST",
+            "etr": "2026-07-13 02:30 MST"
+        },
+        {
+            "latitude": 33.550910412538755,
+            "longitude": -112.158005005132,
+            "boundary": "N 51ST AVE TO N 43RD AVE AND W BUTLER DR TO W ORANGEWOOD AVE",
+            "customers": 36,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 22:17 MST",
+            "etr": "2026-07-13 00:16 MST"
+        },
+        {
+            "latitude": 33.344738994704656,
+            "longitude": -111.9943792684665,
+            "boundary": "S 36TH ST TO S WARNER-ELLIOT LOOP AND E ELLIOT RD TO E WARNER RD",
+            "customers": 53,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 23:10 MST",
+            "etr": "2026-07-13 01:08 MST"
+        },
+        {
+            "latitude": 33.507573471045504,
+            "longitude": -112.0369748828315,
+            "boundary": "N SQUAW PEAK FWY TO N 24TH ST AND E MISSOURI AVE TO E CAMPBELL AVE",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-12 23:19 MST",
+            "etr": "2026-07-13 01:00 MST"
+        },
+        {
+            "latitude": 33.5052754671131,
+            "longitude": -111.96839541908,
+            "boundary": "N CAMELHEAD RD TO N 56TH ST AND E CAMELBACK RD TO E CAMELBACK RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-12 23:39 MST",
+            "etr": "2026-07-13 01:37 MST"
+        },
+        {
+            "latitude": 33.3513985682457,
+            "longitude": -111.7263136386525,
+            "boundary": "N GREENFIELD RD TO N HIGLEY RD AND E OLNEY AVE TO E MESQUITE ST",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 22:51 MST",
+            "etr": "2026-07-13 02:30 MST"
+        },
+        {
+            "latitude": 33.39528374010205,
+            "longitude": -111.8705194901365,
+            "boundary": "S DOBSON RD TO S LONGMORE AND W 8TH AVE TO W SOUTHERN AVE",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 00:06 MST",
+            "etr": "2026-07-13 02:08 MST"
+        },
+        {
+            "latitude": 33.395119057798254,
+            "longitude": -111.87399330896349,
+            "boundary": "S EVERGREEN RD TO S LONGMORE AND W 8TH AVE TO W SOUTHERN AVE",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 00:06 MST",
+            "etr": "2026-07-13 02:09 MST"
+        },
+        {
+            "latitude": 33.520017213493304,
+            "longitude": -112.1910452661585,
+            "boundary": "N 63RD AVE TO N 59TH AVE AND W BETHANY HOME RD TO W MISSOURI AVE",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 00:28 MST",
+            "etr": "2026-07-13 02:20 MST"
+        }
+    ]
+}
