@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-13 14:09:07 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.505498596527204,
+            "longitude": -112.034171402656,
+            "boundary": "N 20TH ST TO N 24TH ST AND E CAMELBACK RD TO E CAMPBELL AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 10:41 MST",
+            "etr": "2026-07-13 16:51 MST"
+        },
+        {
+            "latitude": 33.80893166977795,
+            "longitude": -111.780353732045,
+            "boundary": "N 136TH ST TO N 144TH ST AND E STAGECOACH PASS TO E HAWKNEST RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 10:05 MST",
+            "etr": "2026-07-13 15:30 MST"
+        },
+        {
+            "latitude": 33.40550687674845,
+            "longitude": -111.639082761889,
+            "boundary": "S 88TH ST TO S ELLSWORTH RD AND E BROADWAY RD TO E PUEBLO AVE",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 13:39 MST",
+            "etr": "2026-07-13 14:57 MST"
+        }
+    ]
+}

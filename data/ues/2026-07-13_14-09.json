@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-07-13 14:09:08 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1949,
+        "map_last_refreshed": "Jul 13, 2:08 PM"
+    },
+    "outages": [
+        {
+            "latitude": 31.508380538943,
+            "longitude": -111.002072048455,
+            "boundary": {
+                "coordLatSW": "31.512175936638499",
+                "coordLngSW": "-111.09467588157599",
+                "coordLatNE": "31.613186976697399",
+                "coordLngNE": "-110.84579009006799",
+                "coordLatCenter": "31.562683",
+                "coordLngCenter": "-110.97023"
+            },
+            "customers": 1949,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-07-13 13:28 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-07-13 14:04 MST"
+        }
+    ]
+}

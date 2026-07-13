@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-13 14:09:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 91
+    },
+    "outages": [
+        {
+            "latitude": 33.655137701086886,
+            "longitude": -112.10772767884494,
+            "city": "Phoenix",
+            "boundary": "Wescott Dr. to Union Hills Dr. and 23rd Ave. to 21st Ave.",
+            "customers": 32,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-13 05:47:00 MST",
+            "etr": "2026-07-13 08:30:00 MST"
+        },
+        {
+            "latitude": 35.195279520841346,
+            "longitude": -111.59180073388023,
+            "city": "Flagstaff",
+            "boundary": "Continental Dr. to Double Eagle Way. and Lakeview Ln. to Mariposa Rd.",
+            "customers": 59,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-13 06:47:00 MST",
+            "etr": "2026-07-13 10:15:00 MST"
+        }
+    ]
+}
