@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-13 10:20:33 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 1467
+    },
+    "outages": [
+        {
+            "latitude": 33.4106780546146,
+            "longitude": -112.055335333123,
+            "boundary": "S 7TH ST TO S 16TH ST AND E ELWOOD ST TO E BROADWAY RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 07:10 MST",
+            "etr": "2026-07-13 15:00 MST"
+        },
+        {
+            "latitude": 33.4132480822608,
+            "longitude": -112.055051723544,
+            "boundary": "S 7TH ST TO S 16TH ST AND E MARICOPA FWY TO E BROADWAY RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 07:15 MST",
+            "etr": "2026-07-13 15:00 MST"
+        },
+        {
+            "latitude": 33.344651021800345,
+            "longitude": -111.8771275847495,
+            "boundary": "N CARRIAGE LN TO N ALMA SCHOOL RD AND W ELLIOT RD TO W MESQUITE ST",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 01:54 MST",
+            "etr": "2026-07-13 12:30 MST"
+        },
+        {
+            "latitude": 33.421908286484054,
+            "longitude": -111.65556402907,
+            "boundary": "N 80TH ST TO N HAWES RD AND E ADOBE RD TO E MAIN ST",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 08:20 MST",
+            "etr": "2026-07-13 12:00 MST"
+        },
+        {
+            "latitude": 33.4227059000756,
+            "longitude": -111.798119327856,
+            "boundary": "N STAPLEY DR TO N GILBERT RD AND E 8TH ST TO E MAIN ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 08:28 MST",
+            "etr": "2026-07-13 11:26 MST"
+        },
+        {
+            "latitude": 33.1931837131243,
+            "longitude": -111.5144206069365,
+            "boundary": "N SCHNEPF RD TO N SIERRA VISTA DR AND E ROLLING RIDGE RD TO E ROBERTS RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 09:41 MST",
+            "etr": "2026-07-13 10:50 MST"
+        },
+        {
+            "latitude": 33.45993555227935,
+            "longitude": -111.6558415618,
+            "boundary": "N 80TH ST TO N HAWES RD AND E MCDOWELL RD TO E MCKELLIPS RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 07:54 MST",
+            "etr": "2026-07-13 12:00 MST"
+        },
+        {
+            "latitude": 33.80893166977795,
+            "longitude": -111.780353732045,
+            "boundary": "N 136TH ST TO N 144TH ST AND E STAGECOACH PASS TO E HAWKNEST RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 10:05 MST",
+            "etr": "2026-07-13 14:03 MST"
+        },
+        {
+            "latitude": 33.3278650785667,
+            "longitude": -111.839451963443,
+            "boundary": "N ALMA SCHOOL RD TO N MCQUEEN RD AND E ELLIOT RD TO E GALVESTON ST",
+            "customers": 1436,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 09:12 MST",
+            "etr": "2026-07-13 11:11 MST"
+        }
+    ]
+}
