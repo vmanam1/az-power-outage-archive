@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-13 07:54:57 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 104
+    },
+    "outages": [
+        {
+            "latitude": 33.39528374010205,
+            "longitude": -111.8705194901365,
+            "boundary": "S DOBSON RD TO S LONGMORE AND W 8TH AVE TO W SOUTHERN AVE",
+            "customers": 10,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 00:06 MST",
+            "etr": "2026-07-13 12:00 MST"
+        },
+        {
+            "latitude": 33.344738994704656,
+            "longitude": -111.9943792684665,
+            "boundary": "S 36TH ST TO S WARNER-ELLIOT LOOP AND E ELLIOT RD TO E WARNER RD",
+            "customers": 53,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 23:10 MST",
+            "etr": "2026-07-13 09:00 MST"
+        },
+        {
+            "latitude": 33.4106780546146,
+            "longitude": -112.055335333123,
+            "boundary": "S 7TH ST TO S 16TH ST AND E ELWOOD ST TO E BROADWAY RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 07:10 MST",
+            "etr": "2026-07-13 15:00 MST"
+        },
+        {
+            "latitude": 33.4132480822608,
+            "longitude": -112.055051723544,
+            "boundary": "S 7TH ST TO S 16TH ST AND E MARICOPA FWY TO E BROADWAY RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 07:15 MST",
+            "etr": "2026-07-13 15:00 MST"
+        },
+        {
+            "latitude": 33.3375510146217,
+            "longitude": -111.994150772459,
+            "boundary": "S 40TH ST TO S 48TH ST AND E ELLIOT RD TO E WARNER RD",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 06:27 MST",
+            "etr": "2026-07-13 08:30 MST"
+        },
+        {
+            "latitude": 33.3590529083402,
+            "longitude": -112.0796893763555,
+            "boundary": "S 7TH AVE TO S 1ST AVE AND W DOBBINS RD TO W OLNEY AVE",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 07:22 MST",
+            "etr": "2026-07-13 09:21 MST"
+        },
+        {
+            "latitude": 33.344651021800345,
+            "longitude": -111.8771275847495,
+            "boundary": "N CARRIAGE LN TO N ALMA SCHOOL RD AND W ELLIOT RD TO W MESQUITE ST",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 01:54 MST",
+            "etr": "2026-07-13 12:30 MST"
+        },
+        {
+            "latitude": 33.457413578004,
+            "longitude": -111.77171535881101,
+            "boundary": "N 24TH ST TO N 32ND ST AND E HERMOSA VISTA DR TO E MCKELLIPS RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 07:40 MST",
+            "etr": "2026-07-13 09:35 MST"
+        },
+        {
+            "latitude": 33.45993555227935,
+            "longitude": -111.6558415618,
+            "boundary": "N 80TH ST TO N HAWES RD AND E MCDOWELL RD TO E MCKELLIPS RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-13 07:54 MST",
+            "etr": "2026-07-13 09:53 MST"
+        }
+    ]
+}
