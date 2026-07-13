@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-13 16:06:01 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.40550687674845,
+            "longitude": -111.639082761889,
+            "boundary": "S 88TH ST TO S ELLSWORTH RD AND E BROADWAY RD TO E PUEBLO AVE",
+            "customers": 3,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 13:39 MST",
+            "etr": "2026-07-13 20:41 MST"
+        }
+    ]
+}
