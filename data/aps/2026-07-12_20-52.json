@@ -1,0 +1,135 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-12 20:52:35 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 1474
+    },
+    "outages": [
+        {
+            "latitude": 32.5445630892934,
+            "longitude": -111.73164553005263,
+            "city": "Eloy",
+            "boundary": "Viirgo Dr to Aquarius Dr and Andromeda St to Sagitarius St",
+            "customers": 73,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 11:23:00 MST",
+            "etr": "2026-07-12 15:30:00 MST"
+        },
+        {
+            "latitude": 32.96989359468837,
+            "longitude": -111.76904961688709,
+            "city": "Casa Grande",
+            "boundary": "West Hopi Dr to West Val Vista Bv and North Hualapai Dr to North Battleford Dr",
+            "customers": 29,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 11:45:00 MST",
+            "etr": "2026-07-12 14:45:00 MST"
+        },
+        {
+            "latitude": 32.990447053057814,
+            "longitude": -111.87735023175775,
+            "city": "Casa Grande",
+            "boundary": "Kiva Rd to West Kachina Rd and North Papoose Rd to North Metate Rd",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 12:34:00 MST",
+            "etr": "2026-07-12 16:34:00 MST"
+        },
+        {
+            "latitude": 33.61301489128156,
+            "longitude": -112.14773690515618,
+            "city": "Phoenix",
+            "boundary": "Redfield Rd to Dailey St and 43rd Ave to 42nd Ave",
+            "customers": 29,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-12 12:48:00 MST",
+            "etr": "2026-07-12 15:40:00 MST"
+        },
+        {
+            "latitude": 33.56541849536959,
+            "longitude": -112.08054027367058,
+            "city": "Phoenix",
+            "boundary": "Puget Ave to Lawrence Ln and 7th Ave to 3rd Ave",
+            "customers": 40,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-07-12 13:07:00 MST",
+            "etr": "2026-07-12 16:30:00 MST"
+        },
+        {
+            "latitude": 33.457764844024595,
+            "longitude": -112.13850918957215,
+            "city": "Phoenix",
+            "boundary": "Roosevelt St to Mckinley St and 37th Ave to 36th Ave",
+            "customers": 16,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-12 12:56:00 MST",
+            "etr": "2026-07-12 15:50:00 MST"
+        },
+        {
+            "latitude": 34.7333768836816,
+            "longitude": -112.0263667093017,
+            "city": "Cottonwood",
+            "boundary": "East Beech St to AZ89 and South Willard St to South 6th St",
+            "customers": 17,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-12 13:08:00 MST",
+            "etr": "2026-07-12 17:08:00 MST"
+        },
+        {
+            "latitude": 32.37950199993671,
+            "longitude": -112.87497749998015,
+            "city": "Ajo",
+            "boundary": "Childs Mountain To Guest House Rd. And Newell St. To Maple St.",
+            "customers": 1196,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 13:28:00 MST",
+            "etr": "2026-07-12 15:45:00 MST"
+        },
+        {
+            "latitude": 32.93978627571554,
+            "longitude": -112.69828907677736,
+            "city": "Gila Bend",
+            "boundary": "Main St to Walnut St and 1st St to 2nd St",
+            "customers": 37,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-12 13:42:00 MST",
+            "etr": "2026-07-12 17:15:00 MST"
+        },
+        {
+            "latitude": 32.909549589111805,
+            "longitude": -111.86611005727362,
+            "city": "Casa Grande",
+            "boundary": "Texas St to Korsten Rd and Contento Ave to Calma Dr",
+            "customers": 14,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-12 13:45:00 MST",
+            "etr": "2026-07-12 17:45:00 MST"
+        },
+        {
+            "latitude": 32.49029523064469,
+            "longitude": -114.75978093381579,
+            "city": "San Luis",
+            "boundary": "Bienestar Ln to Babbitt Ln and Garcia Ln to 9th Ave",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-12 13:45:00 MST",
+            "etr": "2026-07-13 16:15:00 MST"
+        }
+    ]
+}

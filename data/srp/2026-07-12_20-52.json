@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-12 20:52:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 407
+    },
+    "outages": [
+        {
+            "latitude": 33.377435021787605,
+            "longitude": -112.047914863991,
+            "boundary": "S 12TH ST TO S 20TH ST AND E VINEYARD RD TO E SOUTH MOUNTAIN AVE",
+            "customers": 4,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 10:26 MST",
+            "etr": "2026-07-12 21:30 MST"
+        },
+        {
+            "latitude": 33.400165397387255,
+            "longitude": -111.617747680474,
+            "boundary": "S 96TH ST TO S CHESHIRE AND E BROADWAY RD TO E SOUTHERN AVE",
+            "customers": 16,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 16:37 MST",
+            "etr": "2026-07-12 22:21 MST"
+        },
+        {
+            "latitude": 33.3652998388496,
+            "longitude": -111.96487144286,
+            "boundary": "S MARICOPA FWY TO S HARDY DR AND W BASELINE RD TO W ELLIOT RD",
+            "customers": 85,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 19:52 MST",
+            "etr": "2026-07-12 21:51 MST"
+        },
+        {
+            "latitude": 33.56827305005995,
+            "longitude": -112.113443785824,
+            "boundary": "N BLACK CANYON HWY TO N 23RD AVE AND W MOUNTAIN VIEW RD TO W BUTLER DR",
+            "customers": 44,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 19:38 MST",
+            "etr": "2026-07-12 21:37 MST"
+        },
+        {
+            "latitude": 33.52018517458035,
+            "longitude": -112.19018178785251,
+            "boundary": "N 63RD AVE TO N 55TH AVE AND W MARYLAND AVE TO W CAMELBACK RD",
+            "customers": 129,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 20:12 MST",
+            "etr": "2026-07-12 22:08 MST"
+        },
+        {
+            "latitude": 33.413820113468,
+            "longitude": -112.208303642044,
+            "boundary": "S 75TH AVE TO S 63RD AVE AND W LOWER BUCKEYE RD TO W BROADWAY RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-12 19:46 MST",
+            "etr": "2026-07-12 21:57 MST"
+        },
+        {
+            "latitude": 33.1395197921605,
+            "longitude": -111.435092167579,
+            "boundary": "N ALADDIN RD TO N YEAGER RD AND E JUDD RD TO W ARIZONA FARMS RD",
+            "customers": 102,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-12 18:07 MST",
+            "etr": "2026-07-13 02:30 MST"
+        }
+    ]
+}
