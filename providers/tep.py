@@ -111,15 +111,18 @@ class TEPProvider(BaseProvider):
         reference = reference or datetime.now(ARIZONA_TZ)
         for date_format in formats:
             try:
-                parsed = datetime.strptime(value, date_format)
                 if "%Y" not in date_format:
-                    parsed = parsed.replace(year=reference.year)
+                    temp_value = f"{value} {reference.year}"
+                    temp_format = f"{date_format} %Y"
+                    parsed = datetime.strptime(temp_value, temp_format)
                     delta = parsed.replace(tzinfo=ARIZONA_TZ) - reference
                     if delta.days > 183:
                         parsed = parsed.replace(year=reference.year - 1)
                     elif delta.days < -183:
                         parsed = parsed.replace(year=reference.year + 1)
-
+                else:
+                    parsed = datetime.strptime(value, date_format)
+ 
                 return parsed.replace(tzinfo=ARIZONA_TZ).strftime(
                     "%Y-%m-%d %H:%M %Z"
                 )
