@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-14 16:06:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1459
+    },
+    "outages": [
+        {
+            "latitude": 33.54383360692625,
+            "longitude": -112.09971687376151,
+            "boundary": "N BLACK CANYON HWY TO N 7TH AVE AND W NORTHERN AVE TO W MARYLAND AVE",
+            "customers": 1411,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-14 13:58 MST",
+            "etr": "2026-07-14 18:13 MST"
+        },
+        {
+            "latitude": 33.5525287568599,
+            "longitude": -112.11462741695149,
+            "boundary": "N 31ST AVE TO N 23RD AVE AND W BUTLER DR TO W ORANGEWOOD AVE",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-14 15:33 MST",
+            "etr": "2026-07-14 19:23 MST"
+        },
+        {
+            "latitude": 33.2861568022405,
+            "longitude": -111.325193424916,
+            "boundary": "UNKNOWN TO N SHARON DR AND W KIRK DR TO E HWY 60",
+            "customers": 36,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 18:03 MST",
+            "etr": "2026-07-15 00:00 MST"
+        }
+    ]
+}
