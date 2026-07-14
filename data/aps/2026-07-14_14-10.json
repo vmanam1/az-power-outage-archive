@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-14 14:10:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 731
+    },
+    "outages": [
+        {
+            "latitude": 34.24450411399425,
+            "longitude": -110.06998327502569,
+            "city": "Show Low",
+            "boundary": "Clark Rd. to Stock and 26th Dr. to 19th Ave.",
+            "customers": 18,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-14 04:14:00 MST",
+            "etr": "2026-07-14 07:45:00 MST"
+        },
+        {
+            "latitude": 33.43966483064332,
+            "longitude": -112.13270947475672,
+            "city": "Phoenix",
+            "boundary": "Sherman St to Buckeye Rd and 35th Ave to 33rd Ave",
+            "customers": 138,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-14 06:05:00 MST",
+            "etr": "2026-07-14 09:45:00 MST"
+        },
+        {
+            "latitude": 33.01565409979309,
+            "longitude": -113.34971609987312,
+            "city": "Dateland",
+            "boundary": "County 21St St To Skousen And Avenue 76E To Hyder Rd",
+            "customers": 137,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-14 06:48:00 MST",
+            "etr": "2026-07-14 11:00:00 MST"
+        },
+        {
+            "latitude": 33.088310099809924,
+            "longitude": -113.31654589963519,
+            "city": "Dateland",
+            "boundary": "High Line Rd To Hyder Rd And 76Th Ave To 555Th Ave",
+            "customers": 52,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-14 06:48:00 MST",
+            "etr": "2026-07-14 09:00:00 MST"
+        },
+        {
+            "latitude": 32.80312470004674,
+            "longitude": -113.52629649976467,
+            "city": "Dateland",
+            "boundary": "Gila River To County 2Nd St And 61St Ave To Avenue 70",
+            "customers": 218,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-14 06:48:00 MST",
+            "etr": "2026-07-14 11:00:00 MST"
+        },
+        {
+            "latitude": 32.911744999931784,
+            "longitude": -113.58230599958874,
+            "city": "Dateland",
+            "boundary": "County 15Th St To Interstate 8 And Palmas Rd To Agua Caliente Rd",
+            "customers": 45,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-14 06:48:00 MST",
+            "etr": "2026-07-14 11:00:00 MST"
+        },
+        {
+            "latitude": 32.789013199914976,
+            "longitude": -113.37033239971106,
+            "city": "Dateland",
+            "boundary": "N/S/O I-8 To 4/M/S/O I-8 And 68Th Ave To 1/2 M/E/O Spot Rd",
+            "customers": 70,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-14 06:48:00 MST",
+            "etr": "2026-07-14 11:00:00 MST"
+        },
+        {
+            "latitude": 33.37746000003625,
+            "longitude": -113.16019699994139,
+            "city": "Tonopah",
+            "boundary": "Buckeye Rd To Narramore Rd And 535Th Ave To 475Th Ave",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-14 06:48:00 MST",
+            "etr": "2026-07-14 11:00:00 MST"
+        },
+        {
+            "latitude": 33.5241139998864,
+            "longitude": -113.15946899984527,
+            "city": "Tonopah",
+            "boundary": "Buckeye Salome Rd To Courthouse Rd And Cap Canal To 491Th Ave",
+            "customers": 36,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-14 06:48:00 MST",
+            "etr": "2026-07-14 11:00:00 MST"
+        }
+    ]
+}

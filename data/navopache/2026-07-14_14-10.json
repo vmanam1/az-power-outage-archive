@@ -1,0 +1,32 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-14 14:10:39 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 34.11275025762022,
+            "longitude": -109.87954081006104,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "start_time": "2026-07-14 15:43:00 MST",
+            "etr": null
+        },
+        {
+            "latitude": 34.1520714068185,
+            "longitude": -109.96185745193729,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "start_time": "2026-07-14 15:47:00 MST",
+            "etr": null
+        }
+    ]
+}

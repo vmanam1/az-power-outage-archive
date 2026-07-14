@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-14 14:10:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1463
+    },
+    "outages": [
+        {
+            "latitude": 33.60355207053895,
+            "longitude": -112.219278863738,
+            "boundary": "N 79TH AVE TO N 71ST AVE AND W THUNDERBIRD RD TO W CACTUS RD",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 22:43 MST",
+            "etr": "2026-07-14 16:00 MST"
+        },
+        {
+            "latitude": 33.43174826029595,
+            "longitude": -111.8514125744725,
+            "boundary": "N ALMA SCHOOL RD TO N EXTENSION RD AND W BROWN RD TO W RIO SALADO PKWY",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-14 13:09 MST",
+            "etr": "2026-07-14 17:08 MST"
+        },
+        {
+            "latitude": 33.54383360692625,
+            "longitude": -112.09971687376151,
+            "boundary": "N BLACK CANYON HWY TO N 7TH AVE AND W NORTHERN AVE TO W MARYLAND AVE",
+            "customers": 1411,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-14 13:58 MST",
+            "etr": "2026-07-14 17:57 MST"
+        },
+        {
+            "latitude": 33.2861568022405,
+            "longitude": -111.325193424916,
+            "boundary": "UNKNOWN TO N SHARON DR AND W KIRK DR TO E HWY 60",
+            "customers": 36,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 18:03 MST",
+            "etr": "2026-07-14 21:00 MST"
+        }
+    ]
+}
