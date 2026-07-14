@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-14 12:39:46 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 139
+    },
+    "outages": [
+        {
+            "latitude": 33.51788349977265,
+            "longitude": -112.151907379264,
+            "boundary": "NW GRAND AVE TO N 39TH AVE AND W BETHANY HOME RD TO NW GRAND AVE",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 21:45 MST",
+            "etr": "2026-07-14 15:17 MST"
+        },
+        {
+            "latitude": 33.4005806013421,
+            "longitude": -111.919787122497,
+            "boundary": "S RURAL RD TO S DORSEY LN AND E BROADWAY RD TO E SOUTHERN AVE",
+            "customers": 9,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-14 09:33 MST",
+            "etr": "2026-07-14 13:31 MST"
+        },
+        {
+            "latitude": 33.60355207053895,
+            "longitude": -112.219278863738,
+            "boundary": "N 79TH AVE TO N 71ST AVE AND W THUNDERBIRD RD TO W CACTUS RD",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 22:43 MST",
+            "etr": "2026-07-14 16:00 MST"
+        },
+        {
+            "latitude": 33.5449241800372,
+            "longitude": -112.104387486847,
+            "boundary": "N 23RD AVE TO N 19TH AVE AND W NORTHERN AVE TO W GLENDALE AVE",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-14 10:22 MST",
+            "etr": "2026-07-14 14:10 MST"
+        },
+        {
+            "latitude": 33.544700955655,
+            "longitude": -112.1053458943025,
+            "boundary": "N 23RD AVE TO N 19TH AVE AND W NORTHERN AVE TO W GLENDALE AVE",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-14 10:28 MST",
+            "etr": "2026-07-14 14:20 MST"
+        },
+        {
+            "latitude": 33.46038047466395,
+            "longitude": -111.693742977638,
+            "boundary": "N RECKER RD TO N POWER RD AND E MCDOWELL RD TO E MCKELLIPS RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 21:12 MST",
+            "etr": "2026-07-14 13:00 MST"
+        },
+        {
+            "latitude": 33.46038047466395,
+            "longitude": -111.693742977638,
+            "boundary": "N RECKER RD TO N POWER RD AND E MCDOWELL RD TO E MCKELLIPS RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-13 21:12 MST",
+            "etr": "2026-07-14 13:00 MST"
+        },
+        {
+            "latitude": 33.29201468801405,
+            "longitude": -111.313843327992,
+            "boundary": "UNKNOWN TO N CAVENDISH ST AND UNKNOWN TO E HWY 60",
+            "customers": 68,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 18:03 MST",
+            "etr": "2026-07-14 21:00 MST"
+        },
+        {
+            "latitude": 33.41874851216156,
+            "longitude": -111.802017696408,
+            "boundary": "N STAPLEY DR TO N HARRIS DR AND E UNIVERSITY DR TO E MAIN ST",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-07-14 12:06 MST",
+            "etr": "2026-07-14 15:29 MST"
+        }
+    ]
+}

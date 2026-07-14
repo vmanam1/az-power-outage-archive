@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-14 12:39:46 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 34.24450411399425,
+            "longitude": -110.06998327502569,
+            "city": "Show Low",
+            "boundary": "Clark Rd. to Stock and 26th Dr. to 19th Ave.",
+            "customers": 34,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-14 04:14:00 MST",
+            "etr": "2026-07-14 07:45:00 MST"
+        },
+        {
+            "latitude": 33.43171131563655,
+            "longitude": -112.3480809899258,
+            "city": "Avondale",
+            "boundary": "Aragon Ln to Southern Ln and 1st St to 2nd St",
+            "customers": 12,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-14 04:40:00 MST",
+            "etr": "2026-07-14 07:30:00 MST"
+        }
+    ]
+}
