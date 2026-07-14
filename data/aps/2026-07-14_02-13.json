@@ -1,0 +1,124 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-14 02:13:42 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 394
+    },
+    "outages": [
+        {
+            "latitude": 33.058137000327704,
+            "longitude": -112.23729999989324,
+            "city": "Casa Grande",
+            "boundary": "Reservation To Nahalia And Maricopa City Lane To Mobile",
+            "customers": 51,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 12:09:00 MST",
+            "etr": "2026-07-13 23:00:00 MST"
+        },
+        {
+            "latitude": 33.47903765390437,
+            "longitude": -112.03651323433476,
+            "city": "Phoenix",
+            "boundary": "Thomas Rd to Virginia Ave and 20th St to 22nd St",
+            "customers": 53,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 12:10:00 MST",
+            "etr": "2026-07-13 23:00:00 MST"
+        },
+        {
+            "latitude": 33.54178735799102,
+            "longitude": -112.06601710267438,
+            "city": "Phoenix",
+            "boundary": "Orangewood Dr to Myrtle Ave and 1st Place to 7th St",
+            "customers": 101,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 12:16:00 MST",
+            "etr": "2026-07-13 21:00:00 MST"
+        },
+        {
+            "latitude": 33.40999909985534,
+            "longitude": -110.84522868429788,
+            "city": "Miami",
+            "boundary": "US60 to Locomotive Dr and Grover Canyon Rd to El Camino",
+            "customers": 11,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 12:49:00 MST",
+            "etr": "2026-07-13 21:00:00 MST"
+        },
+        {
+            "latitude": 33.611867574649324,
+            "longitude": -112.16727022393536,
+            "city": "Glendale",
+            "boundary": "West Dailey St to North 49th Ave and North 51st Ave to North 49th Ave",
+            "customers": 60,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 13:18:00 MST",
+            "etr": "2026-07-13 21:00:00 MST"
+        },
+        {
+            "latitude": 33.48359686606284,
+            "longitude": -111.91512350461444,
+            "city": "Scottsdale",
+            "boundary": "East Earll Dr to East Avalon Dr and North Miller Rd to North 78th St",
+            "customers": 40,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 13:45:00 MST",
+            "etr": "2026-07-13 21:00:00 MST"
+        },
+        {
+            "latitude": 33.5186475741791,
+            "longitude": -111.98240963794673,
+            "city": "Phoenix",
+            "boundary": "East Marion Wy to East Arlington Rd and North Camelback Canyon Dr",
+            "customers": 22,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 15:09:00 MST",
+            "etr": "2026-07-13 21:00:00 MST"
+        },
+        {
+            "latitude": 32.91049793070682,
+            "longitude": -111.86729433326214,
+            "city": "Casa Grande",
+            "boundary": "West Torero Rd to West Kortsen Rd and North Contento Ave to North Calma Dr",
+            "customers": 14,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-13 15:14:00 MST",
+            "etr": "2026-07-13 23:00:00 MST"
+        },
+        {
+            "latitude": 34.07866690111822,
+            "longitude": -112.12731795889795,
+            "city": "Black Canyon City",
+            "boundary": "Arizona Veterans Highway and Maggie Miner Rd",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 16:08:00 MST",
+            "etr": "2026-07-13 20:00:00 MST"
+        },
+        {
+            "latitude": 33.475203853105086,
+            "longitude": -112.06371907383706,
+            "city": "Phoenix",
+            "boundary": "East Virginia Ave to East Sheridan St and North 8th St to North Richland St",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 19:04:00 MST",
+            "etr": "2026-07-13 23:00:00 MST"
+        }
+    ]
+}
