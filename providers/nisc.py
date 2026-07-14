@@ -52,6 +52,25 @@ class NISCOutageProvider(BaseProvider):
                 )
             )
 
+            # Wait for circle elements to be loaded and stable
+            last_count = -1
+            stable_count = 0
+            for _ in range(10):
+                try:
+                    current_count = driver.execute_script(
+                        "return document.querySelectorAll('#graphicsLayer3_layer circle').length;"
+                    )
+                    if current_count == last_count:
+                        stable_count += 1
+                        if stable_count >= 3:
+                            break
+                    else:
+                        stable_count = 0
+                        last_count = current_count
+                except Exception:
+                    pass
+                time.sleep(1)
+
             return driver.execute_script("""
                 const nodes = Array.from(
                     document.querySelectorAll('#graphicsLayer3_layer circle')
