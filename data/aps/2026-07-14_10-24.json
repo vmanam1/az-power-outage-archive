@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-14 10:24:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 69
+    },
+    "outages": [
+        {
+            "latitude": 33.47903765390437,
+            "longitude": -112.03651323433476,
+            "city": "Phoenix",
+            "boundary": "Thomas Rd to Virginia Ave and 20th St to 22nd St",
+            "customers": 53,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-13 12:10:00 MST",
+            "etr": "2026-07-14 03:45:00 MST"
+        },
+        {
+            "latitude": 33.53826648484749,
+            "longitude": -112.16560025043228,
+            "city": "Glendale",
+            "boundary": "Glendale Ave to Flynn Ln and 51st Ave to 49th Ave",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-14 01:42:00 MST",
+            "etr": "2026-07-14 07:45:00 MST"
+        }
+    ]
+}
