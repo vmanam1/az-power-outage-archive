@@ -32,6 +32,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
 
       # NISC outage maps are rendered in a browser before their public data
       # can be read by the Trico, Mohave, and Navopache providers.
