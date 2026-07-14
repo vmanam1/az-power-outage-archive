@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-14 07:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 102
+    },
+    "outages": [
+        {
+            "latitude": 33.47903765390437,
+            "longitude": -112.03651323433476,
+            "city": "Phoenix",
+            "boundary": "Thomas Rd to Virginia Ave and 20th St to 22nd St",
+            "customers": 53,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 12:10:00 MST",
+            "etr": "2026-07-14 03:00:00 MST"
+        },
+        {
+            "latitude": 33.6153178476475,
+            "longitude": -112.07738601292525,
+            "city": "Phoenix",
+            "boundary": "Canterbury Ln to Tam O Shanter Dr and 3rd Ave to Pipping Rock Rd",
+            "customers": 25,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-13 22:50:00 MST",
+            "etr": "2026-07-14 01:50:00 MST"
+        },
+        {
+            "latitude": 33.61655316094363,
+            "longitude": -112.14996986272928,
+            "city": "Phoenix",
+            "boundary": "Evans Dr to Gelding Dr and 43rd Ave to 41st Dr",
+            "customers": 24,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-13 23:23:00 MST",
+            "etr": "2026-07-14 02:30:00 MST"
+        }
+    ]
+}
