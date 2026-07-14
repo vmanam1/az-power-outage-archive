@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-07-13 20:25:29 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 130,
+        "total_customers": 36408
+    },
+    "outages": [
+        {
+            "latitude": 32.95947029345243,
+            "longitude": -111.9962729455595,
+            "boundary": "BKR-MAR115",
+            "customers": 130,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-07-13 18:47:30 MST",
+            "etr": null,
+            "pole_number": "MAR115"
+        }
+    ]
+}
