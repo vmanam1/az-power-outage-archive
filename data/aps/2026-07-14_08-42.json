@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-14 08:42:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 141
+    },
+    "outages": [
+        {
+            "latitude": 33.47903765390437,
+            "longitude": -112.03651323433476,
+            "city": "Phoenix",
+            "boundary": "Thomas Rd to Virginia Ave and 20th St to 22nd St",
+            "customers": 53,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-13 12:10:00 MST",
+            "etr": "2026-07-14 03:00:00 MST"
+        },
+        {
+            "latitude": 33.61655316094363,
+            "longitude": -112.14996986272928,
+            "city": "Phoenix",
+            "boundary": "Evans Dr to Gelding Dr and 43rd Ave to 41st Dr",
+            "customers": 24,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-13 23:23:00 MST",
+            "etr": "2026-07-14 02:30:00 MST"
+        },
+        {
+            "latitude": 33.48957818425153,
+            "longitude": -112.08612079237017,
+            "city": "Phoenix",
+            "boundary": "Weldon Ave to Mitchell Dr and 77th St to 10th St",
+            "customers": 57,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-14 00:34:00 MST",
+            "etr": "2026-07-14 03:30:00 MST"
+        },
+        {
+            "latitude": 33.46537502770734,
+            "longitude": -112.06432004586382,
+            "city": "Phoenix",
+            "boundary": "McDowell Rd. to Willetta St. and 7th St. to 9th St.",
+            "customers": 7,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-14 00:58:00 MST",
+            "etr": "2026-07-14 05:00:00 MST"
+        }
+    ]
+}
