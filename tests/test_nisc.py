@@ -45,14 +45,15 @@ class NISCProviderTests(unittest.TestCase):
         self.assertEqual(result["summary"]["outage_count"], 0)
         self.assertEqual(result["summary"]["customers_affected"], 0)
 
-    def test_outage_card_without_customer_count_is_rejected(self):
+    def test_outage_card_without_customer_count_defaults_to_zero(self):
         records = [{
             "x": SAMPLE_RECORDS[0]["x"],
             "y": SAMPLE_RECORDS[0]["y"],
             "text": "Outage Details\nInvestigating\nCause: Unknown",
         }]
-        with self.assertRaisesRegex(ValueError, "missing a customer count"):
-            TricoProvider().parse_records(records)
+        result = TricoProvider().parse_records(records)
+        self.assertEqual(result["summary"]["customers_affected"], 0)
+        self.assertEqual(result["outages"][0]["customers"], 0)
 
     @patch("providers.nisc.time.sleep")
     @patch.object(TricoProvider, "scrape_records")
