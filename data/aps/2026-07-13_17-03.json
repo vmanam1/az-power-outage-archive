@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-13 17:03:00 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1344
+    },
+    "outages": [
+        {
+            "latitude": 34.63054110222768,
+            "longitude": -111.09598002533514,
+            "city": "Happy Jack",
+            "boundary": "Wild Turkey Dr. to Cougar Dr. and Clear Creek Dr. to Big Pines Dr.",
+            "customers": 70,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 08:06:00 MST",
+            "etr": "2026-07-13 11:30:00 MST"
+        },
+        {
+            "latitude": 33.45323056882739,
+            "longitude": -112.09710401364873,
+            "city": "Phoenix",
+            "boundary": "Fillmore St. to Van Buren St. and 18th Ave. to 17th Dr.",
+            "customers": 60,
+            "cause": "Blown fuse",
+            "comments": "Our crews are working to restore the outage caused by a blown fuse.",
+            "start_time": "2026-07-13 08:16:00 MST",
+            "etr": "2026-07-13 11:50:00 MST"
+        },
+        {
+            "latitude": 33.64076891366248,
+            "longitude": -112.08801110284949,
+            "city": "Phoenix",
+            "boundary": "Anderson Dr to Bell Rd and 15th Ave to 11th Ave",
+            "customers": 195,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-13 08:58:00 MST",
+            "etr": "2026-07-13 11:50:00 MST"
+        },
+        {
+            "latitude": 34.482364316712,
+            "longitude": -111.81475941724408,
+            "city": "Camp Verde",
+            "boundary": "Winchester Tl to Beasley Flat Rd and River View Dr to Arizona Ave",
+            "customers": 22,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 08:57:00 MST",
+            "etr": "2026-07-13 11:50:00 MST"
+        },
+        {
+            "latitude": 33.05681570025922,
+            "longitude": -110.9109249999016,
+            "city": "Kearny",
+            "boundary": "Kearny Water Wells To Airport Rd And Camino Rio Rd To Hammond Dr",
+            "customers": 997,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 09:52:00 MST",
+            "etr": "2026-07-13 14:00:00 MST"
+        }
+    ]
+}
