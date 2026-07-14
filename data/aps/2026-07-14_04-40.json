@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-14 04:40:23 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 279
+    },
+    "outages": [
+        {
+            "latitude": 33.47903765390437,
+            "longitude": -112.03651323433476,
+            "city": "Phoenix",
+            "boundary": "Thomas Rd to Virginia Ave and 20th St to 22nd St",
+            "customers": 53,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 12:10:00 MST",
+            "etr": "2026-07-13 23:00:00 MST"
+        },
+        {
+            "latitude": 33.611867574649324,
+            "longitude": -112.16727022393536,
+            "city": "Glendale",
+            "boundary": "West Dailey St to North 49th Ave and North 51st Ave to North 49th Ave",
+            "customers": 93,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 13:18:00 MST",
+            "etr": "2026-07-13 23:00:00 MST"
+        },
+        {
+            "latitude": 33.5186475741791,
+            "longitude": -111.98240963794673,
+            "city": "Phoenix",
+            "boundary": "East Marion Wy to East Arlington Rd and North Camelback Canyon Dr",
+            "customers": 22,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-13 15:09:00 MST",
+            "etr": "2026-07-13 23:00:00 MST"
+        },
+        {
+            "latitude": 33.475203853105086,
+            "longitude": -112.06371907383706,
+            "city": "Phoenix",
+            "boundary": "East Virginia Ave to East Sheridan St and North 8th St to North Richland St",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-13 19:04:00 MST",
+            "etr": "2026-07-13 23:00:00 MST"
+        },
+        {
+            "latitude": 34.58937364116555,
+            "longitude": -111.87583368601364,
+            "city": "Camp Verde",
+            "boundary": "West Buffalo Tl to Mesa Ln and AZ Veterans Highway to North Powder Horn Rd",
+            "customers": 93,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-13 21:17:00 MST",
+            "etr": "2026-07-14 00:45:00 MST"
+        }
+    ]
+}
