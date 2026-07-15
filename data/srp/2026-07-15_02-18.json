@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-15 02:18:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 59
+    },
+    "outages": [
+        {
+            "latitude": 33.530931175397,
+            "longitude": -111.890611434656,
+            "boundary": "N GRANITE REEF RD TO N PIMA LOOP AND E TALKING STICK WAY TO E MCDONALD DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-14 22:08 MST",
+            "etr": "2026-07-15 07:53 MST"
+        },
+        {
+            "latitude": 33.5383703612859,
+            "longitude": -112.25619850989,
+            "boundary": "N 95TH AVE TO N 87TH AVE AND W ORANGEWOOD AVE TO W MARYLAND AVE",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-14 22:56 MST",
+            "etr": "2026-07-15 06:53 MST"
+        },
+        {
+            "latitude": 33.42062220880845,
+            "longitude": -111.785494072595,
+            "boundary": "N HARRIS DR TO N 24TH ST AND E ADOBE ST TO E MAIN ST",
+            "customers": 53,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 01:10 MST",
+            "etr": "2026-07-15 03:12 MST"
+        }
+    ]
+}
