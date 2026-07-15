@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-15 04:43:44 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 37
+    },
+    "outages": [
+        {
+            "latitude": 33.65017847674875,
+            "longitude": -112.15021458986381,
+            "city": "Glendale",
+            "boundary": "West Bluefield Ave to West Villa Rita Dr and North 43rd Ave to North 41st Ave",
+            "customers": 37,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-14 20:25:00 MST",
+            "etr": "2026-07-14 23:30:00 MST"
+        }
+    ]
+}
