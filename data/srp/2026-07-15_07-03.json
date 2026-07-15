@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-15 07:03:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.4954380137764,
+            "longitude": -111.945723649516,
+            "boundary": "N JOKAKE DR TO N 64TH ST AND E CAMELBACK RD TO E INDIAN SCHOOL RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-15 06:44 MST",
+            "etr": "2026-07-15 08:41 MST"
+        }
+    ]
+}

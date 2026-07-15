@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-15 07:03:53 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 33.28527614924565,
+            "longitude": -111.16103054567436,
+            "city": "Superior",
+            "boundary": "US Hwy 60 to Arboretum Wy and Picket Post Rd",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-14 22:00:00 MST",
+            "etr": "2026-07-15 02:30:00 MST"
+        }
+    ]
+}
