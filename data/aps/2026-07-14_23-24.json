@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-14 23:24:26 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 181
+    },
+    "outages": [
+        {
+            "latitude": 33.46862982129647,
+            "longitude": -112.49158734704405,
+            "city": "Buckeye",
+            "boundary": "199th Ave to McDowell Rd and 202nd Ave to 197th Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-14 11:29:00 MST",
+            "etr": "2026-07-14 18:00:00 MST"
+        },
+        {
+            "latitude": 34.57603663611638,
+            "longitude": -112.50268807155506,
+            "city": "Prescott",
+            "boundary": "Tranquil Tl to Hazelwood Ln and Ridgecrest Rd to Williamson Valley Rd",
+            "customers": 21,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-14 14:16:00 MST",
+            "etr": "2026-07-14 17:30:00 MST"
+        },
+        {
+            "latitude": 33.49158793302971,
+            "longitude": -112.12936804014048,
+            "city": "Phoenix",
+            "boundary": "West Indian School Rd to West Osborn Rd and north 35th Ave to Noth 27th Ave",
+            "customers": 68,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-14 14:18:00 MST",
+            "etr": "2026-07-14 18:15:00 MST"
+        },
+        {
+            "latitude": 33.52148797407261,
+            "longitude": -112.06351865700222,
+            "city": "Phoenix",
+            "boundary": "East Palo Verde Dr to East Montebello Ave and North 8th Pl to North 10th St",
+            "customers": 18,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-14 14:57:00 MST",
+            "etr": "2026-07-14 19:30:00 MST"
+        },
+        {
+            "latitude": 33.445669359949235,
+            "longitude": -112.10361142483825,
+            "city": "Phoenix",
+            "boundary": "Madison St to Jackson St and 21st Ave to 19th Ave",
+            "customers": 25,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-14 15:21:00 MST",
+            "etr": "2026-07-14 19:00:00 MST"
+        },
+        {
+            "latitude": 33.62646897318509,
+            "longitude": -112.0282363225969,
+            "city": "Phoenix",
+            "boundary": "East Waltan Ln to East Greenway Rd and North 25th St",
+            "customers": 42,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-14 15:26:00 MST",
+            "etr": "2026-07-14 18:30:00 MST"
+        }
+    ]
+}
