@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-14 20:24:41 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.46862982129647,
+            "longitude": -112.49158734704405,
+            "city": "Buckeye",
+            "boundary": "199th Ave to McDowell Rd and 202nd Ave to 197th Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-14 11:29:00 MST",
+            "etr": "2026-07-14 18:00:00 MST"
+        }
+    ]
+}

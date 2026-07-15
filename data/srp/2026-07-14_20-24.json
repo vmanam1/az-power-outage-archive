@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-14 20:24:41 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.482401658854954,
+            "longitude": -112.13984548411301,
+            "boundary": "N 39TH AVE TO N 35TH AVE AND W OSBORN RD TO W ENCANTO BLVD",
+            "customers": 13,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-14 17:22 MST",
+            "etr": "2026-07-14 23:06 MST"
+        }
+    ]
+}
