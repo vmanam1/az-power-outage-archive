@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-15 12:32:25 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.409409045956096,
+            "longitude": -112.030897625624,
+            "boundary": "S 20TH ST TO S 28TH ST AND E ELWOOD ST TO E BROADWAY RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 11:37 MST",
+            "etr": "2026-07-15 12:52 MST"
+        },
+        {
+            "latitude": 33.4836132148458,
+            "longitude": -112.15276722652351,
+            "boundary": "N 47TH AVE TO N 39TH AVE AND W OSBORN RD TO W THOMAS RD",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 11:43 MST",
+            "etr": "2026-07-15 13:27 MST"
+        },
+        {
+            "latitude": 33.5319319194004,
+            "longitude": -112.0905109861615,
+            "boundary": "N 19TH AVE TO N 7TH AVE AND W GLENDALE AVE TO W BETHANY HOME RD",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-15 11:19 MST",
+            "etr": "2026-07-15 18:23 MST"
+        }
+    ]
+}
