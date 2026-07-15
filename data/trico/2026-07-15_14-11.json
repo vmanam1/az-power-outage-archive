@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-15 14:11:07 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 32.40168735785276,
+            "longitude": -111.05557550018742,
+            "customers": 2,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-15 15:00:00 MST",
+            "etr": "2026-07-15 18:00:00 MST"
+        }
+    ]
+}

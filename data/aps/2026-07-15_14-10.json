@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-15 14:10:56 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 2301
+    },
+    "outages": [
+        {
+            "latitude": 34.271436629058705,
+            "longitude": -111.22242005932827,
+            "city": "Payson",
+            "boundary": "Switchman Ln to AZ 260 and Lanners Ln to Pinon Rd",
+            "customers": 95,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-15 06:20:00 MST",
+            "etr": "2026-07-15 09:45:00 MST"
+        },
+        {
+            "latitude": 33.593877504019225,
+            "longitude": -112.00852521015499,
+            "city": "Phoenix",
+            "boundary": "Cactus Rd. to Poinsettia Dr. and 3\\4th St. to 36th St.",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-15 06:24:00 MST",
+            "etr": "2026-07-15 08:55:00 MST"
+        },
+        {
+            "latitude": 34.50429419690771,
+            "longitude": -112.6854293359557,
+            "city": "Skull Valley",
+            "boundary": "Forest service 336 to D'Armond Diairy Rd. and Ferguson Valley Rd. to Contreras Rd.",
+            "customers": 294,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-15 06:39:00 MST",
+            "etr": "2026-07-15 10:40:00 MST"
+        },
+        {
+            "latitude": 34.759933399877745,
+            "longitude": -112.49702329986496,
+            "city": "Chino Valley",
+            "boundary": "Road 5 North To Road 1 North And Three Forks Rd To Old Home Manor Dr",
+            "customers": 1882,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-15 07:06:00 MST",
+            "etr": "2026-07-15 11:15:00 MST"
+        }
+    ]
+}

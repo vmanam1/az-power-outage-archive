@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-15 14:10:57 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 53
+    },
+    "outages": [
+        {
+            "latitude": 33.53221361266335,
+            "longitude": -112.09059207460851,
+            "boundary": "N 19TH AVE TO N 7TH AVE AND E GLENDALE AVE TO W BETHANY HOME RD",
+            "customers": 3,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-15 11:19 MST",
+            "etr": "2026-07-15 18:23 MST"
+        },
+        {
+            "latitude": 33.21141102796375,
+            "longitude": -111.834788462083,
+            "boundary": "S ALMA SCHOOL RD TO S 124TH ST AND E CHANDLER HEIGHTS RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 13:04 MST",
+            "etr": "2026-07-15 15:04 MST"
+        },
+        {
+            "latitude": 33.409409045956096,
+            "longitude": -112.030897625624,
+            "boundary": "S 20TH ST TO S 28TH ST AND E ELWOOD ST TO E BROADWAY RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-15 11:37 MST",
+            "etr": "2026-07-15 18:37 MST"
+        },
+        {
+            "latitude": 33.3270769390192,
+            "longitude": -111.634266574929,
+            "boundary": "S HAWES RD TO S CRISMON RD AND E WARNER RD TO E RAY RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 13:30 MST",
+            "etr": "2026-07-15 15:29 MST"
+        },
+        {
+            "latitude": 33.32329598703645,
+            "longitude": -111.6442873986895,
+            "boundary": "S SOSSAMAN RD TO S CRISMON RD AND E GATEWAY FWY TO E GATEWAY FWY",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 13:44 MST",
+            "etr": "2026-07-15 15:44 MST"
+        },
+        {
+            "latitude": 33.3267971894162,
+            "longitude": -111.669945290535,
+            "boundary": "S SOSSAMAN RD TO S HAWES RD AND E WARNER RD TO E RAY RD",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 13:48 MST",
+            "etr": "2026-07-15 15:48 MST"
+        },
+        {
+            "latitude": 33.32205320273345,
+            "longitude": -111.7294984475025,
+            "boundary": "S GREENFIELD RD TO S HIGLEY RD AND E WARNER RD TO E GALVESTON ST",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 13:57 MST",
+            "etr": "2026-07-15 15:57 MST"
+        },
+        {
+            "latitude": 33.4836132148458,
+            "longitude": -112.15276722652351,
+            "boundary": "N 47TH AVE TO N 39TH AVE AND W OSBORN RD TO W THOMAS RD",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 11:43 MST",
+            "etr": "2026-07-15 15:00 MST"
+        }
+    ]
+}
