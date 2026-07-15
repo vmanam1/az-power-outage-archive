@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-15 16:07:55 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 255
+    },
+    "outages": [
+        {
+            "latitude": 33.59364643590347,
+            "longitude": -112.00826925677437,
+            "city": "Phoenix",
+            "boundary": "Cactus Rd. to Poinsettia Dr. and 34th St. to 36th St.",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-15 08:11:00 MST",
+            "etr": "2026-07-15 10:50:00 MST"
+        },
+        {
+            "latitude": 34.90850794501683,
+            "longitude": -112.4940024497191,
+            "city": "Paulden",
+            "boundary": "Antelope Run Rd. to Santa Fe Rd. and Father Mountain Rd. to Stump Rd.",
+            "customers": 146,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-15 08:18:00 MST",
+            "etr": "2026-07-15 12:20:00 MST"
+        },
+        {
+            "latitude": 34.60218665678718,
+            "longitude": -113.14216009566083,
+            "city": "Bagdad",
+            "boundary": "Sunburst Dr. to Sunrise Tr. and Lindahl Rd. to",
+            "customers": 83,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-15 08:42:00 MST",
+            "etr": "2026-07-15 12:10:00 MST"
+        }
+    ]
+}
