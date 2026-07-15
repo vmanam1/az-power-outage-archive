@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-15 08:43:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 44
+    },
+    "outages": [
+        {
+            "latitude": 33.28527614924565,
+            "longitude": -111.16103054567436,
+            "city": "Superior",
+            "boundary": "US Hwy 60 to Arboretum Wy and Picket Post Rd",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-14 22:00:00 MST",
+            "etr": "2026-07-15 02:30:00 MST"
+        },
+        {
+            "latitude": 33.66914969665653,
+            "longitude": -112.34037517943489,
+            "city": "Sun City West",
+            "boundary": "Castlebar Dr to Seville Dr and Aurora Dr to Beardsley Rd",
+            "customers": 35,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-15 01:23:00 MST",
+            "etr": "2026-07-15 04:15:00 MST"
+        }
+    ]
+}
