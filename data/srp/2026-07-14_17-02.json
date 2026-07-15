@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-14 17:02:39 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.2861568022405,
+            "longitude": -111.325193424916,
+            "boundary": "UNKNOWN TO N SHARON DR AND W KIRK DR TO E HWY 60",
+            "customers": 36,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-13 18:03 MST",
+            "etr": "2026-07-15 00:00 MST"
+        }
+    ]
+}

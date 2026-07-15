@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-14 17:02:39 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 129
+    },
+    "outages": [
+        {
+            "latitude": 33.65293933904237,
+            "longitude": -112.13828662926555,
+            "city": "Glendale",
+            "boundary": "Union Hils Dr. to Wagoner Rd. and 36th Ln. to 35th Ave.",
+            "customers": 21,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-14 08:12:00 MST",
+            "etr": "2026-07-14 10:45:00 MST"
+        },
+        {
+            "latitude": 33.58426971394861,
+            "longitude": -112.2250546878613,
+            "city": "Peoria",
+            "boundary": "79th Ave to 77th Ave. and Peoria Ave.",
+            "customers": 42,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-14 09:10:00 MST",
+            "etr": "2026-07-14 11:45:00 MST"
+        },
+        {
+            "latitude": 34.632108831278856,
+            "longitude": -112.4920551770676,
+            "city": "Prescott",
+            "boundary": "Oneal Rd. to McIntosh Dr. and Williamson Valley Rd. to Bailey Ave.",
+            "customers": 53,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-14 09:35:00 MST",
+            "etr": "2026-07-14 12:30:00 MST"
+        },
+        {
+            "latitude": 33.532144699331745,
+            "longitude": -112.05739796066105,
+            "city": "Phoenix",
+            "boundary": "McLellan Blvd. to Maryland Ave. and Villa Manana Dr. to 12th St.",
+            "customers": 13,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-14 09:37:00 MST",
+            "etr": "2026-07-14 12:25:00 MST"
+        }
+    ]
+}
