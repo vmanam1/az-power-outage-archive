@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-15 23:28:14 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 849
+    },
+    "outages": [
+        {
+            "latitude": 34.5287198714294,
+            "longitude": -109.40144254500747,
+            "customers": 9,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "start_time": "2026-07-16 04:53:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        },
+        {
+            "latitude": 34.01631563810767,
+            "longitude": -109.45742905337374,
+            "customers": 34,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "start_time": "2026-07-16 03:13:00 MST",
+            "etr": null,
+            "boundary": "5 - SPRINGERVILLE"
+        },
+        {
+            "latitude": 34.20328122008533,
+            "longitude": -109.41116775593913,
+            "customers": 806,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "start_time": "2026-07-16 05:51:00 MST",
+            "etr": null,
+            "boundary": "5 - SPRINGERVILLE"
+        }
+    ]
+}

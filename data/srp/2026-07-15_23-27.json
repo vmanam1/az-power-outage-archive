@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-15 23:27:51 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 67
+    },
+    "outages": [
+        {
+            "latitude": 33.588114977981405,
+            "longitude": -112.25711480967249,
+            "boundary": "N 95TH AVE TO N 87TH AVE AND W GRAND AVE TO W PEORIA AVE",
+            "customers": 64,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 22:21 MST",
+            "etr": "2026-07-16 00:20 MST"
+        },
+        {
+            "latitude": 33.3923671950629,
+            "longitude": -111.806054902599,
+            "boundary": "S SUPERSTITION FWY TO S HARRIS DR AND E 8TH AVE TO E SUPERSTITION FWY",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-15 20:57 MST",
+            "etr": "2026-07-16 04:17 MST"
+        },
+        {
+            "latitude": 33.5171850662988,
+            "longitude": -112.17120278426151,
+            "boundary": "N 55TH AVE TO N 51ST AVE AND W BETHANY HOME RD TO W CAMELBACK RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-15 23:23 MST",
+            "etr": "2026-07-16 03:22 MST"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-15 23:27:50 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 414
+    },
+    "outages": [
+        {
+            "latitude": 33.36865799986456,
+            "longitude": -112.58745999992763,
+            "city": "Buckeye",
+            "boundary": "Maricopa Rd. to Watkins Ave. and Rooks Rd. to Dean Rd.",
+            "customers": 146,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-15 13:22:00 MST",
+            "etr": "2026-07-15 18:00:00 MST"
+        },
+        {
+            "latitude": 33.322711138338505,
+            "longitude": -112.73376361831414,
+            "city": "Palo Verde",
+            "boundary": "Salome Highway and Old Us Highway",
+            "customers": 101,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-15 14:08:00 MST",
+            "etr": "2026-07-15 17:40:00 MST"
+        },
+        {
+            "latitude": 33.41101391062999,
+            "longitude": -112.58616760271151,
+            "city": "Holbrook",
+            "boundary": "Heywood Ave and Poplar Dr",
+            "customers": 78,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-15 14:11:00 MST",
+            "etr": "2026-07-15 17:40:00 MST"
+        },
+        {
+            "latitude": 33.27828173020601,
+            "longitude": -112.78778240834946,
+            "city": "Arlington",
+            "boundary": "Narramore Rd and South Old US 80",
+            "customers": 41,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-15 14:18:00 MST",
+            "etr": "2026-07-15 17:30:00 MST"
+        },
+        {
+            "latitude": 33.6176855592365,
+            "longitude": -111.998541116695,
+            "city": "Phoenix",
+            "boundary": "Evans Dr to Hearn Rd and 37th Place to 39th Way",
+            "customers": 48,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-15 14:19:00 MST",
+            "etr": "2026-07-15 17:30:00 MST"
+        }
+    ]
+}
