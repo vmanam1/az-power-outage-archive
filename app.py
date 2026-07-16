@@ -6,7 +6,7 @@ from datetime import datetime
 from flask import Flask, jsonify, request, render_template, Response
 
 from dashboard.archive_reader import scan_archive
-from dashboard.filters import apply_filters
+from dashboard.filters import apply_filters, strip_tz
 from scripts.utils import ARIZONA_TZ
 
 # Setup logging
@@ -187,13 +187,14 @@ def timeline():
     filtered_snaps = []
     for s in snaps:
         time_ok = True
+        sa = strip_tz(s["scraped_at"])
         if start_date:
             sd = start_date if " " in start_date else f"{start_date} 00:00:00"
-            if s["scraped_at"] < sd:
+            if sa < strip_tz(sd):
                 time_ok = False
         if end_date:
             ed = end_date if " " in end_date else f"{end_date} 23:59:59"
-            if s["scraped_at"] > ed:
+            if sa > strip_tz(ed):
                 time_ok = False
         if time_ok:
             filtered_snaps.append(s)

@@ -1,6 +1,19 @@
 from datetime import datetime
 import re
 
+def strip_tz(val):
+    """
+    Strips timezone suffixes (like ' MST', ' MDT', etc.) from timestamps
+    for clean lexicographical string comparisons.
+    """
+    if not val:
+        return ""
+    val_str = str(val).strip()
+    for suffix in (" MST", " MDT", " UTC", " GMT"):
+        if val_str.endswith(suffix):
+            return val_str[:-len(suffix)]
+    return val_str
+
 def get_outage_key(outage):
     """
     Generates a unique key for deduplicating historical outages.
@@ -81,7 +94,7 @@ def apply_filters(snapshots, params):
         target_time = snapshot_time or datetime.now().strftime("%Y-%m-%d %H:%M:%S MST")
         for s in prov_snapshots:
             prov = s["provider"]
-            if s["scraped_at"] <= target_time:
+            if strip_tz(s["scraped_at"]) <= strip_tz(target_time):
                 if prov not in latest_snaps or s["scraped_at"] > latest_snaps[prov]["scraped_at"]:
                     latest_snaps[prov] = s
         selected_snapshots = list(latest_snaps.values())
@@ -92,14 +105,15 @@ def apply_filters(snapshots, params):
         # If start_date/end_date are 'YYYY-MM-DD', they compare correctly.
         for s in prov_snapshots:
             time_ok = True
+            sa = strip_tz(s["scraped_at"])
             if start_date:
                 # Append min time if only date is given
                 sd = start_date if " " in start_date else f"{start_date} 00:00:00"
-                if s["scraped_at"] < sd:
+                if sa < strip_tz(sd):
                     time_ok = False
             if end_date:
                 ed = end_date if " " in end_date else f"{end_date} 23:59:59"
-                if s["scraped_at"] > ed:
+                if sa > strip_tz(ed):
                     time_ok = False
             if time_ok:
                 selected_snapshots.append(s)
