@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-16 15:12:29 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 31.960353053885612,
+            "longitude": -110.77133583446648,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-16 18:59:00 MST",
+            "etr": "2026-07-16 21:59:00 MST",
+            "boundary": "Corona de Tucson"
+        },
+        {
+            "latitude": 31.958630747996565,
+            "longitude": -110.76755930479281,
+            "customers": 12,
+            "cause": "75 DIG-IN",
+            "comments": null,
+            "start_time": "2026-07-16 19:51:00 MST",
+            "etr": null,
+            "boundary": "Corona de Tucson"
+        }
+    ]
+}

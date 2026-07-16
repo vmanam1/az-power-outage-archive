@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-16 15:12:14 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 65
+    },
+    "outages": [
+        {
+            "latitude": 34.511020496063665,
+            "longitude": -109.86172351894173,
+            "city": "Snowflake",
+            "boundary": "Pinon Rd to Zuni and Black Mesa Valley Rd to Cottontail Rd",
+            "customers": 65,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-16 06:49:00 MST",
+            "etr": "2026-07-16 10:15:00 MST"
+        }
+    ]
+}
