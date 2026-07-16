@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-16 07:15:18 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 67
+    },
+    "outages": [
+        {
+            "latitude": 33.47420441732287,
+            "longitude": -112.04863437224496,
+            "city": "Phoenix",
+            "boundary": "East Sheridan St to East Harvard St and North 15th St to North 16th St",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-15 20:15:00 MST",
+            "etr": "2026-07-16 00:45:00 MST"
+        },
+        {
+            "latitude": 33.65808682733076,
+            "longitude": -112.09783014974067,
+            "city": "Phoenix",
+            "boundary": "Wescott Dr. to Union Hills Dr. and 19th Ave. to 17th Dr.",
+            "customers": 54,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-15 23:35:00 MST",
+            "etr": "2026-07-16 02:30:00 MST"
+        }
+    ]
+}
