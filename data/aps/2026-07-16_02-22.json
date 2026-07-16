@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-16 02:22:26 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 184
+    },
+    "outages": [
+        {
+            "latitude": 33.36865799986456,
+            "longitude": -112.58745999992763,
+            "city": "Buckeye",
+            "boundary": "Maricopa Rd. to Watkins Ave. and Rooks Rd. to Dean Rd.",
+            "customers": 124,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-15 13:22:00 MST",
+            "etr": "2026-07-15 22:30:00 MST"
+        },
+        {
+            "latitude": 33.41101391062999,
+            "longitude": -112.58616760271151,
+            "city": "Holbrook",
+            "boundary": "Heywood Ave and Poplar Dr",
+            "customers": 21,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-15 14:11:00 MST",
+            "etr": "2026-07-15 20:20:00 MST"
+        },
+        {
+            "latitude": 33.441918911886034,
+            "longitude": -112.13398590262202,
+            "city": "Phoenix",
+            "boundary": "Papago freeway and Mckinley St",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-15 17:28:00 MST",
+            "etr": "2026-07-15 21:00:00 MST"
+        },
+        {
+            "latitude": 33.59495676475891,
+            "longitude": -112.00617175975623,
+            "city": "Phoenix",
+            "boundary": "Cactus Rd to 36th St and 32nd St to 36th St",
+            "customers": 30,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-15 18:54:00 MST",
+            "etr": "2026-07-15 21:50:00 MST"
+        }
+    ]
+}
