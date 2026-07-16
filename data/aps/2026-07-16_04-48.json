@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-16 04:48:59 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 177
+    },
+    "outages": [
+        {
+            "latitude": 33.36865799986456,
+            "longitude": -112.58745999992763,
+            "city": "Buckeye",
+            "boundary": "Maricopa Rd. to Watkins Ave. and Rooks Rd. to Dean Rd.",
+            "customers": 124,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-15 13:22:00 MST",
+            "etr": "2026-07-15 22:30:00 MST"
+        },
+        {
+            "latitude": 33.47420441732287,
+            "longitude": -112.04863437224496,
+            "city": "Phoenix",
+            "boundary": "East Sheridan St to East Harvard St and North 15th St to North 16th St",
+            "customers": 35,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-15 20:15:00 MST",
+            "etr": "2026-07-16 00:00:00 MST"
+        },
+        {
+            "latitude": 33.042686172931894,
+            "longitude": -110.88661760071463,
+            "city": "Kearny",
+            "boundary": "East Terrance and AZ-177",
+            "customers": 18,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-15 20:37:00 MST",
+            "etr": "2026-07-16 00:00:00 MST"
+        }
+    ]
+}
