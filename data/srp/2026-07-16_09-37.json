@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-16 09:37:27 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 93
+    },
+    "outages": [
+        {
+            "latitude": 33.488808191719954,
+            "longitude": -111.99061127282201,
+            "boundary": "N 40TH ST TO N 44TH ST AND E INDIAN SCHOOL RD TO E THOMAS RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 07:27 MST",
+            "etr": "2026-07-16 10:25 MST"
+        },
+        {
+            "latitude": 33.41446715674945,
+            "longitude": -111.6555866157455,
+            "boundary": "S 80TH ST TO S HAWES RD AND E UNIVERSITY DR TO E BROADWAY RD",
+            "customers": 7,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-16 08:33 MST",
+            "etr": "2026-07-16 12:00 MST"
+        },
+        {
+            "latitude": 33.4286593963858,
+            "longitude": -111.57858476394699,
+            "boundary": "N MOUNTAIN RD TO N DELAWARE DR AND W LOST DUTCHMAN BLVD TO W SUPERSTITION BLVD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 09:01 MST",
+            "etr": "2026-07-16 12:00 MST"
+        },
+        {
+            "latitude": 33.390539561481745,
+            "longitude": -112.0123385665155,
+            "boundary": "S 28TH ST TO S 36TH ST AND E SOUTHERN AVE TO E VINEYARD RD",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-16 09:07 MST",
+            "etr": "2026-07-16 10:35 MST"
+        },
+        {
+            "latitude": 33.5385292965606,
+            "longitude": -112.23142249707399,
+            "boundary": "N 83RD AVE TO N 79TH AVE AND W ORANGEWOOD AVE TO W MARYLAND AVE",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 09:09 MST",
+            "etr": "2026-07-16 13:14 MST"
+        },
+        {
+            "latitude": 33.5385740700737,
+            "longitude": -112.232234497933,
+            "boundary": "N 83RD AVE TO N 79TH AVE AND W ORANGEWOOD AVE TO W MARYLAND AVE",
+            "customers": 21,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 09:12 MST",
+            "etr": "2026-07-16 11:06 MST"
+        },
+        {
+            "latitude": 33.3378035026668,
+            "longitude": -111.7163777028995,
+            "boundary": "S HIGLEY RD TO S 172ND ST AND E MESQUITE ST TO E SANTAN FWY",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 08:36 MST",
+            "etr": "2026-07-16 11:34 MST"
+        },
+        {
+            "latitude": 33.2680360190189,
+            "longitude": -111.6281256608455,
+            "boundary": "S ELLSWORTH RD TO S CRISMON RD AND E GERMANN RD TO E QUEEN CREEK RD",
+            "customers": 20,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-16 09:06 MST",
+            "etr": "2026-07-16 11:04 MST"
+        },
+        {
+            "latitude": 33.4189966231932,
+            "longitude": -111.5662741883445,
+            "boundary": "N DELAWARE DR TO N IRONWOOD DR AND W SUPERSTITION BLVD TO W APACHE TRL",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 09:35 MST",
+            "etr": "2026-07-16 11:33 MST"
+        }
+    ]
+}

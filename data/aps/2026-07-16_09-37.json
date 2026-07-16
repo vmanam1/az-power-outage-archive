@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-16 09:37:26 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 106
+    },
+    "outages": [
+        {
+            "latitude": 33.43145272416839,
+            "longitude": -112.0681943611066,
+            "city": "Phoenix",
+            "boundary": "Mohave St and 5th St",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-16 01:00:00 MST",
+            "etr": "2026-07-16 04:00:00 MST"
+        },
+        {
+            "latitude": 34.48450353211092,
+            "longitude": -110.31889659022815,
+            "city": "Snowflake",
+            "boundary": "Emory St. to 3rd Street North and Lewis and Clark Ave.",
+            "customers": 101,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-16 02:19:00 MST",
+            "etr": "2026-07-16 05:50:00 MST"
+        }
+    ]
+}
