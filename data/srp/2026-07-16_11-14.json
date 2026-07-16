@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-16 11:14:39 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1058
+    },
+    "outages": [
+        {
+            "latitude": 33.5385292965606,
+            "longitude": -112.23142249707399,
+            "boundary": "N 83RD AVE TO N 79TH AVE AND W ORANGEWOOD AVE TO W MARYLAND AVE",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 09:09 MST",
+            "etr": "2026-07-16 13:14 MST"
+        },
+        {
+            "latitude": 33.4189966231932,
+            "longitude": -111.5662741883445,
+            "boundary": "N DELAWARE DR TO N IRONWOOD DR AND W SUPERSTITION BLVD TO W APACHE TRL",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 09:35 MST",
+            "etr": "2026-07-16 11:33 MST"
+        },
+        {
+            "latitude": 33.4860847220485,
+            "longitude": -112.1752229357715,
+            "boundary": "N 55TH AVE TO N 51ST AVE AND W INDIAN SCHOOL RD TO W THOMAS RD",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-16 09:40 MST",
+            "etr": "2026-07-16 11:33 MST"
+        },
+        {
+            "latitude": 33.5385740700737,
+            "longitude": -112.232234497933,
+            "boundary": "N 83RD AVE TO N 79TH AVE AND W ORANGEWOOD AVE TO W MARYLAND AVE",
+            "customers": 21,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 09:12 MST",
+            "etr": "2026-07-16 12:15 MST"
+        },
+        {
+            "latitude": 33.56437506961815,
+            "longitude": -112.1782074340845,
+            "boundary": "N 63RD AVE TO N 47TH AVE AND W MOUNTAIN VIEW RD TO W NORTHERN AVE",
+            "customers": 1009,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-16 11:08 MST",
+            "etr": "2026-07-16 13:07 MST"
+        }
+    ]
+}

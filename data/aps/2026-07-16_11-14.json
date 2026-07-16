@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-16 11:14:38 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 76
+    },
+    "outages": [
+        {
+            "latitude": 33.5500182613101,
+            "longitude": -112.11395039415801,
+            "city": "Chino Valley",
+            "boundary": "Granite Creek Ln to Rodeo Rd and Hayward",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-16 01:37:00 MST",
+            "etr": "2026-07-16 05:00:00 MST"
+        },
+        {
+            "latitude": 32.8597871330231,
+            "longitude": -113.38552000601389,
+            "city": "Dateland",
+            "boundary": "Agua Caliente Rd. and I8",
+            "customers": 70,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-16 02:24:00 MST",
+            "etr": "2026-07-16 05:00:00 MST"
+        }
+    ]
+}
