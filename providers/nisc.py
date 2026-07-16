@@ -78,6 +78,71 @@ class NISCOutageProvider(BaseProvider):
                 const records = [];
                 const seen = new Set();
 
+                // Find polygon layers for spatial checks
+                let boundaryGraphics = [];
+                try {
+                    const firstCircle = document.querySelector('#graphicsLayer3_layer circle');
+                    if (firstCircle && firstCircle.e_graphic) {
+                        const layer = firstCircle.e_graphic._layer;
+                        const map = layer.getMap ? layer.getMap() : layer._map;
+                        if (map && map.graphicsLayerIds) {
+                            for (let i = 0; i < map.graphicsLayerIds.length; i++) {
+                                const gl = map.getLayer(map.graphicsLayerIds[i]);
+                                if (gl && gl.graphics && gl.graphics.length > 0) {
+                                    const sample = gl.graphics[0];
+                                    if (sample && sample.geometry && sample.geometry.type === 'polygon') {
+                                        boundaryGraphics = gl.graphics;
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } catch (e) {
+                    // Ignore and fallback
+                }
+
+                function isPointInPolygon(point, polygon) {
+                    if (!polygon || !polygon.rings) return false;
+                    let inside = false;
+                    const x = point.x;
+                    const y = point.y;
+                    for (let r = 0; r < polygon.rings.length; r++) {
+                        const ring = polygon.rings[r];
+                        for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+                            const xi = ring[i][0], yi = ring[i][1];
+                            const xj = ring[j][0], yj = ring[j][1];
+                            const intersect = ((yi > y) !== (yj > y))
+                                && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+                            if (intersect) inside = !inside;
+                        }
+                    }
+                    return inside;
+                }
+
+                function getBoundaryName(point) {
+                    if (!point) return null;
+                    for (let i = 0; i < boundaryGraphics.length; i++) {
+                        const g = boundaryGraphics[i];
+                        if (g.geometry && g.geometry.type === 'polygon' && isPointInPolygon(point, g.geometry)) {
+                            const attrs = g.attributes || {};
+                            // Look for name-like attributes
+                            for (const k in attrs) {
+                                if (['name', 'label', 'boundary', 'district', 'region'].some(term => k.toLowerCase().includes(term))) {
+                                    if (attrs[k]) return attrs[k];
+                                }
+                            }
+                            // Fallback to first non-object attribute value
+                            for (const k in attrs) {
+                                if (typeof attrs[k] !== 'object' && attrs[k]) {
+                                    return attrs[k];
+                                }
+                            }
+                        }
+                    }
+                    return null;
+                }
+
                 for (const node of nodes) {
                     const graphic = node.e_graphic;
                     if (!graphic || seen.has(graphic)) continue;
@@ -89,10 +154,12 @@ class NISCOutageProvider(BaseProvider):
                     });
 
                     const callout = document.querySelector('.mapviewer-callout');
+                    const bName = getBoundaryName(graphic.geometry);
                     records.push({
                         x: graphic.geometry && graphic.geometry.x,
                         y: graphic.geometry && graphic.geometry.y,
-                        text: callout ? callout.innerText : ''
+                        text: callout ? callout.innerText : '',
+                        boundary: bName
                     });
                 }
 
@@ -147,6 +214,7 @@ class NISCOutageProvider(BaseProvider):
                     fields.get("estimated time of restoration")
                     or fields.get("etr")
                 ),
+                "boundary": record.get("boundary")
             })
 
         return self.validate_snapshot({
