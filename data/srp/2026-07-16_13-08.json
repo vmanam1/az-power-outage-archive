@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-16 13:08:26 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 33.4860847220485,
+            "longitude": -112.1752229357715,
+            "boundary": "N 55TH AVE TO N 51ST AVE AND W INDIAN SCHOOL RD TO W THOMAS RD",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-16 09:40 MST",
+            "etr": "2026-07-16 17:30 MST"
+        },
+        {
+            "latitude": 33.40784721697155,
+            "longitude": -112.1167367346745,
+            "boundary": "S 31ST AVE TO S 23RD AVE AND W LOWER BUCKEYE RD TO W ROESER RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 12:40 MST",
+            "etr": "2026-07-16 18:38 MST"
+        },
+        {
+            "latitude": 33.297961874351145,
+            "longitude": -111.3094763606,
+            "boundary": "UNKNOWN TO N WILLIAMS DR AND UNKNOWN TO E HWY 60",
+            "customers": 32,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 12:59 MST",
+            "etr": "2026-07-16 14:48 MST"
+        },
+        {
+            "latitude": 33.4070508237253,
+            "longitude": -112.117085688548,
+            "boundary": "S 31ST AVE TO S 23RD AVE AND W LOWER BUCKEYE RD TO W ROESER RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-16 13:01 MST",
+            "etr": "2026-07-16 17:00 MST"
+        }
+    ]
+}

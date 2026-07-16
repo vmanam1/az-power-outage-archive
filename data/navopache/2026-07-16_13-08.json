@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-16 13:08:53 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 33.800647151021614,
+            "longitude": -109.9729369312602,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-16 18:27:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        },
+        {
+            "latitude": 34.004911969269614,
+            "longitude": -109.4586638430648,
+            "customers": 1,
+            "cause": "CONSTRUCTION",
+            "comments": "Planned",
+            "start_time": "2026-07-16 15:43:00 MST",
+            "etr": null,
+            "boundary": "5 - SPRINGERVILLE"
+        },
+        {
+            "latitude": 34.11859634081611,
+            "longitude": -109.88040378170457,
+            "customers": 39,
+            "cause": "MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-16 18:01:00 MST",
+            "etr": null,
+            "boundary": "2 - PINETOP"
+        }
+    ]
+}
