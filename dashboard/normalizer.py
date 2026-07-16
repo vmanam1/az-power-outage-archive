@@ -89,6 +89,23 @@ def normalize_outage(outage, provider_name):
         except (ValueError, TypeError):
             cust_restored = 0
 
+    # Format dictionary boundaries to readable strings
+    boundary = outage.get("boundary")
+    if isinstance(boundary, dict):
+        sw_lat = boundary.get("coordLatSW")
+        sw_lng = boundary.get("coordLngSW")
+        ne_lat = boundary.get("coordLatNE")
+        ne_lng = boundary.get("coordLngNE")
+        if sw_lat and sw_lng and ne_lat and ne_lng:
+            try:
+                boundary = f"Box: SW({float(sw_lat):.4f}, {float(sw_lng):.4f}) to NE({float(ne_lat):.4f}, {float(ne_lng):.4f})"
+            except (ValueError, TypeError):
+                boundary = str(boundary)
+        else:
+            boundary = str(boundary)
+    elif boundary is not None:
+        boundary = str(boundary).strip() or None
+
     return {
         "provider": provider_name.lower(),
         "latitude": lat,
@@ -100,7 +117,7 @@ def normalize_outage(outage, provider_name):
         "etr": etr,
         "restored_time": restored_time,
         "city": outage.get("city") or None,
-        "boundary": outage.get("boundary") or None,
+        "boundary": boundary,
         "incident_id": outage.get("incident_id") or None,
         "pole_number": outage.get("pole_number") or None,
         "event": outage.get("event") or None,
