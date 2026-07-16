@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-15 20:30:02 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 64
+    },
+    "outages": [
+        {
+            "latitude": 33.4357001187697,
+            "longitude": -111.79566692088349,
+            "boundary": "N STAPLEY DR TO N GILBERT RD AND E MCLELLAN RD TO E 8TH ST",
+            "customers": 33,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 18:52 MST",
+            "etr": "2026-07-15 20:47 MST"
+        },
+        {
+            "latitude": 33.5391448093098,
+            "longitude": -112.2300745901905,
+            "boundary": "N 83RD AVE TO N 75TH AVE AND W ORANGEWOOD AVE TO W MARYLAND AVE",
+            "customers": 31,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-15 20:23 MST",
+            "etr": "2026-07-15 22:22 MST"
+        }
+    ]
+}

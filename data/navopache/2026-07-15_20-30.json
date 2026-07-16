@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-15 20:30:22 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 34.09442037106558,
+            "longitude": -109.91071467934687,
+            "customers": 1,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "start_time": "2026-07-16 02:55:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        },
+        {
+            "latitude": 34.01631563810767,
+            "longitude": -109.45742905337374,
+            "customers": 34,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "start_time": "2026-07-16 03:13:00 MST",
+            "etr": null,
+            "boundary": "5 - SPRINGERVILLE"
+        }
+    ]
+}
