@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arizona Power Outage Explorer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <!-- Leaflet MarkerCluster -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Top Compact Header -->
+    <header class="app-header">
+        <div class="header-main">
+            <div class="header-logo">
+                <span class="logo-icon">⚡</span>
+                <div>
+                    <h1>Arizona Power Outage Explorer</h1>
+                    <p class="subtitle">Local visualization of archived Arizona utility outage snapshots</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <div id="connection-badge" class="badge badge-success">Local Server</div>
+                <button id="dark-mode-toggle" class="btn btn-icon" title="Toggle Dark/Light Mode" aria-label="Toggle Theme">🌓</button>
+                <button id="refresh-data-btn" class="btn btn-primary">🔄 Refresh Data</button>
+                <div class="status-indicator">
+                    <span class="status-dot green"></span>
+                    <span id="last-checked-label">Last checked: Just now</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="app-container">
+        
+        <!-- Summary Dashboard Cards -->
+        <section class="summary-cards">
+            <div class="card" id="card-visible-records">
+                <h3>Visible Outages</h3>
+                <p class="card-value" id="val-visible-records">0</p>
+                <p class="card-subtitle">Active map markers</p>
+            </div>
+            <div class="card" id="card-total-customers">
+                <h3>Affected Customers</h3>
+                <p class="card-value" id="val-total-customers">0</p>
+                <p class="card-subtitle" id="label-total-customers">Current total</p>
+            </div>
+            <div class="card" id="card-selected-providers">
+                <h3>Providers Selected</h3>
+                <p class="card-value" id="val-selected-providers">0</p>
+                <p class="card-subtitle" id="label-selected-providers">Active in search</p>
+            </div>
+            <div class="card" id="card-snapshot-files">
+                <h3>Snapshot Files</h3>
+                <p class="card-value" id="val-snapshot-files">0</p>
+                <p class="card-subtitle">Loaded from archive</p>
+            </div>
+            <div class="card span-2" id="card-time-boundaries">
+                <h3>Archive Window</h3>
+                <div class="time-boundary-row">
+                    <div>
+                        <span class="label">Earliest:</span>
+                        <span class="value" id="val-earliest-time">N/A</span>
+                    </div>
+                    <div>
+                        <span class="label">Latest:</span>
+                        <span class="value" id="val-latest-time">N/A</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-warning" id="card-missing-coords">
+                <h3>Missing Coordinates</h3>
+                <p class="card-value" id="val-missing-coords">0</p>
+                <p class="card-subtitle">Excluded from map</p>
+            </div>
+        </section>
+
+        <!-- Active Filters Chips Bar -->
+        <section class="active-chips-section" id="active-chips-bar" style="display: none;">
+            <span class="chips-label">Active Filters:</span>
+            <div class="chips-container" id="chips-container"></div>
+            <button id="clear-all-chips" class="btn btn-link btn-small">Clear All</button>
+        </section>
+
+        <!-- Dynamic Content Grid -->
+        <div class="content-grid">
+            
+            <!-- Collapsible Filters Sidebar -->
+            <aside class="sidebar" id="filter-sidebar">
+                <div class="sidebar-header">
+                    <h2>Filter Snapshots</h2>
+                    <button id="toggle-sidebar-btn" class="btn btn-icon sidebar-collapse-btn" title="Collapse Filters">◀</button>
+                </div>
+                <div class="sidebar-content">
+                    <form id="filter-form">
+                        
+                        <!-- Display Mode Selector -->
+                        <div class="filter-group">
+                            <label for="display_mode" class="filter-label">Display Mode</label>
+                            <select id="display_mode" name="display_mode" class="form-control">
+                                <option value="latest">Latest Data (Newest Snapshots)</option>
+                                <option value="snapshot_at_time">Snapshot at Selected Time</option>
+                                <option value="historical">Historical Observations</option>
+                                <option value="unique_outages">Unique Outages (Deduplicated)</option>
+                            </select>
+                            <div class="field-help" id="display-mode-help">
+                                Shows the most recent snapshot for each selected provider.
+                            </div>
+                        </div>
+
+                        <!-- Target Time for Snapshot-at-Time Mode -->
+                        <div class="filter-group" id="group-snapshot-time" style="display: none;">
+                            <label for="snapshot_time" class="filter-label">Snapshot Target Time</label>
+                            <input type="datetime-local" id="snapshot_time" name="snapshot_time" class="form-control">
+                        </div>
+
+                        <!-- Date range filters -->
+                        <div class="filter-group" id="group-date-range">
+                            <label class="filter-label">Date Range</label>
+                            <div class="range-inputs">
+                                <div class="input-with-label">
+                                    <span class="sub-label">Start</span>
+                                    <input type="date" id="start_date" name="start_date" class="form-control">
+                                </div>
+                                <div class="input-with-label">
+                                    <span class="sub-label">End</span>
+                                    <input type="date" id="end_date" name="end_date" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Time of Day range filters -->
+                        <div class="filter-group">
+                            <label class="filter-label">Time of Day (Outage Start)</label>
+                            <div class="range-inputs">
+                                <input type="time" id="time_of_day_start" name="time_of_day_start" class="form-control">
+                                <span>to</span>
+                                <input type="time" id="time_of_day_end" name="time_of_day_end" class="form-control">
+                            </div>
+                        </div>
+
+                        <!-- Provider Multi-select -->
+                        <div class="filter-group">
+                            <div class="filter-label-row">
+                                <span class="filter-label">Utility Providers</span>
+                                <div class="bulk-links">
+                                    <button type="button" id="prov-select-all" class="btn btn-link btn-small">Select All</button>
+                                    <button type="button" id="prov-clear-all" class="btn btn-link btn-small">Clear</button>
+                                </div>
+                            </div>
+                            <div class="checkbox-list" id="provider-checkbox-list">
+                                <!-- Dynamically loaded -->
+                                <div class="loading-checkboxes">Loading providers...</div>
+                            </div>
+                        </div>
+
+                        <!-- Customers Affected Range -->
+                        <div class="filter-group">
+                            <label class="filter-label">Customers Affected</label>
+                            <div class="range-inputs">
+                                <input type="number" id="min_customers" name="min_customers" placeholder="Min" min="0" class="form-control">
+                                <span>to</span>
+                                <input type="number" id="max_customers" name="max_customers" placeholder="Max" min="0" class="form-control">
+                            </div>
+                            <label class="checkbox-label mt-2">
+                                <input type="checkbox" id="include_unknown_customers" name="include_unknown_customers">
+                                Include unknown customer counts (represented as 0)
+                            </label>
+                        </div>
+
+                        <!-- Cause Search -->
+                        <div class="filter-group">
+                            <label for="cause" class="filter-label">Cause or Comments Search</label>
+                            <input type="text" id="cause" name="cause" placeholder="e.g. Storm, Equipment, Monsoon" class="form-control">
+                        </div>
+
+                        <!-- Active Outages Only -->
+                        <div class="filter-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="active_only" name="active_only">
+                                <strong>Active outages only</strong> (excludes restored records)
+                            </label>
+                        </div>
+
+                        <!-- Actions -->
+                        <div class="sidebar-actions">
+                            <button type="submit" id="apply-filters-btn" class="btn btn-success btn-full">Apply Filters</button>
+                            <button type="button" id="reset-filters-btn" class="btn btn-secondary btn-full">Reset Filters</button>
+                        </div>
+                    </form>
+                </div>
+            </aside>
+
+            <!-- Re-open sidebar handle when collapsed -->
+            <button id="sidebar-open-btn" class="sidebar-open-btn" style="display: none;" title="Expand Filters">▶ Filters</button>
+
+            <!-- Map and Analytics Area -->
+            <div class="map-and-analytics">
+                
+                <!-- Large Map container -->
+                <div class="map-container-wrapper">
+                    <div id="map"></div>
+                    
+                    <!-- Floating Map Action Controls -->
+                    <div class="map-overlay-controls">
+                        <button id="reset-map-view-btn" class="btn btn-secondary shadow" title="Reset View to Arizona">🗺️ Center Arizona</button>
+                        <div class="legend-panel shadow" id="map-legend">
+                            <h4>Utility Providers</h4>
+                            <div id="legend-items"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inline Charts section -->
+                <section class="charts-section">
+                    <div class="chart-card">
+                        <h4>Affected Customers by Provider</h4>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-customers"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h4>Outage Records by Provider</h4>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-outages"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h4>Observations / Active Outages Over Time</h4>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-timeline"></canvas>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Data Table Section -->
+                <section class="table-section">
+                    <div class="table-header">
+                        <div class="table-title-area">
+                            <h4>Detailed Outages Feed</h4>
+                            <span id="table-record-count" class="badge badge-secondary">0 visible</span>
+                        </div>
+                        <div class="table-actions">
+                            <input type="text" id="table-search" placeholder="Search visible rows..." class="form-control input-inline">
+                            <button id="export-csv-btn" class="btn btn-secondary">📥 Export CSV</button>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table id="outages-table" class="data-table">
+                            <thead>
+                                <tr>
+                                    <th data-sort="provider" class="sortable">Provider <span class="sort-icon"></span></th>
+                                    <th data-sort="customers" class="sortable numeric">Customers <span class="sort-icon"></span></th>
+                                    <th data-sort="cause" class="sortable">Cause <span class="sort-icon"></span></th>
+                                    <th data-sort="start_time" class="sortable">Start Time <span class="sort-icon"></span></th>
+                                    <th data-sort="etr" class="sortable">Estimated Restoration (ETR) <span class="sort-icon"></span></th>
+                                    <th data-sort="city" class="sortable">City/Region <span class="sort-icon"></span></th>
+                                    <th data-sort="boundary" class="sortable">Boundary <span class="sort-icon"></span></th>
+                                    <th data-sort="latitude" class="sortable numeric">Location <span class="sort-icon"></span></th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body">
+                                <tr>
+                                    <td colspan="8" class="text-center text-muted">No outage data matches the selected filters.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Table Pagination -->
+                    <div class="table-footer">
+                        <div class="page-size-selector">
+                            <label for="page-size">Rows per page:</label>
+                            <select id="page-size" class="form-control form-control-small">
+                                <option value="10">10</option>
+                                <option value="25" selected>25</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                            </select>
+                        </div>
+                        <div class="pagination-controls" id="pagination-controls">
+                            <!-- Dynamically populated -->
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Global Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Application Footer with Disclaimer -->
+    <footer class="app-footer">
+        <p class="disclaimer">
+            <strong>Disclaimer:</strong> Historical reference data only. Confirm current outage information directly with the respective utility provider. 
+            Background map tiles provided by OpenStreetMap and hosted by OpenStreetMap Foundation (requires Internet connection). Outage database snapshots are parsed and served locally.
+        </p>
+        <p class="copyright">&copy; 2026 Arizona Power Outage Explorer. All rights reserved.</p>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/table.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
