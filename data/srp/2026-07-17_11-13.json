@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-17 11:13:55 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 93
+    },
+    "outages": [
+        {
+            "latitude": 33.5030201652701,
+            "longitude": -111.951134328043,
+            "boundary": "N 56TH ST TO N 64TH ST AND E CHAPARRAL RD TO E INDIAN SCHOOL RD",
+            "customers": 10,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 07:26 MST",
+            "etr": "2026-07-17 13:29 MST"
+        },
+        {
+            "latitude": 33.5388801355801,
+            "longitude": -112.108471430223,
+            "boundary": "N BLACK CANYON HWY TO N 19TH AVE AND W ORANGEWOOD AVE TO W MARYLAND AVE",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 09:50 MST",
+            "etr": "2026-07-17 14:00 MST"
+        },
+        {
+            "latitude": 33.529106562755345,
+            "longitude": -111.99947211974751,
+            "boundary": "N PALO CRISTI RD TO N 40TH ST AND E LINCOLN DR TO E BETHANY HOME RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-17 10:05 MST",
+            "etr": "2026-07-17 13:01 MST"
+        },
+        {
+            "latitude": 33.405212566939,
+            "longitude": -111.58396049464551,
+            "boundary": "S MOUNTAIN RD TO S DELAWARE DR AND E BROADWAY RD TO E PUEBLO AVE",
+            "customers": 33,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 09:28 MST",
+            "etr": "2026-07-17 15:30 MST"
+        },
+        {
+            "latitude": 33.5791281489266,
+            "longitude": -112.1546511926895,
+            "boundary": "N 47TH AVE TO N 43RD AVE AND W PEORIA AVE TO W MOUNTAIN VIEW RD",
+            "customers": 39,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-17 10:04 MST",
+            "etr": "2026-07-17 12:06 MST"
+        },
+        {
+            "latitude": 33.3899390288217,
+            "longitude": -112.269014795548,
+            "boundary": "S 99TH AVE TO S 91ST AVE AND W SOUTHERN AVE TO E BASELINE RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-17 10:30 MST",
+            "etr": "2026-07-17 14:28 MST"
+        },
+        {
+            "latitude": 33.397651304711644,
+            "longitude": -112.066319622696,
+            "boundary": "S CENTRAL AVE TO S 12TH ST AND E BROADWAY RD TO E SOUTHERN AVE",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-17 10:37 MST",
+            "etr": "2026-07-17 12:32 MST"
+        }
+    ]
+}

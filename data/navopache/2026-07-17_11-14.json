@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-17 11:14:19 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 33
+    },
+    "outages": [
+        {
+            "latitude": 34.43347628047986,
+            "longitude": -109.63825942043397,
+            "customers": 33,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-17 17:00:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        }
+    ]
+}
