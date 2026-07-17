@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 05:18:08 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 3048
+    },
+    "outages": [
+        {
+            "latitude": 34.87729940012418,
+            "longitude": -111.96431140029183,
+            "city": "Sedona",
+            "boundary": "Bill Gray Rd. and Black Mountain Rd. to Sycamore Pass Rd.",
+            "customers": 57,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-16 20:25:00 MST",
+            "etr": "2026-07-16 23:30:00 MST"
+        },
+        {
+            "latitude": 33.59192895826278,
+            "longitude": -112.29056156583958,
+            "city": "Sun City",
+            "boundary": "Cherry Hills Dr. and Hillcrest Dr.",
+            "customers": 175,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-16 20:31:00 MST",
+            "etr": "2026-07-17 00:30:00 MST"
+        },
+        {
+            "latitude": 34.58750000010326,
+            "longitude": -112.33657000033298,
+            "city": "Prescott Valley",
+            "boundary": "Lakeshore Dr to Fourth St and Great Western Dr to Yavapai Rd",
+            "customers": 2316,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-16 20:57:00 MST",
+            "etr": "2026-07-17 00:00:00 MST"
+        },
+        {
+            "latitude": 33.6829604377057,
+            "longitude": -112.24958230904016,
+            "city": "Peoria",
+            "boundary": "West Deer Valley Rd and North 89th Ave to North 88th Ave",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-16 21:27:00 MST",
+            "etr": "2026-07-17 00:45:00 MST"
+        },
+        {
+            "latitude": 34.46525646279055,
+            "longitude": -110.12888150168196,
+            "city": "Snowflake",
+            "boundary": "Hillshire Dr to Airport Rd and North Cedar St to Centennial Bv",
+            "customers": 459,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-16 21:22:00 MST",
+            "etr": "2026-07-17 00:45:00 MST"
+        },
+        {
+            "latitude": 33.63553833871198,
+            "longitude": -112.33531962091597,
+            "city": "Surprise",
+            "boundary": "Bell Rd. to Post Dr. and Queen Esther Dr. to Nash St.",
+            "customers": 36,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-16 21:27:00 MST",
+            "etr": "2026-07-16 23:55:00 MST"
+        }
+    ]
+}

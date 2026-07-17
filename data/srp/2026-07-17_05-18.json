@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-17 05:18:08 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 33.352758431588995,
+            "longitude": -111.99253196320751,
+            "boundary": "S 32ND ST TO S WARNER-ELLIOT LOOP AND E BASELINE RD TO E ELLIOT RD",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-17 04:49 MST",
+            "etr": "2026-07-17 06:49 MST"
+        }
+    ]
+}
