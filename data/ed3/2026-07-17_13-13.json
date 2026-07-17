@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-07-17 13:13:06 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 2472,
+        "total_customers": 36390
+    },
+    "outages": [
+        {
+            "latitude": 33.0436722596491,
+            "longitude": -112.0603375737666,
+            "boundary": "PC-398283",
+            "customers": 193,
+            "cause": "710 - Motor vehicle",
+            "comments": "CauseFound",
+            "start_time": "2026-07-17 11:45:52 MST",
+            "etr": null,
+            "pole_number": null
+        },
+        {
+            "latitude": 33.043672076824365,
+            "longitude": -112.06034715987106,
+            "boundary": "PC-398282",
+            "customers": 1036,
+            "cause": "710 - Motor vehicle",
+            "comments": "CauseFound",
+            "start_time": "2026-07-17 11:45:51 MST",
+            "etr": null,
+            "pole_number": null
+        },
+        {
+            "latitude": 33.06280206539274,
+            "longitude": -112.062790709216,
+            "boundary": "BKR-MW125",
+            "customers": 1229,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-07-17 11:45:51 MST",
+            "etr": null,
+            "pole_number": "MAW125"
+        },
+        {
+            "latitude": 33.08573561953934,
+            "longitude": -112.02674265598331,
+            "boundary": null,
+            "customers": 14,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-07-17 12:00:14 MST",
+            "etr": null,
+            "pole_number": "T212"
+        }
+    ]
+}

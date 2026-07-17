@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 13:12:57 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 143
+    },
+    "outages": [
+        {
+            "latitude": 35.21098548877383,
+            "longitude": -111.9826697487305,
+            "city": "Parks",
+            "boundary": "Horse Hill Tl to National Forest Rd 859 and Forest Service Rd 218 to Garland Prairie Rd",
+            "customers": 143,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-17 05:48:00 MST",
+            "etr": "2026-07-17 09:15:00 MST"
+        }
+    ]
+}

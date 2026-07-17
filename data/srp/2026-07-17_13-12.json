@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-17 13:12:58 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 61
+    },
+    "outages": [
+        {
+            "latitude": 33.5030201652701,
+            "longitude": -111.951134328043,
+            "boundary": "N 56TH ST TO N 64TH ST AND E CHAPARRAL RD TO E INDIAN SCHOOL RD",
+            "customers": 10,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 07:26 MST",
+            "etr": "2026-07-17 13:29 MST"
+        },
+        {
+            "latitude": 33.5388801355801,
+            "longitude": -112.108471430223,
+            "boundary": "N BLACK CANYON HWY TO N 19TH AVE AND W ORANGEWOOD AVE TO W MARYLAND AVE",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 09:50 MST",
+            "etr": "2026-07-17 14:00 MST"
+        },
+        {
+            "latitude": 33.4448472523742,
+            "longitude": -112.26271503341101,
+            "boundary": "S 99TH AVE TO S 91ST AVE AND W VAN BUREN ST TO W BUCKEYE RD",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-17 11:36 MST",
+            "etr": "2026-07-17 14:40 MST"
+        },
+        {
+            "latitude": 33.405212566939,
+            "longitude": -111.58396049464551,
+            "boundary": "S MOUNTAIN RD TO S DELAWARE DR AND E BROADWAY RD TO E PUEBLO AVE",
+            "customers": 33,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 09:28 MST",
+            "etr": "2026-07-17 15:30 MST"
+        }
+    ]
+}
