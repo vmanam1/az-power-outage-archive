@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-16 21:16:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 359
+    },
+    "outages": [
+        {
+            "latitude": 33.47442635230879,
+            "longitude": -112.043558809143,
+            "city": "Phoenix",
+            "boundary": "Yale St to Oak St and 17th St to 20th St",
+            "customers": 222,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-16 10:12:00 MST",
+            "etr": "2026-07-16 15:00:00 MST"
+        },
+        {
+            "latitude": 33.65628492673096,
+            "longitude": -112.29334434896043,
+            "city": "Sun City",
+            "boundary": "Mark Ln. to Sack Dr. and Dinero Rd.",
+            "customers": 7,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-16 13:04:00 MST",
+            "etr": "2026-07-16 15:00:00 MST"
+        },
+        {
+            "latitude": 33.686118020008585,
+            "longitude": -112.11503928343637,
+            "city": "Phoenix",
+            "boundary": "27th Ave to Deer Valley Rd and 31st Ave to Black Canyon Freeway",
+            "customers": 113,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-16 10:17:00 MST",
+            "etr": "2026-07-16 16:45:00 MST"
+        },
+        {
+            "latitude": 33.57361359776064,
+            "longitude": -111.94699632018981,
+            "city": "Paradise Valley",
+            "boundary": "Mountain View Dr. to Fanfol Dr. and Morning Glory Rd. to Invergordon Rd.",
+            "customers": 17,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-16 14:02:00 MST",
+            "etr": "2026-07-16 17:00:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-16 21:17:01 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 4
+    },
+    "outages": [
+        {
+            "latitude": 32.46458394923461,
+            "longitude": -111.21018507491198,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-16 22:48:00 MST",
+            "etr": "2026-07-17 01:48:00 MST",
+            "boundary": "Marana"
+        },
+        {
+            "latitude": 32.32389191028782,
+            "longitude": -111.20425792052247,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-17 02:33:00 MST",
+            "etr": null,
+            "boundary": "Picture Rocks"
+        },
+        {
+            "latitude": 32.230950546465294,
+            "longitude": -111.28204806798016,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-17 01:11:00 MST",
+            "etr": "2026-07-17 04:11:00 MST",
+            "boundary": "Milewide Rd"
+        },
+        {
+            "latitude": 32.183501233743556,
+            "longitude": -111.28275488457953,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-17 01:11:00 MST",
+            "etr": "2026-07-17 05:11:00 MST",
+            "boundary": "Three Points"
+        }
+    ]
+}
