@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-16 17:08:26 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 31.424899736273613,
+            "longitude": -109.54458304382439,
+            "city": "Douglas",
+            "boundary": "San Pateo Dr to Golf Course Rd and Guadalajura Rd to Leslie Canyon Rd",
+            "customers": 22,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-16 08:15:00 MST",
+            "etr": "2026-07-16 12:00:00 MST"
+        }
+    ]
+}
