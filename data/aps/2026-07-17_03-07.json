@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 03:07:57 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1272
+    },
+    "outages": [
+        {
+            "latitude": 33.584606400009434,
+            "longitude": -112.0495821999726,
+            "city": "Phoenix",
+            "boundary": "Cactus Rd To Purdue Ave And 7Th St To 21St Pl",
+            "customers": 1043,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-16 18:11:00 MST",
+            "etr": "2026-07-16 20:25:00 MST"
+        },
+        {
+            "latitude": 33.91037417632011,
+            "longitude": -112.14342629434957,
+            "city": "New River",
+            "boundary": "Roughrider Rd. to 47th Ave. and Black Canyon Freeway",
+            "customers": 172,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-16 18:35:00 MST",
+            "etr": "2026-07-16 22:05:00 MST"
+        },
+        {
+            "latitude": 34.87729940012418,
+            "longitude": -111.96431140029183,
+            "city": "Sedona",
+            "boundary": "Bill Gray Rd. and Black Mountain Rd. to Sycamore Pass Rd.",
+            "customers": 57,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-16 19:12:00 MST",
+            "etr": "2026-07-16 22:10:00 MST"
+        }
+    ]
+}

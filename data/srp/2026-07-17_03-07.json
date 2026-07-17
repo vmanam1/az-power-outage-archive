@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-17 03:07:58 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.246420556598,
+            "longitude": -111.886035963307,
+            "boundary": "S OLD PRICE RD TO S DOBSON RD AND W QUEEN CREEK RD TO W OCOTILLO RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-17 00:34 MST",
+            "etr": "2026-07-17 07:30 MST"
+        },
+        {
+            "latitude": 33.246420556598,
+            "longitude": -111.886035963307,
+            "boundary": "S OLD PRICE RD TO S DOBSON RD AND W QUEEN CREEK RD TO W OCOTILLO RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-17 00:34 MST",
+            "etr": "2026-07-17 07:30 MST"
+        },
+        {
+            "latitude": 33.4320944285153,
+            "longitude": -111.6125798150715,
+            "boundary": "N CRISMON RD TO N 104TH ST AND E BROWN RD TO E ADOBE RD",
+            "customers": 3,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-16 22:49 MST",
+            "etr": "2026-07-17 06:00 MST"
+        }
+    ]
+}
