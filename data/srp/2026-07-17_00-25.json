@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-17 00:25:31 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 2012
+    },
+    "outages": [
+        {
+            "latitude": 33.42788508929375,
+            "longitude": -111.6015486070225,
+            "boundary": "N ELLSWORTH RD TO N DELAWARE DR AND E MCLELLAN RD TO E BROADWAY RD",
+            "customers": 977,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-16 22:49 MST",
+            "etr": "2026-07-17 00:57 MST"
+        },
+        {
+            "latitude": 33.509697254216,
+            "longitude": -112.20283104382901,
+            "boundary": "N 71ST AVE TO N 63RD AVE AND W MISSOURI AVE TO W CAMPBELL AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-16 23:38 MST",
+            "etr": "2026-07-17 02:00 MST"
+        },
+        {
+            "latitude": 33.3193186299836,
+            "longitude": -112.0087143925945,
+            "boundary": "S RAY RD TO S 36TH ST AND E RANCH N CIR TO E RAY RD",
+            "customers": 5,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-16 21:42 MST",
+            "etr": "2026-07-17 02:42 MST"
+        },
+        {
+            "latitude": 33.415806549908794,
+            "longitude": -111.614002516117,
+            "boundary": "N ELLSWORTH RD TO N MOUNTAIN RD AND E ADOBE RD TO E PUEBLO AVE",
+            "customers": 1029,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-16 22:49 MST",
+            "etr": "2026-07-17 02:07 MST"
+        }
+    ]
+}

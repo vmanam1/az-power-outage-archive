@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 00:25:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 63
+    },
+    "outages": [
+        {
+            "latitude": 33.40467257117751,
+            "longitude": -110.8542196560753,
+            "city": "Miami",
+            "boundary": "US60 and El Maquey Trl. to Old Oak Sr.",
+            "customers": 5,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-07-16 15:28:00 MST",
+            "etr": "2026-07-16 18:55:00 MST"
+        },
+        {
+            "latitude": 34.80118902713399,
+            "longitude": -112.46236321588053,
+            "city": "Paulden",
+            "boundary": "West Roat 5 North to West Road 4 1/2 North and Cole Lee Ct to North Clover Ln",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-16 15:54:00 MST",
+            "etr": "2026-07-16 19:30:00 MST"
+        },
+        {
+            "latitude": 33.518839423119715,
+            "longitude": -112.05776414092031,
+            "city": "Phoenix",
+            "boundary": "East Montebello Ave to East Palacio Dr and North 11th St to Noth 12th St",
+            "customers": 28,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-16 17:05:00 MST",
+            "etr": "2026-07-16 20:45:00 MST"
+        }
+    ]
+}
