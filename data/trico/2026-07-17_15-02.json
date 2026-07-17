@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-17 15:02:09 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 32.46458394923461,
+            "longitude": -111.21018507491198,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-16 22:48:00 MST",
+            "etr": "2026-07-17 01:48:00 MST",
+            "boundary": "Marana"
+        },
+        {
+            "latitude": 32.230950546465294,
+            "longitude": -111.28204806798016,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-17 21:11:00 MST",
+            "etr": null,
+            "boundary": "Milewide Rd"
+        },
+        {
+            "latitude": 32.183501233743556,
+            "longitude": -111.28275488457953,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-17 21:11:00 MST",
+            "etr": null,
+            "boundary": "Three Points"
+        },
+        {
+            "latitude": 32.44978654953253,
+            "longitude": -111.19472902076419,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-07-17 16:46:00 MST",
+            "etr": null,
+            "boundary": "Marana"
+        },
+        {
+            "latitude": 32.031354181212436,
+            "longitude": -111.27715183455778,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-17 19:38:00 MST",
+            "etr": null,
+            "boundary": "Three Points"
+        }
+    ]
+}

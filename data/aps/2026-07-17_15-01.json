@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 15:01:53 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 129
+    },
+    "outages": [
+        {
+            "latitude": 34.72033855385709,
+            "longitude": -112.00988285919672,
+            "city": "Cottonwood",
+            "boundary": "Elm St to Marauder Dr and 12th St to 16th St",
+            "customers": 129,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-17 07:36:00 MST",
+            "etr": "2026-07-17 11:00:00 MST"
+        }
+    ]
+}
