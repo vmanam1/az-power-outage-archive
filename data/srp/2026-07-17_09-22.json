@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-17 09:22:38 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 209
+    },
+    "outages": [
+        {
+            "latitude": 33.45392030559735,
+            "longitude": -112.15009369855,
+            "boundary": "N 47TH AVE TO N 39TH AVE AND W ROOSEVELT ST TO W VAN BUREN ST",
+            "customers": 20,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-17 08:14 MST",
+            "etr": "2026-07-17 10:13 MST"
+        },
+        {
+            "latitude": 33.4278227922085,
+            "longitude": -111.577688445904,
+            "boundary": "N MERIDIAN RD TO N DELAWARE DR AND W LOST DUTCHMAN BLVD TO W SUPERSTITION BLVD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-17 08:31 MST",
+            "etr": "2026-07-17 10:30 MST"
+        },
+        {
+            "latitude": 33.21671539524165,
+            "longitude": -111.8097911542755,
+            "boundary": "S 124TH ST TO S COOPER RD AND E CLOUD RD TO E HUNT HWY",
+            "customers": 35,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-17 08:14 MST",
+            "etr": "2026-07-17 10:19 MST"
+        },
+        {
+            "latitude": 33.416957102405306,
+            "longitude": -111.6071021813065,
+            "boundary": "N CRISMON RD TO N SIGNAL BUTTE RD AND E UNIVERSITY DR TO E BROADWAY RD",
+            "customers": 141,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 07:56 MST",
+            "etr": "2026-07-17 10:15 MST"
+        },
+        {
+            "latitude": 33.5030201652701,
+            "longitude": -111.951134328043,
+            "boundary": "N 56TH ST TO N 64TH ST AND E CHAPARRAL RD TO E INDIAN SCHOOL RD",
+            "customers": 10,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 07:26 MST",
+            "etr": "2026-07-17 13:29 MST"
+        }
+    ]
+}

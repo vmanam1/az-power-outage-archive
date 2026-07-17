@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 09:22:38 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 47
+    },
+    "outages": [
+        {
+            "latitude": 33.59192895826278,
+            "longitude": -112.29056156583958,
+            "city": "Sun City",
+            "boundary": "Cherry Hills Dr. and Hillcrest Dr.",
+            "customers": 29,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-16 20:31:00 MST",
+            "etr": "2026-07-17 03:00:00 MST"
+        },
+        {
+            "latitude": 33.6829604377057,
+            "longitude": -112.24958230904016,
+            "city": "Peoria",
+            "boundary": "West Deer Valley Rd and North 89th Ave to North 88th Ave",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-16 21:27:00 MST",
+            "etr": "2026-07-17 02:50:00 MST"
+        },
+        {
+            "latitude": 34.86856823728814,
+            "longitude": -112.09104490400681,
+            "city": "Chino Valley",
+            "boundary": "Rodeo Dr to Perkinsville Rd and Perkins",
+            "customers": 13,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-17 02:03:00 MST",
+            "etr": "2026-07-17 04:00:00 MST"
+        }
+    ]
+}
