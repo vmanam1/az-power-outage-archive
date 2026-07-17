@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-17 15:59:56 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 78
+    },
+    "outages": [
+        {
+            "latitude": 33.54135359004715,
+            "longitude": -112.101181184661,
+            "boundary": "N 23RD AVE TO N 15TH AVE AND W ORANGEWOOD AVE TO W GLENDALE AVE",
+            "customers": 78,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-17 15:37 MST",
+            "etr": "2026-07-17 17:35 MST"
+        }
+    ]
+}

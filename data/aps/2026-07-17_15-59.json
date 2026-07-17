@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 15:59:56 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 336
+    },
+    "outages": [
+        {
+            "latitude": 34.72033855385709,
+            "longitude": -112.00988285919672,
+            "city": "Cottonwood",
+            "boundary": "Elm St to Marauder Dr and 12th St to 16th St",
+            "customers": 129,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-17 07:36:00 MST",
+            "etr": "2026-07-17 11:00:00 MST"
+        },
+        {
+            "latitude": 33.85218054421029,
+            "longitude": -111.94021500638195,
+            "city": "Cave Creek",
+            "boundary": "Cottonwood Creek to Highland Rd and School House Rd to Fleming Springs Rd",
+            "customers": 207,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-17 08:35:00 MST",
+            "etr": "2026-07-17 12:30:00 MST"
+        }
+    ]
+}
