@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-17 07:50:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 941
+    },
+    "outages": [
+        {
+            "latitude": 33.331110499815054,
+            "longitude": -111.99922470057999,
+            "boundary": "S 36TH ST TO S WARNER-ELLIOT LOOP AND E WARNER RD TO E KNOX RD",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-17 05:59 MST",
+            "etr": "2026-07-17 08:03 MST"
+        },
+        {
+            "latitude": 33.4599339297334,
+            "longitude": -111.654810012291,
+            "boundary": "N 80TH ST TO N HAWES RD AND E MCDOWELL RD TO E MCKELLIPS RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-17 07:11 MST",
+            "etr": "2026-07-17 09:30 MST"
+        },
+        {
+            "latitude": 33.50298931310191,
+            "longitude": -111.9510430893815,
+            "boundary": "N 56TH ST TO N 64TH ST AND E CHAPARRAL RD TO E INDIAN SCHOOL RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-17 07:26 MST",
+            "etr": "2026-07-17 09:25 MST"
+        },
+        {
+            "latitude": 33.334324300075096,
+            "longitude": -111.809956285988,
+            "boundary": "S ISLANDS E DR TO S COOPER RD AND W WARNER RD TO W KNOX RD",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-17 06:51 MST",
+            "etr": "2026-07-17 08:54 MST"
+        },
+        {
+            "latitude": 33.4674050792569,
+            "longitude": -111.862187743728,
+            "boundary": "N 32ND ST TO N HIGLEY RD AND E OSBORN RD TO W RED MOUNTAIN FWY",
+            "customers": 864,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 07:36 MST",
+            "etr": "2026-07-17 09:36 MST"
+        }
+    ]
+}

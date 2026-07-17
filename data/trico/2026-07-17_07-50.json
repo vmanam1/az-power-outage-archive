@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-17 07:50:50 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 4
+    },
+    "outages": [
+        {
+            "latitude": 32.46458394923461,
+            "longitude": -111.21018507491198,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-16 22:48:00 MST",
+            "etr": "2026-07-17 01:48:00 MST",
+            "boundary": "Marana"
+        },
+        {
+            "latitude": 32.533816245190756,
+            "longitude": -111.25947429504106,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-17 14:43:00 MST",
+            "etr": null,
+            "boundary": "Pinal County West"
+        }
+    ]
+}

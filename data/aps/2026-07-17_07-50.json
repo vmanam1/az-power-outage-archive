@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 07:50:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 53
+    },
+    "outages": [
+        {
+            "latitude": 33.59192895826278,
+            "longitude": -112.29056156583958,
+            "city": "Sun City",
+            "boundary": "Cherry Hills Dr. and Hillcrest Dr.",
+            "customers": 29,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-16 20:31:00 MST",
+            "etr": "2026-07-17 03:00:00 MST"
+        },
+        {
+            "latitude": 33.6829604377057,
+            "longitude": -112.24958230904016,
+            "city": "Peoria",
+            "boundary": "West Deer Valley Rd and North 89th Ave to North 88th Ave",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-16 21:27:00 MST",
+            "etr": "2026-07-17 02:00:00 MST"
+        },
+        {
+            "latitude": 32.69080335494892,
+            "longitude": -114.61950496337502,
+            "city": "Yuma",
+            "boundary": "20th St. to 21st St. and 1st Ave. to Madison Ave.",
+            "customers": 11,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-16 23:20:00 MST",
+            "etr": "2026-07-17 02:45:00 MST"
+        },
+        {
+            "latitude": 33.32289784134129,
+            "longitude": -112.73388847695212,
+            "city": "Arlington",
+            "boundary": "Narramore Rd to 319th Ave and Arilington Canal Rd",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-16 23:58:00 MST",
+            "etr": "2026-07-17 03:15:00 MST"
+        }
+    ]
+}
