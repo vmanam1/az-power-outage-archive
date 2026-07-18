@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-18 14:02:09 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 33.5788578854913,
+            "longitude": -112.1546641065365,
+            "boundary": "N 47TH AVE TO N 43RD AVE AND W PEORIA AVE TO W MOUNTAIN VIEW RD",
+            "customers": 22,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 21:36 MST",
+            "etr": "2026-07-18 16:00 MST"
+        }
+    ]
+}
