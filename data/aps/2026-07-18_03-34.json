@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-18 03:34:42 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 76
+    },
+    "outages": [
+        {
+            "latitude": 33.51574822806777,
+            "longitude": -111.91817661685539,
+            "city": "Scottsdale",
+            "boundary": "Jackrabbit Rd. to Bonita Dr. and Scottsdale Rd. to Cholla Ln.",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-17 18:46:00 MST",
+            "etr": "2026-07-17 22:20:00 MST"
+        },
+        {
+            "latitude": 33.8077025297596,
+            "longitude": -111.95336819267095,
+            "city": "Cave Creek",
+            "boundary": "Cave Creek Rd. to Leisure Ln.",
+            "customers": 14,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-17 19:14:00 MST",
+            "etr": "2026-07-17 21:40:00 MST"
+        },
+        {
+            "latitude": 33.02263590004757,
+            "longitude": -110.86216339974227,
+            "city": "Kearny",
+            "boundary": "Steamboat Canyon Rd To San Pedro River And Gila River To Town Of Winkleman",
+            "customers": 32,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-17 19:29:00 MST",
+            "etr": "2026-07-17 23:30:00 MST"
+        }
+    ]
+}
