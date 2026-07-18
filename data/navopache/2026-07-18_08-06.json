@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-18 08:06:58 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 115
+    },
+    "outages": [
+        {
+            "latitude": 33.30805214724067,
+            "longitude": -108.88993743636222,
+            "customers": 115,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 12:39:00 MST",
+            "etr": null,
+            "boundary": "8 - NEW MEXICO"
+        }
+    ]
+}
