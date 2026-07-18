@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-07-17 20:21:50 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "incident_id": 19590,
+            "latitude": 32.03945243948026,
+            "longitude": -110.05308288238372,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Avian Issue",
+            "comments": "Power Out",
+            "start_time": "2026-07-17 13:53:53 MST",
+            "etr": null,
+            "restored_time": null
+        }
+    ]
+}

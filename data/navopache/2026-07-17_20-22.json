@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-17 20:22:19 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.98691699143489,
+            "longitude": -109.19347468390261,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 02:26:00 MST",
+            "etr": null,
+            "boundary": "5 - SPRINGERVILLE"
+        }
+    ]
+}

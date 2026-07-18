@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 20:21:49 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 68
+    },
+    "outages": [
+        {
+            "latitude": 34.33556859985659,
+            "longitude": -112.74240379976976,
+            "city": "Paulden",
+            "boundary": "Pollock",
+            "customers": 28,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-17 10:55:00 MST",
+            "etr": "2026-07-17 14:00:00 MST"
+        },
+        {
+            "latitude": 35.33104585275585,
+            "longitude": -112.14708130388205,
+            "city": "Williams",
+            "boundary": "Tangerine St and Cienega Dr to Ontario Ave",
+            "customers": 9,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-17 11:01:00 MST",
+            "etr": "2026-07-17 14:10:00 MST"
+        },
+        {
+            "latitude": 35.22187429978908,
+            "longitude": -112.57295330044049,
+            "city": "Ash Fork",
+            "boundary": "S/O Crookton Road To Cathotic Protection And Transwestern",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-17 10:59:00 MST",
+            "etr": "2026-07-17 14:00:00 MST"
+        },
+        {
+            "latitude": 33.575336542089076,
+            "longitude": -112.05343827133031,
+            "city": "Phoenix",
+            "boundary": "Mountain View Rd. and 13th St.",
+            "customers": 9,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-17 11:41:00 MST",
+            "etr": "2026-07-17 14:30:00 MST"
+        },
+        {
+            "latitude": 33.46897642980481,
+            "longitude": -112.0764683066074,
+            "city": "Phoenix",
+            "boundary": "Palm Ln. to Almeria Rd. and 3rd Ave. to 1st Ave.",
+            "customers": 17,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-17 12:52:00 MST",
+            "etr": "2026-07-17 16:20:00 MST"
+        }
+    ]
+}

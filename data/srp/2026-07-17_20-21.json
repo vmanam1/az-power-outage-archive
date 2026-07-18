@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-17 20:21:49 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.540925734336,
+            "longitude": -112.1017760641205,
+            "boundary": "N 23RD AVE TO N 15TH AVE AND W ORANGEWOOD AVE TO W GLENDALE AVE",
+            "customers": 11,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 15:37 MST",
+            "etr": "2026-07-17 22:00 MST"
+        },
+        {
+            "latitude": 33.4929051622442,
+            "longitude": -112.015583842305,
+            "boundary": "N 28TH ST TO N 32ND ST AND E INDIAN SCHOOL RD TO E OSBORN RD",
+            "customers": 20,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-17 19:04 MST",
+            "etr": "2026-07-17 21:04 MST"
+        }
+    ]
+}
