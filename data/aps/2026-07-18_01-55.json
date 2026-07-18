@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-18 01:55:25 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 65
+    },
+    "outages": [
+        {
+            "latitude": 33.598695564852484,
+            "longitude": -112.1402045054477,
+            "city": "Phoenix",
+            "boundary": "Corrine Dr. to Bloomfield Rd. and 39th Ave. to 37th Ave.",
+            "customers": 35,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-17 16:33:00 MST",
+            "etr": "2026-07-17 20:05:00 MST"
+        },
+        {
+            "latitude": 33.51574822806777,
+            "longitude": -111.91817661685539,
+            "city": "Scottsdale",
+            "boundary": "Jackrabbit Rd. to Bonita Dr. and Scottsdale Rd. to Cholla Ln.",
+            "customers": 30,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-17 18:46:00 MST",
+            "etr": "2026-07-17 22:20:00 MST"
+        }
+    ]
+}
