@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-18 15:00:19 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 34.0985751686722,
+            "longitude": -109.92317455251755,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 21:29:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        },
+        {
+            "latitude": 34.21322889666572,
+            "longitude": -109.69489377239015,
+            "customers": 4,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 21:10:00 MST",
+            "etr": null,
+            "boundary": "2 - PINETOP"
+        },
+        {
+            "latitude": 34.272429089392176,
+            "longitude": -109.81426179748892,
+            "customers": 11,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 20:46:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        }
+    ]
+}

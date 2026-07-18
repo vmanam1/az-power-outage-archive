@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-18 14:59:49 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1405
+    },
+    "outages": [
+        {
+            "latitude": 35.23747470270891,
+            "longitude": -112.11879058967236,
+            "city": "Williams",
+            "boundary": "Purple Heart Tl. to Pine Top Dr. and Depo Rd. to National Forest Road 3343",
+            "customers": 108,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 06:13:00 MST",
+            "etr": "2026-07-18 09:05:00 MST"
+        },
+        {
+            "latitude": 31.439979938755698,
+            "longitude": -110.12982857841801,
+            "city": "Hereford",
+            "boundary": "Kedron Dr. to Ellis Way and Faith Ave. to Cana St.",
+            "customers": 235,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-18 06:16:00 MST",
+            "etr": "2026-07-18 09:10:00 MST"
+        },
+        {
+            "latitude": 35.30330099971089,
+            "longitude": -112.4858808001,
+            "city": "Ash Fork",
+            "boundary": "Sevens Ranch Rd To Interstate 40 And Dunbar Blvd To Forest Line Blvd",
+            "customers": 788,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-18 07:14:00 MST",
+            "etr": "2026-07-18 11:35:00 MST"
+        },
+        {
+            "latitude": 31.386922364926917,
+            "longitude": -110.14711152218904,
+            "city": "Paulden",
+            "boundary": "Hereford Rd to Palominas and Circle Dr to Calle Mia",
+            "customers": 274,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 07:45:00 MST",
+            "etr": "2026-07-18 11:15:00 MST"
+        }
+    ]
+}
