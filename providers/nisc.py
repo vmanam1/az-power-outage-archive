@@ -9,6 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from providers.base import BaseProvider
 from scripts.utils import ARIZONA_TZ
+from scripts.logger import logger
 
 
 class NISCOutageProvider(BaseProvider):
@@ -40,9 +41,25 @@ class NISCOutageProvider(BaseProvider):
         options.add_argument("--disable-extensions")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--no-sandbox")
-        options.add_argument("--window-size=1280,900")
+        options.add_argument("--window-size=1920,1080")
+        options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+        options.page_load_strategy = "eager"
+        
+        # Exclude automation flags to make headless Chrome indistinguishable from normal Chrome
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option("useAutomationExtension", False)
 
         driver = webdriver.Chrome(options=options)
+        # Execute CDP command to remove navigator.webdriver flag in Chrome
+        try:
+            driver.execute_cdp_cmd(
+                "Page.addScriptToEvaluateOnNewDocument",
+                {
+                    "source": "const newProto = navigator.__proto__; delete newProto.webdriver; navigator.__proto__ = newProto;"
+                }
+            )
+        except Exception:
+            pass
         try:
             driver.set_page_load_timeout(60)
             driver.get(self.MAP_URL)
@@ -144,23 +161,29 @@ class NISCOutageProvider(BaseProvider):
                 }
 
                 for (const node of nodes) {
-                    const graphic = node.e_graphic;
-                    if (!graphic || seen.has(graphic)) continue;
-                    seen.add(graphic);
+                    try {
+                        const graphic = node.e_graphic;
+                        if (!graphic || seen.has(graphic)) continue;
+                        seen.add(graphic);
 
-                    graphic._graphicsLayer.onClick({
-                        graphic: graphic,
-                        mapPoint: graphic.geometry
-                    });
+                        if (graphic._graphicsLayer && typeof graphic._graphicsLayer.onClick === 'function') {
+                            graphic._graphicsLayer.onClick({
+                                graphic: graphic,
+                                mapPoint: graphic.geometry
+                            });
+                        }
 
-                    const callout = document.querySelector('.mapviewer-callout');
-                    const bName = getBoundaryName(graphic.geometry);
-                    records.push({
-                        x: graphic.geometry && graphic.geometry.x,
-                        y: graphic.geometry && graphic.geometry.y,
-                        text: callout ? callout.innerText : '',
-                        boundary: bName
-                    });
+                        const callout = document.querySelector('.mapviewer-callout');
+                        const bName = getBoundaryName(graphic.geometry);
+                        records.push({
+                            x: graphic.geometry && graphic.geometry.x,
+                            y: graphic.geometry && graphic.geometry.y,
+                            text: callout ? callout.innerText : '',
+                            boundary: bName
+                        });
+                    } catch (err) {
+                        // Ignore individual node errors and continue with others
+                    }
                 }
 
                 return records;
@@ -177,15 +200,21 @@ class NISCOutageProvider(BaseProvider):
 
         for record in records:
             if not isinstance(record, dict):
-                raise ValueError(f"{self.name}: browser record must be an object")
-            if not isinstance(record.get("text"), str) or not record["text"].strip():
-                raise ValueError(f"{self.name}: outage card is missing text")
-            if not isinstance(record.get("x"), (int, float)) or not isinstance(
-                record.get("y"), (int, float)
-            ):
-                raise ValueError(f"{self.name}: outage card is missing coordinates")
+                logger.warning(f"{self.name.upper()}: skipping browser record because it is not a dictionary: {record}")
+                continue
 
-            fields, status = self._parse_card(record.get("text") or "")
+            card_text = record.get("text")
+            x = record.get("x")
+            y = record.get("y")
+
+            if not isinstance(card_text, str) or not card_text.strip():
+                logger.warning(f"{self.name.upper()}: skipping record because card text is missing or empty")
+                continue
+            if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
+                logger.warning(f"{self.name.upper()}: skipping record because coordinates are missing or invalid: x={x}, y={y}")
+                continue
+
+            fields, status = self._parse_card(card_text)
             customer_text = (
                 fields.get("number out")
                 or fields.get("customers affected")
@@ -196,9 +225,7 @@ class NISCOutageProvider(BaseProvider):
             else:
                 customers = 0
             customers_affected += customers
-            latitude, longitude = self._web_mercator_to_wgs84(
-                record.get("x"), record.get("y")
-            )
+            latitude, longitude = self._web_mercator_to_wgs84(x, y)
 
             outages.append({
                 "latitude": latitude,
