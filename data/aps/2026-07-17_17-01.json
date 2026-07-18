@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 17:01:37 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 447
+    },
+    "outages": [
+        {
+            "latitude": 33.85218054421029,
+            "longitude": -111.94021500638195,
+            "city": "Cave Creek",
+            "boundary": "Cottonwood Creek to Highland Rd and School House Rd to Fleming Springs Rd",
+            "customers": 207,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-17 08:35:00 MST",
+            "etr": "2026-07-17 12:30:00 MST"
+        },
+        {
+            "latitude": 34.64061409435609,
+            "longitude": -111.91135115893617,
+            "city": "Camp Verde",
+            "boundary": "Northern Ave to Verde River and Ok Ditch to Forest 119A Rd",
+            "customers": 240,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-17 09:28:00 MST",
+            "etr": "2026-07-17 13:30:00 MST"
+        }
+    ]
+}

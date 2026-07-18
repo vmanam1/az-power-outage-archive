@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-17 17:01:37 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 81
+    },
+    "outages": [
+        {
+            "latitude": 33.54135359004715,
+            "longitude": -112.101181184661,
+            "boundary": "N 23RD AVE TO N 15TH AVE AND W ORANGEWOOD AVE TO W GLENDALE AVE",
+            "customers": 78,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-17 15:37 MST",
+            "etr": "2026-07-17 17:37 MST"
+        },
+        {
+            "latitude": 33.23290348024075,
+            "longitude": -111.660709501271,
+            "boundary": "S SOSSAMAN RD TO S HAWES RD AND E VIA DEL JARDIN TO E VIA DE OLIVOS",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-17 16:37 MST",
+            "etr": "2026-07-17 18:35 MST"
+        }
+    ]
+}
