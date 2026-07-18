@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-18 11:02:23 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 33.5788578854913,
+            "longitude": -112.1546641065365,
+            "boundary": "N 47TH AVE TO N 43RD AVE AND W PEORIA AVE TO W MOUNTAIN VIEW RD",
+            "customers": 22,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-17 21:36 MST",
+            "etr": "2026-07-18 13:00 MST"
+        },
+        {
+            "latitude": 33.3182434075911,
+            "longitude": -111.90161596645851,
+            "boundary": "N COUNTRY CLUB WAY TO N PRICE FWY AND W CALLE DEL NORTE TO W CHANDLER BLVD",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-18 10:22 MST",
+            "etr": "2026-07-18 12:22 MST"
+        },
+        {
+            "latitude": 33.4402695529514,
+            "longitude": -111.94588845973149,
+            "boundary": "N MILL AVE TO S MILL AVE AND E VAN BUREN ST TO W RED MOUNTAIN FWY",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-18 09:17 MST",
+            "etr": "2026-07-18 12:30 MST"
+        }
+    ]
+}

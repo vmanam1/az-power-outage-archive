@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-18 11:02:23 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 2290
+    },
+    "outages": [
+        {
+            "latitude": 33.62725697604129,
+            "longitude": -112.10173750232465,
+            "city": "Phoenix",
+            "boundary": "Waltann Ln to Greenway Rd and 22nd Ave to 19th Ave",
+            "customers": 17,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-18 02:03:00 MST",
+            "etr": "2026-07-18 04:40:00 MST"
+        },
+        {
+            "latitude": 33.47472400988446,
+            "longitude": -112.06298730440997,
+            "city": "Phoenix",
+            "boundary": "Virginia Ave to Sheridan St and 7th St to Richland St",
+            "customers": 18,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-18 02:58:00 MST",
+            "etr": "2026-07-18 06:00:00 MST"
+        },
+        {
+            "latitude": 35.191144100016594,
+            "longitude": -111.64308583282667,
+            "city": "Flagstaff",
+            "boundary": "Butler Ave to Purple Heart Trail and Milton Rd to Cambridge Ln",
+            "customers": 2255,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 03:46:00 MST",
+            "etr": "2026-07-18 07:30:00 MST"
+        }
+    ]
+}
