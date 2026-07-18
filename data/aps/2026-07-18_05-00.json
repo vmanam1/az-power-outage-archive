@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-18 05:00:33 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 33.8077025297596,
+            "longitude": -111.95336819267095,
+            "city": "Cave Creek",
+            "boundary": "Cave Creek Rd. to Leisure Ln.",
+            "customers": 14,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-17 19:14:00 MST",
+            "etr": "2026-07-17 23:30:00 MST"
+        }
+    ]
+}
