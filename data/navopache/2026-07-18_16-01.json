@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-18 16:01:52 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 117
+    },
+    "outages": [
+        {
+            "latitude": 34.0985751686722,
+            "longitude": -109.92317455251755,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 21:29:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        },
+        {
+            "latitude": 34.10093410515397,
+            "longitude": -109.89438948850248,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "start_time": "2026-07-18 22:25:00 MST",
+            "etr": null,
+            "boundary": "2 - PINETOP"
+        },
+        {
+            "latitude": 33.30805214724067,
+            "longitude": -108.88993743636222,
+            "customers": 115,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 21:59:00 MST",
+            "etr": null,
+            "boundary": "8 - NEW MEXICO"
+        }
+    ]
+}

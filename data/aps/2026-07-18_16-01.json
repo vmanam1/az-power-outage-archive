@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-18 16:01:25 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 896
+    },
+    "outages": [
+        {
+            "latitude": 35.23747470270891,
+            "longitude": -112.11879058967236,
+            "city": "Williams",
+            "boundary": "Purple Heart Tl. to Pine Top Dr. and Depo Rd. to National Forest Road 3343",
+            "customers": 108,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 06:13:00 MST",
+            "etr": "2026-07-18 10:30:00 MST"
+        },
+        {
+            "latitude": 35.30330099971089,
+            "longitude": -112.4858808001,
+            "city": "Ash Fork",
+            "boundary": "Sevens Ranch Rd To Interstate 40 And Dunbar Blvd To Forest Line Blvd",
+            "customers": 788,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-18 07:14:00 MST",
+            "etr": "2026-07-18 11:35:00 MST"
+        }
+    ]
+}
