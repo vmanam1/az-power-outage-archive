@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-18 06:42:19 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 173
+    },
+    "outages": [
+        {
+            "latitude": 34.25742557197052,
+            "longitude": -109.74110071213649,
+            "customers": 58,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 13:11:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        },
+        {
+            "latitude": 33.30805214724067,
+            "longitude": -108.88993743636222,
+            "customers": 115,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 12:39:00 MST",
+            "etr": null,
+            "boundary": "8 - NEW MEXICO"
+        }
+    ]
+}
