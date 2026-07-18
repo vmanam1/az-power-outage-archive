@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-17 23:14:10 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 32.65961892190555,
+            "longitude": -114.4064193902111,
+            "city": "Yuma",
+            "boundary": "39th St. to 38th Pl. and Dorothy Dr. to Dawn Dr.",
+            "customers": 7,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-17 13:21:00 MST",
+            "etr": "2026-07-17 16:55:00 MST"
+        }
+    ]
+}
