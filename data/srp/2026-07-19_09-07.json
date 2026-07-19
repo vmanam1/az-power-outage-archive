@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-19 09:07:50 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 33.226143549020506,
+            "longitude": -111.352833981658,
+            "boundary": "N SIERRA VISTA DR TO UNKNOWN AND E HWY 60 TO UNKNOWN",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-19 01:40 MST",
+            "etr": "2026-07-19 13:00 MST"
+        },
+        {
+            "latitude": 33.492963921862554,
+            "longitude": -111.6590416671895,
+            "boundary": "N POWER RD TO N 92ND ST AND UNKNOWN TO E THOMAS RD",
+            "customers": 6,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 19:45 MST",
+            "etr": "2026-07-19 12:30 MST"
+        },
+        {
+            "latitude": 33.421903038245645,
+            "longitude": -111.56915227190049,
+            "boundary": "N DELAWARE DR TO N IRONWOOD DR AND W TEPEE ST TO W APACHE TRL",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-19 07:37 MST",
+            "etr": "2026-07-19 11:30 MST"
+        },
+        {
+            "latitude": 33.3749774490823,
+            "longitude": -111.759589992077,
+            "boundary": "N NIELSON ST TO N VAL VISTA DR AND E BASELINE RD TO E GUADALUPE RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 23:18 MST",
+            "etr": "2026-07-19 11:00 MST"
+        }
+    ]
+}
