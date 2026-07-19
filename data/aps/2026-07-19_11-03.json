@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-19 11:03:51 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.60127441334221,
+            "longitude": -111.93864280192115,
+            "city": "Scottsdale",
+            "boundary": "Sweetwater Ave to Cactus Rd and 65th Pl to 66th St",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-19 02:02:00 MST",
+            "etr": "2026-07-19 06:30:00 MST"
+        }
+    ]
+}
