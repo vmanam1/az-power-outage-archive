@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-19 16:04:22 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 219
+    },
+    "outages": [
+        {
+            "latitude": 33.57850997403845,
+            "longitude": -111.92857941686596,
+            "city": "Scottsdale",
+            "boundary": "Shea Blvd to Mountain View Rd and 70th St to Scottsdale Rd",
+            "customers": 57,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-19 08:11:00 MST",
+            "etr": "2026-07-19 11:10:00 MST"
+        },
+        {
+            "latitude": 33.43524359686424,
+            "longitude": -112.08569681720044,
+            "city": "Phoenix",
+            "boundary": "Buckeye Rd to Pima St and 15th Ave to 7th Ave",
+            "customers": 151,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-19 08:14:00 MST",
+            "etr": "2026-07-19 11:45:00 MST"
+        },
+        {
+            "latitude": 33.87094288477171,
+            "longitude": -111.29555754802844,
+            "city": "Tonto Basin",
+            "boundary": "Green Back Rd to Williams Ln and Forest Rd to Hohokam Ln",
+            "customers": 11,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-19 06:02:00 MST",
+            "etr": "2026-07-19 11:40:00 MST"
+        }
+    ]
+}

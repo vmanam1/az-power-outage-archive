@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-19 16:04:22 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.4009370430561,
+            "longitude": -112.026477747705,
+            "boundary": "S 24TH ST TO S 28TH ST AND E BROADWAY RD TO E SOUTHERN AVE",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-19 15:43 MST",
+            "etr": "2026-07-19 17:41 MST"
+        }
+    ]
+}
