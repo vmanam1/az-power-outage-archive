@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-18 23:40:05 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 4990
+    },
+    "outages": [
+        {
+            "latitude": 34.64954379988088,
+            "longitude": -109.89478610011032,
+            "city": "Holbrook",
+            "boundary": "Dobell Ranch To Miller Rd And Highway 77 To County Line Rd",
+            "customers": 296,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 09:48:00 MST",
+            "etr": "2026-07-18 17:30:00 MST"
+        },
+        {
+            "latitude": 35.2148940001478,
+            "longitude": -111.41216900041198,
+            "city": "Flagstaff",
+            "boundary": "El Paso Natural Gas To  I-40 And Leupp Highway To Walking Cane Ranch",
+            "customers": 216,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 13:00:00 MST",
+            "etr": "2026-07-18 19:00:00 MST"
+        },
+        {
+            "latitude": 35.196148019055606,
+            "longitude": -111.56595162084986,
+            "city": "Flagstaff",
+            "boundary": "Cosnino Rd. to Walnut Canyon Rd. to Walnut Hills Dr. to Wapiti Trl.",
+            "customers": 98,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 13:10:00 MST",
+            "etr": "2026-07-19 16:20:00 MST"
+        },
+        {
+            "latitude": 35.18743399978416,
+            "longitude": -111.41518100035564,
+            "city": "Flagstaff",
+            "boundary": "I-40 To South Winona And Forest Service Road 82 To 35Kv Wapa Switch Yard",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 13:16:00 MST",
+            "etr": "2026-07-18 19:00:00 MST"
+        },
+        {
+            "latitude": 35.27432100009264,
+            "longitude": -111.54350800040031,
+            "city": "Flagstaff",
+            "boundary": "Us 89 To Railhead Avenue And Us 89 To Crystal View Drive",
+            "customers": 4070,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 14:26:00 MST",
+            "etr": "2026-07-18 17:30:00 MST"
+        },
+        {
+            "latitude": 34.6540948686319,
+            "longitude": -111.77383589102655,
+            "city": "Rimrock",
+            "boundary": "Ranch Campus Rd. to Forest Rd 618 and Brittney Ln. to Ward Ranch.",
+            "customers": 251,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 14:42:00 MST",
+            "etr": "2026-07-18 18:05:00 MST"
+        },
+        {
+            "latitude": 35.083179900312935,
+            "longitude": -110.87312369960804,
+            "city": "Winslow",
+            "boundary": "North To Navajo Reservation To I-40 And Leupp Rd To Meteor City",
+            "customers": 32,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 14:53:00 MST",
+            "etr": "2026-07-18 19:00:00 MST"
+        },
+        {
+            "latitude": 34.32545636168903,
+            "longitude": -110.94363478840361,
+            "city": "Forest Lakes",
+            "boundary": "Rocky Point Site Rd. to Woods Canyon Lake Rd.",
+            "customers": 9,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 15:27:00 MST",
+            "etr": "2026-07-18 18:30:00 MST"
+        }
+    ]
+}
