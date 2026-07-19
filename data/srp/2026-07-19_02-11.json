@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-19 02:11:07 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 1223
+    },
+    "outages": [
+        {
+            "latitude": 33.4703916723226,
+            "longitude": -111.926943458523,
+            "boundary": "N 68TH ST TO N MILLER RD AND E OAK ST TO E MCDOWELL RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-18 23:16 MST",
+            "etr": "2026-07-19 05:00 MST"
+        },
+        {
+            "latitude": 33.492963921862554,
+            "longitude": -111.6590416671895,
+            "boundary": "N POWER RD TO N 92ND ST AND UNKNOWN TO E THOMAS RD",
+            "customers": 6,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 19:45 MST",
+            "etr": "2026-07-19 06:30 MST"
+        },
+        {
+            "latitude": 33.4105391433264,
+            "longitude": -111.893101755835,
+            "boundary": "S MCCLINTOCK DR TO S DOBSON RD AND E UNIVERSITY DR TO E ALAMEDA DR",
+            "customers": 1156,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-19 00:35 MST",
+            "etr": "2026-07-19 02:35 MST"
+        },
+        {
+            "latitude": 33.3959517686003,
+            "longitude": -111.8806832791995,
+            "boundary": "S PIMA LOOP TO S DOBSON RD AND W 8TH AVE TO E SOUTHERN AVE",
+            "customers": 45,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 19:49 MST",
+            "etr": "2026-07-19 04:00 MST"
+        },
+        {
+            "latitude": 33.3749774490823,
+            "longitude": -111.759589992077,
+            "boundary": "N NIELSON ST TO N VAL VISTA DR AND E BASELINE RD TO E GUADALUPE RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 23:18 MST",
+            "etr": "2026-07-19 08:30 MST"
+        },
+        {
+            "latitude": 33.24627390332225,
+            "longitude": -111.5796298461685,
+            "boundary": "S 228TH ST TO N KENNEDY DR AND W OCOTILLO RD TO W CHANDLER HEIGHTS RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-18 22:56 MST",
+            "etr": "2026-07-19 04:00 MST"
+        },
+        {
+            "latitude": 33.226143549020506,
+            "longitude": -111.352833981658,
+            "boundary": "N SIERRA VISTA DR TO UNKNOWN AND E HWY 60 TO UNKNOWN",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-19 01:40 MST",
+            "etr": "2026-07-19 03:39 MST"
+        }
+    ]
+}
