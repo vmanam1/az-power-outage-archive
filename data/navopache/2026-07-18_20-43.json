@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-18 20:43:08 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 34.304250702336184,
+            "longitude": -110.10389054087081,
+            "customers": 4,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-19 02:02:00 MST",
+            "etr": null,
+            "boundary": "6 - LINDEN"
+        },
+        {
+            "latitude": 34.03629488639807,
+            "longitude": -110.4935187548982,
+            "customers": 8,
+            "cause": "WEATHER",
+            "comments": null,
+            "start_time": "2026-07-19 00:54:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        }
+    ]
+}

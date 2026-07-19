@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-18 20:42:48 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 715
+    },
+    "outages": [
+        {
+            "latitude": 34.64954379988088,
+            "longitude": -109.89478610011032,
+            "city": "Holbrook",
+            "boundary": "Dobell Ranch To Miller Rd And Highway 77 To County Line Rd",
+            "customers": 296,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 09:48:00 MST",
+            "etr": "2026-07-18 15:35:00 MST"
+        },
+        {
+            "latitude": 35.842812090151924,
+            "longitude": -110.35890909359352,
+            "city": "Polacca",
+            "boundary": "AZ State HWY 264 and BIA 16 Rd.",
+            "customers": 29,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 11:42:00 MST",
+            "etr": "2026-07-18 15:00:00 MST"
+        },
+        {
+            "latitude": 35.2148940001478,
+            "longitude": -111.41216900041198,
+            "city": "Flagstaff",
+            "boundary": "El Paso Natural Gas To  I-40 And Leupp Highway To Walking Cane Ranch",
+            "customers": 216,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 13:00:00 MST",
+            "etr": "2026-07-18 15:55:00 MST"
+        },
+        {
+            "latitude": 35.196148019055606,
+            "longitude": -111.56595162084986,
+            "city": "Flagstaff",
+            "boundary": "Cosnino Rd. to Walnut Canyon Rd. to Walnut Hills Dr. to Wapiti Trl.",
+            "customers": 99,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 13:10:00 MST",
+            "etr": "2026-07-19 16:20:00 MST"
+        },
+        {
+            "latitude": 35.18743399978416,
+            "longitude": -111.41518100035564,
+            "city": "Flagstaff",
+            "boundary": "I-40 To South Winona And Forest Service Road 82 To 35Kv Wapa Switch Yard",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 13:16:00 MST",
+            "etr": "2026-07-18 17:16:00 MST"
+        },
+        {
+            "latitude": 34.61568544315325,
+            "longitude": -112.32208996374179,
+            "city": "Prescott Valley",
+            "boundary": "Long Rifle Rd. to Saddleback Dr. and Tranquil Blvd",
+            "customers": 57,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-18 13:17:00 MST",
+            "etr": "2026-07-19 16:40:00 MST"
+        }
+    ]
+}
