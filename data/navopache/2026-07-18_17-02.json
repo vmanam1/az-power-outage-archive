@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-18 17:02:52 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 126
+    },
+    "outages": [
+        {
+            "latitude": 34.0985751686722,
+            "longitude": -109.92317455251755,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 21:29:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        },
+        {
+            "latitude": 34.10111371710937,
+            "longitude": -109.8939607909153,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "start_time": "2026-07-18 23:44:00 MST",
+            "etr": null,
+            "boundary": "2 - PINETOP"
+        },
+        {
+            "latitude": 34.5287198714294,
+            "longitude": -109.40144254500747,
+            "customers": 9,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 23:17:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        },
+        {
+            "latitude": 33.30805214724067,
+            "longitude": -108.88993743636222,
+            "customers": 115,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-18 21:59:00 MST",
+            "etr": null,
+            "boundary": "8 - NEW MEXICO"
+        }
+    ]
+}

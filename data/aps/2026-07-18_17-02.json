@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-18 17:02:31 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 2466
+    },
+    "outages": [
+        {
+            "latitude": 35.23747470270891,
+            "longitude": -112.11879058967236,
+            "city": "Williams",
+            "boundary": "Purple Heart Tl. to Pine Top Dr. and Depo Rd. to National Forest Road 3343",
+            "customers": 163,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 06:13:00 MST",
+            "etr": "2026-07-18 12:00:00 MST"
+        },
+        {
+            "latitude": 35.30330099971089,
+            "longitude": -112.4858808001,
+            "city": "Ash Fork",
+            "boundary": "Sevens Ranch Rd To Interstate 40 And Dunbar Blvd To Forest Line Blvd",
+            "customers": 788,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-18 07:14:00 MST",
+            "etr": "2026-07-18 11:35:00 MST"
+        },
+        {
+            "latitude": 34.23242971810731,
+            "longitude": -111.32745602128496,
+            "city": "Payson",
+            "boundary": "Rim View Rd to Main St and Mclane Rd to Colcord Rd",
+            "customers": 86,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-18 09:22:00 MST",
+            "etr": "2026-07-18 13:00:00 MST"
+        },
+        {
+            "latitude": 35.27432100009264,
+            "longitude": -111.54350800040031,
+            "city": "Flagstaff",
+            "boundary": "Us 89 To Railhead Avenue And Us 89 To Crystal View Drive",
+            "customers": 1429,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-18 09:51:00 MST",
+            "etr": "2026-07-18 14:00:00 MST"
+        }
+    ]
+}
