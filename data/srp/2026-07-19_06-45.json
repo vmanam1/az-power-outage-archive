@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-19 06:45:47 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.3749774490823,
+            "longitude": -111.759589992077,
+            "boundary": "N NIELSON ST TO N VAL VISTA DR AND E BASELINE RD TO E GUADALUPE RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 23:18 MST",
+            "etr": "2026-07-19 08:30 MST"
+        },
+        {
+            "latitude": 33.2459285752779,
+            "longitude": -111.578139018748,
+            "boundary": "S MERIDIAN RD TO N KENNEDY DR AND W OCOTILLO RD TO W CHANDLER HEIGHTS RD",
+            "customers": 5,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 22:56 MST",
+            "etr": "2026-07-19 08:00 MST"
+        },
+        {
+            "latitude": 33.226143549020506,
+            "longitude": -111.352833981658,
+            "boundary": "N SIERRA VISTA DR TO UNKNOWN AND E HWY 60 TO UNKNOWN",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-19 01:40 MST",
+            "etr": "2026-07-19 13:00 MST"
+        },
+        {
+            "latitude": 33.4169879523428,
+            "longitude": -111.96627156397099,
+            "boundary": "S 52ND ST TO S PRIEST DR AND W UNIVERSITY DR TO W 13TH ST",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-19 05:38 MST",
+            "etr": "2026-07-19 07:36 MST"
+        },
+        {
+            "latitude": 33.492963921862554,
+            "longitude": -111.6590416671895,
+            "boundary": "N POWER RD TO N 92ND ST AND UNKNOWN TO E THOMAS RD",
+            "customers": 6,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 19:45 MST",
+            "etr": "2026-07-19 12:30 MST"
+        }
+    ]
+}
