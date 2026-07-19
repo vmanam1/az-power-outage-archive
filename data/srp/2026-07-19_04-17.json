@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-19 04:17:59 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 33.3749774490823,
+            "longitude": -111.759589992077,
+            "boundary": "N NIELSON ST TO N VAL VISTA DR AND E BASELINE RD TO E GUADALUPE RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 23:18 MST",
+            "etr": "2026-07-19 08:30 MST"
+        },
+        {
+            "latitude": 33.492963921862554,
+            "longitude": -111.6590416671895,
+            "boundary": "N POWER RD TO N 92ND ST AND UNKNOWN TO E THOMAS RD",
+            "customers": 6,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 19:45 MST",
+            "etr": "2026-07-19 06:30 MST"
+        },
+        {
+            "latitude": 33.2459285752779,
+            "longitude": -111.578139018748,
+            "boundary": "S MERIDIAN RD TO N KENNEDY DR AND W OCOTILLO RD TO W CHANDLER HEIGHTS RD",
+            "customers": 5,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-18 22:56 MST",
+            "etr": "2026-07-19 08:00 MST"
+        },
+        {
+            "latitude": 33.226143549020506,
+            "longitude": -111.352833981658,
+            "boundary": "N SIERRA VISTA DR TO UNKNOWN AND E HWY 60 TO UNKNOWN",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-19 01:40 MST",
+            "etr": "2026-07-19 06:00 MST"
+        }
+    ]
+}
