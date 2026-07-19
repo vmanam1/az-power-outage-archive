@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-19 15:03:18 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 35.25204253783691,
+            "longitude": -112.23953163065467,
+            "city": "Pine",
+            "boundary": "Deerfoot Trail to Kaibab Trail and Scenic Lp Trl to Wilderness Trail",
+            "customers": 56,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-19 07:05:00 MST",
+            "etr": "2026-07-19 10:00:00 MST"
+        },
+        {
+            "latitude": 32.724920270900114,
+            "longitude": -114.64303656400787,
+            "city": "Yuma",
+            "boundary": "Colorado St to 3rd St and 19th Ave to 17th Ave",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-19 07:12:00 MST",
+            "etr": "2026-07-19 10:35:00 MST"
+        }
+    ]
+}
