@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-20 07:28:17 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 26
+    },
+    "outages": [
+        {
+            "latitude": 33.1599956639253,
+            "longitude": -111.542949253166,
+            "boundary": "N IRONWOOD RD TO N SCHNEPF RD AND E BELLA VISTA RD TO E JUDD RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:01 MST",
+            "etr": "2026-07-20 08:29 MST"
+        },
+        {
+            "latitude": 33.4592372211303,
+            "longitude": -111.816481314356,
+            "boundary": "N MESA DR TO N HORNE AND W RED MOUNTAIN FWY TO E BATES ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 06:51 MST",
+            "etr": "2026-07-20 09:30 MST"
+        },
+        {
+            "latitude": 33.50390208913555,
+            "longitude": -112.028548532441,
+            "boundary": "N 20TH ST TO N 28TH ST AND E CAMELBACK RD TO E INDIAN SCHOOL RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:10 MST",
+            "etr": "2026-07-20 11:15 MST"
+        },
+        {
+            "latitude": 33.4627903757288,
+            "longitude": -111.666836936146,
+            "boundary": "N POWER RD TO N 80TH ST AND E MCDOWELL RD TO E HERMOSA VISTA DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:18 MST",
+            "etr": "2026-07-20 10:16 MST"
+        },
+        {
+            "latitude": 33.463040159641494,
+            "longitude": -112.1483984170495,
+            "boundary": "N 43RD AVE TO N 39TH AVE AND W MCDOWELL RD TO W ROOSEVELT ST",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:19 MST",
+            "etr": "2026-07-20 12:18 MST"
+        }
+    ]
+}
