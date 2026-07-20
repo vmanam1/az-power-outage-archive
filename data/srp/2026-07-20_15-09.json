@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-20 15:09:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 125
+    },
+    "outages": [
+        {
+            "latitude": 33.2154594822063,
+            "longitude": -111.717337381113,
+            "boundary": "S HIGLEY RD TO S 172ND ST AND E RIGGS RD TO E COLDWATER BLVD",
+            "customers": 2,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 13:14 MST",
+            "etr": "2026-07-20 16:58 MST"
+        },
+        {
+            "latitude": 33.300091273655454,
+            "longitude": -112.13447670590651,
+            "boundary": "S 43RD AVE TO S CHANDLER BLVD AND W ESTRELLA DR TO W PECOS RD",
+            "customers": 114,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 12:15 MST",
+            "etr": "2026-07-20 21:00 MST"
+        },
+        {
+            "latitude": 33.41786416410115,
+            "longitude": -111.5663710018095,
+            "boundary": "N DELAWARE DR TO N IRONWOOD DR AND W SUPERSTITION BLVD TO W APACHE TRL",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:38 MST",
+            "etr": "2026-07-20 16:30 MST"
+        }
+    ]
+}

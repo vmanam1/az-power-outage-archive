@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-20 15:09:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 144
+    },
+    "outages": [
+        {
+            "latitude": 35.23019055734722,
+            "longitude": -112.00002997366711,
+            "city": "Williams",
+            "boundary": "Bnsf Railroad Frontage Rd to Highway 25 and Scholz Rd",
+            "customers": 144,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 06:10:00 MST",
+            "etr": "2026-07-20 09:30:00 MST"
+        }
+    ]
+}
