@@ -13,7 +13,10 @@ class BaseProvider(ABC):
     def build_metadata(self):
         return {
             "provider": self.name.upper(),
-            "scraped_at": current_time(),
+            # A run may inject a shared timestamp (see scripts.run) so every
+            # provider in the same hourly cycle records an identical scrape
+            # time. Falls back to the current time when run standalone.
+            "scraped_at": getattr(self, "scraped_at", None) or current_time(),
             "source": self.get_source(),
             "scraper_version": "1.0.0"
         }

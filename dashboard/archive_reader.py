@@ -1,6 +1,7 @@
 import os
 import json
 import logging
+import threading
 from datetime import datetime
 from dashboard.cache import global_cache
 from dashboard.normalizer import normalize_outage, normalize_time
@@ -8,12 +9,45 @@ from scripts.utils import ARIZONA_TZ
 
 logger = logging.getLogger("outage_dashboard")
 
+# Cache of the fully assembled (snapshots, stats) result per data directory,
+# keyed by a cheap directory fingerprint. A single dashboard page load hits
+# /api/metadata, /api/outages and /api/timeline, each of which previously
+# rebuilt the entire snapshot list; caching the assembled result lets those
+# requests share one scan until the archive actually changes.
+_scan_cache = {}
+_scan_cache_lock = threading.Lock()
+
 class DataQualityStats:
     def __init__(self):
         self.malformed_files = 0
         self.missing_coords = 0
         self.invalid_coords = 0
         self.total_snapshots = 0
+
+def archive_fingerprint(data_dir="data"):
+    """
+    Returns a cheap (json_file_count, max_mtime) fingerprint of the archive.
+    Changing snapshots (added, removed, or modified) changes the fingerprint,
+    which is used both to invalidate the scan cache and to power the
+    frontend's lightweight update polling.
+    """
+    file_count = 0
+    max_mtime = 0.0
+    if not os.path.exists(data_dir):
+        return file_count, max_mtime
+
+    for root, _, files in os.walk(data_dir):
+        for f in files:
+            if f.endswith(".json"):
+                file_count += 1
+                try:
+                    mtime = os.path.getmtime(os.path.join(root, f))
+                    if mtime > max_mtime:
+                        max_mtime = mtime
+                except OSError:
+                    pass
+
+    return file_count, max_mtime
 
 def parse_filename_time(filename):
     """
@@ -125,7 +159,16 @@ def parse_snapshot_file(file_path, provider_name, stats):
 def scan_archive(data_dir="data"):
     """
     Crawls data_dir dynamically, parsing all providers and snapshots.
+
+    The assembled result is cached per directory and reused until the archive
+    fingerprint changes, so repeated calls within a request cycle are cheap.
     """
+    fingerprint = archive_fingerprint(data_dir)
+    with _scan_cache_lock:
+        entry = _scan_cache.get(data_dir)
+        if entry is not None and entry["fingerprint"] == fingerprint:
+            return entry["result"]
+
     stats = DataQualityStats()
     snapshots = []
 
@@ -159,4 +202,7 @@ def scan_archive(data_dir="data"):
                 if snap:
                     snapshots.append(snap)
 
-    return snapshots, stats
+    result = (snapshots, stats)
+    with _scan_cache_lock:
+        _scan_cache[data_dir] = {"fingerprint": fingerprint, "result": result}
+    return result

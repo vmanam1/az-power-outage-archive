@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 from flask import Flask, jsonify, request, render_template, Response
 
-from dashboard.archive_reader import scan_archive
+from dashboard.archive_reader import scan_archive, archive_fingerprint
 from dashboard.filters import apply_filters, strip_tz
 from scripts.utils import ARIZONA_TZ
 
@@ -42,24 +42,7 @@ def file_status():
     Returns a lightweight fingerprint of the archive directory.
     Useful for frontend polling to detect additions/modifications.
     """
-    if not os.path.exists(DATA_DIR):
-        return jsonify({"file_count": 0, "max_mtime": 0})
-
-    file_count = 0
-    max_mtime = 0.0
-
-    for root, _, files in os.walk(DATA_DIR):
-        for f in files:
-            if f.endswith(".json"):
-                file_count += 1
-                full_path = os.path.join(root, f)
-                try:
-                    mtime = os.path.getmtime(full_path)
-                    if mtime > max_mtime:
-                        max_mtime = mtime
-                except OSError:
-                    pass
-
+    file_count, max_mtime = archive_fingerprint(DATA_DIR)
     return jsonify({
         "file_count": file_count,
         "max_mtime": max_mtime

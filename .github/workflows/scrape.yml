@@ -2,7 +2,11 @@ name: Archive Arizona Power Outages
 
 on:
   schedule:
-    # Every hour at minute 7 to avoid peak scheduler traffic
+    # Every hour at minute 7 to avoid peak scheduler traffic.
+    # Note: GitHub's scheduled-workflow queue can delay a run by several
+    # minutes (or more) under load, so the actual snapshot time drifts from
+    # :07. All providers within a single run now share one timestamp (see
+    # scripts/run.py), so files in the same run no longer disagree by a minute.
     - cron: "7 * * * *"
 
   # Allow manual runs from the GitHub Actions tab

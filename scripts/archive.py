@@ -2,9 +2,25 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-from scripts.utils import ARIZONA_TZ, calculate_hash
+from scripts.utils import ARIZONA_TZ, snapshot_content_hash
 
 DATA_FOLDER = Path("data")
+
+
+def _snapshot_filename(data: dict) -> str:
+    """
+    Derive the snapshot filename from ``metadata.scraped_at`` so the filename
+    and the recorded scrape time always agree. Falls back to the current
+    Arizona time if the timestamp is missing or unparseable.
+    """
+    scraped_at = (data.get("metadata") or {}).get("scraped_at")
+    if isinstance(scraped_at, str):
+        try:
+            dt = datetime.strptime(scraped_at, "%Y-%m-%d %H:%M:%S MST")
+            return dt.strftime("%Y-%m-%d_%H-%M.json")
+        except ValueError:
+            pass
+    return datetime.now(ARIZONA_TZ).strftime("%Y-%m-%d_%H-%M.json")
 
 
 def get_latest_snapshot(provider_name: str):
@@ -34,10 +50,10 @@ def save_snapshot(provider_name: str, data: dict):
         with open(latest, "r", encoding="utf-8") as f:
             old_data = json.load(f)
 
-        if calculate_hash(old_data) == calculate_hash(data):
+        if snapshot_content_hash(old_data) == snapshot_content_hash(data):
             return False, latest
 
-    filename = datetime.now(ARIZONA_TZ).strftime("%Y-%m-%d_%H-%M.json")
+    filename = _snapshot_filename(data)
 
     filepath = provider_folder / filename
 
