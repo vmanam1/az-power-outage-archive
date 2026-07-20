@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-20 09:40:48 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 17
+    },
+    "outages": [
+        {
+            "latitude": 33.62014795696314,
+            "longitude": -112.12210105936079,
+            "city": "Phoenix",
+            "boundary": "North 29th Dr to West Country Gables Dr and North Saint Moritz Ct",
+            "customers": 11,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-20 01:03:00 MST",
+            "etr": "2026-07-20 04:45:00 MST"
+        },
+        {
+            "latitude": 33.59449464192182,
+            "longitude": -111.90716738934935,
+            "city": "Scottsdale",
+            "boundary": "Jenan Dr and 80th Pl",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-20 02:03:00 MST",
+            "etr": "2026-07-20 04:30:00 MST"
+        }
+    ]
+}

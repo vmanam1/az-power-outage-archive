@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-20 09:40:49 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 49
+    },
+    "outages": [
+        {
+            "latitude": 33.50390208913555,
+            "longitude": -112.028548532441,
+            "boundary": "N 20TH ST TO N 28TH ST AND E CAMELBACK RD TO E INDIAN SCHOOL RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:10 MST",
+            "etr": "2026-07-20 11:15 MST"
+        },
+        {
+            "latitude": 33.463040159641494,
+            "longitude": -112.1483984170495,
+            "boundary": "N 43RD AVE TO N 39TH AVE AND W MCDOWELL RD TO W ROOSEVELT ST",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:19 MST",
+            "etr": "2026-07-20 12:18 MST"
+        },
+        {
+            "latitude": 33.41786416410115,
+            "longitude": -111.5663710018095,
+            "boundary": "N DELAWARE DR TO N IRONWOOD DR AND W SUPERSTITION BLVD TO W APACHE TRL",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:38 MST",
+            "etr": "2026-07-20 13:00 MST"
+        },
+        {
+            "latitude": 33.3248337724391,
+            "longitude": -111.7541491954895,
+            "boundary": "S VAL VISTA DR TO S SANTAN VILLAGE PKWY AND E KNOX RD TO E RAY RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:49 MST",
+            "etr": "2026-07-20 12:00 MST"
+        },
+        {
+            "latitude": 33.1599956639253,
+            "longitude": -111.542949253166,
+            "boundary": "N IRONWOOD RD TO N SCHNEPF RD AND E BELLA VISTA RD TO E JUDD RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:01 MST",
+            "etr": "2026-07-20 10:00 MST"
+        },
+        {
+            "latitude": 33.5850921566891,
+            "longitude": -111.689273056259,
+            "boundary": "N BEELINE HWY TO N BEELINE HWY AND E JOMAX RD TO E BEELINE HWY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 08:19 MST",
+            "etr": "2026-07-20 11:17 MST"
+        },
+        {
+            "latitude": 33.38166611097395,
+            "longitude": -111.7462532769545,
+            "boundary": "S VAL VISTA DR TO S GREENFIELD RD AND E SUPERSTITION FWY TO E BASELINE RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 08:50 MST",
+            "etr": "2026-07-20 10:47 MST"
+        },
+        {
+            "latitude": 33.48239049777665,
+            "longitude": -112.0158967278425,
+            "boundary": "N 28TH ST TO N 32ND ST AND E OSBORN RD TO E THOMAS RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:57 MST",
+            "etr": "2026-07-20 12:00 MST"
+        }
+    ]
+}
