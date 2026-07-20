@@ -1,6 +1,7 @@
 from providers.aps import APSProvider
 from scripts.archive import save_snapshot
 from scripts.logger import logger
+from scripts.utils import current_time
 from providers.srp import SRPProvider
 from providers.ssvec import SSVECProvider
 from providers.ed3 import ED3Provider
@@ -10,11 +11,16 @@ from providers.trico import TricoProvider
 from providers.tep import TEPProvider
 from providers.ues import UESProvider
 
-def run_providers(providers):
+def run_providers(providers, scraped_at=None):
+    # Capture one timestamp for the whole run so every provider in this cycle
+    # records an identical scrape time (and therefore an identical snapshot
+    # filename minute), instead of each provider stamping its own save moment.
+    scraped_at = scraped_at or current_time()
     failures = []
 
     for provider in providers:
         logger.info(f"Fetching {provider.name}...")
+        provider.scraped_at = scraped_at
 
         try:
             data = provider.fetch_data()
