@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-20 12:02:13 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1311
+    },
+    "outages": [
+        {
+            "latitude": 33.41786416410115,
+            "longitude": -111.5663710018095,
+            "boundary": "N DELAWARE DR TO N IRONWOOD DR AND W SUPERSTITION BLVD TO W APACHE TRL",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:38 MST",
+            "etr": "2026-07-20 13:00 MST"
+        },
+        {
+            "latitude": 33.4214006657019,
+            "longitude": -111.999071033183,
+            "boundary": "S 36TH ST TO S 40TH ST AND E SKY HARBOR BLVD TO E ELWOOD ST",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 10:08 MST",
+            "etr": "2026-07-20 14:00 MST"
+        },
+        {
+            "latitude": 33.3236307726127,
+            "longitude": -111.7337556603985,
+            "boundary": "S VAL VISTA DR TO S WADE DR AND E WARNER RD TO E WILLIAMS FIELD RD",
+            "customers": 1236,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 11:38 MST",
+            "etr": "2026-07-20 13:37 MST"
+        },
+        {
+            "latitude": 33.525078398595355,
+            "longitude": -111.9020247910465,
+            "boundary": "N HAYDEN RD TO N PIMA RD AND E LINCOLN DR TO E JACKRABBIT RD",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 11:45 MST",
+            "etr": "2026-07-20 13:43 MST"
+        },
+        {
+            "latitude": 33.35925661810185,
+            "longitude": -111.8448782476485,
+            "boundary": "S EXTENSION RD TO N MCQUEEN RD AND W GUADALUPE RD TO W ELLIOT RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 11:29 MST",
+            "etr": "2026-07-20 13:29 MST"
+        },
+        {
+            "latitude": 33.50390208913555,
+            "longitude": -112.028548532441,
+            "boundary": "N 20TH ST TO N 28TH ST AND E CAMELBACK RD TO E INDIAN SCHOOL RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:10 MST",
+            "etr": "2026-07-20 14:00 MST"
+        }
+    ]
+}
