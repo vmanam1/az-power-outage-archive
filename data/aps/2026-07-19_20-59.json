@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-19 20:59:47 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 127
+    },
+    "outages": [
+        {
+            "latitude": 33.60414871274067,
+            "longitude": -112.05101694602526,
+            "city": "Phoenix",
+            "boundary": "Thunderbird Rd. and 17th Pl.",
+            "customers": 25,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-19 11:42:00 MST",
+            "etr": "2026-07-19 16:40:00 MST"
+        },
+        {
+            "latitude": 34.84894304424797,
+            "longitude": -112.68715757508642,
+            "city": "Prescott",
+            "boundary": "Slate Rd. to Calle Diamante and Spider Ranch Rd. to Juniper Berry Pl.",
+            "customers": 102,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-19 11:47:00 MST",
+            "etr": "2026-07-19 15:10:00 MST"
+        }
+    ]
+}

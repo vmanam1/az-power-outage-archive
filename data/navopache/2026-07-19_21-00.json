@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-19 21:00:13 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1440
+    },
+    "outages": [
+        {
+            "latitude": 34.18008961459991,
+            "longitude": -110.0157276217179,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-20 03:51:00 MST",
+            "etr": null,
+            "boundary": "1 - LAKESIDE"
+        },
+        {
+            "latitude": 34.06354705234315,
+            "longitude": -110.20321391077442,
+            "customers": 644,
+            "cause": "LIGHTNING",
+            "comments": null,
+            "start_time": "2026-07-20 00:24:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        },
+        {
+            "latitude": 34.17928358188528,
+            "longitude": -110.01460667983223,
+            "customers": 795,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-20 03:51:00 MST",
+            "etr": null,
+            "boundary": "1 - LAKESIDE"
+        }
+    ]
+}

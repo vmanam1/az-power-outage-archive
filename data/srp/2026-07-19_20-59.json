@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-19 20:59:48 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 33.39120880272845,
+            "longitude": -112.054307449918,
+            "boundary": "S 7TH ST TO S 16TH ST AND E ROESER RD TO E VINEYARD RD",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-19 20:38 MST",
+            "etr": "2026-07-20 04:30 MST"
+        }
+    ]
+}
