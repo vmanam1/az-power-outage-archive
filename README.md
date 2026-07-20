@@ -1,205 +1,125 @@
 # Arizona Power Outage Archive
 
-An automated archive and interactive web dashboard for public electric outage data across Arizona.
+Utilities show you outages on a live map, but once an outage clears, that information is gone — there's no public record of what happened, where, or for how long. This project keeps one.
 
-The project collects outage information from nine utility providers, validates and normalizes each response, and stores timestamped JSON snapshots in Git. The included **Arizona Power Outage Explorer** turns those snapshots into an interactive map, historical charts, searchable records, and downloadable CSV data.
+Every hour a GitHub Action polls nine Arizona electric utilities, normalizes their wildly different data formats into one shape, and commits a timestamped JSON snapshot to this repo. Over time that builds a searchable history of who lost power and when. A bundled Flask dashboard — the **Arizona Power Outage Explorer** — reads those snapshots straight off disk and turns them into a map, charts, a filterable table, and CSV export.
 
 > [!IMPORTANT]
-> This is a historical and research tool, not an emergency notification service. Utility data may be delayed, incomplete, generalized, or temporarily unavailable. For current outage information and safety guidance, always use the utility provider's official website.
+> This is a research and history tool, not an emergency service. Utility feeds can be delayed, incomplete, or down entirely, and this archive inherits all of those gaps. For anything that actually matters — reporting an outage, checking current status, staying safe — go to your utility's own site.
 
-## What the project provides
+## The utilities
 
-- Hourly collection through GitHub Actions
-- Nine Arizona electric utility providers in one normalized archive
-- Timestamped, human-readable JSON snapshots
-- Validation of provider metadata, counts, coordinates, timestamps, identifiers, and summary totals
-- Retry handling for temporary HTTP and browser failures
-- Provider isolation, so one failed source does not discard successful snapshots from other sources
-- Automatic GitHub issue alerts when collection fails and recovery notices when it succeeds again
-- An interactive dashboard for current and historical exploration
-- Filters for provider, date, time of day, customer count, cause/comments, and outage status
-- Latest, point-in-time, historical observation, and deduplicated outage views
-- Clustered map markers, provider summaries, and historical charts
-- Searchable, sortable, paginated outage records
-- CSV export of the active filtered result set
-- Automatic detection of new or modified snapshot files
-- A documented JSON API for programmatic access
-- Unit tests on every push and pull request
-
-## Supported utilities
-
-| Provider | Utility | Public source | Collection method |
+| Provider | Utility | Public map | How it's collected |
 | --- | --- | --- | --- |
 | `aps` | Arizona Public Service | [APS Outage Center](https://www.aps.com/en/Utility/Outage/Outage-Center) | ArcGIS REST API |
-| `srp` | Salt River Project | [SRP Outages and Storm Safety](https://www.srpnet.com/customer-service/safety/outages-storm) | Public JSON API |
-| `tep` | Tucson Electric Power | [TEP Outages](https://www.tep.com/outages/) | Public map feed API |
-| `ues` | UniSource Energy Services | [UES Electric Outage Map](https://www.uesaz.com/electric-outage-map/) | Public map feed API |
+| `srp` | Salt River Project | [SRP Outages](https://www.srpnet.com/customer-service/safety/outages-storm) | JSON API |
+| `tep` | Tucson Electric Power | [TEP Outages](https://www.tep.com/outages/) | Map feed API |
+| `ues` | UniSource Energy Services | [UES Electric Outage Map](https://www.uesaz.com/electric-outage-map/) | Map feed API (shares TEP's backend) |
 | `ssvec` | Sulphur Springs Valley Electric Cooperative | [SSVEC Outage Center](https://www.ssvec.org/outage/) | ArcGIS REST API |
-| `trico` | Trico Electric Cooperative | [Trico Outage Map](https://ebill.trico.org/maps/Trico_External/OutageWebMap/) | NISC browser-rendered map |
-| `ed3` | Electrical District No. 3 | [ED3 Outage Map](https://ww3.ed3online.org/OMSWebMap/OMSWebMap.htm) | Public XML service |
-| `mohave` | Mohave Electric Cooperative | [Mohave Outage Map](https://ebill.mohaveelectric.com/maps/OutageWebMap/) | NISC browser-rendered map |
-| `navopache` | Navopache Electric Cooperative | [Navopache Outage Map](https://ebill1.navopache.org/maps/OutageWebMap/) | NISC browser-rendered map |
+| `trico` | Trico Electric Cooperative | [Trico Outage Map](https://ebill.trico.org/maps/Trico_External/OutageWebMap/) | NISC map (browser-rendered) |
+| `ed3` | Electrical District No. 3 | [ED3 Outage Map](https://ww3.ed3online.org/OMSWebMap/OMSWebMap.htm) | XML service |
+| `mohave` | Mohave Electric Cooperative | [Mohave Outage Map](https://ebill.mohaveelectric.com/maps/OutageWebMap/) | NISC map (browser-rendered) |
+| `navopache` | Navopache Electric Cooperative | [Navopache Outage Map](https://ebill1.navopache.org/maps/OutageWebMap/) | NISC map (browser-rendered) |
 
-Trico, Mohave, and Navopache require Selenium and Google Chrome because their NISC outage cards are rendered in a browser. The other collectors read public JSON, XML, or ArcGIS endpoints directly.
+Most of these hand out JSON or XML if you ask the right endpoint. The three co-ops on NISC's platform (Trico, Mohave, Navopache) don't — their outage details only exist as popup cards drawn by JavaScript, so those collectors drive a headless Chrome via Selenium to read what a person would see on the map. That's also why Chrome is only needed if you're running those three.
 
-## Dashboard
+## How collection works
 
-The Arizona Power Outage Explorer reads the archive directly from disk. It does not require a database or a separate ingestion process: adding or updating snapshot files is enough for the application to see new data.
+Each provider is its own class under `providers/`, and they all share a small contract: fetch the source, shape it into a common outage record, and validate the result before it's allowed anywhere near the archive. Validation is deliberately strict — it checks that the provider name matches, timestamps parse as Arizona time, customer counts are non-negative integers, coordinates are finite and in range, the summary totals actually add up to the individual records, and that a record without coordinates at least carries some other identifier. A malformed value fails that one provider loudly rather than getting quietly coerced to zero and polluting the history.
 
-### Overview cards and data status
+The runner (`scripts/run.py`) fetches every provider in turn and keeps going if one blows up, so a single flaky endpoint never throws away the good snapshots from the other eight. It does exit non-zero at the end if anything failed, which is what trips the failure alert described below.
 
-The top-level summary shows the records and customers represented by the current filters, the number of selected providers and snapshot files, and the visible time range. Archive metadata also reports malformed files and missing or invalid coordinates so data-quality limitations remain visible.
+One snapshot is only written when a provider's outages have actually changed since the last one. An hour where nothing moved doesn't add a duplicate file — the runner compares the new outage payload against the most recent snapshot and skips the write if they match. All providers in a single run also share one timestamp, so a given run's files line up to the minute instead of drifting apart while the slower browser-based collectors finish.
 
-### Interactive map
+## The dashboard
 
-- Centers on Arizona and uses OpenStreetMap background tiles
-- Groups dense records with Leaflet marker clustering
-- Colors records by utility provider
-- Scales circle markers according to customers affected
-- Displays outage details in marker popups
-- Connects table rows to their map markers for quick navigation
-- Continues to include records without usable coordinates in totals and the table, even though they cannot be placed on the map
+The Explorer reads the archive directly from the filesystem. There's no database and no import step — drop new snapshot files into `data/` and the app picks them up. It polls for changes in the background and reloads when the file count or newest modification time shifts.
+
+### Map
+
+An OpenStreetMap-backed Leaflet map centered on Arizona. Markers are colored by utility and sized (on a log scale) by customers affected, clustered when they're dense, and clickable for the full outage detail. Rows in the table below link back to their marker. Records that came in without usable coordinates can't be plotted, but they still count toward the totals and show up in the table so they don't silently vanish.
 
 ### Display modes
 
-| Mode | Behavior | Best used for |
-| --- | --- | --- |
-| **Latest Data** | Selects the newest available snapshot independently for each provider. | A current statewide overview |
-| **Snapshot at Selected Time** | Selects, for each provider, the newest snapshot at or before the requested time. | Reconstructing conditions at a past moment |
-| **Historical Observations** | Includes every matching record from every snapshot in the date range. The same incident can appear more than once as it changes over time. | Studying observations and archive activity |
-| **Unique Outages** | Deduplicates historical records and retains the latest matching observation for each inferred incident. | Estimating distinct incidents in a period |
+The same archive can be sliced four ways, depending on the question you're asking:
 
-Unique-outage matching uses a provider record's `incident_id`, `pole_number`, or `event` when available. Otherwise, it falls back to a combination of provider, rounded coordinates or location, and start time. It is a practical archive-level estimate rather than a universal outage identity guarantee.
+| Mode | What it shows | Good for |
+| --- | --- | --- |
+| **Latest Data** | The newest snapshot for each provider, independently. | A current statewide picture |
+| **Snapshot at Selected Time** | For each provider, the newest snapshot at or before a time you pick. | Reconstructing a past moment |
+| **Historical Observations** | Every matching record from every snapshot in a date range — the same incident reappears as it evolves. | Watching how outages changed |
+| **Unique Outages** | Historical records deduplicated down to one row per incident, keeping the latest observation. | Counting distinct incidents |
+
+Unique-outage matching keys off a real identifier when the provider gives one (`incident_id`, `pole_number`, or `event`), and falls back to provider + rounded coordinates + start time otherwise. It's a reasonable estimate, not a guarantee — two providers describe "the same outage" very differently, and some don't hand out stable IDs at all.
 
 ### Filters
 
-The dashboard can filter the selected mode by:
+You can narrow any mode by provider, snapshot date range, time-of-day window, customer-count range, and a text search across cause and comments. "Active only" hides anything with a restoration time, and there's a toggle for whether unknown/zero-customer records should ignore the count limits. Whatever you pick is written into the URL, so a filtered view is just a link you can bookmark or share.
 
-- One or more utility providers
-- Snapshot date range
-- Outage start-time range within the day
-- Minimum and maximum customers affected
-- Cause or comments text
-- Active outages only, where no restoration time is present
-- Records with unknown/zero customer counts, optionally bypassing the customer-range limits
+### Charts, table, and export
 
-Active filter choices are reflected in the page URL, making filtered dashboard views bookmarkable and shareable.
+Below the map are two per-provider breakdowns (customers affected and outage count) and a timeline of outages and customers over the matching snapshots. The table is searched, sorted, and paginated entirely in the browser, and there's a light/dark theme that sticks in local storage. **Export CSV** hands you exactly the filtered set you're looking at — provider, customer count, cause and comments, the outage lifecycle timestamps, coordinates, city/boundary, provider IDs, division, and snapshot time.
 
-### Charts and records
+## Running it yourself
 
-The visualization area contains:
-
-- Customers affected by provider
-- Visible outage records by provider
-- A timeline of outage records and customers affected across matching snapshots
-- A client-side searchable and sortable table
-- Configurable table page sizes and pagination
-- Clickable rows that focus the associated map marker
-- Light and dark themes saved in browser storage
-
-### CSV export
-
-**Export CSV** downloads the same filtered dataset currently requested by the dashboard. Exported columns include provider, customers affected, cause, comments, outage lifecycle times, coordinates, city/boundary information, provider identifiers, division, and snapshot time.
-
-## Quick start
-
-### Requirements
-
-- Python 3.11 or newer
-- `pip`
-- Google Chrome if you intend to run the Trico, Mohave, or Navopache collectors
-- Internet access for live collection and for the dashboard's externally hosted map tiles and frontend libraries
-
-Clone the repository and enter its directory:
+You'll need Python 3.11+ and `pip`. Chrome is only required if you want to run the three NISC collectors. Live collection and the dashboard's map tiles both need internet; the archived JSON itself is read locally.
 
 ```bash
 git clone https://github.com/vmanam1/az-power-outage-archive.git
 cd az-power-outage-archive
-```
-
-Create a virtual environment:
-
-```bash
 python -m venv venv
 ```
 
-Activate it on Windows PowerShell:
+Activate the virtual environment — PowerShell:
 
 ```powershell
 .\venv\Scripts\Activate.ps1
 ```
 
-Or activate it on macOS/Linux:
+macOS/Linux:
 
 ```bash
 source venv/bin/activate
 ```
 
-Install the runtime dependencies:
+Then install and start the dashboard:
 
 ```bash
 python -m pip install -r requirements.txt
-```
-
-### Start the dashboard
-
-Run Flask directly:
-
-```bash
 python app.py
 ```
 
-On macOS/Linux, or from a Bash-compatible Windows shell, you can instead use:
+Open <http://localhost:5000>. The server binds `0.0.0.0` by default, so another machine on the same trusted network can reach it at `http://<server-ip>:5000` if your firewall allows it. On macOS/Linux (or Git Bash on Windows) `./scripts/start_dashboard.sh` does the same thing, plus a couple of sanity checks.
 
-```bash
-./scripts/start_dashboard.sh
-```
-
-Then open [http://localhost:5000](http://localhost:5000). Because the default host is `0.0.0.0`, another device on the same trusted network can use `http://<server-ip>:5000` if the host firewall allows it.
-
-### Run a collection locally
+To run a collection pass locally:
 
 ```bash
 python -m scripts.run
 ```
 
-Each provider is collected independently. If any provider fails, the command exits unsuccessfully after attempting all providers; valid snapshots from successful providers are still preserved.
-
-### Run tests
-
-The continuous-integration workflow uses Python's built-in `unittest` runner:
+And the tests, which is what CI runs:
 
 ```bash
 python -m unittest discover -s tests -v
 ```
 
-Optional development tools are listed separately:
-
-```bash
-python -m pip install -r requirements-dev.txt
-```
+Dev-only tooling (pytest, black, flake8) lives in `requirements-dev.txt` if you want it.
 
 ## Configuration
 
-The dashboard reads configuration from environment variables. `.env.example` is a reference file; Flask does not load `.env` files automatically in this project, so export the variables in your shell or configure them through your service manager.
+Config comes from environment variables. `.env.example` documents them, but note that nothing in this project auto-loads a `.env` file — export the variables in your shell or set them in your service manager.
 
-| Variable | Default | Description |
+| Variable | Default | Purpose |
 | --- | --- | --- |
-| `HOST` | `0.0.0.0` | Address to bind. Use `127.0.0.1` for local-only access. |
-| `PORT` | `5000` | HTTP port used by the Flask server. |
-| `FLASK_DEBUG` | `false` | Enables Flask debug mode when set to `true`. Do not enable it on an exposed host. |
-| `DATA_DIR` | `data` | Archive root containing one subdirectory per provider. Relative paths are resolved from the working directory. |
-| `AUTO_REFRESH_SECONDS` | `60` | Browser polling interval for detecting new or modified JSON files. |
-
-PowerShell example:
+| `HOST` | `0.0.0.0` | Bind address. Use `127.0.0.1` to keep it local-only. |
+| `PORT` | `5000` | HTTP port. |
+| `FLASK_DEBUG` | `false` | Flask debug mode. Never turn this on for anything reachable from outside. |
+| `DATA_DIR` | `data` | Archive root, one subfolder per provider. Relative paths resolve from the working directory. |
+| `AUTO_REFRESH_SECONDS` | `60` | How often the browser checks for new snapshot files. |
 
 ```powershell
-$env:HOST = "127.0.0.1"
-$env:PORT = "8080"
-python app.py
+$env:HOST = "127.0.0.1"; $env:PORT = "8080"; python app.py
 ```
-
-macOS/Linux example:
 
 ```bash
 HOST=127.0.0.1 PORT=8080 python app.py
@@ -207,53 +127,46 @@ HOST=127.0.0.1 PORT=8080 python app.py
 
 ## HTTP API
 
-All endpoints read from the configured `DATA_DIR`.
+Everything reads from `DATA_DIR`. The dashboard is built on these, but they're plain JSON and fine to use on their own.
 
-| Endpoint | Response |
+| Endpoint | Returns |
 | --- | --- |
-| `GET /api/health` | Basic process health: `{"status": "healthy"}` |
-| `GET /api/file-status` | JSON snapshot file count and newest modification time; used by auto-refresh |
-| `GET /api/metadata` | Providers, archive date bounds, snapshot count, newest snapshot per provider, known causes, and data-quality counts |
-| `GET /api/outages` | Normalized outage records plus summary totals for the active query |
+| `GET /api/health` | `{"status": "healthy"}` |
+| `GET /api/file-status` | Snapshot file count and newest modification time (drives auto-refresh) |
+| `GET /api/metadata` | Providers, date bounds, snapshot count, newest snapshot per provider, known causes, data-quality counts |
+| `GET /api/outages` | Normalized outage records plus a summary for the current query |
 | `GET /api/timeline` | Per-provider, per-snapshot outage and customer totals for charting |
-| `GET /api/export.csv` | Streamed CSV containing the filtered outage records |
+| `GET /api/export.csv` | The filtered records as a streamed CSV |
 
-### Query parameters
-
-`/api/outages`, `/api/timeline`, and `/api/export.csv` accept the dashboard's filter parameters:
+`/api/outages`, `/api/timeline`, and `/api/export.csv` take the dashboard's filter parameters:
 
 | Parameter | Format | Meaning |
 | --- | --- | --- |
-| `providers` | Repeated values or comma-separated names | Provider selection, such as `providers=aps&providers=srp` |
-| `display_mode` | `latest`, `snapshot_at_time`, `historical`, or `unique_outages` | Snapshot-selection strategy |
-| `snapshot_time` | Date/time string | Target for `snapshot_at_time`; selects the nearest prior snapshot per provider |
-| `start_date` | `YYYY-MM-DD` or date/time | Beginning of the snapshot range for historical modes |
-| `end_date` | `YYYY-MM-DD` or date/time | End of the snapshot range for historical modes |
-| `time_of_day_start` | `HH:MM` | Earliest outage start time to include |
-| `time_of_day_end` | `HH:MM` | Latest outage start time to include |
-| `min_customers` | Integer | Minimum customers affected |
-| `max_customers` | Integer | Maximum customers affected |
-| `cause` | Text | Case-insensitive substring search across cause and comments |
-| `active_only` | `true` or `false` | Excludes records with a restoration time when true |
-| `include_unknown_customers` | `true` or `false` | Allows zero/unknown counts to bypass min/max limits |
-
-Example:
+| `providers` | Comma-separated or repeated | e.g. `providers=aps,srp` |
+| `display_mode` | `latest`, `snapshot_at_time`, `historical`, `unique_outages` | Which selection strategy to use |
+| `snapshot_time` | Date/time | Target for `snapshot_at_time` |
+| `start_date` / `end_date` | `YYYY-MM-DD` or full date/time | Snapshot range for the historical modes |
+| `time_of_day_start` / `time_of_day_end` | `HH:MM` | Outage start-time window |
+| `min_customers` / `max_customers` | Integer | Customer-count range |
+| `cause` | Text | Case-insensitive substring match on cause and comments |
+| `active_only` | `true` / `false` | Drop records that already have a restoration time |
+| `include_unknown_customers` | `true` / `false` | Let zero/unknown counts skip the min/max limits |
 
 ```text
 /api/outages?providers=aps,srp&display_mode=historical&start_date=2026-07-01&end_date=2026-07-07&min_customers=10&active_only=true
 ```
 
-The timeline endpoint always aggregates matching historical snapshots so the chart can show change over time, even when the primary outage view is in latest mode.
+One quirk worth knowing: `/api/timeline` always aggregates across the snapshot date range regardless of `display_mode`, because a timeline only makes sense over time. So the chart can show history even while the map is in latest mode.
 
-## Archive format
+## Snapshot format
 
-Snapshots are stored under `data/<provider>/` with Arizona-local filenames such as:
+Files land under `data/<provider>/` named with the Arizona-local scrape time:
 
 ```text
 data/aps/2026-07-18_17-02.json
 ```
 
-A typical snapshot looks like this:
+A snapshot is metadata, a summary, and the outage list:
 
 ```json
 {
@@ -273,120 +186,71 @@ A typical snapshot looks like this:
       "longitude": -111.95,
       "customers": 42,
       "cause": "Equipment Failure",
-      "start_time": "2026-07-18 13:31 MST",
-      "etr": "2026-07-18 21:00 MST"
+      "start_time": "2026-07-18 13:31:00 MST",
+      "etr": "2026-07-18 21:00:00 MST"
     }
   ]
 }
 ```
 
-Provider records can contain additional fields including `comments`, `restored_time`, `last_update`, `city`, `boundary`, `incident_id`, `pole_number`, `event`, `division`, and `customers_restored`. Availability depends on the source utility.
+Which fields an outage carries depends on the source. Beyond the ones above you'll see `comments`, `restored_time`, `last_update`, `city`, `boundary`, `incident_id`, `pole_number`, `event`, `division`, and `customers_restored` when a utility provides them.
 
-### Time handling
+Most of Arizona doesn't observe daylight saving, so every timestamp is normalized to Arizona time and labeled `MST` (UTC-7), and that's what the dashboard's comparisons and display modes run on.
 
-Arizona does not observe daylight saving time in most of the state. Archive timestamps are normalized to Arizona time and labeled `MST` (UTC-7). Dashboard comparisons and display modes use these normalized snapshot timestamps.
+When the dashboard reads old files it's forgiving: unparseable JSON is skipped and counted in the metadata rather than crashing the request, and missing or invalid coordinates are tracked separately so you can see the data's rough edges. Parsed snapshots are cached by file modification time and the whole scan is memoized against a directory fingerprint, so flipping between filters doesn't re-read the entire archive every time.
 
-### Data-quality behavior
+## Automation
 
-Before writing a snapshot, the collectors validate:
+Two workflows in `.github/workflows/`:
 
-- Provider identity and metadata
-- Arizona timestamp structure
-- Non-negative outage and customer totals
-- Agreement between summary totals and individual outage records
-- Required record identifiers where applicable
-- Complete, finite, in-range coordinate pairs
-- Supported outage lifecycle timestamps
-- Provider customer counts without silently turning malformed source values into zero
+- **Archive Arizona Power Outages** runs at minute 7 of every hour (and on manual dispatch). It installs Chrome, runs all nine collectors, and commits whatever new snapshots came out of the run. A concurrency group keeps two runs from committing over each other. Fair warning: GitHub's scheduler is not punctual — under load it can fire well after :07, which is why the archived times drift around rather than landing on the hour.
+- **Test** runs the full unittest suite on every push and pull request.
 
-Structurally valid empty feeds remain valid zero-outage snapshots. Malformed source values cause that provider to fail, while the other providers continue.
+If a run fails, the workflow opens (or comments on) a GitHub issue titled **Outage archive workflow failure**, and the next healthy run posts a recovery note and closes it. Because providers are isolated, the snapshots that did succeed still get committed even when one collector took the overall run down.
 
-When the dashboard reads historical files, malformed JSON is skipped and reported in metadata. Missing or invalid coordinates are tracked separately. Snapshot contents are cached using file modification time and size, which keeps repeated dashboard queries responsive while still noticing changed files.
+## Running on a Raspberry Pi
 
-## Automation and monitoring
+It's light enough for a Pi or any small Linux box. There's a sample systemd unit at `deployment/az-outage-dashboard.service.example`:
 
-Two workflows live in `.github/workflows/`:
+```bash
+cp deployment/az-outage-dashboard.service.example deployment/az-outage-dashboard.service
+# edit User, WorkingDirectory, and ExecStart for your setup
+sudo cp deployment/az-outage-dashboard.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now az-outage-dashboard.service
+```
 
-- **Archive Arizona Power Outages** runs at minute 7 of every hour and supports manual dispatch. GitHub schedule execution can be delayed during periods of high Actions load.
-- **Test** runs the complete unit test suite on every push and pull request.
+Check on it with `systemctl status az-outage-dashboard.service` and `journalctl -u az-outage-dashboard.service -f`.
 
-The archive job installs Chrome, runs all providers, stages `data/`, and commits any new snapshots. Its concurrency group prevents two archive jobs from racing on the same branch.
-
-If collection fails, the workflow opens an issue named **Outage archive workflow failure**, or appends the latest run to the existing alert. The next successful run adds a recovery comment and closes the alert. Successful provider data is committed even when another provider caused the overall run to fail.
-
-## Raspberry Pi and Linux service
-
-The dashboard is lightweight enough for a Raspberry Pi or another small Linux host. A sample systemd unit is provided at `deployment/az-outage-dashboard.service.example`.
-
-1. Clone the repository, create a virtual environment, and install the dependencies.
-2. Copy the example unit:
-
-   ```bash
-   cp deployment/az-outage-dashboard.service.example deployment/az-outage-dashboard.service
-   ```
-
-3. Edit `User`, `WorkingDirectory`, and `ExecStart` for the actual account and repository path. Adjust the environment settings if needed.
-4. Install and start the unit:
-
-   ```bash
-   sudo cp deployment/az-outage-dashboard.service /etc/systemd/system/az-outage-dashboard.service
-   sudo systemctl daemon-reload
-   sudo systemctl enable --now az-outage-dashboard.service
-   ```
-
-5. Inspect its status and logs:
-
-   ```bash
-   systemctl status az-outage-dashboard.service
-   journalctl -u az-outage-dashboard.service -f
-   ```
-
-The included Flask development server is appropriate for local and trusted-network use. For public access, place the application behind a production WSGI server and a properly configured HTTPS reverse proxy. Add authentication or network access controls as appropriate; never expose Flask debug mode publicly.
+That said, `app.py` runs Flask's development server, which is fine on a trusted network but not something to expose directly. If you're putting it on the public internet, front it with a real WSGI server behind an HTTPS reverse proxy, add whatever access control makes sense, and — again — leave debug mode off.
 
 ## Project layout
 
 ```text
 az-power-outage-archive/
-|-- .github/workflows/       # Hourly collection and test automation
-|-- dashboard/               # Archive scanning, caching, normalization, and filters
-|-- data/                    # Timestamped snapshots grouped by provider
-|-- deployment/              # Example systemd service
-|-- providers/               # Provider-specific collectors and shared validation
-|-- scripts/                 # Collector runner, HTTP helpers, archiving, and launcher
-|-- static/                  # Dashboard CSS and browser-side JavaScript
-|-- templates/               # Flask HTML templates
-|-- tests/                   # Scraper, validation, archive reader, and API tests
-|-- app.py                   # Flask dashboard and API
-|-- requirements.txt         # Runtime dependencies
-`-- requirements-dev.txt     # Optional development tools
+├── .github/workflows/   # Hourly collection + test automation
+├── dashboard/           # Archive scanning, caching, normalization, filters
+├── data/                # The snapshots, grouped by provider
+├── deployment/          # Example systemd unit
+├── providers/           # One collector per utility + shared validation
+├── scripts/             # Runner, HTTP retry helper, archive writer, launcher
+├── static/              # Dashboard CSS and JavaScript
+├── templates/           # Flask HTML
+├── tests/               # Collector, validation, archive-reader, and API tests
+└── app.py               # Flask dashboard and API
 ```
 
-## Technology stack
+## Built with
 
-- Python and Flask
-- Requests for HTTP-based collectors
-- Selenium and Google Chrome for browser-rendered NISC maps
-- Leaflet, Leaflet.markercluster, and OpenStreetMap for mapping
-- Chart.js for dashboard charts
-- Vanilla JavaScript and CSS for the dashboard interface
-- GitHub Actions for hourly collection and continuous integration
-- JSON for the durable archive format
+Python and Flask on the backend; Requests for the JSON/XML collectors and Selenium + headless Chrome for the NISC maps. The frontend is vanilla JavaScript with Leaflet (and markercluster) for the map and Chart.js for the charts. GitHub Actions handles collection and CI, and the archive itself is just JSON in Git.
 
-## Limitations
+## Known limits
 
-- The archive can only preserve what utilities publish; providers may suppress small incidents or omit precise locations and customer counts.
-- Public endpoints and page structures can change without notice and may temporarily break a collector.
-- A record in historical mode is an observation at a snapshot time, not necessarily a distinct outage.
-- Unique-outage mode uses best-effort identifiers and may merge or separate records imperfectly.
-- Zero customer counts can mean either a reported zero or unavailable/unknown source data after dashboard normalization.
-- Map tiles and frontend CDN assets require Internet access, although archived outage JSON is read locally.
-- The dashboard is intended for exploration, not operational dispatch, emergency response, or guaranteed real-time monitoring.
+This can only preserve what utilities choose to publish — they routinely round customer counts, generalize locations, or leave small incidents off the map entirely, and none of that is recoverable after the fact. Public endpoints also change without warning and occasionally break a collector until it's fixed. Keep in mind that a historical-mode row is an observation at a snapshot, not necessarily a distinct outage; unique mode does its best to reconcile them but won't be perfect. And a zero customer count can mean a genuine zero or just missing source data, since normalization treats both the same way.
 
 ## Contributing
 
-Contributions are welcome. For collector changes, include or update focused tests using mocked source responses; do not make unit tests depend on live utility endpoints. For dashboard changes, preserve the API tests and verify latest, historical, point-in-time, and unique-outage behavior where relevant.
-
-Before opening a pull request, run:
+PRs welcome. If you touch a collector, add or update tests with mocked responses — tests should never hit live utility endpoints. If you touch the dashboard, keep the API tests passing and sanity-check the latest, historical, point-in-time, and unique-outage paths. Run the suite before you open a PR:
 
 ```bash
 python -m unittest discover -s tests -v
@@ -394,6 +258,4 @@ python -m unittest discover -s tests -v
 
 ## Disclaimer
 
-This project independently archives publicly available information for research, education, and historical analysis. It is not affiliated with, endorsed by, or operated by any utility listed above. No guarantee is made regarding completeness, accuracy, timeliness, availability, or suitability for any particular purpose.
-
-Use official utility channels and emergency services for current conditions, outage reporting, hazards, and urgent assistance.
+This is an independent archive of publicly available information, built for research, education, and history. It isn't affiliated with, endorsed by, or operated by any of the utilities listed, and it makes no promises about completeness, accuracy, or timeliness. For current conditions, outage reporting, and anything urgent, use official utility and emergency channels.
