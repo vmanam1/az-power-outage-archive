@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-20 13:36:51 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1642
+    },
+    "outages": [
+        {
+            "latitude": 33.058137000327704,
+            "longitude": -112.23729999989324,
+            "city": "Maricopa",
+            "boundary": "Reservation To Nahalia And Maricopa City Lane To Mobile",
+            "customers": 18,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-20 05:42:00 MST",
+            "etr": "2026-07-20 09:50:00 MST"
+        },
+        {
+            "latitude": 35.211815761698475,
+            "longitude": -111.59030490687984,
+            "city": "Flagstaff",
+            "boundary": "Soliere Ave to Rio De Flag Dr and For Run Dr to Elk Run St",
+            "customers": 630,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 05:56:00 MST",
+            "etr": "2026-07-20 09:30:00 MST"
+        },
+        {
+            "latitude": 35.23019055734722,
+            "longitude": -112.00002997366711,
+            "city": "Williams",
+            "boundary": "Bnsf Railroad Frontage Rd to Highway 25 and Scholz Rd",
+            "customers": 143,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 06:10:00 MST",
+            "etr": "2026-07-20 09:30:00 MST"
+        },
+        {
+            "latitude": 35.079717698246384,
+            "longitude": -111.55726159367576,
+            "city": "Mormon Lake",
+            "boundary": "Fire Rd 132 D to Highway 296 and Lake Mary Rd",
+            "customers": 851,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 06:28:00 MST",
+            "etr": "2026-07-20 10:30:00 MST"
+        }
+    ]
+}

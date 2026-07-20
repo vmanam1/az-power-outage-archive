@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-20 13:36:51 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 1927
+    },
+    "outages": [
+        {
+            "latitude": 33.4214006657019,
+            "longitude": -111.999071033183,
+            "boundary": "S 36TH ST TO S 40TH ST AND E SKY HARBOR BLVD TO E ELWOOD ST",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 10:08 MST",
+            "etr": "2026-07-20 14:00 MST"
+        },
+        {
+            "latitude": 33.3236307726127,
+            "longitude": -111.7337556603985,
+            "boundary": "S VAL VISTA DR TO S WADE DR AND E WARNER RD TO E WILLIAMS FIELD RD",
+            "customers": 1236,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 11:38 MST",
+            "etr": "2026-07-20 13:37 MST"
+        },
+        {
+            "latitude": 33.28924482165965,
+            "longitude": -112.14465667453999,
+            "boundary": "UNKNOWN TO S CENTRAL AVE AND W RAY RD TO UNKNOWN",
+            "customers": 635,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 12:15 MST",
+            "etr": "2026-07-20 14:21 MST"
+        },
+        {
+            "latitude": 33.4956154559358,
+            "longitude": -111.892800412392,
+            "boundary": "N GRANITE REEF RD TO N PIMA LOOP AND E CAMELBACK RD TO E OSBORN RD",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 12:05 MST",
+            "etr": "2026-07-20 14:11 MST"
+        },
+        {
+            "latitude": 33.38975294018605,
+            "longitude": -111.7170275982895,
+            "boundary": "N HIGLEY RD TO N 172ND ST AND E SOUTHERN AVE TO E SUPERSTITION FWY",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 13:06 MST",
+            "etr": "2026-07-20 15:04 MST"
+        },
+        {
+            "latitude": 33.41786416410115,
+            "longitude": -111.5663710018095,
+            "boundary": "N DELAWARE DR TO N IRONWOOD DR AND W SUPERSTITION BLVD TO W APACHE TRL",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 07:38 MST",
+            "etr": "2026-07-20 14:30 MST"
+        },
+        {
+            "latitude": 33.2154594822063,
+            "longitude": -111.717337381113,
+            "boundary": "S HIGLEY RD TO S 172ND ST AND E RIGGS RD TO E COLDWATER BLVD",
+            "customers": 2,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 13:14 MST",
+            "etr": "2026-07-20 16:58 MST"
+        },
+        {
+            "latitude": 33.2946032400565,
+            "longitude": -112.0101080267645,
+            "boundary": "S 32ND ST TO S LAKEWOOD E PKWY AND E FRYE RD TO E PECOS RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-20 13:19 MST",
+            "etr": "2026-07-20 15:19 MST"
+        }
+    ]
+}

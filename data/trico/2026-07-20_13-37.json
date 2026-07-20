@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-20 13:37:06 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 32.46458394923461,
+            "longitude": -111.21018507491198,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-16 22:48:00 MST",
+            "etr": "2026-07-17 01:48:00 MST",
+            "boundary": "Marana"
+        },
+        {
+            "latitude": 31.84127927284047,
+            "longitude": -110.95659492331285,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-20 15:18:00 MST",
+            "etr": null,
+            "boundary": null
+        },
+        {
+            "latitude": 32.344581727462845,
+            "longitude": -111.21903011460496,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-07-20 15:03:00 MST",
+            "etr": null,
+            "boundary": "Picture Rocks"
+        },
+        {
+            "latitude": 32.364952402983135,
+            "longitude": -111.24097612293782,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-20 19:27:00 MST",
+            "etr": null,
+            "boundary": "Avra Valley South"
+        },
+        {
+            "latitude": 31.96679767664874,
+            "longitude": -110.71433208158331,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-20 18:19:00 MST",
+            "etr": null,
+            "boundary": "Corona de Tucson"
+        },
+        {
+            "latitude": 32.38048655614198,
+            "longitude": -111.23365754869067,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-20 19:22:00 MST",
+            "etr": null,
+            "boundary": "Avra Valley South"
+        },
+        {
+            "latitude": 31.931172165693823,
+            "longitude": -111.0028611732745,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-20 17:26:00 MST",
+            "etr": null,
+            "boundary": "Sahuarita"
+        },
+        {
+            "latitude": 32.43502969130412,
+            "longitude": -111.31629621952365,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-07-20 18:12:00 MST",
+            "etr": null,
+            "boundary": "Avra Valley North"
+        },
+        {
+            "latitude": 31.945466701769146,
+            "longitude": -110.98360248930577,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-20 16:49:00 MST",
+            "etr": null,
+            "boundary": "Sahuarita"
+        }
+    ]
+}
