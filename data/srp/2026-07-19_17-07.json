@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-19 17:07:14 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.479136803499,
+            "longitude": -111.92080667423849,
+            "boundary": "N SCOTTSDALE RD TO N MILLER RD AND E OSBORN RD TO E OAK ST",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-19 17:07 MST",
+            "etr": "2026-07-19 19:05 MST"
+        }
+    ]
+}

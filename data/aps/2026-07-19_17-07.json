@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-19 17:07:13 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.57850997403845,
+            "longitude": -111.92857941686596,
+            "city": "Scottsdale",
+            "boundary": "Shea Blvd to Mountain View Rd and 70th St to Scottsdale Rd",
+            "customers": 25,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-19 08:11:00 MST",
+            "etr": "2026-07-19 12:40:00 MST"
+        },
+        {
+            "latitude": 33.87094288477171,
+            "longitude": -111.29555754802844,
+            "city": "Tonto Basin",
+            "boundary": "Green Back Rd to Williams Ln and Forest Rd to Hohokam Ln",
+            "customers": 11,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-19 06:02:00 MST",
+            "etr": "2026-07-19 11:40:00 MST"
+        }
+    ]
+}
