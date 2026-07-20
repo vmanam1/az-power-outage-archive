@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-20 00:21:37 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 949
+    },
+    "outages": [
+        {
+            "latitude": 33.39120880272845,
+            "longitude": -112.054307449918,
+            "boundary": "S 7TH ST TO S 16TH ST AND E ROESER RD TO E VINEYARD RD",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-19 20:38 MST",
+            "etr": "2026-07-20 04:30 MST"
+        },
+        {
+            "latitude": 33.537619652573596,
+            "longitude": -112.1535086297205,
+            "boundary": "N 47TH AVE TO N 39TH AVE AND W ORANGEWOOD AVE TO W MARYLAND AVE",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-19 23:45 MST",
+            "etr": "2026-07-20 01:42 MST"
+        },
+        {
+            "latitude": 33.4423145169652,
+            "longitude": -111.5742241585545,
+            "boundary": "N MOUNTAIN RD TO N SAN MARCOS DR AND W MCDOWELL BLVD TO W APACHE TRL",
+            "customers": 931,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-19 23:01 MST",
+            "etr": "2026-07-20 01:02 MST"
+        }
+    ]
+}
