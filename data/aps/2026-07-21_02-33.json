@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-21 02:33:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 27
+    },
+    "outages": [
+        {
+            "latitude": 33.460832431630536,
+            "longitude": -112.11435945998892,
+            "city": "Phoenix",
+            "boundary": "Papago Freeway and 27th Ave",
+            "customers": 9,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 14:32:00 MST",
+            "etr": "2026-07-20 20:00:00 MST"
+        },
+        {
+            "latitude": 33.49799324780495,
+            "longitude": -112.05688033342804,
+            "city": "Phoenix",
+            "boundary": "12th Street and Devonshire Ave",
+            "customers": 10,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 14:38:00 MST",
+            "etr": "2026-07-20 21:00:00 MST"
+        },
+        {
+            "latitude": 33.395356776931216,
+            "longitude": -112.66036277411541,
+            "city": "Palo Verde",
+            "boundary": "Palo Verde Rd and Oglesby Rd",
+            "customers": 8,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 19:03:00 MST",
+            "etr": "2026-07-20 22:15:00 MST"
+        }
+    ]
+}

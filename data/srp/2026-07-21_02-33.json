@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-21 02:33:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 958
+    },
+    "outages": [
+        {
+            "latitude": 33.4124862544637,
+            "longitude": -112.002475582535,
+            "boundary": "S 32ND ST TO S 40TH ST AND E ELWOOD ST TO E BROADWAY RD",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 17:10 MST",
+            "etr": "2026-07-21 03:30 MST"
+        },
+        {
+            "latitude": 33.52540849560771,
+            "longitude": -112.1503440773795,
+            "boundary": "N 47TH AVE TO N 39TH AVE AND W MARYLAND AVE TO W MISSOURI AVE",
+            "customers": 10,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 21:29 MST",
+            "etr": "2026-07-21 08:00 MST"
+        },
+        {
+            "latitude": 33.4674911172187,
+            "longitude": -111.941011941221,
+            "boundary": "N GALVIN PKWY TO N 68TH ST AND E OAK ST TO E CONTINENTAL DR",
+            "customers": 634,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 20:19 MST",
+            "etr": "2026-07-21 05:18 MST"
+        },
+        {
+            "latitude": 33.39470760642495,
+            "longitude": -111.542360281389,
+            "boundary": "S IDAHO RD TO S ROYAL PALM RD AND E 16TH AVE TO E SUPERSTITION FWY",
+            "customers": 18,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 23:26 MST",
+            "etr": "2026-07-21 06:30 MST"
+        },
+        {
+            "latitude": 33.409861417236996,
+            "longitude": -112.05258787938399,
+            "boundary": "S 7TH ST TO S 16TH ST AND E MARICOPA FWY TO E ROESER RD",
+            "customers": 267,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 20:40 MST",
+            "etr": "2026-07-21 06:30 MST"
+        },
+        {
+            "latitude": 33.392847787349694,
+            "longitude": -112.065778759527,
+            "boundary": "S CENTRAL AVE TO S 12TH ST AND E ROESER RD TO E VINEYARD RD",
+            "customers": 22,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 20:34 MST",
+            "etr": "2026-07-21 06:30 MST"
+        },
+        {
+            "latitude": 33.44603128917325,
+            "longitude": -112.2038947491925,
+            "boundary": "N 71ST AVE TO S 63RD AVE AND W VAN BUREN ST TO W BUCKEYE RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 21:01 MST",
+            "etr": "2026-07-21 05:30 MST"
+        },
+        {
+            "latitude": 33.4228196571049,
+            "longitude": -112.108563229385,
+            "boundary": "S 27TH AVE TO S 19TH AVE AND W MARICOPA FWY TO W BROADWAY RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-21 02:28 MST",
+            "etr": "2026-07-21 06:28 MST"
+        },
+        {
+            "latitude": 33.4268949351073,
+            "longitude": -111.906281446632,
+            "boundary": "S MCCLINTOCK DR TO S SMITH RD AND E RIO SALADO PKWY TO E UNIVERSITY DR",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-21 02:32 MST",
+            "etr": "2026-07-21 03:39 MST"
+        }
+    ]
+}
