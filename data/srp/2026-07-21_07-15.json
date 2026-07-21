@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-21 07:15:48 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 53
+    },
+    "outages": [
+        {
+            "latitude": 33.44603128917325,
+            "longitude": -112.2038947491925,
+            "boundary": "N 71ST AVE TO S 63RD AVE AND W VAN BUREN ST TO W BUCKEYE RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 21:01 MST",
+            "etr": "2026-07-21 09:30 MST"
+        },
+        {
+            "latitude": 33.4385906017838,
+            "longitude": -111.7298369023025,
+            "boundary": "N GREENFIELD RD TO N HIGLEY RD AND E MCLELLAN RD TO E ADOBE ST",
+            "customers": 48,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-21 03:38 MST",
+            "etr": "2026-07-21 11:00 MST"
+        },
+        {
+            "latitude": 33.5461255237677,
+            "longitude": -112.117795919467,
+            "boundary": "N 31ST AVE TO N BLACK CANYON HWY AND W NORTHERN AVE TO W GLENDALE AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-21 06:23 MST",
+            "etr": "2026-07-21 10:21 MST"
+        }
+    ]
+}
