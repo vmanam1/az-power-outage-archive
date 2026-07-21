@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-21 13:23:02 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 34.11053168004407,
+            "longitude": -109.86988295978526,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "start_time": "2026-07-21 15:39:00 MST",
+            "etr": null,
+            "boundary": "2 - PINETOP"
+        }
+    ]
+}
