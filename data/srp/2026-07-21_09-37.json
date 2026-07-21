@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-21 09:37:41 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 108
+    },
+    "outages": [
+        {
+            "latitude": 33.4385906017838,
+            "longitude": -111.7298369023025,
+            "boundary": "N GREENFIELD RD TO N HIGLEY RD AND E MCLELLAN RD TO E ADOBE ST",
+            "customers": 48,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-21 03:38 MST",
+            "etr": "2026-07-21 11:00 MST"
+        },
+        {
+            "latitude": 33.4230046684061,
+            "longitude": -112.121591128408,
+            "boundary": "S 35TH AVE TO S 23RD AVE AND W DURANGO ST TO W BROADWAY RD",
+            "customers": 2,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-21 07:50 MST",
+            "etr": "2026-07-21 11:30 MST"
+        },
+        {
+            "latitude": 33.321552143853,
+            "longitude": -111.63588480138,
+            "boundary": "S HAWES RD TO S CRISMON RD AND E WARNER RD TO E GATEWAY FWY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-21 08:05 MST",
+            "etr": "2026-07-21 13:03 MST"
+        },
+        {
+            "latitude": 33.624289685999045,
+            "longitude": -111.7229235603945,
+            "boundary": "UNKNOWN TO UNKNOWN AND E JOMAX RD TO E SHEA BLVD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-21 08:10 MST",
+            "etr": "2026-07-21 10:08 MST"
+        },
+        {
+            "latitude": 33.482446981965495,
+            "longitude": -112.00254554255301,
+            "boundary": "N 32ND ST TO N 40TH ST AND E OSBORN RD TO E THOMAS RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-21 08:13 MST",
+            "etr": "2026-07-21 10:06 MST"
+        },
+        {
+            "latitude": 33.1199827271074,
+            "longitude": -111.58609440781649,
+            "boundary": "N ROYCE RD TO N EDWARDS RD AND W DIXIE RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 21,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-21 08:33 MST",
+            "etr": "2026-07-21 11:00 MST"
+        },
+        {
+            "latitude": 33.47708859442385,
+            "longitude": -111.9331952121415,
+            "boundary": "N 64TH ST TO N SCOTTSDALE RD AND E THOMAS RD TO E OAK ST",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-07-21 09:17 MST",
+            "etr": "2026-07-21 11:17 MST"
+        },
+        {
+            "latitude": 33.3785753532089,
+            "longitude": -111.65650515391951,
+            "boundary": "S SOSSAMAN RD TO S HAWES RD AND E SUPERSTITION FWY TO E MEDINA AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-21 09:18 MST",
+            "etr": "2026-07-21 11:12 MST"
+        },
+        {
+            "latitude": 33.4113900274004,
+            "longitude": -111.9147358264225,
+            "boundary": "S DORSEY LN TO S MCCLINTOCK DR AND E APACHE BLVD TO E BROADWAY RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-21 08:55 MST",
+            "etr": "2026-07-21 15:00 MST"
+        }
+    ]
+}
