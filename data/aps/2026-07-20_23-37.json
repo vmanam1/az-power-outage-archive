@@ -1,0 +1,135 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-20 23:37:57 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 621
+    },
+    "outages": [
+        {
+            "latitude": 33.48186843797727,
+            "longitude": -111.94176521559302,
+            "city": "Scottsdale",
+            "boundary": "Avalon Dr. to Thomas Rd. and 64th St. to 66th St.",
+            "customers": 189,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 13:27:00 MST",
+            "etr": "2026-07-20 18:00:00 MST"
+        },
+        {
+            "latitude": 33.48611218513593,
+            "longitude": -111.93750168998204,
+            "city": "Scottsdale",
+            "boundary": "Osborn Rd. to Monterey Wy. and 66th Pl. to 67th Pl.",
+            "customers": 138,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 13:47:00 MST",
+            "etr": "2026-07-20 18:00:00 MST"
+        },
+        {
+            "latitude": 33.443216802745255,
+            "longitude": -112.13915010159475,
+            "city": "Phoenix",
+            "boundary": "Buchanan St. to Sherman St. and 39th Ave. to 37th Ave.",
+            "customers": 115,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 13:57:00 MST",
+            "etr": "2026-07-20 17:25:00 MST"
+        },
+        {
+            "latitude": 33.500244850642474,
+            "longitude": -112.0549569326069,
+            "city": "Phoenix",
+            "boundary": "Campbell Ave. to Canal Trl. and 12th St. and Longview Ave.",
+            "customers": 54,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 14:27:00 MST",
+            "etr": "2026-07-20 17:15:00 MST"
+        },
+        {
+            "latitude": 33.460832431630536,
+            "longitude": -112.11435945998892,
+            "city": "Phoenix",
+            "boundary": "Papago Freeway and 27th Ave",
+            "customers": 9,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 14:32:00 MST",
+            "etr": "2026-07-20 17:20:00 MST"
+        },
+        {
+            "latitude": 33.49799324780495,
+            "longitude": -112.05688033342804,
+            "city": "Phoenix",
+            "boundary": "12th Street and Devonshire Ave",
+            "customers": 10,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 14:38:00 MST",
+            "etr": "2026-07-20 17:30:00 MST"
+        },
+        {
+            "latitude": 33.49362812996804,
+            "longitude": -112.08622618541425,
+            "city": "Phoenix",
+            "boundary": "Amelia Ave and Piccadilly Rd",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 14:43:00 MST",
+            "etr": "2026-07-20 17:15:00 MST"
+        },
+        {
+            "latitude": 34.62480634578231,
+            "longitude": -112.32400248776146,
+            "city": "Prescott Valley",
+            "boundary": "Long Mesa Dr. to Dust Devil Dr.",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 14:51:00 MST",
+            "etr": "2026-07-20 18:30:00 MST"
+        },
+        {
+            "latitude": 34.4844144477316,
+            "longitude": -110.08184115894696,
+            "city": "Show Low",
+            "boundary": "15 South St. and Main St.",
+            "customers": 6,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 15:07:00 MST",
+            "etr": "2026-07-20 17:10:00 MST"
+        },
+        {
+            "latitude": 32.664368892756265,
+            "longitude": -114.41988371608359,
+            "city": "Yuma",
+            "boundary": "Frontage Rd. to 36th Pl. and Far West Ave. to Hunter Ave.",
+            "customers": 56,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-20 15:28:00 MST",
+            "etr": "2026-07-20 18:45:00 MST"
+        },
+        {
+            "latitude": 33.57776264970406,
+            "longitude": -112.07133146133506,
+            "city": "Phoenix",
+            "boundary": "Foothills Dr and 2nd St",
+            "customers": 20,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 15:28:00 MST",
+            "etr": "2026-07-20 19:00:00 MST"
+        }
+    ]
+}

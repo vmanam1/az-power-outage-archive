@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-20 23:37:57 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 68
+    },
+    "outages": [
+        {
+            "latitude": 32.349505748369324,
+            "longitude": -111.214477095999,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-21 05:28:00 MST",
+            "etr": null,
+            "boundary": "Picture Rocks"
+        },
+        {
+            "latitude": 32.339153159655204,
+            "longitude": -111.20546970718875,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-21 05:27:00 MST",
+            "etr": null,
+            "boundary": "Picture Rocks"
+        },
+        {
+            "latitude": 32.358894313732584,
+            "longitude": -111.25080983948297,
+            "customers": 66,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-21 05:25:00 MST",
+            "etr": "2026-07-21 08:25:00 MST",
+            "boundary": "Avra Valley South"
+        }
+    ]
+}
