@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-21 11:22:27 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 31.91925696657083,
+            "longitude": -110.99234799681847,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-07-21 14:43:00 MST",
+            "etr": null,
+            "boundary": "Sahuarita"
+        },
+        {
+            "latitude": 31.99428294223658,
+            "longitude": -111.112305711568,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-21 16:18:00 MST",
+            "etr": null,
+            "boundary": "Helmet Peak"
+        },
+        {
+            "latitude": 32.564992293443375,
+            "longitude": -111.2554070809823,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-21 17:15:00 MST",
+            "etr": "2026-07-21 20:15:00 MST",
+            "boundary": "Pinal County West"
+        },
+        {
+            "latitude": 32.28432411125438,
+            "longitude": -111.3348091007326,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-21 15:30:00 MST",
+            "etr": "2026-07-21 19:30:00 MST",
+            "boundary": "Avra Valley South"
+        },
+        {
+            "latitude": 32.467250861928775,
+            "longitude": -111.08536398704199,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-07-21 15:04:00 MST",
+            "etr": null,
+            "boundary": "Dove Mountain"
+        },
+        {
+            "latitude": 31.669345142705556,
+            "longitude": -111.21318249991221,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-21 15:15:00 MST",
+            "etr": "2026-07-21 18:15:00 MST",
+            "boundary": "Arivaca"
+        }
+    ]
+}

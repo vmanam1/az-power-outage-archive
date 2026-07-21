@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-21 11:22:27 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1863
+    },
+    "outages": [
+        {
+            "latitude": 33.512021036045056,
+            "longitude": -111.93813197673147,
+            "city": "Paradise Valley",
+            "boundary": "Kasba Cir. to Chaparral Rd. and Casa Blanca Dr. to Tamanar Way.",
+            "customers": 14,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-21 01:38:00 MST",
+            "etr": "2026-07-21 05:00:00 MST"
+        },
+        {
+            "latitude": 33.78465870020024,
+            "longitude": -112.54230270030132,
+            "city": "Morristown",
+            "boundary": "Amanda Dr  To Radford Rd And 253 Ave  To Mitchell Rd",
+            "customers": 1849,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-21 04:02:00 MST",
+            "etr": "2026-07-21 06:20:00 MST"
+        }
+    ]
+}
