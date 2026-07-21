@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-21 15:09:38 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 33.5931213328977,
+            "longitude": -111.60257125321701,
+            "boundary": "N BEELINE HWY TO N BEELINE HWY AND UNKNOWN TO E HERMOSA VISTA DR",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-21 12:09 MST",
+            "etr": "2026-07-21 18:00 MST"
+        },
+        {
+            "latitude": 33.539754332300305,
+            "longitude": -112.22976903938999,
+            "boundary": "N 83RD AVE TO N 75TH AVE AND W ORANGEWOOD AVE TO W MARYLAND AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-21 14:31 MST",
+            "etr": "2026-07-21 16:33 MST"
+        }
+    ]
+}
