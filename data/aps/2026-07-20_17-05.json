@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-20 17:05:29 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 1497
+    },
+    "outages": [
+        {
+            "latitude": 34.623238454346414,
+            "longitude": -112.32294751168168,
+            "city": "Prescott Valley",
+            "boundary": "Long Mesas Dr and Viewpoint Dt to Long Rifle Rd",
+            "customers": 130,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 08:36:00 MST",
+            "etr": "2026-07-20 12:00:00 MST"
+        },
+        {
+            "latitude": 34.65839199965657,
+            "longitude": -112.33059300030129,
+            "city": "Prescott Valley",
+            "boundary": "Acre Way To State Route 89A And Sunset Ridge To Winding Trail",
+            "customers": 938,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 08:50:00 MST",
+            "etr": "2026-07-20 12:00:00 MST"
+        },
+        {
+            "latitude": 35.343952938012464,
+            "longitude": -111.56415961301208,
+            "city": "Flagstaff",
+            "boundary": "US 89 to Camino De Los Vientos and Pumpkin Patch Rd",
+            "customers": 50,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 08:56:00 MST",
+            "etr": "2026-07-20 12:30:00 MST"
+        },
+        {
+            "latitude": 34.29199477401921,
+            "longitude": -112.75430021782343,
+            "city": "Kirkland",
+            "boundary": "Blue Sky Dr to Trap Rd and Pinon Ln to Juniper Dr",
+            "customers": 22,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-20 09:06:00 MST",
+            "etr": "2026-07-20 11:45:00 MST"
+        },
+        {
+            "latitude": 34.5238011000028,
+            "longitude": -109.95278431725983,
+            "city": "Snowflake",
+            "boundary": "Watson Rd to Percheron Ln and Hay Hollow Rd to Jay Rd",
+            "customers": 27,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-20 09:32:00 MST",
+            "etr": "2026-07-20 13:00:00 MST"
+        },
+        {
+            "latitude": 31.43200758190473,
+            "longitude": -110.12798379994717,
+            "city": "Hereford",
+            "boundary": "Hereford Rd to Carlisle Ln and Pintek Ln to Palominas Rd",
+            "customers": 34,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 09:47:00 MST",
+            "etr": "2026-07-20 13:10:00 MST"
+        },
+        {
+            "latitude": 34.645288255931284,
+            "longitude": -109.86196514599021,
+            "city": "Snowflake",
+            "boundary": "Woodruff Hay Hollow Rd to Uttecht Trail and County Line Rd",
+            "customers": 296,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 09:45:00 MST",
+            "etr": "2026-07-20 13:00:00 MST"
+        }
+    ]
+}

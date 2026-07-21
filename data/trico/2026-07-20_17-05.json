@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-20 17:05:29 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 32.17236609848351,
+            "longitude": -111.14875177736808,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-20 22:57:00 MST",
+            "etr": "2026-07-21 01:57:00 MST",
+            "boundary": "Bopp Rd"
+        }
+    ]
+}

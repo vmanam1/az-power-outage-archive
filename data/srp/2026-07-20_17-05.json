@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-20 17:05:29 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 140
+    },
+    "outages": [
+        {
+            "latitude": 33.300091273655454,
+            "longitude": -112.13447670590651,
+            "boundary": "S 43RD AVE TO S CHANDLER BLVD AND W ESTRELLA DR TO W PECOS RD",
+            "customers": 114,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 12:15 MST",
+            "etr": "2026-07-20 21:00 MST"
+        },
+        {
+            "latitude": 33.2942201163851,
+            "longitude": -112.128276842992,
+            "boundary": "S 51ST AVE TO S CHANDLER BLVD AND W CARVER RD TO UNKNOWN",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 16:40 MST",
+            "etr": "2026-07-20 18:38 MST"
+        },
+        {
+            "latitude": 33.51266316764245,
+            "longitude": -112.2438641921605,
+            "boundary": "N 91ST AVE TO N 83RD AVE AND W MISSOURI AVE TO W CAMELBACK RD",
+            "customers": 15,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 16:58 MST",
+            "etr": "2026-07-20 18:57 MST"
+        }
+    ]
+}
