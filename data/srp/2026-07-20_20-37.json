@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-20 20:37:55 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 5574
+    },
+    "outages": [
+        {
+            "latitude": 33.513111729626004,
+            "longitude": -112.243367168426,
+            "boundary": "N 87TH AVE TO N 83RD AVE AND W MISSOURI AVE TO W CAMELBACK RD",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 16:58 MST",
+            "etr": "2026-07-20 22:30 MST"
+        },
+        {
+            "latitude": 33.4124862544637,
+            "longitude": -112.002475582535,
+            "boundary": "S 32ND ST TO S 40TH ST AND E ELWOOD ST TO E BROADWAY RD",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 17:10 MST",
+            "etr": "2026-07-20 23:30 MST"
+        },
+        {
+            "latitude": 33.300091273655454,
+            "longitude": -112.13447670590651,
+            "boundary": "S 43RD AVE TO S CHANDLER BLVD AND W ESTRELLA DR TO W PECOS RD",
+            "customers": 114,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-20 12:15 MST",
+            "etr": "2026-07-20 21:00 MST"
+        },
+        {
+            "latitude": 33.400639603018405,
+            "longitude": -111.4807034963545,
+            "boundary": "S MOUNTAIN VIEW RD TO S WHITETAIL RD AND E BROADWAY AVE TO E SOUTHERN AVE",
+            "customers": 18,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 20:08 MST",
+            "etr": "2026-07-20 22:02 MST"
+        },
+        {
+            "latitude": 33.52596226838965,
+            "longitude": -111.8468658400605,
+            "boundary": "N PIMA LOOP TO N STAPLEY DR AND UNKNOWN TO E OSBORN RD",
+            "customers": 353,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 20:15 MST",
+            "etr": "2026-07-20 22:15 MST"
+        },
+        {
+            "latitude": 33.4739261728535,
+            "longitude": -111.9425638041995,
+            "boundary": "N 56TH ST TO N SCOTTSDALE RD AND E OSBORN RD TO E CONTINENTAL DR",
+            "customers": 1396,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 20:19 MST",
+            "etr": "2026-07-20 22:18 MST"
+        },
+        {
+            "latitude": 33.52073010396625,
+            "longitude": -111.9944559290025,
+            "boundary": "N 32ND ST TO N CAMELBACK CANYON DR AND E INDIAN BEND RD TO E CAMPBELL AVE",
+            "customers": 502,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 20:23 MST",
+            "etr": "2026-07-20 22:22 MST"
+        },
+        {
+            "latitude": 33.4004968930018,
+            "longitude": -111.53610596621951,
+            "boundary": "S IDAHO RD TO S TOMAHAWK RD AND E BROADWAY AVE TO E SOUTHERN AVE",
+            "customers": 173,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 20:28 MST",
+            "etr": "2026-07-20 22:16 MST"
+        },
+        {
+            "latitude": 33.34779526225405,
+            "longitude": -111.66109066477,
+            "boundary": "S POWER RD TO S ELLSWORTH RD AND E GUADALUPE RD TO E WARNER RD",
+            "customers": 2058,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 20:29 MST",
+            "etr": "2026-07-20 23:30 MST"
+        },
+        {
+            "latitude": 33.39948578032195,
+            "longitude": -112.0592696426035,
+            "boundary": "S CENTRAL AVE TO S 20TH ST AND E ELWOOD ST TO E VINEYARD RD",
+            "customers": 952,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-20 20:34 MST",
+            "etr": "2026-07-20 22:33 MST"
+        }
+    ]
+}

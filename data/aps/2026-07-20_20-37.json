@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-20 20:37:55 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 492
+    },
+    "outages": [
+        {
+            "latitude": 34.623238454346414,
+            "longitude": -112.32294751168168,
+            "city": "Prescott Valley",
+            "boundary": "Long Mesas Dr and Viewpoint Dt to Long Rifle Rd",
+            "customers": 89,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 08:36:00 MST",
+            "etr": "2026-07-20 14:35:00 MST"
+        },
+        {
+            "latitude": 31.43200758190473,
+            "longitude": -110.12798379994717,
+            "city": "Hereford",
+            "boundary": "Hereford Rd to Carlisle Ln and Pintek Ln to Palominas Rd",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 09:47:00 MST",
+            "etr": "2026-07-20 16:50:00 MST"
+        },
+        {
+            "latitude": 34.5113296432674,
+            "longitude": -110.08099063313765,
+            "city": "Snowflake",
+            "boundary": "2nd St. North and 1st West St.",
+            "customers": 8,
+            "cause": "Vegetation/Debris",
+            "comments": "We are working to restore the power outage caused by vegetation or debris interfering with our equipment.",
+            "start_time": "2026-07-20 12:15:00 MST",
+            "etr": "2026-07-20 15:35:00 MST"
+        },
+        {
+            "latitude": 34.92202911370288,
+            "longitude": -110.22964084418406,
+            "city": "Joseph City",
+            "boundary": "Perkins Valley Rd.",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 12:20:00 MST",
+            "etr": "2026-07-20 15:30:00 MST"
+        },
+        {
+            "latitude": 34.26624423934085,
+            "longitude": -111.32830363206119,
+            "city": "Payson",
+            "boundary": "West Houston Mesa Rd to West Bridle Path Ln and North Saddle Blanket Dr to North Beeline Highway",
+            "customers": 145,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 12:26:00 MST",
+            "etr": "2026-07-20 15:15:00 MST"
+        },
+        {
+            "latitude": 34.65740685065441,
+            "longitude": -112.31683444383391,
+            "city": "Prescott Valley",
+            "boundary": "Mountain View Rd. to Smitty's Pl. and Lawrence Rd. to Coyote Springs Rd.",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 13:19:00 MST",
+            "etr": "2026-07-21 15:50:00 MST"
+        },
+        {
+            "latitude": 35.20211557501276,
+            "longitude": -111.60560804461305,
+            "city": "Flagstaff",
+            "boundary": "Purple Heart Trail and Butler Ave",
+            "customers": 32,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-20 13:22:00 MST",
+            "etr": "2026-07-20 16:45:00 MST"
+        },
+        {
+            "latitude": 33.48186843797727,
+            "longitude": -111.94176521559302,
+            "city": "Scottsdale",
+            "boundary": "Avalon Dr. to Thomas Rd. and 64th St. to 66th St.",
+            "customers": 189,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-20 13:27:00 MST",
+            "etr": "2026-07-20 16:05:00 MST"
+        }
+    ]
+}

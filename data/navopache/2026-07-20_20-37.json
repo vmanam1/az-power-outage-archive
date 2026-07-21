@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-20 20:37:55 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3120
+    },
+    "outages": [
+        {
+            "latitude": 34.60453966040306,
+            "longitude": -109.6112876614258,
+            "customers": 1,
+            "cause": "WEATHER",
+            "comments": null,
+            "start_time": "2026-07-20 23:46:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        },
+        {
+            "latitude": 34.42763191384618,
+            "longitude": -110.56788579805263,
+            "customers": 266,
+            "cause": "WEATHER",
+            "comments": null,
+            "start_time": "2026-07-21 00:29:00 MST",
+            "etr": null,
+            "boundary": "7 - HEBER/OVERGAARD"
+        },
+        {
+            "latitude": 34.315793936816206,
+            "longitude": -110.10246168059656,
+            "customers": 2853,
+            "cause": "POWER SUPPLIER",
+            "comments": null,
+            "start_time": "2026-07-21 00:06:00 MST",
+            "etr": null,
+            "boundary": "6 - LINDEN"
+        }
+    ]
+}
