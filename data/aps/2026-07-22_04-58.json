@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-22 04:58:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.44323502811386,
+            "longitude": -112.087372872298,
+            "city": "Phoenix",
+            "boundary": "Buchanan St to Grant St and 15th Ave to 7th Ave",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-21 21:35:00 MST",
+            "etr": "2026-07-22 01:10:00 MST"
+        }
+    ]
+}
