@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-22 15:13:11 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 34.19031198293009,
+            "longitude": -110.00515727995351,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-22 22:10:00 MST",
+            "etr": null,
+            "boundary": "1 - LAKESIDE"
+        },
+        {
+            "latitude": 33.813728654435735,
+            "longitude": -109.1122505597909,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "start_time": "2026-07-22 15:41:00 MST",
+            "etr": null,
+            "boundary": "5 - SPRINGERVILLE"
+        },
+        {
+            "latitude": 34.46839834846508,
+            "longitude": -109.3028038644321,
+            "customers": 7,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-22 21:50:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        }
+    ]
+}

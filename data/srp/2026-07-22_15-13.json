@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-22 15:13:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 72
+    },
+    "outages": [
+        {
+            "latitude": 33.4771925699508,
+            "longitude": -112.009259395464,
+            "boundary": "N 32ND  ST TO N 36TH  ST AND E THOMAS  RD TO E OAK  ST",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-22 10:12 MST",
+            "etr": "2026-07-22 12:12 MST"
+        },
+        {
+            "latitude": 33.5179660383824,
+            "longitude": -112.00541557751,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E BETHANY HOME  RD TO E CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-22 11:13 MST",
+            "etr": "2026-07-22 15:30 MST"
+        },
+        {
+            "latitude": 33.5230516708783,
+            "longitude": -112.185134704436,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-22 12:59 MST",
+            "etr": "2026-07-22 15:32 MST"
+        },
+        {
+            "latitude": 33.367810836639094,
+            "longitude": -111.97239193149801,
+            "boundary": "S 48TH  ST TO S MARICOPA  FWY AND W BASELINE  RD TO E GUADALUPE  RD",
+            "customers": 58,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-22 12:26 MST",
+            "etr": "2026-07-22 20:00 MST"
+        }
+    ]
+}

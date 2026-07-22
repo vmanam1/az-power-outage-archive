@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-22 15:13:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 33.599009291908565,
+            "longitude": -112.17173111929573,
+            "city": "Glendale",
+            "boundary": "Columbine Dr and Windrose Dr to 51st Ave",
+            "customers": 40,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-22 07:55:00 MST",
+            "etr": "2026-07-22 10:30:00 MST"
+        }
+    ]
+}
