@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-21 17:01:44 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1266
+    },
+    "outages": [
+        {
+            "latitude": 33.7988162396405,
+            "longitude": -109.93722351231735,
+            "customers": 1,
+            "cause": "LIGHTNING",
+            "comments": null,
+            "start_time": "2026-07-21 22:01:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        },
+        {
+            "latitude": 34.07285975926339,
+            "longitude": -109.86038324919951,
+            "customers": 1,
+            "cause": "LIGHTNING",
+            "comments": null,
+            "start_time": "2026-07-21 22:30:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        },
+        {
+            "latitude": 34.073002859522084,
+            "longitude": -109.86097633958707,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-21 22:30:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        },
+        {
+            "latitude": 34.0673092629628,
+            "longitude": -109.86097859791509,
+            "customers": 1263,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-21 22:20:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-21 17:01:44 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 32.664293942928836,
+            "longitude": -114.62467213217809,
+            "city": "Yuma",
+            "boundary": "Princess Ln to Kings Ln and 8th Ave to 4th Ave",
+            "customers": 34,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-21 08:56:00 MST",
+            "etr": "2026-07-21 12:00:00 MST"
+        }
+    ]
+}
