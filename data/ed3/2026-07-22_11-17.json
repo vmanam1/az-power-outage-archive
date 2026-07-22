@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-07-22 11:17:43 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 705,
+        "total_customers": 36412
+    },
+    "outages": [
+        {
+            "latitude": 32.992694660628906,
+            "longitude": -112.07170719122243,
+            "boundary": "T-T6023",
+            "customers": 4,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-07-22 10:18:47 MST",
+            "etr": null,
+            "pole_number": "T6023"
+        },
+        {
+            "latitude": 32.999447013865336,
+            "longitude": -112.06587225976675,
+            "boundary": "BKR-PSN113",
+            "customers": 701,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-07-22 10:17:00 MST",
+            "etr": null,
+            "pole_number": "PSN113"
+        }
+    ]
+}

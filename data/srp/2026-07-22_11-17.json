@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-22 11:17:43 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 839
+    },
+    "outages": [
+        {
+            "latitude": 33.4771925699508,
+            "longitude": -112.009259395464,
+            "boundary": "N 32ND  ST TO N 36TH  ST AND E THOMAS  RD TO E OAK  ST",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-22 10:12 MST",
+            "etr": "2026-07-22 12:12 MST"
+        },
+        {
+            "latitude": 33.51294088686975,
+            "longitude": -111.98772619497001,
+            "boundary": "N 40TH  ST TO N CAMELBACK CANYON  DR AND E STANFORD  DR TO E CAMELBACK  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-22 10:37 MST",
+            "etr": "2026-07-22 14:00 MST"
+        },
+        {
+            "latitude": 33.47060272944985,
+            "longitude": -111.92093916881694,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E OAK  ST TO E MCDOWELL  RD",
+            "customers": 21,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-22 08:08 MST",
+            "etr": "2026-07-22 12:00 MST"
+        },
+        {
+            "latitude": 33.4245168946521,
+            "longitude": -111.5691537144595,
+            "boundary": "N DELAWARE  DR TO N IRONWOOD  DR AND W TEPEE  ST TO W SUPERSTITION  BLVD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-22 08:16 MST",
+            "etr": "2026-07-22 12:14 MST"
+        },
+        {
+            "latitude": 33.3131523120276,
+            "longitude": -111.908407504677,
+            "boundary": "N DESERT BREEZE W BLVD TO N PRICE  FWY AND E WARNER  RD TO W MILKY  WAY",
+            "customers": 793,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-22 11:02 MST",
+            "etr": "2026-07-22 13:01 MST"
+        },
+        {
+            "latitude": 33.394503168566345,
+            "longitude": -112.342137623323,
+            "boundary": "S 135TH  AVE TO S EL MIRAGE  RD AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-22 11:05 MST",
+            "etr": "2026-07-22 13:04 MST"
+        },
+        {
+            "latitude": 33.5179660383824,
+            "longitude": -112.00541557751,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E BETHANY HOME  RD TO E CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-22 11:13 MST",
+            "etr": "2026-07-22 15:30 MST"
+        }
+    ]
+}

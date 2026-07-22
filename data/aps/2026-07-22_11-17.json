@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-22 11:17:43 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 97
+    },
+    "outages": [
+        {
+            "latitude": 34.64298068780343,
+            "longitude": -111.7688429603543,
+            "city": "Rimrock",
+            "boundary": "Wet Beaver Creek to Dakota Way and Montezuma Ave to Chipmunk Hollow",
+            "customers": 90,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-07-22 01:04:00 MST",
+            "etr": "2026-07-22 04:45:00 MST"
+        },
+        {
+            "latitude": 35.14063881502108,
+            "longitude": -111.69425413371818,
+            "city": "Flagstaff",
+            "boundary": "Fairgrounds Rd. to Garrison Rd. and Brigade Rd. to Beulah Blvd.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-22 02:00:00 MST",
+            "etr": "2026-07-22 05:00:00 MST"
+        }
+    ]
+}

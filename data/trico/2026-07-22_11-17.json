@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-22 11:17:43 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 32.461377019553964,
+            "longitude": -111.09193773234257,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-22 14:26:00 MST",
+            "etr": null,
+            "boundary": "Dove Mountain"
+        },
+        {
+            "latitude": 32.28432411125438,
+            "longitude": -111.3348091007326,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-21 15:30:00 MST",
+            "etr": "2026-07-21 19:30:00 MST",
+            "boundary": "Avra Valley South"
+        },
+        {
+            "latitude": 32.16277414585173,
+            "longitude": -111.0799878043272,
+            "customers": 2,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-22 16:07:00 MST",
+            "etr": null,
+            "boundary": "Valencia"
+        },
+        {
+            "latitude": 32.125335992289486,
+            "longitude": -111.24816187461408,
+            "customers": 3,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-07-22 18:11:00 MST",
+            "etr": null,
+            "boundary": "Three Points"
+        }
+    ]
+}
