@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-22 07:17:49 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.4839258264186,
+            "longitude": -111.851037517821,
+            "boundary": "N ALMA SCHOOL  RD TO N EXTENSION  RD AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-22 06:29 MST",
+            "etr": "2026-07-22 12:00 MST"
+        },
+        {
+            "latitude": 33.35258700268515,
+            "longitude": -111.66247540392,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E PALOMA  AVE TO E ELLIOT  RD",
+            "customers": 2,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-22 06:28 MST",
+            "etr": "2026-07-22 08:03 MST"
+        },
+        {
+            "latitude": 33.592860871428655,
+            "longitude": -112.17032552791,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W CACTUS  RD TO W CHOLLA  ST",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-22 07:14 MST",
+            "etr": "2026-07-22 09:06 MST"
+        }
+    ]
+}
