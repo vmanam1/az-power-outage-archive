@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-22 02:33:52 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 26
+    },
+    "outages": [
+        {
+            "latitude": 33.559155340267985,
+            "longitude": -111.91841158828593,
+            "city": "Scottsdale",
+            "boundary": "Eastwood Ln. to Northern Ave. and 75th St.",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-21 18:11:00 MST",
+            "etr": "2026-07-21 20:35:00 MST"
+        }
+    ]
+}
