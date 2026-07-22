@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-21 23:39:27 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 146
+    },
+    "outages": [
+        {
+            "latitude": 34.47555387567427,
+            "longitude": -112.43781663755422,
+            "city": "Prescott",
+            "boundary": "Merapi Rd to Senator Highway and Spur Lane to Friendly Pines Trail",
+            "customers": 140,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-21 15:27:00 MST",
+            "etr": "2026-07-21 18:25:00 MST"
+        },
+        {
+            "latitude": 33.413502651122045,
+            "longitude": -111.93719987491119,
+            "city": "Tempe",
+            "boundary": "Forest Ave to College Ave and Grandview Dr to Mcallister Ave",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-21 16:12:00 MST",
+            "etr": "2026-07-21 19:05:00 MST"
+        }
+    ]
+}
