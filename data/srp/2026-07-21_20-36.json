@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-21 20:36:02 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 820
+    },
+    "outages": [
+        {
+            "latitude": 33.5018791012438,
+            "longitude": -111.904596368827,
+            "boundary": "N MILLER RD TO N PIMA RD AND E JACKRABBIT RD TO E OSBORN RD",
+            "customers": 820,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-21 20:09 MST",
+            "etr": "2026-07-21 22:15 MST"
+        }
+    ]
+}

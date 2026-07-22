@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-21 20:36:02 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.48918739401746,
+            "longitude": -112.05135386007089,
+            "city": "Phoenix",
+            "boundary": "Whitton Ave to Osborn Rd and 14th St to 14th Place",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-21 11:10:00 MST",
+            "etr": "2026-07-21 15:00:00 MST"
+        }
+    ]
+}
