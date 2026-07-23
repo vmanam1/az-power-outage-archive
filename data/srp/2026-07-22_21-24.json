@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-22 21:24:58 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1881
+    },
+    "outages": [
+        {
+            "latitude": 33.4941199185337,
+            "longitude": -112.2549913903155,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-22 20:35 MST",
+            "etr": "2026-07-23 04:34 MST"
+        },
+        {
+            "latitude": 33.501723531494605,
+            "longitude": -111.978278723442,
+            "boundary": "N 44TH  ST TO N 56TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-22 20:39 MST",
+            "etr": "2026-07-22 22:38 MST"
+        },
+        {
+            "latitude": 33.48058170278535,
+            "longitude": -112.2387265579205,
+            "boundary": "N 87TH  AVE TO N 79TH  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-22 20:41 MST",
+            "etr": "2026-07-23 04:00 MST"
+        },
+        {
+            "latitude": 33.4308428041114,
+            "longitude": -112.29744726536299,
+            "boundary": "S 119TH  AVE TO S 103RD  AVE AND W VAN BUREN  ST TO W LOWER BUCKEYE  RD",
+            "customers": 633,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-22 19:00 MST",
+            "etr": "2026-07-23 04:05 MST"
+        },
+        {
+            "latitude": 33.6038165485625,
+            "longitude": -111.7221932870565,
+            "boundary": "N 136TH  ST TO N BEELINE  HWY AND E JOMAX  RD TO E SHEA  BLVD",
+            "customers": 1225,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-22 18:17 MST",
+            "etr": "2026-07-22 21:30 MST"
+        },
+        {
+            "latitude": 33.45722634077645,
+            "longitude": -111.5759292760005,
+            "boundary": "N MERIDIAN  RD TO N DELAWARE  DR AND W MCDOWELL  BLVD TO W MCKELLIPS  BLVD",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-07-22 21:19 MST",
+            "etr": "2026-07-22 22:33 MST"
+        }
+    ]
+}

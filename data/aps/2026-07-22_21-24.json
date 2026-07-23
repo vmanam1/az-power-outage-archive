@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-22 21:24:58 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 32.68193356128865,
+            "longitude": -114.51246850358626,
+            "city": "Yuma",
+            "boundary": "25th St to 26th St and Avenue 7 East to College Dr",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-22 13:08:00 MST",
+            "etr": "2026-07-22 16:30:00 MST"
+        },
+        {
+            "latitude": 33.658718006653814,
+            "longitude": -112.15007636159946,
+            "city": "Glendale",
+            "boundary": "Yorkshire Dr to Union Hills Dr and 43rd Ave to 41st Ave",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-22 13:11:00 MST",
+            "etr": "2026-07-22 16:00:00 MST"
+        },
+        {
+            "latitude": 33.751108025845525,
+            "longitude": -111.94044785958506,
+            "city": "Cave Creek",
+            "boundary": "Monring Vista Ln to Skinner Dr and 64th St to 66th Way",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-22 13:23:00 MST",
+            "etr": "2026-07-22 16:05:00 MST"
+        },
+        {
+            "latitude": 33.823263208758384,
+            "longitude": -111.95558302044498,
+            "city": "Cave Creek",
+            "boundary": "Cholla Rd. and Conestoga Trl.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-22 14:10:00 MST",
+            "etr": "2026-07-22 19:55:00 MST"
+        }
+    ]
+}
