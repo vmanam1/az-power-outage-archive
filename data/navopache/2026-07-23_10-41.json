@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-23 10:41:27 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 34.193326084279796,
+            "longitude": -109.91588290894906,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "start_time": "2026-07-23 15:37:00 MST",
+            "etr": null,
+            "boundary": "1 - LAKESIDE"
+        },
+        {
+            "latitude": 34.12452747978202,
+            "longitude": -109.9613055358356,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "start_time": "2026-07-23 15:37:00 MST",
+            "etr": null,
+            "boundary": "2 - PINETOP"
+        },
+        {
+            "latitude": 34.42633565388467,
+            "longitude": -110.56642234916877,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "start_time": "2026-07-23 14:52:00 MST",
+            "etr": null,
+            "boundary": "7 - HEBER/OVERGAARD"
+        }
+    ]
+}

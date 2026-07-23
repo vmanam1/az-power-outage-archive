@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-23 10:41:27 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 32.314624448396955,
+            "longitude": -111.24069733400952,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-07-23 16:32:00 MST",
+            "etr": null,
+            "boundary": "Picture Rocks"
+        },
+        {
+            "latitude": 32.28432411125438,
+            "longitude": -111.3348091007326,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-21 15:30:00 MST",
+            "etr": "2026-07-21 19:30:00 MST",
+            "boundary": "Avra Valley South"
+        },
+        {
+            "latitude": 32.413557053685615,
+            "longitude": -111.07193815329103,
+            "customers": 2,
+            "cause": "10 CONSTRUCTION",
+            "comments": "Planned",
+            "start_time": "2026-07-23 15:00:00 MST",
+            "etr": "2026-07-23 18:00:00 MST",
+            "boundary": "Thornydale"
+        },
+        {
+            "latitude": 32.413557053685615,
+            "longitude": -111.07193815329103,
+            "customers": 4,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-07-23 15:13:00 MST",
+            "etr": null,
+            "boundary": "Thornydale"
+        },
+        {
+            "latitude": 31.918998721859257,
+            "longitude": -110.99145077863967,
+            "customers": 4,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned",
+            "start_time": "2026-07-23 16:37:00 MST",
+            "etr": null,
+            "boundary": "Sahuarita"
+        }
+    ]
+}

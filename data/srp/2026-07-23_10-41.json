@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-23 10:41:27 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 33.407076201986,
+            "longitude": -112.083664240086,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W ELWOOD  ST TO W ROESER  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 06:53 MST",
+            "etr": "2026-07-23 11:00 MST"
+        },
+        {
+            "latitude": 33.4216243125123,
+            "longitude": -111.571133255152,
+            "boundary": "N MERIDIAN  DR TO N IRONWOOD  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 07:38 MST",
+            "etr": "2026-07-23 11:32 MST"
+        },
+        {
+            "latitude": 33.383307145482505,
+            "longitude": -111.65749640851851,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 06:56 MST",
+            "etr": "2026-07-23 12:00 MST"
+        },
+        {
+            "latitude": 33.413254386327395,
+            "longitude": -111.64511162050451,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 28,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 08:32 MST",
+            "etr": "2026-07-23 12:16 MST"
+        },
+        {
+            "latitude": 33.505498596527204,
+            "longitude": -112.034171402656,
+            "boundary": "N 20TH  ST TO N 24TH  ST AND E CAMELBACK  RD TO E CAMPBELL  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 10:30 MST",
+            "etr": "2026-07-23 15:47 MST"
+        },
+        {
+            "latitude": 33.33170405311015,
+            "longitude": -111.86115138086049,
+            "boundary": "N ARROWHEAD  DR TO N HARTFORD  ST AND W WARNER  RD TO W KNOX  RD",
+            "customers": 3,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 08:07 MST",
+            "etr": "2026-07-23 16:00 MST"
+        }
+    ]
+}

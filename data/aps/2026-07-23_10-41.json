@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-23 10:41:27 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 39
+    },
+    "outages": [
+        {
+            "latitude": 33.67198799233446,
+            "longitude": -114.2097914022099,
+            "city": "Quartzsite",
+            "boundary": "Mayflower St and Emerald Ave to Plymouth Ave",
+            "customers": 20,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-23 01:11:00 MST",
+            "etr": "2026-07-23 05:30:00 MST"
+        },
+        {
+            "latitude": 34.43374360925258,
+            "longitude": -110.10901587541794,
+            "city": "Taylor",
+            "boundary": "Taylor Farms Dr to Meadow Way and Cherry Ct to Blossom Ln",
+            "customers": 19,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-23 02:00:00 MST",
+            "etr": "2026-07-23 05:15:00 MST"
+        }
+    ]
+}
