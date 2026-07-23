@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-22 17:10:25 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 71
+    },
+    "outages": [
+        {
+            "latitude": 33.367810836639094,
+            "longitude": -111.97239193149801,
+            "boundary": "S 48TH  ST TO S MARICOPA  FWY AND W BASELINE  RD TO E GUADALUPE  RD",
+            "customers": 58,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-22 12:26 MST",
+            "etr": "2026-07-22 20:00 MST"
+        },
+        {
+            "latitude": 33.5230516708783,
+            "longitude": -112.185134704436,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-22 12:59 MST",
+            "etr": "2026-07-22 19:30 MST"
+        },
+        {
+            "latitude": 33.4120818758703,
+            "longitude": -112.330496333748,
+            "boundary": "S DYSART  RD TO S EL MIRAGE  RD AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-22 16:04 MST",
+            "etr": "2026-07-22 18:01 MST"
+        }
+    ]
+}

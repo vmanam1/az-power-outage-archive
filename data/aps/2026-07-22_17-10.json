@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-22 17:10:25 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.47482760282234,
+            "longitude": -112.04867536057475,
+            "city": "Phoenix",
+            "boundary": "Sheridan St to Oak St and 14th St to 16th St",
+            "customers": 13,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-22 09:17:00 MST",
+            "etr": "2026-07-22 13:00:00 MST"
+        }
+    ]
+}
