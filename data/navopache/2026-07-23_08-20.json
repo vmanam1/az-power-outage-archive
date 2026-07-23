@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-23 08:20:03 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 34.42633565388467,
+            "longitude": -110.56642234916877,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "start_time": "2026-07-23 14:52:00 MST",
+            "etr": null,
+            "boundary": "7 - HEBER/OVERGAARD"
+        },
+        {
+            "latitude": 34.246459240439016,
+            "longitude": -109.7277132776033,
+            "customers": 13,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-23 14:16:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        },
+        {
+            "latitude": 34.29749254502426,
+            "longitude": -110.23027608682301,
+            "customers": 15,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-23 14:35:00 MST",
+            "etr": null,
+            "boundary": "6 - LINDEN"
+        }
+    ]
+}

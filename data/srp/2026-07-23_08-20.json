@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-23 08:20:03 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 105
+    },
+    "outages": [
+        {
+            "latitude": 33.407076201986,
+            "longitude": -112.083664240086,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W ELWOOD  ST TO W ROESER  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 06:53 MST",
+            "etr": "2026-07-23 11:00 MST"
+        },
+        {
+            "latitude": 33.4599180530802,
+            "longitude": -112.15068350397999,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W MCDOWELL  RD TO W VAN BUREN  ST",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 07:16 MST",
+            "etr": "2026-07-23 12:00 MST"
+        },
+        {
+            "latitude": 33.4306668177457,
+            "longitude": -111.575848015658,
+            "boundary": "N MERIDIAN  DR TO N DELAWARE  DR AND W LOST DUTCHMAN  BLVD TO W SUPERSTITION  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 07:17 MST",
+            "etr": "2026-07-23 13:15 MST"
+        },
+        {
+            "latitude": 33.4216243125123,
+            "longitude": -111.571133255152,
+            "boundary": "N MERIDIAN  DR TO N IRONWOOD  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 07:38 MST",
+            "etr": "2026-07-23 11:32 MST"
+        },
+        {
+            "latitude": 33.559366975442344,
+            "longitude": -112.107747727673,
+            "boundary": "N BLACK CANYON  HWY TO N 19TH  AVE AND W DUNLAP  AVE TO W NORTHERN  AVE",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 06:01 MST",
+            "etr": "2026-07-23 09:00 MST"
+        },
+        {
+            "latitude": 33.33242410858375,
+            "longitude": -111.86188207338151,
+            "boundary": "N ARROWHEAD  DR TO N HARTFORD  ST AND W WARNER  RD TO W KNOX  RD",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 08:07 MST",
+            "etr": "2026-07-23 10:06 MST"
+        },
+        {
+            "latitude": 33.383307145482505,
+            "longitude": -111.65749640851851,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 06:56 MST",
+            "etr": "2026-07-23 12:00 MST"
+        },
+        {
+            "latitude": 33.35925661810185,
+            "longitude": -111.8448782476485,
+            "boundary": "S EXTENSION  RD TO N MCQUEEN  RD AND W GUADALUPE  RD TO W ELLIOT  RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 08:17 MST",
+            "etr": "2026-07-23 10:15 MST"
+        },
+        {
+            "latitude": 33.4743090066,
+            "longitude": -112.19281821349,
+            "boundary": "N 63RD  AVE TO N 59TH  AVE AND W THOMAS  RD TO W MCDOWELL  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 08:19 MST",
+            "etr": "2026-07-23 10:00 MST"
+        }
+    ]
+}

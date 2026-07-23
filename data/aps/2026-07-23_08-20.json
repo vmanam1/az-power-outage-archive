@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-23 08:20:03 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 33.67198799233446,
+            "longitude": -114.2097914022099,
+            "city": "Quartzsite",
+            "boundary": "Mayflower St and Emerald Ave to Plymouth Ave",
+            "customers": 20,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-23 01:11:00 MST",
+            "etr": "2026-07-23 05:30:00 MST"
+        }
+    ]
+}
