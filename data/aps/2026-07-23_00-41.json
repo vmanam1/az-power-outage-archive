@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-23 00:41:22 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 33.658718006653814,
+            "longitude": -112.15007636159946,
+            "city": "Glendale",
+            "boundary": "Yorkshire Dr to Union Hills Dr and 43rd Ave to 41st Ave",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-22 13:11:00 MST",
+            "etr": "2026-07-22 18:15:00 MST"
+        },
+        {
+            "latitude": 33.651934052689455,
+            "longitude": -112.03614703071928,
+            "city": "Phoenix",
+            "boundary": "Bluefield Ave. to Michigan Ave. and 21st Pl. to 22nd Pl.",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-22 15:27:00 MST",
+            "etr": "2026-07-22 19:30:00 MST"
+        }
+    ]
+}
