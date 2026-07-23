@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-07-23 03:32:48 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 36412
+    },
+    "outages": [
+        {
+            "latitude": 33.08498406044863,
+            "longitude": -112.01235245960314,
+            "boundary": "T-ED3X329",
+            "customers": 1,
+            "cause": "190 - Other planned",
+            "comments": "CauseFound",
+            "start_time": "2026-07-23 02:17:20 MST",
+            "etr": null,
+            "pole_number": "ED3X329"
+        }
+    ]
+}

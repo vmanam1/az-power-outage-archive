@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-23 03:32:48 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 653
+    },
+    "outages": [
+        {
+            "latitude": 33.4574208703392,
+            "longitude": -111.574852381138,
+            "boundary": "N MERIDIAN  RD TO N DELAWARE  DR AND W MCDOWELL  BLVD TO W MCKELLIPS  BLVD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-22 21:19 MST",
+            "etr": "2026-07-23 05:30 MST"
+        },
+        {
+            "latitude": 33.501723531494605,
+            "longitude": -111.978278723442,
+            "boundary": "N 44TH  ST TO N 56TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 6,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-22 20:39 MST",
+            "etr": "2026-07-23 05:00 MST"
+        },
+        {
+            "latitude": 33.4308313738386,
+            "longitude": -112.301573147241,
+            "boundary": "S 119TH  AVE TO S 107TH  AVE AND W VAN BUREN  ST TO W LOWER BUCKEYE  RD",
+            "customers": 629,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-22 19:00 MST",
+            "etr": "2026-07-23 04:05 MST"
+        },
+        {
+            "latitude": 33.4941199185337,
+            "longitude": -112.2549913903155,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-22 20:35 MST",
+            "etr": "2026-07-23 04:34 MST"
+        },
+        {
+            "latitude": 33.49321205433845,
+            "longitude": -112.2176079464925,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W SELLS  DR TO W OSBORN  RD",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 03:13 MST",
+            "etr": "2026-07-23 05:12 MST"
+        }
+    ]
+}

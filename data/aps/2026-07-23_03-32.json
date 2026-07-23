@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-23 03:32:48 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 73
+    },
+    "outages": [
+        {
+            "latitude": 34.782680220743565,
+            "longitude": -112.36685915792768,
+            "city": "Prescott",
+            "boundary": "Jasper Trail and Forest Service Road",
+            "customers": 42,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-22 20:09:00 MST",
+            "etr": "2026-07-22 22:20:00 MST"
+        },
+        {
+            "latitude": 33.58813569934016,
+            "longitude": -111.84442961674338,
+            "city": "Scottsdale",
+            "boundary": "Cholla St. to Hope Rd. and 109th Pl. to 109th Wy.",
+            "customers": 31,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-22 20:23:00 MST",
+            "etr": "2026-07-22 23:10:00 MST"
+        }
+    ]
+}
