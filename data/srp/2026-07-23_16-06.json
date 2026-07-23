@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-23 16:06:59 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 329
+    },
+    "outages": [
+        {
+            "latitude": 33.380779229263695,
+            "longitude": -112.06558854735101,
+            "boundary": "S CENTRAL  AVE TO S 12TH  ST AND E VINEYARD  RD TO E BASELINE  RD",
+            "customers": 20,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 13:47 MST",
+            "etr": "2026-07-23 16:44 MST"
+        },
+        {
+            "latitude": 33.315342768039,
+            "longitude": -111.9042616593125,
+            "boundary": "N MCCLINTOCK  DR TO N PRICE  FWY AND W RAY  RD TO W CHANDLER  BLVD",
+            "customers": 71,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 13:02 MST",
+            "etr": "2026-07-23 17:30 MST"
+        },
+        {
+            "latitude": 33.55127795448455,
+            "longitude": -112.100330780301,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 62,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 14:37 MST",
+            "etr": "2026-07-23 16:42 MST"
+        },
+        {
+            "latitude": 33.315092238232,
+            "longitude": -111.800373146602,
+            "boundary": "S COOPER  RD TO S GILBERT  RD AND W RAY  RD TO E CHANDLER  BLVD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 14:35 MST",
+            "etr": "2026-07-23 17:03 MST"
+        },
+        {
+            "latitude": 33.47207392163765,
+            "longitude": -112.2053440179925,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W THOMAS  RD TO W MCDOWELL  RD",
+            "customers": 34,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 15:34 MST",
+            "etr": "2026-07-23 17:32 MST"
+        },
+        {
+            "latitude": 33.505498596527204,
+            "longitude": -112.034171402656,
+            "boundary": "N 20TH  ST TO N 24TH  ST AND E CAMELBACK  RD TO E CAMPBELL  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 10:30 MST",
+            "etr": "2026-07-23 17:00 MST"
+        },
+        {
+            "latitude": 33.309541889555746,
+            "longitude": -111.87108114736,
+            "boundary": "N DOBSON  RD TO N ARROWHEAD  DR AND W GALVESTON  ST TO W CHANDLER  BLVD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 13:51 MST",
+            "etr": "2026-07-23 16:30 MST"
+        },
+        {
+            "latitude": 33.3639666822788,
+            "longitude": -111.641996864075,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E STEVEN POLLARD  AVE TO E SANTAN  FWY",
+            "customers": 120,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 15:27 MST",
+            "etr": "2026-07-23 17:29 MST"
+        }
+    ]
+}

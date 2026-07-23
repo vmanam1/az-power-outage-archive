@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-23 16:06:59 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 238
+    },
+    "outages": [
+        {
+            "latitude": 33.53592495971232,
+            "longitude": -112.17521083158367,
+            "city": "Glendale",
+            "boundary": "Lamar Rd to Ocotillo Rd and 55th Ave to 54th Ave",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 04:36:00 MST",
+            "etr": "2026-07-23 12:00:00 MST"
+        },
+        {
+            "latitude": 33.4599623399548,
+            "longitude": -112.04249004572024,
+            "city": "Phoenix",
+            "boundary": "Portland St to Roosevelt St and 18th St to 20th St",
+            "customers": 101,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 07:26:00 MST",
+            "etr": "2026-07-23 10:30:00 MST"
+        },
+        {
+            "latitude": 35.17740023099345,
+            "longitude": -111.94587555868515,
+            "city": "Williams",
+            "boundary": "Cloud Nine Pl to Dog Heaven Pl and Garland  Pr Rd",
+            "customers": 19,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-23 08:21:00 MST",
+            "etr": "2026-07-23 10:20:00 MST"
+        },
+        {
+            "latitude": 35.23035500332779,
+            "longitude": -112.12335225893962,
+            "city": "Williams",
+            "boundary": "Pinetree Dr to Pine Top and Forest Service 292w Rd to Pine Valley Dr",
+            "customers": 108,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-23 08:18:00 MST",
+            "etr": "2026-07-23 10:40:00 MST"
+        }
+    ]
+}

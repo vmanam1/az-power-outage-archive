@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-23 16:06:59 MST",
+        "source": "NAVOPACHE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 72
+    },
+    "outages": [
+        {
+            "latitude": 34.12452747978202,
+            "longitude": -109.9613055358356,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "start_time": "2026-07-23 15:37:00 MST",
+            "etr": null,
+            "boundary": "2 - PINETOP"
+        },
+        {
+            "latitude": 34.071923356378775,
+            "longitude": -109.85361121435034,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-23 22:11:00 MST",
+            "etr": null,
+            "boundary": "3 - RESERVATION"
+        },
+        {
+            "latitude": 34.50349177052935,
+            "longitude": -109.3785886750958,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-23 22:48:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        },
+        {
+            "latitude": 34.43298300340598,
+            "longitude": -109.64373801587155,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-23 23:06:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        },
+        {
+            "latitude": 34.359845486800836,
+            "longitude": -109.75830409318307,
+            "customers": 7,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-23 23:02:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        },
+        {
+            "latitude": 34.508562643962435,
+            "longitude": -109.43534034394159,
+            "customers": 8,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-23 22:50:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        },
+        {
+            "latitude": 34.419394953411945,
+            "longitude": -109.63058399671473,
+            "customers": 53,
+            "cause": "LIGHTNING",
+            "comments": null,
+            "start_time": "2026-07-23 22:58:00 MST",
+            "etr": null,
+            "boundary": "4 - ST. JOHNS"
+        }
+    ]
+}
