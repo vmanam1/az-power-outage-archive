@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-23 14:17:34 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 39
+    },
+    "outages": [
+        {
+            "latitude": 33.53592495971232,
+            "longitude": -112.17521083158367,
+            "city": "Glendale",
+            "boundary": "Lamar Rd to Ocotillo Rd and 55th Ave to 54th Ave",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 04:36:00 MST",
+            "etr": "2026-07-23 08:35:00 MST"
+        },
+        {
+            "latitude": 35.17741777021104,
+            "longitude": -111.94591847479953,
+            "city": "Williams",
+            "boundary": "Cloud Nine Pl. to Dog Haven Pl. and Garland Pr. Rd.",
+            "customers": 19,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-23 06:55:00 MST",
+            "etr": "2026-07-23 10:15:00 MST"
+        }
+    ]
+}
