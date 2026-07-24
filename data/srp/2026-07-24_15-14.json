@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-24 15:14:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 158
+    },
+    "outages": [
+        {
+            "latitude": 33.36679181343895,
+            "longitude": -111.857631468792,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W MEDINA  AVE TO W GUADALUPE  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 13:47 MST",
+            "etr": "2026-07-24 19:30 MST"
+        },
+        {
+            "latitude": 33.3381137776409,
+            "longitude": -111.81951768447749,
+            "boundary": "N MCQUEEN  RD TO S COOPER  RD AND W ELLIOT  RD TO E KNOX  RD",
+            "customers": 156,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 12:27 MST",
+            "etr": "2026-07-24 17:30 MST"
+        }
+    ]
+}
