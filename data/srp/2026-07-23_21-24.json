@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-23 21:24:14 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 12,
+        "customers_affected": 1655
+    },
+    "outages": [
+        {
+            "latitude": 33.46786052049195,
+            "longitude": -112.188365385699,
+            "boundary": "N 63RD  AVE TO N SOUTH MOUNTAIN  FWY AND W ENCANTO  BLVD TO W PAPAGO  FWY",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 16:46 MST",
+            "etr": "2026-07-23 22:00 MST"
+        },
+        {
+            "latitude": 33.20902506717,
+            "longitude": -111.6116597419365,
+            "boundary": "S 204TH  ST TO N GARY  RD AND E CLOUD  RD TO W SAN TAN HEIGHTS  BLVD",
+            "customers": 1521,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 18:49 MST",
+            "etr": "2026-07-23 20:57 MST"
+        },
+        {
+            "latitude": 33.3193623564442,
+            "longitude": -111.9011355500285,
+            "boundary": "N COUNTRY CLUB  WAY TO N PRICE  FWY AND W CALLE DEL NORTE   TO W GALVESTON  ST",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 19:09 MST",
+            "etr": "2026-07-24 02:30 MST"
+        },
+        {
+            "latitude": 33.4955097303041,
+            "longitude": -112.228307945214,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 18:35 MST",
+            "etr": "2026-07-23 22:30 MST"
+        },
+        {
+            "latitude": 33.4688359997411,
+            "longitude": -112.20560827656399,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 29,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 18:30 MST",
+            "etr": "2026-07-23 21:30 MST"
+        },
+        {
+            "latitude": 33.402980016429154,
+            "longitude": -111.782373588745,
+            "boundary": "S GILBERT  RD TO S LINDSAY  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 20:21 MST",
+            "etr": "2026-07-23 22:30 MST"
+        },
+        {
+            "latitude": 33.4159655740472,
+            "longitude": -111.689169364892,
+            "boundary": "N 64TH  ST TO N POWER  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 20:46 MST",
+            "etr": "2026-07-24 05:00 MST"
+        },
+        {
+            "latitude": 33.41079381457515,
+            "longitude": -112.2715779724775,
+            "boundary": "N 103RD  AVE TO S 95TH  AVE AND W WINDROW  BLVD TO W BROADWAY  RD",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 20:51 MST",
+            "etr": "2026-07-23 22:46 MST"
+        },
+        {
+            "latitude": 33.317258867482096,
+            "longitude": -111.90236119535851,
+            "boundary": "N COUNTRY CLUB  WAY TO N PRICE  FWY AND W RAY  RD TO W CHANDLER  BLVD",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 21:03 MST",
+            "etr": "2026-07-23 23:02 MST"
+        },
+        {
+            "latitude": 33.4004796109527,
+            "longitude": -112.07946771832451,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 20:30 MST",
+            "etr": "2026-07-23 22:29 MST"
+        },
+        {
+            "latitude": 33.47701985954695,
+            "longitude": -112.3073558972495,
+            "boundary": "N 119TH  AVE TO N 107TH  AVE AND W INDIAN SCHOOL  RD TO W ENCANTO  BLVD",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 18:18 MST",
+            "etr": "2026-07-23 23:30 MST"
+        },
+        {
+            "latitude": 33.48065789699575,
+            "longitude": -112.24174038433151,
+            "boundary": "N 87TH  AVE TO N 83RD  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 19:35 MST",
+            "etr": "2026-07-23 23:30 MST"
+        }
+    ]
+}

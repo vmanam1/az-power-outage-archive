@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-23 21:24:14 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 327
+    },
+    "outages": [
+        {
+            "latitude": 33.4599623399548,
+            "longitude": -112.04249004572024,
+            "city": "Phoenix",
+            "boundary": "Portland St to Roosevelt St and 18th St to 20th St",
+            "customers": 101,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-23 07:26:00 MST",
+            "etr": "2026-07-23 15:00:00 MST"
+        },
+        {
+            "latitude": 33.42554390528452,
+            "longitude": -112.3538010457351,
+            "city": "Avondale",
+            "boundary": "Whyman Ave and MC85",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 09:44:00 MST",
+            "etr": "2026-07-23 16:20:00 MST"
+        },
+        {
+            "latitude": 33.47301499964225,
+            "longitude": -112.08285399966918,
+            "city": "Phoenix",
+            "boundary": "Cambridge Ave To Mcdowell Rd And 17Th Ave To Alvarado Rd",
+            "customers": 36,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 09:55:00 MST",
+            "etr": "2026-07-23 18:50:00 MST"
+        },
+        {
+            "latitude": 35.23405933316508,
+            "longitude": -112.11103240470543,
+            "city": "Williams",
+            "boundary": "Pine Cone Dr to Pine Top Dr and Pine Needle Rd to Pine Valley Dr",
+            "customers": 154,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-23 10:16:00 MST",
+            "etr": "2026-07-23 15:15:00 MST"
+        },
+        {
+            "latitude": 32.65825248503689,
+            "longitude": -114.48378078612329,
+            "city": "Yuma",
+            "boundary": "East 37th Ln to East 39th St and South Avenue 8 1/2 East to South Avenue 9 East",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 11:13:00 MST",
+            "etr": "2026-07-23 15:00:00 MST"
+        },
+        {
+            "latitude": 33.946285273823825,
+            "longitude": -112.70152127176348,
+            "city": "Wickenburg",
+            "boundary": "US 60 AND Rocking Horse Circle",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 11:34:00 MST",
+            "etr": "2026-07-23 15:05:00 MST"
+        },
+        {
+            "latitude": 33.30764795864197,
+            "longitude": -111.83464721033603,
+            "city": "Chandler",
+            "boundary": "East Detroit St to East Toledo St and North Fresno St to North Hamilton St",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 11:41:00 MST",
+            "etr": "2026-07-23 15:00:00 MST"
+        },
+        {
+            "latitude": 34.59108668617915,
+            "longitude": -112.34937090330016,
+            "city": "Paradise Valley",
+            "boundary": "Sunset Ln and Meadowlark Dr to Valley View Dr",
+            "customers": 8,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-23 12:22:00 MST",
+            "etr": "2026-07-23 15:50:00 MST"
+        },
+        {
+            "latitude": 33.58293330134165,
+            "longitude": -112.06097573214707,
+            "city": "Phoenix",
+            "boundary": "East Clinton St to East Peoria Ave and North 9th St to North 12th St",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 12:37:00 MST",
+            "etr": "2026-07-23 15:15:00 MST"
+        }
+    ]
+}

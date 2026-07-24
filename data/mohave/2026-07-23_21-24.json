@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-07-23 21:24:14 MST",
+        "source": "MOHAVE NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 0
+    },
+    "outages": [
+        {
+            "latitude": 35.35237134660851,
+            "longitude": -113.72355163396482,
+            "customers": 0,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-24 02:09:00 MST",
+            "etr": null,
+            "boundary": "Eastern Service Area"
+        },
+        {
+            "latitude": 34.593555645304214,
+            "longitude": -113.53418169656531,
+            "customers": 0,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-24 00:25:00 MST",
+            "etr": null,
+            "boundary": "Eastern Service Area"
+        },
+        {
+            "latitude": 34.74151242650577,
+            "longitude": -113.61737131518287,
+            "customers": 0,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-24 00:18:00 MST",
+            "etr": null,
+            "boundary": "Eastern Service Area"
+        }
+    ]
+}
