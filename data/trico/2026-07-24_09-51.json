@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-24 09:51:59 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 32.39156858835639,
+            "longitude": -111.07521137706452,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-24 15:00:00 MST",
+            "etr": "2026-07-24 19:00:00 MST",
+            "boundary": "Thornydale"
+        },
+        {
+            "latitude": 32.17536310254864,
+            "longitude": -111.23223717894294,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-24 16:05:00 MST",
+            "etr": null,
+            "boundary": "Three Points"
+        },
+        {
+            "latitude": 32.28432411125438,
+            "longitude": -111.3348091007326,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-21 15:30:00 MST",
+            "etr": "2026-07-21 19:30:00 MST",
+            "boundary": "Avra Valley South"
+        },
+        {
+            "latitude": 31.94552527660107,
+            "longitude": -110.85196275566958,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-24 16:00:00 MST",
+            "etr": "2026-07-24 19:00:00 MST",
+            "boundary": "Corona de Tucson"
+        },
+        {
+            "latitude": 31.9358909934185,
+            "longitude": -110.8478074861504,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-24 16:00:00 MST",
+            "etr": "2026-07-24 19:00:00 MST",
+            "boundary": "Corona de Tucson"
+        },
+        {
+            "latitude": 32.39314380723527,
+            "longitude": -111.07460528936844,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned",
+            "start_time": "2026-07-24 15:00:00 MST",
+            "etr": null,
+            "boundary": "Thornydale"
+        }
+    ]
+}
