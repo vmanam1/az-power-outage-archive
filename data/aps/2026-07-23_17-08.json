@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-23 17:08:47 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 1796
+    },
+    "outages": [
+        {
+            "latitude": 33.53592495971232,
+            "longitude": -112.17521083158367,
+            "city": "Glendale",
+            "boundary": "Lamar Rd to Ocotillo Rd and 55th Ave to 54th Ave",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 04:36:00 MST",
+            "etr": "2026-07-23 12:00:00 MST"
+        },
+        {
+            "latitude": 33.4599623399548,
+            "longitude": -112.04249004572024,
+            "city": "Phoenix",
+            "boundary": "Portland St to Roosevelt St and 18th St to 20th St",
+            "customers": 101,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-23 07:26:00 MST",
+            "etr": "2026-07-23 12:00:00 MST"
+        },
+        {
+            "latitude": 35.17740023099345,
+            "longitude": -111.94587555868515,
+            "city": "Williams",
+            "boundary": "Cloud Nine Pl to Dog Heaven Pl and Garland  Pr Rd",
+            "customers": 19,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-23 08:21:00 MST",
+            "etr": "2026-07-23 10:30:00 MST"
+        },
+        {
+            "latitude": 35.23035500332779,
+            "longitude": -112.12335225893962,
+            "city": "Williams",
+            "boundary": "Pinetree Dr to Pine Top and Forest Service 292w Rd to Pine Valley Dr",
+            "customers": 115,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-23 08:18:00 MST",
+            "etr": "2026-07-23 10:40:00 MST"
+        },
+        {
+            "latitude": 33.590050879732715,
+            "longitude": -112.22923144789395,
+            "city": "Peoria",
+            "boundary": "Kirby St to Cholla St and 79th Dr to 79th Ave",
+            "customers": 13,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 09:31:00 MST",
+            "etr": "2026-07-23 13:31:00 MST"
+        },
+        {
+            "latitude": 33.380447876202666,
+            "longitude": -110.75923058969845,
+            "city": "Globe",
+            "boundary": "Saguaro Dr to Montecito Dr and Daybreak Dr",
+            "customers": 51,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-23 09:42:00 MST",
+            "etr": "2026-07-23 13:00:00 MST"
+        },
+        {
+            "latitude": 33.42554390528452,
+            "longitude": -112.3538010457351,
+            "city": "Avondale",
+            "boundary": "Whyman Ave and MC85",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 09:44:00 MST",
+            "etr": "2026-07-23 11:50:00 MST"
+        },
+        {
+            "latitude": 33.47301499964225,
+            "longitude": -112.08285399966918,
+            "city": "Phoenix",
+            "boundary": "Cambridge Ave To Mcdowell Rd And 17Th Ave To Alvarado Rd",
+            "customers": 1480,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-23 09:55:00 MST",
+            "etr": "2026-07-23 14:00:00 MST"
+        }
+    ]
+}
