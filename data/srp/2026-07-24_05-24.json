@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-24 05:24:51 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 11
+    },
+    "outages": [
+        {
+            "latitude": 33.4434431099363,
+            "longitude": -112.21806159984399,
+            "boundary": "S 75TH  AVE TO S 71ST  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-24 04:28 MST",
+            "etr": "2026-07-24 11:00 MST"
+        },
+        {
+            "latitude": 33.399373484473244,
+            "longitude": -111.668267143712,
+            "boundary": "S 72ND  ST TO S 80TH  ST AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 8,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 03:43 MST",
+            "etr": "2026-07-24 11:30 MST"
+        },
+        {
+            "latitude": 33.52262268610365,
+            "longitude": -111.8766767203725,
+            "boundary": "N 92ND  ST TO N DOBSON  RD AND E TALKING STICK  WAY TO E JACKRABBIT  RD",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 05:12 MST",
+            "etr": "2026-07-24 05:35 MST"
+        }
+    ]
+}

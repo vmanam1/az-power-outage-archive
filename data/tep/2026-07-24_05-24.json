@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-07-24 05:24:51 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1774,
+        "map_last_refreshed": "Jul 24, 5:23 AM"
+    },
+    "outages": [
+        {
+            "latitude": 32.4985216174573,
+            "longitude": -110.89488427439373,
+            "boundary": {
+                "coordLatSW": "32.496515663813803",
+                "coordLngSW": "-110.89732815464001",
+                "coordLatNE": "32.500570539350498",
+                "coordLngNE": "-110.891902414464",
+                "coordLatCenter": "32.498543",
+                "coordLngCenter": "-110.894615"
+            },
+            "customers": 39,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-07-24 04:46 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-07-24 05:20 MST"
+        },
+        {
+            "latitude": 32.1610246033107,
+            "longitude": -110.907560388199,
+            "boundary": {
+                "coordLatSW": "32.065665539917099",
+                "coordLngSW": "-110.94431850271499",
+                "coordLatNE": "32.162338737740598",
+                "coordLngNE": "-110.900974390459",
+                "coordLatCenter": "32.114002",
+                "coordLngCenter": "-110.92265"
+            },
+            "customers": 1735,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-07-24 04:25 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-07-24 05:20 MST"
+        }
+    ]
+}
