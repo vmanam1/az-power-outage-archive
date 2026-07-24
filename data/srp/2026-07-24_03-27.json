@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-24 03:27:04 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.41379328054445,
+            "longitude": -111.68310330311701,
+            "boundary": "S 64TH  ST TO S 72ND  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 23:19 MST",
+            "etr": "2026-07-24 06:00 MST"
+        },
+        {
+            "latitude": 33.398241449338954,
+            "longitude": -111.7228725793245,
+            "boundary": "S ROANOKE   TO S HIGLEY  RD AND E DELTA  AVE TO E SOUTHERN  AVE",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 23:34 MST",
+            "etr": "2026-07-24 08:20 MST"
+        },
+        {
+            "latitude": 33.413954488468605,
+            "longitude": -111.646882265756,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-24 01:12 MST",
+            "etr": "2026-07-24 04:45 MST"
+        },
+        {
+            "latitude": 33.4004796109527,
+            "longitude": -112.07946771832451,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 20:30 MST",
+            "etr": "2026-07-24 04:00 MST"
+        }
+    ]
+}

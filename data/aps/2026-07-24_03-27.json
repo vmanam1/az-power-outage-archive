@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-24 03:27:04 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.73589476825215,
+            "longitude": -111.97997437528008,
+            "city": "Cave Creek",
+            "boundary": "East Oberlin Wy to East Pinnacle Vista Dr and North 46th St to North Tatum Ave",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 16:42:00 MST",
+            "etr": "2026-07-23 22:00:00 MST"
+        },
+        {
+            "latitude": 33.65823695173427,
+            "longitude": -112.1238464742797,
+            "city": "Phoenix",
+            "boundary": "West Topeka Dr to West Marrow Dr and North 31st Ave to North 29th Ave",
+            "customers": 25,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 19:33:00 MST",
+            "etr": "2026-07-23 22:15:00 MST"
+        }
+    ]
+}
