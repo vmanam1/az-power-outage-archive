@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-24 11:39:37 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 33.578609483626764,
+            "longitude": -111.80541684127118,
+            "city": "Scottsdale",
+            "boundary": "Coshise Rd to Turquoise Ave and 128th St to 130th St",
+            "customers": 19,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 03:18:00 MST",
+            "etr": "2026-07-24 06:20:00 MST"
+        }
+    ]
+}
