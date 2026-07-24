@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-24 00:39:13 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 114
+    },
+    "outages": [
+        {
+            "latitude": 33.42554390528452,
+            "longitude": -112.3538010457351,
+            "city": "Avondale",
+            "boundary": "Whyman Ave and MC85",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 09:44:00 MST",
+            "etr": "2026-07-23 20:00:00 MST"
+        },
+        {
+            "latitude": 33.47301499964225,
+            "longitude": -112.08285399966918,
+            "city": "Phoenix",
+            "boundary": "Cambridge Ave To Mcdowell Rd And 17Th Ave To Alvarado Rd",
+            "customers": 36,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 09:55:00 MST",
+            "etr": "2026-07-23 18:50:00 MST"
+        },
+        {
+            "latitude": 33.439159832159596,
+            "longitude": -112.13958575935472,
+            "city": "Phoenix",
+            "boundary": "West Tonto St to West Maricopa St South 37th Dr to South 36th Dr",
+            "customers": 11,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-23 15:12:00 MST",
+            "etr": "2026-07-23 19:00:00 MST"
+        },
+        {
+            "latitude": 33.511720291239214,
+            "longitude": -112.35580405615502,
+            "city": "Litchfield Park",
+            "boundary": "Litchfield Rd and Camelback Rd",
+            "customers": 22,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-23 15:52:00 MST",
+            "etr": "2026-07-23 18:40:00 MST"
+        },
+        {
+            "latitude": 33.73589476825215,
+            "longitude": -111.97997437528008,
+            "city": "Cave Creek",
+            "boundary": "East Oberlin Wy to East Pinnacle Vista Dr and North 46th St to North Tatum Ave",
+            "customers": 38,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-23 16:42:00 MST",
+            "etr": "2026-07-23 19:45:00 MST"
+        }
+    ]
+}

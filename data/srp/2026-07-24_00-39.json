@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-24 00:39:13 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 44
+    },
+    "outages": [
+        {
+            "latitude": 33.4159655740472,
+            "longitude": -111.689169364892,
+            "boundary": "N 64TH  ST TO N POWER  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 20:46 MST",
+            "etr": "2026-07-24 05:00 MST"
+        },
+        {
+            "latitude": 33.46852969840405,
+            "longitude": -112.2043779349025,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 18:30 MST",
+            "etr": "2026-07-24 03:00 MST"
+        },
+        {
+            "latitude": 33.4955097303041,
+            "longitude": -112.228307945214,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 18:35 MST",
+            "etr": "2026-07-24 04:30 MST"
+        },
+        {
+            "latitude": 33.4732191407829,
+            "longitude": -111.944252924399,
+            "boundary": "N 60TH  ST TO N 68TH  ST AND E THOMAS  RD TO E MCDOWELL  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 21:47 MST",
+            "etr": "2026-07-24 03:00 MST"
+        },
+        {
+            "latitude": 33.41379328054445,
+            "longitude": -111.68310330311701,
+            "boundary": "S 64TH  ST TO S 72ND  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 23:19 MST",
+            "etr": "2026-07-24 06:00 MST"
+        },
+        {
+            "latitude": 33.398241449338954,
+            "longitude": -111.7228725793245,
+            "boundary": "S ROANOKE   TO S HIGLEY  RD AND E DELTA  AVE TO E SOUTHERN  AVE",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-23 23:34 MST",
+            "etr": "2026-07-24 08:20 MST"
+        },
+        {
+            "latitude": 33.3943319381275,
+            "longitude": -111.89405200953851,
+            "boundary": "S COUNTRY CLUB  WAY TO S PIMA  LOOP AND E ALAMEDA  DR TO E SUPERSTITION  FWY",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-23 23:42 MST",
+            "etr": "2026-07-24 03:20 MST"
+        },
+        {
+            "latitude": 33.4004796109527,
+            "longitude": -112.07946771832451,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-23 20:30 MST",
+            "etr": "2026-07-24 01:30 MST"
+        }
+    ]
+}
