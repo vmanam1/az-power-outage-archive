@@ -1,0 +1,154 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-25 03:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 14,
+        "customers_affected": 2169
+    },
+    "outages": [
+        {
+            "latitude": 33.234261250399996,
+            "longitude": -111.55153229356799,
+            "boundary": "S GANTZEL  RD TO N KENWORTHY  RD AND E SOUTHWOOD  RD TO E COMBS  RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 22:33 MST",
+            "etr": "2026-07-25 04:33 MST"
+        },
+        {
+            "latitude": 33.4660067637146,
+            "longitude": -112.279878849961,
+            "boundary": "N 107TH  AVE TO N 99TH  AVE AND W ENCANTO  BLVD TO W PAPAGO  FWY",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 23:09 MST",
+            "etr": "2026-07-25 06:00 MST"
+        },
+        {
+            "latitude": 33.20598587490515,
+            "longitude": -111.623320707323,
+            "boundary": "S ELLSWORTH  RD TO S CRISMON  RD AND E RIGGS  RD TO W SUN DANCE  DR",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 23:19 MST",
+            "etr": "2026-07-25 03:52 MST"
+        },
+        {
+            "latitude": 33.36966945456305,
+            "longitude": -111.6840898315315,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E MADERO  AVE TO E GUADALUPE  RD",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 23:58 MST",
+            "etr": "2026-07-25 04:01 MST"
+        },
+        {
+            "latitude": 33.4016070705226,
+            "longitude": -112.101825024313,
+            "boundary": "S 23RD  AVE TO S 15TH  AVE AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 45,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-25 00:24 MST",
+            "etr": "2026-07-25 06:51 MST"
+        },
+        {
+            "latitude": 33.47093014580115,
+            "longitude": -112.1979232930685,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W THOMAS  RD TO W MCDOWELL  RD",
+            "customers": 43,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-25 02:02 MST",
+            "etr": "2026-07-25 04:02 MST"
+        },
+        {
+            "latitude": 33.47803281653795,
+            "longitude": -111.67949393287651,
+            "boundary": "N POWER  RD TO N SOSSAMAN  RD AND E EAGLE CREST  DR TO E PRESTON  ST",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-25 01:21 MST",
+            "etr": "2026-07-25 07:00 MST"
+        },
+        {
+            "latitude": 33.46127451483805,
+            "longitude": -111.979676644421,
+            "boundary": "N HOHOKAM  EXPY TO N 52ND  ST AND E MCDOWELL  RD TO E ROOSEVELT  ST",
+            "customers": 19,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 20:39 MST",
+            "etr": "2026-07-25 06:49 MST"
+        },
+        {
+            "latitude": 33.47010868885215,
+            "longitude": -112.199072457252,
+            "boundary": "N 67TH  AVE TO N 63RD  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 20:03 MST",
+            "etr": "2026-07-25 06:00 MST"
+        },
+        {
+            "latitude": 33.49094467841335,
+            "longitude": -112.2560648892315,
+            "boundary": "N AGUA FRIA  FWY TO N 87TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-25 02:20 MST",
+            "etr": "2026-07-25 08:37 MST"
+        },
+        {
+            "latitude": 33.4674050792569,
+            "longitude": -111.862187743728,
+            "boundary": "N 32ND  ST TO N HIGLEY  RD AND E OSBORN  RD TO W RED MOUNTAIN  FWY",
+            "customers": 867,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 02:39 MST",
+            "etr": "2026-07-25 04:38 MST"
+        },
+        {
+            "latitude": 33.475410866223754,
+            "longitude": -111.74726115489699,
+            "boundary": "N LINDSAY  RD TO N HIGLEY  RD AND E BEELINE  HWY TO E HERMOSA VISTA  DR",
+            "customers": 698,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 02:39 MST",
+            "etr": "2026-07-25 04:38 MST"
+        },
+        {
+            "latitude": 33.46995621785185,
+            "longitude": -111.74135423395,
+            "boundary": "N VAL VISTA  DR TO N HIGLEY  RD AND E RED MOUNTAIN  FWY TO E HERMOSA VISTA  DR",
+            "customers": 203,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 02:39 MST",
+            "etr": "2026-07-25 04:38 MST"
+        },
+        {
+            "latitude": 33.4577694269168,
+            "longitude": -111.72745830529749,
+            "boundary": "N VAL VISTA  DR TO N 56TH  ST AND E RED MOUNTAIN  FWY TO E MCLELLAN  RD",
+            "customers": 238,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 02:39 MST",
+            "etr": "2026-07-25 04:38 MST"
+        }
+    ]
+}
