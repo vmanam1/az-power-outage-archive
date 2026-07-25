@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-25 06:07:16 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 71
+    },
+    "outages": [
+        {
+            "latitude": 33.46127451483805,
+            "longitude": -111.979676644421,
+            "boundary": "N HOHOKAM  EXPY TO N 52ND  ST AND E MCDOWELL  RD TO E ROOSEVELT  ST",
+            "customers": 19,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 20:39 MST",
+            "etr": "2026-07-25 06:49 MST"
+        },
+        {
+            "latitude": 33.49094467841335,
+            "longitude": -112.2560648892315,
+            "boundary": "N AGUA FRIA  FWY TO N 87TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-25 02:20 MST",
+            "etr": "2026-07-25 08:37 MST"
+        },
+        {
+            "latitude": 33.4016070705226,
+            "longitude": -112.101825024313,
+            "boundary": "S 23RD  AVE TO S 15TH  AVE AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 45,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-25 00:24 MST",
+            "etr": "2026-07-25 08:00 MST"
+        }
+    ]
+}

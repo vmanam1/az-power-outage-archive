@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-25 06:07:16 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 210
+    },
+    "outages": [
+        {
+            "latitude": 31.369548176903763,
+            "longitude": -109.86497094486349,
+            "city": "Bisbee",
+            "boundary": "Arizona St and Purdy Lane",
+            "customers": 90,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-24 13:52:00 MST",
+            "etr": "2026-07-25 00:00:00 MST"
+        },
+        {
+            "latitude": 33.553979534751974,
+            "longitude": -111.91265754741283,
+            "city": "Scottsdale",
+            "boundary": "East McCormick Pw to East Via Camello and North Hayden Rd",
+            "customers": 62,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 16:35:00 MST",
+            "etr": "2026-07-25 00:00:00 MST"
+        },
+        {
+            "latitude": 33.506893423808805,
+            "longitude": -112.34934081782298,
+            "city": "Litchfield Park",
+            "boundary": "West Camelback Rd to East Bird Ln to North Litchfield Rd to North Torno Ln",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 17:01:00 MST",
+            "etr": "2026-07-25 02:00:00 MST"
+        },
+        {
+            "latitude": 33.674277236305514,
+            "longitude": -112.08640781039165,
+            "city": "Phoenix",
+            "boundary": "West Monona Dr to West Runion Dr and North 14th Ave to North 8th Ave",
+            "customers": 17,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 21:20:00 MST",
+            "etr": "2026-07-24 23:45:00 MST"
+        },
+        {
+            "latitude": 33.53025381299055,
+            "longitude": -111.98261988863896,
+            "city": "Paradise Valley",
+            "boundary": "East Lincoln Dr to East Arroyo Verde Dr and Pebble Ridge Rd",
+            "customers": 9,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-24 22:43:00 MST",
+            "etr": "2026-07-25 01:05:00 MST"
+        },
+        {
+            "latitude": 33.58187584400328,
+            "longitude": -112.03496584583367,
+            "city": "Phoenix",
+            "boundary": "East Shea Blvd to East North Ln and North 21st Pl to North 23rd Pl",
+            "customers": 27,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 22:54:00 MST",
+            "etr": "2026-07-25 01:30:00 MST"
+        }
+    ]
+}
