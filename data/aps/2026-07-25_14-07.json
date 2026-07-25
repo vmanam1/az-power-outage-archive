@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-25 14:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 742
+    },
+    "outages": [
+        {
+            "latitude": 33.68596621235693,
+            "longitude": -111.8858796311759,
+            "city": "Scottsdale",
+            "boundary": "Los Gatos Dr to Via Del Sol Dr and 90th St to Sands Dr",
+            "customers": 16,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-25 06:25:00 MST",
+            "etr": "2026-07-25 09:00:00 MST"
+        },
+        {
+            "latitude": 34.23715916630412,
+            "longitude": -111.33849004139452,
+            "city": "Payson",
+            "boundary": "Birch Dr. to Gold Nugget Ln. and Doll Baby Ranch Rd. to Stone Creek Cir.",
+            "customers": 667,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-25 06:29:00 MST",
+            "etr": "2026-07-25 09:50:00 MST"
+        },
+        {
+            "latitude": 34.505646599997156,
+            "longitude": -111.99166759980638,
+            "city": "Mayer",
+            "boundary": "Orme School To Chauncey Ranch",
+            "customers": 59,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-07-25 06:53:00 MST",
+            "etr": "2026-07-25 09:15:00 MST"
+        }
+    ]
+}
