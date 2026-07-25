@@ -33,7 +33,22 @@ if git diff --cached --quiet; then
 else
     mst_time="$(TZ=America/Phoenix date '+%Y-%m-%d %H:%M MST')"
     git commit -m "Archive outage snapshot ${mst_time} (rpi)"
-    git push
+
+    # Push, reconciling with any commits that landed on the remote since our
+    # last fetch (a concurrent committer or a manual push). Our commits only
+    # add new per-timestamp files, so the rebase is normally conflict-free.
+    pushed=0
+    for attempt in 1 2 3; do
+        if git push; then
+            pushed=1
+            break
+        fi
+        echo "push rejected (attempt ${attempt}); rebasing on origin/main and retrying"
+        git pull --rebase origin main || break
+    done
+    if [ "$pushed" -ne 1 ]; then
+        echo "WARNING: could not push snapshot after retries; committed locally only."
+    fi
 fi
 
 exit "$scrape_rc"
