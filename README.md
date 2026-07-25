@@ -2,7 +2,7 @@
 
 Utilities show you outages on a live map, but once an outage clears, that information is gone — there's no public record of what happened, where, or for how long. This project keeps one.
 
-Every hour a GitHub Action polls nine Arizona electric utilities, normalizes their wildly different data formats into one shape, and commits a timestamped JSON snapshot to this repo. Over time that builds a searchable history of who lost power and when. A bundled Flask dashboard — the **Arizona Power Outage Explorer** — reads those snapshots straight off disk and turns them into a map, charts, a filterable table, and CSV export.
+Every hour a collector — a Raspberry Pi running on a systemd timer — polls nine Arizona electric utilities, normalizes their wildly different data formats into one shape, and commits a timestamped JSON snapshot to this repo. Over time that builds a searchable history of who lost power and when. A bundled Flask dashboard — the **Arizona Power Outage Explorer** — reads those snapshots straight off disk and turns them into a map, charts, a filterable table, and CSV export.
 
 > [!IMPORTANT]
 > This is a research and history tool, not an emergency service. Utility feeds can be delayed, incomplete, or down entirely, and this archive inherits all of those gaps. For anything that actually matters — reporting an outage, checking current status, staying safe — go to your utility's own site.
@@ -27,7 +27,7 @@ Most of these hand out JSON or XML if you ask the right endpoint. The three co-o
 
 Each provider is its own class under `providers/`, and they all share a small contract: fetch the source, shape it into a common outage record, and validate the result before it's allowed anywhere near the archive. Validation is deliberately strict — it checks that the provider name matches, timestamps parse as Arizona time, customer counts are non-negative integers, coordinates are finite and in range, the summary totals actually add up to the individual records, and that a record without coordinates at least carries some other identifier. A malformed value fails that one provider loudly rather than getting quietly coerced to zero and polluting the history.
 
-The runner (`scripts/run.py`) fetches every provider in turn and keeps going if one blows up, so a single flaky endpoint never throws away the good snapshots from the other eight. It does exit non-zero at the end if anything failed, which is what trips the failure alert described below.
+The runner (`scripts/run.py`) fetches every provider in turn and keeps going if one blows up, so a single flaky endpoint never throws away the good snapshots from the other eight. It does exit non-zero at the end if any provider failed — but the collector commits the snapshots that did succeed first, and treats that exit code separately from whether the run is *healthy* (see [Automation](#automation)).
 
 One snapshot is only written when a provider's outages have actually changed since the last one. An hour where nothing moved doesn't add a duplicate file — the runner compares the new outage payload against the most recent snapshot and skips the write if they match. All providers in a single run also share one timestamp, so a given run's files line up to the minute instead of drifting apart while the slower browser-based collectors finish.
 
@@ -201,16 +201,42 @@ When the dashboard reads old files it's forgiving: unparseable JSON is skipped a
 
 ## Automation
 
-Two workflows in `.github/workflows/`:
+Collection and CI live in two different places.
 
-- **Archive Arizona Power Outages** runs at minute 7 of every hour (and on manual dispatch). It installs Chrome, runs all nine collectors, and commits whatever new snapshots came out of the run. A concurrency group keeps two runs from committing over each other. Fair warning: GitHub's scheduler is not punctual — under load it can fire well after :07, which is why the archived times drift around rather than landing on the hour.
-- **Test** runs the full unittest suite on every push and pull request.
+**Hourly collection runs on a Raspberry Pi.** A systemd timer (`deploy/systemd/outage-archive.timer`) fires at minute 7 of every hour and runs `scripts/collect.sh`, which scrapes all nine providers, commits whatever new snapshots came out of the run, and pushes them to GitHub over SSH using a repo deploy key. The snapshots therefore live in two places — on the Pi and in this repo. If a push is rejected because the remote moved, the script rebases and retries so the Pi never ends up diverged, and `Persistent=true` on the timer means a run missed while the Pi was off is picked up as soon as it's back. Because the collector commits before it inspects the exit code, the snapshots from providers that succeeded still get committed even when one collector (typically a browser-based NISC co-op whose server is hanging) takes the overall run's exit code non-zero.
 
-If a run fails, the workflow opens (or comments on) a GitHub issue titled **Outage archive workflow failure**, and the next healthy run posts a recovery note and closes it. Because providers are isolated, the snapshots that did succeed still get committed even when one collector took the overall run down.
+**Failure alerting is a dead-man's-switch**, not a per-failure alarm. On each run the collector pings a [healthchecks.io](https://healthchecks.io) check — a success ping when it ran and pushed, a failure ping if the push couldn't complete. The ping is deliberately independent of whether any single utility was reachable, so an upstream outage never raises a false alarm; you only get an email when a ping actually goes *missing*, i.e. the Pi itself stopped collecting (offline, hung, disk full, broken credentials). The ping URL is injected from a private, uncommitted env file on the Pi (`/etc/default/outage-archive`) rather than stored in this public repo.
+
+**GitHub Actions still runs the tests** — `.github/workflows/test.yml` runs the full unittest suite on every push and pull request. The collection workflow (`.github/workflows/scrape.yml`) is kept as a manual fallback: its hourly `schedule` is commented out so it doesn't race the Pi for commits, but it can still be triggered by hand from the Actions tab, and re-enabling the cron restores Actions-based collection. In that mode it opens (or comments on) a GitHub issue titled **Outage archive workflow failure** and closes it on the next healthy run.
 
 ## Running on a Raspberry Pi
 
-It's light enough for a Pi or any small Linux box. There's a sample systemd unit at `deployment/az-outage-dashboard.service.example`:
+A Pi (or any small Linux box) is enough to run both the collector and the dashboard. In the live setup the Pi is the collector.
+
+### The collector
+
+This is what actually produces the archive. Alongside Python you need a system Chromium and a *matching* chromedriver for the three NISC providers — on Debian / Raspberry Pi OS that's `sudo apt install chromium chromium-driver` (keep the two at the same version). Selenium Manager can't fetch an arm64 driver, so the scraper points at them explicitly through the `CHROME_BIN` and `CHROMEDRIVER_PATH` environment variables. Clone the repo, create a venv, install `requirements.txt`, and give the Pi push access with a repo **deploy key** — an SSH key added under the repo's Settings → Deploy keys with write access.
+
+Sample units live in `deploy/systemd/`. The service sets the venv interpreter, the Chromium/driver paths, and an optional private env file for the healthchecks ping; edit the `User=` and hard-coded paths to match your layout:
+
+```bash
+# point git at the deploy key and use SSH
+git remote set-url origin git@github.com:vmanam1/az-power-outage-archive.git
+git config core.sshCommand "ssh -i ~/.ssh/id_ed25519_ghdeploy -o IdentitiesOnly=yes"
+
+# optional: dead-man's-switch ping URL, kept out of the repo
+echo 'HEALTHCHECK_URL=https://hc-ping.com/<your-uuid>' | sudo tee /etc/default/outage-archive
+
+sudo cp deploy/systemd/outage-archive.service deploy/systemd/outage-archive.timer /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now outage-archive.timer
+```
+
+Check on it with `systemctl status outage-archive.service`, `systemctl list-timers outage-archive.timer`, and `journalctl -u outage-archive.service`. While a provider's upstream is down the service will report `failed` (non-zero exit) even though the healthy providers still committed — that's cosmetic; the dead-man's-switch, not the exit code, is the real signal.
+
+### The dashboard
+
+Optional, and independent of the collector — it only *reads* the archive, so it can run on the Pi or anywhere else. There's a sample unit at `deployment/az-outage-dashboard.service.example`:
 
 ```bash
 cp deployment/az-outage-dashboard.service.example deployment/az-outage-dashboard.service
@@ -228,12 +254,13 @@ That said, `app.py` runs Flask's development server, which is fine on a trusted 
 
 ```text
 az-power-outage-archive/
-├── .github/workflows/   # Hourly collection + test automation
+├── .github/workflows/   # Test CI + fallback collection workflow
 ├── dashboard/           # Archive scanning, caching, normalization, filters
 ├── data/                # The snapshots, grouped by provider
-├── deployment/          # Example systemd unit
+├── deploy/systemd/      # Pi collector: systemd service + hourly timer
+├── deployment/          # Example dashboard systemd unit
 ├── providers/           # One collector per utility + shared validation
-├── scripts/             # Runner, HTTP retry helper, archive writer, launcher
+├── scripts/             # Runner, Pi collector (collect.sh), HTTP retry, archive writer, launcher
 ├── static/              # Dashboard CSS and JavaScript
 ├── templates/           # Flask HTML
 ├── tests/               # Collector, validation, archive-reader, and API tests
@@ -242,7 +269,7 @@ az-power-outage-archive/
 
 ## Built with
 
-Python and Flask on the backend; Requests for the JSON/XML collectors and Selenium + headless Chrome for the NISC maps. The frontend is vanilla JavaScript with Leaflet (and markercluster) for the map and Chart.js for the charts. GitHub Actions handles collection and CI, and the archive itself is just JSON in Git.
+Python and Flask on the backend; Requests for the JSON/XML collectors and Selenium + headless Chrome for the NISC maps. The frontend is vanilla JavaScript with Leaflet (and markercluster) for the map and Chart.js for the charts. A Raspberry Pi on a systemd timer runs the hourly collection (with GitHub Actions as a manual fallback), GitHub Actions runs CI, healthchecks.io watches the collector, and the archive itself is just JSON in Git.
 
 ## Known limits
 
