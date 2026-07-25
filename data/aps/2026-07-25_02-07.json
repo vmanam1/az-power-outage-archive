@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-25 02:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 423
+    },
+    "outages": [
+        {
+            "latitude": 32.59747619978176,
+            "longitude": -110.63414959983065,
+            "city": "San Manuel",
+            "boundary": "Copper Creek Rd to Redfield Canyon Rd and Nichols Ave to Reddington Rd",
+            "customers": 157,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-24 09:59:00 MST",
+            "etr": "2026-07-24 19:30:00 MST"
+        },
+        {
+            "latitude": 31.369548176903763,
+            "longitude": -109.86497094486349,
+            "city": "Bisbee",
+            "boundary": "Arizona St and Purdy Lane",
+            "customers": 174,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-24 13:52:00 MST",
+            "etr": "2026-07-24 20:50:00 MST"
+        },
+        {
+            "latitude": 33.553979534751974,
+            "longitude": -111.91265754741283,
+            "city": "Scottsdale",
+            "boundary": "East McCormick Pw to East Via Camello and North Hayden Rd",
+            "customers": 62,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 16:35:00 MST",
+            "etr": "2026-07-24 21:30:00 MST"
+        },
+        {
+            "latitude": 33.506893423808805,
+            "longitude": -112.34934081782298,
+            "city": "Litchfield Park",
+            "boundary": "West Camelback Rd to East Bird Ln to North Litchfield Rd to North Torno Ln",
+            "customers": 21,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 17:01:00 MST",
+            "etr": "2026-07-24 20:00:00 MST"
+        },
+        {
+            "latitude": 35.15299934927762,
+            "longitude": -111.6688384173882,
+            "city": "Flagstaff",
+            "boundary": "High Country Trail and Quartz Rd",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 17:03:00 MST",
+            "etr": "2026-07-24 20:00:00 MST"
+        }
+    ]
+}
