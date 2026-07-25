@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-25 08:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 977
+    },
+    "outages": [
+        {
+            "latitude": 33.4423145169652,
+            "longitude": -111.5742241585545,
+            "boundary": "N MOUNTAIN  RD TO N SAN MARCOS  DR AND W MCDOWELL  BLVD TO W APACHE  TRL",
+            "customers": 932,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 07:39 MST",
+            "etr": "2026-07-25 09:37 MST"
+        },
+        {
+            "latitude": 33.4016070705226,
+            "longitude": -112.101825024313,
+            "boundary": "S 23RD  AVE TO S 15TH  AVE AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 45,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-25 00:24 MST",
+            "etr": "2026-07-25 09:00 MST"
+        }
+    ]
+}
