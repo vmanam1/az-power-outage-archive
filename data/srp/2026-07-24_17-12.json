@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-24 17:12:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 428
+    },
+    "outages": [
+        {
+            "latitude": 33.36679181343895,
+            "longitude": -111.857631468792,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W MEDINA  AVE TO W GUADALUPE  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 13:47 MST",
+            "etr": "2026-07-24 19:30 MST"
+        },
+        {
+            "latitude": 33.49376120786245,
+            "longitude": -112.18512621350601,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 15:54 MST",
+            "etr": "2026-07-24 21:56 MST"
+        },
+        {
+            "latitude": 33.46146949401475,
+            "longitude": -111.9202250081735,
+            "boundary": "N SCOTTSDALE  RD TO N MILLER  RD AND E MCDOWELL  RD TO E ROOSEVELT  ST",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 16:21 MST",
+            "etr": "2026-07-24 18:15 MST"
+        },
+        {
+            "latitude": 33.40455089063625,
+            "longitude": -111.7530806671155,
+            "boundary": "S 32ND  ST TO S 40TH  ST AND E BROADWAY  RD TO E PUEBLO  AVE",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 16:27 MST",
+            "etr": "2026-07-24 21:00 MST"
+        },
+        {
+            "latitude": 33.41462054110375,
+            "longitude": -112.2561352653745,
+            "boundary": "S 95TH  AVE TO S 87TH  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 16:45 MST",
+            "etr": "2026-07-24 18:29 MST"
+        },
+        {
+            "latitude": 33.22574332396495,
+            "longitude": -111.782978675989,
+            "boundary": "S GILBERT  RD TO S LINDSAY  RD AND E CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 16:31 MST",
+            "etr": "2026-07-24 18:31 MST"
+        },
+        {
+            "latitude": 33.5050143136592,
+            "longitude": -112.26685934581451,
+            "boundary": "N 99TH  AVE TO N 91ST  AVE AND W CAMELBACK  RD TO W CAMPBELL  AVE",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 16:59 MST",
+            "etr": "2026-07-24 18:53 MST"
+        },
+        {
+            "latitude": 33.52596226838965,
+            "longitude": -111.8468658400605,
+            "boundary": "N PIMA  LOOP TO N STAPLEY  DR AND UNKNOWN TO E OSBORN  RD",
+            "customers": 353,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 16:01 MST",
+            "etr": "2026-07-24 18:09 MST"
+        },
+        {
+            "latitude": 33.4323148542922,
+            "longitude": -112.31593473080551,
+            "boundary": "S EL MIRAGE  RD TO S AVONDALE  BLVD AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 19,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 16:26 MST",
+            "etr": "2026-07-24 22:44 MST"
+        }
+    ]
+}

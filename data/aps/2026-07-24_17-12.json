@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-24 17:12:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 863
+    },
+    "outages": [
+        {
+            "latitude": 33.54489933917956,
+            "longitude": -112.06615815434368,
+            "city": "Phoenix",
+            "boundary": "Orangewood Ave. to Myrtle Ave. and 3rd St. to 7th St.",
+            "customers": 101,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-24 08:09:00 MST",
+            "etr": "2026-07-24 11:45:00 MST"
+        },
+        {
+            "latitude": 33.536868287284015,
+            "longitude": -112.06426957132464,
+            "city": "Phoenix",
+            "boundary": "Flynn Ln. to Lamar Rd. and 7th St. to 10th Pl.",
+            "customers": 28,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 09:01:00 MST",
+            "etr": "2026-07-24 11:50:00 MST"
+        },
+        {
+            "latitude": 33.60560364472768,
+            "longitude": -111.99705025468316,
+            "city": "Phoenix",
+            "boundary": "Willow Ave. to Sweetwater Ave. and 38th Pl. to 40th St.",
+            "customers": 64,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 09:06:00 MST",
+            "etr": "2026-07-24 11:40:00 MST"
+        },
+        {
+            "latitude": 34.71537401985446,
+            "longitude": -112.01296579640344,
+            "city": "Cottonwood",
+            "boundary": "Dobbins Tl. to Peila Ave. and Verde Dr. to Hermits Cr.",
+            "customers": 86,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 09:14:00 MST",
+            "etr": "2026-07-24 12:30:00 MST"
+        },
+        {
+            "latitude": 33.57915480365352,
+            "longitude": -111.93152371527825,
+            "city": "Paradise Valley",
+            "boundary": "Put Ln. to Gold Dust Ave. and 70th St.",
+            "customers": 59,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 09:20:00 MST",
+            "etr": "2026-07-24 12:10:00 MST"
+        },
+        {
+            "latitude": 33.5506956178502,
+            "longitude": -111.91248730229344,
+            "city": "Scottsdale",
+            "boundary": "Las Palmaritas Dr. and 72nd Pl. to 73rd Pl.",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 09:51:00 MST",
+            "etr": "2026-07-24 12:20:00 MST"
+        },
+        {
+            "latitude": 32.59747619978176,
+            "longitude": -110.63414959983065,
+            "city": "San Manuel",
+            "boundary": "Copper Creek Rd to Redfield Canyon Rd and Nichols Ave to Reddington Rd",
+            "customers": 499,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-24 09:59:00 MST",
+            "etr": "2026-07-24 12:20:00 MST"
+        }
+    ]
+}
