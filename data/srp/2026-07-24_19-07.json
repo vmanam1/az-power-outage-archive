@@ -1,0 +1,154 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-24 19:07:16 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 14,
+        "customers_affected": 151
+    },
+    "outages": [
+        {
+            "latitude": 33.36679181343895,
+            "longitude": -111.857631468792,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W MEDINA  AVE TO W GUADALUPE  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 13:47 MST",
+            "etr": "2026-07-24 19:30 MST"
+        },
+        {
+            "latitude": 33.4323148542922,
+            "longitude": -112.31593473080551,
+            "boundary": "S EL MIRAGE  RD TO S AVONDALE  BLVD AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 19,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 16:26 MST",
+            "etr": "2026-07-24 22:44 MST"
+        },
+        {
+            "latitude": 33.22574332396495,
+            "longitude": -111.782978675989,
+            "boundary": "S GILBERT  RD TO S LINDSAY  RD AND E CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 16:31 MST",
+            "etr": "2026-07-24 23:00 MST"
+        },
+        {
+            "latitude": 33.41462054110375,
+            "longitude": -112.2561352653745,
+            "boundary": "S 95TH  AVE TO S 87TH  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 16:45 MST",
+            "etr": "2026-07-24 23:14 MST"
+        },
+        {
+            "latitude": 33.46146949401475,
+            "longitude": -111.9202250081735,
+            "boundary": "N SCOTTSDALE  RD TO N MILLER  RD AND E MCDOWELL  RD TO E ROOSEVELT  ST",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 16:21 MST",
+            "etr": "2026-07-24 21:00 MST"
+        },
+        {
+            "latitude": 33.488894799758555,
+            "longitude": -112.214575079561,
+            "boundary": "N 75TH  AVE TO N 67TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 18:21 MST",
+            "etr": "2026-07-24 20:17 MST"
+        },
+        {
+            "latitude": 33.468285503561845,
+            "longitude": -112.195536824185,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 13,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 18:22 MST",
+            "etr": "2026-07-24 20:19 MST"
+        },
+        {
+            "latitude": 33.23040493133915,
+            "longitude": -111.54706688006351,
+            "boundary": "N GANTZEL  RD TO N COYOTE  RD AND E SOUTHWOOD  RD TO E COMBS  RD",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 17:43 MST",
+            "etr": "2026-07-24 23:44 MST"
+        },
+        {
+            "latitude": 33.373909694568454,
+            "longitude": -111.629351026005,
+            "boundary": "S ELLSWORTH  RD TO S 96TH  ST AND E BASELINE  RD TO E GUADALUPE  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 18:40 MST",
+            "etr": "2026-07-24 20:35 MST"
+        },
+        {
+            "latitude": 33.25879237844685,
+            "longitude": -111.6758618024945,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 18:20 MST",
+            "etr": "2026-07-24 20:21 MST"
+        },
+        {
+            "latitude": 33.226310802423455,
+            "longitude": -111.5519476750745,
+            "boundary": "N GANTZEL  RD TO N KENWORTHY  RD AND E CHANDLER HEIGHTS  BLVD TO E COMBS  RD",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 18:07 MST",
+            "etr": "2026-07-24 20:49 MST"
+        },
+        {
+            "latitude": 33.5050143136592,
+            "longitude": -112.26685934581451,
+            "boundary": "N 99TH  AVE TO N 91ST  AVE AND W CAMELBACK  RD TO W CAMPBELL  AVE",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 16:59 MST",
+            "etr": "2026-07-24 23:00 MST"
+        },
+        {
+            "latitude": 33.29385188285145,
+            "longitude": -111.779612710485,
+            "boundary": "S GILBERT  RD TO S LINDSAY  RD AND E FRYE  RD TO E WILLIS  RD",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 19:01 MST",
+            "etr": "2026-07-24 20:56 MST"
+        },
+        {
+            "latitude": 33.311582221028104,
+            "longitude": -111.6799311777705,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E GALVESTON  ST TO E WILLIAMS FIELD  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-24 19:06 MST",
+            "etr": "2026-07-24 21:02 MST"
+        }
+    ]
+}

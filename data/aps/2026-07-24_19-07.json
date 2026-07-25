@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-24 19:07:16 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 852
+    },
+    "outages": [
+        {
+            "latitude": 32.59747619978176,
+            "longitude": -110.63414959983065,
+            "city": "San Manuel",
+            "boundary": "Copper Creek Rd to Redfield Canyon Rd and Nichols Ave to Reddington Rd",
+            "customers": 524,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-24 09:59:00 MST",
+            "etr": "2026-07-24 12:50:00 MST"
+        },
+        {
+            "latitude": 33.55055255605861,
+            "longitude": -111.91220835293983,
+            "city": "Scottsdale",
+            "boundary": "Stallion Rd. to McCormick Pkwy. and 78th St. to Pinesview Dr.",
+            "customers": 57,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 10:21:00 MST",
+            "etr": "2026-07-24 13:30:00 MST"
+        },
+        {
+            "latitude": 33.63775233495829,
+            "longitude": -112.32058184060178,
+            "city": "Surprise",
+            "boundary": "Bell Rd. and El Mirage Rd.",
+            "customers": 51,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 10:30:00 MST",
+            "etr": "2026-07-24 13:20:00 MST"
+        },
+        {
+            "latitude": 33.60606533694387,
+            "longitude": -111.99824311856578,
+            "city": "Phoenix",
+            "boundary": "Pershing Ave. and 38th Pl.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-24 10:34:00 MST",
+            "etr": "2026-07-24 13:00:00 MST"
+        },
+        {
+            "latitude": 34.87894420069987,
+            "longitude": -111.78598104809082,
+            "city": "Sedona",
+            "boundary": "Enchanted Wy. to Zane Grey Dr. and Soldier Pass Rd.",
+            "customers": 82,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 10:39:00 MST",
+            "etr": "2026-07-24 14:00:00 MST"
+        },
+        {
+            "latitude": 34.528397892753624,
+            "longitude": -111.79413351621237,
+            "city": "Camp Verde",
+            "boundary": "Phyllis Cr. and Verde Lakes Dr.",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 10:56:00 MST",
+            "etr": "2026-07-24 14:05:00 MST"
+        },
+        {
+            "latitude": 33.54193568064091,
+            "longitude": -112.06544311603876,
+            "city": "Phoenix",
+            "boundary": "East Nicolet Ave to East Palmaire Ave to and North 7th St",
+            "customers": 21,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 11:19:00 MST",
+            "etr": "2026-07-24 14:00:00 MST"
+        },
+        {
+            "latitude": 32.632534141117446,
+            "longitude": -114.5149582373968,
+            "city": "Yuma",
+            "boundary": "Canal Rd to East Country 14th St and State Highway 195 to Avenue 7 East",
+            "customers": 104,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 11:46:00 MST",
+            "etr": "2026-07-24 15:30:00 MST"
+        }
+    ]
+}
