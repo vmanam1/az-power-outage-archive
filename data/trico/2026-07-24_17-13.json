@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-24 17:13:25 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 31.939362872293756,
+            "longitude": -110.98576807974459,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-24 17:00:00 MST",
+            "etr": null,
+            "boundary": "Sahuarita"
+        },
+        {
+            "latitude": 32.28432411125438,
+            "longitude": -111.3348091007326,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-21 08:30:00 MST",
+            "etr": "2026-07-21 12:30:00 MST",
+            "boundary": "Avra Valley South"
+        }
+    ]
+}
