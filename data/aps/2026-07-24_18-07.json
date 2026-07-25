@@ -1,0 +1,146 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-24 18:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 12,
+        "customers_affected": 944
+    },
+    "outages": [
+        {
+            "latitude": 33.536868287284015,
+            "longitude": -112.06426957132464,
+            "city": "Phoenix",
+            "boundary": "Flynn Ln. to Lamar Rd. and 7th St. to 10th Pl.",
+            "customers": 28,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 09:01:00 MST",
+            "etr": "2026-07-24 11:50:00 MST"
+        },
+        {
+            "latitude": 33.57915480365352,
+            "longitude": -111.93152371527825,
+            "city": "Paradise Valley",
+            "boundary": "Put Ln. to Gold Dust Ave. and 70th St.",
+            "customers": 59,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 09:20:00 MST",
+            "etr": "2026-07-24 12:10:00 MST"
+        },
+        {
+            "latitude": 33.5506956178502,
+            "longitude": -111.91248730229344,
+            "city": "Scottsdale",
+            "boundary": "Las Palmaritas Dr. and 72nd Pl. to 73rd Pl.",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 09:51:00 MST",
+            "etr": "2026-07-24 12:20:00 MST"
+        },
+        {
+            "latitude": 32.59747619978176,
+            "longitude": -110.63414959983065,
+            "city": "San Manuel",
+            "boundary": "Copper Creek Rd to Redfield Canyon Rd and Nichols Ave to Reddington Rd",
+            "customers": 524,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-24 09:59:00 MST",
+            "etr": "2026-07-24 12:20:00 MST"
+        },
+        {
+            "latitude": 33.55055255605861,
+            "longitude": -111.91220835293983,
+            "city": "Scottsdale",
+            "boundary": "Stallion Rd. to McCormick Pkwy. and 78th St. to Pinesview Dr.",
+            "customers": 57,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 10:21:00 MST",
+            "etr": "2026-07-24 12:15:00 MST"
+        },
+        {
+            "latitude": 33.43882505116795,
+            "longitude": -112.09175403319378,
+            "city": "Phoenix",
+            "boundary": "Sherman St. to Buckeye Rd. and 17th Ave. to 15th Ave.",
+            "customers": 81,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 10:28:00 MST",
+            "etr": "2026-07-24 13:20:00 MST"
+        },
+        {
+            "latitude": 33.63775233495829,
+            "longitude": -112.32058184060178,
+            "city": "Surprise",
+            "boundary": "Bell Rd. and El Mirage Rd.",
+            "customers": 51,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 10:30:00 MST",
+            "etr": "2026-07-24 13:20:00 MST"
+        },
+        {
+            "latitude": 33.476115272236115,
+            "longitude": -112.0560363006416,
+            "city": "Phoenix",
+            "boundary": "Virginia Ave. and 12th St.",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 07:33:00 MST",
+            "etr": "2026-07-24 11:35:00 MST"
+        },
+        {
+            "latitude": 33.60606533694387,
+            "longitude": -111.99824311856578,
+            "city": "Phoenix",
+            "boundary": "Pershing Ave. and 38th Pl.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-24 10:34:00 MST",
+            "etr": "2026-07-24 13:00:00 MST"
+        },
+        {
+            "latitude": 34.87894420069987,
+            "longitude": -111.78598104809082,
+            "city": "Sedona",
+            "boundary": "Enchanted Wy. to Zane Grey Dr. and Soldier Pass Rd.",
+            "customers": 82,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 10:39:00 MST",
+            "etr": "2026-07-24 14:00:00 MST"
+        },
+        {
+            "latitude": 34.509069239315274,
+            "longitude": -110.080407571721,
+            "city": "Snowflake",
+            "boundary": "Center St. and 2st West St.",
+            "customers": 13,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 10:52:00 MST",
+            "etr": "2026-07-24 14:05:00 MST"
+        },
+        {
+            "latitude": 34.528397892753624,
+            "longitude": -111.79413351621237,
+            "city": "Camp Verde",
+            "boundary": "Phyllis Cr. and Verde Lakes Dr.",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 10:56:00 MST",
+            "etr": "2026-07-24 14:05:00 MST"
+        }
+    ]
+}
