@@ -28,6 +28,7 @@ scrape_rc=$?
 
 git add data/
 
+run_ok=1
 if git diff --cached --quiet; then
     echo "No changes to commit."
 else
@@ -48,6 +49,22 @@ else
     done
     if [ "$pushed" -ne 1 ]; then
         echo "WARNING: could not push snapshot after retries; committed locally only."
+        run_ok=0
+    fi
+fi
+
+# Dead-man's-switch ping (healthchecks.io). Signals that the collector RAN and
+# stored/pushed data, independent of whether an individual provider (e.g.
+# navopache) was down -- so a MISSED ping means a genuine collector problem
+# (Pi offline, hang/timeout, push/auth failure), not an upstream outage, and
+# avoids hourly false alarms while a provider is down. HEALTHCHECK_URL is
+# injected out-of-band (see /etc/default/outage-archive on the Pi) to keep the
+# ping token out of this public repo. Unset -> pinging is skipped.
+if [ -n "${HEALTHCHECK_URL:-}" ]; then
+    if [ "$run_ok" -eq 1 ]; then
+        curl -fsS -m 10 --retry 3 -o /dev/null "${HEALTHCHECK_URL}" || true
+    else
+        curl -fsS -m 10 --retry 3 -o /dev/null "${HEALTHCHECK_URL%/}/fail" || true
     fi
 fi
 
