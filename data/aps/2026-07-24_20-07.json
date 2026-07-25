@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-24 20:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 661
+    },
+    "outages": [
+        {
+            "latitude": 32.59747619978176,
+            "longitude": -110.63414959983065,
+            "city": "San Manuel",
+            "boundary": "Copper Creek Rd to Redfield Canyon Rd and Nichols Ave to Reddington Rd",
+            "customers": 524,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-24 09:59:00 MST",
+            "etr": "2026-07-24 16:15:00 MST"
+        },
+        {
+            "latitude": 33.55055255605861,
+            "longitude": -111.91220835293983,
+            "city": "Scottsdale",
+            "boundary": "Stallion Rd. to McCormick Pkwy. and 78th St. to Pinesview Dr.",
+            "customers": 57,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 10:21:00 MST",
+            "etr": "2026-07-24 13:30:00 MST"
+        },
+        {
+            "latitude": 33.63775233495829,
+            "longitude": -112.32058184060178,
+            "city": "Surprise",
+            "boundary": "Bell Rd. and El Mirage Rd.",
+            "customers": 8,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 10:30:00 MST",
+            "etr": "2026-07-24 13:30:00 MST"
+        },
+        {
+            "latitude": 34.528397892753624,
+            "longitude": -111.79413351621237,
+            "city": "Camp Verde",
+            "boundary": "Phyllis Cr. and Verde Lakes Dr.",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 10:56:00 MST",
+            "etr": "2026-07-24 14:05:00 MST"
+        },
+        {
+            "latitude": 33.54193568064091,
+            "longitude": -112.06544311603876,
+            "city": "Phoenix",
+            "boundary": "East Nicolet Ave to East Palmaire Ave to and North 7th St",
+            "customers": 21,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 11:19:00 MST",
+            "etr": "2026-07-24 14:00:00 MST"
+        },
+        {
+            "latitude": 32.653480769722066,
+            "longitude": -114.50167235916055,
+            "city": "Yuma",
+            "boundary": "41St St to 41st Rd and Sunflower Dr to South Buckthorn Rd",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 12:43:00 MST",
+            "etr": "2026-07-24 16:00:00 MST"
+        },
+        {
+            "latitude": 32.49233286800943,
+            "longitude": -114.75813006029229,
+            "city": "San Luis",
+            "boundary": "Kennedy Ln to Bienestar Ln and Garcia Ln to 9th Ave",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 12:45:00 MST",
+            "etr": "2026-07-24 16:00:00 MST"
+        },
+        {
+            "latitude": 33.65885018330549,
+            "longitude": -112.20983898584966,
+            "city": "Glendale",
+            "boundary": "Utopia Dr to Wescott Dr and 71st Dr to 68th Ave",
+            "customers": 31,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 12:48:00 MST",
+            "etr": "2026-07-24 15:20:00 MST"
+        }
+    ]
+}

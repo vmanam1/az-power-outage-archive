@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-07-24 20:07:36 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 51,
+        "map_last_refreshed": "Jul 24, 8:05 PM"
+    },
+    "outages": [
+        {
+            "latitude": 34.4601322364906,
+            "longitude": -114.31413751491385,
+            "boundary": {
+                "coordLatSW": "34.457101687484197",
+                "coordLngSW": "-114.317224141661",
+                "coordLatNE": "34.463725553749299",
+                "coordLngNE": "-114.31036718292901",
+                "coordLatCenter": "34.46041",
+                "coordLngCenter": "-114.3138"
+            },
+            "customers": 51,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-07-24 19:19 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "UEE",
+            "customers_restored": 0,
+            "last_update": "2026-07-24 20:00 MST"
+        },
+        {
+            "latitude": 35.189240982860674,
+            "longitude": -114.05949478209376,
+            "boundary": {
+                "coordLatSW": "35.189240982860674",
+                "coordLngSW": "-114.05949478209376",
+                "coordLatNE": "35.189240982860674",
+                "coordLngNE": "-114.05949478209376",
+                "coordLatCenter": "35.18924",
+                "coordLngCenter": "-114.059494"
+            },
+            "customers": 0,
+            "cause": "Emergency/Safety Issue",
+            "comments": null,
+            "start_time": "2026-07-23 10:38 MST",
+            "etr": "2026-07-23 20:43 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 259,
+            "last_update": "2026-07-23 21:13 MST"
+        }
+    ]
+}
