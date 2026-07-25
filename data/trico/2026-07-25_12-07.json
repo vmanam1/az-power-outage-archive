@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-25 12:07:36 MST",
+        "source": "TRICO NISC Outage Web Map",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 31.57842534213942,
+            "longitude": -111.50462341724464,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-25 10:34:00 MST",
+            "etr": "2026-07-25 13:34:00 MST",
+            "boundary": "Sasabe"
+        },
+        {
+            "latitude": 32.28432411125438,
+            "longitude": -111.3348091007326,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned",
+            "start_time": "2026-07-21 08:30:00 MST",
+            "etr": "2026-07-21 12:30:00 MST",
+            "boundary": "Avra Valley South"
+        }
+    ]
+}
