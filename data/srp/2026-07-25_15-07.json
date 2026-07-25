@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-25 15:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 21
+    },
+    "outages": [
+        {
+            "latitude": 33.2917172021914,
+            "longitude": -111.634129458782,
+            "boundary": "S 88TH  ST TO S CRISMON  RD AND E WILLIAMS FIELD  RD TO E WILLIS  RD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-25 14:15 MST",
+            "etr": "2026-07-25 21:00 MST"
+        },
+        {
+            "latitude": 33.48661020911375,
+            "longitude": -112.19905158624451,
+            "boundary": "N 67TH  AVE TO N 63RD  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 14:46 MST",
+            "etr": "2026-07-25 17:01 MST"
+        },
+        {
+            "latitude": 33.493237129701754,
+            "longitude": -112.227463940241,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 14:11 MST",
+            "etr": "2026-07-25 16:44 MST"
+        },
+        {
+            "latitude": 33.312200362703805,
+            "longitude": -111.5888151353475,
+            "boundary": "S MOUNTAIN  RD TO S MERIDIAN  RD AND E RAY  RD TO E WILLIAMS FIELD  RD",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 15:05 MST",
+            "etr": "2026-07-25 16:39 MST"
+        }
+    ]
+}
