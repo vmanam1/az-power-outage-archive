@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-24 22:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 461
+    },
+    "outages": [
+        {
+            "latitude": 32.59747619978176,
+            "longitude": -110.63414959983065,
+            "city": "San Manuel",
+            "boundary": "Copper Creek Rd to Redfield Canyon Rd and Nichols Ave to Reddington Rd",
+            "customers": 157,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-24 09:59:00 MST",
+            "etr": "2026-07-24 16:15:00 MST"
+        },
+        {
+            "latitude": 33.54193568064091,
+            "longitude": -112.06544311603876,
+            "city": "Phoenix",
+            "boundary": "East Nicolet Ave to East Palmaire Ave to and North 7th St",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-24 11:19:00 MST",
+            "etr": "2026-07-24 15:30:00 MST"
+        },
+        {
+            "latitude": 32.49233286800943,
+            "longitude": -114.75813006029229,
+            "city": "San Luis",
+            "boundary": "Kennedy Ln to Bienestar Ln and Garcia Ln to 9th Ave",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 12:45:00 MST",
+            "etr": "2026-07-24 16:00:00 MST"
+        },
+        {
+            "latitude": 33.57960384425551,
+            "longitude": -112.12893463176195,
+            "city": "Phoenix",
+            "boundary": "Peoria Ave to Cheryl Dr and 35th Ave to 31st Ave",
+            "customers": 93,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 13:24:00 MST",
+            "etr": "2026-07-25 16:00:00 MST"
+        },
+        {
+            "latitude": 33.55001268978774,
+            "longitude": -111.91178029133391,
+            "city": "Scottsdale",
+            "boundary": "Stallion Rd to 78th St and 77th Place Via De Viva",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-24 13:45:00 MST",
+            "etr": "2026-07-24 16:40:00 MST"
+        },
+        {
+            "latitude": 31.369548176903763,
+            "longitude": -109.86497094486349,
+            "city": "Bisbee",
+            "boundary": "Arizona St and Purdy Lane",
+            "customers": 174,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-24 13:52:00 MST",
+            "etr": "2026-07-24 16:50:00 MST"
+        },
+        {
+            "latitude": 32.71948355731744,
+            "longitude": -114.6202159098538,
+            "city": "Yuma",
+            "boundary": "Orange Ave to 5th St and 2nd Ave to Madison Ave",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 14:09:00 MST",
+            "etr": "2026-07-24 17:30:00 MST"
+        }
+    ]
+}

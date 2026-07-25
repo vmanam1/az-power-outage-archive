@@ -1,0 +1,184 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-24 22:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 17,
+        "customers_affected": 5262
+    },
+    "outages": [
+        {
+            "latitude": 33.23040493133915,
+            "longitude": -111.54706688006351,
+            "boundary": "N GANTZEL  RD TO N COYOTE  RD AND E SOUTHWOOD  RD TO E COMBS  RD",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 17:43 MST",
+            "etr": "2026-07-24 23:44 MST"
+        },
+        {
+            "latitude": 33.5050143136592,
+            "longitude": -112.26685934581451,
+            "boundary": "N 99TH  AVE TO N 91ST  AVE AND W CAMELBACK  RD TO W CAMPBELL  AVE",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 16:59 MST",
+            "etr": "2026-07-24 23:00 MST"
+        },
+        {
+            "latitude": 33.373909694568454,
+            "longitude": -111.629351026005,
+            "boundary": "S ELLSWORTH  RD TO S 96TH  ST AND E BASELINE  RD TO E GUADALUPE  RD",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 18:40 MST",
+            "etr": "2026-07-25 02:58 MST"
+        },
+        {
+            "latitude": 33.25879237844685,
+            "longitude": -111.6758618024945,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 18:20 MST",
+            "etr": "2026-07-25 01:00 MST"
+        },
+        {
+            "latitude": 33.4019727513531,
+            "longitude": -112.075923563817,
+            "boundary": "S 7TH  AVE TO S CENTRAL  AVE AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 20,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 19:43 MST",
+            "etr": "2026-07-24 22:41 MST"
+        },
+        {
+            "latitude": 33.48542610271625,
+            "longitude": -112.308767273663,
+            "boundary": "N 119TH  AVE TO N 111TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 20,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 19:17 MST",
+            "etr": "2026-07-24 21:22 MST"
+        },
+        {
+            "latitude": 33.226310802423455,
+            "longitude": -111.5519476750745,
+            "boundary": "N GANTZEL  RD TO N KENWORTHY  RD AND E CHANDLER HEIGHTS  BLVD TO E COMBS  RD",
+            "customers": 16,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 18:07 MST",
+            "etr": "2026-07-25 03:49 MST"
+        },
+        {
+            "latitude": 33.47010868885215,
+            "longitude": -112.199072457252,
+            "boundary": "N 67TH  AVE TO N 63RD  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 20:03 MST",
+            "etr": "2026-07-24 22:24 MST"
+        },
+        {
+            "latitude": 33.46146949401475,
+            "longitude": -111.9202250081735,
+            "boundary": "N SCOTTSDALE  RD TO N MILLER  RD AND E MCDOWELL  RD TO E ROOSEVELT  ST",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 16:21 MST",
+            "etr": "2026-07-24 23:00 MST"
+        },
+        {
+            "latitude": 33.468285503561845,
+            "longitude": -112.195536824185,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 13,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 18:22 MST",
+            "etr": "2026-07-25 01:17 MST"
+        },
+        {
+            "latitude": 33.29385188285145,
+            "longitude": -111.779612710485,
+            "boundary": "S GILBERT  RD TO S LINDSAY  RD AND E FRYE  RD TO E WILLIS  RD",
+            "customers": 24,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 19:01 MST",
+            "etr": "2026-07-25 01:36 MST"
+        },
+        {
+            "latitude": 33.3195564762894,
+            "longitude": -111.73330376697649,
+            "boundary": "S GREENFIELD  RD TO S HIGLEY  RD AND E SANTAN  FWY TO E GALVESTON  ST",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-24 19:15 MST",
+            "etr": "2026-07-25 02:00 MST"
+        },
+        {
+            "latitude": 33.46151078720255,
+            "longitude": -111.97983889372651,
+            "boundary": "N 44TH  ST TO N 52ND  ST AND E MCDOWELL  RD TO E ROOSEVELT  ST",
+            "customers": 40,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 20:39 MST",
+            "etr": "2026-07-24 22:49 MST"
+        },
+        {
+            "latitude": 33.488894799758555,
+            "longitude": -112.214575079561,
+            "boundary": "N 75TH  AVE TO N 67TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 18:21 MST",
+            "etr": "2026-07-24 23:30 MST"
+        },
+        {
+            "latitude": 33.1601521069025,
+            "longitude": -111.55861666423499,
+            "boundary": "N ROYCE  RD TO N SCHNEPF  RD AND E SKYLINE  DR TO W ARIZONA FARMS  RD",
+            "customers": 4984,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 21:34 MST",
+            "etr": "2026-07-24 23:33 MST"
+        },
+        {
+            "latitude": 33.1562411351316,
+            "longitude": -111.56362933285001,
+            "boundary": "N EDWARDS  RD TO N GANTZEL  RD AND E BELLA VISTA  RD TO W JUDD  RD",
+            "customers": 40,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 21:36 MST",
+            "etr": "2026-07-24 23:35 MST"
+        },
+        {
+            "latitude": 33.339752612678296,
+            "longitude": -111.99243416551249,
+            "boundary": "S 40TH  ST TO S 48TH  ST AND E ELLIOT  RD TO E WARNER  RD",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-24 20:51 MST",
+            "etr": "2026-07-24 22:52 MST"
+        }
+    ]
+}
