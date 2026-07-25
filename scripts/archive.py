@@ -38,20 +38,28 @@ def get_latest_snapshot(provider_name: str):
     return json_files[-1]
 
 
-def save_snapshot(provider_name: str, data: dict):
+def save_snapshot(provider_name: str, data: dict, dedupe: bool = False):
+    """
+    Write ``data`` as a timestamped snapshot for ``provider_name`` and return
+    ``(saved, path)``.
 
+    By default every call writes a new file, so the archive keeps one snapshot
+    per run even when the outages are identical to the previous one — that gives
+    a regular hourly cadence to reason over. Pass ``dedupe=True`` to restore the
+    older behaviour of skipping a write when the new outages hash-match the most
+    recent snapshot (returns ``(False, latest)``).
+    """
     provider_folder = DATA_FOLDER / provider_name
     provider_folder.mkdir(parents=True, exist_ok=True)
 
-    latest = get_latest_snapshot(provider_name)
+    if dedupe:
+        latest = get_latest_snapshot(provider_name)
+        if latest:
+            with open(latest, "r", encoding="utf-8") as f:
+                old_data = json.load(f)
 
-    if latest:
-
-        with open(latest, "r", encoding="utf-8") as f:
-            old_data = json.load(f)
-
-        if snapshot_content_hash(old_data) == snapshot_content_hash(data):
-            return False, latest
+            if snapshot_content_hash(old_data) == snapshot_content_hash(data):
+                return False, latest
 
     filename = _snapshot_filename(data)
 

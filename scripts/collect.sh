@@ -23,6 +23,25 @@ cd "$REPO_ROOT" || exit 1
 
 PYTHON="${PYTHON:-python3}"
 
+# Preflight: the NISC (Selenium) providers need Chromium and chromedriver at the
+# SAME major version. apt can upgrade one without the other, which silently
+# breaks those three providers while the other six still commit+push -- so the
+# dead-man's-switch would stay green on a partial failure. Detect a mismatch and
+# flag it loudly (and via a fail ping below) so it does not go unnoticed.
+drift_detected=0
+_chrome_bin="${CHROME_BIN:-chromium}"
+_driver_bin="${CHROMEDRIVER_PATH:-chromedriver}"
+if command -v "$_chrome_bin" >/dev/null 2>&1 && command -v "$_driver_bin" >/dev/null 2>&1; then
+    _chrome_major="$("$_chrome_bin" --version 2>/dev/null | grep -oE '[0-9]+' | head -1)"
+    _driver_major="$("$_driver_bin" --version 2>/dev/null | grep -oE '[0-9]+' | head -1)"
+    if [ -n "$_chrome_major" ] && [ -n "$_driver_major" ] && [ "$_chrome_major" != "$_driver_major" ]; then
+        echo "ERROR: Chromium ($_chrome_major) and chromedriver ($_driver_major) major versions differ;" \
+             "the NISC providers (trico/mohave/navopache) will fail." \
+             "Fix with: sudo apt install chromium chromium-driver"
+        drift_detected=1
+    fi
+fi
+
 "$PYTHON" -m scripts.run
 scrape_rc=$?
 
@@ -61,7 +80,7 @@ fi
 # injected out-of-band (see /etc/default/outage-archive on the Pi) to keep the
 # ping token out of this public repo. Unset -> pinging is skipped.
 if [ -n "${HEALTHCHECK_URL:-}" ]; then
-    if [ "$run_ok" -eq 1 ]; then
+    if [ "$run_ok" -eq 1 ] && [ "$drift_detected" -eq 0 ]; then
         curl -fsS -m 10 --retry 3 -o /dev/null "${HEALTHCHECK_URL}" || true
     else
         curl -fsS -m 10 --retry 3 -o /dev/null "${HEALTHCHECK_URL%/}/fail" || true

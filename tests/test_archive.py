@@ -23,9 +23,9 @@ def _snapshot(scraped_at, customers=10):
 
 
 class SaveSnapshotTests(unittest.TestCase):
-    def test_identical_outages_not_resaved_despite_new_timestamp(self):
-        # Regression: the dedup hash previously included metadata.scraped_at,
-        # which changes every run, so identical outages were always re-saved.
+    def test_identical_outages_resaved_by_default(self):
+        # By default the archive keeps a snapshot every run, so identical
+        # outages with a new timestamp still produce a second file.
         with tempfile.TemporaryDirectory() as tmp:
             with patch.object(archive, "DATA_FOLDER", Path(tmp)):
                 saved1, path1 = archive.save_snapshot(
@@ -35,6 +35,25 @@ class SaveSnapshotTests(unittest.TestCase):
 
                 saved2, path2 = archive.save_snapshot(
                     "aps", _snapshot("2026-07-18 11:00:00 MST")
+                )
+                self.assertTrue(saved2)
+                self.assertNotEqual(Path(path1), Path(path2))
+
+                files = list((Path(tmp) / "aps").glob("*.json"))
+                self.assertEqual(len(files), 2)
+
+    def test_dedupe_flag_skips_identical_outages(self):
+        # Regression: the dedup hash must ignore metadata.scraped_at, which
+        # changes every run, so identical outages hash-match and are skipped.
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch.object(archive, "DATA_FOLDER", Path(tmp)):
+                saved1, path1 = archive.save_snapshot(
+                    "aps", _snapshot("2026-07-18 10:00:00 MST"), dedupe=True
+                )
+                self.assertTrue(saved1)
+
+                saved2, path2 = archive.save_snapshot(
+                    "aps", _snapshot("2026-07-18 11:00:00 MST"), dedupe=True
                 )
                 self.assertFalse(saved2)
                 self.assertEqual(Path(path1), Path(path2))
@@ -65,7 +84,7 @@ class SaveSnapshotTests(unittest.TestCase):
                 )
                 self.assertEqual(Path(path).name, "2026-07-18_09-05.json")
 
-    def test_empty_outages_are_deduplicated(self):
+    def test_empty_outages_resaved_by_default(self):
         empty = {
             "metadata": {
                 "provider": "APS",
@@ -83,6 +102,30 @@ class SaveSnapshotTests(unittest.TestCase):
                 later["metadata"] = dict(empty["metadata"])
                 later["metadata"]["scraped_at"] = "2026-07-18 11:00:00 MST"
                 saved2, _ = archive.save_snapshot("aps", later)
+
+                self.assertTrue(saved1)
+                self.assertTrue(saved2)
+                files = list((Path(tmp) / "aps").glob("*.json"))
+                self.assertEqual(len(files), 2)
+
+    def test_dedupe_flag_skips_identical_empty_outages(self):
+        empty = {
+            "metadata": {
+                "provider": "APS",
+                "scraped_at": "2026-07-18 10:00:00 MST",
+                "source": "Mock",
+                "scraper_version": "1.0.0",
+            },
+            "summary": {"outage_count": 0, "customers_affected": 0},
+            "outages": [],
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch.object(archive, "DATA_FOLDER", Path(tmp)):
+                saved1, _ = archive.save_snapshot("aps", dict(empty), dedupe=True)
+                later = dict(empty)
+                later["metadata"] = dict(empty["metadata"])
+                later["metadata"]["scraped_at"] = "2026-07-18 11:00:00 MST"
+                saved2, _ = archive.save_snapshot("aps", later, dedupe=True)
 
                 self.assertTrue(saved1)
                 self.assertFalse(saved2)
