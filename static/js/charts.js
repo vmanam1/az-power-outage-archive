@@ -21,8 +21,8 @@ const CHARTS_PROVIDER_COLORS = {
 
 function getThemeChartOptions() {
     const isDark = document.body.classList.contains('dark-theme');
-    const textColor = isDark ? '#cbd5e1' : '#475569';
-    const gridColor = isDark ? '#334155' : '#e2e8f0';
+    const textColor = isDark ? '#a2a6b3' : '#5c5f6a';
+    const gridColor = isDark ? '#262833' : '#e4e5e9';
 
     return {
         textColor,
@@ -97,7 +97,7 @@ function updateCharts(outages, timelineData) {
                 data: outageCounts,
                 backgroundColor: backgroundColors,
                 borderWidth: theme.isDark ? 2 : 1,
-                borderColor: theme.isDark ? '#1e293b' : '#ffffff'
+                borderColor: theme.isDark ? '#17181f' : '#ffffff'
             }]
         },
         options: {
@@ -191,7 +191,7 @@ function updateCharts(outages, timelineData) {
                 data: [activeCount, restoredCount],
                 backgroundColor: ['#f59e0b', '#10b981'],
                 borderWidth: theme.isDark ? 2 : 1,
-                borderColor: theme.isDark ? '#1e293b' : '#ffffff'
+                borderColor: theme.isDark ? '#17181f' : '#ffffff'
             }]
         },
         options: {
