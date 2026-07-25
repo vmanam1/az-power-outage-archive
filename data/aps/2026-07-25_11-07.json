@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-25 11:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 34.34919819421034,
+            "longitude": -112.1636960726599,
+            "city": "Mayer",
+            "boundary": "Sping Ln. to Bob White Ct. and Road Runner Rd. to Mule Deer Rd.",
+            "customers": 31,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-25 00:59:00 MST",
+            "etr": "2026-07-25 05:10:00 MST"
+        }
+    ]
+}
