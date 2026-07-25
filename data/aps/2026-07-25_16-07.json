@@ -1,0 +1,157 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-25 16:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 13,
+        "customers_affected": 8256
+    },
+    "outages": [
+        {
+            "latitude": 34.23715916630412,
+            "longitude": -111.33849004139452,
+            "city": "Payson",
+            "boundary": "Birch Dr. to Gold Nugget Ln. and Doll Baby Ranch Rd. to Stone Creek Cir.",
+            "customers": 30,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-25 06:29:00 MST",
+            "etr": "2026-07-25 09:50:00 MST"
+        },
+        {
+            "latitude": 33.641346217280876,
+            "longitude": -112.05465240372557,
+            "city": "Phoenix",
+            "boundary": "Helena Dr to Bell Rd and 14th St",
+            "customers": 104,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-25 07:13:00 MST",
+            "etr": "2026-07-25 10:15:00 MST"
+        },
+        {
+            "latitude": 35.26539795235159,
+            "longitude": -112.18247914366661,
+            "city": "Williams",
+            "boundary": "Transwestern Pipeline Easement Rd. to Fray Marcos Dr. and Airport Rd.",
+            "customers": 408,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-25 07:19:00 MST",
+            "etr": "2026-07-25 10:40:00 MST"
+        },
+        {
+            "latitude": 32.97335250024906,
+            "longitude": -111.52599300023182,
+            "city": "Coolidge",
+            "boundary": "Highway 287 To Taylor Ave And Skousen Rd To 4Th St",
+            "customers": 2339,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-25 07:40:00 MST",
+            "etr": "2026-07-25 10:00:00 MST"
+        },
+        {
+            "latitude": 32.98799970013361,
+            "longitude": -111.51984690043274,
+            "city": "Coolidge",
+            "boundary": "Highway 287 To Coolidge Ave. And Arizona Blvd. To Christensen Rd",
+            "customers": 1408,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-25 07:43:00 MST",
+            "etr": "2026-07-25 10:05:00 MST"
+        },
+        {
+            "latitude": 32.980286099716956,
+            "longitude": -111.51100700013326,
+            "city": "Coolidge",
+            "boundary": "Merrill Ranch Pkwy To Bartlett Rd. And 7Th St To Christensen Rd",
+            "customers": 1690,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-25 07:41:00 MST",
+            "etr": "2026-07-25 10:05:00 MST"
+        },
+        {
+            "latitude": 33.67713341100785,
+            "longitude": -112.2101512752767,
+            "city": "Glendale",
+            "boundary": "W Firebird Rd.",
+            "customers": 8,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-25 07:49:00 MST",
+            "etr": "2026-07-25 11:21:00 MST"
+        },
+        {
+            "latitude": 33.394969800289175,
+            "longitude": -110.79847729994538,
+            "city": "Globe",
+            "boundary": "Landfill Lane To Cottonwood And Russell Avenue To Cedar Street",
+            "customers": 1452,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-25 08:10:00 MST",
+            "etr": "2026-07-25 12:15:00 MST"
+        },
+        {
+            "latitude": 32.62101290226338,
+            "longitude": -114.6619055714479,
+            "city": "Somerton",
+            "boundary": "Venus Dr to Sun St and Avenue C",
+            "customers": 5,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-25 08:17:00 MST",
+            "etr": "2026-07-25 11:45:00 MST"
+        },
+        {
+            "latitude": 35.45548796281632,
+            "longitude": -112.16510611683888,
+            "city": "Williams",
+            "boundary": "State Route 64 and FS 736",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-25 08:30:00 MST",
+            "etr": "2026-07-25 11:20:00 MST"
+        },
+        {
+            "latitude": 33.6565235719522,
+            "longitude": -111.99878467332472,
+            "city": "Phoenix",
+            "boundary": "N 39th St.",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-25 08:30:00 MST",
+            "etr": "2026-07-25 12:30:00 MST"
+        },
+        {
+            "latitude": 33.80307200028425,
+            "longitude": -112.2407600004489,
+            "city": "Peoria",
+            "boundary": "87Th Ave To Westwing Pkwy And Carefree Hwy To Lake Pleasant Rd",
+            "customers": 34,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-25 08:46:00 MST",
+            "etr": "2026-07-25 12:50:00 MST"
+        },
+        {
+            "latitude": 33.65145899965852,
+            "longitude": -112.09835899962654,
+            "city": "Phoenix",
+            "boundary": "Union Hills Dr To Village And Black Canyon Hwy To 13Th Ave",
+            "customers": 766,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-25 08:54:00 MST",
+            "etr": "2026-07-25 12:55:00 MST"
+        }
+    ]
+}
