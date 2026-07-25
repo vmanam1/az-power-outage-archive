@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-25 09:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 76
+    },
+    "outages": [
+        {
+            "latitude": 33.506893423808805,
+            "longitude": -112.34934081782298,
+            "city": "Litchfield Park",
+            "boundary": "West Camelback Rd to East Bird Ln to North Litchfield Rd to North Torno Ln",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 17:01:00 MST",
+            "etr": "2026-07-25 02:30:00 MST"
+        },
+        {
+            "latitude": 33.54236818303018,
+            "longitude": -111.90930119986453,
+            "city": "Scottsdale",
+            "boundary": "Via Camello and Hayden Rd",
+            "customers": 15,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-24 16:26:00 MST",
+            "etr": "2026-07-25 04:00:00 MST"
+        },
+        {
+            "latitude": 34.34919819421034,
+            "longitude": -112.1636960726599,
+            "city": "Mayer",
+            "boundary": "Sping Ln. to Bob White Ct. and Road Runner Rd. to Mule Deer Rd.",
+            "customers": 56,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-25 00:59:00 MST",
+            "etr": "2026-07-25 04:20:00 MST"
+        }
+    ]
+}
