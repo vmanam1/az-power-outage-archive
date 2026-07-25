@@ -5,12 +5,12 @@ let lastMaxMtime = 0.0;
 let pollingInterval = null;
 
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Initialize Leaflet map and Data Table modules
+    // 1. Apply saved theme FIRST so the map picks the matching basemap on init
+    initTheme();
+
+    // 2. Initialize Leaflet map and Data Table modules
     if (typeof initMap === 'function') initMap();
     if (typeof initTable === 'function') initTable();
-
-    // 2. Setup Dark Mode theme listener
-    initTheme();
 
     // 3. Load initial configuration and metadata
     loadMetadata().then(() => {
@@ -39,9 +39,12 @@ function initTheme() {
     if (themeToggle) {
         themeToggle.addEventListener('click', () => {
             document.body.classList.toggle('dark-theme');
-            const currentTheme = document.body.classList.contains('dark-theme') ? 'dark' : 'light';
-            localStorage.setItem('theme', currentTheme);
-            
+            const isDark = document.body.classList.contains('dark-theme');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+
+            // Swap the map basemap to match the theme
+            if (typeof applyBasemap === 'function') applyBasemap(isDark);
+
             // Re-render table and charts to match theme grid line colors
             if (typeof renderTable === 'function') renderTable();
             // app.js global storage for current datasets

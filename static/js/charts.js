@@ -2,6 +2,9 @@
 let customersChart = null;
 let outagesChart = null;
 let timelineChart = null;
+let causeChart = null;
+let statusChart = null;
+let hourChart = null;
 
 // Provider Hex Colors mapped from map module
 const CHARTS_PROVIDER_COLORS = {
@@ -115,7 +118,148 @@ function updateCharts(outages, timelineData) {
         }
     });
 
-    // 3. Timeline Chart (Line Chart over Time)
+    // 3. Top Causes (Horizontal Bar) -- magnitude across cause categories.
+    // Single hue: one measure (count), so no legend; the title names it.
+    const causeCounts = {};
+    outages.forEach(out => {
+        const label = (out.cause || '').trim() || 'Unknown';
+        causeCounts[label] = (causeCounts[label] || 0) + 1;
+    });
+    let causeEntries = Object.entries(causeCounts).sort((a, b) => b[1] - a[1]);
+    const CAUSE_TOP_N = 7;
+    if (causeEntries.length > CAUSE_TOP_N) {
+        const top = causeEntries.slice(0, CAUSE_TOP_N);
+        const otherTotal = causeEntries
+            .slice(CAUSE_TOP_N)
+            .reduce((sum, e) => sum + e[1], 0);
+        top.push(['Other', otherTotal]);
+        causeEntries = top;
+    }
+    const ctxCause = document.getElementById('chart-cause').getContext('2d');
+    if (causeChart) causeChart.destroy();
+    causeChart = new Chart(ctxCause, {
+        type: 'bar',
+        data: {
+            labels: causeEntries.map(e => e[0]),
+            datasets: [{
+                label: 'Outages',
+                data: causeEntries.map(e => e[1]),
+                backgroundColor: '#2563eb',
+                borderRadius: 4,
+                borderWidth: 0
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: { callbacks: { label: (ctx) => ` ${ctx.raw} outage${ctx.raw === 1 ? '' : 's'}` } }
+            },
+            scales: {
+                x: {
+                    grid: { color: theme.gridColor },
+                    ticks: { color: theme.textColor, font: { family: 'Inter', size: 10 }, precision: 0 }
+                },
+                y: {
+                    grid: { display: false },
+                    ticks: { color: theme.textColor, font: { family: 'Inter', size: 10 } }
+                }
+            }
+        }
+    });
+
+    // 4. Active vs. Restored (Doughnut) -- status split. Identity carried by the
+    // legend labels, never colour alone.
+    let activeCount = 0;
+    let restoredCount = 0;
+    outages.forEach(out => {
+        if (out.restored_time) {
+            restoredCount += 1;
+        } else {
+            activeCount += 1;
+        }
+    });
+    const ctxStatus = document.getElementById('chart-status').getContext('2d');
+    if (statusChart) statusChart.destroy();
+    statusChart = new Chart(ctxStatus, {
+        type: 'doughnut',
+        data: {
+            labels: ['Active', 'Restored'],
+            datasets: [{
+                data: [activeCount, restoredCount],
+                backgroundColor: ['#f59e0b', '#10b981'],
+                borderWidth: theme.isDark ? 2 : 1,
+                borderColor: theme.isDark ? '#1e293b' : '#ffffff'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'right',
+                    labels: { color: theme.textColor, font: { family: 'Inter', size: 10 }, boxWidth: 12 }
+                },
+                tooltip: { callbacks: { label: (ctx) => ` ${ctx.label}: ${ctx.raw.toLocaleString()}` } }
+            },
+            cutout: '65%'
+        }
+    });
+
+    // 5. Outage Starts by Hour of Day (Bar) -- distribution across 0-23h.
+    const hourBuckets = new Array(24).fill(0);
+    outages.forEach(out => {
+        const st = out.start_time;
+        if (typeof st === 'string') {
+            const parts = st.split(' ');
+            if (parts.length >= 2) {
+                const hh = parseInt(parts[1].split(':')[0], 10);
+                if (!isNaN(hh) && hh >= 0 && hh < 24) hourBuckets[hh] += 1;
+            }
+        }
+    });
+    const ctxHour = document.getElementById('chart-hour').getContext('2d');
+    if (hourChart) hourChart.destroy();
+    hourChart = new Chart(ctxHour, {
+        type: 'bar',
+        data: {
+            labels: Array.from({ length: 24 }, (_, h) => String(h).padStart(2, '0')),
+            datasets: [{
+                label: 'Outage starts',
+                data: hourBuckets,
+                backgroundColor: '#0ea5e9',
+                borderRadius: 3,
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        title: (items) => `Hour ${items[0].label}:00`,
+                        label: (ctx) => ` ${ctx.raw} start${ctx.raw === 1 ? '' : 's'}`
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { display: false },
+                    ticks: { color: theme.textColor, font: { family: 'Inter', size: 8 }, maxRotation: 0, autoSkip: true, maxTicksLimit: 12 }
+                },
+                y: {
+                    grid: { color: theme.gridColor },
+                    ticks: { color: theme.textColor, font: { family: 'Inter', size: 9 }, precision: 0 }
+                }
+            }
+        }
+    });
+
+    // 6. Timeline Chart (Line Chart over Time)
     const ctxTimeline = document.getElementById('chart-timeline').getContext('2d');
     if (timelineChart) timelineChart.destroy();
 

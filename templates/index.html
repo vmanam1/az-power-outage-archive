@@ -244,9 +244,27 @@
                         </div>
                     </div>
                     <div class="chart-card">
+                        <h4>Top Causes</h4>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-cause"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h4>Active vs. Restored</h4>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-status"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
                         <h4>Observations / Active Outages Over Time</h4>
                         <div class="chart-wrapper">
                             <canvas id="chart-timeline"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h4>Outage Starts by Hour of Day</h4>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-hour"></canvas>
                         </div>
                     </div>
                 </section>
@@ -311,7 +329,7 @@
     <footer class="app-footer">
         <p class="disclaimer">
             <strong>Disclaimer:</strong> Historical reference data only. Confirm current outage information directly with the respective utility provider. 
-            Background map tiles provided by OpenStreetMap and hosted by OpenStreetMap Foundation (requires Internet connection). Outage database snapshots are parsed and served locally.
+            Background map tiles &copy; CARTO, data &copy; OpenStreetMap contributors (requires Internet connection). Outage database snapshots are parsed and served locally.
         </p>
         <p class="copyright">&copy; 2026 Arizona Power Outage Explorer. All rights reserved.</p>
     </footer>
