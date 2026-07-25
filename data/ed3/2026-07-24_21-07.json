@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-07-24 21:07:42 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 904,
+        "total_customers": 36412
+    },
+    "outages": [
+        {
+            "latitude": 33.031361317158854,
+            "longitude": -112.00620356390486,
+            "boundary": null,
+            "customers": 904,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-07-24 17:17:19 MST",
+            "etr": null,
+            "pole_number": "SDN1332"
+        }
+    ]
+}

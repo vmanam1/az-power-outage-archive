@@ -1,0 +1,146 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-24 21:07:42 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 12,
+        "customers_affected": 520
+    },
+    "outages": [
+        {
+            "latitude": 32.59747619978176,
+            "longitude": -110.63414959983065,
+            "city": "San Manuel",
+            "boundary": "Copper Creek Rd to Redfield Canyon Rd and Nichols Ave to Reddington Rd",
+            "customers": 157,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-24 09:59:00 MST",
+            "etr": "2026-07-24 16:15:00 MST"
+        },
+        {
+            "latitude": 34.528397892753624,
+            "longitude": -111.79413351621237,
+            "city": "Camp Verde",
+            "boundary": "Phyllis Cr. and Verde Lakes Dr.",
+            "customers": 7,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 10:56:00 MST",
+            "etr": "2026-07-24 14:45:00 MST"
+        },
+        {
+            "latitude": 33.54193568064091,
+            "longitude": -112.06544311603876,
+            "city": "Phoenix",
+            "boundary": "East Nicolet Ave to East Palmaire Ave to and North 7th St",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-24 11:19:00 MST",
+            "etr": "2026-07-24 15:00:00 MST"
+        },
+        {
+            "latitude": 32.49233286800943,
+            "longitude": -114.75813006029229,
+            "city": "San Luis",
+            "boundary": "Kennedy Ln to Bienestar Ln and Garcia Ln to 9th Ave",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 12:45:00 MST",
+            "etr": "2026-07-24 16:00:00 MST"
+        },
+        {
+            "latitude": 33.616313842373785,
+            "longitude": -111.9949575465838,
+            "city": "Phoenix",
+            "boundary": "East Crocus Dr to East Sheena Dr and North 40th St to North 41st Pl",
+            "customers": 29,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-24 13:23:00 MST",
+            "etr": "2026-07-24 16:00:00 MST"
+        },
+        {
+            "latitude": 33.57960384425551,
+            "longitude": -112.12893463176195,
+            "city": "Phoenix",
+            "boundary": "Peoria Ave to Cheryl Dr and 35th Ave to 31st Ave",
+            "customers": 93,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 13:24:00 MST",
+            "etr": "2026-07-25 16:00:00 MST"
+        },
+        {
+            "latitude": 32.6303628962123,
+            "longitude": -114.52060617016687,
+            "city": "Yuma",
+            "boundary": "Highway 195 to County 14th Street and South Avenue East to Mississippi Ave",
+            "customers": 104,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 13:31:00 MST",
+            "etr": "2026-07-24 16:50:00 MST"
+        },
+        {
+            "latitude": 33.652884503831004,
+            "longitude": -112.32990803040556,
+            "city": "Sun City West",
+            "boundary": "Shadow Hills Dr to Castle Rock Dr and 129th Dr to 125th Ave",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-24 13:42:00 MST",
+            "etr": "2026-07-25 15:30:00 MST"
+        },
+        {
+            "latitude": 33.55001268978774,
+            "longitude": -111.91178029133391,
+            "city": "Scottsdale",
+            "boundary": "Stallion Rd to 78th St and 77th Place Via De Viva",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-24 13:45:00 MST",
+            "etr": "2026-07-24 16:40:00 MST"
+        },
+        {
+            "latitude": 33.681950368224655,
+            "longitude": -112.10936168021077,
+            "city": "Phoenix",
+            "boundary": "Deer Valley Rd to Melinda Ln and 24th Ave to 21st Ave",
+            "customers": 11,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-24 13:49:00 MST",
+            "etr": "2026-07-24 15:10:00 MST"
+        },
+        {
+            "latitude": 33.61223556279898,
+            "longitude": -112.34385655091116,
+            "city": "Surprise",
+            "boundary": "West Hearn Rd to West Redfield Rd and North 132nd Ln to North Dysart Rd",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 13:50:00 MST",
+            "etr": "2026-07-24 17:00:00 MST"
+        },
+        {
+            "latitude": 31.369548176903763,
+            "longitude": -109.86497094486349,
+            "city": "Bisbee",
+            "boundary": "Arizona St and Purdy Lane",
+            "customers": 90,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 13:52:00 MST",
+            "etr": "2026-07-24 16:50:00 MST"
+        }
+    ]
+}
