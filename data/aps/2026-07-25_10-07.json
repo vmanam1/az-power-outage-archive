@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-25 10:07:16 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 84
+    },
+    "outages": [
+        {
+            "latitude": 33.506893423808805,
+            "longitude": -112.34934081782298,
+            "city": "Litchfield Park",
+            "boundary": "West Camelback Rd to East Bird Ln to North Litchfield Rd to North Torno Ln",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-24 17:01:00 MST",
+            "etr": "2026-07-25 03:30:00 MST"
+        },
+        {
+            "latitude": 34.34919819421034,
+            "longitude": -112.1636960726599,
+            "city": "Mayer",
+            "boundary": "Sping Ln. to Bob White Ct. and Road Runner Rd. to Mule Deer Rd.",
+            "customers": 56,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-25 00:59:00 MST",
+            "etr": "2026-07-25 04:20:00 MST"
+        },
+        {
+            "latitude": 33.659830684653826,
+            "longitude": -112.01598238673823,
+            "city": "Phoenix",
+            "boundary": "Topeka Dr. to Siesta Ln. and 30th Pl. to 31st St.",
+            "customers": 23,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-25 02:53:00 MST",
+            "etr": "2026-07-25 05:20:00 MST"
+        }
+    ]
+}
