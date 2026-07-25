@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-25 13:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 33.4016070705226,
+            "longitude": -112.101825024313,
+            "boundary": "S 23RD  AVE TO S 15TH  AVE AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 45,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-25 00:24 MST",
+            "etr": "2026-07-25 14:30 MST"
+        },
+        {
+            "latitude": 33.482320051894,
+            "longitude": -111.98330733276,
+            "boundary": "N 44TH  ST TO N 48TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 12:42 MST",
+            "etr": "2026-07-25 14:37 MST"
+        },
+        {
+            "latitude": 33.5045011213102,
+            "longitude": -112.150876771483,
+            "boundary": "N 47TH  AVE TO GRAND  AVE AND GRAND  AVE TO GRAND  AVE",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-07-25 12:44 MST",
+            "etr": "2026-07-25 14:36 MST"
+        }
+    ]
+}

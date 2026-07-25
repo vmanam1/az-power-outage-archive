@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-25 13:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 35.24148999977752,
+            "longitude": -111.83725999986576,
+            "city": "Bellemont",
+            "boundary": "I-40 and Bellemont Rest Area Rd.",
+            "customers": 40,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-25 05:47:00 MST",
+            "etr": "2026-07-25 09:50:00 MST"
+        }
+    ]
+}
