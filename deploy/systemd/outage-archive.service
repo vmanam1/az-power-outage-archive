@@ -1,0 +1,20 @@
+[Unit]
+Description=Arizona power outage archive collector (scrape + commit + push)
+Documentation=https://github.com/vmanam1/az-power-outage-archive
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=leaps-admin
+WorkingDirectory=/home/leaps-admin/az-power-outage-archive
+# venv interpreter so the pinned selenium/requests are used
+Environment=PYTHON=/home/leaps-admin/az-power-outage-archive/venv/bin/python
+# System Chromium + matching chromedriver for the Selenium (NISC) providers.
+# Selenium Manager cannot fetch an arm64 driver, so these must be explicit.
+Environment=CHROME_BIN=/usr/bin/chromium
+Environment=CHROMEDRIVER_PATH=/usr/bin/chromedriver
+ExecStart=/bin/bash /home/leaps-admin/az-power-outage-archive/scripts/collect.sh
+# One provider (navopache) can hang ~3 min on retries when its upstream is
+# down; give the whole run generous headroom before systemd kills it.
+TimeoutStartSec=600

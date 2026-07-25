@@ -1,10 +1,12 @@
 import math
+import os
 import re
 import time
 from datetime import datetime
 
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 
 from providers.base import BaseProvider
@@ -49,7 +51,22 @@ class NISCOutageProvider(BaseProvider):
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option("useAutomationExtension", False)
 
-        driver = webdriver.Chrome(options=options)
+        # Deployment targets can pin a system Chromium + chromedriver via env
+        # vars. This is required on the Raspberry Pi collector (ARM64), where
+        # Selenium Manager cannot download a driver and the browser binary is
+        # /usr/bin/chromium rather than google-chrome. Both are unset in CI,
+        # where setup-chrome puts them on PATH and Selenium Manager resolves them.
+        chrome_bin = os.environ.get("CHROME_BIN")
+        if chrome_bin:
+            options.binary_location = chrome_bin
+
+        driver_path = os.environ.get("CHROMEDRIVER_PATH")
+        if driver_path:
+            driver = webdriver.Chrome(
+                options=options, service=Service(executable_path=driver_path)
+            )
+        else:
+            driver = webdriver.Chrome(options=options)
         # Execute CDP command to remove navigator.webdriver flag in Chrome
         try:
             driver.execute_cdp_cmd(
