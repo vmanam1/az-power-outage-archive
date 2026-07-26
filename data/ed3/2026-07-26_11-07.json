@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-07-26 11:07:36 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12,
+        "total_customers": 36412
+    },
+    "outages": [
+        {
+            "latitude": 33.07096886844777,
+            "longitude": -112.05611751084857,
+            "boundary": null,
+            "customers": 12,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-07-26 10:26:33 MST",
+            "etr": null,
+            "pole_number": "T484"
+        }
+    ]
+}
