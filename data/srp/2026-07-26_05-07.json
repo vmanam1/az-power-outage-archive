@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-26 05:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.3078218401607,
+            "longitude": -111.890757444097,
+            "boundary": "N PRICE  FWY TO N ELLIS  ST AND W GALVESTON  ST TO W CHANDLER  BLVD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-26 03:08 MST",
+            "etr": "2026-07-26 07:07 MST"
+        },
+        {
+            "latitude": 33.5322627697841,
+            "longitude": -112.1317594852985,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-26 02:48 MST",
+            "etr": "2026-07-26 08:53 MST"
+        }
+    ]
+}
