@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-07-26 15:07:36 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5,
+        "total_customers": 36412
+    },
+    "outages": [
+        {
+            "latitude": 32.846874314990785,
+            "longitude": -111.96411157161322,
+            "boundary": null,
+            "customers": 5,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-07-26 13:04:14 MST",
+            "etr": null,
+            "pole_number": "PF619"
+        }
+    ]
+}
