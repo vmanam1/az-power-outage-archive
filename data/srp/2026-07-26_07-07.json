@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-26 07:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.5322627697841,
+            "longitude": -112.1317594852985,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-26 02:48 MST",
+            "etr": "2026-07-26 08:53 MST"
+        }
+    ]
+}
