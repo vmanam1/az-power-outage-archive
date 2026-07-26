@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-26 16:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 125
+    },
+    "outages": [
+        {
+            "latitude": 33.824430000227274,
+            "longitude": -113.5408499996815,
+            "city": "Wenden",
+            "boundary": "Alamo Rd. to 69 1/2 St. and 1st St. to Wenden Dump Rd.",
+            "customers": 35,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-25 12:20:00 MST",
+            "etr": "2026-07-27 01:30:00 MST"
+        },
+        {
+            "latitude": 33.3135114492871,
+            "longitude": -114.66621301389654,
+            "city": "Cibola",
+            "boundary": "Baseline Rd. to 34th St. and Cibola Lake Rd.",
+            "customers": 6,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-26 00:38:00 MST",
+            "etr": "2026-07-26 15:00:00 MST"
+        },
+        {
+            "latitude": 34.55618679830353,
+            "longitude": -112.43183890180232,
+            "city": "Prescott",
+            "boundary": "Mountain Dells Rd. and Mountain Hollow Dr.",
+            "customers": 27,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-26 07:25:00 MST",
+            "etr": "2026-07-26 10:45:00 MST"
+        },
+        {
+            "latitude": 34.922688398338344,
+            "longitude": -112.48532269927185,
+            "city": "Paulden",
+            "boundary": "Eleanor Dr. to Fernview and High Desert Rd. to Woody Dr.",
+            "customers": 28,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-26 08:40:00 MST",
+            "etr": "2026-07-26 12:00:00 MST"
+        },
+        {
+            "latitude": 34.19401045271962,
+            "longitude": -112.15609368520765,
+            "city": "Mayer",
+            "boundary": "Crown King Rd. to AZ Veterans Hwy.",
+            "customers": 29,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-26 08:59:00 MST",
+            "etr": "2026-07-26 12:25:00 MST"
+        }
+    ]
+}
