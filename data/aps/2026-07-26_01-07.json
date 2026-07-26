@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-26 01:07:16 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 4710
+    },
+    "outages": [
+        {
+            "latitude": 32.97335250024906,
+            "longitude": -111.52599300023182,
+            "city": "Coolidge",
+            "boundary": "Highway 287 To Taylor Ave And Skousen Rd To 4Th St",
+            "customers": 1914,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-25 07:40:00 MST",
+            "etr": "2026-07-25 20:00:00 MST"
+        },
+        {
+            "latitude": 32.98799970013361,
+            "longitude": -111.51984690043274,
+            "city": "Coolidge",
+            "boundary": "Highway 287 To Coolidge Ave. And Arizona Blvd. To Christensen Rd",
+            "customers": 1127,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-25 07:43:00 MST",
+            "etr": "2026-07-25 20:00:00 MST"
+        },
+        {
+            "latitude": 32.980286099716956,
+            "longitude": -111.51100700013326,
+            "city": "Coolidge",
+            "boundary": "Merrill Ranch Pkwy To Bartlett Rd. And 7Th St To Christensen Rd",
+            "customers": 711,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-07-25 07:41:00 MST",
+            "etr": "2026-07-25 20:00:00 MST"
+        },
+        {
+            "latitude": 33.39956271196268,
+            "longitude": -110.77977061717884,
+            "city": "Globe",
+            "boundary": "Mesquite St to Cottonwood St and First St to Josephine St",
+            "customers": 121,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-25 08:13:00 MST",
+            "etr": "2026-07-25 22:00:00 MST"
+        },
+        {
+            "latitude": 33.824430000227274,
+            "longitude": -113.5408499996815,
+            "city": "Wenden",
+            "boundary": "Alamo Rd. to 69 1/2 St. and 1st St. to Wenden Dump Rd.",
+            "customers": 359,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-25 12:20:00 MST",
+            "etr": "2026-07-26 08:30:00 MST"
+        },
+        {
+            "latitude": 33.803370499862126,
+            "longitude": -113.57557989983151,
+            "city": "Wenden",
+            "boundary": "Alamo Dam To 1/2 Mi. S/O Salome Rd. And 7 Mi. W/O Hwy. 60 To 19 Mi. E/O Salome Rd.",
+            "customers": 51,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-25 12:44:00 MST",
+            "etr": "2026-07-26 08:00:00 MST"
+        },
+        {
+            "latitude": 32.692814324024944,
+            "longitude": -114.63077785899338,
+            "city": "Yuma",
+            "boundary": "19th St to 20th St and 11th Ave to 9th Ave",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-25 12:59:00 MST",
+            "etr": "2026-07-25 21:00:00 MST"
+        },
+        {
+            "latitude": 33.73408470018477,
+            "longitude": -113.52317429989183,
+            "city": "Salome",
+            "boundary": "2 Mi. N/O Salome To 19 Mi. S/E/O Salome Rd. And 7 Mi. W/O Salome To 17 Mi. E/O Salome Rd.",
+            "customers": 422,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-25 15:10:00 MST",
+            "etr": "2026-07-26 08:00:00 MST"
+        }
+    ]
+}
