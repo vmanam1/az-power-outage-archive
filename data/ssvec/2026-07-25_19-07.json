@@ -1,0 +1,122 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-07-25 19:07:06 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 67
+    },
+    "outages": [
+        {
+            "incident_id": 19690,
+            "latitude": 31.97738662221133,
+            "longitude": -110.30683482501355,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 18:57:11 MST",
+            "etr": "2026-07-25 21:57:11 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19684,
+            "latitude": 31.690902000119173,
+            "longitude": -110.3617659992364,
+            "city": "Sierra Vista",
+            "customers": 3,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 18:42:16 MST",
+            "etr": "2026-07-25 21:42:16 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19685,
+            "latitude": 32.01145500027099,
+            "longitude": -110.2783060002529,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 18:47:05 MST",
+            "etr": "2026-07-25 21:47:05 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19686,
+            "latitude": 32.01020900630651,
+            "longitude": -110.27648568182435,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 18:47:05 MST",
+            "etr": "2026-07-25 21:47:05 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19683,
+            "latitude": 32.25036276291264,
+            "longitude": -109.8308175960256,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 18:35:57 MST",
+            "etr": "2026-07-25 21:35:57 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19687,
+            "latitude": 31.685784999939813,
+            "longitude": -110.35315099948605,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 18:52:16 MST",
+            "etr": "2026-07-25 21:52:16 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19680,
+            "latitude": 32.210571129932376,
+            "longitude": -109.72331029801153,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:29:03 MST",
+            "etr": "2026-07-25 20:29:03 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19679,
+            "latitude": 31.912813000461934,
+            "longitude": -109.69582900024629,
+            "city": "Elfrida",
+            "customers": 55,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:19:48 MST",
+            "etr": "2026-07-25 20:19:48 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19688,
+            "latitude": 31.693051579583386,
+            "longitude": -110.36714310321089,
+            "city": "Sierra Vista",
+            "customers": 3,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 18:53:07 MST",
+            "etr": "2026-07-25 21:53:07 MST",
+            "restored_time": null
+        }
+    ]
+}

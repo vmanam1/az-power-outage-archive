@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-25 19:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1504
+    },
+    "outages": [
+        {
+            "latitude": 33.2917172021914,
+            "longitude": -111.634129458782,
+            "boundary": "S 88TH  ST TO S CRISMON  RD AND E WILLIAMS FIELD  RD TO E WILLIS  RD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-25 14:15 MST",
+            "etr": "2026-07-25 21:00 MST"
+        },
+        {
+            "latitude": 33.1406910805662,
+            "longitude": -111.4360976178325,
+            "boundary": "N WILDFLOWER  PKWY TO N CYPRESS  DR AND E JUDD  RD TO E MAGMA  RD",
+            "customers": 46,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-25 17:33 MST",
+            "etr": "2026-07-26 03:00 MST"
+        },
+        {
+            "latitude": 33.493237129701754,
+            "longitude": -112.227463940241,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 7,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-25 14:11 MST",
+            "etr": "2026-07-25 23:00 MST"
+        },
+        {
+            "latitude": 33.41335391998605,
+            "longitude": -112.0320706683645,
+            "boundary": "S 16TH  ST TO S 28TH  ST AND E MAGNOLIA  ST TO E ROESER  RD",
+            "customers": 352,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 16:48 MST",
+            "etr": "2026-07-25 20:30 MST"
+        },
+        {
+            "latitude": 33.390359590937905,
+            "longitude": -111.954968400056,
+            "boundary": "S WENDLER  DR TO S MILL  AVE AND W ALAMEDA  DR TO W BASELINE  RD",
+            "customers": 1095,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-25 16:45 MST",
+            "etr": "2026-07-25 20:30 MST"
+        },
+        {
+            "latitude": 33.29210126450755,
+            "longitude": -111.63468259622951,
+            "boundary": "S 88TH  ST TO S CRISMON  RD AND E WILLIAMS FIELD  RD TO E WILLIS  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-25 17:36 MST",
+            "etr": "2026-07-25 20:28 MST"
+        }
+    ]
+}
