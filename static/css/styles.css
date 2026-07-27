@@ -891,6 +891,12 @@ body.dark-theme .leaflet-control-attribution a { color: var(--text-secondary); }
 
 .pagination-controls { display: flex; gap: 4px; }
 
+.table-footnote {
+    margin-top: 10px;
+    font-size: 10.5px;
+    color: var(--text-muted);
+}
+
 .pagination-btn {
     border: 1px solid transparent;
     background: none;
