@@ -176,20 +176,28 @@ function updateLegend() {
     if (!legendItems) return;
 
     legendItems.innerHTML = '';
-    
-    // Get unique providers among current map markers or active providers
-    const activeProviders = new Set(currentOutages.map(o => o.provider));
-    
-    const providersToDisplay = activeProviders.size > 0 ? Array.from(activeProviders) : Object.keys(PROVIDER_COLORS);
+
+    // Count visible outages per provider so the legend carries information,
+    // not just color keys.
+    const counts = {};
+    currentOutages.forEach(o => {
+        counts[o.provider] = (counts[o.provider] || 0) + 1;
+    });
+
+    const providersToDisplay = Object.keys(counts).length > 0
+        ? Object.keys(counts)
+        : Object.keys(PROVIDER_COLORS);
     providersToDisplay.sort();
 
     providersToDisplay.forEach(prov => {
         const color = PROVIDER_COLORS[prov] || '#94a3b8';
+        const count = counts[prov];
         const div = document.createElement('div');
         div.className = 'legend-item';
         div.innerHTML = `
             <span class="legend-color" style="background-color: ${color}"></span>
             <span class="legend-text" style="text-transform: uppercase;">${prov}</span>
+            ${count !== undefined ? `<span class="legend-count">${count}</span>` : ''}
         `;
         legendItems.appendChild(div);
     });

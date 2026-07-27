@@ -2,6 +2,7 @@
 let customersChart = null;
 let outagesChart = null;
 let timelineChart = null;
+let timelineCustomersChart = null;
 let causeChart = null;
 let statusChart = null;
 let hourChart = null;
@@ -276,9 +277,12 @@ function updateCharts(outages, timelineData) {
         }
     });
 
-    // 6. Timeline Chart (Line Chart over Time)
+    // 6. Timeline (two stacked single-axis panels sharing one x-axis -- never
+    // a dual-axis chart: two measures of different scale get two panels).
     const ctxTimeline = document.getElementById('chart-timeline').getContext('2d');
+    const ctxTimelineCust = document.getElementById('chart-timeline-customers').getContext('2d');
     if (timelineChart) timelineChart.destroy();
+    if (timelineCustomersChart) timelineCustomersChart.destroy();
 
     if (!timelineData || timelineData.length === 0) {
         // Draw empty chart state if no data
@@ -315,79 +319,70 @@ function updateCharts(outages, timelineData) {
     const datasetOutages = timelineTimes.map(t => aggregatedTimeline[t].outages);
     const datasetCustomers = timelineTimes.map(t => aggregatedTimeline[t].customers);
 
+    // Shared options for the two panels; each has ONE series, so the panel
+    // caption (in the HTML) names it and no legend box is needed.
+    const heroLineOptions = (showXTicks, valueLabel) => ({
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+            legend: { display: false },
+            tooltip: {
+                callbacks: {
+                    label: (ctx) => ` ${ctx.raw.toLocaleString()} ${valueLabel}`
+                }
+            }
+        },
+        scales: {
+            x: {
+                grid: { display: false },
+                ticks: {
+                    display: showXTicks,
+                    color: theme.textColor,
+                    maxRotation: 0,
+                    font: { family: 'Inter', size: 9 },
+                    autoSkip: true,
+                    maxTicksLimit: 10
+                }
+            },
+            y: {
+                grid: { color: theme.gridColor },
+                ticks: { color: theme.textColor, font: { family: 'Inter', size: 9 }, precision: 0, maxTicksLimit: 4 }
+            }
+        }
+    });
+
+    const heroLine = (data, color, fillAlpha) => ({
+        data,
+        borderColor: color,
+        backgroundColor: fillAlpha,
+        borderWidth: 2,
+        tension: 0.25,
+        pointRadius: 0,
+        pointHitRadius: 8,
+        fill: true
+    });
+
+    const accent = theme.isDark ? '#7b8cf0' : '#4f63d2';
+    const accentFill = theme.isDark ? 'rgba(123, 140, 240, 0.12)' : 'rgba(79, 99, 210, 0.08)';
+    const green = theme.isDark ? '#34c48f' : '#1a9e6e';
+    const greenFill = theme.isDark ? 'rgba(52, 196, 143, 0.12)' : 'rgba(26, 158, 110, 0.08)';
+
     timelineChart = new Chart(ctxTimeline, {
         type: 'line',
         data: {
             labels: timeLabels,
-            datasets: [
-                {
-                    label: 'Active Outages',
-                    data: datasetOutages,
-                    borderColor: '#2563eb',
-                    backgroundColor: 'rgba(37, 99, 235, 0.05)',
-                    yAxisID: 'yOutages',
-                    borderWidth: 2,
-                    tension: 0.1,
-                    pointRadius: timeLabels.length > 50 ? 0 : 2,
-                    fill: true
-                },
-                {
-                    label: 'Customers Affected',
-                    data: datasetCustomers,
-                    borderColor: '#10b981',
-                    backgroundColor: 'rgba(16, 185, 129, 0.05)',
-                    yAxisID: 'yCustomers',
-                    borderWidth: 2,
-                    tension: 0.1,
-                    pointRadius: timeLabels.length > 50 ? 0 : 2,
-                    fill: true
-                }
-            ]
+            datasets: [{ label: 'Active outages', ...heroLine(datasetOutages, accent, accentFill) }]
         },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            interaction: {
-                mode: 'index',
-                intersect: false
-            },
-            plugins: {
-                legend: {
-                    position: 'top',
-                    labels: {
-                        color: theme.textColor,
-                        font: { family: 'Inter', size: 10 },
-                        boxWidth: 12
-                    }
-                }
-            },
-            scales: {
-                x: {
-                    grid: { display: false },
-                    ticks: {
-                        color: theme.textColor,
-                        maxRotation: 45,
-                        font: { family: 'Inter', size: 9 },
-                        maxTicksLimit: 12
-                    }
-                },
-                yOutages: {
-                    type: 'linear',
-                    display: true,
-                    position: 'left',
-                    grid: { color: theme.gridColor },
-                    ticks: { color: theme.textColor, font: { family: 'Inter', size: 9 } },
-                    title: { display: true, text: 'Active Outages', color: theme.textColor, font: { family: 'Inter', size: 10, weight: 'bold' } }
-                },
-                yCustomers: {
-                    type: 'linear',
-                    display: true,
-                    position: 'right',
-                    grid: { drawOnChartArea: false },
-                    ticks: { color: theme.textColor, font: { family: 'Inter', size: 9 } },
-                    title: { display: true, text: 'Customers Affected', color: theme.textColor, font: { family: 'Inter', size: 10, weight: 'bold' } }
-                }
-            }
-        }
+        options: heroLineOptions(false, 'active outages')
+    });
+
+    timelineCustomersChart = new Chart(ctxTimelineCust, {
+        type: 'line',
+        data: {
+            labels: timeLabels,
+            datasets: [{ label: 'Customers affected', ...heroLine(datasetCustomers, green, greenFill) }]
+        },
+        options: heroLineOptions(true, 'customers affected')
     });
 }
