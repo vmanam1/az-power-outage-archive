@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-07-27 09:07:33 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 805
+    },
+    "outages": [
+        {
+            "incident_id": 19708,
+            "latitude": 31.87535417380467,
+            "longitude": -110.24012882321134,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 08:50:47 MST",
+            "etr": "2026-07-27 11:50:47 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19679,
+            "latitude": 31.934552982820158,
+            "longitude": -109.66148750613786,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:19:48 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 19709,
+            "latitude": 31.875354196367205,
+            "longitude": -110.24008976130891,
+            "city": "Benson",
+            "customers": 243,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 08:50:47 MST",
+            "etr": "2026-07-27 11:50:47 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19710,
+            "latitude": 31.875354218521867,
+            "longitude": -110.24005138537056,
+            "city": "Benson",
+            "customers": 552,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 08:50:47 MST",
+            "etr": "2026-07-27 11:50:47 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19707,
+            "latitude": 31.875354151471452,
+            "longitude": -110.2401674676163,
+            "city": "Benson",
+            "customers": 8,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 08:50:47 MST",
+            "etr": "2026-07-27 11:50:47 MST",
+            "restored_time": null
+        }
+    ]
+}

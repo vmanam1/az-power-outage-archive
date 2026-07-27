@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-27 09:07:33 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.5641193532233,
+            "longitude": -112.05416370224472,
+            "city": "Phoenix",
+            "boundary": "Alice Ave. to Ruth Ave.",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-27 01:04:00 MST",
+            "etr": "2026-07-27 04:30:00 MST"
+        }
+    ]
+}
