@@ -4,6 +4,7 @@ import io
 import logging
 from datetime import datetime
 from flask import Flask, jsonify, request, render_template, Response
+from flask_compress import Compress
 
 from dashboard.archive_reader import scan_archive, archive_fingerprint
 from dashboard.filters import apply_filters, strip_tz
@@ -20,6 +21,18 @@ app = Flask(__name__, template_folder="templates", static_folder="static")
 # as phantom frontend errors; conditional requests (304s) keep this cheap on
 # the LAN.
 app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0
+
+# Compress JSON/HTML responses. The timeline payload alone is hundreds of KB
+# of highly repetitive JSON and shrinks about 10x under gzip.
+Compress(app)
+
+
+@app.after_request
+def apply_security_headers(response):
+    response.headers.setdefault("X-Content-Type-Options", "nosniff")
+    response.headers.setdefault("X-Frame-Options", "DENY")
+    response.headers.setdefault("Referrer-Policy", "same-origin")
+    return response
 
 # Environment configurations with safe defaults
 HOST = os.environ.get("HOST", "0.0.0.0")
@@ -318,4 +331,10 @@ def export_csv():
 
 if __name__ == "__main__":
     logger.info(f"Starting Arizona Power Outage Explorer on {HOST}:{PORT}")
-    app.run(host=HOST, port=PORT, debug=FLASK_DEBUG)
+    if FLASK_DEBUG:
+        # Development only: auto-reload + debugger.
+        app.run(host=HOST, port=PORT, debug=True)
+    else:
+        # Production-grade WSGI server (threaded, no dev-server caveats).
+        from waitress import serve
+        serve(app, host=HOST, port=PORT, threads=8)

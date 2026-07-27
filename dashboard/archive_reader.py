@@ -2,6 +2,7 @@ import os
 import json
 import logging
 import threading
+import time
 from datetime import datetime
 from dashboard.cache import global_cache
 from dashboard.normalizer import normalize_outage, normalize_time
@@ -24,6 +25,50 @@ class DataQualityStats:
         self.invalid_coords = 0
         self.total_snapshots = 0
 
+# The fingerprint is consulted on every API request (a page load fires four
+# at once), and the archive gains ~200 files a day forever. Two mitigations
+# keep it cheap as the tree grows: os.scandir with DirEntry.stat() (far fewer
+# syscalls than os.walk + per-path getmtime), and a short TTL memo that
+# collapses same-page-load bursts into one sweep. The memo means a brand-new
+# change can take up to _FINGERPRINT_TTL_SECONDS to be noticed -- irrelevant
+# at the frontend's 60s polling cadence; tests that need exact immediacy set
+# the TTL to 0.
+_FINGERPRINT_TTL_SECONDS = 2.0
+_fingerprint_cache = {}
+_fingerprint_lock = threading.Lock()
+
+
+def _compute_fingerprint(data_dir):
+    file_count = 0
+    max_mtime = 0.0
+    if not os.path.exists(data_dir):
+        return file_count, max_mtime
+
+    try:
+        with os.scandir(data_dir) as top:
+            provider_dirs = [e.path for e in top if e.is_dir() and not e.name.startswith(".")]
+    except OSError:
+        return file_count, max_mtime
+
+    for provider_dir in provider_dirs:
+        try:
+            with os.scandir(provider_dir) as inner:
+                for f in inner:
+                    if not f.name.endswith(".json"):
+                        continue
+                    file_count += 1
+                    try:
+                        mtime = f.stat().st_mtime
+                        if mtime > max_mtime:
+                            max_mtime = mtime
+                    except OSError:
+                        pass
+        except OSError:
+            continue
+
+    return file_count, max_mtime
+
+
 def archive_fingerprint(data_dir="data"):
     """
     Returns a cheap (json_file_count, max_mtime) fingerprint of the archive.
@@ -31,23 +76,16 @@ def archive_fingerprint(data_dir="data"):
     which is used both to invalidate the scan cache and to power the
     frontend's lightweight update polling.
     """
-    file_count = 0
-    max_mtime = 0.0
-    if not os.path.exists(data_dir):
-        return file_count, max_mtime
+    now = time.monotonic()
+    with _fingerprint_lock:
+        cached = _fingerprint_cache.get(data_dir)
+        if cached and now - cached[0] < _FINGERPRINT_TTL_SECONDS:
+            return cached[1]
 
-    for root, _, files in os.walk(data_dir):
-        for f in files:
-            if f.endswith(".json"):
-                file_count += 1
-                try:
-                    mtime = os.path.getmtime(os.path.join(root, f))
-                    if mtime > max_mtime:
-                        max_mtime = mtime
-                except OSError:
-                    pass
-
-    return file_count, max_mtime
+    result = _compute_fingerprint(data_dir)
+    with _fingerprint_lock:
+        _fingerprint_cache[data_dir] = (now, result)
+    return result
 
 def parse_filename_time(filename):
     """

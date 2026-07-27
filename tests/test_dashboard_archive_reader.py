@@ -131,6 +131,14 @@ class TestDashboardArchiveReader(unittest.TestCase):
             self.assertEqual(snapshots[0]["scraped_at"], "2026-07-14 23:45:00 MST")
 
     def test_cache_invalidation_after_change(self):
+        # The fingerprint memo trades up to ~2s of staleness for speed; this
+        # test needs exact immediacy, so disable the memo for its duration.
+        import dashboard.archive_reader as archive_reader
+        original_ttl = archive_reader._FINGERPRINT_TTL_SECONDS
+        archive_reader._FINGERPRINT_TTL_SECONDS = 0
+        self.addCleanup(
+            setattr, archive_reader, "_FINGERPRINT_TTL_SECONDS", original_ttl
+        )
         with tempfile.TemporaryDirectory() as temp_dir:
             prov_dir = os.path.join(temp_dir, "ssvec")
             os.makedirs(prov_dir)
