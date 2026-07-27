@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-07-27 13:07:31 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 424,
+        "total_customers": 36412
+    },
+    "outages": [
+        {
+            "latitude": 33.06280193648842,
+            "longitude": -112.06300602371064,
+            "boundary": "BKR-MW135",
+            "customers": 410,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-07-27 11:54:33 MST",
+            "etr": null,
+            "pole_number": "MAW135"
+        },
+        {
+            "latitude": 33.056533835884274,
+            "longitude": -112.06330363910021,
+            "boundary": null,
+            "customers": 8,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-07-27 12:59:39 MST",
+            "etr": null,
+            "pole_number": "TF00008"
+        },
+        {
+            "latitude": 33.04872108610163,
+            "longitude": -112.05085083701974,
+            "boundary": null,
+            "customers": 6,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-07-27 13:00:40 MST",
+            "etr": null,
+            "pole_number": "TF00447"
+        }
+    ]
+}
