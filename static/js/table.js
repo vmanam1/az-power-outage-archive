@@ -143,9 +143,9 @@ function renderTable() {
         tr.innerHTML = `
             <td><span class="provider-tag provider-${outage.provider}">${outage.provider}</span></td>
             <td class="numeric"><strong>${outage.customers.toLocaleString()}</strong></td>
-            <td>${outage.cause || '<span class="text-muted">Unknown</span>'}</td>
+            <td>${outage.cause || '<span class="text-muted">Not specified</span>'}</td>
             <td>${outage.start_time || '<span class="text-muted">N/A</span>'}</td>
-            <td>${outage.etr || '<span class="text-muted">N/A</span>'}</td>
+            <td>${outage.etr || '<span class="text-muted">ETR not specified by provider</span>'}</td>
             <td>${outage.city || '<span class="text-muted">N/A</span>'}</td>
             <td>${outage.boundary || '<span class="text-muted">N/A</span>'}</td>
             <td class="numeric">${locationText}</td>

@@ -16,12 +16,12 @@ Every hour a collector — a Raspberry Pi running on a systemd timer — polls n
 | `tep` | Tucson Electric Power | [TEP Outages](https://www.tep.com/outages/) | Map feed API |
 | `ues` | UniSource Energy Services | [UES Electric Outage Map](https://www.uesaz.com/electric-outage-map/) | Map feed API (shares TEP's backend) |
 | `ssvec` | Sulphur Springs Valley Electric Cooperative | [SSVEC Outage Center](https://www.ssvec.org/outage/) | ArcGIS REST API |
-| `trico` | Trico Electric Cooperative | [Trico Outage Map](https://ebill.trico.org/maps/Trico_External/OutageWebMap/) | NISC map (browser-rendered) |
+| `trico` | Trico Electric Cooperative | [Trico Outage Map](https://trico.outagemap.coop/) | NISC hosted outage map (JSON) |
 | `ed3` | Electrical District No. 3 | [ED3 Outage Map](https://ww3.ed3online.org/OMSWebMap/OMSWebMap.htm) | XML service |
-| `mohave` | Mohave Electric Cooperative | [Mohave Outage Map](https://ebill.mohaveelectric.com/maps/OutageWebMap/) | NISC map (browser-rendered) |
-| `navopache` | Navopache Electric Cooperative | [Navopache Outage Map](https://ebill1.navopache.org/maps/OutageWebMap/) | NISC map (browser-rendered) |
+| `mohave` | Mohave Electric Cooperative | [Mohave Outage Map](https://mohaveelectric.outagemap.coop/) | NISC hosted outage map (JSON) |
+| `navopache` | Navopache Electric Cooperative | [Navopache Outage Map](https://navopache.outagemap.coop/) | NISC hosted outage map (JSON) |
 
-Most of these hand out JSON or XML if you ask the right endpoint. The three co-ops on NISC's platform (Trico, Mohave, Navopache) don't — their outage details only exist as popup cards drawn by JavaScript, so those collectors drive a headless Chrome via Selenium to read what a person would see on the map. That's also why Chrome is only needed if you're running those three.
+Every provider hands out JSON or XML if you ask the right endpoint — including the three co-ops on NISC's platform (Trico, Mohave, Navopache), whose hosted outage maps read static JSON from `outagemap-data.cloud.coop`. Each outage there carries its coordinates as Web Mercator offsets from the map's configured extent, which the collector converts back to latitude/longitude (the decode matches the utilities' own map markers exactly). Earlier versions drove the legacy NISC maps with headless Chrome + Selenium; that dependency is gone.
 
 ## How collection works
 
@@ -62,7 +62,7 @@ Below the map are two per-provider breakdowns (customers affected and outage cou
 
 ## Running it yourself
 
-You'll need Python 3.11+ and `pip`. Chrome is only required if you want to run the three NISC collectors. Live collection and the dashboard's map tiles both need internet; the archived JSON itself is read locally.
+You'll need Python 3.11+ and `pip`. Live collection and the dashboard's map tiles both need internet; the archived JSON itself is read locally.
 
 ```bash
 git clone https://github.com/vmanam1/az-power-outage-archive.git
@@ -215,9 +215,9 @@ A Pi (or any small Linux box) is enough to run both the collector and the dashbo
 
 ### The collector
 
-This is what actually produces the archive. Alongside Python you need a system Chromium and a *matching* chromedriver for the three NISC providers — on Debian / Raspberry Pi OS that's `sudo apt install chromium chromium-driver` (keep the two at the same version). Selenium Manager can't fetch an arm64 driver, so the scraper points at them explicitly through the `CHROME_BIN` and `CHROMEDRIVER_PATH` environment variables. Clone the repo, create a venv, install `requirements.txt`, and give the Pi push access with a repo **deploy key** — an SSH key added under the repo's Settings → Deploy keys with write access.
+This is what actually produces the archive — plain Python and HTTP, no browser required. Clone the repo, create a venv, install `requirements.txt`, and give the Pi push access with a repo **deploy key** — an SSH key added under the repo's Settings → Deploy keys with write access.
 
-Sample units live in `deploy/systemd/`. The service sets the venv interpreter, the Chromium/driver paths, and an optional private env file for the healthchecks ping; edit the `User=` and hard-coded paths to match your layout:
+Sample units live in `deploy/systemd/`. The service sets the venv interpreter and an optional private env file for the healthchecks ping; edit the `User=` and hard-coded paths to match your layout:
 
 ```bash
 # point git at the deploy key and use SSH
@@ -269,7 +269,7 @@ az-power-outage-archive/
 
 ## Built with
 
-Python and Flask on the backend; Requests for the JSON/XML collectors and Selenium + headless Chrome for the NISC maps. The frontend is vanilla JavaScript with Leaflet (and markercluster) for the map and Chart.js for the charts. A Raspberry Pi on a systemd timer runs the hourly collection (with GitHub Actions as a manual fallback), GitHub Actions runs CI, healthchecks.io watches the collector, and the archive itself is just JSON in Git.
+Python and Flask on the backend; Requests for all nine collectors. The frontend is vanilla JavaScript with Leaflet (and markercluster) for the map and Chart.js for the charts. A Raspberry Pi on a systemd timer runs the hourly collection (with GitHub Actions as a manual fallback), GitHub Actions runs CI, healthchecks.io watches the collector, and the archive itself is just JSON in Git.
 
 ## Known limits
 

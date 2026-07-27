@@ -1,8 +1,9 @@
-from providers.nisc import NISCOutageProvider
+from providers.coop import CoopOutageMapProvider
 
 
-class NavopacheProvider(NISCOutageProvider):
-    MAP_URL = "https://ebill1.navopache.org/maps/OutageWebMap/"
+class NavopacheProvider(CoopOutageMapProvider):
+    # https://navopache.outagemap.coop
+    SLUG = "navopache"
 
     def __init__(self):
         super().__init__("navopache")

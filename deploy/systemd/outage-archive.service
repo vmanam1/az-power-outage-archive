@@ -10,10 +10,6 @@ User=leaps-admin
 WorkingDirectory=/home/leaps-admin/az-power-outage-archive
 # venv interpreter so the pinned selenium/requests are used
 Environment=PYTHON=/home/leaps-admin/az-power-outage-archive/venv/bin/python
-# System Chromium + matching chromedriver for the Selenium (NISC) providers.
-# Selenium Manager cannot fetch an arm64 driver, so these must be explicit.
-Environment=CHROME_BIN=/usr/bin/chromium
-Environment=CHROMEDRIVER_PATH=/usr/bin/chromedriver
 # Private, uncommitted overrides (e.g. HEALTHCHECK_URL for the dead-man's-switch
 # ping). Leading "-" makes it optional so the unit still starts if absent.
 EnvironmentFile=-/etc/default/outage-archive

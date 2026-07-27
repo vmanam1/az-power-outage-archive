@@ -93,9 +93,9 @@ function buildPopupHtml(outage) {
     
     const fields = [
         { label: 'Customers Affected', val: outage.customers },
-        { label: 'Cause', val: outage.cause },
+        { label: 'Cause', val: outage.cause || 'Not specified' },
         { label: 'Outage Start', val: outage.start_time },
-        { label: 'Estimated Restoration', val: outage.etr },
+        { label: 'Estimated Restoration', val: outage.etr || 'ETR not specified by provider' },
         { label: 'Restored Time', val: outage.restored_time },
         { label: 'Snapshot Time', val: outage.snapshot_time },
         { label: 'City / Region', val: outage.city },

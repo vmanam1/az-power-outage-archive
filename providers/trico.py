@@ -1,8 +1,9 @@
-from providers.nisc import NISCOutageProvider
+from providers.coop import CoopOutageMapProvider
 
 
-class TricoProvider(NISCOutageProvider):
-    MAP_URL = "https://ebill.trico.org/maps/Trico_External/OutageWebMap/"
+class TricoProvider(CoopOutageMapProvider):
+    # https://trico.outagemap.coop
+    SLUG = "trico"
 
     def __init__(self):
         super().__init__("trico")

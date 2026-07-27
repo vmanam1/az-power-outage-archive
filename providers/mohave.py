@@ -1,8 +1,9 @@
-from providers.nisc import NISCOutageProvider
+from providers.coop import CoopOutageMapProvider
 
 
-class MohaveProvider(NISCOutageProvider):
-    MAP_URL = "https://ebill.mohaveelectric.com/maps/OutageWebMap/"
+class MohaveProvider(CoopOutageMapProvider):
+    # https://mohaveelectric.outagemap.coop
+    SLUG = "mohaveelectric"
 
     def __init__(self):
         super().__init__("mohave")
