@@ -29,7 +29,7 @@ Each provider is its own class under `providers/`, and they all share a small co
 
 The runner (`scripts/run.py`) fetches every provider in turn and keeps going if one blows up, so a single flaky endpoint never throws away the good snapshots from the other eight. It does exit non-zero at the end if any provider failed — but the collector commits the snapshots that did succeed first, and treats that exit code separately from whether the run is *healthy* (see [Automation](#automation)).
 
-One snapshot is only written when a provider's outages have actually changed since the last one. An hour where nothing moved doesn't add a duplicate file — the runner compares the new outage payload against the most recent snapshot and skips the write if they match. All providers in a single run also share one timestamp, so a given run's files line up to the minute instead of drifting apart while the slower browser-based collectors finish.
+Every run archives one snapshot per provider — even when nothing changed since the last hour — so the archive has a regular, complete hourly cadence you can reason over (a flat line is data too). All providers in a single run share one timestamp, so a given run's files line up to the minute. If you'd rather skip identical snapshots, `save_snapshot(..., dedupe=True)` restores the old skip-unchanged behavior.
 
 ## The dashboard
 
@@ -37,7 +37,11 @@ The Explorer reads the archive directly from the filesystem. There's no database
 
 ### Map
 
-An OpenStreetMap-backed Leaflet map centered on Arizona. Markers are colored by utility and sized (on a log scale) by customers affected, clustered when they're dense, and clickable for the full outage detail. Rows in the table below link back to their marker. Records that came in without usable coordinates can't be plotted, but they still count toward the totals and show up in the table so they don't silently vanish.
+A Leaflet map centered on Arizona, on CARTO basemaps that follow the dashboard's light/dark theme (Positron in light mode, Dark Matter in dark; map data © OpenStreetMap contributors). Markers are colored by utility and sized (on a log scale) by customers affected, clustered when they're dense, and clickable for the full outage detail. Rows in the table below link back to their marker. Records that came in without usable coordinates can't be plotted, but they still count toward the totals and show up in the table so they don't silently vanish.
+
+### Derived regions
+
+Only some utilities publish a city or region with each outage. When one doesn't, the dashboard derives it from the coordinates at read time: `dashboard/geo.py` finds the nearest Arizona place (US Census 2023 gazetteer — 467 incorporated places and CDPs, committed as `dashboard/az_places.json`) within 50 km, entirely offline. Derived names are always marked with a leading **≈** ("≈ Marana") so they're never mistaken for utility-published ones, and utility-published names are kept verbatim. Because this happens at read time, the whole archive — past and future — gets regions, while the snapshot files keep exactly what each utility published. Similarly, a missing cause displays as *Not specified* and a missing restoration estimate as *ETR not specified by provider*, so blank cells never leave you guessing whether data was dropped.
 
 ### Display modes
 
@@ -58,7 +62,7 @@ You can narrow any mode by provider, snapshot date range, time-of-day window, cu
 
 ### Charts, table, and export
 
-Below the map are two per-provider breakdowns (customers affected and outage count) and a timeline of outages and customers over the matching snapshots. The table is searched, sorted, and paginated entirely in the browser, and there's a light/dark theme that sticks in local storage. **Export CSV** hands you exactly the filtered set you're looking at — provider, customer count, cause and comments, the outage lifecycle timestamps, coordinates, city/boundary, provider IDs, division, and snapshot time.
+Six charts sit below the map, all driven by the current filter selection: customers affected by provider, outage records by provider, top causes (grouped case-insensitively, with every weather/storm spelling folded into one *Weather* bucket), active vs. restored, outage starts by hour of day, and a timeline of outages and customers over the matching snapshots. The table is searched, sorted, and paginated entirely in the browser, and there's a light/dark theme that sticks in local storage. **Export CSV** hands you exactly the filtered set you're looking at — provider, customer count, cause and comments, the outage lifecycle timestamps, coordinates, city/boundary, provider IDs, division, and snapshot time.
 
 ## Running it yourself
 
@@ -193,7 +197,7 @@ A snapshot is metadata, a summary, and the outage list:
 }
 ```
 
-Which fields an outage carries depends on the source. Beyond the ones above you'll see `comments`, `restored_time`, `last_update`, `city`, `boundary`, `incident_id`, `pole_number`, `event`, `division`, and `customers_restored` when a utility provides them.
+Which fields an outage carries depends on the source. Beyond the ones above you'll see `comments`, `restored_time`, `last_update`, `city`, `boundary`, `incident_id`, `pole_number`, `event`, `division`, and `customers_restored` when a utility provides them, and `summary.total_customers` (the utility's total meter count) where the feed reports it. The files store only what the utility published — the dashboard's derived `≈` regions are computed at read time and never written back.
 
 Most of Arizona doesn't observe daylight saving, so every timestamp is normalized to Arizona time and labeled `MST` (UTC-7), and that's what the dashboard's comparisons and display modes run on.
 
@@ -203,7 +207,7 @@ When the dashboard reads old files it's forgiving: unparseable JSON is skipped a
 
 Collection and CI live in two different places.
 
-**Hourly collection runs on a Raspberry Pi.** A systemd timer (`deploy/systemd/outage-archive.timer`) fires at minute 7 of every hour and runs `scripts/collect.sh`, which scrapes all nine providers, commits whatever new snapshots came out of the run, and pushes them to GitHub over SSH using a repo deploy key. The snapshots therefore live in two places — on the Pi and in this repo. If a push is rejected because the remote moved, the script rebases and retries so the Pi never ends up diverged, and `Persistent=true` on the timer means a run missed while the Pi was off is picked up as soon as it's back. Because the collector commits before it inspects the exit code, the snapshots from providers that succeeded still get committed even when one collector (typically a browser-based NISC co-op whose server is hanging) takes the overall run's exit code non-zero.
+**Hourly collection runs on a Raspberry Pi.** A systemd timer (`deploy/systemd/outage-archive.timer`) fires at minute 7 of every hour and runs `scripts/collect.sh`, which scrapes all nine providers, commits whatever new snapshots came out of the run, and pushes them to GitHub over SSH using a repo deploy key. The snapshots therefore live in two places — on the Pi and in this repo. If a push is rejected because the remote moved, the script rebases and retries so the Pi never ends up diverged, and `Persistent=true` on the timer means a run missed while the Pi was off is picked up as soon as it's back. Because the collector commits before it inspects the exit code, the snapshots from providers that succeeded still get committed even when one provider's upstream failure takes the overall run's exit code non-zero.
 
 **Failure alerting is a dead-man's-switch**, not a per-failure alarm. On each run the collector pings a [healthchecks.io](https://healthchecks.io) check — a success ping when it ran and pushed, a failure ping if the push couldn't complete. The ping is deliberately independent of whether any single utility was reachable, so an upstream outage never raises a false alarm; you only get an email when a ping actually goes *missing*, i.e. the Pi itself stopped collecting (offline, hung, disk full, broken credentials). The ping URL is injected from a private, uncommitted env file on the Pi (`/etc/default/outage-archive`) rather than stored in this public repo.
 
@@ -211,7 +215,7 @@ Collection and CI live in two different places.
 
 ## Running on a Raspberry Pi
 
-A Pi (or any small Linux box) is enough to run both the collector and the dashboard. In the live setup the Pi is the collector.
+A Pi (or any small Linux box) is enough to run both the collector and the dashboard — the live setup runs both on one Pi, each as its own systemd unit.
 
 ### The collector
 
@@ -236,17 +240,15 @@ Check on it with `systemctl status outage-archive.service`, `systemctl list-time
 
 ### The dashboard
 
-Optional, and independent of the collector — it only *reads* the archive, so it can run on the Pi or anywhere else. There's a sample unit at `deployment/az-outage-dashboard.service.example`:
+Independent of the collector — it only *reads* the archive, so it can run on the Pi or anywhere else. The unit used in the live setup is `deploy/systemd/outage-dashboard.service` (auto-restarts on failure, starts at boot); edit `User=` and the paths for your layout:
 
 ```bash
-cp deployment/az-outage-dashboard.service.example deployment/az-outage-dashboard.service
-# edit User, WorkingDirectory, and ExecStart for your setup
-sudo cp deployment/az-outage-dashboard.service /etc/systemd/system/
+sudo cp deploy/systemd/outage-dashboard.service /etc/systemd/system/
 sudo systemctl daemon-reload
-sudo systemctl enable --now az-outage-dashboard.service
+sudo systemctl enable --now outage-dashboard.service
 ```
 
-Check on it with `systemctl status az-outage-dashboard.service` and `journalctl -u az-outage-dashboard.service -f`.
+Check on it with `systemctl status outage-dashboard.service` and `journalctl -u outage-dashboard.service -f`. (A generic template also lives at `deployment/az-outage-dashboard.service.example`.)
 
 That said, `app.py` runs Flask's development server, which is fine on a trusted network but not something to expose directly. If you're putting it on the public internet, front it with a real WSGI server behind an HTTPS reverse proxy, add whatever access control makes sense, and — again — leave debug mode off.
 
@@ -255,10 +257,10 @@ That said, `app.py` runs Flask's development server, which is fine on a trusted 
 ```text
 az-power-outage-archive/
 ├── .github/workflows/   # Test CI + fallback collection workflow
-├── dashboard/           # Archive scanning, caching, normalization, filters
+├── dashboard/           # Archive scanning, caching, normalization, filters, region lookup
 ├── data/                # The snapshots, grouped by provider
-├── deploy/systemd/      # Pi collector: systemd service + hourly timer
-├── deployment/          # Example dashboard systemd unit
+├── deploy/systemd/      # Pi units: collector service + hourly timer + dashboard service
+├── deployment/          # Generic example dashboard unit
 ├── providers/           # One collector per utility + shared validation
 ├── scripts/             # Runner, Pi collector (collect.sh), HTTP retry, archive writer, launcher
 ├── static/              # Dashboard CSS and JavaScript
@@ -273,7 +275,7 @@ Python and Flask on the backend; Requests for all nine collectors. The frontend 
 
 ## Known limits
 
-This can only preserve what utilities choose to publish — they routinely round customer counts, generalize locations, or leave small incidents off the map entirely, and none of that is recoverable after the fact. Public endpoints also change without warning and occasionally break a collector until it's fixed. Keep in mind that a historical-mode row is an observation at a snapshot, not necessarily a distinct outage; unique mode does its best to reconcile them but won't be perfect. And a zero customer count can mean a genuine zero or just missing source data, since normalization treats both the same way.
+This can only preserve what utilities choose to publish — they routinely round customer counts, generalize locations, or leave small incidents off the map entirely, and none of that is recoverable after the fact. Public endpoints also change without warning and occasionally break a collector until it's fixed. Keep in mind that a historical-mode row is an observation at a snapshot, not necessarily a distinct outage; unique mode does its best to reconcile them but won't be perfect. A zero customer count can mean a genuine zero or just missing source data, since normalization treats both the same way. And a derived `≈` region is a nearest-place estimate from coordinates — near a boundary between two towns it can name the neighbor, which is why it's marked rather than presented as fact.
 
 ## Contributing
 
