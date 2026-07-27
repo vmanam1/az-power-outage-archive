@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-27 14:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.451999253678785,
+            "longitude": -112.12006138779577,
+            "city": "Phoenix",
+            "boundary": "Melvin St to Van Buren St and 28th Dr to 27th Dr",
+            "customers": 24,
+            "cause": "Fire",
+            "comments": "An issue affecting electrical equipment in the area has resulted in a power outage. Our crews are actively working to restore service  and we appreciate your patience as we complete repairs safely.",
+            "start_time": "2026-07-27 06:23:00 MST",
+            "etr": "2026-07-27 09:30:00 MST"
+        }
+    ]
+}
