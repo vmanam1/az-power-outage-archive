@@ -241,16 +241,24 @@ function getActiveFilterQueryString() {
     return params.toString();
 }
 
+let fetchSeq = 0;
+
 async function fetchData() {
+    // Requests can overlap (reset clicks, auto-refresh polling); only the
+    // newest one is allowed to render, so stale responses are discarded
+    // instead of racing each other in the charts and table.
+    const seq = ++fetchSeq;
+
     // Show Loading indicator state (cards, tables)
     setLoadingState(true);
 
     const query = getActiveFilterQueryString();
-    
+
     // Update browser URL query params
     const newUrl = `${window.location.pathname}?${query}`;
     window.history.replaceState({ path: newUrl }, '', newUrl);
 
+    let outagesData, timelineData;
     try {
         // Fetch outages and timeline data concurrently
         const [outagesRes, timelineRes] = await Promise.all([
@@ -259,12 +267,23 @@ async function fetchData() {
         ]);
 
         if (!outagesRes.ok || !timelineRes.ok) {
-            throw new Error('Server returned error response');
+            throw new Error(`server responded ${outagesRes.status}/${timelineRes.status}`);
         }
 
-        const outagesData = await outagesRes.json();
-        const timelineData = await timelineRes.json();
+        outagesData = await outagesRes.json();
+        timelineData = await timelineRes.json();
+    } catch (e) {
+        console.error('Query failed:', e);
+        if (seq === fetchSeq) {
+            showToast('Query Error', `Could not load outage data (${e.message}).`, 'danger');
+        }
+        setLoadingState(false);
+        return;
+    }
 
+    if (seq !== fetchSeq) return; // superseded by a newer request
+
+    try {
         // Save globally so we can refresh on dark theme toggle
         window.latestOutages = outagesData.outages || [];
         window.latestTimeline = timelineData || [];
@@ -286,10 +305,11 @@ async function fetchData() {
         if (typeof updateTableData === 'function') {
             updateTableData(outagesData.outages);
         }
-
     } catch (e) {
-        console.error(e);
-        showToast('Query Error', 'Failed to retrieve outage records matching the current filters.', 'danger');
+        // A rendering failure is not a data failure -- name the real error so
+        // it can actually be diagnosed instead of blaming the query.
+        console.error('Render failed:', e);
+        showToast('Display Error', `Data loaded, but rendering failed: ${e.message}`, 'warning');
     } finally {
         setLoadingState(false);
     }

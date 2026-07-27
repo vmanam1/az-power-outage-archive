@@ -1,5 +1,5 @@
-import os
 import csv
+import os
 import io
 import logging
 from datetime import datetime
@@ -14,6 +14,12 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(
 logger = logging.getLogger("outage_dashboard")
 
 app = Flask(__name__, template_folder="templates", static_folder="static")
+
+# Serve JS/CSS without a browser cache lifetime. Flask's 12-hour default let
+# browsers keep running stale scripts for hours after a deploy, which surfaced
+# as phantom frontend errors; conditional requests (304s) keep this cheap on
+# the LAN.
+app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0
 
 # Environment configurations with safe defaults
 HOST = os.environ.get("HOST", "0.0.0.0")
