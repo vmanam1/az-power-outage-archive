@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-27 16:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 43
+    },
+    "outages": [
+        {
+            "latitude": 34.528422494992554,
+            "longitude": -112.22233137680554,
+            "city": "Dewey",
+            "boundary": "Cherry Creek Ranch to Sheperd Run Dr and Foothill Dr",
+            "customers": 43,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 07:47:00 MST",
+            "etr": "2026-07-27 10:40:00 MST"
+        }
+    ]
+}
