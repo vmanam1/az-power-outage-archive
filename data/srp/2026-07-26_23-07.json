@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-26 23:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 33.503566588835795,
+            "longitude": -112.288637553381,
+            "boundary": "N 111TH  AVE TO N 103RD  AVE AND W CAMELBACK  RD TO W INDIAN SCHOOL  RD",
+            "customers": 19,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-26 18:52 MST",
+            "etr": "2026-07-27 03:28 MST"
+        },
+        {
+            "latitude": 33.354853152581654,
+            "longitude": -111.97386858012351,
+            "boundary": "S 48TH  ST TO S MARICOPA  FWY AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-26 16:41 MST",
+            "etr": "2026-07-27 04:00 MST"
+        },
+        {
+            "latitude": 33.450045856582605,
+            "longitude": -112.3208298224115,
+            "boundary": "N DYSART  RD TO N 119TH  AVE AND W PAPAGO  FWY TO W BUCKEYE  RD",
+            "customers": 6,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-26 17:16 MST",
+            "etr": "2026-07-27 03:30 MST"
+        },
+        {
+            "latitude": 33.379935528975,
+            "longitude": -111.792485519943,
+            "boundary": "S HARRIS  DR TO S GILBERT  RD AND E SUPERSTITION  FWY TO W HOUSTON  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-26 22:14 MST",
+            "etr": "2026-07-27 04:00 MST"
+        },
+        {
+            "latitude": 33.38790989732915,
+            "longitude": -111.975810278203,
+            "boundary": "S 44TH  ST TO S WENDLER  DR AND W SOUTHERN  AVE TO W VINEYARD  RD",
+            "customers": 33,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 21:14 MST",
+            "etr": "2026-07-26 23:19 MST"
+        }
+    ]
+}
