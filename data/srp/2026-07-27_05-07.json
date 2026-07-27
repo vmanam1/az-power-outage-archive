@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-27 05:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 72
+    },
+    "outages": [
+        {
+            "latitude": 33.4743264143563,
+            "longitude": -112.29533412442,
+            "boundary": "N AVONDALE  BLVD TO N 107TH  AVE AND W THOMAS  RD TO W ENCANTO  BLVD",
+            "customers": 15,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-27 01:51 MST",
+            "etr": "2026-07-27 07:58 MST"
+        },
+        {
+            "latitude": 33.3838695850537,
+            "longitude": -111.9209529147075,
+            "boundary": "S RURAL  RD TO S DORSEY  LN AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 30,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-27 02:22 MST",
+            "etr": "2026-07-27 05:05 MST"
+        },
+        {
+            "latitude": 33.48272824905975,
+            "longitude": -112.011111470711,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-27 05:01 MST",
+            "etr": "2026-07-27 06:58 MST"
+        }
+    ]
+}
