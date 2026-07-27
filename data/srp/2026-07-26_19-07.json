@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-26 19:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 6630
+    },
+    "outages": [
+        {
+            "latitude": 33.4470569724171,
+            "longitude": -112.3248688849135,
+            "boundary": "N DYSART  RD TO N 119TH  AVE AND W MCDOWELL  RD TO W BUCKEYE  RD",
+            "customers": 1369,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 17:16 MST",
+            "etr": "2026-07-26 19:23 MST"
+        },
+        {
+            "latitude": 33.3462760134054,
+            "longitude": -111.98035254306049,
+            "boundary": "S WARNER-ELLIOT  LOOP TO S PRIEST  DR AND E GUADALUPE  RD TO E WARNER  RD",
+            "customers": 789,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 16:41 MST",
+            "etr": "2026-07-26 19:49 MST"
+        },
+        {
+            "latitude": 33.59470666914365,
+            "longitude": -112.21009981482601,
+            "boundary": "N 75TH  AVE TO N 67TH  AVE AND W SWEETWATER  AVE TO W CHOLLA  ST",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 18:59 MST",
+            "etr": "2026-07-26 20:58 MST"
+        },
+        {
+            "latitude": 33.503566588835795,
+            "longitude": -112.288637553381,
+            "boundary": "N 111TH  AVE TO N 103RD  AVE AND W CAMELBACK  RD TO W INDIAN SCHOOL  RD",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 18:52 MST",
+            "etr": "2026-07-26 20:50 MST"
+        },
+        {
+            "latitude": 33.44442187447975,
+            "longitude": -112.3185401335505,
+            "boundary": "S DYSART  RD TO N 111TH  AVE AND W PAPAGO  FWY TO W DURANGO  ST",
+            "customers": 2246,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 18:49 MST",
+            "etr": "2026-07-26 20:48 MST"
+        },
+        {
+            "latitude": 33.44525161522205,
+            "longitude": -112.3046420827325,
+            "boundary": "S FAIRWAY  DR TO N 103RD  AVE AND W PAPAGO  FWY TO W DURANGO  ST",
+            "customers": 2183,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 19:07 MST",
+            "etr": "2026-07-26 21:05 MST"
+        }
+    ]
+}
