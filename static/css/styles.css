@@ -729,26 +729,48 @@ body.dark-theme .leaflet-control-attribution a { color: var(--text-secondary); }
 
 /* Provider tags ----------------------------------------------------------- */
 
+/* Tinted chips: a soft wash of the provider color with the color itself as
+   ink, instead of a solid "spreadsheet fill". A leading dot carries identity
+   even where the tint is subtle. */
 .provider-tag {
+    --tag: var(--text-muted);
     font-size: 9.5px;
-    font-weight: 700;
-    padding: 2px 7px;
+    font-weight: 650;
+    padding: 2px 8px 2px 6px;
     border-radius: 99px;
-    color: #fff;
     text-transform: uppercase;
-    letter-spacing: 0.03em;
-    display: inline-block;
+    letter-spacing: 0.04em;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
     line-height: 1.6;
+    white-space: nowrap;
+    color: color-mix(in srgb, var(--tag) 78%, var(--text-primary));
+    background-color: color-mix(in srgb, var(--tag) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--tag) 28%, transparent);
 }
-.provider-aps { background-color: var(--color-aps); }
-.provider-srp { background-color: var(--color-srp); }
-.provider-tep { background-color: var(--color-tep); }
-.provider-ues { background-color: var(--color-ues); }
-.provider-ssvec { background-color: var(--color-ssvec); }
-.provider-trico { background-color: var(--color-trico); }
-.provider-ed3 { background-color: var(--color-ed3); }
-.provider-mohave { background-color: var(--color-mohave); }
-.provider-navopache { background-color: var(--color-navopache); }
+.provider-tag::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--tag);
+    flex-shrink: 0;
+}
+body.dark-theme .provider-tag {
+    color: color-mix(in srgb, var(--tag) 60%, #ffffff);
+    background-color: color-mix(in srgb, var(--tag) 20%, transparent);
+    border-color: color-mix(in srgb, var(--tag) 38%, transparent);
+}
+.provider-aps { --tag: var(--color-aps); }
+.provider-srp { --tag: var(--color-srp); }
+.provider-tep { --tag: var(--color-tep); }
+.provider-ues { --tag: var(--color-ues); }
+.provider-ssvec { --tag: var(--color-ssvec); }
+.provider-trico { --tag: var(--color-trico); }
+.provider-ed3 { --tag: var(--color-ed3); }
+.provider-mohave { --tag: var(--color-mohave); }
+.provider-navopache { --tag: var(--color-navopache); }
 
 /* Charts ------------------------------------------------------------------ */
 
@@ -849,6 +871,24 @@ body.dark-theme .leaflet-control-attribution a { color: var(--text-secondary); }
 .data-table th.numeric, .data-table td.numeric {
     text-align: right;
     font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+/* Keep tight columns tight: provider chips and customer counts don't need
+   room to breathe, boundary/cause text does. */
+.data-table th[data-sort="provider"],
+.data-table th[data-sort="customers"] { width: 1%; }
+
+.data-table td.cell-time {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+.dt-date { display: block; line-height: 1.35; }
+.dt-time {
+    display: block;
+    font-size: 11px;
+    color: var(--text-muted);
+    line-height: 1.2;
 }
 
 .data-table tbody tr {

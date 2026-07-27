@@ -48,6 +48,18 @@ function initTable() {
     });
 }
 
+function formatTimeCell(value, fallback) {
+    // Render "2026-07-26 13:05:00 MST" as a deliberate two-line cell: date on
+    // top, time (sans the repeated MST suffix) muted below. Start and ETR use
+    // the same formatter so the two columns always look identical.
+    if (!value) return `<span class="text-muted">${fallback}</span>`;
+    const parts = value.replace(' MST', '').split(' ');
+    if (parts.length >= 2) {
+        return `<span class="dt-date">${parts[0]}</span><span class="dt-time">${parts[1]}</span>`;
+    }
+    return value;
+}
+
 function updateTableData(outages) {
     tableOutages = outages;
     tablePage = 1;
@@ -144,8 +156,8 @@ function renderTable() {
             <td><span class="provider-tag provider-${outage.provider}">${outage.provider}</span></td>
             <td class="numeric"><strong>${outage.customers.toLocaleString()}</strong></td>
             <td>${outage.cause || '<span class="text-muted">Not specified</span>'}</td>
-            <td>${outage.start_time || '<span class="text-muted">N/A</span>'}</td>
-            <td>${outage.etr || '<span class="text-muted">ETR not specified by provider</span>'}</td>
+            <td class="cell-time">${formatTimeCell(outage.start_time, 'N/A')}</td>
+            <td class="cell-time">${formatTimeCell(outage.etr, 'ETR not specified by provider')}</td>
             <td>${outage.city || '<span class="text-muted">N/A</span>'}</td>
             <td>${outage.boundary || '<span class="text-muted">N/A</span>'}</td>
             <td class="numeric">${locationText}</td>

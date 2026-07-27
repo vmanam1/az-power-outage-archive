@@ -120,12 +120,29 @@ function updateCharts(outages, timelineData) {
 
     // 3. Top Causes (Horizontal Bar) -- magnitude across cause categories.
     // Single hue: one measure (count), so no legend; the title names it.
+    // Providers spell the same cause differently ("WEATHER", "Weather",
+    // "Storm/Weather"), so group case-insensitively and fold any
+    // weather/storm variant into one "Weather" bucket.
+    const canonicalCause = (raw) => {
+        const label = (raw || '').trim();
+        if (!label) return 'Unknown';
+        if (/weather|storm/i.test(label)) return 'Weather';
+        // Tame ALL-CAPS spellings; keep mixed-case labels as published.
+        if (label === label.toUpperCase()) {
+            return label.charAt(0) + label.slice(1).toLowerCase();
+        }
+        return label;
+    };
     const causeCounts = {};
     outages.forEach(out => {
-        const label = (out.cause || '').trim() || 'Unknown';
-        causeCounts[label] = (causeCounts[label] || 0) + 1;
+        const label = canonicalCause(out.cause);
+        const key = label.toLowerCase();
+        if (!causeCounts[key]) causeCounts[key] = { label, count: 0 };
+        causeCounts[key].count += 1;
     });
-    let causeEntries = Object.entries(causeCounts).sort((a, b) => b[1] - a[1]);
+    let causeEntries = Object.values(causeCounts)
+        .map(e => [e.label, e.count])
+        .sort((a, b) => b[1] - a[1]);
     const CAUSE_TOP_N = 7;
     if (causeEntries.length > CAUSE_TOP_N) {
         const top = causeEntries.slice(0, CAUSE_TOP_N);
