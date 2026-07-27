@@ -1,0 +1,22 @@
+[Unit]
+Description=Arizona Power Outage Explorer dashboard (Flask)
+Documentation=https://github.com/vmanam1/az-power-outage-archive
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=leaps-admin
+WorkingDirectory=/home/leaps-admin/az-power-outage-archive
+ExecStart=/home/leaps-admin/az-power-outage-archive/venv/bin/python -u app.py
+Restart=on-failure
+RestartSec=5
+
+Environment=HOST=0.0.0.0
+Environment=PORT=5000
+Environment=FLASK_DEBUG=false
+Environment=DATA_DIR=data
+Environment=AUTO_REFRESH_SECONDS=60
+
+[Install]
+WantedBy=multi-user.target

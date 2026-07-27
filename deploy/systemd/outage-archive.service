@@ -8,12 +8,12 @@ After=network-online.target
 Type=oneshot
 User=leaps-admin
 WorkingDirectory=/home/leaps-admin/az-power-outage-archive
-# venv interpreter so the pinned selenium/requests are used
+# venv interpreter so the pinned dependencies are used
 Environment=PYTHON=/home/leaps-admin/az-power-outage-archive/venv/bin/python
 # Private, uncommitted overrides (e.g. HEALTHCHECK_URL for the dead-man's-switch
 # ping). Leading "-" makes it optional so the unit still starts if absent.
 EnvironmentFile=-/etc/default/outage-archive
 ExecStart=/bin/bash /home/leaps-admin/az-power-outage-archive/scripts/collect.sh
-# One provider (navopache) can hang ~3 min on retries when its upstream is
-# down; give the whole run generous headroom before systemd kills it.
+# A run normally takes seconds, but slow upstreams retry with backoff; give
+# the whole run generous headroom before systemd kills it.
 TimeoutStartSec=600
