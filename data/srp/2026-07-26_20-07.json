@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-26 20:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 5610
+    },
+    "outages": [
+        {
+            "latitude": 33.59470666914365,
+            "longitude": -112.21009981482601,
+            "boundary": "N 75TH  AVE TO N 67TH  AVE AND W SWEETWATER  AVE TO W CHOLLA  ST",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 18:59 MST",
+            "etr": "2026-07-26 20:58 MST"
+        },
+        {
+            "latitude": 33.44442187447975,
+            "longitude": -112.3185401335505,
+            "boundary": "S DYSART  RD TO N 111TH  AVE AND W PAPAGO  FWY TO W DURANGO  ST",
+            "customers": 2246,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 18:49 MST",
+            "etr": "2026-07-26 20:48 MST"
+        },
+        {
+            "latitude": 33.44525161522205,
+            "longitude": -112.3046420827325,
+            "boundary": "S FAIRWAY  DR TO N 103RD  AVE AND W PAPAGO  FWY TO W DURANGO  ST",
+            "customers": 2183,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 19:07 MST",
+            "etr": "2026-07-26 21:05 MST"
+        },
+        {
+            "latitude": 33.45163907277535,
+            "longitude": -112.3248688849135,
+            "boundary": "N DYSART  RD TO N 119TH  AVE AND W MCDOWELL  RD TO W BUCKEYE  RD",
+            "customers": 426,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-26 17:16 MST",
+            "etr": "2026-07-26 20:30 MST"
+        },
+        {
+            "latitude": 33.345137297655654,
+            "longitude": -111.981965500594,
+            "boundary": "S WARNER-ELLIOT  LOOP TO S PRIEST  DR AND E GUADALUPE  RD TO E WARNER  RD",
+            "customers": 712,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-26 16:41 MST",
+            "etr": "2026-07-27 04:00 MST"
+        },
+        {
+            "latitude": 33.503566588835795,
+            "longitude": -112.288637553381,
+            "boundary": "N 111TH  AVE TO N 103RD  AVE AND W CAMELBACK  RD TO W INDIAN SCHOOL  RD",
+            "customers": 19,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-26 18:52 MST",
+            "etr": "2026-07-27 03:28 MST"
+        }
+    ]
+}

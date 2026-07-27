@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-26 20:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 255
+    },
+    "outages": [
+        {
+            "latitude": 33.824430000227274,
+            "longitude": -113.5408499996815,
+            "city": "Wenden",
+            "boundary": "Alamo Rd. to 69 1/2 St. and 1st St. to Wenden Dump Rd.",
+            "customers": 35,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-25 12:20:00 MST",
+            "etr": "2026-07-27 01:30:00 MST"
+        },
+        {
+            "latitude": 33.3135114492871,
+            "longitude": -114.66621301389654,
+            "city": "Cibola",
+            "boundary": "Baseline Rd. to 34th St. and Cibola Lake Rd.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-26 00:38:00 MST",
+            "etr": "2026-07-26 15:00:00 MST"
+        },
+        {
+            "latitude": 34.19401045271962,
+            "longitude": -112.15609368520765,
+            "city": "Mayer",
+            "boundary": "Crown King Rd. to AZ Veterans Hwy.",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-26 08:59:00 MST",
+            "etr": "2026-07-26 19:00:00 MST"
+        },
+        {
+            "latitude": 34.62325942774976,
+            "longitude": -112.31293868221202,
+            "city": "Peeples Valley",
+            "boundary": "Fain Rd to Hondo Dr and Robert Rd to Concho Dr",
+            "customers": 185,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-26 12:39:00 MST",
+            "etr": "2026-07-26 16:00:00 MST"
+        }
+    ]
+}
