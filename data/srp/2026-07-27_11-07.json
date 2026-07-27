@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-27 11:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.4745019715413,
+            "longitude": -112.012294672575,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E THOMAS  RD TO E MCDOWELL  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-27 09:32 MST",
+            "etr": "2026-07-27 15:00 MST"
+        },
+        {
+            "latitude": 33.20715985382985,
+            "longitude": -111.83190324732101,
+            "boundary": "S ARIZONA  AVE TO S MCQUEEN  RD AND E UNKNOWN   TO E HUNT  HWY",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-27 10:38 MST",
+            "etr": "2026-07-27 12:37 MST"
+        },
+        {
+            "latitude": 33.39238191417225,
+            "longitude": -111.5653665460795,
+            "boundary": "S DELAWARE  DR TO S SAN MARCOS  DR AND W 16TH  AVE TO W SUPERSTITION  FWY",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-27 11:03 MST",
+            "etr": "2026-07-27 13:00 MST"
+        }
+    ]
+}

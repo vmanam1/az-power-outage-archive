@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-27 11:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 112
+    },
+    "outages": [
+        {
+            "latitude": 31.370420144817018,
+            "longitude": -109.52189728698157,
+            "city": "Douglas",
+            "boundary": "34th St to Aster St and Hawthorn Ave to Lincoln Ave",
+            "customers": 112,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-27 02:54:00 MST",
+            "etr": "2026-07-27 06:30:00 MST"
+        }
+    ]
+}
