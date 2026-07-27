@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-27 08:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 26
+    },
+    "outages": [
+        {
+            "latitude": 33.402668054115296,
+            "longitude": -112.079474299208,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-27 07:10 MST",
+            "etr": "2026-07-27 11:08 MST"
+        },
+        {
+            "latitude": 33.430349212221046,
+            "longitude": -111.5776142978365,
+            "boundary": "N MERIDIAN  DR TO N DELAWARE  DR AND W LOST DUTCHMAN  BLVD TO W SUPERSTITION  BLVD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-27 07:26 MST",
+            "etr": "2026-07-27 16:17 MST"
+        },
+        {
+            "latitude": 33.3498849724087,
+            "longitude": -111.848188329054,
+            "boundary": "S EXTENSION  RD TO N ARIZONA  AVE AND W GUADALUPE  RD TO W WARNER  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-27 07:49 MST",
+            "etr": "2026-07-27 09:48 MST"
+        },
+        {
+            "latitude": 33.58784332581955,
+            "longitude": -112.215192478064,
+            "boundary": "N 75TH  AVE TO N 71ST  AVE AND W CACTUS  RD TO W PEORIA  AVE",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-27 07:52 MST",
+            "etr": "2026-07-27 09:47 MST"
+        }
+    ]
+}
