@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-27 10:07:42 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.4745019715413,
+            "longitude": -112.012294672575,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E THOMAS  RD TO E MCDOWELL  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-27 09:32 MST",
+            "etr": "2026-07-27 15:00 MST"
+        },
+        {
+            "latitude": 33.38047313630475,
+            "longitude": -112.051366293657,
+            "boundary": "S 12TH  ST TO S 16TH  ST AND E VINEYARD  RD TO E BASELINE  RD",
+            "customers": 35,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-27 08:29 MST",
+            "etr": "2026-07-27 11:52 MST"
+        }
+    ]
+}
