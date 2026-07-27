@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-27 07:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 565
+    },
+    "outages": [
+        {
+            "latitude": 33.48650164216861,
+            "longitude": -112.08522843291638,
+            "city": "Phoenix",
+            "boundary": "West Osborn Rd to West Flower St and North 10th Ave to North 7th Ave",
+            "customers": 14,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-26 20:18:00 MST",
+            "etr": "2026-07-27 03:00:00 MST"
+        },
+        {
+            "latitude": 33.6255951476876,
+            "longitude": -112.36954686156224,
+            "city": "Surprise",
+            "boundary": "West Bell Road to West Wadell Rd and North Reems Rd to North Dysart Rd",
+            "customers": 551,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-26 22:21:00 MST",
+            "etr": "2026-07-27 00:40:00 MST"
+        }
+    ]
+}
