@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-27 02:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 33.450045856582605,
+            "longitude": -112.3208298224115,
+            "boundary": "N DYSART  RD TO N 119TH  AVE AND W PAPAGO  FWY TO W BUCKEYE  RD",
+            "customers": 6,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-26 17:16 MST",
+            "etr": "2026-07-27 03:30 MST"
+        },
+        {
+            "latitude": 33.379935528975,
+            "longitude": -111.792485519943,
+            "boundary": "S HARRIS  DR TO S GILBERT  RD AND E SUPERSTITION  FWY TO W HOUSTON  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-26 22:14 MST",
+            "etr": "2026-07-27 04:00 MST"
+        },
+        {
+            "latitude": 33.3843868396019,
+            "longitude": -111.794989220183,
+            "boundary": "S STAPLEY  DR TO S GILBERT  RD AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-27 01:49 MST",
+            "etr": "2026-07-27 03:48 MST"
+        },
+        {
+            "latitude": 33.4743264143563,
+            "longitude": -112.29533412442,
+            "boundary": "N AVONDALE  BLVD TO N 107TH  AVE AND W THOMAS  RD TO W ENCANTO  BLVD",
+            "customers": 15,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-27 01:51 MST",
+            "etr": "2026-07-27 03:50 MST"
+        }
+    ]
+}
