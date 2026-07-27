@@ -1,6 +1,8 @@
 import math
 from datetime import datetime
 
+from dashboard.geo import derived_city
+
 def normalize_time(val):
     """
     Standardizes timezone-aware or naive MST/MDT date strings
@@ -106,6 +108,13 @@ def normalize_outage(outage, provider_name):
     elif boundary is not None:
         boundary = str(boundary).strip() or None
 
+    # City: prefer what the utility published; otherwise derive the nearest
+    # Arizona place from the coordinates, marked with "≈" so a derived region
+    # is never mistaken for a published one.
+    city = outage.get("city") or None
+    if not city and has_coords:
+        city = derived_city(lat, lng)
+
     return {
         "provider": provider_name.lower(),
         "latitude": lat,
@@ -116,7 +125,7 @@ def normalize_outage(outage, provider_name):
         "start_time": start_time,
         "etr": etr,
         "restored_time": restored_time,
-        "city": outage.get("city") or None,
+        "city": city,
         "boundary": boundary,
         "incident_id": outage.get("incident_id") or None,
         "pole_number": outage.get("pole_number") or None,
