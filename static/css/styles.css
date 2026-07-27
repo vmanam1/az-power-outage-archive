@@ -666,6 +666,16 @@ button {
     gap: 7px;
     margin-bottom: 3px;
     color: var(--text-secondary);
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 1px 3px;
+    margin-left: -3px;
+    margin-right: -3px;
+    transition: background-color 0.12s ease;
+}
+.legend-item:hover {
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
 }
 .legend-color {
     width: 10px;
@@ -984,6 +994,51 @@ body.dark-theme .provider-tag {
 .pagination-btn:disabled {
     opacity: 0.4;
     cursor: not-allowed;
+}
+
+/* Loading bar -------------------------------------------------------------- */
+
+.loading-bar {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    height: 2px;
+    z-index: 1001;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+.loading-bar.visible { opacity: 1; }
+.loading-bar::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 30%;
+    background-color: var(--primary);
+    border-radius: 2px;
+    animation: loading-slide 1.1s ease-in-out infinite;
+}
+@keyframes loading-slide {
+    0%   { transform: translateX(-110%); }
+    100% { transform: translateX(443%); }
+}
+
+/* Empty state --------------------------------------------------------------- */
+
+.empty-state {
+    background-color: var(--bg-secondary);
+    border: 1px dashed var(--border-strong);
+    border-radius: var(--radius);
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 13px;
 }
 
 /* Toasts ------------------------------------------------------------------ */

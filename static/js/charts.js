@@ -20,6 +20,37 @@ const CHARTS_PROVIDER_COLORS = {
     navopache: '#ff7f00'
 };
 
+// Draws a big number + caption in the hole of a doughnut chart. Enabled
+// per-chart via options.plugins.centerText = { value, caption, color, subColor }.
+const centerTextPlugin = {
+    id: 'centerText',
+    afterDraw(chart) {
+        const opts = chart.options.plugins && chart.options.plugins.centerText;
+        if (!opts || opts.value === undefined) return;
+        const meta = chart.getDatasetMeta(0);
+        if (!meta.data.length) return;
+        const { x, y } = meta.data[0];
+        const ctx = chart.ctx;
+        ctx.save();
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillStyle = opts.color;
+        ctx.font = "650 17px Inter, sans-serif";
+        ctx.fillText(String(opts.value), x, y - 7);
+        ctx.fillStyle = opts.subColor;
+        ctx.font = "500 9px Inter, sans-serif";
+        ctx.fillText(opts.caption, x, y + 10);
+        ctx.restore();
+    }
+};
+
+// Cursor affordance: pointer over clickable marks, default elsewhere.
+function hoverCursor(evt, elements) {
+    if (evt.native && evt.native.target) {
+        evt.native.target.style.cursor = elements.length ? 'pointer' : 'default';
+    }
+}
+
 function getThemeChartOptions() {
     const isDark = document.body.classList.contains('dark-theme');
     const textColor = isDark ? '#a2a6b3' : '#5c5f6a';
@@ -70,6 +101,12 @@ function updateCharts(outages, timelineData) {
             indexAxis: 'y',
             responsive: true,
             maintainAspectRatio: false,
+            onClick: (evt, els) => {
+                if (els.length && typeof applyProviderFilter === 'function') {
+                    applyProviderFilter(providers[els[0].index]);
+                }
+            },
+            onHover: hoverCursor,
             plugins: {
                 legend: { display: false },
                 tooltip: { callbacks: { label: (ctx) => `${ctx.raw.toLocaleString()} customers` } }
@@ -101,9 +138,16 @@ function updateCharts(outages, timelineData) {
                 borderColor: theme.isDark ? '#17181f' : '#ffffff'
             }]
         },
+        plugins: [centerTextPlugin],
         options: {
             responsive: true,
             maintainAspectRatio: false,
+            onClick: (evt, els) => {
+                if (els.length && typeof applyProviderFilter === 'function') {
+                    applyProviderFilter(providers[els[0].index]);
+                }
+            },
+            onHover: hoverCursor,
             plugins: {
                 legend: {
                     position: 'right',
@@ -113,7 +157,13 @@ function updateCharts(outages, timelineData) {
                         boxWidth: 12
                     }
                 },
-                tooltip: { callbacks: { label: (ctx) => ` ${ctx.label}: ${ctx.raw} outages` } }
+                tooltip: { callbacks: { label: (ctx) => ` ${ctx.label}: ${ctx.raw} outages` } },
+                centerText: {
+                    value: outages.length,
+                    caption: outages.length === 1 ? 'RECORD' : 'RECORDS',
+                    color: theme.isDark ? '#eceef2' : '#17181c',
+                    subColor: theme.textColor
+                }
             },
             cutout: '65%'
         }
@@ -171,6 +221,12 @@ function updateCharts(outages, timelineData) {
             indexAxis: 'y',
             responsive: true,
             maintainAspectRatio: false,
+            onClick: (evt, els) => {
+                if (!els.length || typeof applyCauseFilter !== 'function') return;
+                const label = causeEntries[els[0].index][0];
+                if (label !== 'Other' && label !== 'Unknown') applyCauseFilter(label);
+            },
+            onHover: hoverCursor,
             plugins: {
                 legend: { display: false },
                 tooltip: { callbacks: { label: (ctx) => ` ${ctx.raw} outage${ctx.raw === 1 ? '' : 's'}` } }
@@ -212,15 +268,33 @@ function updateCharts(outages, timelineData) {
                 borderColor: theme.isDark ? '#17181f' : '#ffffff'
             }]
         },
+        plugins: [centerTextPlugin],
         options: {
             responsive: true,
             maintainAspectRatio: false,
+            onClick: (evt, els) => {
+                // Clicking the Active slice toggles the "active only" filter.
+                if (els.length && els[0].index === 0 && typeof toggleActiveOnlyFilter === 'function') {
+                    toggleActiveOnlyFilter();
+                }
+            },
+            onHover: (evt, els) => {
+                if (evt.native && evt.native.target) {
+                    evt.native.target.style.cursor = els.length && els[0].index === 0 ? 'pointer' : 'default';
+                }
+            },
             plugins: {
                 legend: {
                     position: 'right',
                     labels: { color: theme.textColor, font: { family: 'Inter', size: 10 }, boxWidth: 12 }
                 },
-                tooltip: { callbacks: { label: (ctx) => ` ${ctx.label}: ${ctx.raw.toLocaleString()}` } }
+                tooltip: { callbacks: { label: (ctx) => ` ${ctx.label}: ${ctx.raw.toLocaleString()}` } },
+                centerText: {
+                    value: activeCount,
+                    caption: 'ACTIVE',
+                    color: theme.isDark ? '#eceef2' : '#17181c',
+                    subColor: theme.textColor
+                }
             },
             cutout: '65%'
         }
@@ -255,6 +329,12 @@ function updateCharts(outages, timelineData) {
         options: {
             responsive: true,
             maintainAspectRatio: false,
+            onClick: (evt, els) => {
+                if (els.length && typeof applyHourFilter === 'function') {
+                    applyHourFilter(els[0].index);
+                }
+            },
+            onHover: hoverCursor,
             plugins: {
                 legend: { display: false },
                 tooltip: {

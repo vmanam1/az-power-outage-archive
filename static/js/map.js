@@ -194,11 +194,15 @@ function updateLegend() {
         const count = counts[prov];
         const div = document.createElement('div');
         div.className = 'legend-item';
+        div.title = `Filter to ${prov.toUpperCase()} (click again to show all)`;
         div.innerHTML = `
             <span class="legend-color" style="background-color: ${color}"></span>
             <span class="legend-text" style="text-transform: uppercase;">${prov}</span>
             ${count !== undefined ? `<span class="legend-count">${count}</span>` : ''}
         `;
+        div.addEventListener('click', () => {
+            if (typeof applyProviderFilter === 'function') applyProviderFilter(prov);
+        });
         legendItems.appendChild(div);
     });
 }

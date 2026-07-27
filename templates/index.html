@@ -49,6 +49,9 @@
         </div>
     </header>
 
+    <!-- Indeterminate progress bar shown while queries are in flight -->
+    <div id="loading-bar" class="loading-bar" aria-hidden="true"></div>
+
     <!-- Main Container -->
     <main class="app-container">
         
@@ -229,6 +232,12 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Shown when the current filters match nothing -->
+                <section class="empty-state" id="empty-state" style="display: none;">
+                    <p><strong>No outages match the current filters.</strong> Try widening the date range or clearing a filter.</p>
+                    <button id="empty-clear-btn" class="btn btn-secondary btn-small">Clear all filters</button>
+                </section>
 
                 <!-- Inline Charts section -->
                 <section class="charts-section">

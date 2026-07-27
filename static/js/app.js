@@ -241,6 +241,52 @@ function getActiveFilterQueryString() {
     return params.toString();
 }
 
+/* Cross-filtering: charts and the map legend call these to turn a clicked
+   element into a page-wide filter. Every action is a toggle -- clicking the
+   thing that is already the active filter clears it again. */
+
+function applyProviderFilter(provider) {
+    const boxes = document.querySelectorAll('input[name="providers"]');
+    const checked = Array.from(boxes).filter(b => b.checked).map(b => b.value);
+    const alreadyOnly = checked.length === 1 && checked[0] === provider;
+    boxes.forEach(b => { b.checked = alreadyOnly ? true : (b.value === provider); });
+    updateFilterChips();
+    fetchData();
+}
+
+function applyCauseFilter(text) {
+    const el = document.getElementById('cause');
+    if (!el) return;
+    el.value = el.value.toLowerCase() === text.toLowerCase() ? '' : text;
+    updateFilterChips();
+    fetchData();
+}
+
+function applyHourFilter(hour) {
+    const s = document.getElementById('time_of_day_start');
+    const e = document.getElementById('time_of_day_end');
+    if (!s || !e) return;
+    const hs = `${String(hour).padStart(2, '0')}:00`;
+    const he = `${String(hour).padStart(2, '0')}:59`;
+    if (s.value === hs && e.value === he) {
+        s.value = '';
+        e.value = '';
+    } else {
+        s.value = hs;
+        e.value = he;
+    }
+    updateFilterChips();
+    fetchData();
+}
+
+function toggleActiveOnlyFilter() {
+    const cb = document.getElementById('active_only');
+    if (!cb) return;
+    cb.checked = !cb.checked;
+    updateFilterChips();
+    fetchData();
+}
+
 let fetchSeq = 0;
 
 async function fetchData() {
@@ -305,6 +351,12 @@ async function fetchData() {
         if (typeof updateTableData === 'function') {
             updateTableData(outagesData.outages);
         }
+
+        // 5. Friendly empty state when nothing matches
+        const emptyState = document.getElementById('empty-state');
+        if (emptyState) {
+            emptyState.style.display = outagesData.outages.length === 0 ? 'flex' : 'none';
+        }
     } catch (e) {
         // A rendering failure is not a data failure -- name the real error so
         // it can actually be diagnosed instead of blaming the query.
@@ -316,6 +368,7 @@ async function fetchData() {
 }
 
 function setLoadingState(isLoading) {
+    document.getElementById('loading-bar')?.classList.toggle('visible', isLoading);
     const list = ['val-visible-records', 'val-total-customers', 'val-selected-providers', 'val-snapshot-files', 'val-earliest-time', 'val-latest-time', 'val-missing-coords'];
     list.forEach(id => {
         const el = document.getElementById(id);
@@ -448,6 +501,11 @@ function setupEventHandlers() {
     document.getElementById('clear-all-chips')?.addEventListener('click', () => {
         document.getElementById('reset-filters-btn').click();
     });
+
+    // Empty-state clear button
+    document.getElementById('empty-clear-btn')?.addEventListener('click', () => {
+        document.getElementById('reset-filters-btn').click();
+    });
 }
 
 function updateFilterChips() {
@@ -523,6 +581,16 @@ function updateFilterChips() {
                 document.getElementById('end_date').value = defaultDateRange.end_date;
             });
         }
+    }
+
+    // Time of day window (also set by clicking the by-hour chart)
+    const todS = document.getElementById('time_of_day_start')?.value;
+    const todE = document.getElementById('time_of_day_end')?.value;
+    if (todS || todE) {
+        addChip(`Starts ${todS || '00:00'}–${todE || '23:59'}`, 'time_of_day', () => {
+            document.getElementById('time_of_day_start').value = '';
+            document.getElementById('time_of_day_end').value = '';
+        });
     }
 
     // Filters
