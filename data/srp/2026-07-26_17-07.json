@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-26 17:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 789
+    },
+    "outages": [
+        {
+            "latitude": 33.3462760134054,
+            "longitude": -111.98035254306049,
+            "boundary": "S WARNER-ELLIOT  LOOP TO S PRIEST  DR AND E GUADALUPE  RD TO E WARNER  RD",
+            "customers": 789,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-26 16:41 MST",
+            "etr": "2026-07-26 18:40 MST"
+        }
+    ]
+}
