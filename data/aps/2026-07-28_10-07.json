@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 10:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 180
+    },
+    "outages": [
+        {
+            "latitude": 31.35861431463193,
+            "longitude": -109.57318917539492,
+            "city": "Pirtleville",
+            "boundary": "Oak Ave to Pirtle Ave and US 191 to Douglas Ave",
+            "customers": 35,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 20:16:00 MST",
+            "etr": "2026-07-28 04:00:00 MST"
+        },
+        {
+            "latitude": 33.48578300000133,
+            "longitude": -112.12966809990324,
+            "city": "Phoenix",
+            "boundary": "Indian School Rd To Catalina Dr  And 35Th Ave To 31St Ave",
+            "customers": 16,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-28 00:02:00 MST",
+            "etr": "2026-07-28 04:55:00 MST"
+        },
+        {
+            "latitude": 33.561763898072634,
+            "longitude": -112.08158477719077,
+            "city": "Phoenix",
+            "boundary": "Orchid Ln to Alice Ave and 7th Ave to 3rd Ave",
+            "customers": 21,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-28 01:23:00 MST",
+            "etr": "2026-07-28 04:50:00 MST"
+        },
+        {
+            "latitude": 31.407688719876095,
+            "longitude": -109.59234825243348,
+            "city": "Douglas",
+            "boundary": "Glenn Rd. to Rooster Dr. and Haas Rd. to US 191",
+            "customers": 28,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-07-28 02:49:00 MST",
+            "etr": "2026-07-28 06:50:00 MST"
+        },
+        {
+            "latitude": 33.77291275782548,
+            "longitude": -113.62790236069164,
+            "city": "Salome",
+            "boundary": "Hwy 60 to 66th St and Monty Blvd",
+            "customers": 80,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-28 02:58:00 MST",
+            "etr": "2026-07-28 03:45:00 MST"
+        }
+    ]
+}

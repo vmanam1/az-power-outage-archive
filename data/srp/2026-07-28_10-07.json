@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-28 10:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 728
+    },
+    "outages": [
+        {
+            "latitude": 33.39941906611095,
+            "longitude": -112.07595776278899,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 320,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 04:14 MST",
+            "etr": "2026-07-28 12:00 MST"
+        },
+        {
+            "latitude": 33.5277966787054,
+            "longitude": -112.22220416853901,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W MARYLAND  AVE TO W BETHANY HOME  RD",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 06:03 MST",
+            "etr": "2026-07-28 12:00 MST"
+        },
+        {
+            "latitude": 33.4644203289251,
+            "longitude": -111.97611847808349,
+            "boundary": "N HOHOKAM  EXPY TO N 52ND  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 07:56 MST",
+            "etr": "2026-07-28 11:55 MST"
+        },
+        {
+            "latitude": 33.40516121272085,
+            "longitude": -111.8738750123145,
+            "boundary": "S ROOSEVELT  RD TO S LONGMORE   AND W BROADWAY  RD TO W 8TH  AVE",
+            "customers": 8,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 06:29 MST",
+            "etr": "2026-07-28 14:00 MST"
+        },
+        {
+            "latitude": 33.39537365953605,
+            "longitude": -112.07403256943701,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W ROESER  RD TO W SOUTHERN  AVE",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 08:46 MST",
+            "etr": "2026-07-28 10:37 MST"
+        },
+        {
+            "latitude": 33.400478470230155,
+            "longitude": -111.8683545804565,
+            "boundary": "S DOBSON  RD TO S LONGMORE   AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 09:36 MST",
+            "etr": "2026-07-28 10:35 MST"
+        },
+        {
+            "latitude": 33.412220239561805,
+            "longitude": -111.644034942283,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 24,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 09:36 MST",
+            "etr": "2026-07-28 11:36 MST"
+        },
+        {
+            "latitude": 33.492127268591545,
+            "longitude": -111.997588164883,
+            "boundary": "N 36TH  ST TO N 44TH  ST AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 07:03 MST",
+            "etr": "2026-07-28 11:30 MST"
+        },
+        {
+            "latitude": 33.343007895016854,
+            "longitude": -111.871130353091,
+            "boundary": "N DOBSON  RD TO N ALMA SCHOOL  RD AND W ELLIOT  RD TO W WARNER  RD",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 09:57 MST",
+            "etr": "2026-07-28 11:53 MST"
+        },
+        {
+            "latitude": 33.39941906611095,
+            "longitude": -112.07595776278899,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 317,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 09:03 MST",
+            "etr": "2026-07-28 10:58 MST"
+        }
+    ]
+}
