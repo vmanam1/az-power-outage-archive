@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 05:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 867
+    },
+    "outages": [
+        {
+            "latitude": 31.35861431463193,
+            "longitude": -109.57318917539492,
+            "city": "Pirtleville",
+            "boundary": "Oak Ave to Pirtle Ave and US 191 to Douglas Ave",
+            "customers": 455,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 20:16:00 MST",
+            "etr": "2026-07-27 23:45:00 MST"
+        },
+        {
+            "latitude": 32.64637418781889,
+            "longitude": -111.40182473282869,
+            "city": "Picacho",
+            "boundary": "Newmans Peak to Picacho Peak Rd and Picacho Bv to Loop A",
+            "customers": 23,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 20:55:00 MST",
+            "etr": "2026-07-28 01:00:00 MST"
+        },
+        {
+            "latitude": 33.608932985701095,
+            "longitude": -111.97553883127532,
+            "city": "Scottsdale",
+            "boundary": "Thunderbird Rd to Presidio Rd and 49th St to 50th St",
+            "customers": 30,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-27 20:57:00 MST",
+            "etr": "2026-07-27 23:30:00 MST"
+        },
+        {
+            "latitude": 33.34570756181841,
+            "longitude": -110.76778360402876,
+            "city": "Globe",
+            "boundary": "Delores Ln to Six Shooter Canyon Rd and Coolidge Allotment Rd",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 21:07:00 MST",
+            "etr": "2026-07-28 00:30:00 MST"
+        },
+        {
+            "latitude": 33.401187065192985,
+            "longitude": -110.85364926180249,
+            "city": "Miami",
+            "boundary": "Railroad Ave and Marion St to Cleveland Ave",
+            "customers": 65,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 21:14:00 MST",
+            "etr": "2026-07-28 00:15:00 MST"
+        },
+        {
+            "latitude": 32.75683129970599,
+            "longitude": -111.66888539029442,
+            "city": "Arizona City",
+            "boundary": "Pineveta Dr. to Madero Dr. and Sunland Gin Rd. to Taxco Dr.",
+            "customers": 175,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 21:21:00 MST",
+            "etr": "2026-07-28 01:00:00 MST"
+        },
+        {
+            "latitude": 34.49435486405413,
+            "longitude": -110.247085646403,
+            "city": "Snowflake",
+            "boundary": "Highland to Forresttown and Catalyst Rd to 3rd St North",
+            "customers": 101,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-27 21:32:00 MST",
+            "etr": "2026-07-28 01:00:00 MST"
+        }
+    ]
+}
