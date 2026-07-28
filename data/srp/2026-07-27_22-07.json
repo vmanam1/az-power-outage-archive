@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-27 22:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 1111
+    },
+    "outages": [
+        {
+            "latitude": 33.4828107324922,
+            "longitude": -112.17187255188,
+            "boundary": "N 55TH  AVE TO N 51ST  AVE AND W OSBORN  RD TO W THOMAS  RD",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-27 15:29 MST",
+            "etr": "2026-07-28 03:00 MST"
+        },
+        {
+            "latitude": 33.4828107324922,
+            "longitude": -112.17187255188,
+            "boundary": "N 55TH  AVE TO N 51ST  AVE AND W OSBORN  RD TO W THOMAS  RD",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-27 15:29 MST",
+            "etr": "2026-07-28 03:00 MST"
+        },
+        {
+            "latitude": 33.39409078692505,
+            "longitude": -111.8051373460785,
+            "boundary": "S HORNE   TO S HARRIS  DR AND E 8TH  AVE TO E SUPERSTITION  FWY",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-27 19:09 MST",
+            "etr": "2026-07-27 23:57 MST"
+        },
+        {
+            "latitude": 33.53268890782145,
+            "longitude": -112.106084617842,
+            "boundary": "N 31ST  AVE TO N 15TH  AVE AND W ORANGEWOOD  AVE TO W BETHANY HOME  RD",
+            "customers": 1070,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-27 21:35 MST",
+            "etr": "2026-07-27 23:35 MST"
+        },
+        {
+            "latitude": 33.5811438648809,
+            "longitude": -112.255461739878,
+            "boundary": "N AGUA FRIA  FWY TO N 87TH  AVE AND W CHOLLA  ST TO W MOUNTAIN VIEW  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-27 21:40 MST",
+            "etr": "2026-07-27 23:38 MST"
+        },
+        {
+            "latitude": 33.489842962058205,
+            "longitude": -112.1554445188295,
+            "boundary": "N 47TH  AVE TO N 43RD  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-27 21:50 MST",
+            "etr": "2026-07-27 22:45 MST"
+        },
+        {
+            "latitude": 33.478446351204894,
+            "longitude": -111.918293419791,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E OSBORN  RD TO E OAK  ST",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-27 21:53 MST",
+            "etr": "2026-07-27 23:49 MST"
+        }
+    ]
+}
