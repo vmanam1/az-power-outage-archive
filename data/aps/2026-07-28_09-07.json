@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 09:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 772
+    },
+    "outages": [
+        {
+            "latitude": 31.35861431463193,
+            "longitude": -109.57318917539492,
+            "city": "Pirtleville",
+            "boundary": "Oak Ave to Pirtle Ave and US 191 to Douglas Ave",
+            "customers": 35,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 20:16:00 MST",
+            "etr": "2026-07-28 04:00:00 MST"
+        },
+        {
+            "latitude": 33.45617542536654,
+            "longitude": -111.9925570163793,
+            "city": "Phoenix",
+            "boundary": "Beatrice St. to Van Buren St. and 40th St. to 42nd St.",
+            "customers": 166,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 23:38:00 MST",
+            "etr": "2026-07-28 03:10:00 MST"
+        },
+        {
+            "latitude": 33.49841294975485,
+            "longitude": -112.03703681919474,
+            "city": "Phoenix",
+            "boundary": "Turney Ave to Devonshire Ave and 20th St to 22nd St",
+            "customers": 476,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 23:51:00 MST",
+            "etr": "2026-07-28 03:30:00 MST"
+        },
+        {
+            "latitude": 33.240279999810404,
+            "longitude": -112.46682899987269,
+            "city": "Buckeye",
+            "boundary": "Pecos Rd  To Sandia Rd And 187Th Ave To 171St Ave",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-27 23:38:00 MST",
+            "etr": "2026-07-28 05:30:00 MST"
+        },
+        {
+            "latitude": 33.48578300000133,
+            "longitude": -112.12966809990324,
+            "city": "Phoenix",
+            "boundary": "Indian School Rd To Catalina Dr  And 35Th Ave To 31St Ave",
+            "customers": 16,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-28 00:02:00 MST",
+            "etr": "2026-07-28 04:55:00 MST"
+        },
+        {
+            "latitude": 33.504776647931216,
+            "longitude": -112.08449135444597,
+            "city": "Phoenix",
+            "boundary": "Highland Ave. to Hazelwood St. and 7th Ave.",
+            "customers": 45,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-28 00:05:00 MST",
+            "etr": "2026-07-28 03:10:00 MST"
+        },
+        {
+            "latitude": 33.561763898072634,
+            "longitude": -112.08158477719077,
+            "city": "Phoenix",
+            "boundary": "Orchid Ln to Alice Ave and 7th Ave to 3rd Ave",
+            "customers": 21,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-28 01:23:00 MST",
+            "etr": "2026-07-28 04:50:00 MST"
+        },
+        {
+            "latitude": 33.49339723565408,
+            "longitude": -112.03631183384468,
+            "city": "Phoenix",
+            "boundary": "E Fairmount Ave.",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-28 01:30:00 MST",
+            "etr": "2026-07-28 05:00:00 MST"
+        }
+    ]
+}

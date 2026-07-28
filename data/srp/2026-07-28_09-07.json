@@ -1,0 +1,164 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-28 09:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 15,
+        "customers_affected": 1229
+    },
+    "outages": [
+        {
+            "latitude": 33.39941906611095,
+            "longitude": -112.07595776278899,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 320,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 04:14 MST",
+            "etr": "2026-07-28 12:00 MST"
+        },
+        {
+            "latitude": 33.5277966787054,
+            "longitude": -112.22220416853901,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W MARYLAND  AVE TO W BETHANY HOME  RD",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 06:03 MST",
+            "etr": "2026-07-28 12:00 MST"
+        },
+        {
+            "latitude": 33.45575816926415,
+            "longitude": -111.935602956447,
+            "boundary": "N GALVIN  PKWY TO N SCOTTSDALE  RD AND E CONTINENTAL  DR TO E MCKELLIPS  RD",
+            "customers": 49,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 06:37 MST",
+            "etr": "2026-07-28 11:33 MST"
+        },
+        {
+            "latitude": 33.424599877324056,
+            "longitude": -111.5685083635435,
+            "boundary": "N DELAWARE  DR TO N IRONWOOD  DR AND W TEPEE  ST TO W SUPERSTITION  BLVD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 07:55 MST",
+            "etr": "2026-07-28 09:53 MST"
+        },
+        {
+            "latitude": 33.4644203289251,
+            "longitude": -111.97611847808349,
+            "boundary": "N HOHOKAM  EXPY TO N 52ND  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 07:56 MST",
+            "etr": "2026-07-28 11:55 MST"
+        },
+        {
+            "latitude": 33.3088818353393,
+            "longitude": -111.7749127254495,
+            "boundary": "S 140TH  ST TO S VAL VISTA  DR AND E GALVESTON  ST TO E WILLIAMS FIELD  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 08:09 MST",
+            "etr": "2026-07-28 10:05 MST"
+        },
+        {
+            "latitude": 33.45536780186675,
+            "longitude": -111.930451726272,
+            "boundary": "N COLLEGE  AVE TO N SCOTTSDALE  RD AND E CONTINENTAL  DR TO E MCKELLIPS  RD",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 08:09 MST",
+            "etr": "2026-07-28 10:00 MST"
+        },
+        {
+            "latitude": 33.422946319493704,
+            "longitude": -111.55752528775,
+            "boundary": "N IRONWOOD  DR TO N SAN MARCOS  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 08:20 MST",
+            "etr": "2026-07-28 15:15 MST"
+        },
+        {
+            "latitude": 33.40516121272085,
+            "longitude": -111.8738750123145,
+            "boundary": "S ROOSEVELT  RD TO S LONGMORE   AND W BROADWAY  RD TO W 8TH  AVE",
+            "customers": 8,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 06:29 MST",
+            "etr": "2026-07-28 14:00 MST"
+        },
+        {
+            "latitude": 33.3985400279945,
+            "longitude": -111.8673297326295,
+            "boundary": "S DOBSON  RD TO S LONGMORE   AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 53,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 08:35 MST",
+            "etr": "2026-07-28 10:25 MST"
+        },
+        {
+            "latitude": 33.34592406647405,
+            "longitude": -111.7119161657285,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E ELLIOT  RD TO E WARNER  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 08:39 MST",
+            "etr": "2026-07-28 10:37 MST"
+        },
+        {
+            "latitude": 33.398680017499146,
+            "longitude": -111.8992588875225,
+            "boundary": "S MCCLINTOCK  DR TO S PRICE  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 08:40 MST",
+            "etr": "2026-07-28 10:38 MST"
+        },
+        {
+            "latitude": 33.492127268591545,
+            "longitude": -111.997588164883,
+            "boundary": "N 36TH  ST TO N 44TH  ST AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 07:03 MST",
+            "etr": "2026-07-28 10:00 MST"
+        },
+        {
+            "latitude": 33.39537365953605,
+            "longitude": -112.07403256943701,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W ROESER  RD TO W SOUTHERN  AVE",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 08:46 MST",
+            "etr": "2026-07-28 10:37 MST"
+        },
+        {
+            "latitude": 33.3958467097262,
+            "longitude": -112.081653564172,
+            "boundary": "S 19TH  AVE TO S 7TH  ST AND W BROADWAY  RD TO W VINEYARD  RD",
+            "customers": 723,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 09:03 MST",
+            "etr": "2026-07-28 10:58 MST"
+        }
+    ]
+}
