@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-28 14:07:34 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 1339
+    },
+    "outages": [
+        {
+            "latitude": 33.4952811406185,
+            "longitude": -112.022970343564,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E CAMPBELL  AVE TO E OSBORN  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 10:40 MST",
+            "etr": "2026-07-28 14:31 MST"
+        },
+        {
+            "latitude": 33.448936014957596,
+            "longitude": -111.925579990499,
+            "boundary": "N COLLEGE  AVE TO N MILLER  RD AND E MCKELLIPS  RD TO E WEBER  DR",
+            "customers": 3,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 11:09 MST",
+            "etr": "2026-07-28 16:28 MST"
+        },
+        {
+            "latitude": 33.5216198815581,
+            "longitude": -111.99445493107251,
+            "boundary": "N PALO CRISTI  RD TO N 44TH  ST AND E MCDONALD  DR TO E STANFORD  DR",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 10:50 MST",
+            "etr": "2026-07-28 16:45 MST"
+        },
+        {
+            "latitude": 33.3914722001354,
+            "longitude": -111.999384511487,
+            "boundary": "S 36TH  ST TO S 40TH  ST AND E ROESER  RD TO E VINEYARD  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 12:45 MST",
+            "etr": "2026-07-28 14:43 MST"
+        },
+        {
+            "latitude": 33.4990439097826,
+            "longitude": -112.115064891899,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W CAMPBELL  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 13:50 MST",
+            "etr": "2026-07-28 15:23 MST"
+        },
+        {
+            "latitude": 33.4019727513531,
+            "longitude": -112.075923563817,
+            "boundary": "S 7TH  AVE TO S CENTRAL  AVE AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 13:51 MST",
+            "etr": "2026-07-28 15:42 MST"
+        },
+        {
+            "latitude": 33.43888843594695,
+            "longitude": -111.711969353188,
+            "boundary": "N 48TH  ST TO N 64TH  ST AND E HERMOSA VISTA  DR TO E UNIVERSITY  DR",
+            "customers": 1307,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 14:04 MST",
+            "etr": "2026-07-28 16:04 MST"
+        }
+    ]
+}
