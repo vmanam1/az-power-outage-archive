@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-07-28 06:07:36 MST",
+        "source": "MOHAVE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 39,
+        "total_customers": 47061
+    },
+    "outages": [
+        {
+            "latitude": 34.75975096084514,
+            "longitude": -114.47844318152383,
+            "customers": 39,
+            "cause": null,
+            "comments": "We are currently experiencing an outage in your area. Our crews are responding to restore your power. Thank you for your patience.",
+            "start_time": "2026-07-27 19:37:00 MST",
+            "etr": null,
+            "incident_id": "349914"
+        }
+    ]
+}

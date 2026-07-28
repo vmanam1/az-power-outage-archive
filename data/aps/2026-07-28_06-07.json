@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 06:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 515
+    },
+    "outages": [
+        {
+            "latitude": 31.35861431463193,
+            "longitude": -109.57318917539492,
+            "city": "Pirtleville",
+            "boundary": "Oak Ave to Pirtle Ave and US 191 to Douglas Ave",
+            "customers": 348,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 20:16:00 MST",
+            "etr": "2026-07-27 23:45:00 MST"
+        },
+        {
+            "latitude": 32.64637418781889,
+            "longitude": -111.40182473282869,
+            "city": "Picacho",
+            "boundary": "Newmans Peak to Picacho Peak Rd and Picacho Bv to Loop A",
+            "customers": 23,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 20:55:00 MST",
+            "etr": "2026-07-28 01:00:00 MST"
+        },
+        {
+            "latitude": 34.49435486405413,
+            "longitude": -110.247085646403,
+            "city": "Snowflake",
+            "boundary": "Highland to Forresttown and Catalyst Rd to 3rd St North",
+            "customers": 101,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-27 21:32:00 MST",
+            "etr": "2026-07-28 01:00:00 MST"
+        },
+        {
+            "latitude": 33.391940255961266,
+            "longitude": -110.78888975878438,
+            "city": "Globe",
+            "boundary": "Tremont St. to Tremont Blvd. and Mayss St. to Ash St.",
+            "customers": 43,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 22:29:00 MST",
+            "etr": "2026-07-28 02:00:00 MST"
+        }
+    ]
+}

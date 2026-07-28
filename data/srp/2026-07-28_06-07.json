@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-28 06:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 775
+    },
+    "outages": [
+        {
+            "latitude": 33.48998026288615,
+            "longitude": -112.25546975453801,
+            "boundary": "N AGUA FRIA  FWY TO N 87TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-27 22:54 MST",
+            "etr": "2026-07-28 06:24 MST"
+        },
+        {
+            "latitude": 33.3958467097262,
+            "longitude": -112.081653564172,
+            "boundary": "S 19TH  AVE TO S 7TH  ST AND W BROADWAY  RD TO W VINEYARD  RD",
+            "customers": 729,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 04:14 MST",
+            "etr": "2026-07-28 06:27 MST"
+        },
+        {
+            "latitude": 33.3643739584785,
+            "longitude": -111.771666261756,
+            "boundary": "N BURK  ST TO N NIELSON  ST AND E HOUSTON  AVE TO E ELLIOT  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 05:56 MST",
+            "etr": "2026-07-28 07:48 MST"
+        },
+        {
+            "latitude": 33.5285381364746,
+            "longitude": -112.222349896168,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 42,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 06:03 MST",
+            "etr": "2026-07-28 08:03 MST"
+        }
+    ]
+}
