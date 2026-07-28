@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 01:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 31.41807475573821,
+            "longitude": -109.54414843170339,
+            "city": "Douglas",
+            "boundary": "Double Adobe Rd. to Oak Ave. and kings Highway to Washington Ave.",
+            "customers": 22,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-27 16:59:00 MST",
+            "etr": "2026-07-27 20:30:00 MST"
+        }
+    ]
+}
