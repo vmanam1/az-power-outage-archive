@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 13:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.504776647931216,
+            "longitude": -112.08449135444597,
+            "city": "Phoenix",
+            "boundary": "Highland Ave. to Hazelwood St. and 7th Ave.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-28 00:05:00 MST",
+            "etr": "2026-07-28 06:45:00 MST"
+        }
+    ]
+}

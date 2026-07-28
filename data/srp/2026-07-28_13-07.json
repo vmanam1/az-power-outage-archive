@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-28 13:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 2289
+    },
+    "outages": [
+        {
+            "latitude": 33.4952811406185,
+            "longitude": -112.022970343564,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E CAMPBELL  AVE TO E OSBORN  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 10:40 MST",
+            "etr": "2026-07-28 14:31 MST"
+        },
+        {
+            "latitude": 33.448936014957596,
+            "longitude": -111.925579990499,
+            "boundary": "N COLLEGE  AVE TO N MILLER  RD AND E MCKELLIPS  RD TO E WEBER  DR",
+            "customers": 3,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 11:09 MST",
+            "etr": "2026-07-28 16:28 MST"
+        },
+        {
+            "latitude": 33.5216198815581,
+            "longitude": -111.99445493107251,
+            "boundary": "N PALO CRISTI  RD TO N 44TH  ST AND E MCDONALD  DR TO E STANFORD  DR",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 10:50 MST",
+            "etr": "2026-07-28 16:45 MST"
+        },
+        {
+            "latitude": 33.39822192448885,
+            "longitude": -112.3213605885395,
+            "boundary": "S 135TH  AVE TO S 107TH  AVE AND W ELWOOD  ST TO W INDIAN SPRINGS  RD",
+            "customers": 1617,
+            "cause": "Other outage cause",
+            "comments": "SRP restored power and no cause could be identified at this time.",
+            "start_time": "2026-07-28 12:19 MST",
+            "etr": "2026-07-28 14:16 MST"
+        },
+        {
+            "latitude": 33.412693920032,
+            "longitude": -111.6615611233305,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 74,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 12:24 MST",
+            "etr": "2026-07-28 14:23 MST"
+        },
+        {
+            "latitude": 33.3914722001354,
+            "longitude": -111.999384511487,
+            "boundary": "S 36TH  ST TO S 40TH  ST AND E ROESER  RD TO E VINEYARD  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 12:45 MST",
+            "etr": "2026-07-28 14:43 MST"
+        },
+        {
+            "latitude": 33.450866795512695,
+            "longitude": -112.081653564172,
+            "boundary": "N 19TH  AVE TO N 7TH  ST AND W MISSOURI  AVE TO W VINEYARD  RD",
+            "customers": 588,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 10:40 MST",
+            "etr": "2026-07-28 14:00 MST"
+        }
+    ]
+}
