@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-28 03:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 661
+    },
+    "outages": [
+        {
+            "latitude": 33.48998026288615,
+            "longitude": -112.25546975453801,
+            "boundary": "N AGUA FRIA  FWY TO N 87TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-27 22:54 MST",
+            "etr": "2026-07-28 06:24 MST"
+        },
+        {
+            "latitude": 33.49094467841335,
+            "longitude": -112.2560648892315,
+            "boundary": "N AGUA FRIA  FWY TO N 87TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-27 23:09 MST",
+            "etr": "2026-07-28 06:04 MST"
+        },
+        {
+            "latitude": 33.211009999256405,
+            "longitude": -111.68737029344649,
+            "boundary": "S LEMON  AVE TO S MANDARIN  DR AND E RIGGS  RD TO E HUNT  HWY",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 00:34 MST",
+            "etr": "2026-07-28 05:00 MST"
+        },
+        {
+            "latitude": 33.483902512051,
+            "longitude": -111.8943980699035,
+            "boundary": "N HAYDEN  RD TO N 92ND  ST AND E CAMELBACK  RD TO E MCDOWELL  RD",
+            "customers": 649,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 02:49 MST",
+            "etr": "2026-07-28 04:48 MST"
+        }
+    ]
+}
