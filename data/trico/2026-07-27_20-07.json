@@ -1,0 +1,45 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-27 20:07:36 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 57815
+    },
+    "outages": [
+        {
+            "latitude": 32.42886942989822,
+            "longitude": -111.3133101258637,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "start_time": "2026-07-27 09:35:21 MST",
+            "etr": null,
+            "incident_id": "387478"
+        },
+        {
+            "latitude": 32.31223144283132,
+            "longitude": -111.2510748429712,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-27 18:18:45 MST",
+            "etr": "2026-07-27 21:18:45 MST",
+            "incident_id": "387484"
+        },
+        {
+            "latitude": 32.28432621123642,
+            "longitude": -111.33480681061565,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "start_time": "2026-07-21 08:30:00 MST",
+            "etr": "2026-07-21 12:30:00 MST",
+            "incident_id": "387291"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-07-27 20:07:36 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 37,
+        "map_last_refreshed": "Jul 27, 8:05 PM"
+    },
+    "outages": [
+        {
+            "latitude": 31.478632615724806,
+            "longitude": -111.04610264634096,
+            "boundary": {
+                "coordLatSW": "31.472195263684601",
+                "coordLngSW": "-111.05175129061499",
+                "coordLatNE": "31.491093181846701",
+                "coordLngNE": "-111.03981575739101",
+                "coordLatCenter": "31.481644",
+                "coordLngCenter": "-111.045784"
+            },
+            "customers": 37,
+            "cause": null,
+            "comments": "Crew On Scene",
+            "start_time": "2026-07-27 19:18 MST",
+            "etr": "2026-07-27 21:25 MST",
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-07-27 20:00 MST"
+        },
+        {
+            "latitude": 35.56302740742471,
+            "longitude": -114.31377077503069,
+            "boundary": {
+                "coordLatSW": "35.563027407424713",
+                "coordLngSW": "-114.31377077503069",
+                "coordLatNE": "35.563027407424713",
+                "coordLngNE": "-114.31377077503069",
+                "coordLatCenter": "35.563026",
+                "coordLngCenter": "-114.313774"
+            },
+            "customers": 0,
+            "cause": "Equipment Repair - Replacement",
+            "comments": null,
+            "start_time": "2026-07-26 22:43 MST",
+            "etr": "2026-07-27 00:29 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 67,
+            "last_update": "2026-07-27 01:16 MST"
+        }
+    ]
+}
