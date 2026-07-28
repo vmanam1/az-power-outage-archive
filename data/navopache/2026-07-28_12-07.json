@@ -1,0 +1,55 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-28 12:07:36 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 82,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.2101569602111,
+            "longitude": -110.07018550291468,
+            "customers": 63,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "start_time": "2026-07-24 12:15:03 MST",
+            "etr": null,
+            "incident_id": "531476"
+        },
+        {
+            "latitude": 34.072446691388436,
+            "longitude": -109.85352083950772,
+            "customers": 4,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "start_time": "2026-07-24 12:14:42 MST",
+            "etr": null,
+            "incident_id": "531477"
+        },
+        {
+            "latitude": 34.39052269546998,
+            "longitude": -110.55171842788114,
+            "customers": 2,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "start_time": "2026-07-24 12:32:48 MST",
+            "etr": null,
+            "incident_id": "531483"
+        },
+        {
+            "latitude": 34.27081433192326,
+            "longitude": -109.71194635071079,
+            "customers": 13,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "start_time": "2026-07-24 12:22:25 MST",
+            "etr": null,
+            "incident_id": "531481"
+        }
+    ]
+}

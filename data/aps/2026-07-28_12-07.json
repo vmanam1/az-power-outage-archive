@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 12:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 31.407688719876095,
+            "longitude": -109.59234825243348,
+            "city": "Douglas",
+            "boundary": "Glenn Rd. to Rooster Dr. and Haas Rd. to US 191",
+            "customers": 28,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-07-28 02:49:00 MST",
+            "etr": "2026-07-28 08:30:00 MST"
+        },
+        {
+            "latitude": 33.504776647931216,
+            "longitude": -112.08449135444597,
+            "city": "Phoenix",
+            "boundary": "Highland Ave. to Hazelwood St. and 7th Ave.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-28 00:05:00 MST",
+            "etr": "2026-07-28 06:10:00 MST"
+        },
+        {
+            "latitude": 33.7458667117384,
+            "longitude": -112.50324162331458,
+            "city": "Wittmann",
+            "boundary": "Peak view Rd. to 207th Ave. and 205th Dr. to 204th Ln.",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-28 04:05:00 MST",
+            "etr": "2026-07-28 06:30:00 MST"
+        }
+    ]
+}

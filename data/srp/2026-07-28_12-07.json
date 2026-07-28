@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-28 12:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 374
+    },
+    "outages": [
+        {
+            "latitude": 33.492127268591545,
+            "longitude": -111.997588164883,
+            "boundary": "N 36TH  ST TO N 44TH  ST AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 07:03 MST",
+            "etr": "2026-07-28 14:30 MST"
+        },
+        {
+            "latitude": 33.400478470230155,
+            "longitude": -111.8683545804565,
+            "boundary": "S DOBSON  RD TO S LONGMORE   AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 09:36 MST",
+            "etr": "2026-07-28 15:00 MST"
+        },
+        {
+            "latitude": 33.4952811406185,
+            "longitude": -112.022970343564,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E CAMPBELL  AVE TO E OSBORN  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 10:40 MST",
+            "etr": "2026-07-28 14:31 MST"
+        },
+        {
+            "latitude": 33.5216198815581,
+            "longitude": -111.99445493107251,
+            "boundary": "N PALO CRISTI  RD TO N 44TH  ST AND E MCDONALD  DR TO E STANFORD  DR",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 10:50 MST",
+            "etr": "2026-07-28 12:45 MST"
+        },
+        {
+            "latitude": 33.39941906611095,
+            "longitude": -112.07595776278899,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 317,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 09:03 MST",
+            "etr": "2026-07-28 12:30 MST"
+        },
+        {
+            "latitude": 33.448936014957596,
+            "longitude": -111.925579990499,
+            "boundary": "N COLLEGE  AVE TO N MILLER  RD AND E MCKELLIPS  RD TO E WEBER  DR",
+            "customers": 3,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 11:09 MST",
+            "etr": "2026-07-28 16:28 MST"
+        },
+        {
+            "latitude": 33.51241770388175,
+            "longitude": -112.087928553247,
+            "boundary": "N 15TH  AVE TO N 7TH  AVE AND W MISSOURI  AVE TO W CAMELBACK  RD",
+            "customers": 33,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 10:40 MST",
+            "etr": "2026-07-28 13:00 MST"
+        },
+        {
+            "latitude": 33.4421184039567,
+            "longitude": -110.82530938136699,
+            "boundary": "N HWY 188   TO EASTERN BOUNDS OF SERVICE TERRITORY AND NORTHERN BOUNDS OF SERVICE TERRITORY TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 12:04 MST",
+            "etr": "2026-07-28 14:03 MST"
+        }
+    ]
+}
