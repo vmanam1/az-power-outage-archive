@@ -1,0 +1,122 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-07-27 23:07:15 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "incident_id": 19723,
+            "latitude": 31.51239900039994,
+            "longitude": -110.18894800022449,
+            "city": "Sierra Vista",
+            "customers": 3,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 22:55:13 MST",
+            "etr": "2026-07-28 01:55:13 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19713,
+            "latitude": 32.42008600074389,
+            "longitude": -109.90149300022173,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 09:45:58 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 19719,
+            "latitude": 31.532010002006086,
+            "longitude": -109.74783828036466,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 21:29:40 MST",
+            "etr": "2026-07-28 00:29:40 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19722,
+            "latitude": 31.50822487105945,
+            "longitude": -110.18343918859262,
+            "city": "Sierra Vista",
+            "customers": 13,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 22:55:13 MST",
+            "etr": "2026-07-28 01:55:13 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19679,
+            "latitude": 31.934552982820158,
+            "longitude": -109.66148750613786,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:19:48 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 19716,
+            "latitude": 31.546651478758232,
+            "longitude": -109.75024413266553,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 21:29:34 MST",
+            "etr": "2026-07-28 00:29:34 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19717,
+            "latitude": 31.535654430986074,
+            "longitude": -109.75025480193361,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 21:29:34 MST",
+            "etr": "2026-07-28 00:29:34 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19715,
+            "latitude": 31.451223346325897,
+            "longitude": -109.74406023549213,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 21:14:39 MST",
+            "etr": "2026-07-28 00:14:39 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19718,
+            "latitude": 31.53235300706073,
+            "longitude": -109.76434476995034,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-07-27 21:29:34 MST",
+            "etr": "2026-07-28 00:29:34 MST",
+            "restored_time": null
+        }
+    ]
+}

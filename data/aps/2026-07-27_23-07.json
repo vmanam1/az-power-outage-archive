@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-27 23:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 149
+    },
+    "outages": [
+        {
+            "latitude": 34.53589855910693,
+            "longitude": -112.5674476895575,
+            "city": "Prescott",
+            "boundary": "Happy Valley Rd to Brady Dr and Brady Dr to Gracie Ln",
+            "customers": 55,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-27 12:39:00 MST",
+            "etr": "2026-07-27 17:00:00 MST"
+        },
+        {
+            "latitude": 31.340811348636677,
+            "longitude": -109.52187697337807,
+            "city": "Douglas",
+            "boundary": "6th St to 5th St and Monroe Ave to Van Buren Ave",
+            "customers": 94,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-27 14:18:00 MST",
+            "etr": "2026-07-27 18:45:00 MST"
+        }
+    ]
+}
