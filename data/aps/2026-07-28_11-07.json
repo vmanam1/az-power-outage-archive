@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 11:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 108
+    },
+    "outages": [
+        {
+            "latitude": 33.48578300000133,
+            "longitude": -112.12966809990324,
+            "city": "Phoenix",
+            "boundary": "Indian School Rd To Catalina Dr  And 35Th Ave To 31St Ave",
+            "customers": 16,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-28 00:02:00 MST",
+            "etr": "2026-07-28 04:55:00 MST"
+        },
+        {
+            "latitude": 33.561763898072634,
+            "longitude": -112.08158477719077,
+            "city": "Phoenix",
+            "boundary": "Orchid Ln to Alice Ave and 7th Ave to 3rd Ave",
+            "customers": 21,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-28 01:23:00 MST",
+            "etr": "2026-07-28 04:50:00 MST"
+        },
+        {
+            "latitude": 31.407688719876095,
+            "longitude": -109.59234825243348,
+            "city": "Douglas",
+            "boundary": "Glenn Rd. to Rooster Dr. and Haas Rd. to US 191",
+            "customers": 28,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-07-28 02:49:00 MST",
+            "etr": "2026-07-28 08:30:00 MST"
+        },
+        {
+            "latitude": 33.504776647931216,
+            "longitude": -112.08449135444597,
+            "city": "Phoenix",
+            "boundary": "Highland Ave. to Hazelwood St. and 7th Ave.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-28 00:05:00 MST",
+            "etr": "2026-07-28 06:10:00 MST"
+        },
+        {
+            "latitude": 33.48627107274043,
+            "longitude": -112.09820425763232,
+            "city": "Phoenix",
+            "boundary": "Osborn Rd to Flower St and 19th Ave to 17th Dr",
+            "customers": 37,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-28 03:46:00 MST",
+            "etr": "2026-07-28 06:20:00 MST"
+        }
+    ]
+}
