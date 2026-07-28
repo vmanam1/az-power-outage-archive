@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 07:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 2396
+    },
+    "outages": [
+        {
+            "latitude": 31.35861431463193,
+            "longitude": -109.57318917539492,
+            "city": "Pirtleville",
+            "boundary": "Oak Ave to Pirtle Ave and US 191 to Douglas Ave",
+            "customers": 35,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 20:16:00 MST",
+            "etr": "2026-07-28 02:00:00 MST"
+        },
+        {
+            "latitude": 33.45617542536654,
+            "longitude": -111.9925570163793,
+            "city": "Phoenix",
+            "boundary": "Beatrice St. to Van Buren St. and 40th St. to 42nd St.",
+            "customers": 166,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 23:38:00 MST",
+            "etr": "2026-07-28 03:10:00 MST"
+        },
+        {
+            "latitude": 33.48982392926546,
+            "longitude": -112.0350801995727,
+            "city": "Phoenix",
+            "boundary": "Indianola Ave. to Monterey Wy. and 16th St. to 22nd St.",
+            "customers": 1481,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 23:49:00 MST",
+            "etr": "2026-07-28 03:50:00 MST"
+        },
+        {
+            "latitude": 33.49841294975485,
+            "longitude": -112.03703681919474,
+            "city": "Phoenix",
+            "boundary": "Turney Ave to Devonshire Ave and 20th St to 22nd St",
+            "customers": 476,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 23:51:00 MST",
+            "etr": "2026-07-28 04:00:00 MST"
+        },
+        {
+            "latitude": 33.240279999810404,
+            "longitude": -112.46682899987269,
+            "city": "Buckeye",
+            "boundary": "Pecos Rd  To Sandia Rd And 187Th Ave To 171St Ave",
+            "customers": 238,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-27 23:38:00 MST",
+            "etr": "2026-07-28 02:00:00 MST"
+        }
+    ]
+}

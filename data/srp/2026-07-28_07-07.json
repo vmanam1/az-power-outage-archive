@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-28 07:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 3162
+    },
+    "outages": [
+        {
+            "latitude": 33.5285381364746,
+            "longitude": -112.222349896168,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 42,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 06:03 MST",
+            "etr": "2026-07-28 08:03 MST"
+        },
+        {
+            "latitude": 33.39941906611095,
+            "longitude": -112.07595776278899,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 320,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 04:14 MST",
+            "etr": "2026-07-28 12:00 MST"
+        },
+        {
+            "latitude": 33.400422938408,
+            "longitude": -111.7753883753565,
+            "boundary": "S GILBERT  RD TO S 32ND  ST AND E MAIN  ST TO E SUPERSTITION  FWY",
+            "customers": 737,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 06:17 MST",
+            "etr": "2026-07-28 08:17 MST"
+        },
+        {
+            "latitude": 33.45575816926415,
+            "longitude": -111.93706039683349,
+            "boundary": "N GALVIN  PKWY TO N SCOTTSDALE  RD AND E CONTINENTAL  DR TO E MCKELLIPS  RD",
+            "customers": 30,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 06:37 MST",
+            "etr": "2026-07-28 08:33 MST"
+        },
+        {
+            "latitude": 33.45575925652725,
+            "longitude": -111.9326618568885,
+            "boundary": "N COLLEGE  AVE TO N SCOTTSDALE  RD AND E CONTINENTAL  DR TO E MCKELLIPS  RD",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 06:41 MST",
+            "etr": "2026-07-28 08:33 MST"
+        },
+        {
+            "latitude": 33.3995816237375,
+            "longitude": -111.87137687686399,
+            "boundary": "S ROOSEVELT  RD TO S LONGMORE   AND W BROADWAY  RD TO W SUPERSTITION  FWY",
+            "customers": 1377,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 06:29 MST",
+            "etr": "2026-07-28 08:28 MST"
+        },
+        {
+            "latitude": 33.502522162643245,
+            "longitude": -112.017282224622,
+            "boundary": "N 24TH  ST TO N 36TH  ST AND E STANFORD  DR TO E OSBORN  RD",
+            "customers": 640,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 06:53 MST",
+            "etr": "2026-07-28 08:52 MST"
+        },
+        {
+            "latitude": 33.492127268591545,
+            "longitude": -111.997588164883,
+            "boundary": "N 36TH  ST TO N 44TH  ST AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 07:03 MST",
+            "etr": "2026-07-28 08:47 MST"
+        }
+    ]
+}
