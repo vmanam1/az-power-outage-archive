@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 16:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 34.7530902630941,
+            "longitude": -112.4482341609523,
+            "city": "Chino Valley",
+            "boundary": "Rd 1 N to Aztec Dr and Rd 1 E",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-28 06:59:00 MST",
+            "etr": "2026-07-28 11:30:00 MST"
+        }
+    ]
+}
