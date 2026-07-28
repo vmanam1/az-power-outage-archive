@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-27 19:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 17
+    },
+    "outages": [
+        {
+            "latitude": 33.4828107324922,
+            "longitude": -112.17187255188,
+            "boundary": "N 55TH  AVE TO N 51ST  AVE AND W OSBORN  RD TO W THOMAS  RD",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-27 15:29 MST",
+            "etr": "2026-07-28 03:00 MST"
+        },
+        {
+            "latitude": 33.4828107324922,
+            "longitude": -112.17187255188,
+            "boundary": "N 55TH  AVE TO N 51ST  AVE AND W OSBORN  RD TO W THOMAS  RD",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-27 15:29 MST",
+            "etr": "2026-07-28 03:00 MST"
+        },
+        {
+            "latitude": 33.301409674400546,
+            "longitude": -111.60177856036049,
+            "boundary": "S VALLEY VERDE   TO S MOUNTAIN  RD AND E WILLIAMS FIELD  RD TO E PECOS  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-27 18:49 MST",
+            "etr": "2026-07-28 05:45 MST"
+        }
+    ]
+}
