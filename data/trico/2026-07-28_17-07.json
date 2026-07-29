@@ -1,0 +1,55 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-28 17:07:36 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 15,
+        "total_customers": 57818
+    },
+    "outages": [
+        {
+            "latitude": 32.43251644270201,
+            "longitude": -111.32883301397544,
+            "customers": 4,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "start_time": "2026-07-28 15:44:06 MST",
+            "etr": null,
+            "incident_id": "387501"
+        },
+        {
+            "latitude": 32.07602323300598,
+            "longitude": -111.33592072156813,
+            "customers": 1,
+            "cause": "30 MATERIAL OR EQUIPMENT FAULT",
+            "comments": null,
+            "start_time": "2026-07-28 02:23:24 MST",
+            "etr": "2026-07-28 05:23:24 MST",
+            "incident_id": "387491"
+        },
+        {
+            "latitude": 32.28432621123642,
+            "longitude": -111.33480681061565,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "start_time": "2026-07-21 08:30:00 MST",
+            "etr": "2026-07-21 12:30:00 MST",
+            "incident_id": "387291"
+        },
+        {
+            "latitude": 32.014567577489636,
+            "longitude": -111.46313114896998,
+            "customers": 9,
+            "cause": "51 WIND (NOT TREES)",
+            "comments": null,
+            "start_time": "2026-07-28 16:28:33 MST",
+            "etr": null,
+            "incident_id": "387505"
+        }
+    ]
+}
