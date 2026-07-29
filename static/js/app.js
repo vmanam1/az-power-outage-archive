@@ -411,8 +411,20 @@ async function fetchData() {
 
     const query = getActiveFilterQueryString();
 
-    // Update browser URL query params
-    const newUrl = `${window.location.pathname}?${query}`;
+    // Update the browser URL, but keep it minimal: defaults (all providers
+    // selected, latest mode) are omitted so the home page URL stays clean
+    // and only genuine filters appear. The API query stays fully explicit.
+    const urlParams = new URLSearchParams(query);
+    const boxes = document.querySelectorAll('input[name="providers"]');
+    const checkedCount = document.querySelectorAll('input[name="providers"]:checked').length;
+    if (boxes.length > 0 && checkedCount === boxes.length) {
+        urlParams.delete('providers');
+    }
+    if (urlParams.get('display_mode') === 'latest') {
+        urlParams.delete('display_mode');
+    }
+    const urlQuery = urlParams.toString();
+    const newUrl = window.location.pathname + (urlQuery ? `?${urlQuery}` : '');
     window.history.replaceState({ path: newUrl }, '', newUrl);
 
     let outagesData, timelineData;
