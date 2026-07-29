@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-28 18:07:32 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1317
+    },
+    "outages": [
+        {
+            "latitude": 33.502962377349604,
+            "longitude": -111.955356768881,
+            "boundary": "N 56TH  ST TO N JOKAKE  DR AND E CHAPARRAL  RD TO E INDIAN SCHOOL  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 16:00 MST",
+            "etr": "2026-07-28 20:31 MST"
+        },
+        {
+            "latitude": 33.4990439097826,
+            "longitude": -112.115064891899,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W CAMPBELL  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 13:50 MST",
+            "etr": "2026-07-28 20:00 MST"
+        },
+        {
+            "latitude": 33.42981013026205,
+            "longitude": -112.30055585620451,
+            "boundary": "S AVONDALE  BLVD TO S 111TH  AVE AND W BUCKEYE  RD TO W LOWER BUCKEYE  RD",
+            "customers": 8,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 15:16 MST",
+            "etr": "2026-07-28 19:30 MST"
+        },
+        {
+            "latitude": 33.5216198815581,
+            "longitude": -111.99445493107251,
+            "boundary": "N PALO CRISTI  RD TO N 44TH  ST AND E MCDONALD  DR TO E STANFORD  DR",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 10:50 MST",
+            "etr": "2026-07-28 18:45 MST"
+        },
+        {
+            "latitude": 33.4884264945636,
+            "longitude": -112.200280075577,
+            "boundary": "N 75TH  AVE TO N 59TH  AVE AND W CAMPBELL  AVE TO W ENCANTO  BLVD",
+            "customers": 1302,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 18:05 MST",
+            "etr": "2026-07-28 20:04 MST"
+        }
+    ]
+}
