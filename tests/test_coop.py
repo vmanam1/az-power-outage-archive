@@ -1,6 +1,8 @@
 import unittest
 from unittest.mock import patch
 
+import requests
+
 from providers.mohave import MohaveProvider
 from providers.navopache import NavopacheProvider
 from providers.trico import TricoProvider
@@ -58,6 +60,46 @@ def fake_fetch(payloads):
     return _request
 
 
+# Config that also declares a region dataset. The region file below contains
+# one delta-encoded square (10,000 m sides) that covers only the SECOND
+# outage in SUMMARY (x=3535, y=95257 relative to the extent corner).
+CONFIG_WITH_REGIONS = {
+    "mapSettings": CONFIG["mapSettings"],
+    "outageSettings": {"defaultRegionDataSet": "service"},
+}
+
+_XMIN, _YMIN = CONFIG["mapSettings"]["boundaryExtent"][:2]
+
+REGIONS = [
+    {
+        "attributes": {"name": "Western Service Area"},
+        "geometry": {
+            # Square around (xmin+3535, ymin+95257): first vertex absolute,
+            # the rest deltas -- the wire format of region.<dataset>.json.
+            "rings": [[
+                _XMIN + 3535 - 5000, _YMIN + 95257 - 5000,
+                10000, 0,
+                0, 10000,
+                -10000, 0,
+                0, -10000,
+            ]]
+        },
+    },
+    {
+        "attributes": {"name": "85658"},
+        "geometry": {
+            "rings": [[
+                _XMIN + 500000, _YMIN + 500000,
+                1000, 0,
+                0, 1000,
+                -1000, 0,
+                0, -1000,
+            ]]
+        },
+    },
+]
+
+
 class CoopOutageMapProviderTests(unittest.TestCase):
     @patch("providers.coop.request_with_retries")
     def test_fetches_and_formats_outages(self, mock_request):
@@ -85,6 +127,54 @@ class CoopOutageMapProviderTests(unittest.TestCase):
         self.assertEqual(second["cause"], "WEATHER")
         self.assertEqual(second["comments"], "Planned outage. Crews are responding.")
         self.assertTrue(second["etr"].endswith("MST"))
+
+    @patch("providers.coop.request_with_retries")
+    def test_boundary_assigned_by_point_in_region_polygon(self, mock_request):
+        mock_request.side_effect = fake_fetch({
+            "config.json": CONFIG_WITH_REGIONS,
+            "summary.json": SUMMARY,
+            "region.service.json": REGIONS,
+        })
+        data = MohaveProvider().fetch_data()
+
+        first, second = data["outages"]
+        # First outage lies outside every region polygon.
+        self.assertIsNone(first["boundary"])
+        # Second lies inside the square -> named region assigned.
+        self.assertEqual(second["boundary"], "Western Service Area")
+
+    @patch("providers.coop.request_with_retries")
+    def test_numeric_region_names_are_labeled_as_zip(self, mock_request):
+        # Move the outage inside the numeric-named ("85658") square.
+        summary = {
+            "outages": [{
+                "id": "9", "nbrOut": 2, "timeOff": 1784899201388,
+                "x": 500500, "y": 500500,
+            }]
+        }
+        mock_request.side_effect = fake_fetch({
+            "config.json": CONFIG_WITH_REGIONS,
+            "summary.json": summary,
+            "region.service.json": REGIONS,
+        })
+        data = MohaveProvider().fetch_data()
+        self.assertEqual(data["outages"][0]["boundary"], "ZIP 85658")
+
+    @patch("providers.coop.request_with_retries")
+    def test_region_fetch_failure_degrades_to_no_boundary(self, mock_request):
+        def flaky(method, url, **kwargs):
+            if url.endswith("region.service.json"):
+                raise requests.ConnectionError("region host down")
+            if url.endswith("config.json"):
+                return FakeResponse(CONFIG_WITH_REGIONS)
+            return FakeResponse(SUMMARY)
+
+        mock_request.side_effect = flaky
+        data = MohaveProvider().fetch_data()
+
+        # Outages still archived; boundaries simply absent.
+        self.assertEqual(data["summary"]["outage_count"], 2)
+        self.assertTrue(all(o["boundary"] is None for o in data["outages"]))
 
     @patch("providers.coop.request_with_retries")
     def test_empty_feed_has_zero_summary(self, mock_request):
