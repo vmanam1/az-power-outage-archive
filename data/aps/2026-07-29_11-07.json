@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-29 11:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 475
+    },
+    "outages": [
+        {
+            "latitude": 33.497851913903204,
+            "longitude": -112.03575795689501,
+            "city": "Phoenix",
+            "boundary": "Glenrosa Ave to Monterosa St and 20th St to 22nd St",
+            "customers": 475,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-07-29 03:49:00 MST",
+            "etr": "2026-07-29 08:00:00 MST"
+        }
+    ]
+}
