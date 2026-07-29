@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-29 08:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 34.70245522416644,
+            "longitude": -112.53365252059659,
+            "city": "Prescott",
+            "boundary": "Bar L Rd. and Williamson Valley Ranch Rd.",
+            "customers": 13,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-29 00:14:00 MST",
+            "etr": "2026-07-29 03:35:00 MST"
+        }
+    ]
+}

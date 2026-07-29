@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-29 08:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 95
+    },
+    "outages": [
+        {
+            "latitude": 33.3820508967718,
+            "longitude": -111.853795060341,
+            "boundary": "S ALMA SCHOOL  RD TO S EXTENSION  RD AND W SUPERSTITION  FWY TO W BASELINE  RD",
+            "customers": 6,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-29 01:18 MST",
+            "etr": "2026-07-29 09:00 MST"
+        },
+        {
+            "latitude": 33.46467051104,
+            "longitude": -111.655350301964,
+            "boundary": "N 80TH  ST TO N HAWES  RD AND E QUENTON  ST TO E HERMOSA VISTA  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 06:50 MST",
+            "etr": "2026-07-29 11:00 MST"
+        },
+        {
+            "latitude": 33.412736352455795,
+            "longitude": -111.6558022874345,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 48,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 06:56 MST",
+            "etr": "2026-07-29 11:15 MST"
+        },
+        {
+            "latitude": 33.3950882786727,
+            "longitude": -111.87220650887,
+            "boundary": "S DOBSON  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-29 05:00 MST",
+            "etr": "2026-07-29 12:30 MST"
+        },
+        {
+            "latitude": 33.381032820258596,
+            "longitude": -112.067940503407,
+            "boundary": "S CENTRAL  AVE TO S 7TH  ST AND E VINEYARD  RD TO E BASELINE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 07:36 MST",
+            "etr": "2026-07-29 09:33 MST"
+        },
+        {
+            "latitude": 33.4322556069675,
+            "longitude": -111.620210177663,
+            "boundary": "N 96TH  ST TO N CRISMON  RD AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 07:36 MST",
+            "etr": "2026-07-29 11:00 MST"
+        },
+        {
+            "latitude": 33.51536998073725,
+            "longitude": -112.1140710561705,
+            "boundary": "N 27TH  AVE TO N 23RD  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 06:43 MST",
+            "etr": "2026-07-29 08:41 MST"
+        },
+        {
+            "latitude": 33.3616095698323,
+            "longitude": -112.114560411144,
+            "boundary": "S 27TH  AVE TO S 23RD  AVE AND W SOUTH MOUNTAIN  AVE TO W OLNEY  AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 07:51 MST",
+            "etr": "2026-07-29 12:00 MST"
+        },
+        {
+            "latitude": 33.2445516282121,
+            "longitude": -111.82674301730151,
+            "boundary": "S HAMILTON  ST TO S MCQUEEN  RD AND E OCOTILLO  RD TO E BROOKS FARM  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 07:58 MST",
+            "etr": "2026-07-29 10:14 MST"
+        }
+    ]
+}
