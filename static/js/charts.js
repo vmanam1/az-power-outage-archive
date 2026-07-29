@@ -17,7 +17,9 @@ const CHARTS_PROVIDER_COLORS = {
     trico: '#33a02c',
     ed3: '#b8860b',
     mohave: '#e31a1c',
-    navopache: '#ff7f00'
+    navopache: '#ff7f00',
+    dixie: '#d63384',
+    garkane: '#795548'
 };
 
 // Draws a big number + caption in the hole of a doughnut chart. Enabled

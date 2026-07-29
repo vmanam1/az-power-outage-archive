@@ -2,7 +2,7 @@
 
 Utilities show you outages on a live map, but once an outage clears, that information is gone — there's no public record of what happened, where, or for how long. This project keeps one.
 
-Every hour a collector — a Raspberry Pi running on a systemd timer — polls nine Arizona electric utilities, normalizes their wildly different data formats into one shape, and commits a timestamped JSON snapshot to this repo. Over time that builds a searchable history of who lost power and when. A bundled Flask dashboard — the **Arizona Power Outage Explorer** — reads those snapshots straight off disk and turns them into a map, charts, a filterable table, and CSV export.
+Every hour a collector — a Raspberry Pi running on a systemd timer — polls eleven electric utilities serving Arizona, normalizes their wildly different data formats into one shape, and commits a timestamped JSON snapshot to this repo. Over time that builds a searchable history of who lost power and when. A bundled Flask dashboard — the **Arizona Power Outage Explorer** — reads those snapshots straight off disk and turns them into a map, charts, a filterable table, and CSV export.
 
 > [!IMPORTANT]
 > This is a research and history tool, not an emergency service. Utility feeds can be delayed, incomplete, or down entirely, and this archive inherits all of those gaps. For anything that actually matters — reporting an outage, checking current status, staying safe — go to your utility's own site.
@@ -20,8 +20,10 @@ Every hour a collector — a Raspberry Pi running on a systemd timer — polls n
 | `ed3` | Electrical District No. 3 | [ED3 Outage Map](https://ww3.ed3online.org/OMSWebMap/OMSWebMap.htm) | XML service |
 | `mohave` | Mohave Electric Cooperative | [Mohave Outage Map](https://mohaveelectric.outagemap.coop/) | NISC hosted outage map (JSON) |
 | `navopache` | Navopache Electric Cooperative | [Navopache Outage Map](https://navopache.outagemap.coop/) | NISC hosted outage map (JSON) |
+| `dixie` | Dixie Power | [Dixie Outage Map](https://dixiepower.outagemap.coop/) | NISC hosted outage map (JSON) — AZ Strip corner (Beaver Dam/Littlefield); UT records filtered |
+| `garkane` | Garkane Energy Cooperative | [Garkane Outage Map](https://garkaneenergy.outagemap.coop/) | NISC hosted outage map (JSON) — AZ Strip (Fredonia/Colorado City); UT records filtered |
 
-Every provider hands out JSON or XML if you ask the right endpoint — including the three co-ops on NISC's platform (Trico, Mohave, Navopache), whose hosted outage maps read static JSON from `outagemap-data.cloud.coop`. Each outage there carries its coordinates as Web Mercator offsets from the map's configured extent, which the collector converts back to latitude/longitude (the decode matches the utilities' own map markers exactly). Earlier versions drove the legacy NISC maps with headless Chrome + Selenium; that dependency is gone.
+Every provider hands out JSON or XML if you ask the right endpoint — including the five co-ops on NISC's platform (Trico, Mohave, Navopache, Dixie, Garkane), whose hosted outage maps read static JSON from `outagemap-data.cloud.coop`. Each outage there carries its coordinates as Web Mercator offsets from the map's configured extent, which the collector converts back to latitude/longitude (the decode matches the utilities' own map markers exactly). Earlier versions drove the legacy NISC maps with headless Chrome + Selenium; that dependency is gone.
 
 ## How collection works
 
@@ -209,7 +211,7 @@ When the dashboard reads old files it's forgiving: unparseable JSON is skipped a
 
 Collection and CI live in two different places.
 
-**Hourly collection runs on a Raspberry Pi.** A systemd timer (`deploy/systemd/outage-archive.timer`) fires at minute 7 of every hour and runs `scripts/collect.sh`, which scrapes all nine providers, commits whatever new snapshots came out of the run, and pushes them to GitHub over SSH using a repo deploy key. The snapshots therefore live in two places — on the Pi and in this repo. If a push is rejected because the remote moved, the script rebases and retries so the Pi never ends up diverged, and `Persistent=true` on the timer means a run missed while the Pi was off is picked up as soon as it's back. Because the collector commits before it inspects the exit code, the snapshots from providers that succeeded still get committed even when one provider's upstream failure takes the overall run's exit code non-zero.
+**Hourly collection runs on a Raspberry Pi.** A systemd timer (`deploy/systemd/outage-archive.timer`) fires at minute 7 of every hour and runs `scripts/collect.sh`, which scrapes all eleven providers, commits whatever new snapshots came out of the run, and pushes them to GitHub over SSH using a repo deploy key. The snapshots therefore live in two places — on the Pi and in this repo. If a push is rejected because the remote moved, the script rebases and retries so the Pi never ends up diverged, and `Persistent=true` on the timer means a run missed while the Pi was off is picked up as soon as it's back. Because the collector commits before it inspects the exit code, the snapshots from providers that succeeded still get committed even when one provider's upstream failure takes the overall run's exit code non-zero.
 
 **Failure alerting is a dead-man's-switch**, not a per-failure alarm. On each run the collector pings a [healthchecks.io](https://healthchecks.io) check — a success ping when it ran and pushed, a failure ping if the push couldn't complete. The ping is deliberately independent of whether any single utility was reachable, so an upstream outage never raises a false alarm; you only get an email when a ping actually goes *missing*, i.e. the Pi itself stopped collecting (offline, hung, disk full, broken credentials). The ping URL is injected from a private, uncommitted env file on the Pi (`/etc/default/outage-archive`) rather than stored in this public repo.
 
@@ -273,7 +275,7 @@ az-power-outage-archive/
 
 ## Built with
 
-Python and Flask on the backend; Requests for all nine collectors. The frontend is vanilla JavaScript with Leaflet (and markercluster) for the map and Chart.js for the charts. A Raspberry Pi on a systemd timer runs the hourly collection (with GitHub Actions as a manual fallback), GitHub Actions runs CI, healthchecks.io watches the collector, and the archive itself is just JSON in Git.
+Python and Flask on the backend; Requests for all eleven collectors. The frontend is vanilla JavaScript with Leaflet (and markercluster) for the map and Chart.js for the charts. A Raspberry Pi on a systemd timer runs the hourly collection (with GitHub Actions as a manual fallback), GitHub Actions runs CI, healthchecks.io watches the collector, and the archive itself is just JSON in Git.
 
 ## Known limits
 

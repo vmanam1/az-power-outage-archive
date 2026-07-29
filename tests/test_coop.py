@@ -3,6 +3,8 @@ from unittest.mock import patch
 
 import requests
 
+from providers.dixie import DixieProvider
+from providers.garkane import GarkaneProvider
 from providers.mohave import MohaveProvider
 from providers.navopache import NavopacheProvider
 from providers.trico import TricoProvider
@@ -217,10 +219,12 @@ class CoopOutageMapProviderTests(unittest.TestCase):
             (MohaveProvider(), "mohaveelectric"),
             (TricoProvider(), "trico"),
             (NavopacheProvider(), "navopache"),
+            (DixieProvider(), "dixiepower"),
+            (GarkaneProvider(), "garkaneenergy"),
         ):
             provider.fetch_data()
         self.assertTrue(all("outagemap-data.cloud.coop" in u for u in seen))
-        for slug in ("mohaveelectric", "trico", "navopache"):
+        for slug in ("mohaveelectric", "trico", "navopache", "dixiepower", "garkaneenergy"):
             self.assertTrue(any(f"/{slug}/" in u for u in seen))
 
 

@@ -8,7 +8,7 @@
 
 Electric utilities in Arizona show live outage maps on their websites: where the power is out, how many customers are affected, and when it might be restored. But the moment an outage is fixed, that information **disappears forever** — utilities don't publish history.
 
-This project fixes that. Once every hour, a small computer (a Raspberry Pi) automatically visits nine Arizona utilities' outage feeds, saves what they're reporting into small data files, and uploads copies to the internet (GitHub). Over weeks and months this builds a permanent, searchable history of power outages across Arizona — who lost power, where, when, why, and for how long.
+This project fixes that. Once every hour, a small computer (a Raspberry Pi) automatically visits eleven Arizona utilities' outage feeds, saves what they're reporting into small data files, and uploads copies to the internet (GitHub). Over weeks and months this builds a permanent, searchable history of power outages across Arizona — who lost power, where, when, why, and for how long.
 
 A companion **website (the "dashboard")** turns those saved files into an interactive map, charts, and tables that anyone can explore in a web browser.
 
@@ -19,13 +19,13 @@ A companion **website (the "dashboard")** turns those saved files into an intera
 ## 2. The system at a glance
 
 ```
-  Nine Arizona utility websites (APS, SRP, TEP, ...)
+  Eleven utility websites serving Arizona (APS, SRP, TEP, ...)
                      │
                      ▼   every hour, at 7 minutes past
         ┌─────────────────────────┐
         │  Raspberry Pi           │   "the collector"
         │  (leaps-rpi-1)          │
-        │  - reads all 9 feeds    │
+        │  - reads all 11 feeds    │
         │  - saves JSON files     │──────► copy #1: stored on the Pi itself
         │  - uploads to GitHub    │──────► copy #2: github.com/vmanam1/az-power-outage-archive
         │  - runs the dashboard   │──────► http://10.203.49.199:5000  (campus network only)
@@ -43,7 +43,7 @@ Three ideas to hold onto:
 
 ---
 
-## 3. The nine utilities we track
+## 3. The eleven utilities we track
 
 | Code | Utility | How we read it |
 | --- | --- | --- |
@@ -56,8 +56,10 @@ Three ideas to hold onto:
 | `ed3` | Electrical District No. 3 | XML service |
 | `mohave` | Mohave Electric Cooperative | NISC hosted outage map (JSON) |
 | `navopache` | Navopache Electric Cooperative | NISC hosted outage map (JSON) |
+| `dixie` | Dixie Power (AZ Strip corner; UT filtered) | NISC hosted outage map (JSON) |
+| `garkane` | Garkane Energy (AZ Strip; UT filtered) | NISC hosted outage map (JSON) |
 
-All nine are read with plain web requests — no browser automation anywhere. Each utility has its own small reader ("provider") in the `providers/` folder of the code, and every record passes strict validation before it's allowed into the archive (bad data fails loudly rather than being silently saved wrong).
+All eleven are read with plain web requests — no browser automation anywhere. Each utility has its own small reader ("provider") in the `providers/` folder of the code, and every record passes strict validation before it's allowed into the archive (bad data fails loudly rather than being silently saved wrong).
 
 ---
 

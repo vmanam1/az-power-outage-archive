@@ -4,7 +4,9 @@ from scripts.logger import logger
 from scripts.utils import current_time, filter_snapshot_to_arizona
 from providers.srp import SRPProvider
 from providers.ssvec import SSVECProvider
+from providers.dixie import DixieProvider
 from providers.ed3 import ED3Provider
+from providers.garkane import GarkaneProvider
 from providers.mohave import MohaveProvider
 from providers.navopache import NavopacheProvider
 from providers.trico import TricoProvider
@@ -70,6 +72,8 @@ def main():
         ED3Provider(),
         MohaveProvider(),
         NavopacheProvider(),
+        DixieProvider(),
+        GarkaneProvider(),
     ]
 
     run_providers(providers)

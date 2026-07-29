@@ -38,7 +38,9 @@ const PROVIDER_COLORS = {
     trico: '#33a02c',
     ed3: '#b8860b',
     mohave: '#e31a1c',
-    navopache: '#ff7f00'
+    navopache: '#ff7f00',
+    dixie: '#d63384',
+    garkane: '#795548'
 };
 
 const DEFAULT_CENTER = [34.0489, -111.0937]; // Arizona Centroid

@@ -60,6 +60,8 @@
     --color-ed3: #b8860b;
     --color-mohave: #e31a1c;
     --color-navopache: #ff7f00;
+    --color-dixie: #d63384;
+    --color-garkane: #795548;
 }
 
 body.dark-theme {
@@ -799,6 +801,8 @@ body.dark-theme .provider-tag {
 .provider-ed3 { --tag: var(--color-ed3); }
 .provider-mohave { --tag: var(--color-mohave); }
 .provider-navopache { --tag: var(--color-navopache); }
+.provider-dixie { --tag: var(--color-dixie); }
+.provider-garkane { --tag: var(--color-garkane); }
 
 /* Charts ------------------------------------------------------------------ */
 
