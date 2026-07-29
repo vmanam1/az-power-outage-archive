@@ -30,13 +30,13 @@
     <!-- Top Compact Header -->
     <header class="app-header">
         <div class="header-main">
-            <a class="header-logo" href="/" title="Back to the default view">
+            <div class="header-logo">
                 <span class="logo-icon">⚡</span>
                 <div>
                     <h1>Arizona Power Outage Explorer</h1>
                     <p class="subtitle">Archived outage history across eleven Arizona utilities</p>
                 </div>
-            </a>
+            </div>
             <div class="header-actions">
                 <div id="connection-badge" class="badge badge-success">Raspberry Pi Server</div>
                 <button id="dark-mode-toggle" class="btn btn-icon" title="Toggle Dark/Light Mode" aria-label="Toggle Theme">🌓</button>
@@ -232,14 +232,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Time machine: scrub through the archive hour by hour -->
-                <section class="time-machine" id="time-machine" style="display: none;">
-                    <button id="tm-play" class="btn btn-icon" title="Play through the archive">▶</button>
-                    <input type="range" id="tm-slider" min="0" max="0" value="0" step="1" aria-label="Archive time position">
-                    <span class="tm-label" id="tm-label">—</span>
-                    <button id="tm-live" class="btn btn-secondary btn-small" title="Return to latest data">Live</button>
-                </section>
 
                 <!-- Shown when the current filters match nothing -->
                 <section class="empty-state" id="empty-state" style="display: none;">

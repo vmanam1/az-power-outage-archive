@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
         syncFiltersFromUrl();
         fetchData();
         loadUtilitiesPanel();
-        initTimeMachine();
 
         // Start background polling for updates
         startPolling();
@@ -99,15 +98,6 @@ async function loadMetadata() {
             defaultDateRange.start_date = `${earliestDate.getFullYear()}-${pad(earliestDate.getMonth()+1)}-${pad(earliestDate.getDate())}`;
         }
         
-        // Keep the raw archive bounds for the time machine.
-        if (meta.date_bounds && meta.date_bounds.earliest && meta.date_bounds.latest) {
-            const toDate = (s) => new Date(s.replace(' MST', '').replace(' ', 'T') + '-07:00');
-            window.archiveBounds = {
-                earliest: toDate(meta.date_bounds.earliest),
-                latest: toDate(meta.date_bounds.latest)
-            };
-        }
-
         // Store boundaries on date pickers as max/min if desired
         if (meta.date_bounds) {
             const startInput = document.getElementById('start_date');
@@ -406,112 +396,6 @@ async function loadUtilitiesPanel() {
             }
         });
     });
-}
-
-/* Time machine: scrub the archive hour by hour. Drives the existing
-   snapshot-at-time display mode, so every panel (map, stats, charts, table)
-   reconstructs that moment. */
-
-let tmTimer = null;
-
-function tmStepDate(step) {
-    return new Date(window.archiveBounds.earliest.getTime() + step * 3600 * 1000);
-}
-
-function tmFormat(date) {
-    const pad = (n) => String(n).padStart(2, '0');
-    // Display in Arizona time (MST, UTC-7), matching the archive.
-    const az = new Date(date.getTime() - 7 * 3600 * 1000);
-    return `${pad(az.getUTCMonth() + 1)}/${pad(az.getUTCDate())} ${pad(az.getUTCHours())}:${pad(az.getUTCMinutes())} MST`;
-}
-
-function tmSnapshotValue(date) {
-    const pad = (n) => String(n).padStart(2, '0');
-    const az = new Date(date.getTime() - 7 * 3600 * 1000);
-    return `${az.getUTCFullYear()}-${pad(az.getUTCMonth() + 1)}-${pad(az.getUTCDate())}T${pad(az.getUTCHours())}:${pad(az.getUTCMinutes())}`;
-}
-
-function tmApply(step) {
-    const select = document.getElementById('display_mode');
-    const snapInput = document.getElementById('snapshot_time');
-    if (!select || !snapInput) return;
-    select.value = 'snapshot_at_time';
-    toggleDisplayModeInputs('snapshot_at_time');
-    snapInput.value = tmSnapshotValue(tmStepDate(step));
-    document.getElementById('tm-label').textContent = tmFormat(tmStepDate(step));
-    updateFilterChips();
-    fetchData();
-}
-
-function tmStop() {
-    if (tmTimer) {
-        clearInterval(tmTimer);
-        tmTimer = null;
-    }
-    const play = document.getElementById('tm-play');
-    if (play) play.textContent = '▶';
-}
-
-function tmGoLive() {
-    tmStop();
-    const slider = document.getElementById('tm-slider');
-    const select = document.getElementById('display_mode');
-    if (slider) slider.value = slider.max;
-    if (select) {
-        select.value = 'latest';
-        toggleDisplayModeInputs('latest');
-    }
-    const snapInput = document.getElementById('snapshot_time');
-    if (snapInput) snapInput.value = '';
-    document.getElementById('tm-label').textContent = 'Live';
-    updateFilterChips();
-    fetchData();
-}
-
-function initTimeMachine() {
-    const bar = document.getElementById('time-machine');
-    const slider = document.getElementById('tm-slider');
-    const play = document.getElementById('tm-play');
-    const live = document.getElementById('tm-live');
-    if (!bar || !slider || !window.archiveBounds) return;
-
-    const spanMs = window.archiveBounds.latest - window.archiveBounds.earliest;
-    const hours = Math.max(1, Math.floor(spanMs / 3600 / 1000));
-    slider.max = hours;
-    slider.value = hours;
-    document.getElementById('tm-label').textContent = 'Live';
-    bar.style.display = 'flex';
-
-    // While dragging, only preview the timestamp; fetch on release.
-    slider.addEventListener('input', () => {
-        document.getElementById('tm-label').textContent = tmFormat(tmStepDate(Number(slider.value)));
-    });
-    slider.addEventListener('change', () => {
-        tmStop();
-        tmApply(Number(slider.value));
-    });
-
-    play.addEventListener('click', () => {
-        if (tmTimer) {
-            tmStop();
-            return;
-        }
-        // Start from the beginning when pressing play at the live end.
-        if (Number(slider.value) >= hours) slider.value = 0;
-        play.textContent = '⏸';
-        tmApply(Number(slider.value));
-        tmTimer = setInterval(() => {
-            const next = Number(slider.value) + 1;
-            if (next > hours) {
-                tmStop();
-                return;
-            }
-            slider.value = next;
-            tmApply(next);
-        }, 1600);
-    });
-
-    live.addEventListener('click', tmGoLive);
 }
 
 let fetchSeq = 0;
