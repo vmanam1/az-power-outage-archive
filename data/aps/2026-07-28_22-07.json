@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 22:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.776232958737225,
+            "longitude": -111.90119107473222,
+            "city": "Scottsdale",
+            "boundary": "Lone Mountain Rd and Black Cross Rd",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-28 14:32:00 MST",
+            "etr": "2026-07-28 17:00:00 MST"
+        }
+    ]
+}
