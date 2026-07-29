@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-29 05:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 173
+    },
+    "outages": [
+        {
+            "latitude": 33.58784332581955,
+            "longitude": -112.215192478064,
+            "boundary": "N 75TH  AVE TO N 71ST  AVE AND W CACTUS  RD TO W PEORIA  AVE",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 23:57 MST",
+            "etr": "2026-07-29 06:00 MST"
+        },
+        {
+            "latitude": 33.3820508967718,
+            "longitude": -111.853795060341,
+            "boundary": "S ALMA SCHOOL  RD TO S EXTENSION  RD AND W SUPERSTITION  FWY TO W BASELINE  RD",
+            "customers": 6,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-29 01:18 MST",
+            "etr": "2026-07-29 09:00 MST"
+        },
+        {
+            "latitude": 33.29621542999805,
+            "longitude": -112.013304874919,
+            "boundary": "S RAY  RD TO S 40TH  ST AND E CHANDLER  BLVD TO E SOUTH MOUNTAIN  FWY",
+            "customers": 33,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 04:25 MST",
+            "etr": "2026-07-29 06:25 MST"
+        },
+        {
+            "latitude": 33.39637769158375,
+            "longitude": -111.8723707583285,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 05:00 MST",
+            "etr": "2026-07-29 06:59 MST"
+        },
+        {
+            "latitude": 33.3957155087629,
+            "longitude": -111.8727884404245,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 54,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 05:00 MST",
+            "etr": "2026-07-29 06:58 MST"
+        },
+        {
+            "latitude": 33.3962078322191,
+            "longitude": -111.8714012880875,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 20,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 05:00 MST",
+            "etr": "2026-07-29 06:59 MST"
+        },
+        {
+            "latitude": 33.395722411434804,
+            "longitude": -111.8734659139545,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 05:05 MST",
+            "etr": "2026-07-29 06:58 MST"
+        }
+    ]
+}

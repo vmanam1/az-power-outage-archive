@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-29 05:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 48
+    },
+    "outages": [
+        {
+            "latitude": 34.730641468922926,
+            "longitude": -112.00772173810026,
+            "city": "Cottonwood",
+            "boundary": "Cottonwood St and Main St to Sawmill Rd",
+            "customers": 29,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-28 20:20:00 MST",
+            "etr": "2026-07-29 00:00:00 MST"
+        },
+        {
+            "latitude": 33.98232959510309,
+            "longitude": -112.73794411893164,
+            "city": "Wickenburg",
+            "boundary": "Monte Vista Ranch to Penn Ln. and Tegner St. to Jack Burden Rd.",
+            "customers": 19,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-28 21:22:00 MST",
+            "etr": "2026-07-29 00:00:00 MST"
+        }
+    ]
+}
