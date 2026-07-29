@@ -1,0 +1,124 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-29 10:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 168
+    },
+    "outages": [
+        {
+            "latitude": 33.412736352455795,
+            "longitude": -111.6558022874345,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 48,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 06:56 MST",
+            "etr": "2026-07-29 11:15 MST"
+        },
+        {
+            "latitude": 33.3950882786727,
+            "longitude": -111.87220650887,
+            "boundary": "S DOBSON  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-29 05:00 MST",
+            "etr": "2026-07-29 12:30 MST"
+        },
+        {
+            "latitude": 33.4322556069675,
+            "longitude": -111.620210177663,
+            "boundary": "N 96TH  ST TO N CRISMON  RD AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 07:36 MST",
+            "etr": "2026-07-29 11:00 MST"
+        },
+        {
+            "latitude": 33.3616095698323,
+            "longitude": -112.114560411144,
+            "boundary": "S 27TH  AVE TO S 23RD  AVE AND W SOUTH MOUNTAIN  AVE TO W OLNEY  AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 07:51 MST",
+            "etr": "2026-07-29 12:00 MST"
+        },
+        {
+            "latitude": 33.5630430488642,
+            "longitude": -111.53612419510699,
+            "boundary": "N BEELINE  HWY TO UNKNOWN AND NORTHERN BOUNDS OF SERVICE TERRITORY TO E MCDOWELL  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 08:13 MST",
+            "etr": "2026-07-29 12:00 MST"
+        },
+        {
+            "latitude": 33.381032820258596,
+            "longitude": -112.067940503407,
+            "boundary": "S CENTRAL  AVE TO S 7TH  ST AND E VINEYARD  RD TO E BASELINE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 07:36 MST",
+            "etr": "2026-07-29 12:33 MST"
+        },
+        {
+            "latitude": 33.530167594291555,
+            "longitude": -111.9143994932935,
+            "boundary": "N CATTLETRACK  RD TO N HAYDEN  RD AND E INDIAN BEND  RD TO E MCDONALD  DR",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 09:22 MST",
+            "etr": "2026-07-29 11:22 MST"
+        },
+        {
+            "latitude": 33.47692201476135,
+            "longitude": -112.0211439101265,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E THOMAS  RD TO E OAK  ST",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 09:33 MST",
+            "etr": "2026-07-29 11:32 MST"
+        },
+        {
+            "latitude": 33.344313686693596,
+            "longitude": -111.715083911058,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E ELLIOT  RD TO E WARNER  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 09:39 MST",
+            "etr": "2026-07-29 11:37 MST"
+        },
+        {
+            "latitude": 33.53403561416305,
+            "longitude": -112.097792870595,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 08:19 MST",
+            "etr": "2026-07-29 11:00 MST"
+        },
+        {
+            "latitude": 33.3937291978719,
+            "longitude": -112.3014171226485,
+            "boundary": "S 119TH  AVE TO S 107TH  AVE AND W ROESER  RD TO W INDIAN SPRINGS  RD",
+            "customers": 61,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-29 08:46 MST",
+            "etr": "2026-07-29 16:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-29 10:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 34.32363616112529,
+            "longitude": -111.00627335915442,
+            "city": "Payson",
+            "boundary": "E Doe Crossing",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-29 02:39:00 MST",
+            "etr": "2026-07-29 04:30:00 MST"
+        }
+    ]
+}
