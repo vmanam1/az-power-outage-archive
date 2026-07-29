@@ -156,7 +156,10 @@ button {
     display: flex;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
+    color: inherit;
 }
+.header-logo:hover h1 { color: var(--primary); }
 
 .logo-icon {
     font-size: 20px;
