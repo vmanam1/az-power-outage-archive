@@ -284,6 +284,35 @@
                     </div>
                 </section>
 
+                <!-- Utilities overview (per-provider "right now" panel) -->
+                <section class="table-section" id="utilities-panel">
+                    <div class="table-header">
+                        <div class="table-title-area">
+                            <h4>Utilities Overview</h4>
+                            <span class="badge badge-secondary">latest snapshot per utility</span>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table utilities-table" id="utilities-table">
+                            <thead>
+                                <tr>
+                                    <th>Utility</th>
+                                    <th class="numeric">Active Outages</th>
+                                    <th class="numeric">Customers Out</th>
+                                    <th class="numeric">Customers Tracked</th>
+                                    <th>% Out</th>
+                                    <th>48h Trend</th>
+                                    <th>Updated</th>
+                                </tr>
+                            </thead>
+                            <tbody id="utilities-body">
+                                <tr><td colspan="7" class="text-center text-muted">Loading utilities…</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="table-footnote">Click a utility to filter the dashboard to it; click again to show all. "Customers Tracked" appears only for utilities that publish a system-wide customer count.</p>
+                </section>
+
                 <!-- Data Table Section -->
                 <section class="table-section">
                     <div class="table-header">

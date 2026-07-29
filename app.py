@@ -118,6 +118,40 @@ def metadata():
         }
     })
 
+@app.route("/api/provider-summary")
+def provider_summary():
+    """
+    Returns a per-provider "right now" overview from each provider's newest
+    snapshot: active outage count, customers out, total customers served
+    (where the utility publishes it), and the snapshot time. Powers the
+    utilities overview panel.
+    """
+    try:
+        snapshots, _ = scan_archive(DATA_DIR)
+    except Exception as e:
+        logger.exception("Error in /api/provider-summary scan")
+        return jsonify({"error": f"Failed to read archive: {e}"}), 500
+
+    latest = {}
+    for s in snapshots:
+        p = s["provider"]
+        if p not in latest or s["scraped_at"] > latest[p]["scraped_at"]:
+            latest[p] = s
+
+    rows = []
+    for p in sorted(latest):
+        s = latest[p]
+        active = [o for o in s["outages"] if not o.get("restored_time")]
+        rows.append({
+            "provider": p,
+            "outage_count": len(active),
+            "customers_out": sum(o["customers"] for o in active),
+            "total_customers": s.get("total_customers"),
+            "scraped_at": s["scraped_at"],
+        })
+    return jsonify(rows)
+
+
 def parse_filter_params():
     """
     Extracts and parses filter query parameters from the request.

@@ -198,12 +198,22 @@ def parse_snapshot_file(file_path, provider_name, stats):
         # Stored totals include the hidden records; recompute from the kept.
         customers_affected = sum(o["customers"] for o in normalized_outages)
 
+    # Total customers served (only some utilities publish it).
+    total_customers = summary.get("total_customers")
+    if (
+        isinstance(total_customers, bool)
+        or not isinstance(total_customers, int)
+        or total_customers <= 0
+    ):
+        total_customers = None
+
     snapshot = {
         "file_path": file_path,
         "provider": provider_name.lower(),
         "scraped_at": scraped_at,
         "outages": normalized_outages,
         "customers_affected": customers_affected,
+        "total_customers": total_customers,
         "stats": {
             "missing_coords": file_missing_coords,
             "invalid_coords": file_invalid_coords,
