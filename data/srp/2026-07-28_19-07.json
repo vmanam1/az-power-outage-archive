@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-28 19:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1311
+    },
+    "outages": [
+        {
+            "latitude": 33.4990439097826,
+            "longitude": -112.115064891899,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W CAMPBELL  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 13:50 MST",
+            "etr": "2026-07-28 20:00 MST"
+        },
+        {
+            "latitude": 33.42981013026205,
+            "longitude": -112.30055585620451,
+            "boundary": "S AVONDALE  BLVD TO S 111TH  AVE AND W BUCKEYE  RD TO W LOWER BUCKEYE  RD",
+            "customers": 8,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 15:16 MST",
+            "etr": "2026-07-28 19:30 MST"
+        },
+        {
+            "latitude": 33.4884264945636,
+            "longitude": -112.200280075577,
+            "boundary": "N 75TH  AVE TO N 59TH  AVE AND W CAMPBELL  AVE TO W ENCANTO  BLVD",
+            "customers": 1302,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 18:05 MST",
+            "etr": "2026-07-28 20:19 MST"
+        }
+    ]
+}
