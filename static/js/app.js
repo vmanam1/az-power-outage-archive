@@ -17,8 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // After metadata loads, read URL parameters and fetch data
         syncFiltersFromUrl();
         fetchData();
-        loadUtilitiesPanel();
-
+        
         // Start background polling for updates
         startPolling();
     });
@@ -286,116 +285,6 @@ function toggleActiveOnlyFilter() {
     cb.checked = !cb.checked;
     updateFilterChips();
     fetchData();
-}
-
-/* Utilities overview panel: per-provider "right now" rows in the style of
-   poweroutage.us state pages -- customers out, tracked, % out, a 48h trend
-   sparkline, and freshness. Rows cross-filter like everything else. */
-
-let sparklineCharts = {};
-
-function relativeTime(mstString) {
-    // "2026-07-29 16:10:00 MST" -> "23 min ago" (MST is UTC-7, no DST)
-    if (!mstString) return '—';
-    const iso = mstString.replace(' MST', '').replace(' ', 'T') + '-07:00';
-    const then = new Date(iso).getTime();
-    if (isNaN(then)) return mstString;
-    const mins = Math.round((Date.now() - then) / 60000);
-    if (mins < 1) return 'just now';
-    if (mins < 60) return `${mins} min ago`;
-    const hours = Math.floor(mins / 60);
-    if (hours < 24) return `${hours} h ${mins % 60} min ago`;
-    return `${Math.floor(hours / 24)} d ago`;
-}
-
-async function loadUtilitiesPanel() {
-    const body = document.getElementById('utilities-body');
-    if (!body) return;
-
-    // 48h window for the sparklines, independent of the page filters.
-    const pad = (n) => String(n).padStart(2, '0');
-    const startDate = new Date(Date.now() - 48 * 3600 * 1000);
-    const startStr = `${startDate.getFullYear()}-${pad(startDate.getMonth() + 1)}-${pad(startDate.getDate())}`;
-
-    let rows, timeline;
-    try {
-        const [summaryRes, timelineRes] = await Promise.all([
-            fetch('/api/provider-summary'),
-            fetch(`/api/timeline?start_date=${startStr}`)
-        ]);
-        if (!summaryRes.ok || !timelineRes.ok) throw new Error('overview fetch failed');
-        rows = await summaryRes.json();
-        timeline = await timelineRes.json();
-    } catch (e) {
-        console.error('Utilities panel failed:', e);
-        body.innerHTML = '<tr><td colspan="7" class="text-center text-muted">Could not load utilities overview.</td></tr>';
-        return;
-    }
-
-    // Group timeline points per provider for sparklines.
-    const series = {};
-    (timeline || []).forEach(pt => {
-        (series[pt.provider] = series[pt.provider] || []).push(pt);
-    });
-    Object.values(series).forEach(list => list.sort((a, b) => a.timestamp < b.timestamp ? -1 : 1));
-
-    Object.values(sparklineCharts).forEach(c => c.destroy());
-    sparklineCharts = {};
-    body.innerHTML = '';
-
-    rows.forEach(r => {
-        const tr = document.createElement('tr');
-        tr.title = `Filter to ${r.provider.toUpperCase()} (click again to show all)`;
-
-        const pct = (r.total_customers && r.total_customers > 0)
-            ? (100 * r.customers_out / r.total_customers) : null;
-        const pctCell = pct === null
-            ? '<span class="text-muted">—</span>'
-            : `<div class="pct-cell"><div class="pct-bar"><div class="pct-fill" style="width:${Math.min(100, Math.max(pct, pct > 0 ? 1.5 : 0))}%"></div></div><span>${pct < 0.01 && pct > 0 ? '<0.01' : pct.toFixed(2)}%</span></div>`;
-
-        tr.innerHTML = `
-            <td><span class="provider-tag provider-${r.provider}">${r.provider}</span></td>
-            <td class="numeric">${r.outage_count.toLocaleString()}</td>
-            <td class="numeric"><strong>${r.customers_out.toLocaleString()}</strong></td>
-            <td class="numeric">${r.total_customers ? r.total_customers.toLocaleString() : '<span class="text-muted">—</span>'}</td>
-            <td>${pctCell}</td>
-            <td class="spark-cell"><canvas id="spark-${r.provider}" width="110" height="26"></canvas></td>
-            <td class="text-muted">${relativeTime(r.scraped_at)}</td>
-        `;
-        tr.addEventListener('click', () => {
-            if (typeof applyProviderFilter === 'function') applyProviderFilter(r.provider);
-        });
-        body.appendChild(tr);
-    });
-
-    // Draw sparklines after rows exist in the DOM.
-    rows.forEach(r => {
-        const canvas = document.getElementById(`spark-${r.provider}`);
-        const pts = series[r.provider] || [];
-        if (!canvas || pts.length < 2) return;
-        const color = (typeof PROVIDER_COLORS !== 'undefined' && PROVIDER_COLORS[r.provider]) || '#4f63d2';
-        sparklineCharts[r.provider] = new Chart(canvas.getContext('2d'), {
-            type: 'line',
-            data: {
-                labels: pts.map(p => p.timestamp),
-                datasets: [{
-                    data: pts.map(p => p.customers_affected),
-                    borderColor: color,
-                    borderWidth: 1.5,
-                    pointRadius: 0,
-                    tension: 0.3,
-                    fill: false
-                }]
-            },
-            options: {
-                responsive: false,
-                animation: false,
-                plugins: { legend: { display: false }, tooltip: { enabled: false } },
-                scales: { x: { display: false }, y: { display: false } },
-                events: []
-            }
-        });
-    });
 }
 
 let fetchSeq = 0;
@@ -793,8 +682,7 @@ async function checkUpdates(isManual = false) {
             
             // Preserving existing filters, reload outage data
             fetchData();
-            loadUtilitiesPanel();
-
+            
             showToast('New Data Loaded', `Archive updated. ${status.file_count} snapshots total.`, 'success');
         } else {
             if (isManual) {
