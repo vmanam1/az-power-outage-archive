@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-29 04:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 39
+    },
+    "outages": [
+        {
+            "latitude": 33.58784332581955,
+            "longitude": -112.215192478064,
+            "boundary": "N 75TH  AVE TO N 71ST  AVE AND W CACTUS  RD TO W PEORIA  AVE",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-28 23:57 MST",
+            "etr": "2026-07-29 06:00 MST"
+        },
+        {
+            "latitude": 33.536045331991346,
+            "longitude": -112.132703397299,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 02:45 MST",
+            "etr": "2026-07-29 04:43 MST"
+        },
+        {
+            "latitude": 33.3820508967718,
+            "longitude": -111.853795060341,
+            "boundary": "S ALMA SCHOOL  RD TO S EXTENSION  RD AND W SUPERSTITION  FWY TO W BASELINE  RD",
+            "customers": 6,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-29 01:18 MST",
+            "etr": "2026-07-29 09:00 MST"
+        },
+        {
+            "latitude": 33.361955173354204,
+            "longitude": -111.944246385581,
+            "boundary": "S HARDY  DR TO S RURAL  RD AND W BASELINE  RD TO W DIVOT  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 03:31 MST",
+            "etr": "2026-07-29 05:00 MST"
+        }
+    ]
+}
