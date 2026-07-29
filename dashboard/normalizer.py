@@ -1,7 +1,7 @@
 import math
 from datetime import datetime
 
-from dashboard.geo import derived_city
+from dashboard.geo import derived_boundary, derived_city, nearest_place, DERIVED_PREFIX
 
 def normalize_time(val):
     """
@@ -91,22 +91,28 @@ def normalize_outage(outage, provider_name):
         except (ValueError, TypeError):
             cust_restored = 0
 
-    # Format dictionary boundaries to readable strings
+    # Boundary: prefer what the utility published. TEP publishes a raw
+    # coordinate dictionary rather than a name -- that is noise, so it is
+    # discarded and the fallbacks below take over.
     boundary = outage.get("boundary")
     if isinstance(boundary, dict):
-        sw_lat = boundary.get("coordLatSW")
-        sw_lng = boundary.get("coordLngSW")
-        ne_lat = boundary.get("coordLatNE")
-        ne_lng = boundary.get("coordLngNE")
-        if sw_lat and sw_lng and ne_lat and ne_lng:
-            try:
-                boundary = f"Box: SW({float(sw_lat):.4f}, {float(sw_lng):.4f}) to NE({float(ne_lat):.4f}, {float(ne_lng):.4f})"
-            except (ValueError, TypeError):
-                boundary = str(boundary)
-        else:
-            boundary = str(boundary)
+        boundary = None
     elif boundary is not None:
         boundary = str(boundary).strip() or None
+
+    provider_key = provider_name.lower()
+
+    # Fallback 1: the co-op region polygons (same names the collector now
+    # assigns at scrape time) cover records archived before that existed.
+    if not boundary and has_coords:
+        boundary = derived_boundary(provider_key, lat, lng)
+
+    # Fallback 2: the nearest-place lookup, phrased as an area, so the
+    # boundary column is filled for providers that publish nothing at all.
+    if not boundary and has_coords:
+        place = nearest_place(lat, lng)
+        if place:
+            boundary = f"{DERIVED_PREFIX}{place} area"
 
     # City: prefer what the utility published; otherwise derive the nearest
     # Arizona place from the coordinates, marked with "≈" so a derived region

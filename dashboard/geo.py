@@ -75,3 +75,84 @@ def derived_city(latitude, longitude):
     """
     name = nearest_place(latitude, longitude)
     return f"{DERIVED_PREFIX}{name}" if name else None
+
+
+# --- Co-op region polygons (display-only boundary backfill) -----------------
+# dashboard/coop_regions.json holds each NISC co-op's named region polygons in
+# absolute Web Mercator meters (see scripts/build_coop_regions.py). Snapshots
+# archived before the collector learned region lookup lack a boundary; the
+# dashboard fills it at read time from these polygons, marked with "≈".
+
+_REGIONS_FILE = os.path.join(os.path.dirname(__file__), "coop_regions.json")
+_regions = None
+
+
+def _load_regions():
+    global _regions
+    if _regions is None:
+        _regions = {}
+        try:
+            with open(_REGIONS_FILE, encoding="utf-8") as f:
+                raw = json.load(f)
+        except (OSError, ValueError):
+            return _regions
+        for provider, regions in raw.items():
+            prepared = []
+            for region in regions:
+                rings = region.get("rings") or []
+                if not rings:
+                    continue
+                xs = [pt[0] for ring in rings for pt in ring]
+                ys = [pt[1] for ring in rings for pt in ring]
+                prepared.append({
+                    "name": region.get("name"),
+                    "rings": rings,
+                    # Bounding box lets most point tests skip the full
+                    # point-in-polygon walk.
+                    "bbox": (min(xs), min(ys), max(xs), max(ys)),
+                })
+            _regions[provider] = prepared
+    return _regions
+
+
+def _to_web_mercator(latitude, longitude):
+    x = longitude / 180.0 * 20037508.34
+    y = 6378137.0 * math.log(math.tan(math.pi / 4 + math.radians(latitude) / 2))
+    return x, y
+
+
+def _point_in_rings(px, py, rings):
+    inside = False
+    for ring in rings:
+        j = len(ring) - 1
+        for i in range(len(ring)):
+            xi, yi = ring[i][0], ring[i][1]
+            xj, yj = ring[j][0], ring[j][1]
+            if (yi > py) != (yj > py) and px < (
+                (xj - xi) * (py - yi) / (yj - yi) + xi
+            ):
+                inside = not inside
+            j = i
+    return inside
+
+
+def derived_boundary(provider, latitude, longitude):
+    """
+    Returns a display-ready derived boundary ("≈ 5 - SPRINGERVILLE") by
+    point-in-polygon testing the provider's region polygons, or None when the
+    provider has none or the point matches nothing.
+    """
+    if latitude is None or longitude is None:
+        return None
+    regions = _load_regions().get(provider)
+    if not regions:
+        return None
+    px, py = _to_web_mercator(latitude, longitude)
+    for region in regions:
+        x0, y0, x1, y1 = region["bbox"]
+        if not (x0 <= px <= x1 and y0 <= py <= y1):
+            continue
+        if _point_in_rings(px, py, region["rings"]):
+            name = region.get("name")
+            return f"{DERIVED_PREFIX}{name}" if name else None
+    return None

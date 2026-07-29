@@ -43,9 +43,14 @@ The Explorer reads the archive directly from the filesystem. There's no database
 
 A Leaflet map centered on Arizona, on CARTO basemaps that follow the dashboard's light/dark theme (Positron in light mode, Dark Matter in dark; map data © OpenStreetMap contributors). Markers are colored by utility and sized (on a log scale) by customers affected, clustered when they're dense, and clickable for the full outage detail. Rows in the table below link back to their marker. Records that came in without usable coordinates can't be plotted, but they still count toward the totals and show up in the table so they don't silently vanish.
 
-### Derived regions
+### Derived regions and boundaries
 
-Only some utilities publish a city or region with each outage. When one doesn't, the dashboard derives it from the coordinates at read time: `dashboard/geo.py` finds the nearest Arizona place (US Census 2023 gazetteer — 467 incorporated places and CDPs, committed as `dashboard/az_places.json`) within 50 km, entirely offline. Derived names are always marked with a leading **≈** ("≈ Marana") so they're never mistaken for utility-published ones, and utility-published names are kept verbatim. Because this happens at read time, the whole archive — past and future — gets regions, while the snapshot files keep exactly what each utility published. Similarly, a missing cause displays as *Not specified* and a missing restoration estimate as *ETR not specified by provider*, so blank cells never leave you guessing whether data was dropped.
+Only some utilities publish a city or boundary with each outage, so the dashboard fills the gaps from coordinates at read time — entirely offline, and always marked with a leading **≈** so a derived value is never mistaken for a published one (published values are kept verbatim):
+
+- **City** falls back to the nearest Arizona place (US Census 2023 gazetteer — 467 incorporated places and CDPs, committed as `dashboard/az_places.json`) within 50 km.
+- **Boundary** falls back first to the co-ops' own named region polygons (board districts, service areas — committed as `dashboard/coop_regions.json`, regenerated with `python -m scripts.build_coop_regions`) via point-in-polygon, which also covers co-op snapshots archived before the collector assigned boundaries at scrape time. Failing that, it falls back to "≈ *place* area". TEP's published "boundary" is a raw coordinate dictionary, so it's discarded in favor of the readable fallbacks.
+
+Together this keeps the boundary and region columns filled for every record with coordinates, while the snapshot files keep exactly what each utility published. Similarly, a missing cause displays as *Not specified* and a missing restoration estimate as *ETR not specified by provider*, so blank cells never leave you guessing whether data was dropped.
 
 ### Display modes
 
