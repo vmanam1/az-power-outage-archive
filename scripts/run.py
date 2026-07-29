@@ -1,7 +1,7 @@
 from providers.aps import APSProvider
 from scripts.archive import save_snapshot
 from scripts.logger import logger
-from scripts.utils import current_time
+from scripts.utils import current_time, filter_snapshot_to_arizona
 from providers.srp import SRPProvider
 from providers.ssvec import SSVECProvider
 from providers.ed3 import ED3Provider
@@ -24,6 +24,18 @@ def run_providers(providers, scraped_at=None):
 
         try:
             data = provider.fetch_data()
+
+            # This is an Arizona-only archive, but some tracked utilities
+            # also serve neighboring states (Navopache extends into New
+            # Mexico). Enforce the boundary centrally so it holds for every
+            # provider, present and future.
+            data, dropped, dropped_customers = filter_snapshot_to_arizona(data)
+            if dropped:
+                logger.info(
+                    "%s: excluded %d outage(s) outside Arizona (%d customers)",
+                    provider.name, dropped, dropped_customers,
+                )
+
             provider.validate_snapshot(data)
             summary = data["summary"]
             logger.info(

@@ -113,7 +113,8 @@ def metadata():
         "data_quality_counts": {
             "malformed_files": stats.malformed_files,
             "missing_coords": stats.missing_coords,
-            "invalid_coords": stats.invalid_coords
+            "invalid_coords": stats.invalid_coords,
+            "out_of_state_excluded": stats.out_of_state
         }
     })
 

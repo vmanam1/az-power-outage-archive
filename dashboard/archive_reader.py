@@ -6,7 +6,7 @@ import time
 from datetime import datetime
 from dashboard.cache import global_cache
 from dashboard.normalizer import normalize_outage, normalize_time
-from scripts.utils import ARIZONA_TZ
+from scripts.utils import ARIZONA_TZ, is_in_arizona
 
 logger = logging.getLogger("outage_dashboard")
 
@@ -23,6 +23,9 @@ class DataQualityStats:
         self.malformed_files = 0
         self.missing_coords = 0
         self.invalid_coords = 0
+        # Records archived before the Arizona-only collector filter existed
+        # (e.g. Navopache's New Mexico territory) are hidden at read time.
+        self.out_of_state = 0
         self.total_snapshots = 0
 
 # The fingerprint is consulted on every API request (a page load fires four
@@ -112,6 +115,7 @@ def parse_snapshot_file(file_path, provider_name, stats):
             return None
         stats.missing_coords += cached["stats"]["missing_coords"]
         stats.invalid_coords += cached["stats"]["invalid_coords"]
+        stats.out_of_state += cached["stats"].get("out_of_state", 0)
         return cached
 
     # Parse and extract
@@ -154,6 +158,7 @@ def parse_snapshot_file(file_path, provider_name, stats):
     normalized_outages = []
     file_missing_coords = 0
     file_invalid_coords = 0
+    file_out_of_state = 0
 
     for out in raw_outages:
         if not isinstance(out, dict):
@@ -162,6 +167,18 @@ def parse_snapshot_file(file_path, provider_name, stats):
         orig_lng = out.get("longitude")
 
         norm = normalize_outage(out, provider_name)
+
+        # This is an Arizona-only archive: hide records outside the state
+        # (older snapshots predate the collector-side filter). Records
+        # without coordinates cannot be judged and are kept.
+        norm_lat = norm.get("latitude")
+        norm_lng = norm.get("longitude")
+        if norm_lat is not None and norm_lng is not None and not is_in_arizona(
+            norm_lat, norm_lng
+        ):
+            file_out_of_state += 1
+            continue
+
         normalized_outages.append(norm)
 
         # Coordinate evaluation
@@ -173,10 +190,12 @@ def parse_snapshot_file(file_path, provider_name, stats):
 
     stats.missing_coords += file_missing_coords
     stats.invalid_coords += file_invalid_coords
+    stats.out_of_state += file_out_of_state
 
     summary = data.get("summary") or {}
     customers_affected = summary.get("customers_affected")
-    if customers_affected is None:
+    if customers_affected is None or file_out_of_state:
+        # Stored totals include the hidden records; recompute from the kept.
         customers_affected = sum(o["customers"] for o in normalized_outages)
 
     snapshot = {
@@ -187,7 +206,8 @@ def parse_snapshot_file(file_path, provider_name, stats):
         "customers_affected": customers_affected,
         "stats": {
             "missing_coords": file_missing_coords,
-            "invalid_coords": file_invalid_coords
+            "invalid_coords": file_invalid_coords,
+            "out_of_state": file_out_of_state
         }
     }
 

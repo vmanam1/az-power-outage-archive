@@ -29,6 +29,8 @@ Each provider is its own class under `providers/`, and they all share a small co
 
 The runner (`scripts/run.py`) fetches every provider in turn and keeps going if one blows up, so a single flaky endpoint never throws away the good snapshots from the other eight. It does exit non-zero at the end if any provider failed — but the collector commits the snapshots that did succeed first, and treats that exit code separately from whether the run is *healthy* (see [Automation](#automation)).
 
+This is an **Arizona-only** archive. Some tracked utilities also serve neighboring states — Navopache's territory extends well into New Mexico — so the runner drops any outage whose coordinates fall outside Arizona's bounding box before a snapshot is written (`scripts/utils.py: filter_snapshot_to_arizona`), logging what it excluded. The dashboard applies the same rule when reading, which also hides out-of-state records in snapshots archived before this filter existed; the count of hidden records is reported in `/api/metadata` as `out_of_state_excluded`.
+
 Every run archives one snapshot per provider — even when nothing changed since the last hour — so the archive has a regular, complete hourly cadence you can reason over (a flat line is data too). All providers in a single run share one timestamp, so a given run's files line up to the minute. If you'd rather skip identical snapshots, `save_snapshot(..., dedupe=True)` restores the old skip-unchanged behavior.
 
 ## The dashboard
