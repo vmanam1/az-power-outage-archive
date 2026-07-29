@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-29 01:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 11
+    },
+    "outages": [
+        {
+            "latitude": 33.293875296294104,
+            "longitude": -111.581364300109,
+            "boundary": "S MOUNTAIN  RD TO N IRONWOOD  DR AND W FRYE  RD TO E PECOS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 21:12 MST",
+            "etr": "2026-07-29 04:00 MST"
+        },
+        {
+            "latitude": 33.58784332581955,
+            "longitude": -112.215192478064,
+            "boundary": "N 75TH  AVE TO N 71ST  AVE AND W CACTUS  RD TO W PEORIA  AVE",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-28 23:57 MST",
+            "etr": "2026-07-29 01:56 MST"
+        },
+        {
+            "latitude": 33.4175478666218,
+            "longitude": -112.305690489601,
+            "boundary": "S 119TH  AVE TO S 111TH  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-28 21:22 MST",
+            "etr": "2026-07-29 02:00 MST"
+        }
+    ]
+}

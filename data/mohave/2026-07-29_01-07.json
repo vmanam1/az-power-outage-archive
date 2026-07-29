@@ -1,0 +1,85 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-07-29 01:07:06 MST",
+        "source": "MOHAVE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 16,
+        "total_customers": 47068
+    },
+    "outages": [
+        {
+            "latitude": 34.85438343421782,
+            "longitude": -114.60276103371045,
+            "customers": 2,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-29 00:39:11 MST",
+            "etr": null,
+            "incident_id": "349953"
+        },
+        {
+            "latitude": 34.856159980111585,
+            "longitude": -114.60800719497044,
+            "customers": 6,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-29 00:24:24 MST",
+            "etr": null,
+            "incident_id": "349951"
+        },
+        {
+            "latitude": 35.20175678983709,
+            "longitude": -113.91260336713104,
+            "customers": 4,
+            "cause": null,
+            "comments": "We are currently experiencing an outage in your area. Our crews are responding to restore your power. Thank you for your patience.",
+            "start_time": "2026-07-28 17:26:00 MST",
+            "etr": null,
+            "incident_id": "349936"
+        },
+        {
+            "latitude": 34.85460458310013,
+            "longitude": -114.6055637773973,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-29 00:53:56 MST",
+            "etr": null,
+            "incident_id": "349956"
+        },
+        {
+            "latitude": 34.85635163837177,
+            "longitude": -114.60232984237399,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-29 00:41:25 MST",
+            "etr": null,
+            "incident_id": "349954"
+        },
+        {
+            "latitude": 35.16599393574034,
+            "longitude": -113.88758528646481,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-28 19:38:46 MST",
+            "etr": null,
+            "incident_id": "349944"
+        },
+        {
+            "latitude": 34.852437298420696,
+            "longitude": -114.60586920459392,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-07-29 00:52:06 MST",
+            "etr": null,
+            "incident_id": "349955"
+        }
+    ]
+}
