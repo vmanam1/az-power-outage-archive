@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-29 15:48:41 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 9,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 33.79922048916593,
+            "longitude": -109.94183421510182,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - RESERVATION",
+            "start_time": "2026-07-29 11:46:10 MST",
+            "etr": null,
+            "incident_id": "531768"
+        },
+        {
+            "latitude": 34.118070133166206,
+            "longitude": -109.28904646434698,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - SPRINGERVILLE",
+            "start_time": "2026-07-29 07:22:44 MST",
+            "etr": null,
+            "incident_id": "531725"
+        },
+        {
+            "latitude": 34.43385504916796,
+            "longitude": -109.63585904613528,
+            "customers": 3,
+            "cause": "MAINTENANCE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - ST. JOHNS",
+            "start_time": "2026-07-29 10:08:37 MST",
+            "etr": null,
+            "incident_id": "531731"
+        },
+        {
+            "latitude": 34.43535167811513,
+            "longitude": -109.63578718091253,
+            "customers": 2,
+            "cause": "MAINTENANCE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - ST. JOHNS",
+            "start_time": "2026-07-29 10:08:37 MST",
+            "etr": null,
+            "incident_id": "531732"
+        },
+        {
+            "latitude": 34.433729094023924,
+            "longitude": -109.63567039992559,
+            "customers": 1,
+            "cause": "EQUIPMENT / MATERIAL FAILURE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - ST. JOHNS",
+            "start_time": "2026-07-29 09:38:50 MST",
+            "etr": null,
+            "incident_id": "531728"
+        },
+        {
+            "latitude": 34.407266897087176,
+            "longitude": -110.55227538335737,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - HEBER/OVERGAARD",
+            "start_time": "2026-07-29 07:32:11 MST",
+            "etr": null,
+            "incident_id": "531726"
+        }
+    ]
+}
