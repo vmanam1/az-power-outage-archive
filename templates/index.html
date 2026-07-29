@@ -233,6 +233,14 @@
                     </div>
                 </div>
 
+                <!-- Time machine: scrub through the archive hour by hour -->
+                <section class="time-machine" id="time-machine" style="display: none;">
+                    <button id="tm-play" class="btn btn-icon" title="Play through the archive">▶</button>
+                    <input type="range" id="tm-slider" min="0" max="0" value="0" step="1" aria-label="Archive time position">
+                    <span class="tm-label" id="tm-label">—</span>
+                    <button id="tm-live" class="btn btn-secondary btn-small" title="Return to latest data">Live</button>
+                </section>
+
                 <!-- Shown when the current filters match nothing -->
                 <section class="empty-state" id="empty-state" style="display: none;">
                     <p><strong>No outages match the current filters.</strong> Try widening the date range or clearing a filter.</p>
