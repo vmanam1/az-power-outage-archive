@@ -236,6 +236,8 @@ button {
     white-space: nowrap;
 }
 
+a.btn { text-decoration: none; }
+
 .btn-primary {
     background-color: var(--primary);
     color: #fff;
