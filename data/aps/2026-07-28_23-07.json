@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-28 23:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 34.55694413384562,
+            "longitude": -112.27079444433805,
+            "city": "Dewey",
+            "boundary": "Lariat Ln to Cottonwood Spring Dr and Buena Vista West to Tapadero Dr",
+            "customers": 23,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-28 15:19:00 MST",
+            "etr": "2026-07-29 16:00:00 MST"
+        }
+    ]
+}
