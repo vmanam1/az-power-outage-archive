@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-29 13:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 70
+    },
+    "outages": [
+        {
+            "latitude": 33.3937291978719,
+            "longitude": -112.3014171226485,
+            "boundary": "S 119TH  AVE TO S 107TH  AVE AND W ROESER  RD TO W INDIAN SPRINGS  RD",
+            "customers": 61,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-29 08:46 MST",
+            "etr": "2026-07-29 16:00 MST"
+        },
+        {
+            "latitude": 33.4340193684153,
+            "longitude": -112.24639166979,
+            "boundary": "S 91ST  AVE TO S 83RD  AVE AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-29 11:56 MST",
+            "etr": "2026-07-29 15:54 MST"
+        },
+        {
+            "latitude": 33.42193086202195,
+            "longitude": -111.75667973150999,
+            "boundary": "N LINDSAY  RD TO N VAL VISTA  DR AND E ADOBE  ST TO E MAIN  ST",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 12:40 MST",
+            "etr": "2026-07-29 14:41 MST"
+        }
+    ]
+}
