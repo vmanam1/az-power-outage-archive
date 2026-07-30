@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-30 08:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 4
+    },
+    "outages": [
+        {
+            "latitude": 33.43228163579635,
+            "longitude": -111.6299534054735,
+            "boundary": "N ELLSWORTH  RD TO N 96TH  ST AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 07:33 MST",
+            "etr": "2026-07-30 10:00 MST"
+        }
+    ]
+}

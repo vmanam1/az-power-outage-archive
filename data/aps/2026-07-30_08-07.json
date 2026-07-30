@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 08:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 34.93106038394161,
+            "longitude": -110.14626574397599,
+            "city": "Holbrook",
+            "boundary": "Cholla Ave and Blue Sage to Mission Ln",
+            "customers": 5,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-29 23:30:00 MST",
+            "etr": "2026-07-30 03:30:00 MST"
+        },
+        {
+            "latitude": 33.692335013875685,
+            "longitude": -112.21966166103626,
+            "city": "Glendale",
+            "boundary": "Paraiso Dr to Foothill Dr and 74th Ln",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-29 23:58:00 MST",
+            "etr": "2026-07-30 02:30:00 MST"
+        }
+    ]
+}
