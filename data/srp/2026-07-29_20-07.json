@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-29 20:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1748
+    },
+    "outages": [
+        {
+            "latitude": 33.3694377022306,
+            "longitude": -111.6519537054275,
+            "boundary": "S 80TH  ST TO S ELLSWORTH  RD AND E BASELINE  RD TO E GUADALUPE  RD",
+            "customers": 67,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 19:07 MST",
+            "etr": "2026-07-29 21:08 MST"
+        },
+        {
+            "latitude": 33.3429987740424,
+            "longitude": -112.13838450522101,
+            "boundary": "S 39TH  AVE TO S 35TH  AVE AND W CETON  DR TO W ESTRELLA  DR",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-29 18:23 MST",
+            "etr": "2026-07-30 01:27 MST"
+        },
+        {
+            "latitude": 33.334196788540595,
+            "longitude": -111.8281227476625,
+            "boundary": "N ARIZONA  AVE TO S COOPER  RD AND W ELLIOT  RD TO E GALVESTON  ST",
+            "customers": 1677,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 19:47 MST",
+            "etr": "2026-07-29 21:46 MST"
+        }
+    ]
+}
