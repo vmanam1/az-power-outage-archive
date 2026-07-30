@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 03:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.65277960032224,
+            "longitude": -112.24305422671763,
+            "city": "Peoria",
+            "boundary": "Union Hills Dr. to Audrey Ln. and 85th Ave. to 84th Ave.",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-29 17:16:00 MST",
+            "etr": "2026-07-29 21:30:00 MST"
+        }
+    ]
+}
