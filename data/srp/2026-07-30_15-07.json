@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-30 15:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 33.523455169943404,
+            "longitude": -112.134658199878,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 13:39 MST",
+            "etr": "2026-07-30 17:38 MST"
+        },
+        {
+            "latitude": 33.382426370495196,
+            "longitude": -111.7818543844385,
+            "boundary": "S GILBERT  RD TO S LINDSAY  RD AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 8,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-07-30 10:42 MST",
+            "etr": "2026-07-30 17:30 MST"
+        },
+        {
+            "latitude": 33.478446351204894,
+            "longitude": -111.918293419791,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E OSBORN  RD TO E OAK  ST",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-30 13:31 MST",
+            "etr": "2026-07-30 17:25 MST"
+        }
+    ]
+}
