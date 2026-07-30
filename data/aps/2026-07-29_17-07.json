@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-29 17:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.5720415807543,
+            "longitude": -111.8098791972922,
+            "city": "Scottsdale",
+            "boundary": "Saddlehorn Tl. to Doubletree Ranch Rd. and 125th Pl. to 128th St.",
+            "customers": 29,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-29 09:48:00 MST",
+            "etr": "2026-07-29 12:20:00 MST"
+        }
+    ]
+}
