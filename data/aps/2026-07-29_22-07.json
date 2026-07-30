@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-29 22:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1087
+    },
+    "outages": [
+        {
+            "latitude": 35.21843999970813,
+            "longitude": -111.59996799994947,
+            "city": "Flagstaff",
+            "boundary": "Mt. Elden Lookout Rd To Route 66 And Paradise Road To El Paso Flagstaff Rd",
+            "customers": 174,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-29 11:09:00 MST",
+            "etr": "2026-07-29 17:00:00 MST"
+        },
+        {
+            "latitude": 34.90623174812331,
+            "longitude": -110.1753920899276,
+            "city": "Holbrook",
+            "boundary": "Bermuda St. to Hopi Dr. and 14th Ave. to 3rd St.",
+            "customers": 913,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-29 12:09:00 MST",
+            "etr": "2026-07-29 17:00:00 MST"
+        }
+    ]
+}
