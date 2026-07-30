@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 13:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 170
+    },
+    "outages": [
+        {
+            "latitude": 33.591825801869675,
+            "longitude": -112.28963380288215,
+            "city": "Sun City",
+            "boundary": "Cherry Hills Dr and 107th Ave",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-30 02:00:00 MST",
+            "etr": "2026-07-30 06:45:00 MST"
+        },
+        {
+            "latitude": 33.5396000000567,
+            "longitude": -112.19488200043645,
+            "city": "Glendale",
+            "boundary": "Northern Ave To Rose Ln And 67Th Ave To 59Th Ave",
+            "customers": 157,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-07-30 04:08:00 MST",
+            "etr": "2026-07-30 07:00:00 MST"
+        },
+        {
+            "latitude": 35.35240873012122,
+            "longitude": -112.16351841913439,
+            "city": "Williams",
+            "boundary": "Broncos Trail to Longpoint Vista  and High County Ln",
+            "customers": 7,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-30 04:51:00 MST",
+            "etr": "2026-07-30 08:30:00 MST"
+        }
+    ]
+}

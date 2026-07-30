@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-30 13:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 55
+    },
+    "outages": [
+        {
+            "latitude": 33.382426370495196,
+            "longitude": -111.7818543844385,
+            "boundary": "S GILBERT  RD TO S LINDSAY  RD AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 8,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-07-30 10:42 MST",
+            "etr": "2026-07-30 14:04 MST"
+        },
+        {
+            "latitude": 33.3683313081886,
+            "longitude": -111.9721114904765,
+            "boundary": "S 48TH  ST TO S MARICOPA  FWY AND E CALLE SONORA   TO E GUADALUPE  RD",
+            "customers": 41,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-30 10:29 MST",
+            "etr": "2026-07-30 13:23 MST"
+        },
+        {
+            "latitude": 33.359411544203695,
+            "longitude": -111.9578769884585,
+            "boundary": "S PRIEST  DR TO N HARDY  DR AND E CALLE GUADALUPE   TO E MINERAL  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 12:18 MST",
+            "etr": "2026-07-30 14:17 MST"
+        }
+    ]
+}
