@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 09:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 33.692335013875685,
+            "longitude": -112.21966166103626,
+            "city": "Glendale",
+            "boundary": "Paraiso Dr to Foothill Dr and 74th Ln",
+            "customers": 7,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-29 23:58:00 MST",
+            "etr": "2026-07-30 02:30:00 MST"
+        },
+        {
+            "latitude": 33.64077784699264,
+            "longitude": -112.08808620470221,
+            "city": "Phoenix",
+            "boundary": "Bell Rd to Anderson Dr and 15th Ave to 11th Ave",
+            "customers": 31,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-30 01:06:00 MST",
+            "etr": "2026-07-30 03:20:00 MST"
+        },
+        {
+            "latitude": 35.819094999875084,
+            "longitude": -110.31269800007036,
+            "city": "Polacca",
+            "boundary": "Hopi Junior Senior High School and Poole Field",
+            "customers": 20,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-30 01:29:00 MST",
+            "etr": "2026-07-30 02:30:00 MST"
+        }
+    ]
+}

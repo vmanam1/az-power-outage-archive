@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-30 09:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 74
+    },
+    "outages": [
+        {
+            "latitude": 33.4981497214535,
+            "longitude": -111.90378278941449,
+            "boundary": "N HAYDEN  RD TO N GRANITE REEF  RD AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 08:37 MST",
+            "etr": "2026-07-30 11:00 MST"
+        },
+        {
+            "latitude": 33.49208535632265,
+            "longitude": -112.174842847856,
+            "boundary": "N 55TH  AVE TO N 51ST  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-30 08:38 MST",
+            "etr": "2026-07-30 10:36 MST"
+        },
+        {
+            "latitude": 33.34274302588895,
+            "longitude": -111.7149519489885,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E ELLIOT  RD TO E WARNER  RD",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 08:40 MST",
+            "etr": "2026-07-30 10:37 MST"
+        },
+        {
+            "latitude": 33.4654438684379,
+            "longitude": -111.6550079407285,
+            "boundary": "N 80TH  ST TO N HAWES  RD AND E QUENTON  ST TO E HERMOSA VISTA  DR",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 08:44 MST",
+            "etr": "2026-07-30 10:40 MST"
+        },
+        {
+            "latitude": 33.4621174135429,
+            "longitude": -111.773449394225,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E MCDOWELL  RD TO E HERMOSA VISTA  DR",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 08:50 MST",
+            "etr": "2026-07-30 11:30 MST"
+        },
+        {
+            "latitude": 33.3639290632567,
+            "longitude": -111.766613861623,
+            "boundary": "N LINDSAY  RD TO N VAL VISTA  DR AND E HOUSTON  AVE TO E ELLIOT  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 09:06 MST",
+            "etr": "2026-07-30 11:04 MST"
+        }
+    ]
+}

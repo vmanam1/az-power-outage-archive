@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-07-30 09:07:36 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 5,
+        "total_customers": 57839
+    },
+    "outages": [
+        {
+            "latitude": 32.13097928358033,
+            "longitude": -111.12163659366442,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-07-30 08:57:18 MST",
+            "etr": null,
+            "incident_id": "387525"
+        },
+        {
+            "latitude": 32.405717695800945,
+            "longitude": -111.04925933121282,
+            "customers": 1,
+            "cause": "10 CONSTRUCTION",
+            "comments": "Planned outage",
+            "boundary": "Thornydale",
+            "start_time": "2026-07-30 08:00:19 MST",
+            "etr": "2026-07-30 12:00:00 MST",
+            "incident_id": "387483"
+        },
+        {
+            "latitude": 32.07602323300598,
+            "longitude": -111.33592072156813,
+            "customers": 1,
+            "cause": "30 MATERIAL OR EQUIPMENT FAULT",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-07-28 02:23:24 MST",
+            "etr": "2026-07-28 05:23:24 MST",
+            "incident_id": "387491"
+        },
+        {
+            "latitude": 31.92979763938595,
+            "longitude": -110.75002152687813,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-07-29 12:22:13 MST",
+            "etr": null,
+            "incident_id": "387508"
+        },
+        {
+            "latitude": 32.28432621123642,
+            "longitude": -111.33480681061565,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley South",
+            "start_time": "2026-07-21 08:30:00 MST",
+            "etr": "2026-07-21 12:30:00 MST",
+            "incident_id": "387291"
+        }
+    ]
+}
