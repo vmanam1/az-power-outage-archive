@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-30 01:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1350
+    },
+    "outages": [
+        {
+            "latitude": 33.47727913065835,
+            "longitude": -112.207644545535,
+            "boundary": "N 75TH  AVE TO N 63RD  AVE AND W INDIAN SCHOOL  RD TO W MCDOWELL  RD",
+            "customers": 1344,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-29 23:29 MST",
+            "etr": "2026-07-30 01:29 MST"
+        },
+        {
+            "latitude": 33.3141408642583,
+            "longitude": -111.908642491884,
+            "boundary": "N MCCLINTOCK  DR TO N COUNTRY CLUB  WAY AND W RAY  RD TO W CHANDLER  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 23:31 MST",
+            "etr": "2026-07-30 05:00 MST"
+        },
+        {
+            "latitude": 33.24070867865145,
+            "longitude": -111.770273587457,
+            "boundary": "S MUSTANG  DR TO S 148TH  ST AND E OCOTILLO  RD TO E CHANDLER HEIGHTS  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-29 21:52 MST",
+            "etr": "2026-07-30 02:00 MST"
+        }
+    ]
+}

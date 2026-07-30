@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 01:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.65277960032224,
+            "longitude": -112.24305422671763,
+            "city": "Peoria",
+            "boundary": "Union Hills Dr. to Audrey Ln. and 85th Ave. to 84th Ave.",
+            "customers": 5,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-29 17:16:00 MST",
+            "etr": "2026-07-29 20:15:00 MST"
+        }
+    ]
+}
