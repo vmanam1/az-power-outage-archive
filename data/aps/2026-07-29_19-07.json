@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-29 19:07:35 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 807
+    },
+    "outages": [
+        {
+            "latitude": 33.5720415807543,
+            "longitude": -111.8098791972922,
+            "city": "Scottsdale",
+            "boundary": "Saddlehorn Tl. to Doubletree Ranch Rd. and 125th Pl. to 128th St.",
+            "customers": 9,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-29 09:48:00 MST",
+            "etr": "2026-07-29 12:45:00 MST"
+        },
+        {
+            "latitude": 35.21843999970813,
+            "longitude": -111.59996799994947,
+            "city": "Flagstaff",
+            "boundary": "Mt. Elden Lookout Rd To Route 66 And Paradise Road To El Paso Flagstaff Rd",
+            "customers": 747,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-29 11:09:00 MST",
+            "etr": "2026-07-29 15:30:00 MST"
+        },
+        {
+            "latitude": 31.3383046558864,
+            "longitude": -109.55575691635232,
+            "city": "Douglas",
+            "boundary": "4th St to 3rd St and I Ave to G Ave",
+            "customers": 16,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-29 10:44:00 MST",
+            "etr": "2026-07-29 15:45:00 MST"
+        },
+        {
+            "latitude": 34.862719121833926,
+            "longitude": -111.82488343319102,
+            "city": "Sedona",
+            "boundary": "Zia Dr to Moki Dr and Hohokam Dr to Dry Creek Rd",
+            "customers": 35,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-29 11:54:00 MST",
+            "etr": "2026-07-29 14:15:00 MST"
+        }
+    ]
+}
