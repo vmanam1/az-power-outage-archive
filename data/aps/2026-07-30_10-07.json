@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 10:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 143
+    },
+    "outages": [
+        {
+            "latitude": 33.64077784699264,
+            "longitude": -111.98488218968083,
+            "city": "Williams",
+            "boundary": "Bell Rd to Anderson Dr and 15th Ave to 11th Ave",
+            "customers": 137,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-30 02:00:00 MST",
+            "etr": "2026-07-30 04:00:00 MST"
+        },
+        {
+            "latitude": 33.591825801869675,
+            "longitude": -112.28963380288215,
+            "city": "Sun City",
+            "boundary": "Cherry Hills Dr and 107th Ave",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-30 02:00:00 MST",
+            "etr": "2026-07-30 05:30:00 MST"
+        }
+    ]
+}
