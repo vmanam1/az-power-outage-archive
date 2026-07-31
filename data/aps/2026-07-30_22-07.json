@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 22:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 239
+    },
+    "outages": [
+        {
+            "latitude": 33.381262557221646,
+            "longitude": -110.76022563018248,
+            "city": "Globe",
+            "boundary": "Saguaro Dr to Arizona Eastern Railway and Day Break Dr to Alhambra Dr",
+            "customers": 51,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 12:07:00 MST",
+            "etr": "2026-07-30 19:00:00 MST"
+        },
+        {
+            "latitude": 31.388563565687743,
+            "longitude": -109.66477890714222,
+            "city": "Douglas",
+            "boundary": "Rak Rd. to Stanford Dr. and Central Hwy. to Brooks Rd.",
+            "customers": 18,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 12:44:00 MST",
+            "etr": "2026-07-30 16:15:00 MST"
+        },
+        {
+            "latitude": 33.00068852704622,
+            "longitude": -110.78716430443106,
+            "city": "Hayden",
+            "boundary": "1st St to Morris Rd and Terrace Dr",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-30 13:15:00 MST",
+            "etr": "2026-07-31 16:30:00 MST"
+        },
+        {
+            "latitude": 33.470574361644616,
+            "longitude": -112.13238529073698,
+            "city": "Phoenix",
+            "boundary": "Holly St to Palm Ln and 35th Ave to 33rd Ave",
+            "customers": 24,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-30 13:37:00 MST",
+            "etr": "2026-07-30 17:15:00 MST"
+        },
+        {
+            "latitude": 32.94916182992714,
+            "longitude": -111.74597023265984,
+            "city": "Casa Grande",
+            "boundary": "Tropical Dr to Rio Plaza and Sandy  Ln to Summer Ln",
+            "customers": 43,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 13:46:00 MST",
+            "etr": "2026-07-30 17:15:00 MST"
+        },
+        {
+            "latitude": 33.66554813491982,
+            "longitude": -112.00408921968756,
+            "city": "Phoenix",
+            "boundary": "Tonto Ln to Utopia Rd and 36th St to 38th St",
+            "customers": 19,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 14:24:00 MST",
+            "etr": "2026-07-30 17:00:00 MST"
+        },
+        {
+            "latitude": 33.36881307689636,
+            "longitude": -112.34229365928488,
+            "city": "Goodyear",
+            "boundary": "Beverly Rd. to 132nd Ave. and 135th Ave. to Dysart Rd.",
+            "customers": 75,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-30 14:35:00 MST",
+            "etr": "2026-07-30 16:00:00 MST"
+        }
+    ]
+}
