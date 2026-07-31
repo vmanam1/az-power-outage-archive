@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-31 14:07:35 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 33.609305630863375,
+            "longitude": -112.18459541367757,
+            "city": "Glendale",
+            "boundary": "57th Dr and Eugie Ave",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-31 06:48:00 MST",
+            "etr": "2026-07-31 10:15:00 MST"
+        }
+    ]
+}
