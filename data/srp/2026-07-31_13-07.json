@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-31 13:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.4824781669469,
+            "longitude": -111.969177396844,
+            "boundary": "N 48TH  ST TO N 56TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-31 11:09 MST",
+            "etr": "2026-07-31 16:14 MST"
+        },
+        {
+            "latitude": 33.392629710570745,
+            "longitude": -112.173246657478,
+            "boundary": "S 59TH  AVE TO S 51ST  AVE AND W ROESER  RD TO W VINEYARD  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 11:19 MST",
+            "etr": "2026-07-31 17:00 MST"
+        },
+        {
+            "latitude": 33.4221193937185,
+            "longitude": -111.78887062964401,
+            "boundary": "N HARRIS  DR TO N 24TH  ST AND E 8TH  ST TO E MAIN  ST",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-07-31 12:19 MST",
+            "etr": "2026-07-31 14:19 MST"
+        }
+    ]
+}
