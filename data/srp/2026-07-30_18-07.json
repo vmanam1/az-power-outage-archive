@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-30 18:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 4
+    },
+    "outages": [
+        {
+            "latitude": 33.44005996858105,
+            "longitude": -111.605522507866,
+            "boundary": "N CRISMON  RD TO N SIGNAL BUTTE  RD AND E MCLELLAN  RD TO E BROWN  RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-30 17:35 MST",
+            "etr": "2026-07-30 19:38 MST"
+        }
+    ]
+}
