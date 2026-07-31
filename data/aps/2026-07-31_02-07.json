@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-31 02:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 87
+    },
+    "outages": [
+        {
+            "latitude": 33.381262557221646,
+            "longitude": -110.76022563018248,
+            "city": "Globe",
+            "boundary": "Saguaro Dr to Arizona Eastern Railway and Day Break Dr to Alhambra Dr",
+            "customers": 9,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-30 12:07:00 MST",
+            "etr": "2026-07-30 22:15:00 MST"
+        },
+        {
+            "latitude": 31.388563565687743,
+            "longitude": -109.66477890714222,
+            "city": "Douglas",
+            "boundary": "Rak Rd. to Stanford Dr. and Central Hwy. to Brooks Rd.",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-30 12:44:00 MST",
+            "etr": "2026-07-30 22:15:00 MST"
+        },
+        {
+            "latitude": 33.646283271964734,
+            "longitude": -112.12553996118534,
+            "city": "Phoenix",
+            "boundary": "Grovers Ave. to Campo Bello Dr. and 31st Ave. to 29th Ave.",
+            "customers": 28,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 17:48:00 MST",
+            "etr": "2026-07-30 20:45:00 MST"
+        },
+        {
+            "latitude": 33.397474345723445,
+            "longitude": -112.54133448800326,
+            "city": "Buckeye",
+            "boundary": "Broadway Rd. to Sunland Ave. and 229th Ave. to Dean Rd.",
+            "customers": 45,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-07-30 16:08:00 MST",
+            "etr": "2026-07-30 20:30:00 MST"
+        }
+    ]
+}

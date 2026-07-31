@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-31 02:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 933
+    },
+    "outages": [
+        {
+            "latitude": 33.414486963199394,
+            "longitude": -111.682540426819,
+            "boundary": "S 64TH  ST TO S 72ND  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 23:06 MST",
+            "etr": "2026-07-31 06:00 MST"
+        },
+        {
+            "latitude": 33.41447038953605,
+            "longitude": -111.653447712137,
+            "boundary": "S 80TH  ST TO N 88TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 30,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-31 01:25 MST",
+            "etr": "2026-07-31 06:00 MST"
+        },
+        {
+            "latitude": 33.3527647216317,
+            "longitude": -111.9029342385115,
+            "boundary": "S LAKESHORE  DR TO N 92ND  ST AND E BASELINE  RD TO E WARNER  RD",
+            "customers": 894,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 01:47 MST",
+            "etr": "2026-07-31 03:46 MST"
+        },
+        {
+            "latitude": 33.2137428821334,
+            "longitude": -111.6855356150625,
+            "boundary": "S LEMON  AVE TO S MANDARIN  DR AND E RIGGS  RD TO E HUNT  HWY",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-31 01:57 MST",
+            "etr": "2026-07-31 03:00 MST"
+        }
+    ]
+}
