@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-31 05:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 51
+    },
+    "outages": [
+        {
+            "latitude": 33.414486963199394,
+            "longitude": -111.682540426819,
+            "boundary": "S 64TH  ST TO S 72ND  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 23:06 MST",
+            "etr": "2026-07-31 06:00 MST"
+        },
+        {
+            "latitude": 33.44662582165315,
+            "longitude": -111.481361940037,
+            "boundary": "N NODAK  RD TO UNKNOWN AND E MCKELLIPS  BLVD TO E LOST DUTCHMAN  BLVD",
+            "customers": 43,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 04:29 MST",
+            "etr": "2026-07-31 06:27 MST"
+        },
+        {
+            "latitude": 33.4884537883491,
+            "longitude": -112.16956811118399,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 05:07 MST",
+            "etr": "2026-07-31 07:03 MST"
+        }
+    ]
+}

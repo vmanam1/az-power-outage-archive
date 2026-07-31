@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-07-31 05:07:15 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 60,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.290402784533086,
+            "longitude": -110.11103189888928,
+            "customers": 60,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "6 - Linden",
+            "start_time": "2026-07-31 04:26:18 MST",
+            "etr": null,
+            "incident_id": "531813"
+        }
+    ]
+}
