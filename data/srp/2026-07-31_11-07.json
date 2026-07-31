@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-31 11:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 81
+    },
+    "outages": [
+        {
+            "latitude": 33.4132033642832,
+            "longitude": -111.6442730639535,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 38,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-31 08:45 MST",
+            "etr": "2026-07-31 13:00 MST"
+        },
+        {
+            "latitude": 33.4595130670794,
+            "longitude": -111.6885897469435,
+            "boundary": "N 64TH  ST TO N POWER  RD AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-31 10:22 MST",
+            "etr": "2026-07-31 12:17 MST"
+        },
+        {
+            "latitude": 33.399025950834044,
+            "longitude": -111.875463385115,
+            "boundary": "S ROOSEVELT  RD TO S LONGMORE   AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 35,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 10:18 MST",
+            "etr": "2026-07-31 12:19 MST"
+        }
+    ]
+}
