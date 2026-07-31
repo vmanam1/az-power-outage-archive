@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-31 08:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1863
+    },
+    "outages": [
+        {
+            "latitude": 33.46280300717005,
+            "longitude": -111.65811129774349,
+            "boundary": "N 76TH  ST TO N HAWES  RD AND E MCDOWELL  RD TO E HERMOSA VISTA  DR",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-31 07:37 MST",
+            "etr": "2026-07-31 10:35 MST"
+        },
+        {
+            "latitude": 33.17594574114045,
+            "longitude": -111.52380942465645,
+            "boundary": "N GANTZEL  RD TO N QUAIL RUN  LN AND E HASH KNIFE DRAW  RD TO E SCHNEPF  RD",
+            "customers": 1861,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-31 07:43 MST",
+            "etr": "2026-07-31 09:30 MST"
+        }
+    ]
+}
