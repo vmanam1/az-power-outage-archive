@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 20:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 89
+    },
+    "outages": [
+        {
+            "latitude": 35.35240873012122,
+            "longitude": -112.16351841913439,
+            "city": "Williams",
+            "boundary": "Broncos Trail to Longpoint Vista  and High County Ln",
+            "customers": 7,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-30 04:51:00 MST",
+            "etr": "2026-07-30 14:30:00 MST"
+        },
+        {
+            "latitude": 33.84533078934483,
+            "longitude": -112.10230240519613,
+            "city": "Phoenix",
+            "boundary": "Hemingway Ln. to Meridian Dr. and Harbour Town Wy. to Bent Creek Wy.",
+            "customers": 13,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 10:06:00 MST",
+            "etr": "2026-07-30 13:45:00 MST"
+        },
+        {
+            "latitude": 33.381262557221646,
+            "longitude": -110.76022563018248,
+            "city": "Globe",
+            "boundary": "Saguaro Dr to Arizona Eastern Railway and Day Break Dr to Alhambra Dr",
+            "customers": 51,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 12:07:00 MST",
+            "etr": "2026-07-30 15:30:00 MST"
+        },
+        {
+            "latitude": 31.388563565687743,
+            "longitude": -109.66477890714222,
+            "city": "Douglas",
+            "boundary": "Rak Rd. to Stanford Dr. and Central Hwy. to Brooks Rd.",
+            "customers": 18,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 12:44:00 MST",
+            "etr": "2026-07-30 16:15:00 MST"
+        }
+    ]
+}

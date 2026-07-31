@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-07-30 20:07:36 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 87,
+        "map_last_refreshed": "Jul 30, 8:06 PM"
+    },
+    "outages": [
+        {
+            "latitude": 35.15826572585149,
+            "longitude": -114.07999543245533,
+            "boundary": {
+                "coordLatSW": "35.143719332274102",
+                "coordLngSW": "-114.09804672118099",
+                "coordLatNE": "35.169258372977403",
+                "coordLngNE": "-114.061237127407",
+                "coordLatCenter": "35.156487",
+                "coordLngCenter": "-114.079636"
+            },
+            "customers": 87,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-07-30 19:00 MST",
+            "etr": "2026-07-30 20:30 MST",
+            "event": "Planned",
+            "division": "UEE",
+            "customers_restored": 0,
+            "last_update": "2026-07-30 20:03 MST"
+        }
+    ]
+}

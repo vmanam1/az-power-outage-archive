@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-30 20:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.388908348307396,
+            "longitude": -112.073874716315,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W SOUTHERN  AVE TO W VINEYARD  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 18:10 MST",
+            "etr": "2026-07-30 22:01 MST"
+        },
+        {
+            "latitude": 33.4935585356498,
+            "longitude": -112.1582663325925,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 9,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-07-30 19:11 MST",
+            "etr": "2026-07-30 21:30 MST"
+        }
+    ]
+}
