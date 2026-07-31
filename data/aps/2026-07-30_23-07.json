@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 23:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 204
+    },
+    "outages": [
+        {
+            "latitude": 33.381262557221646,
+            "longitude": -110.76022563018248,
+            "city": "Globe",
+            "boundary": "Saguaro Dr to Arizona Eastern Railway and Day Break Dr to Alhambra Dr",
+            "customers": 51,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-07-30 12:07:00 MST",
+            "etr": "2026-07-30 19:00:00 MST"
+        },
+        {
+            "latitude": 31.388563565687743,
+            "longitude": -109.66477890714222,
+            "city": "Douglas",
+            "boundary": "Rak Rd. to Stanford Dr. and Central Hwy. to Brooks Rd.",
+            "customers": 18,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-30 12:44:00 MST",
+            "etr": "2026-07-30 16:45:00 MST"
+        },
+        {
+            "latitude": 33.00068852704622,
+            "longitude": -110.78716430443106,
+            "city": "Hayden",
+            "boundary": "1st St to Morris Rd and Terrace Dr",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-30 13:15:00 MST",
+            "etr": "2026-07-31 16:30:00 MST"
+        },
+        {
+            "latitude": 32.94916182992714,
+            "longitude": -111.74597023265984,
+            "city": "Casa Grande",
+            "boundary": "Tropical Dr to Rio Plaza and Sandy  Ln to Summer Ln",
+            "customers": 6,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-30 13:46:00 MST",
+            "etr": "2026-07-30 17:15:00 MST"
+        },
+        {
+            "latitude": 33.55493459671144,
+            "longitude": -111.92562141555233,
+            "city": "Scottsdale",
+            "boundary": "Eastwood Ln to Northern Ave and Scottsdale Rd to 73rd Pl",
+            "customers": 120,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-30 15:07:00 MST",
+            "etr": "2026-07-30 18:30:00 MST"
+        }
+    ]
+}
