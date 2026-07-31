@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-31 12:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 61
+    },
+    "outages": [
+        {
+            "latitude": 33.4132033642832,
+            "longitude": -111.6442730639535,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 38,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-31 08:45 MST",
+            "etr": "2026-07-31 13:00 MST"
+        },
+        {
+            "latitude": 33.4595130670794,
+            "longitude": -111.6885897469435,
+            "boundary": "N 64TH  ST TO N POWER  RD AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-31 10:22 MST",
+            "etr": "2026-07-31 12:17 MST"
+        },
+        {
+            "latitude": 33.4824781669469,
+            "longitude": -111.969177396844,
+            "boundary": "N 48TH  ST TO N 56TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-31 11:09 MST",
+            "etr": "2026-07-31 16:14 MST"
+        },
+        {
+            "latitude": 33.392629710570745,
+            "longitude": -112.173246657478,
+            "boundary": "S 59TH  AVE TO S 51ST  AVE AND W ROESER  RD TO W VINEYARD  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 11:19 MST",
+            "etr": "2026-07-31 13:25 MST"
+        }
+    ]
+}
