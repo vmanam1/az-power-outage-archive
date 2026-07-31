@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-31 15:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 1602
+    },
+    "outages": [
+        {
+            "latitude": 33.4824781669469,
+            "longitude": -111.969177396844,
+            "boundary": "N 48TH  ST TO N 56TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-31 11:09 MST",
+            "etr": "2026-07-31 16:14 MST"
+        },
+        {
+            "latitude": 33.392629710570745,
+            "longitude": -112.173246657478,
+            "boundary": "S 59TH  AVE TO S 51ST  AVE AND W ROESER  RD TO W VINEYARD  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 11:19 MST",
+            "etr": "2026-07-31 17:00 MST"
+        },
+        {
+            "latitude": 33.4545363649568,
+            "longitude": -112.2180102901425,
+            "boundary": "N 83RD  AVE TO N 63RD  AVE AND W MCDOWELL  RD TO W BUCKEYE  RD",
+            "customers": 572,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 13:47 MST",
+            "etr": "2026-07-31 15:46 MST"
+        },
+        {
+            "latitude": 33.437661915448956,
+            "longitude": -111.82429643114051,
+            "boundary": "N CENTER  ST TO N HORNE   AND E MCLELLAN  RD TO E BROWN  RD",
+            "customers": 33,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 14:47 MST",
+            "etr": "2026-07-31 16:46 MST"
+        },
+        {
+            "latitude": 33.1654364405253,
+            "longitude": -111.55204933963495,
+            "boundary": "N EDWARDS  RD TO N TOURMALINE  DR AND W ROBERTS  RD TO E JUDD  RD",
+            "customers": 949,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 13:46 MST",
+            "etr": "2026-07-31 15:56 MST"
+        },
+        {
+            "latitude": 33.40323356729675,
+            "longitude": -111.54904107753649,
+            "boundary": "S SAN MARCOS  DR TO S IDAHO  RD AND W BROADWAY  AVE TO W 16TH  AVE",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 14:22 MST",
+            "etr": "2026-07-31 16:26 MST"
+        },
+        {
+            "latitude": 33.433897021608544,
+            "longitude": -112.29478260536101,
+            "boundary": "S 111TH  AVE TO S 107TH  AVE AND W VAN BUREN  ST TO W DURANGO  ST",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 13:37 MST",
+            "etr": "2026-07-31 15:38 MST"
+        },
+        {
+            "latitude": 33.3459788517486,
+            "longitude": -111.826393919465,
+            "boundary": "S HAMILTON  ST TO N HORNE  ST AND W ELLIOT  RD TO E WARNER  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 13:26 MST",
+            "etr": "2026-07-31 16:30 MST"
+        },
+        {
+            "latitude": 33.38851522092805,
+            "longitude": -111.8266544732995,
+            "boundary": "S CENTER  ST TO S MESA  DR AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-31 13:29 MST",
+            "etr": "2026-07-31 19:29 MST"
+        }
+    ]
+}
