@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 17:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 922
+    },
+    "outages": [
+        {
+            "latitude": 35.35240873012122,
+            "longitude": -112.16351841913439,
+            "city": "Williams",
+            "boundary": "Broncos Trail to Longpoint Vista  and High County Ln",
+            "customers": 7,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-30 04:51:00 MST",
+            "etr": "2026-07-30 12:00:00 MST"
+        },
+        {
+            "latitude": 34.90661084595394,
+            "longitude": -112.46863316101795,
+            "city": "Paulden",
+            "boundary": "Silent Spring Canyon and Naples St to Praire Way",
+            "customers": 915,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-07-30 09:26:00 MST",
+            "etr": "2026-07-30 13:00:00 MST"
+        }
+    ]
+}
