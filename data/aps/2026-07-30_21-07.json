@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-30 21:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 159
+    },
+    "outages": [
+        {
+            "latitude": 35.35240873012122,
+            "longitude": -112.16351841913439,
+            "city": "Williams",
+            "boundary": "Broncos Trail to Longpoint Vista  and High County Ln",
+            "customers": 7,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-30 04:51:00 MST",
+            "etr": "2026-07-30 15:30:00 MST"
+        },
+        {
+            "latitude": 33.84533078934483,
+            "longitude": -112.10230240519613,
+            "city": "Phoenix",
+            "boundary": "Hemingway Ln. to Meridian Dr. and Harbour Town Wy. to Bent Creek Wy.",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 10:06:00 MST",
+            "etr": "2026-07-30 14:45:00 MST"
+        },
+        {
+            "latitude": 33.381262557221646,
+            "longitude": -110.76022563018248,
+            "city": "Globe",
+            "boundary": "Saguaro Dr to Arizona Eastern Railway and Day Break Dr to Alhambra Dr",
+            "customers": 51,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 12:07:00 MST",
+            "etr": "2026-07-30 15:30:00 MST"
+        },
+        {
+            "latitude": 31.388563565687743,
+            "longitude": -109.66477890714222,
+            "city": "Douglas",
+            "boundary": "Rak Rd. to Stanford Dr. and Central Hwy. to Brooks Rd.",
+            "customers": 18,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 12:44:00 MST",
+            "etr": "2026-07-30 16:15:00 MST"
+        },
+        {
+            "latitude": 33.00068852704622,
+            "longitude": -110.78716430443106,
+            "city": "Hayden",
+            "boundary": "1st St to Morris Rd and Terrace Dr",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-30 13:15:00 MST",
+            "etr": "2026-07-31 16:30:00 MST"
+        },
+        {
+            "latitude": 33.470574361644616,
+            "longitude": -112.13238529073698,
+            "city": "Phoenix",
+            "boundary": "Holly St to Palm Ln and 35th Ave to 33rd Ave",
+            "customers": 24,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-07-30 13:37:00 MST",
+            "etr": "2026-07-30 17:15:00 MST"
+        },
+        {
+            "latitude": 32.94916182992714,
+            "longitude": -111.74597023265984,
+            "city": "Casa Grande",
+            "boundary": "Tropical Dr to Rio Plaza and Sandy  Ln to Summer Ln",
+            "customers": 43,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-30 13:46:00 MST",
+            "etr": "2026-07-30 17:15:00 MST"
+        }
+    ]
+}
