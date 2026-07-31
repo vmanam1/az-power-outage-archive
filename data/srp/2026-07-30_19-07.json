@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-30 19:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.388908348307396,
+            "longitude": -112.073874716315,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W SOUTHERN  AVE TO W VINEYARD  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-30 18:10 MST",
+            "etr": "2026-07-30 22:01 MST"
+        }
+    ]
+}
