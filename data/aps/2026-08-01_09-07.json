@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-01 09:07:34 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 4147
+    },
+    "outages": [
+        {
+            "latitude": 33.55674999997169,
+            "longitude": -112.29643449963888,
+            "city": "Peoria",
+            "boundary": "Olive Ave To Glenn Dr And 114Th Ln To 104Th Ave",
+            "customers": 1856,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 01:30:00 MST",
+            "etr": "2026-08-01 05:30:00 MST"
+        },
+        {
+            "latitude": 33.56424400027116,
+            "longitude": -112.29257090039913,
+            "city": "Youngtown",
+            "boundary": "Peoria Ave  To Northern Ave  And 115Th Dr To 103Rd Ave",
+            "customers": 2291,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 01:29:00 MST",
+            "etr": "2026-08-01 05:30:00 MST"
+        }
+    ]
+}
