@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-01 11:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1856
+    },
+    "outages": [
+        {
+            "latitude": 33.55674999997169,
+            "longitude": -112.29643449963888,
+            "city": "Peoria",
+            "boundary": "Olive Ave To Glenn Dr And 114Th Ln To 104Th Ave",
+            "customers": 1856,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 01:30:00 MST",
+            "etr": "2026-08-01 08:00:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-01 11:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.27084606011595,
+            "longitude": -111.820068397326,
+            "boundary": "S MCQUEEN  RD TO S AIRPORT  BLVD AND E GERMANN  RD TO E QUEEN CREEK  RD",
+            "customers": 14,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-01 06:26 MST",
+            "etr": "2026-08-01 13:39 MST"
+        },
+        {
+            "latitude": 33.51851024465565,
+            "longitude": -112.25301401861199,
+            "boundary": "N 95TH  AVE TO CARDINALS  WAY AND CARDINALS  WAY TO W MISSOURI  AVE",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-01 08:06 MST",
+            "etr": "2026-08-01 13:21 MST"
+        },
+        {
+            "latitude": 33.41200089224675,
+            "longitude": -111.791977794028,
+            "boundary": "N HARRIS  DR TO S GILBERT  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-01 10:58 MST",
+            "etr": "2026-08-01 12:58 MST"
+        }
+    ]
+}
