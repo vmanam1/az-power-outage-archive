@@ -1,0 +1,99 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-07-31 20:07:35 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 42,
+        "map_last_refreshed": "Jul 31, 8:06 PM"
+    },
+    "outages": [
+        {
+            "latitude": 32.2695452214432,
+            "longitude": -111.022536703895,
+            "boundary": {
+                "coordLatSW": "32.269545221443202",
+                "coordLngSW": "-111.022536703895",
+                "coordLatNE": "32.269545221443202",
+                "coordLngNE": "-111.022536703895",
+                "coordLatCenter": "32.269547",
+                "coordLngCenter": "-111.02254"
+            },
+            "customers": 0,
+            "cause": "Unable to Determine",
+            "comments": null,
+            "start_time": "2026-07-31 00:40 MST",
+            "etr": "2026-07-31 03:36 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 56,
+            "last_update": "2026-07-31 03:39 MST"
+        },
+        {
+            "latitude": 32.124255123013086,
+            "longitude": -110.97654051784916,
+            "boundary": {
+                "coordLatSW": "32.123223409383201",
+                "coordLngSW": "-110.97726784019201",
+                "coordLatNE": "32.125709969056402",
+                "coordLngNE": "-110.97475466925201",
+                "coordLatCenter": "32.124466",
+                "coordLngCenter": "-110.97601"
+            },
+            "customers": 42,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-07-31 19:03 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-07-31 20:00 MST"
+        },
+        {
+            "latitude": 32.2973248101008,
+            "longitude": -111.04273276407,
+            "boundary": {
+                "coordLatSW": "32.297324810100797",
+                "coordLngSW": "-111.04273276407",
+                "coordLatNE": "32.297324810100797",
+                "coordLngNE": "-111.04273276407",
+                "coordLatCenter": "32.297325",
+                "coordLngCenter": "-111.04273"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Vehicle",
+            "comments": null,
+            "start_time": "2026-07-31 16:13 MST",
+            "etr": "2026-07-31 16:26 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 1539,
+            "last_update": "2026-07-31 16:50 MST"
+        },
+        {
+            "latitude": 32.2973248101008,
+            "longitude": -111.04273276407,
+            "boundary": {
+                "coordLatSW": "32.297324810100797",
+                "coordLngSW": "-111.04273276407",
+                "coordLatNE": "32.297324810100797",
+                "coordLngNE": "-111.04273276407",
+                "coordLatCenter": "32.297325",
+                "coordLngCenter": "-111.04273"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Vehicle",
+            "comments": null,
+            "start_time": "2026-07-31 15:38 MST",
+            "etr": "2026-07-31 16:12 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 1539,
+            "last_update": "2026-07-31 17:03 MST"
+        }
+    ]
+}
