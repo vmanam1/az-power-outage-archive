@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-31 23:07:35 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 34.74071116368819,
+            "longitude": -112.46480589324153,
+            "city": "Chino Valley",
+            "boundary": "Chino Dr. to Pleasant Ave. and Rd 1 W to Heidi Ln.",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-31 11:59:00 MST",
+            "etr": "2026-07-31 16:30:00 MST"
+        },
+        {
+            "latitude": 34.862632984803774,
+            "longitude": -111.76059254891732,
+            "city": "Sedona",
+            "boundary": "Red Rock scenic Byway to Highland Rd. and Forest View Dr.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-31 12:43:00 MST",
+            "etr": "2026-07-31 16:30:00 MST"
+        },
+        {
+            "latitude": 34.88254218886037,
+            "longitude": -111.7879176173157,
+            "city": "Sedona",
+            "boundary": "Shadow Rock Dr. and Shadow Mountain Dr. to Rim Shadow Dr.",
+            "customers": 5,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-07-31 15:30:00 MST",
+            "etr": "2026-07-31 18:50:00 MST"
+        }
+    ]
+}
