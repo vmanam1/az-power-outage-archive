@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-01 07:07:35 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 17
+    },
+    "outages": [
+        {
+            "latitude": 33.2703985170606,
+            "longitude": -111.8206802923565,
+            "boundary": "S HAMILTON  ST TO S AIRPORT  BLVD AND E GERMANN  RD TO E QUEEN CREEK  RD",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-01 06:26 MST",
+            "etr": "2026-08-01 07:39 MST"
+        }
+    ]
+}
