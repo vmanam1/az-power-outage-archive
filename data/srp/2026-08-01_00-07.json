@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-01 00:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 50
+    },
+    "outages": [
+        {
+            "latitude": 33.45363313284255,
+            "longitude": -112.221099796884,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 2,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-31 13:47 MST",
+            "etr": "2026-08-01 01:30 MST"
+        },
+        {
+            "latitude": 33.38851522092805,
+            "longitude": -111.8266544732995,
+            "boundary": "S CENTER  ST TO S MESA  DR AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-31 13:29 MST",
+            "etr": "2026-08-01 02:00 MST"
+        },
+        {
+            "latitude": 33.417407424424454,
+            "longitude": -111.90974828140551,
+            "boundary": "S DORSEY  LN TO S SMITH  RD AND E UNIVERSITY  DR TO E APACHE  BLVD",
+            "customers": 36,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-07-31 23:42 MST",
+            "etr": "2026-08-01 04:00 MST"
+        }
+    ]
+}
