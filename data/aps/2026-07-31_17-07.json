@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-31 17:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 245
+    },
+    "outages": [
+        {
+            "latitude": 35.19728372834076,
+            "longitude": -111.59391922542487,
+            "city": "Flagstaff",
+            "boundary": "Burning Tree Loop to East Butler Ave and East Coburn Dr to North Continental Dr",
+            "customers": 19,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-31 08:48:00 MST",
+            "etr": "2026-07-31 11:40:00 MST"
+        },
+        {
+            "latitude": 34.34784609236599,
+            "longitude": -110.00455197231227,
+            "city": "Show Low",
+            "boundary": "Lynx Dr. to Lake Shore Dr. and Juniper Ridge Dr. to Par Cir.",
+            "customers": 210,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-07-31 08:54:00 MST",
+            "etr": "2026-07-31 12:20:00 MST"
+        },
+        {
+            "latitude": 33.57507494027737,
+            "longitude": -111.86486360259612,
+            "city": "Scottsdale",
+            "boundary": "Mountain Lake Dr. and Mountain View Rd.",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-31 09:02:00 MST",
+            "etr": "2026-07-31 11:40:00 MST"
+        }
+    ]
+}
