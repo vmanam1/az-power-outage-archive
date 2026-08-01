@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-07-31 18:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.38851522092805,
+            "longitude": -111.8266544732995,
+            "boundary": "S CENTER  ST TO S MESA  DR AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-07-31 13:29 MST",
+            "etr": "2026-07-31 19:29 MST"
+        },
+        {
+            "latitude": 33.45363313284255,
+            "longitude": -112.221099796884,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 2,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-07-31 13:47 MST",
+            "etr": "2026-07-31 23:30 MST"
+        },
+        {
+            "latitude": 33.28809353587695,
+            "longitude": -111.696559149866,
+            "boundary": "S RECKER  RD TO S POWER  RD AND E PECOS  RD TO E GERMANN  RD",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-07-31 16:01 MST",
+            "etr": "2026-07-31 20:59 MST"
+        },
+        {
+            "latitude": 33.233880864218506,
+            "longitude": -111.622096678199,
+            "boundary": "S ELLSWORTH  RD TO S 220TH  ST AND E OCOTILLO  RD TO E CLOUD  RD",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-07-31 18:01 MST",
+            "etr": "2026-07-31 19:58 MST"
+        }
+    ]
+}
