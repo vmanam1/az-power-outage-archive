@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-07-31 19:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 34.24298950197392,
+            "longitude": -111.34566709093282,
+            "city": "Payson",
+            "boundary": "West Driftwood Dr to West Birchwood Rd and West Norris Ct to South Lakeshore Rd",
+            "customers": 36,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-07-31 10:49:00 MST",
+            "etr": "2026-07-31 14:15:00 MST"
+        }
+    ]
+}
