@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-01 14:07:15 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 33.82300044655699,
+            "longitude": -109.98465690470177,
+            "customers": 1,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-08-01 12:51:40 MST",
+            "etr": null,
+            "incident_id": "531829"
+        }
+    ]
+}

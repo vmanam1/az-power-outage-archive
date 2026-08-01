@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-01 14:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 33.44976564488585,
+            "longitude": -112.26140722561149,
+            "boundary": "S 99TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-01 13:29 MST",
+            "etr": "2026-08-01 15:31 MST"
+        }
+    ]
+}
