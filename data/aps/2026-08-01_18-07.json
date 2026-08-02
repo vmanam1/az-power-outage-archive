@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-01 18:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 732
+    },
+    "outages": [
+        {
+            "latitude": 32.710648293804816,
+            "longitude": -114.62665565903782,
+            "city": "Yuma",
+            "boundary": "West 9th St to West 10th St and South 6th Ave to South 5th Ave",
+            "customers": 19,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 09:25:00 MST",
+            "etr": "2026-08-01 13:00:00 MST"
+        },
+        {
+            "latitude": 33.60662350829502,
+            "longitude": -112.05291601957018,
+            "city": "Phoenix",
+            "boundary": "Thunderbird Rd and Nancy Jane Ln",
+            "customers": 25,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 09:36:00 MST",
+            "etr": "2026-08-01 12:30:00 MST"
+        },
+        {
+            "latitude": 33.493721183029045,
+            "longitude": -112.03612427190157,
+            "city": "Phoenix",
+            "boundary": "Indian School Rd and Fairmont Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 10:24:00 MST",
+            "etr": "2026-08-01 14:00:00 MST"
+        },
+        {
+            "latitude": 33.41968648095636,
+            "longitude": -112.39282468273743,
+            "city": "Goodyear",
+            "boundary": "Estrella Parkway and Wood Blvd",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 10:28:00 MST",
+            "etr": "2026-08-01 13:30:00 MST"
+        },
+        {
+            "latitude": 33.63517547834521,
+            "longitude": -112.02075160276874,
+            "city": "Phoenix",
+            "boundary": "East Bell Rd to East Paradise Ln and North cave Creek Rd to North 32nd St",
+            "customers": 669,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 10:41:00 MST",
+            "etr": "2026-08-01 13:45:00 MST"
+        }
+    ]
+}
