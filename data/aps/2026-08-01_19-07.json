@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-01 19:07:35 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 1424
+    },
+    "outages": [
+        {
+            "latitude": 32.710648293804816,
+            "longitude": -114.62665565903782,
+            "city": "Yuma",
+            "boundary": "West 9th St to West 10th St and South 6th Ave to South 5th Ave",
+            "customers": 19,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 09:25:00 MST",
+            "etr": "2026-08-01 13:00:00 MST"
+        },
+        {
+            "latitude": 33.60662350829502,
+            "longitude": -112.05291601957018,
+            "city": "Phoenix",
+            "boundary": "Thunderbird Rd and Nancy Jane Ln",
+            "customers": 25,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 09:36:00 MST",
+            "etr": "2026-08-01 13:30:00 MST"
+        },
+        {
+            "latitude": 33.493721183029045,
+            "longitude": -112.03612427190157,
+            "city": "Phoenix",
+            "boundary": "Indian School Rd and Fairmont Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 10:24:00 MST",
+            "etr": "2026-08-01 14:00:00 MST"
+        },
+        {
+            "latitude": 33.41968648095636,
+            "longitude": -112.39282468273743,
+            "city": "Goodyear",
+            "boundary": "Estrella Parkway and Wood Blvd",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 10:28:00 MST",
+            "etr": "2026-08-01 13:30:00 MST"
+        },
+        {
+            "latitude": 33.67074521831079,
+            "longitude": -112.14547846776836,
+            "city": "Glendale",
+            "boundary": "West Tonopah Dr to West Blackhawk Dr and North 41st Av to North 39th Dr",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 11:08:00 MST",
+            "etr": "2026-08-01 14:00:00 MST"
+        },
+        {
+            "latitude": 32.72088199969564,
+            "longitude": -114.64501933179118,
+            "city": "Yuma",
+            "boundary": "West 3rd St and South 21st Ave to South 20th Ave",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 11:10:00 MST",
+            "etr": "2026-08-01 14:30:00 MST"
+        },
+        {
+            "latitude": 33.954185999627995,
+            "longitude": -112.76278899991598,
+            "city": "Wickenburg",
+            "boundary": "Yucca Dr  To Vulture Mine Rd  And Black Mountain Rd  To Mariposa Dr",
+            "customers": 1345,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-01 11:43:00 MST",
+            "etr": "2026-08-01 14:00:00 MST"
+        }
+    ]
+}
