@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-02 13:07:35 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.54521384802983,
+            "longitude": -112.17480766678584,
+            "city": "Glendale",
+            "boundary": "Orangewood Blvd to Gardenia Ave and 54th Ave to 51st Ave",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 05:32:00 MST",
+            "etr": "2026-08-02 08:30:00 MST"
+        }
+    ]
+}
