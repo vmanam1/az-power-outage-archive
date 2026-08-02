@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-02 14:07:42 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1464
+    },
+    "outages": [
+        {
+            "latitude": 33.4115796304405,
+            "longitude": -111.7076278976225,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 12:19 MST",
+            "etr": "2026-08-02 14:20 MST"
+        },
+        {
+            "latitude": 33.211962417598855,
+            "longitude": -111.87839163317801,
+            "boundary": "S SUN LAKES  BLVD TO S ALMA SCHOOL  RD AND E RIGGS  RD TO E HUNT  HWY",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 12:11 MST",
+            "etr": "2026-08-02 15:00 MST"
+        },
+        {
+            "latitude": 33.5446085980937,
+            "longitude": -112.13848884420901,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 13,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 13:01 MST",
+            "etr": "2026-08-02 16:55 MST"
+        },
+        {
+            "latitude": 33.42228311890295,
+            "longitude": -111.792615559463,
+            "boundary": "N STAPLEY  DR TO N 24TH  ST AND E BROWN  RD TO E BROADWAY  RD",
+            "customers": 1391,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 13:57 MST",
+            "etr": "2026-08-02 15:56 MST"
+        }
+    ]
+}
