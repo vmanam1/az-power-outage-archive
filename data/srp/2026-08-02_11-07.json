@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-02 11:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1084
+    },
+    "outages": [
+        {
+            "latitude": 33.4156454611563,
+            "longitude": -111.6441846170035,
+            "boundary": "S HAWES  RD TO N ELLSWORTH  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-02 07:32 MST",
+            "etr": "2026-08-02 13:31 MST"
+        },
+        {
+            "latitude": 33.4158543842967,
+            "longitude": -111.56792231279,
+            "boundary": "N DELAWARE  DR TO N IRONWOOD  DR AND W SUPERSTITION  BLVD TO W BROADWAY  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-02 07:59 MST",
+            "etr": "2026-08-02 11:58 MST"
+        },
+        {
+            "latitude": 33.55092345401035,
+            "longitude": -112.12731634455,
+            "boundary": "N 35TH  AVE TO N 27TH  AVE AND W NORTHERN  AVE TO W ORANGEWOOD  AVE",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 09:27 MST",
+            "etr": "2026-08-02 11:30 MST"
+        },
+        {
+            "latitude": 33.3092634934369,
+            "longitude": -111.948767939715,
+            "boundary": "N 56TH  ST TO N KYRENE  RD AND W GALVESTON  ST TO W CHANDLER  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-02 10:37 MST",
+            "etr": "2026-08-02 13:36 MST"
+        },
+        {
+            "latitude": 33.40371462974865,
+            "longitude": -112.090724465177,
+            "boundary": "S 23RD  AVE TO S CENTRAL  AVE AND W ELWOOD  ST TO W SOUTHERN  AVE",
+            "customers": 1063,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 11:00 MST",
+            "etr": "2026-08-02 12:59 MST"
+        }
+    ]
+}
