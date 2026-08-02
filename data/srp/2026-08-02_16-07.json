@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-02 16:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 2401
+    },
+    "outages": [
+        {
+            "latitude": 33.5446085980937,
+            "longitude": -112.13848884420901,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 13,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 13:01 MST",
+            "etr": "2026-08-02 16:55 MST"
+        },
+        {
+            "latitude": 33.277402378773644,
+            "longitude": -111.778928539992,
+            "boundary": "S GILBERT  RD TO S VAL VISTA  DR AND E FRYE  RD TO E APPLEBY  RD",
+            "customers": 1118,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 14:30 MST",
+            "etr": "2026-08-02 16:41 MST"
+        },
+        {
+            "latitude": 33.42065831855215,
+            "longitude": -111.794636166929,
+            "boundary": "N STAPLEY  DR TO N GILBERT  RD AND E 8TH  ST TO E MAIN  ST",
+            "customers": 36,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 13:57 MST",
+            "etr": "2026-08-02 20:00 MST"
+        },
+        {
+            "latitude": 33.27201642304655,
+            "longitude": -111.79072376331999,
+            "boundary": "S AIRPORT  BLVD TO S VAL VISTA  DR AND E PECOS  RD TO E OCOTILLO  RD",
+            "customers": 1227,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 15:37 MST",
+            "etr": "2026-08-02 17:37 MST"
+        },
+        {
+            "latitude": 33.21480085349995,
+            "longitude": -111.8803026904445,
+            "boundary": "S SUN LAKES  BLVD TO S DOBSON  RD AND E RIGGS  RD TO E HUNT  HWY",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 12:11 MST",
+            "etr": "2026-08-02 20:00 MST"
+        }
+    ]
+}

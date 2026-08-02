@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-02 16:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 34.736172705181374,
+            "longitude": -112.01140657439511,
+            "city": "Cottonwood",
+            "boundary": "Aspen St to Birch St and 13th St to Main St",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 08:06:00 MST",
+            "etr": "2026-08-02 11:00:00 MST"
+        }
+    ]
+}
