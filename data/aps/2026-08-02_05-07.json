@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-02 05:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.696624176054684,
+            "longitude": -112.03283016592438,
+            "city": "Phoenix",
+            "boundary": "Paraiso Dr. to Parkside Ln. and 23rd St. to 23rd Pl.",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-01 12:37:00 MST",
+            "etr": "2026-08-01 23:45:00 MST"
+        }
+    ]
+}
