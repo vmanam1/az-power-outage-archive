@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-01 22:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 132
+    },
+    "outages": [
+        {
+            "latitude": 33.488249712444556,
+            "longitude": -112.23893089051,
+            "boundary": "N 87TH  AVE TO N 79TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-01 17:06 MST",
+            "etr": "2026-08-01 23:00 MST"
+        },
+        {
+            "latitude": 33.3506389773734,
+            "longitude": -111.90901225499951,
+            "boundary": "S LAKESHORE  DR TO S SHUTTERFLY  WAY AND E GUADALUPE  RD TO E CARVER  RD",
+            "customers": 31,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-01 18:58 MST",
+            "etr": "2026-08-01 22:00 MST"
+        },
+        {
+            "latitude": 33.281136454507205,
+            "longitude": -111.718295138746,
+            "boundary": "S 164TH  ST TO S RECKER  RD AND E WILLIS  RD TO E GERMANN  RD",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-01 18:20 MST",
+            "etr": "2026-08-01 23:22 MST"
+        },
+        {
+            "latitude": 33.536256638946796,
+            "longitude": -112.09442255604449,
+            "boundary": "N 19TH  AVE TO N 15TH  AVE AND W GLENDALE  AVE TO E MARYLAND  AVE",
+            "customers": 25,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-01 18:17 MST",
+            "etr": "2026-08-01 23:59 MST"
+        },
+        {
+            "latitude": 33.229413657436396,
+            "longitude": -111.5466405217995,
+            "boundary": "N GANTZEL  RD TO N COYOTE  RD AND E SOUTHWOOD  RD TO E COMBS  RD",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-01 17:58 MST",
+            "etr": "2026-08-01 23:35 MST"
+        },
+        {
+            "latitude": 33.2870888365517,
+            "longitude": -111.7951263635955,
+            "boundary": "S COOPER  RD TO S GILBERT  RD AND E PECOS  RD TO E WILLIS  RD",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-01 18:17 MST",
+            "etr": "2026-08-01 23:30 MST"
+        },
+        {
+            "latitude": 33.47741395511425,
+            "longitude": -111.6893037179855,
+            "boundary": "N RECKER  RD TO N POWER  RD AND E THOMAS  RD TO E PRESTON  ST",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-01 20:48 MST",
+            "etr": "2026-08-01 22:50 MST"
+        },
+        {
+            "latitude": 33.4049943693638,
+            "longitude": -111.662096245968,
+            "boundary": "S 76TH  ST TO S 80TH  ST AND E BROADWAY  RD TO E PUEBLO  AVE",
+            "customers": 10,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-01 19:35 MST",
+            "etr": "2026-08-02 02:00 MST"
+        }
+    ]
+}
