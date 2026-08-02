@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-01 23:07:35 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 3720
+    },
+    "outages": [
+        {
+            "latitude": 33.73743572535579,
+            "longitude": -111.80382337638252,
+            "city": "Scottsdale",
+            "boundary": "Rio Verde Dr. to Quail Track and 128th St. to 132nd St.",
+            "customers": 5,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-01 11:59:00 MST",
+            "etr": "2026-08-01 17:00:00 MST"
+        },
+        {
+            "latitude": 33.43190736721012,
+            "longitude": -112.11086645173646,
+            "city": "Phoenix",
+            "boundary": "West Cocopah St to West Mohave St and South 25th Ave to South 23rd Ave",
+            "customers": 12,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-01 12:34:00 MST",
+            "etr": "2026-08-01 16:30:00 MST"
+        },
+        {
+            "latitude": 33.696624176054684,
+            "longitude": -112.03283016592438,
+            "city": "Phoenix",
+            "boundary": "Paraiso Dr. to Parkside Ln. and 23rd St. to 23rd Pl.",
+            "customers": 5,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-01 12:37:00 MST",
+            "etr": "2026-08-01 19:00:00 MST"
+        },
+        {
+            "latitude": 33.65267260816803,
+            "longitude": -111.96706814035426,
+            "city": "Scottsdale",
+            "boundary": "Wagoner Rd. to Bluefield Ave. and 51st Pl. to 53rd St.",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-01 12:01:00 MST",
+            "etr": "2026-08-01 19:00:00 MST"
+        },
+        {
+            "latitude": 33.78465870020024,
+            "longitude": -112.54230270030132,
+            "city": "Morristown",
+            "boundary": "Amanda Dr  To Radford Rd And 253 Ave  To Mitchell Rd",
+            "customers": 1854,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-01 13:28:00 MST",
+            "etr": "2026-08-01 17:30:00 MST"
+        },
+        {
+            "latitude": 33.63115346863442,
+            "longitude": -112.21185283174853,
+            "city": "Peoria",
+            "boundary": "Paradise Ln. to Sherri Jean Ln. and 71st Dr. to 71st Ave.",
+            "customers": 6,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-01 13:58:00 MST",
+            "etr": "2026-08-01 17:00:00 MST"
+        },
+        {
+            "latitude": 34.07579800033641,
+            "longitude": -112.13823899969087,
+            "city": "Black Canyon City",
+            "boundary": "I-17 To Jacie And Kings Wy To Trails End Ranch Rd",
+            "customers": 1831,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-01 15:17:00 MST",
+            "etr": "2026-08-01 21:15:00 MST"
+        }
+    ]
+}
