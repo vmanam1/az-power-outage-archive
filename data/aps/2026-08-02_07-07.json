@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-02 07:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 136
+    },
+    "outages": [
+        {
+            "latitude": 33.587999219024915,
+            "longitude": -112.14425651104695,
+            "city": "Phoenix",
+            "boundary": "West Garden Dr to West Yucca and North 41st Ave to North 39th Ave",
+            "customers": 32,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 22:56:00 MST",
+            "etr": "2026-08-02 01:30:00 MST"
+        },
+        {
+            "latitude": 32.65241774708536,
+            "longitude": -114.41301949136826,
+            "city": "Yuma",
+            "boundary": "East 42nd St to East 44th St and South Renee Ave to South Foothills Bv",
+            "customers": 104,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 23:46:00 MST",
+            "etr": "2026-08-02 03:15:00 MST"
+        }
+    ]
+}
