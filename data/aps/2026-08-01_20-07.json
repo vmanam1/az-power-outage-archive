@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-01 20:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 540
+    },
+    "outages": [
+        {
+            "latitude": 32.710648293804816,
+            "longitude": -114.62665565903782,
+            "city": "Yuma",
+            "boundary": "West 9th St to West 10th St and South 6th Ave to South 5th Ave",
+            "customers": 19,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 09:25:00 MST",
+            "etr": "2026-08-01 15:34:00 MST"
+        },
+        {
+            "latitude": 33.67074521831079,
+            "longitude": -112.14547846776836,
+            "city": "Glendale",
+            "boundary": "West Tonopah Dr to West Blackhawk Dr and North 41st Av to North 39th Dr",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 11:08:00 MST",
+            "etr": "2026-08-01 14:00:00 MST"
+        },
+        {
+            "latitude": 33.954185999627995,
+            "longitude": -112.76278899991598,
+            "city": "Wickenburg",
+            "boundary": "Yucca Dr  To Vulture Mine Rd  And Black Mountain Rd  To Mariposa Dr",
+            "customers": 471,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-01 11:43:00 MST",
+            "etr": "2026-08-01 14:00:00 MST"
+        },
+        {
+            "latitude": 33.73743572535579,
+            "longitude": -111.80382337638252,
+            "city": "Scottsdale",
+            "boundary": "Rio Verde Dr. to Quail Track and 128th St. to 132nd St.",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-01 11:59:00 MST",
+            "etr": "2026-08-01 14:45:00 MST"
+        },
+        {
+            "latitude": 33.601307304859574,
+            "longitude": -112.29486352587003,
+            "city": "Sun City",
+            "boundary": "Windsor Dr. to Oakmont Dr. and 111th Ave. to 108th Ave.",
+            "customers": 11,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-01 11:06:00 MST",
+            "etr": "2026-08-01 14:30:00 MST"
+        },
+        {
+            "latitude": 33.43190736721012,
+            "longitude": -112.11086645173646,
+            "city": "Phoenix",
+            "boundary": "West Cocopah St to West Mohave St and South 25th Ave to South 23rd Ave",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 12:34:00 MST",
+            "etr": "2026-08-01 15:10:00 MST"
+        },
+        {
+            "latitude": 33.696624176054684,
+            "longitude": -112.03283016592438,
+            "city": "Phoenix",
+            "boundary": "Paraiso Dr. to Parkside Ln. and 23rd St. to 23rd Pl.",
+            "customers": 5,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-01 12:37:00 MST",
+            "etr": "2026-08-01 15:30:00 MST"
+        },
+        {
+            "latitude": 33.65267260816803,
+            "longitude": -111.96706814035426,
+            "city": "Scottsdale",
+            "boundary": "Wagoner Rd. to Bluefield Ave. and 51st Pl. to 53rd St.",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-01 12:01:00 MST",
+            "etr": "2026-08-01 15:00:00 MST"
+        }
+    ]
+}
