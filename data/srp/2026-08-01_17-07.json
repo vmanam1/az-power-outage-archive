@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-01 17:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 60
+    },
+    "outages": [
+        {
+            "latitude": 33.44976564488585,
+            "longitude": -112.26140722561149,
+            "boundary": "S 99TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-01 13:29 MST",
+            "etr": "2026-08-01 17:30 MST"
+        },
+        {
+            "latitude": 33.4895041392125,
+            "longitude": -112.239484867579,
+            "boundary": "N 87TH  AVE TO N 79TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-01 17:06 MST",
+            "etr": "2026-08-01 19:06 MST"
+        }
+    ]
+}
