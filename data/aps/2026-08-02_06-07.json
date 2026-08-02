@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-02 06:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 32
+    },
+    "outages": [
+        {
+            "latitude": 33.587999219024915,
+            "longitude": -112.14425651104695,
+            "city": "Phoenix",
+            "boundary": "West Garden Dr to West Yucca and North 41st Ave to North 39th Ave",
+            "customers": 32,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 22:56:00 MST",
+            "etr": "2026-08-02 01:30:00 MST"
+        }
+    ]
+}
