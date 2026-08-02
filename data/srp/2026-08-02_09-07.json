@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-02 09:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1073
+    },
+    "outages": [
+        {
+            "latitude": 33.4156454611563,
+            "longitude": -111.6441846170035,
+            "boundary": "S HAWES  RD TO N ELLSWORTH  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-02 07:32 MST",
+            "etr": "2026-08-02 13:31 MST"
+        },
+        {
+            "latitude": 33.3442889418161,
+            "longitude": -111.953717588641,
+            "boundary": "S PRIEST  DR TO S KYRENE  RD AND W ELLIOT  RD TO W CARVER  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 07:53 MST",
+            "etr": "2026-08-02 10:53 MST"
+        },
+        {
+            "latitude": 33.4158543842967,
+            "longitude": -111.56792231279,
+            "boundary": "N DELAWARE  DR TO N IRONWOOD  DR AND W SUPERSTITION  BLVD TO W BROADWAY  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-02 07:59 MST",
+            "etr": "2026-08-02 11:58 MST"
+        },
+        {
+            "latitude": 33.52092979377555,
+            "longitude": -112.173411084764,
+            "boundary": "N 55TH  AVE TO N 51ST  AVE AND W BETHANY HOME  RD TO W MISSOURI  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-02 08:03 MST",
+            "etr": "2026-08-02 11:02 MST"
+        },
+        {
+            "latitude": 33.360370870827154,
+            "longitude": -111.7612840560475,
+            "boundary": "N LINDSAY  RD TO N GREENFIELD  RD AND E BASELINE  RD TO E MESQUITE  ST",
+            "customers": 1058,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 08:35 MST",
+            "etr": "2026-08-02 10:42 MST"
+        }
+    ]
+}

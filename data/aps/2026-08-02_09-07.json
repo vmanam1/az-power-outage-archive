@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-02 09:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 104
+    },
+    "outages": [
+        {
+            "latitude": 32.65241774708536,
+            "longitude": -114.41301949136826,
+            "city": "Yuma",
+            "boundary": "East 42nd St to East 44th St and South Renee Ave to South Foothills Bv",
+            "customers": 104,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-01 23:46:00 MST",
+            "etr": "2026-08-02 03:15:00 MST"
+        }
+    ]
+}
