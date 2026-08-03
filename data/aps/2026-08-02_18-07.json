@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-02 18:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 426
+    },
+    "outages": [
+        {
+            "latitude": 33.602447877803016,
+            "longitude": -112.04858324642721,
+            "city": "Phoenix",
+            "boundary": "East Sweetwater Ave to East Lakespur Dr and East Thunderbird",
+            "customers": 36,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 09:32:00 MST",
+            "etr": "2026-08-02 12:20:00 MST"
+        },
+        {
+            "latitude": 34.86165901778578,
+            "longitude": -111.78203349859281,
+            "city": "Sedona",
+            "boundary": "Airport Rd and Emblem Place",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 09:34:00 MST",
+            "etr": "2026-08-02 12:20:00 MST"
+        },
+        {
+            "latitude": 32.71361902381112,
+            "longitude": -114.65297203884808,
+            "city": "Yuma",
+            "boundary": "West 7th St to West 8th St and South Clifford Wy to South Avenue B",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 09:35:00 MST",
+            "etr": "2026-08-02 12:50:00 MST"
+        },
+        {
+            "latitude": 35.21458367066166,
+            "longitude": -111.60273215021469,
+            "city": "Flagstaff",
+            "boundary": "Elder Dr to Route 66 and Tindle Blvd to Thomas Dr",
+            "customers": 95,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-02 09:47:00 MST",
+            "etr": "2026-08-02 13:10:00 MST"
+        },
+        {
+            "latitude": 33.600589273299406,
+            "longitude": -112.30024028779854,
+            "city": "Young",
+            "boundary": "West Wisconsin Ave to West Jersey Ave and North 13th ave to North 11th Ave",
+            "customers": 212,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 10:48:00 MST",
+            "etr": "2026-08-02 12:20:00 MST"
+        },
+        {
+            "latitude": 32.76041393065268,
+            "longitude": -111.7023282588655,
+            "city": "Arizona City",
+            "boundary": "Jenero Dr to Cabrillo Dr and Henness Dr to Simon Rd",
+            "customers": 36,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 10:50:00 MST",
+            "etr": "2026-08-02 14:20:00 MST"
+        },
+        {
+            "latitude": 33.782965478855964,
+            "longitude": -111.91998052018418,
+            "city": "Scottsdale",
+            "boundary": "74th Way and Ashler Hills Dr",
+            "customers": 23,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-02 10:55:00 MST",
+            "etr": "2026-08-02 13:00:00 MST"
+        }
+    ]
+}
