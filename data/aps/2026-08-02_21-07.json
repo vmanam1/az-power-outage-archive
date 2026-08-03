@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-02 21:07:25 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1999
+    },
+    "outages": [
+        {
+            "latitude": 34.86165901778578,
+            "longitude": -111.78203349859281,
+            "city": "Sedona",
+            "boundary": "Airport Rd and Emblem Place",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 09:34:00 MST",
+            "etr": "2026-08-02 15:20:00 MST"
+        },
+        {
+            "latitude": 35.15190999979146,
+            "longitude": -111.67601999982541,
+            "city": "Flagstaff",
+            "boundary": "Beverly Ave. to Pine Del Dr. and Fort Tuthill Loop to Frontier Ave.",
+            "customers": 1337,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-08-02 12:14:00 MST",
+            "etr": "2026-08-02 15:15:00 MST"
+        },
+        {
+            "latitude": 33.954185999627995,
+            "longitude": -112.76278899991598,
+            "city": "Wickenburg",
+            "boundary": "Yucca Dr  To Vulture Mine Rd  And Black Mountain Rd  To Mariposa Dr",
+            "customers": 471,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 12:28:00 MST",
+            "etr": "2026-08-02 15:00:00 MST"
+        },
+        {
+            "latitude": 33.603078876871564,
+            "longitude": -111.99699724958981,
+            "city": "Phoenix",
+            "boundary": "Aster Dr. to Corrine Dr. and 38th Pl. to 40th St.",
+            "customers": 26,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-02 13:08:00 MST",
+            "etr": "2026-08-02 16:15:00 MST"
+        },
+        {
+            "latitude": 34.57575704970476,
+            "longitude": -112.47213826059414,
+            "city": "Prescott",
+            "boundary": "Bruce Corner to Stewart Cir. and Mark Ave. to Richard St.",
+            "customers": 20,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-02 13:32:00 MST",
+            "etr": "2026-08-02 17:00:00 MST"
+        },
+        {
+            "latitude": 35.39206860371652,
+            "longitude": -112.15690931056986,
+            "city": "Williams",
+            "boundary": "Bella Vis Pl. to Buck Mountain Rd. and State Route 64 to Fir St.",
+            "customers": 133,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-02 14:00:00 MST",
+            "etr": "2026-08-02 16:00:00 MST"
+        }
+    ]
+}
