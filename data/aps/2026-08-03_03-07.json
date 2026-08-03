@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-03 03:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.60283142685079,
+            "longitude": -111.99751024690588,
+            "city": "Phoenix",
+            "boundary": "Dahlia Dr. to Windrose Dr. and 38th Pl. to 39th Way.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-02 13:08:00 MST",
+            "etr": "2026-08-02 21:30:00 MST"
+        }
+    ]
+}
