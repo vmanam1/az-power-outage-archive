@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-02 19:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 1195
+    },
+    "outages": [
+        {
+            "latitude": 33.42065831855215,
+            "longitude": -111.794636166929,
+            "boundary": "N STAPLEY  DR TO N GILBERT  RD AND E 8TH  ST TO E MAIN  ST",
+            "customers": 36,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 13:57 MST",
+            "etr": "2026-08-02 20:00 MST"
+        },
+        {
+            "latitude": 33.479159324734695,
+            "longitude": -111.918060435999,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E OSBORN  RD TO E OAK  ST",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 16:59 MST",
+            "etr": "2026-08-02 23:00 MST"
+        },
+        {
+            "latitude": 33.57605043784365,
+            "longitude": -112.1473881353905,
+            "boundary": "N 51ST  AVE TO N METRO W PKWY AND W CHOLLA  ST TO W DUNLAP  AVE",
+            "customers": 1120,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 17:40 MST",
+            "etr": "2026-08-02 20:06 MST"
+        },
+        {
+            "latitude": 33.4074883298597,
+            "longitude": -112.296882956041,
+            "boundary": "S AVONDALE  BLVD TO S 107TH  AVE AND W LOWER BUCKEYE  RD TO W ROESER  RD",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 18:36 MST",
+            "etr": "2026-08-02 20:31 MST"
+        },
+        {
+            "latitude": 33.35871084978775,
+            "longitude": -112.15647642913501,
+            "boundary": "S 47TH  AVE TO S 43RD  AVE AND W DOBBINS  RD TO W OLNEY  AVE",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 18:38 MST",
+            "etr": "2026-08-02 20:35 MST"
+        },
+        {
+            "latitude": 33.4125005442769,
+            "longitude": -112.176241217895,
+            "boundary": "S 59TH  AVE TO S 51ST  AVE AND W ELWOOD  ST TO W BROADWAY  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 18:23 MST",
+            "etr": "2026-08-02 20:24 MST"
+        },
+        {
+            "latitude": 33.2913296054618,
+            "longitude": -111.771110776923,
+            "boundary": "S LINDSAY  RD TO S VAL VISTA  DR AND E FRYE  RD TO E WILLIS  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 14:30 MST",
+            "etr": "2026-08-02 22:01 MST"
+        },
+        {
+            "latitude": 33.28080833848,
+            "longitude": -111.777216834664,
+            "boundary": "S MUSTANG  DR TO S LINDSAY  RD AND E WILLIS  RD TO E GERMANN  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 15:37 MST",
+            "etr": "2026-08-02 23:01 MST"
+        }
+    ]
+}
