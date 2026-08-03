@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-03 10:07:25 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 34.77826821500384,
+            "longitude": -111.76595225543187,
+            "city": "Sedona",
+            "boundary": "Valley Verde School Rd and Rain trail Rd",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-03 01:23:00 MST",
+            "etr": "2026-08-03 05:00:00 MST"
+        },
+        {
+            "latitude": 33.637292280627015,
+            "longitude": -112.14371256227778,
+            "city": "Phoenix",
+            "boundary": "West Juniper Ave to West Kelton Ln and North 40th Ave to North 39th Ave",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-03 02:35:00 MST",
+            "etr": "2026-08-03 05:00:00 MST"
+        }
+    ]
+}

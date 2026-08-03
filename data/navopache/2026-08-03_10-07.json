@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-03 10:07:25 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.26645659814622,
+            "longitude": -109.7626742148121,
+            "customers": 2,
+            "cause": "MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-03 09:10:20 MST",
+            "etr": null,
+            "incident_id": "531850"
+        },
+        {
+            "latitude": 34.118070133166206,
+            "longitude": -109.28904646434698,
+            "customers": 1,
+            "cause": "MAINTENANCE",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-03 07:20:46 MST",
+            "etr": null,
+            "incident_id": "531847"
+        }
+    ]
+}
