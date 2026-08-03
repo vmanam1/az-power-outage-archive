@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-03 04:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 122
+    },
+    "outages": [
+        {
+            "latitude": 33.4900163934243,
+            "longitude": -112.24476764525551,
+            "boundary": "N 91ST  AVE TO N 83RD  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 20:57 MST",
+            "etr": "2026-08-03 05:00 MST"
+        },
+        {
+            "latitude": 33.41392422329825,
+            "longitude": -111.69220530671001,
+            "boundary": "S RECKER  RD TO S POWER  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 17,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 21:00 MST",
+            "etr": "2026-08-03 05:00 MST"
+        },
+        {
+            "latitude": 33.398891872823654,
+            "longitude": -111.99332490021351,
+            "boundary": "S 36TH  ST TO S 44TH  PL AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 56,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 22:33 MST",
+            "etr": "2026-08-03 05:00 MST"
+        },
+        {
+            "latitude": 33.48799128196265,
+            "longitude": -112.000276203259,
+            "boundary": "N 36TH  ST TO N 40TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 20:38 MST",
+            "etr": "2026-08-03 06:00 MST"
+        },
+        {
+            "latitude": 33.5294312944456,
+            "longitude": -111.99419046355649,
+            "boundary": "N PALO CRISTI  RD TO N 44TH  ST AND E LINCOLN  DR TO E MCDONALD  DR",
+            "customers": 3,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 21:09 MST",
+            "etr": "2026-08-03 06:00 MST"
+        },
+        {
+            "latitude": 33.3733538850042,
+            "longitude": -112.201596801405,
+            "boundary": "S 71ST  AVE TO S 63RD  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 17,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 20:40 MST",
+            "etr": "2026-08-03 07:00 MST"
+        },
+        {
+            "latitude": 33.42516259421265,
+            "longitude": -111.5755916873115,
+            "boundary": "N MERIDIAN  RD TO N DELAWARE  DR AND W TEPEE  ST TO W SUPERSTITION  BLVD",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 23:44 MST",
+            "etr": "2026-08-03 06:00 MST"
+        }
+    ]
+}
