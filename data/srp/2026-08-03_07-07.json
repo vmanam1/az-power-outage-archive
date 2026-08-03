@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-03 07:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 82
+    },
+    "outages": [
+        {
+            "latitude": 33.489497046883,
+            "longitude": -111.97999779885501,
+            "boundary": "N 44TH  ST TO N 52ND  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-03 06:32 MST",
+            "etr": "2026-08-03 12:12 MST"
+        },
+        {
+            "latitude": 33.398891872823654,
+            "longitude": -111.99332490021351,
+            "boundary": "S 36TH  ST TO S 44TH  PL AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 56,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 22:33 MST",
+            "etr": "2026-08-03 09:00 MST"
+        },
+        {
+            "latitude": 33.42516259421265,
+            "longitude": -111.5755916873115,
+            "boundary": "N MERIDIAN  RD TO N DELAWARE  DR AND W TEPEE  ST TO W SUPERSTITION  BLVD",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 23:44 MST",
+            "etr": "2026-08-03 08:00 MST"
+        }
+    ]
+}
