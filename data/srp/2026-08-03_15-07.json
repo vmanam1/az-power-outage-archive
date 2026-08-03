@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-03 15:07:42 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 28
+    },
+    "outages": [
+        {
+            "latitude": 33.4157885121615,
+            "longitude": -111.64391510645899,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E RED MOUNTAIN  FWY",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-03 14:45 MST",
+            "etr": "2026-08-03 16:29 MST"
+        },
+        {
+            "latitude": 33.256586952735404,
+            "longitude": -111.8103993052465,
+            "boundary": "S MCQUEEN  RD TO S EMMETT  DR AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-03 14:12 MST",
+            "etr": "2026-08-03 16:13 MST"
+        },
+        {
+            "latitude": 33.365371735726356,
+            "longitude": -111.97271682055799,
+            "boundary": "S 48TH  ST TO S MARICOPA  FWY AND E CALLE SONORA   TO W MINERAL  RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-03 14:57 MST",
+            "etr": "2026-08-03 16:56 MST"
+        }
+    ]
+}
