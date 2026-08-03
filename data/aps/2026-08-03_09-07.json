@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-03 09:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 33.54258063289175,
+            "longitude": -112.0566598158904,
+            "city": "Phoenix",
+            "boundary": "Northview Ave to Myrtle Ave and 11th Place to 12th St",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-03 00:34:00 MST",
+            "etr": "2026-08-03 03:20:00 MST"
+        },
+        {
+            "latitude": 34.080566292706074,
+            "longitude": -112.12236323177812,
+            "city": "Black Canyon City",
+            "boundary": "Gayla Ln and Tara Springs Rd",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-03 01:14:00 MST",
+            "etr": "2026-08-03 02:30:00 MST"
+        },
+        {
+            "latitude": 34.77826821500384,
+            "longitude": -111.76595225543187,
+            "city": "Sedona",
+            "boundary": "Valley Verde School Rd and Rain trail Rd",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-03 01:23:00 MST",
+            "etr": "2026-08-03 05:00:00 MST"
+        }
+    ]
+}
