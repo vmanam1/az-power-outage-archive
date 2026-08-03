@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-03 16:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 119
+    },
+    "outages": [
+        {
+            "latitude": 32.6094995159116,
+            "longitude": -114.65089590017413,
+            "city": "Somerton",
+            "boundary": "County 15th St to West Country 15 1/2 St and S Avenue B",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-03 03:08:00 MST",
+            "etr": "2026-08-04 07:30:00 MST"
+        },
+        {
+            "latitude": 31.379052999790733,
+            "longitude": -109.63037199984588,
+            "city": "Douglas",
+            "boundary": "Oro Road To Mexican Border And Rose Ct To Central Hwy",
+            "customers": 75,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-03 08:15:00 MST",
+            "etr": "2026-08-03 12:50:00 MST"
+        },
+        {
+            "latitude": 33.65608248562678,
+            "longitude": -111.99770694741036,
+            "city": "Phoenix",
+            "boundary": "Rockwood Dr Union Hills Dr and Piesta Freeway to 39th Way",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-03 08:41:00 MST",
+            "etr": "2026-08-03 11:10:00 MST"
+        },
+        {
+            "latitude": 33.586643862289876,
+            "longitude": -112.12415677034515,
+            "city": "Phoenix",
+            "boundary": "West Yucca to West Desert Cove and North 31st Ave to North 30th Ave",
+            "customers": 28,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-03 09:02:00 MST",
+            "etr": "2026-08-03 11:45:00 MST"
+        }
+    ]
+}

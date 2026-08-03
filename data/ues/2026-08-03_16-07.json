@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-08-03 16:07:36 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 443,
+        "map_last_refreshed": "Aug 3, 4:05 PM"
+    },
+    "outages": [
+        {
+            "latitude": 31.357373597437704,
+            "longitude": -110.96521485984543,
+            "boundary": {
+                "coordLatSW": "31.355525205275299",
+                "coordLngSW": "-110.968266458556",
+                "coordLatNE": "31.362134967794098",
+                "coordLngNE": "-110.96152609242199",
+                "coordLatCenter": "31.35883",
+                "coordLngCenter": "-110.9649"
+            },
+            "customers": 27,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-08-03 15:34 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-03 16:00 MST"
+        },
+        {
+            "latitude": 31.44837153902272,
+            "longitude": -110.80239146385941,
+            "boundary": {
+                "coordLatSW": "31.333216805494999",
+                "coordLngSW": "-110.91106252022499",
+                "coordLatNE": "31.545386827727299",
+                "coordLngNE": "-110.565958745014",
+                "coordLatCenter": "31.439302",
+                "coordLngCenter": "-110.73851"
+            },
+            "customers": 416,
+            "cause": null,
+            "comments": "Crew On Scene",
+            "start_time": "2026-08-03 14:44 MST",
+            "etr": "2026-08-03 17:51 MST",
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-03 16:00 MST"
+        }
+    ]
+}
