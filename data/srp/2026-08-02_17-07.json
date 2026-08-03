@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-02 17:07:33 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 1336
+    },
+    "outages": [
+        {
+            "latitude": 33.42065831855215,
+            "longitude": -111.794636166929,
+            "boundary": "N STAPLEY  DR TO N GILBERT  RD AND E 8TH  ST TO E MAIN  ST",
+            "customers": 36,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 13:57 MST",
+            "etr": "2026-08-02 20:00 MST"
+        },
+        {
+            "latitude": 33.21480085349995,
+            "longitude": -111.8803026904445,
+            "boundary": "S SUN LAKES  BLVD TO S DOBSON  RD AND E RIGGS  RD TO E HUNT  HWY",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 12:11 MST",
+            "etr": "2026-08-02 20:00 MST"
+        },
+        {
+            "latitude": 33.4080507925377,
+            "longitude": -112.29791950775149,
+            "boundary": "S AVONDALE  BLVD TO S 107TH  AVE AND W LOWER BUCKEYE  RD TO W ROESER  RD",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 16:33 MST",
+            "etr": "2026-08-02 18:26 MST"
+        },
+        {
+            "latitude": 33.5446085980937,
+            "longitude": -112.13848884420901,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 13,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 13:01 MST",
+            "etr": "2026-08-02 19:00 MST"
+        },
+        {
+            "latitude": 33.27201642304655,
+            "longitude": -111.79072376331999,
+            "boundary": "S AIRPORT  BLVD TO S VAL VISTA  DR AND E PECOS  RD TO E OCOTILLO  RD",
+            "customers": 1220,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 15:37 MST",
+            "etr": "2026-08-02 23:00 MST"
+        },
+        {
+            "latitude": 33.2913296054618,
+            "longitude": -111.771110776923,
+            "boundary": "S LINDSAY  RD TO S VAL VISTA  DR AND E FRYE  RD TO E WILLIS  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 14:30 MST",
+            "etr": "2026-08-02 22:00 MST"
+        },
+        {
+            "latitude": 33.479159324734695,
+            "longitude": -111.918060435999,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E OSBORN  RD TO E OAK  ST",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 16:59 MST",
+            "etr": "2026-08-02 18:58 MST"
+        },
+        {
+            "latitude": 33.375528030534,
+            "longitude": -111.78392319452351,
+            "boundary": "N GILBERT  RD TO N LINDSAY  RD AND E BASELINE  RD TO E HOUSTON  AVE",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 16:41 MST",
+            "etr": "2026-08-02 18:41 MST"
+        },
+        {
+            "latitude": 33.49760542201485,
+            "longitude": -112.215687104512,
+            "boundary": "N 75TH  AVE TO N 71ST  AVE AND W SELLS  DR TO W INDIAN SCHOOL  RD",
+            "customers": 13,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 16:16 MST",
+            "etr": "2026-08-02 18:38 MST"
+        }
+    ]
+}
