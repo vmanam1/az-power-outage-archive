@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-02 20:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 2857
+    },
+    "outages": [
+        {
+            "latitude": 33.602447877803016,
+            "longitude": -112.04858324642721,
+            "city": "Phoenix",
+            "boundary": "East Sweetwater Ave to East Lakespur Dr and East Thunderbird",
+            "customers": 24,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 09:32:00 MST",
+            "etr": "2026-08-02 14:30:00 MST"
+        },
+        {
+            "latitude": 34.86165901778578,
+            "longitude": -111.78203349859281,
+            "city": "Sedona",
+            "boundary": "Airport Rd and Emblem Place",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 09:34:00 MST",
+            "etr": "2026-08-02 15:20:00 MST"
+        },
+        {
+            "latitude": 32.71361902381112,
+            "longitude": -114.65297203884808,
+            "city": "Yuma",
+            "boundary": "West 7th St to West 8th St and South Clifford Wy to South Avenue B",
+            "customers": 37,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 09:35:00 MST",
+            "etr": "2026-08-02 14:45:00 MST"
+        },
+        {
+            "latitude": 35.15190999979146,
+            "longitude": -111.67601999982541,
+            "city": "Flagstaff",
+            "boundary": "Beverly Ave. to Pine Del Dr. and Fort Tuthill Loop to Frontier Ave.",
+            "customers": 1427,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 12:14:00 MST",
+            "etr": "2026-08-02 15:15:00 MST"
+        },
+        {
+            "latitude": 33.954185999627995,
+            "longitude": -112.76278899991598,
+            "city": "Wickenburg",
+            "boundary": "Yucca Dr  To Vulture Mine Rd  And Black Mountain Rd  To Mariposa Dr",
+            "customers": 1346,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 12:28:00 MST",
+            "etr": "2026-08-02 14:45:00 MST"
+        },
+        {
+            "latitude": 33.530504097980824,
+            "longitude": -112.18759493602194,
+            "city": "Glendale",
+            "boundary": "Stella Ave. to Marlette Ave. and 60th Ave. to 59th Dr.",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 12:25:00 MST",
+            "etr": "2026-08-02 16:00:00 MST"
+        }
+    ]
+}
