@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-03 08:07:42 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.54258063289175,
+            "longitude": -112.0566598158904,
+            "city": "Phoenix",
+            "boundary": "Northview Ave to Myrtle Ave and 11th Place to 12th St",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-03 00:34:00 MST",
+            "etr": "2026-08-03 03:20:00 MST"
+        }
+    ]
+}
