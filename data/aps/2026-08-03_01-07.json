@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-03 01:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 600
+    },
+    "outages": [
+        {
+            "latitude": 33.954185999627995,
+            "longitude": -112.76278899991598,
+            "city": "Wickenburg",
+            "boundary": "Yucca Dr  To Vulture Mine Rd  And Black Mountain Rd  To Mariposa Dr",
+            "customers": 470,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 12:28:00 MST",
+            "etr": "2026-08-02 18:45:00 MST"
+        },
+        {
+            "latitude": 34.57575704970476,
+            "longitude": -112.47213826059414,
+            "city": "Prescott",
+            "boundary": "Bruces Corner to Stewart Cir. and Mark Ave. to Richard St.",
+            "customers": 20,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-02 13:32:00 MST",
+            "etr": "2026-08-02 18:45:00 MST"
+        },
+        {
+            "latitude": 35.1534574251977,
+            "longitude": -111.67675334669411,
+            "city": "Flagstaff",
+            "boundary": "High County Trl. to South Cuprite Trl. and Cinnabar Trl. to Pulliam Dr.",
+            "customers": 104,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-08-02 12:14:00 MST",
+            "etr": "2026-08-02 20:15:00 MST"
+        },
+        {
+            "latitude": 33.60283142685079,
+            "longitude": -111.99751024690588,
+            "city": "Phoenix",
+            "boundary": "Dahlia Dr. to Windrose Dr. and 38th Pl. to 39th Way.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-02 13:08:00 MST",
+            "etr": "2026-08-02 20:00:00 MST"
+        }
+    ]
+}
