@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-03 14:07:42 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.401463509384975,
+            "longitude": -110.5251282954675,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-03 14:00:46 MST",
+            "etr": null,
+            "incident_id": "531881"
+        },
+        {
+            "latitude": 34.12781204695294,
+            "longitude": -109.93440514770113,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-03 14:03:03 MST",
+            "etr": null,
+            "incident_id": "531882"
+        },
+        {
+            "latitude": 34.118070133166206,
+            "longitude": -109.28904646434698,
+            "customers": 1,
+            "cause": "MAINTENANCE",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-03 07:20:46 MST",
+            "etr": null,
+            "incident_id": "531847"
+        }
+    ]
+}

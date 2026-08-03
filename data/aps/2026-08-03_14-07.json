@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-03 14:07:42 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 44
+    },
+    "outages": [
+        {
+            "latitude": 32.6094995159116,
+            "longitude": -114.65089590017413,
+            "city": "Somerton",
+            "boundary": "County 15th St to West Country 15 1/2 St and S Avenue B",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-03 03:08:00 MST",
+            "etr": "2026-08-03 07:30:00 MST"
+        },
+        {
+            "latitude": 33.65096509463163,
+            "longitude": -112.16302788778528,
+            "city": "Glendale",
+            "boundary": "West Villa Maria Dr to West Villa Rita Dr and North 49th Dr to North 47th Ave",
+            "customers": 35,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-03 06:29:00 MST",
+            "etr": "2026-08-03 09:00:00 MST"
+        }
+    ]
+}
