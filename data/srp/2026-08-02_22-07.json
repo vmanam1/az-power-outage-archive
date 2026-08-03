@@ -1,0 +1,154 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-02 22:07:42 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 14,
+        "customers_affected": 135
+    },
+    "outages": [
+        {
+            "latitude": 33.28080833848,
+            "longitude": -111.777216834664,
+            "boundary": "S MUSTANG  DR TO S LINDSAY  RD AND E WILLIS  RD TO E GERMANN  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 15:37 MST",
+            "etr": "2026-08-02 23:01 MST"
+        },
+        {
+            "latitude": 33.5788200414135,
+            "longitude": -112.15028464862701,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W PEORIA  AVE TO W MOUNTAIN VIEW  RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 17:40 MST",
+            "etr": "2026-08-03 01:30 MST"
+        },
+        {
+            "latitude": 33.37580663107115,
+            "longitude": -111.65163917855199,
+            "boundary": "S SOSSAMAN  RD TO S ELLSWORTH  RD AND E BASELINE  RD TO E MEDINA  AVE",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 19:38 MST",
+            "etr": "2026-08-02 23:41 MST"
+        },
+        {
+            "latitude": 33.35871084978775,
+            "longitude": -112.15647642913501,
+            "boundary": "S 47TH  AVE TO S 43RD  AVE AND W DOBBINS  RD TO W OLNEY  AVE",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 18:38 MST",
+            "etr": "2026-08-03 01:30 MST"
+        },
+        {
+            "latitude": 33.4900163934243,
+            "longitude": -112.24476764525551,
+            "boundary": "N 91ST  AVE TO N 83RD  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 20:57 MST",
+            "etr": "2026-08-02 22:52 MST"
+        },
+        {
+            "latitude": 33.41392422329825,
+            "longitude": -111.69220530671001,
+            "boundary": "S RECKER  RD TO S POWER  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 21:00 MST",
+            "etr": "2026-08-02 22:45 MST"
+        },
+        {
+            "latitude": 33.4125005442769,
+            "longitude": -112.176241217895,
+            "boundary": "S 59TH  AVE TO S 51ST  AVE AND W ELWOOD  ST TO W BROADWAY  RD",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 21:02 MST",
+            "etr": "2026-08-03 02:45 MST"
+        },
+        {
+            "latitude": 33.5293272743541,
+            "longitude": -111.99375559556151,
+            "boundary": "N PALO CRISTI  RD TO N 44TH  ST AND E LINCOLN  DR TO E MCDONALD  DR",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 21:09 MST",
+            "etr": "2026-08-02 23:08 MST"
+        },
+        {
+            "latitude": 33.22626667465205,
+            "longitude": -111.647866009616,
+            "boundary": "S HAWES  RD TO S 204TH  ST AND E CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 20:10 MST",
+            "etr": "2026-08-02 23:59 MST"
+        },
+        {
+            "latitude": 33.3733538850042,
+            "longitude": -112.201596801405,
+            "boundary": "S 71ST  AVE TO S 63RD  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 17,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 20:40 MST",
+            "etr": "2026-08-03 03:04 MST"
+        },
+        {
+            "latitude": 33.488209149178005,
+            "longitude": -112.000358169232,
+            "boundary": "N 36TH  ST TO N 40TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 20:38 MST",
+            "etr": "2026-08-02 22:58 MST"
+        },
+        {
+            "latitude": 33.5679159606999,
+            "longitude": -111.764423192093,
+            "boundary": "N 136TH  ST TO N BEELINE  HWY AND E SHEA  BLVD TO E BEELINE  HWY",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 21:57 MST",
+            "etr": "2026-08-02 23:43 MST"
+        },
+        {
+            "latitude": 33.3096458739571,
+            "longitude": -112.02447768679599,
+            "boundary": "S RAY  RD TO S 32ND  ST AND E RAY  RD TO E CHANDLER  BLVD",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-02 19:57 MST",
+            "etr": "2026-08-03 04:00 MST"
+        },
+        {
+            "latitude": 33.29036805400095,
+            "longitude": -111.71358839322801,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E PECOS  RD TO E WILLIS  RD",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-02 20:48 MST",
+            "etr": "2026-08-02 23:33 MST"
+        }
+    ]
+}
