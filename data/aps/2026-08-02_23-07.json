@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-02 23:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 913
+    },
+    "outages": [
+        {
+            "latitude": 35.15190999979146,
+            "longitude": -111.67601999982541,
+            "city": "Flagstaff",
+            "boundary": "Beverly Ave. to Pine Del Dr. and Fort Tuthill Loop to Frontier Ave.",
+            "customers": 260,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-08-02 12:14:00 MST",
+            "etr": "2026-08-02 20:00:00 MST"
+        },
+        {
+            "latitude": 35.39206860371652,
+            "longitude": -112.15690931056986,
+            "city": "Williams",
+            "boundary": "Bella Vis Pl. to Buck Mountain Rd. and State Route 64 to Fir St.",
+            "customers": 135,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-02 14:00:00 MST",
+            "etr": "2026-08-02 17:00:00 MST"
+        },
+        {
+            "latitude": 33.62629668706045,
+            "longitude": -112.45742589721257,
+            "city": "Surprise",
+            "boundary": "Ivy Ln to Carmen Dr. and 185th Ave. to Betty Elyse Ln.",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-02 13:51:00 MST",
+            "etr": "2026-08-02 18:00:00 MST"
+        },
+        {
+            "latitude": 34.74613398816647,
+            "longitude": -112.05004178975005,
+            "city": "Clarkdale",
+            "boundary": "Skyline Blvd. to Sky Dr. and Buena Vista Dr. to Crossroads Blvd.",
+            "customers": 23,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-02 14:24:00 MST",
+            "etr": "2026-08-02 17:45:00 MST"
+        },
+        {
+            "latitude": 33.954185999627995,
+            "longitude": -112.76278899991598,
+            "city": "Wickenburg",
+            "boundary": "Yucca Dr  To Vulture Mine Rd  And Black Mountain Rd  To Mariposa Dr",
+            "customers": 470,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 12:28:00 MST",
+            "etr": "2026-08-02 17:00:00 MST"
+        },
+        {
+            "latitude": 34.57575704970476,
+            "longitude": -112.47213826059414,
+            "city": "Prescott",
+            "boundary": "Bruces Corner to Stewart Cir. and Mark Ave. to Richard St.",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-02 13:32:00 MST",
+            "etr": "2026-08-02 17:00:00 MST"
+        }
+    ]
+}
