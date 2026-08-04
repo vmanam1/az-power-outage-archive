@@ -1,0 +1,78 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-08-03 17:07:06 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 443,
+        "map_last_refreshed": "Aug 3, 5:05 PM"
+    },
+    "outages": [
+        {
+            "latitude": 31.45502047360633,
+            "longitude": -110.79118143070389,
+            "boundary": {
+                "coordLatSW": "31.333216805494999",
+                "coordLngSW": "-110.91106252022499",
+                "coordLatNE": "31.545386827727299",
+                "coordLngNE": "-110.565958745014",
+                "coordLatCenter": "31.439302",
+                "coordLngCenter": "-110.73851"
+            },
+            "customers": 365,
+            "cause": null,
+            "comments": "Crew On Scene",
+            "start_time": "2026-08-03 16:30 MST",
+            "etr": "2026-08-03 18:39 MST",
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-03 17:00 MST"
+        },
+        {
+            "latitude": 31.357373597437714,
+            "longitude": -110.96521485984542,
+            "boundary": {
+                "coordLatSW": "31.355525205275299",
+                "coordLngSW": "-110.968266458556",
+                "coordLatNE": "31.362134967794098",
+                "coordLngNE": "-110.96152609242199",
+                "coordLatCenter": "31.35883",
+                "coordLngCenter": "-110.9649"
+            },
+            "customers": 27,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-08-03 15:34 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-03 17:00 MST"
+        },
+        {
+            "latitude": 31.401297082170817,
+            "longitude": -110.88175849860065,
+            "boundary": {
+                "coordLatSW": "31.397468225349701",
+                "coordLngSW": "-110.895242005802",
+                "coordLatNE": "31.407360783536301",
+                "coordLngNE": "-110.872279268261",
+                "coordLatCenter": "31.402414",
+                "coordLngCenter": "-110.88376"
+            },
+            "customers": 51,
+            "cause": "Equipment Damage - Weather",
+            "comments": "Restoration In Progress",
+            "start_time": "2026-08-03 14:44 MST",
+            "etr": "2026-08-03 17:51 MST",
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 365,
+            "last_update": "2026-08-03 17:00 MST"
+        }
+    ]
+}
