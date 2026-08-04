@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-04 15:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 33.63321022588473,
+            "longitude": -112.33278552829671,
+            "city": "Surprise",
+            "boundary": "Ash St. to Wusich St. and Elm St. to Cottonwood St.",
+            "customers": 19,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-04 08:02:00 MST",
+            "etr": "2026-08-04 10:25:00 MST"
+        }
+    ]
+}
