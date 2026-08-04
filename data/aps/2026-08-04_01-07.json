@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-04 01:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 514
+    },
+    "outages": [
+        {
+            "latitude": 32.6094995159116,
+            "longitude": -114.65089590017413,
+            "city": "Somerton",
+            "boundary": "County 15th St to West Country 15 1/2 St and S Avenue B",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-03 03:08:00 MST",
+            "etr": "2026-08-04 07:30:00 MST"
+        },
+        {
+            "latitude": 33.958199646673684,
+            "longitude": -112.71431297777876,
+            "city": "Wickenburg",
+            "boundary": "Constellation Rd to Zabel Mine Rd and Hassayampa River to Hwy 60",
+            "customers": 445,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-03 16:58:00 MST",
+            "etr": "2026-08-03 20:40:00 MST"
+        },
+        {
+            "latitude": 32.951530551934574,
+            "longitude": -112.7206310187165,
+            "city": "Gila Bend",
+            "boundary": "Warren St to Richardson St and Scott Ave to Logan Ave",
+            "customers": 10,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-03 16:32:00 MST",
+            "etr": "2026-08-03 20:30:00 MST"
+        },
+        {
+            "latitude": 34.555096631163096,
+            "longitude": -112.27323163209437,
+            "city": "Dewey",
+            "boundary": "Turquoise Cir to Navajo Dr and Hopi Trail to",
+            "customers": 50,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-03 17:09:00 MST",
+            "etr": "2026-08-03 19:40:00 MST"
+        }
+    ]
+}
