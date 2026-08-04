@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-04 13:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.37167410980985,
+            "longitude": -112.1081724710135,
+            "boundary": "S 31ST  AVE TO S 15TH  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 19,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-04 01:30 MST",
+            "etr": "2026-08-04 16:00 MST"
+        },
+        {
+            "latitude": 33.3429987740424,
+            "longitude": -112.13838450522101,
+            "boundary": "S 39TH  AVE TO S 35TH  AVE AND W CETON  DR TO W ESTRELLA  DR",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-04 12:28 MST",
+            "etr": "2026-08-04 14:28 MST"
+        },
+        {
+            "latitude": 33.3610839957295,
+            "longitude": -111.6809086307855,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E GUADALUPE  RD TO E OLNEY  AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-04 12:43 MST",
+            "etr": "2026-08-04 14:42 MST"
+        }
+    ]
+}
