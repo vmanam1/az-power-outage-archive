@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-04 14:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.63617189421341,
+            "longitude": -112.33500234583907,
+            "city": "Surprise",
+            "boundary": "West Elm St to West Young St and North Nash St",
+            "customers": 29,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-04 06:52:00 MST",
+            "etr": "2026-08-04 09:30:00 MST"
+        }
+    ]
+}

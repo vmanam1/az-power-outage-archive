@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "DIXIE",
+        "scraped_at": "2026-08-04 14:07:36 MST",
+        "source": "DIXIE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2,
+        "total_customers": 36446
+    },
+    "outages": [
+        {
+            "latitude": 36.896686610293706,
+            "longitude": -113.90086238636596,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Mohave County",
+            "start_time": "2026-08-04 11:52:00 MST",
+            "etr": null,
+            "incident_id": "254731"
+        },
+        {
+            "latitude": 36.896600402228046,
+            "longitude": -113.90196731416557,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Mohave County",
+            "start_time": "2026-08-04 11:52:00 MST",
+            "etr": null,
+            "incident_id": "254733"
+        }
+    ]
+}
