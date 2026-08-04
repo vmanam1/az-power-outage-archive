@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-03 20:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 227
+    },
+    "outages": [
+        {
+            "latitude": 32.6094995159116,
+            "longitude": -114.65089590017413,
+            "city": "Somerton",
+            "boundary": "County 15th St to West Country 15 1/2 St and S Avenue B",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-03 03:08:00 MST",
+            "etr": "2026-08-04 07:30:00 MST"
+        },
+        {
+            "latitude": 33.65608248562678,
+            "longitude": -111.99770694741036,
+            "city": "Phoenix",
+            "boundary": "Rockwood Dr Union Hills Dr and Piesta Freeway to 39th Way",
+            "customers": 7,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-03 08:41:00 MST",
+            "etr": "2026-08-03 13:45:00 MST"
+        },
+        {
+            "latitude": 34.5885996463407,
+            "longitude": -112.32815248967674,
+            "city": "Prescott Valley",
+            "boundary": "Florentine Rd and Windsong Dr",
+            "customers": 7,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-03 11:11:00 MST",
+            "etr": "2026-08-03 14:20:00 MST"
+        },
+        {
+            "latitude": 34.702782160109365,
+            "longitude": -111.97869068633231,
+            "city": "Cottonwood",
+            "boundary": "Del Rio  Dr to Mustang Dr and Roundup Trail",
+            "customers": 196,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-03 12:04:00 MST",
+            "etr": "2026-08-03 15:40:00 MST"
+        },
+        {
+            "latitude": 33.49057572106857,
+            "longitude": -112.10399971892487,
+            "city": "Phoenix",
+            "boundary": "Clarendon Ave to Whitton Ave and 21st Dr to 21st Ave",
+            "customers": 8,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-03 12:16:00 MST",
+            "etr": "2026-08-03 14:30:00 MST"
+        }
+    ]
+}
