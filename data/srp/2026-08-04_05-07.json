@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-04 05:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 361
+    },
+    "outages": [
+        {
+            "latitude": 33.3941010534948,
+            "longitude": -112.061249577525,
+            "boundary": "S 7TH  ST TO S 12TH  ST AND E ROESER  RD TO E VINEYARD  RD",
+            "customers": 34,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-03 23:46 MST",
+            "etr": "2026-08-04 06:00 MST"
+        },
+        {
+            "latitude": 33.3667349838647,
+            "longitude": -112.1133473298155,
+            "boundary": "S 35TH  AVE TO S 15TH  AVE AND W BASELINE  RD TO W OLNEY  AVE",
+            "customers": 289,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-04 01:30 MST",
+            "etr": "2026-08-04 11:30 MST"
+        },
+        {
+            "latitude": 33.479466757973796,
+            "longitude": -112.223140777339,
+            "boundary": "N 79TH  LN TO N 75TH  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-04 04:32 MST",
+            "etr": "2026-08-04 06:30 MST"
+        },
+        {
+            "latitude": 33.384456437321646,
+            "longitude": -111.79074655460849,
+            "boundary": "S HARRIS  DR TO S 24TH  ST AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 37,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-04 00:36 MST",
+            "etr": "2026-08-04 08:30 MST"
+        }
+    ]
+}
