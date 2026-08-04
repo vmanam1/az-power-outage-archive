@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-04 03:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1545
+    },
+    "outages": [
+        {
+            "latitude": 33.3941010534948,
+            "longitude": -112.061249577525,
+            "boundary": "S 7TH  ST TO S 12TH  ST AND E ROESER  RD TO E VINEYARD  RD",
+            "customers": 34,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-03 23:46 MST",
+            "etr": "2026-08-04 06:00 MST"
+        },
+        {
+            "latitude": 33.35830328617535,
+            "longitude": -112.1080505391315,
+            "boundary": "S 35TH  AVE TO S 7TH  AVE AND W VINEYARD  RD TO W CHANDLER  BLVD",
+            "customers": 1269,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-04 01:30 MST",
+            "etr": "2026-08-04 03:39 MST"
+        },
+        {
+            "latitude": 33.38477839204375,
+            "longitude": -111.7928864072125,
+            "boundary": "S STAPLEY  DR TO S 24TH  ST AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 242,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-04 00:36 MST",
+            "etr": "2026-08-04 08:30 MST"
+        }
+    ]
+}
