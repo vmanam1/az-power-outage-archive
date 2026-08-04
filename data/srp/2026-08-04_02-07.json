@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-04 02:07:31 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 2689
+    },
+    "outages": [
+        {
+            "latitude": 33.3941010534948,
+            "longitude": -112.061249577525,
+            "boundary": "S 7TH  ST TO S 12TH  ST AND E ROESER  RD TO E VINEYARD  RD",
+            "customers": 34,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-03 23:46 MST",
+            "etr": "2026-08-04 06:00 MST"
+        },
+        {
+            "latitude": 33.38633545681495,
+            "longitude": -111.79328815385449,
+            "boundary": "S STAPLEY  DR TO S 24TH  ST AND E 8TH  AVE TO W HOUSTON  AVE",
+            "customers": 1328,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-04 00:36 MST",
+            "etr": "2026-08-04 02:35 MST"
+        },
+        {
+            "latitude": 33.363047669592504,
+            "longitude": -111.91673699269501,
+            "boundary": "S RURAL  RD TO S MCCLINTOCK  DR AND E BASELINE  RD TO E ELLIOT  RD",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-04 00:53 MST",
+            "etr": "2026-08-04 02:56 MST"
+        },
+        {
+            "latitude": 33.3909565575145,
+            "longitude": -111.79125471658199,
+            "boundary": "S HARRIS  DR TO S GILBERT  RD AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-04 00:53 MST",
+            "etr": "2026-08-04 02:45 MST"
+        },
+        {
+            "latitude": 33.35830328617535,
+            "longitude": -112.1080505391315,
+            "boundary": "S 35TH  AVE TO S 7TH  AVE AND W VINEYARD  RD TO W CHANDLER  BLVD",
+            "customers": 1269,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-04 01:30 MST",
+            "etr": "2026-08-04 03:39 MST"
+        },
+        {
+            "latitude": 33.1413703052009,
+            "longitude": -111.57334275798749,
+            "boundary": "N GARY  RD TO N GANTZEL  RD AND W JUDD  RD TO W MAGMA  RD",
+            "customers": 35,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-03 22:01 MST",
+            "etr": "2026-08-04 03:00 MST"
+        }
+    ]
+}
