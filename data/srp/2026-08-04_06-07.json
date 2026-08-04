@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-04 06:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 54
+    },
+    "outages": [
+        {
+            "latitude": 33.479466757973796,
+            "longitude": -112.223140777339,
+            "boundary": "N 79TH  LN TO N 75TH  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-04 04:32 MST",
+            "etr": "2026-08-04 06:30 MST"
+        },
+        {
+            "latitude": 33.3941010534948,
+            "longitude": -112.061249577525,
+            "boundary": "S 7TH  ST TO S 12TH  ST AND E ROESER  RD TO E VINEYARD  RD",
+            "customers": 34,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-03 23:46 MST",
+            "etr": "2026-08-04 07:00 MST"
+        },
+        {
+            "latitude": 33.37167410980985,
+            "longitude": -112.1081724710135,
+            "boundary": "S 31ST  AVE TO S 15TH  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 19,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-04 01:30 MST",
+            "etr": "2026-08-04 11:30 MST"
+        }
+    ]
+}
