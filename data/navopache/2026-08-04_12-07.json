@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-04 12:07:29 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 7,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.40413178360895,
+            "longitude": -110.57273900553247,
+            "customers": 4,
+            "cause": "TRASH TRUCK",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-04 11:41:46 MST",
+            "etr": null,
+            "incident_id": "531923"
+        },
+        {
+            "latitude": 33.88546408456482,
+            "longitude": -109.94884107431892,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": "Planned outage",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-08-04 11:17:08 MST",
+            "etr": null,
+            "incident_id": "531921"
+        },
+        {
+            "latitude": 34.13692083620948,
+            "longitude": -109.97903345102239,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": "Planned outage",
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-04 08:14:56 MST",
+            "etr": null,
+            "incident_id": "531917"
+        },
+        {
+            "latitude": 34.39319131854891,
+            "longitude": -110.53182972748797,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": "Planned outage",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-04 07:18:26 MST",
+            "etr": null,
+            "incident_id": "531916"
+        }
+    ]
+}

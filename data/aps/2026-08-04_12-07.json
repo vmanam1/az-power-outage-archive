@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-04 12:07:29 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 32.6094995159116,
+            "longitude": -114.65089590017413,
+            "city": "Somerton",
+            "boundary": "County 15th St to West Country 15 1/2 St and S Avenue B",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-03 03:08:00 MST",
+            "etr": "2026-08-04 07:30:00 MST"
+        }
+    ]
+}

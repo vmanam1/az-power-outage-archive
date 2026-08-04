@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-04 12:07:29 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 39
+    },
+    "outages": [
+        {
+            "latitude": 33.419020344606395,
+            "longitude": -111.716678784709,
+            "boundary": "S 48TH  ST TO N 56TH  ST AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-04 09:47 MST",
+            "etr": "2026-08-04 13:45 MST"
+        },
+        {
+            "latitude": 33.37167410980985,
+            "longitude": -112.1081724710135,
+            "boundary": "S 31ST  AVE TO S 15TH  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 19,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-04 01:30 MST",
+            "etr": "2026-08-04 16:00 MST"
+        },
+        {
+            "latitude": 33.45349093768375,
+            "longitude": -111.7488979944905,
+            "boundary": "N VAL VISTA  DR TO N 40TH  ST AND E HERMOSA VISTA  DR TO E MCLELLAN  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-04 11:38 MST",
+            "etr": "2026-08-04 13:30 MST"
+        },
+        {
+            "latitude": 33.419026783339206,
+            "longitude": -111.7173990164545,
+            "boundary": "S 48TH  ST TO N 56TH  ST AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-04 11:54 MST",
+            "etr": "2026-08-04 13:52 MST"
+        }
+    ]
+}
