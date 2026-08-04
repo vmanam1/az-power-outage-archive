@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-04 09:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 266
+    },
+    "outages": [
+        {
+            "latitude": 32.6094995159116,
+            "longitude": -114.65089590017413,
+            "city": "Somerton",
+            "boundary": "County 15th St to West Country 15 1/2 St and S Avenue B",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-03 03:08:00 MST",
+            "etr": "2026-08-04 07:30:00 MST"
+        },
+        {
+            "latitude": 33.81685374687418,
+            "longitude": -111.92866579796535,
+            "city": "Carefree",
+            "boundary": "East Ridgeview Ln to East Leisure Ln and East Hidden Rock Rd to North Mule Train Rd",
+            "customers": 242,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-04 00:03:00 MST",
+            "etr": "2026-08-04 03:30:00 MST"
+        },
+        {
+            "latitude": 33.741998931992214,
+            "longitude": -111.93204494565387,
+            "city": "Scottsdale",
+            "boundary": "Dale Ln. to Dynamite Blvd. and 67th St. to 70th St.",
+            "customers": 9,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-04 01:06:00 MST",
+            "etr": "2026-08-04 03:45:00 MST"
+        },
+        {
+            "latitude": 33.62485771308331,
+            "longitude": -112.26587924578565,
+            "city": "Sun City",
+            "boundary": "Shasta Dr. to Sandstone Dr.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-04 01:48:00 MST",
+            "etr": "2026-08-04 04:30:00 MST"
+        }
+    ]
+}
