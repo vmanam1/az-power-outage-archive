@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-04 11:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 33.4157885121615,
+            "longitude": -111.64391510645899,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E RED MOUNTAIN  FWY",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-04 09:42 MST",
+            "etr": "2026-08-04 11:42 MST"
+        },
+        {
+            "latitude": 33.419020344606395,
+            "longitude": -111.716678784709,
+            "boundary": "S 48TH  ST TO N 56TH  ST AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-04 09:47 MST",
+            "etr": "2026-08-04 13:45 MST"
+        },
+        {
+            "latitude": 33.3846604118643,
+            "longitude": -111.769207021488,
+            "boundary": "S 24TH  ST TO S 32ND  ST AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 34,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-04 10:01 MST",
+            "etr": "2026-08-04 12:04 MST"
+        },
+        {
+            "latitude": 33.17480324814581,
+            "longitude": -111.6163033363385,
+            "boundary": "N SOSSAMAN  RD TO N OTIS  CT AND W SAN TAN HEIGHTS  BLVD TO W PHILLIPS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-04 10:28 MST",
+            "etr": "2026-08-04 12:26 MST"
+        },
+        {
+            "latitude": 33.37167410980985,
+            "longitude": -112.1081724710135,
+            "boundary": "S 31ST  AVE TO S 15TH  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 19,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-04 01:30 MST",
+            "etr": "2026-08-04 16:00 MST"
+        }
+    ]
+}
