@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-04 20:07:42 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 159
+    },
+    "outages": [
+        {
+            "latitude": 34.5984982839872,
+            "longitude": -112.46667885455777,
+            "city": "Prescott",
+            "boundary": "Robin Dr. to Clearwater Dr. and Driftwood Ct. to Lorraine Dr.",
+            "customers": 22,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-08-04 10:00:00 MST",
+            "etr": "2026-08-04 15:30:00 MST"
+        },
+        {
+            "latitude": 33.64838014211479,
+            "longitude": -112.21517865903505,
+            "city": "Glendale",
+            "boundary": "Villa Rita Dr to Grovers Ave and 75th Ave to 71st Dr",
+            "customers": 34,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-04 11:52:00 MST",
+            "etr": "2026-08-04 14:50:00 MST"
+        },
+        {
+            "latitude": 31.353178373910186,
+            "longitude": -109.54485233808529,
+            "city": "Douglas",
+            "boundary": "AZ 80 and Sierrita Linda Way to Bruno Rd.",
+            "customers": 103,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-04 12:47:00 MST",
+            "etr": "2026-08-04 16:40:00 MST"
+        }
+    ]
+}
