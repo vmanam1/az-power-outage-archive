@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-05 15:07:25 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 104
+    },
+    "outages": [
+        {
+            "latitude": 33.72022608699479,
+            "longitude": -112.39304642108553,
+            "city": "Surprise",
+            "boundary": "Frontier Dr. and 155th Ave. to 151st Ave.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-05 04:42:00 MST",
+            "etr": "2026-08-05 10:00:00 MST"
+        },
+        {
+            "latitude": 33.49056223518775,
+            "longitude": -112.05160954485527,
+            "city": "Phoenix",
+            "boundary": "East Clarendon Ave to East Whitton Ave and North Longview Ave to North 16th St",
+            "customers": 99,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-05 05:04:00 MST",
+            "etr": "2026-08-05 09:00:00 MST"
+        }
+    ]
+}
