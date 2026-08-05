@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-04 22:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 123
+    },
+    "outages": [
+        {
+            "latitude": 31.353178373910186,
+            "longitude": -109.54485233808529,
+            "city": "Douglas",
+            "boundary": "AZ 80 and Sierrita Linda Way to Bruno Rd.",
+            "customers": 103,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-04 12:47:00 MST",
+            "etr": "2026-08-04 22:00:00 MST"
+        },
+        {
+            "latitude": 35.36818634927782,
+            "longitude": -112.16346693219388,
+            "city": "Williams",
+            "boundary": "Hoctor Rd and North 8 Mile Blvd to Red Lake Rd",
+            "customers": 20,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-04 14:00:00 MST",
+            "etr": "2026-08-04 18:15:00 MST"
+        }
+    ]
+}
