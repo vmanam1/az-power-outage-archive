@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-05 05:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 148
+    },
+    "outages": [
+        {
+            "latitude": 31.353178373910186,
+            "longitude": -109.54485233808529,
+            "city": "Douglas",
+            "boundary": "AZ 80 and Sierrita Linda Way to Bruno Rd.",
+            "customers": 103,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-04 12:47:00 MST",
+            "etr": "2026-08-05 01:00:00 MST"
+        },
+        {
+            "latitude": 31.427626117793555,
+            "longitude": -109.53191657463779,
+            "city": "Douglas",
+            "boundary": "Via Ocotillo to Loma Vista Dr and Santa Paula Dr to Vista Del Cerro Dr",
+            "customers": 16,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-04 20:25:00 MST",
+            "etr": "2026-08-05 00:10:00 MST"
+        },
+        {
+            "latitude": 33.66257586718829,
+            "longitude": -112.05574891700579,
+            "city": "Phoenix",
+            "boundary": "Sequoia Dr to Utopia Rd and 12th St to 14th St",
+            "customers": 29,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-04 21:48:00 MST",
+            "etr": "2026-08-05 00:50:00 MST"
+        }
+    ]
+}
