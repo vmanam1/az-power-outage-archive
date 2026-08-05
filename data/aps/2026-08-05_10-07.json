@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-05 10:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 31.427626117793555,
+            "longitude": -109.53191657463779,
+            "city": "Douglas",
+            "boundary": "Via Ocotillo to Loma Vista Dr and Santa Paula Dr to Vista Del Cerro Dr",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-04 20:25:00 MST",
+            "etr": "2026-08-05 05:00:00 MST"
+        },
+        {
+            "latitude": 34.78327526490032,
+            "longitude": -112.43698190682255,
+            "city": "Prescott",
+            "boundary": "East Granite Creek Ln and Rio Rd to North Misty Ln",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-05 02:03:00 MST",
+            "etr": "2026-08-05 05:00:00 MST"
+        },
+        {
+            "latitude": 32.680256992628415,
+            "longitude": -114.53089582916404,
+            "city": "Yuma",
+            "boundary": "View Pkwy and Nightfall Dr.",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-05 02:25:00 MST",
+            "etr": "2026-08-05 04:00:00 MST"
+        }
+    ]
+}
