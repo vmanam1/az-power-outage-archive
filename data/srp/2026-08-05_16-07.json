@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-05 16:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 33.4969131515002,
+            "longitude": -111.98255299049251,
+            "boundary": "N 44TH  ST TO N ARCADIA  DR AND E CAMPBELL  AVE TO E OSBORN  RD",
+            "customers": 58,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-05 10:56 MST",
+            "etr": "2026-08-05 19:00 MST"
+        }
+    ]
+}

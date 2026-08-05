@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-05 16:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 288
+    },
+    "outages": [
+        {
+            "latitude": 33.72022608699479,
+            "longitude": -112.39304642108553,
+            "city": "Surprise",
+            "boundary": "Frontier Dr. and 155th Ave. to 151st Ave.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-05 04:42:00 MST",
+            "etr": "2026-08-05 10:00:00 MST"
+        },
+        {
+            "latitude": 33.49056223518775,
+            "longitude": -112.05160954485527,
+            "city": "Phoenix",
+            "boundary": "East Clarendon Ave to East Whitton Ave and North Longview Ave to North 16th St",
+            "customers": 99,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-05 05:04:00 MST",
+            "etr": "2026-08-05 13:15:00 MST"
+        },
+        {
+            "latitude": 35.22979416579014,
+            "longitude": -111.49045873420337,
+            "city": "Flagstaff",
+            "boundary": "Diamond Blvd. to Foster Rd. and Forest Rd. to Columbine Blvd.",
+            "customers": 172,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-05 08:09:00 MST",
+            "etr": "2026-08-05 11:30:00 MST"
+        },
+        {
+            "latitude": 35.33517235934915,
+            "longitude": -111.54686760344319,
+            "city": "Flagstaff",
+            "boundary": "Winds End Rd. to Girls Ranch Rd.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-05 08:14:00 MST",
+            "etr": "2026-08-05 11:35:00 MST"
+        }
+    ]
+}
