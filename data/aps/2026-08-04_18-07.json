@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-04 18:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 151
+    },
+    "outages": [
+        {
+            "latitude": 33.45373534974086,
+            "longitude": -112.1061904898156,
+            "city": "Phoenix",
+            "boundary": "Fillmore St. to Van Buren St. and Black Canyon Hwy. to 21st Ave.",
+            "customers": 129,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-04 09:46:00 MST",
+            "etr": "2026-08-04 13:20:00 MST"
+        },
+        {
+            "latitude": 34.5984982839872,
+            "longitude": -112.46667885455777,
+            "city": "Prescott",
+            "boundary": "Robin Dr. to Clearwater Dr. and Driftwood Ct. to Lorraine Dr.",
+            "customers": 22,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-04 10:00:00 MST",
+            "etr": "2026-08-04 13:30:00 MST"
+        }
+    ]
+}
