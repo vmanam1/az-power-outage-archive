@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-05 09:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 154
+    },
+    "outages": [
+        {
+            "latitude": 33.3750909775193,
+            "longitude": -112.121226097785,
+            "boundary": "S 31ST  AVE TO S 27TH  AVE AND W BASELINE  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 07:43 MST",
+            "etr": "2026-08-05 11:00 MST"
+        },
+        {
+            "latitude": 33.22631988693175,
+            "longitude": -111.590519735754,
+            "boundary": "S SIGNAL BUTTE  RD TO S MERIDIAN  RD AND W CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 07:43 MST",
+            "etr": "2026-08-05 14:30 MST"
+        },
+        {
+            "latitude": 33.41151408821325,
+            "longitude": -111.659569029227,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 07:52 MST",
+            "etr": "2026-08-05 13:52 MST"
+        },
+        {
+            "latitude": 33.45992532211855,
+            "longitude": -111.6510202159145,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 07:58 MST",
+            "etr": "2026-08-05 12:57 MST"
+        },
+        {
+            "latitude": 33.342138780576605,
+            "longitude": -111.71477058446399,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E ELLIOT  RD TO E WARNER  RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 08:11 MST",
+            "etr": "2026-08-05 10:10 MST"
+        },
+        {
+            "latitude": 33.49996156457565,
+            "longitude": -112.1364947642365,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND GRAND  AVE TO GRAND  AVE",
+            "customers": 97,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 08:31 MST",
+            "etr": "2026-08-05 11:30 MST"
+        },
+        {
+            "latitude": 33.34474187364221,
+            "longitude": -111.734328143538,
+            "boundary": "S GREENFIELD  RD TO S HIGLEY  RD AND E ELLIOT  RD TO E WARNER  RD",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-05 08:23 MST",
+            "etr": "2026-08-05 10:24 MST"
+        },
+        {
+            "latitude": 33.4247029020988,
+            "longitude": -111.7744949493435,
+            "boundary": "N 24TH  ST TO N LINDSAY  RD AND E ADOBE  ST TO E MAIN  ST",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-05 08:57 MST",
+            "etr": "2026-08-05 10:55 MST"
+        }
+    ]
+}
