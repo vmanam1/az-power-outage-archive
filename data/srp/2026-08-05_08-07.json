@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-05 08:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 33.432720026746296,
+            "longitude": -111.573167893553,
+            "boundary": "N MERIDIAN  RD TO N IRONWOOD  DR AND W LOST DUTCHMAN  BLVD TO W TEPEE  ST",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-05 06:39 MST",
+            "etr": "2026-08-05 08:38 MST"
+        },
+        {
+            "latitude": 33.3750909775193,
+            "longitude": -112.121226097785,
+            "boundary": "S 31ST  AVE TO S 27TH  AVE AND W BASELINE  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 07:43 MST",
+            "etr": "2026-08-05 11:00 MST"
+        },
+        {
+            "latitude": 33.22631988693175,
+            "longitude": -111.590519735754,
+            "boundary": "S SIGNAL BUTTE  RD TO S MERIDIAN  RD AND W CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 07:43 MST",
+            "etr": "2026-08-05 14:30 MST"
+        },
+        {
+            "latitude": 33.41151408821325,
+            "longitude": -111.659569029227,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 07:52 MST",
+            "etr": "2026-08-05 13:52 MST"
+        },
+        {
+            "latitude": 33.45992532211855,
+            "longitude": -111.6510202159145,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 07:58 MST",
+            "etr": "2026-08-05 12:57 MST"
+        }
+    ]
+}
