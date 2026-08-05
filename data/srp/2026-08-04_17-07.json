@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-04 17:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 33.37167410980985,
+            "longitude": -112.1081724710135,
+            "boundary": "S 31ST  AVE TO S 15TH  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 19,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-04 01:30 MST",
+            "etr": "2026-08-04 18:00 MST"
+        },
+        {
+            "latitude": 33.5187505201993,
+            "longitude": -112.096560374837,
+            "boundary": "N 19TH  AVE TO N 15TH  AVE AND W BETHANY HOME  RD TO W MISSOURI  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-04 13:18 MST",
+            "etr": "2026-08-04 19:30 MST"
+        }
+    ]
+}
