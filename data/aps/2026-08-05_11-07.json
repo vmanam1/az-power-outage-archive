@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-05 11:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 31.427626117793555,
+            "longitude": -109.53191657463779,
+            "city": "Douglas",
+            "boundary": "Via Ocotillo to Loma Vista Dr and Santa Paula Dr to Vista Del Cerro Dr",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-04 20:25:00 MST",
+            "etr": "2026-08-05 05:00:00 MST"
+        },
+        {
+            "latitude": 34.78327526490032,
+            "longitude": -112.43698190682255,
+            "city": "Prescott",
+            "boundary": "East Granite Creek Ln and Rio Rd to North Misty Ln",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-05 02:03:00 MST",
+            "etr": "2026-08-05 05:00:00 MST"
+        },
+        {
+            "latitude": 33.444698257710435,
+            "longitude": -112.10956093013405,
+            "city": "Phoenix",
+            "boundary": "West Madison St to West Lincoln St and South 23rd Ave",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-05 03:06:00 MST",
+            "etr": "2026-08-05 06:45:00 MST"
+        },
+        {
+            "latitude": 33.702421809297746,
+            "longitude": -112.17689264398388,
+            "city": "Glendale",
+            "boundary": "Soft Wind Dr. and 55th Ave. to 51st Ave.",
+            "customers": 25,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-05 03:20:00 MST",
+            "etr": "2026-08-05 05:50:00 MST"
+        }
+    ]
+}
