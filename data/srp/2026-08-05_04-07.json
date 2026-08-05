@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-05 04:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.2285160239226,
+            "longitude": -111.651127261024,
+            "boundary": "S 196TH  ST TO S 204TH  ST AND E CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-05 04:03 MST",
+            "etr": "2026-08-05 08:01 MST"
+        }
+    ]
+}
