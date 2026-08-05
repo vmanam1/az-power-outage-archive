@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-05 07:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.432720026746296,
+            "longitude": -111.573167893553,
+            "boundary": "N MERIDIAN  RD TO N IRONWOOD  DR AND W LOST DUTCHMAN  BLVD TO W TEPEE  ST",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-05 06:39 MST",
+            "etr": "2026-08-05 08:38 MST"
+        }
+    ]
+}
