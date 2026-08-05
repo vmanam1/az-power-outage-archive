@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-05 06:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 45
+    },
+    "outages": [
+        {
+            "latitude": 31.427626117793555,
+            "longitude": -109.53191657463779,
+            "city": "Douglas",
+            "boundary": "Via Ocotillo to Loma Vista Dr and Santa Paula Dr to Vista Del Cerro Dr",
+            "customers": 16,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-04 20:25:00 MST",
+            "etr": "2026-08-05 00:10:00 MST"
+        },
+        {
+            "latitude": 33.66257586718829,
+            "longitude": -112.05574891700579,
+            "city": "Phoenix",
+            "boundary": "Sequoia Dr to Utopia Rd and 12th St to 14th St",
+            "customers": 29,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-04 21:48:00 MST",
+            "etr": "2026-08-05 00:50:00 MST"
+        }
+    ]
+}
