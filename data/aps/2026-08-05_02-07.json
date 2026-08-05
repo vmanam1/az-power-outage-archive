@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-05 02:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 103
+    },
+    "outages": [
+        {
+            "latitude": 31.353178373910186,
+            "longitude": -109.54485233808529,
+            "city": "Douglas",
+            "boundary": "AZ 80 and Sierrita Linda Way to Bruno Rd.",
+            "customers": 103,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-04 12:47:00 MST",
+            "etr": "2026-08-04 22:00:00 MST"
+        }
+    ]
+}
