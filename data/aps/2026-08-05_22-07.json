@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-05 22:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 140
+    },
+    "outages": [
+        {
+            "latitude": 33.49056223518775,
+            "longitude": -112.05160954485527,
+            "city": "Phoenix",
+            "boundary": "East Clarendon Ave to East Whitton Ave and North Longview Ave to North 16th St",
+            "customers": 99,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-05 05:04:00 MST",
+            "etr": "2026-08-05 17:00:00 MST"
+        },
+        {
+            "latitude": 34.64002041091777,
+            "longitude": -111.78013828241372,
+            "city": "Rimrock",
+            "boundary": "Meadow Ln. to Sycamore Ln. and Montezuma Ave.",
+            "customers": 11,
+            "cause": "Vegetation/Debris",
+            "comments": "We are working to restore the power outage caused by vegetation or debris interfering with our equipment.",
+            "start_time": "2026-08-05 11:15:00 MST",
+            "etr": "2026-08-05 18:30:00 MST"
+        },
+        {
+            "latitude": 31.34910312624026,
+            "longitude": -109.53252160165975,
+            "city": "Douglas",
+            "boundary": "15th St to 12th St and Florida Ave to Washington Ave",
+            "customers": 30,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-05 13:38:00 MST",
+            "etr": "2026-08-05 17:10:00 MST"
+        }
+    ]
+}
