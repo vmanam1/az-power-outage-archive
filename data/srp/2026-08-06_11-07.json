@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-06 11:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 96
+    },
+    "outages": [
+        {
+            "latitude": 33.42397460319215,
+            "longitude": -111.4978947922385,
+            "boundary": "N ARROYA  RD TO N MOUNTAIN VIEW  RD AND E TEPEE  ST TO E JUNCTION  DR",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-06 08:02 MST",
+            "etr": "2026-08-06 12:59 MST"
+        },
+        {
+            "latitude": 33.42416193683605,
+            "longitude": -111.49894751180449,
+            "boundary": "N ARROYA  RD TO N MOUNTAIN VIEW  RD AND E TEPEE  ST TO E JUNCTION  DR",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-06 08:08 MST",
+            "etr": "2026-08-06 13:07 MST"
+        },
+        {
+            "latitude": 33.50310189168645,
+            "longitude": -112.1347988210085,
+            "boundary": "GRAND  AVE TO N 31ST  AVE AND W CAMELBACK  RD TO GRAND  AVE",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-06 08:30 MST",
+            "etr": "2026-08-06 12:25 MST"
+        },
+        {
+            "latitude": 33.501726307747305,
+            "longitude": -111.903767466749,
+            "boundary": "N HAYDEN  RD TO N GRANITE REEF  RD AND E CHAPARRAL  RD TO E INDIAN SCHOOL  RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-06 08:54 MST",
+            "etr": "2026-08-06 12:00 MST"
+        },
+        {
+            "latitude": 33.42416137145505,
+            "longitude": -111.4996931183565,
+            "boundary": "N ARROYA  RD TO N MOUNTAIN VIEW  RD AND E TEPEE  ST TO E JUNCTION  DR",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-06 09:28 MST",
+            "etr": "2026-08-06 13:26 MST"
+        },
+        {
+            "latitude": 33.519584620451994,
+            "longitude": -112.2345709188705,
+            "boundary": "N 87TH  AVE TO N 79TH  AVE AND W BETHANY HOME  RD TO W MISSOURI  AVE",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 09:12 MST",
+            "etr": "2026-08-06 11:16 MST"
+        },
+        {
+            "latitude": 33.5798585372076,
+            "longitude": -112.20093281978899,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W CHOLLA  ST TO W MOUNTAIN VIEW  RD",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 10:42 MST",
+            "etr": "2026-08-06 12:41 MST"
+        }
+    ]
+}
