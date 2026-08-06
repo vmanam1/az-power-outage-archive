@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 03:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 69
+    },
+    "outages": [
+        {
+            "latitude": 31.34910312624026,
+            "longitude": -109.53252160165975,
+            "city": "Douglas",
+            "boundary": "15th St to 12th St and Florida Ave to Washington Ave",
+            "customers": 30,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-05 13:38:00 MST",
+            "etr": "2026-08-06 00:00:00 MST"
+        },
+        {
+            "latitude": 34.5927322467828,
+            "longitude": -112.34799453426625,
+            "city": "Prescott Valley",
+            "boundary": "Bison Ln to Sunset Ln and Valley View Dr to Mountain View Dr",
+            "customers": 39,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-05 19:08:00 MST",
+            "etr": "2026-08-05 21:00:00 MST"
+        }
+    ]
+}
