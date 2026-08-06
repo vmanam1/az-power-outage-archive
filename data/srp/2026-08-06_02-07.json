@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-06 02:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1796
+    },
+    "outages": [
+        {
+            "latitude": 33.4659676384231,
+            "longitude": -111.980822955084,
+            "boundary": "N 44TH  ST TO N 52ND  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 01:18 MST",
+            "etr": "2026-08-06 03:18 MST"
+        },
+        {
+            "latitude": 33.466433626604854,
+            "longitude": -111.980496998523,
+            "boundary": "N 44TH  ST TO N 52ND  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 01:35 MST",
+            "etr": "2026-08-06 03:18 MST"
+        },
+        {
+            "latitude": 33.366986045108945,
+            "longitude": -112.06844387015,
+            "boundary": "S 7TH  AVE TO S 16TH  ST AND E VINEYARD  RD TO E CHANDLER  BLVD",
+            "customers": 1585,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 01:45 MST",
+            "etr": "2026-08-06 03:44 MST"
+        },
+        {
+            "latitude": 33.380335015217796,
+            "longitude": -112.048445292471,
+            "boundary": "S 12TH  ST TO S 20TH  ST AND E VINEYARD  RD TO E BASELINE  RD",
+            "customers": 18,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 01:55 MST",
+            "etr": "2026-08-06 03:55 MST"
+        },
+        {
+            "latitude": 33.36792041622495,
+            "longitude": -112.069608995155,
+            "boundary": "S 7TH  AVE TO S 12TH  ST AND E BASELINE  RD TO E DOBBINS  RD",
+            "customers": 167,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 01:17 MST",
+            "etr": "2026-08-06 03:16 MST"
+        }
+    ]
+}

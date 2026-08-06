@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 02:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 31.34910312624026,
+            "longitude": -109.53252160165975,
+            "city": "Douglas",
+            "boundary": "15th St to 12th St and Florida Ave to Washington Ave",
+            "customers": 30,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-05 13:38:00 MST",
+            "etr": "2026-08-06 00:00:00 MST"
+        }
+    ]
+}
