@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 10:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 52
+    },
+    "outages": [
+        {
+            "latitude": 33.4976431176971,
+            "longitude": -112.09688655577295,
+            "city": "Phoenix",
+            "boundary": "Glenrosa Ave. to Indian School Rd. and 20th Ave. to 177th Ave.",
+            "customers": 46,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-06 02:18:00 MST",
+            "etr": "2026-08-06 05:45:00 MST"
+        },
+        {
+            "latitude": 33.63882581492355,
+            "longitude": -112.14441644530348,
+            "city": "Phoenix",
+            "boundary": "N 40th Ave. and W Juniper Ave.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-06 02:41:00 MST",
+            "etr": "2026-08-06 04:00:00 MST"
+        }
+    ]
+}
