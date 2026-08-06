@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-06 04:07:25 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 72
+    },
+    "outages": [
+        {
+            "latitude": 33.3849703942439,
+            "longitude": -111.7869204160605,
+            "boundary": "S HARRIS  DR TO S 24TH  ST AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 54,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 02:23 MST",
+            "etr": "2026-08-06 05:02 MST"
+        },
+        {
+            "latitude": 33.380335015217796,
+            "longitude": -112.048445292471,
+            "boundary": "S 12TH  ST TO S 20TH  ST AND E VINEYARD  RD TO E BASELINE  RD",
+            "customers": 18,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 01:55 MST",
+            "etr": "2026-08-06 05:00 MST"
+        }
+    ]
+}
