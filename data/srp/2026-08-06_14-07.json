@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-06 14:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1767
+    },
+    "outages": [
+        {
+            "latitude": 33.578979739721504,
+            "longitude": -112.20190783012049,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W PEORIA  AVE TO W MOUNTAIN VIEW  RD",
+            "customers": 27,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-06 10:42 MST",
+            "etr": "2026-08-06 16:43 MST"
+        },
+        {
+            "latitude": 33.309883598851,
+            "longitude": -111.948387896833,
+            "boundary": "N 56TH  ST TO N MILL  AVE AND W RAY  RD TO W FRYE  RD",
+            "customers": 821,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 13:14 MST",
+            "etr": "2026-08-06 15:14 MST"
+        },
+        {
+            "latitude": 33.38998707766545,
+            "longitude": -111.954968400056,
+            "boundary": "S WENDLER  DR TO S MILL  AVE AND W ALAMEDA  DR TO W BASELINE  RD",
+            "customers": 919,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 14:04 MST",
+            "etr": "2026-08-06 15:47 MST"
+        }
+    ]
+}

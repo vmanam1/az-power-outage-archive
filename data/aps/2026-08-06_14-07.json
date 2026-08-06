@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 14:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 125
+    },
+    "outages": [
+        {
+            "latitude": 33.50740363568007,
+            "longitude": -112.07460162990489,
+            "city": "Phoenix",
+            "boundary": "West Pierson St to West Elm St and North 1st Ave to North Central Ave",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-06 05:19:00 MST",
+            "etr": "2026-08-06 09:00:00 MST"
+        },
+        {
+            "latitude": 34.51789851279646,
+            "longitude": -112.44523836122644,
+            "city": "Prescott",
+            "boundary": "Pine Ridge Drive Loop to Skyline Dr and Senator Highway",
+            "customers": 113,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-06 06:25:00 MST",
+            "etr": "2026-08-06 09:15:00 MST"
+        }
+    ]
+}
