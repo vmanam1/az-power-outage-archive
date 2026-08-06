@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-06 01:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1084
+    },
+    "outages": [
+        {
+            "latitude": 33.3785933587153,
+            "longitude": -111.93396918776699,
+            "boundary": "S KYRENE  RD TO S LAKESHORE  DR AND E SOUTHERN  AVE TO E GUADALUPE  RD",
+            "customers": 1084,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 01:05 MST",
+            "etr": "2026-08-06 03:04 MST"
+        }
+    ]
+}
