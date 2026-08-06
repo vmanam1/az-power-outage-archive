@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-08-05 21:07:28 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 0,
+        "map_last_refreshed": "Aug 5, 9:07 PM"
+    },
+    "outages": [
+        {
+            "latitude": 32.1493541623382,
+            "longitude": -111.008619819189,
+            "boundary": {
+                "coordLatSW": "32.149354162338199",
+                "coordLngSW": "-111.00861981918899",
+                "coordLatNE": "32.149354162338199",
+                "coordLngNE": "-111.00861981918899",
+                "coordLatCenter": "32.149353",
+                "coordLngCenter": "-111.00862"
+            },
+            "customers": 0,
+            "cause": "Equipment Repair - Replacement",
+            "comments": null,
+            "start_time": "2026-08-05 06:15 MST",
+            "etr": "2026-08-05 07:50 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 57,
+            "last_update": "2026-08-05 08:08 MST"
+        }
+    ]
+}
