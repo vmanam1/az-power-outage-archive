@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 13:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 33.50740363568007,
+            "longitude": -112.07460162990489,
+            "city": "Phoenix",
+            "boundary": "West Pierson St to West Elm St and North 1st Ave to North Central Ave",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-06 05:19:00 MST",
+            "etr": "2026-08-06 09:00:00 MST"
+        },
+        {
+            "latitude": 33.67627400591088,
+            "longitude": -112.3323480056342,
+            "city": "Sun City",
+            "boundary": "Aurora Dr. to Spring Ridge Dr. and 125th Ave. to 124th Dr.",
+            "customers": 34,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-06 05:24:00 MST",
+            "etr": "2026-08-06 08:15:00 MST"
+        }
+    ]
+}
