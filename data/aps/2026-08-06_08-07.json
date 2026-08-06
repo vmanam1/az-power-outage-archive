@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 08:07:35 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 33.624040037631744,
+            "longitude": -111.94184418020144,
+            "city": "Scottsdale",
+            "boundary": "East Greenway Pw to East Blanche Dr and North 64th St to North 66th St",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-06 00:28:00 MST",
+            "etr": "2026-08-06 04:00:00 MST"
+        },
+        {
+            "latitude": 33.83405622430072,
+            "longitude": -111.91556151775708,
+            "city": "Carefree",
+            "boundary": "E Horizon Dr.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-06 00:42:00 MST",
+            "etr": "2026-08-06 01:55:00 MST"
+        }
+    ]
+}
