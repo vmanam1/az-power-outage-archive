@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 09:07:42 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.83405622430072,
+            "longitude": -111.91556151775708,
+            "city": "Carefree",
+            "boundary": "E Horizon Dr.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-06 00:42:00 MST",
+            "etr": "2026-08-06 03:00:00 MST"
+        },
+        {
+            "latitude": 33.68372999769554,
+            "longitude": -112.12587510734649,
+            "city": "Phoenix",
+            "boundary": "West Deer Valley Rd to West Melinda Ln and North 31st Ave to North 30th Ave",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-06 01:09:00 MST",
+            "etr": "2026-08-06 02:45:00 MST"
+        },
+        {
+            "latitude": 33.500467858271136,
+            "longitude": -112.064020718228,
+            "city": "Phoenix",
+            "boundary": "East Roma Ave to East Turney Ave and North 7th St",
+            "customers": 11,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-06 01:19:00 MST",
+            "etr": "2026-08-06 02:45:00 MST"
+        }
+    ]
+}
