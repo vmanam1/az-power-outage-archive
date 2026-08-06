@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-05 18:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1506
+    },
+    "outages": [
+        {
+            "latitude": 33.4969131515002,
+            "longitude": -111.98255299049251,
+            "boundary": "N 44TH  ST TO N ARCADIA  DR AND E CAMPBELL  AVE TO E OSBORN  RD",
+            "customers": 58,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-05 10:56 MST",
+            "etr": "2026-08-05 19:00 MST"
+        },
+        {
+            "latitude": 33.527025685259105,
+            "longitude": -112.0196801333085,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E LINCOLN  DR TO E STANFORD  DR",
+            "customers": 30,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-05 17:25 MST",
+            "etr": "2026-08-05 19:21 MST"
+        },
+        {
+            "latitude": 33.33742479612785,
+            "longitude": -111.8611863144185,
+            "boundary": "N DOBSON  RD TO N HARTFORD  ST AND W ELLIOT  RD TO W KNOX  RD",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-05 17:39 MST",
+            "etr": "2026-08-05 19:39 MST"
+        },
+        {
+            "latitude": 33.3383868113536,
+            "longitude": -111.8607243056795,
+            "boundary": "N DOBSON  RD TO N HARTFORD  ST AND W ELLIOT  RD TO W WARNER  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-05 17:40 MST",
+            "etr": "2026-08-05 19:39 MST"
+        },
+        {
+            "latitude": 33.47881959802365,
+            "longitude": -112.1635730917005,
+            "boundary": "N 55TH  AVE TO N 43RD  AVE AND W INDIAN SCHOOL  RD TO W MCDOWELL  RD",
+            "customers": 1379,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-05 17:58 MST",
+            "etr": "2026-08-05 19:57 MST"
+        }
+    ]
+}
