@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-07 02:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 34.13697068870035,
+            "longitude": -110.91755023861535,
+            "city": "Young",
+            "boundary": "Young-Heber Rd. and Granny Jones Ln.",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-06 15:21:00 MST",
+            "etr": "2026-08-06 20:15:00 MST"
+        },
+        {
+            "latitude": 35.19541205816974,
+            "longitude": -111.65455704591703,
+            "city": "Flagstaff",
+            "boundary": "Milton Rd. and Benton Ave.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-06 17:04:00 MST",
+            "etr": "2026-08-06 21:15:00 MST"
+        }
+    ]
+}
