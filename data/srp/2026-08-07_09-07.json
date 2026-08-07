@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-07 09:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.4061323394692,
+            "longitude": -111.986464886764,
+            "boundary": "S 40TH  ST TO S 48TH  ST AND E MARICOPA  FWY TO E ROESER  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-07 05:24 MST",
+            "etr": "2026-08-07 12:20 MST"
+        },
+        {
+            "latitude": 33.461106067993754,
+            "longitude": -111.649454272674,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E MCDOWELL  RD TO E HERMOSA VISTA  DR",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-07 07:51 MST",
+            "etr": "2026-08-07 16:50 MST"
+        },
+        {
+            "latitude": 33.3977231325623,
+            "longitude": -111.727136922228,
+            "boundary": "S GREENFIELD  RD TO S HIGLEY  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-07 08:24 MST",
+            "etr": "2026-08-07 10:24 MST"
+        },
+        {
+            "latitude": 33.2746936060828,
+            "longitude": -111.69209359639899,
+            "boundary": "S RECKER  RD TO S POWER  RD AND E GERMANN  RD TO E QUEEN CREEK  RD",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-07 08:39 MST",
+            "etr": "2026-08-07 10:38 MST"
+        },
+        {
+            "latitude": 33.38983897998125,
+            "longitude": -111.426416396756,
+            "boundary": "S WHITETAIL  RD TO UNKNOWN AND E SOUTHERN  AVE TO E OBSIDIAN  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-07 08:47 MST",
+            "etr": "2026-08-07 12:46 MST"
+        }
+    ]
+}

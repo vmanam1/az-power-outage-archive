@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-07 09:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 28
+    },
+    "outages": [
+        {
+            "latitude": 33.70789419964296,
+            "longitude": -112.17079044664933,
+            "city": "Glendale",
+            "boundary": "West Whispering Wind Dr to West Park View Ln and North 54th Ln to North 51st Ave",
+            "customers": 21,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-07 00:42:00 MST",
+            "etr": "2026-08-07 03:30:00 MST"
+        },
+        {
+            "latitude": 33.590123385915476,
+            "longitude": -112.15734050999106,
+            "city": "Glendale",
+            "boundary": "Lupine Ave. to Cholla St. and 46th Ave. to 45th Ave.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-07 01:24:00 MST",
+            "etr": "2026-08-07 02:30:00 MST"
+        }
+    ]
+}
