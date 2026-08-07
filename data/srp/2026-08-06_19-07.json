@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-06 19:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1284
+    },
+    "outages": [
+        {
+            "latitude": 33.4156841316028,
+            "longitude": -112.0043408742915,
+            "boundary": "S MARICOPA  FWY TO S 40TH  ST AND E UNIVERSITY  DR TO E MARICOPA  FWY",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-06 16:18 MST",
+            "etr": "2026-08-06 22:00 MST"
+        },
+        {
+            "latitude": 33.35830328617535,
+            "longitude": -112.1080505391315,
+            "boundary": "S 35TH  AVE TO S 7TH  AVE AND W VINEYARD  RD TO W CHANDLER  BLVD",
+            "customers": 1268,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-06 18:57 MST",
+            "etr": "2026-08-06 20:56 MST"
+        }
+    ]
+}
