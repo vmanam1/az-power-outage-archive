@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-07 14:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.55122573522375,
+            "longitude": -112.0907088800285,
+            "boundary": "N 19TH  AVE TO N 7TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-07 13:29 MST",
+            "etr": "2026-08-07 15:19 MST"
+        },
+        {
+            "latitude": 33.48614877668935,
+            "longitude": -112.13818086328399,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-07 13:43 MST",
+            "etr": "2026-08-07 15:38 MST"
+        },
+        {
+            "latitude": 33.5117390706655,
+            "longitude": -112.038231903622,
+            "boundary": "N PIESTEWA  FWY TO N 24TH  ST AND E MISSOURI  AVE TO E CAMELBACK  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-07 13:54 MST",
+            "etr": "2026-08-07 15:53 MST"
+        }
+    ]
+}
