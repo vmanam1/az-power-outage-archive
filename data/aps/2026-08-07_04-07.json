@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-07 04:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 47
+    },
+    "outages": [
+        {
+            "latitude": 35.19541205816974,
+            "longitude": -111.65455704591703,
+            "city": "Flagstaff",
+            "boundary": "Milton Rd. and Benton Ave.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-06 17:04:00 MST",
+            "etr": "2026-08-06 22:00:00 MST"
+        },
+        {
+            "latitude": 32.66721574025621,
+            "longitude": -114.41915107618901,
+            "city": "Yuma",
+            "boundary": "Tanya Dr. to 35th St. and Bonnie Ave. to Renee Ave.",
+            "customers": 41,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-06 20:07:00 MST",
+            "etr": "2026-08-06 23:30:00 MST"
+        }
+    ]
+}
