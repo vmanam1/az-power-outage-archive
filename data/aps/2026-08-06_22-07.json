@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 22:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 422
+    },
+    "outages": [
+        {
+            "latitude": 33.6507222658403,
+            "longitude": -112.14489653822899,
+            "city": "Glendale",
+            "boundary": "Michigan Ave. to Michelle Dr. and 39th Ave. to 41st Ave.",
+            "customers": 25,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-06 14:02:00 MST",
+            "etr": "2026-08-06 16:35:00 MST"
+        },
+        {
+            "latitude": 35.36434310786033,
+            "longitude": -112.15367494435569,
+            "city": "Williams",
+            "boundary": "Juniper Ave. to Maggie Dr. and State Highway 64 to Pine St.",
+            "customers": 298,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-06 14:41:00 MST",
+            "etr": "2026-08-06 18:45:00 MST"
+        },
+        {
+            "latitude": 34.58893328725782,
+            "longitude": -111.86974090302328,
+            "city": "Camp Verde",
+            "boundary": "Que Paso Ln. to Trail End. and Rawhide to Gardner Ln.",
+            "customers": 99,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-06 14:47:00 MST",
+            "etr": "2026-08-06 17:35:00 MST"
+        }
+    ]
+}
