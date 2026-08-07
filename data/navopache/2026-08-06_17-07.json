@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-06 17:07:25 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 29,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 33.83723092443895,
+            "longitude": -109.9709126808528,
+            "customers": 1,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-08-06 16:04:39 MST",
+            "etr": null,
+            "incident_id": "532008"
+        },
+        {
+            "latitude": 34.24853332266998,
+            "longitude": -109.6930278308246,
+            "customers": 28,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-06 16:31:58 MST",
+            "etr": null,
+            "incident_id": "532013"
+        }
+    ]
+}

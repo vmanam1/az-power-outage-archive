@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 17:07:25 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 415
+    },
+    "outages": [
+        {
+            "latitude": 34.590614496906056,
+            "longitude": -111.86859152029535,
+            "city": "Camp Verde",
+            "boundary": "West Que Paso Ln to Mesa Ln and North Roundup Rd",
+            "customers": 89,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-06 08:57:00 MST",
+            "etr": "2026-08-06 12:20:00 MST"
+        },
+        {
+            "latitude": 35.29996207686593,
+            "longitude": -112.47787275682163,
+            "city": "Ash Fork",
+            "boundary": "West Northview Dr to West Highland St and North Scenic Dr to North Forest Line Rd",
+            "customers": 38,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-06 09:14:00 MST",
+            "etr": "2026-08-06 12:45:00 MST"
+        },
+        {
+            "latitude": 34.74455131126407,
+            "longitude": -112.01145003938014,
+            "city": "Cottonwood",
+            "boundary": "Franquero Ln to East Mingus Ave and North 10th St to North 16th St",
+            "customers": 288,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-06 09:53:00 MST",
+            "etr": "2026-08-06 14:00:00 MST"
+        }
+    ]
+}
