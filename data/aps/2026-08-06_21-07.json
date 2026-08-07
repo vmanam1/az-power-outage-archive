@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 21:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.72714592078158,
+            "longitude": -111.99376489380525,
+            "city": "Cave Creek",
+            "boundary": "Spur Dr. to Jomax Rd. and 41st St. to 41st Way.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-06 12:09:00 MST",
+            "etr": "2026-08-06 15:15:00 MST"
+        },
+        {
+            "latitude": 33.6507222658403,
+            "longitude": -112.14489653822899,
+            "city": "Glendale",
+            "boundary": "Michigan Ave. to Michelle Dr. and 39th Ave. to 41st Ave.",
+            "customers": 25,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-06 14:02:00 MST",
+            "etr": "2026-08-06 16:35:00 MST"
+        }
+    ]
+}
