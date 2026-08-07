@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 23:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 126
+    },
+    "outages": [
+        {
+            "latitude": 35.36434310786033,
+            "longitude": -112.15367494435569,
+            "city": "Williams",
+            "boundary": "Juniper Ave. to Maggie Dr. and State Highway 64 to Pine St.",
+            "customers": 120,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-06 14:41:00 MST",
+            "etr": "2026-08-06 18:45:00 MST"
+        },
+        {
+            "latitude": 34.13697068870035,
+            "longitude": -110.91755023861535,
+            "city": "Young",
+            "boundary": "Young-Heber Rd. and Granny Jones Ln.",
+            "customers": 6,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-06 15:21:00 MST",
+            "etr": "2026-08-06 19:00:00 MST"
+        }
+    ]
+}
