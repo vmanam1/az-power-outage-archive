@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-07 16:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 233
+    },
+    "outages": [
+        {
+            "latitude": 33.4130834438521,
+            "longitude": -112.025153100949,
+            "boundary": "S 24TH  ST TO S 28TH  ST AND E MAGNOLIA  ST TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-07 14:43 MST",
+            "etr": "2026-08-07 20:00 MST"
+        },
+        {
+            "latitude": 33.4129419336224,
+            "longitude": -112.08244299840399,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-07 14:54 MST",
+            "etr": "2026-08-07 19:04 MST"
+        },
+        {
+            "latitude": 33.55122573522375,
+            "longitude": -112.0907088800285,
+            "boundary": "N 19TH  AVE TO N 7TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-07 13:29 MST",
+            "etr": "2026-08-07 19:30 MST"
+        },
+        {
+            "latitude": 33.30313342358505,
+            "longitude": -111.8849969479995,
+            "boundary": "N PRICE  FWY TO S DOBSON  RD AND W GALVESTON  ST TO W PECOS  RD",
+            "customers": 225,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-07 15:55 MST",
+            "etr": "2026-08-07 17:54 MST"
+        }
+    ]
+}
