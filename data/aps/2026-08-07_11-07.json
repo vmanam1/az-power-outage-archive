@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-07 11:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.97013772295151,
+            "longitude": -112.76686413084562,
+            "city": "Wickenburg",
+            "boundary": "Mountain View Dr. to Bonita Dr. and Red Bird Rd.",
+            "customers": 8,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-07 03:56:00 MST",
+            "etr": "2026-08-07 06:15:00 MST"
+        }
+    ]
+}
