@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-06 18:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 321
+    },
+    "outages": [
+        {
+            "latitude": 34.74455131126407,
+            "longitude": -112.01145003938014,
+            "city": "Cottonwood",
+            "boundary": "Franquero Ln to East Mingus Ave and North 10th St to North 16th St",
+            "customers": 211,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-06 09:53:00 MST",
+            "etr": "2026-08-06 14:00:00 MST"
+        },
+        {
+            "latitude": 34.24328459289816,
+            "longitude": -110.04931804844583,
+            "city": "Show Low",
+            "boundary": "Stratton and 7th Ave. to 6th Ave.",
+            "customers": 15,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-06 10:44:00 MST",
+            "etr": "2026-08-06 13:55:00 MST"
+        },
+        {
+            "latitude": 34.753987585740774,
+            "longitude": -112.59609711902645,
+            "city": "Prescott",
+            "boundary": "Williamson Valley Rd. to Thrush Tl. and Warbler Ln.",
+            "customers": 95,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-06 11:03:00 MST",
+            "etr": "2026-08-06 13:50:00 MST"
+        }
+    ]
+}
