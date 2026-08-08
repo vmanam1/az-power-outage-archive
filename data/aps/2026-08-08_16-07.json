@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-08 16:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 32.56394102771241,
+            "longitude": -111.29305833699163,
+            "city": "Red Rock",
+            "boundary": "E Camino Adelante Rd.",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 04:49:00 MST",
+            "etr": "2026-08-08 10:00:00 MST"
+        },
+        {
+            "latitude": 33.62907951124115,
+            "longitude": -112.05840672201272,
+            "city": "Phoenix",
+            "boundary": "East Marconi Ave to East Coral Gables Dr and North 11th St",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 07:10:00 MST",
+            "etr": "2026-08-08 09:55:00 MST"
+        }
+    ]
+}
