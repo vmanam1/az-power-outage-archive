@@ -1,0 +1,86 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-08-08 01:07:36 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 180
+    },
+    "outages": [
+        {
+            "incident_id": 20263,
+            "latitude": 31.591208627790554,
+            "longitude": -109.74840280847376,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-08 00:40:15 MST",
+            "etr": "2026-08-08 03:40:15 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19679,
+            "latitude": 31.934552982820158,
+            "longitude": -109.66148750613786,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:19:48 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20260,
+            "latitude": 31.553689309088597,
+            "longitude": -109.69870729688826,
+            "city": "Elfrida",
+            "customers": 174,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-08 00:40:15 MST",
+            "etr": "2026-08-08 03:40:15 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20261,
+            "latitude": 31.586827000865892,
+            "longitude": -109.69812691445773,
+            "city": "Elfrida",
+            "customers": 2,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-08 00:40:15 MST",
+            "etr": "2026-08-08 03:40:15 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20259,
+            "latitude": 31.614976412672288,
+            "longitude": -109.68952400011219,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-08 00:40:15 MST",
+            "etr": "2026-08-08 03:40:15 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20262,
+            "latitude": 31.58863500031292,
+            "longitude": -109.74040200030285,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-08 00:40:15 MST",
+            "etr": "2026-08-08 03:40:15 MST",
+            "restored_time": null
+        }
+    ]
+}
