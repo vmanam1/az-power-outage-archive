@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-08 12:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 32.56394102771241,
+            "longitude": -111.29305833699163,
+            "city": "Red Rock",
+            "boundary": "E Camino Adelante Rd.",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 04:49:00 MST",
+            "etr": "2026-08-08 08:10:00 MST"
+        }
+    ]
+}

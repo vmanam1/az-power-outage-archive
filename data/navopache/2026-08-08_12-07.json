@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-08 12:07:36 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 6856,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.43206202276415,
+            "longitude": -110.56831031118115,
+            "customers": 5318,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-08 10:42:03 MST",
+            "etr": null,
+            "incident_id": "532169"
+        },
+        {
+            "latitude": 34.43205461348435,
+            "longitude": -110.56832827748683,
+            "customers": 1418,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-08 10:42:03 MST",
+            "etr": null,
+            "incident_id": "532179"
+        },
+        {
+            "latitude": 34.327830078789155,
+            "longitude": -110.26839877038324,
+            "customers": 119,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "6 - Linden",
+            "start_time": "2026-08-08 11:09:42 MST",
+            "etr": null,
+            "incident_id": "532220"
+        },
+        {
+            "latitude": 34.21089241770555,
+            "longitude": -110.07531488318773,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "6 - Linden",
+            "start_time": "2026-08-08 10:44:28 MST",
+            "etr": null,
+            "incident_id": "532195"
+        }
+    ]
+}
