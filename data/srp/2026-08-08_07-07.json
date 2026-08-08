@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-08 07:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 33.41104090847965,
+            "longitude": -112.256230896065,
+            "boundary": "S 95TH  AVE TO S 87TH  AVE AND W WINDROW  BLVD TO W BROADWAY  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-08 06:30 MST",
+            "etr": "2026-08-08 08:21 MST"
+        }
+    ]
+}
