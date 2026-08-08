@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-08 03:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.61088157071198,
+            "longitude": -111.9743304031821,
+            "city": "Scottsdale",
+            "boundary": "Thunderbird Rd to Andora Dr and 50th St",
+            "customers": 25,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-07 19:17:00 MST",
+            "etr": "2026-08-07 22:15:00 MST"
+        }
+    ]
+}
