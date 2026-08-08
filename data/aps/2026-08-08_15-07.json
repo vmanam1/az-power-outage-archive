@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-08 15:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 32.56394102771241,
+            "longitude": -111.29305833699163,
+            "city": "Red Rock",
+            "boundary": "E Camino Adelante Rd.",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 04:49:00 MST",
+            "etr": "2026-08-08 09:15:00 MST"
+        },
+        {
+            "latitude": 33.49650949963853,
+            "longitude": -112.08841033033144,
+            "city": "Phoenix",
+            "boundary": "West Mackenzie Dr and North 13th Ave to North 11th Ave",
+            "customers": 10,
+            "cause": "Mylar balloon",
+            "comments": "We are working to restore the power outage caused by a mylar balloon interfering with power lines.",
+            "start_time": "2026-08-08 05:41:00 MST",
+            "etr": "2026-08-08 09:00:00 MST"
+        },
+        {
+            "latitude": 33.62907951124115,
+            "longitude": -112.05840672201272,
+            "city": "Phoenix",
+            "boundary": "East Marconi Ave to East Coral Gables Dr and North 11th St",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 07:10:00 MST",
+            "etr": "2026-08-08 09:40:00 MST"
+        }
+    ]
+}
