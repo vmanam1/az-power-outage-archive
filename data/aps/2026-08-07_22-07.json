@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-07 22:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.58957195785211,
+            "longitude": -112.15696518757717,
+            "city": "Glendale",
+            "boundary": "Lupine Ave to Cholla St and 45th Ln",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-07 11:59:00 MST",
+            "etr": "2026-08-07 17:45:00 MST"
+        }
+    ]
+}
