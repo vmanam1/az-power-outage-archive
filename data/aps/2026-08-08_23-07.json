@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-08 23:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 1409
+    },
+    "outages": [
+        {
+            "latitude": 33.7299157340774,
+            "longitude": -111.83068977218336,
+            "city": "Scottsdale",
+            "boundary": "Rio Verde Dr. to Calle Miramonte and 114th St. to Buckskin Trl.",
+            "customers": 1147,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 10:27:00 MST",
+            "etr": "2026-08-08 17:30:00 MST"
+        },
+        {
+            "latitude": 33.86403124135449,
+            "longitude": -111.86131574500902,
+            "city": "Scottsdale",
+            "boundary": "Shadow Caster Tl and 101st Pl",
+            "customers": 5,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-08 11:13:00 MST",
+            "etr": "2026-08-08 18:00:00 MST"
+        },
+        {
+            "latitude": 33.65005448032747,
+            "longitude": -112.03783387997329,
+            "city": "Phoenix",
+            "boundary": "Michelle Dr to Charleston Ave and 20th Pl",
+            "customers": 11,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-08 13:34:00 MST",
+            "etr": "2026-08-09 16:15:00 MST"
+        },
+        {
+            "latitude": 33.461186029010484,
+            "longitude": -112.78290850355404,
+            "city": "Wickenburg",
+            "boundary": "Vista Dr. to Harcuvar St. and 325th Ave. to Ocotillo Dr.",
+            "customers": 50,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-08 13:40:00 MST",
+            "etr": "2026-08-08 17:15:00 MST"
+        },
+        {
+            "latitude": 34.011662953733314,
+            "longitude": -112.33755603161303,
+            "city": "Morristown",
+            "boundary": "Champie Rd. to Hidden View Rd. and Cow Creek Rd.",
+            "customers": 27,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-08 13:05:00 MST",
+            "etr": "2026-08-08 16:45:00 MST"
+        },
+        {
+            "latitude": 33.9671240397554,
+            "longitude": -114.02216638837662,
+            "city": "Bouse",
+            "boundary": "Umatilla Dr. To Willamette Dr. and Ochoco Way. to Swansea Rd.",
+            "customers": 120,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-08 15:26:00 MST",
+            "etr": "2026-08-08 18:30:00 MST"
+        },
+        {
+            "latitude": 33.97810271427474,
+            "longitude": -112.72119503225585,
+            "city": "Wickenburg",
+            "boundary": "Thurber Rd. to Constellation Rd. and John Burden Ln. to 299th Ave.",
+            "customers": 31,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-08 13:28:00 MST",
+            "etr": "2026-08-08 18:30:00 MST"
+        },
+        {
+            "latitude": 33.439164284893,
+            "longitude": -112.13850497557515,
+            "city": "Phoenix",
+            "boundary": "Tonto St to Maricopa St and 36th Dr",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 14:28:00 MST",
+            "etr": "2026-08-08 18:00:00 MST"
+        },
+        {
+            "latitude": 33.47437111064406,
+            "longitude": -112.35246593093228,
+            "city": "Goodyear",
+            "boundary": "Fairway Loop North and 136th Dr",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 15:27:00 MST",
+            "etr": "2026-08-08 18:30:00 MST"
+        }
+    ]
+}
