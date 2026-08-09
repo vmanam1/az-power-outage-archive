@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-09 11:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 115
+    },
+    "outages": [
+        {
+            "latitude": 33.48586436801795,
+            "longitude": -111.996323851315,
+            "boundary": "N 36TH  ST TO N 44TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 13,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-09 10:24 MST",
+            "etr": "2026-08-09 12:15 MST"
+        },
+        {
+            "latitude": 33.36467048171685,
+            "longitude": -112.0499185290835,
+            "boundary": "S 12TH  ST TO S 20TH  ST AND E SOUTH MOUNTAIN  AVE TO E MINERAL  RD",
+            "customers": 31,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 05:23 MST",
+            "etr": "2026-08-09 15:35 MST"
+        },
+        {
+            "latitude": 33.5720743299292,
+            "longitude": -112.172591131133,
+            "boundary": "N 55TH  AVE TO N 51ST  AVE AND W MOUNTAIN VIEW  RD TO W OLIVE  AVE",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-09 09:24 MST",
+            "etr": "2026-08-09 12:30 MST"
+        },
+        {
+            "latitude": 33.29321570218035,
+            "longitude": -112.1613769338055,
+            "boundary": "S 51ST  AVE TO S SOUTH MOUNTAIN  FWY AND W GALVESTON  ST TO UNKNOWN",
+            "customers": 35,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 08:45 MST",
+            "etr": "2026-08-09 12:00 MST"
+        },
+        {
+            "latitude": 33.3115927075673,
+            "longitude": -111.86209522787499,
+            "boundary": "N ARROWHEAD  DR TO N HARTFORD  ST AND W RAY  RD TO W CHANDLER  BLVD",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-09 10:26 MST",
+            "etr": "2026-08-09 12:28 MST"
+        }
+    ]
+}
