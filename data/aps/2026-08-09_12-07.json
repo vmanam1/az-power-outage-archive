@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-09 12:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 105
+    },
+    "outages": [
+        {
+            "latitude": 34.011662953733314,
+            "longitude": -112.33755603161303,
+            "city": "Morristown",
+            "boundary": "Champie Rd. to Hidden View Rd. and Cow Creek Rd.",
+            "customers": 27,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-08 13:05:00 MST",
+            "etr": "2026-08-09 07:00:00 MST"
+        },
+        {
+            "latitude": 33.671493272879864,
+            "longitude": -112.27874318982454,
+            "city": "Peoria",
+            "boundary": "West Irma Ln and North Lake Pleasant Rd to North 101st Ave",
+            "customers": 78,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 02:51:00 MST",
+            "etr": "2026-08-09 07:00:00 MST"
+        }
+    ]
+}
