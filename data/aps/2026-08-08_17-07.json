@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-08 17:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 32.56394102771241,
+            "longitude": -111.29305833699163,
+            "city": "Red Rock",
+            "boundary": "E Camino Adelante Rd.",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 04:49:00 MST",
+            "etr": "2026-08-08 11:30:00 MST"
+        },
+        {
+            "latitude": 35.02395353991754,
+            "longitude": -110.69111725441486,
+            "city": "Winslow",
+            "boundary": "East Aspinwall St to East 4th St and North Donnelley Ave to North Pope Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 10:02:00 MST",
+            "etr": "2026-08-08 13:20:00 MST"
+        }
+    ]
+}

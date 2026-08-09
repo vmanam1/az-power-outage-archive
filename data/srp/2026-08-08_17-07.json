@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-08 17:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.518564231621156,
+            "longitude": -112.122956355188,
+            "boundary": "N 35TH  AVE TO N 27TH  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 12,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-08 16:27 MST",
+            "etr": "2026-08-08 21:30 MST"
+        }
+    ]
+}
