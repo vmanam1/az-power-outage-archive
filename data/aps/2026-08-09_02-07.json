@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-09 02:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 45
+    },
+    "outages": [
+        {
+            "latitude": 33.65005448032747,
+            "longitude": -112.03783387997329,
+            "city": "Phoenix",
+            "boundary": "Michelle Dr to Charleston Ave and 20th Pl",
+            "customers": 11,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-08 13:34:00 MST",
+            "etr": "2026-08-08 20:15:00 MST"
+        },
+        {
+            "latitude": 34.011662953733314,
+            "longitude": -112.33755603161303,
+            "city": "Morristown",
+            "boundary": "Champie Rd. to Hidden View Rd. and Cow Creek Rd.",
+            "customers": 27,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-08 13:05:00 MST",
+            "etr": "2026-08-08 20:00:00 MST"
+        },
+        {
+            "latitude": 33.97810271427474,
+            "longitude": -112.72119503225585,
+            "city": "Wickenburg",
+            "boundary": "Thurber Rd. to Constellation Rd. and John Burden Ln. to 299th Ave.",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 13:28:00 MST",
+            "etr": "2026-08-08 20:30:00 MST"
+        }
+    ]
+}
