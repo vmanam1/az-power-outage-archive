@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-09 16:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 711
+    },
+    "outages": [
+        {
+            "latitude": 34.011662953733314,
+            "longitude": -112.33755603161303,
+            "city": "Morristown",
+            "boundary": "Champie Rd. to Hidden View Rd. and Cow Creek Rd.",
+            "customers": 5,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-08 13:05:00 MST",
+            "etr": "2026-08-09 12:00:00 MST"
+        },
+        {
+            "latitude": 34.532437774873095,
+            "longitude": -112.19566952829321,
+            "city": "Dewey",
+            "boundary": "East Purple Sage Tl to Farm Road 68A And South Cold-Water Ln to South Orme Rd",
+            "customers": 641,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 05:22:00 MST",
+            "etr": "2026-08-09 11:30:00 MST"
+        },
+        {
+            "latitude": 33.314940513321176,
+            "longitude": -114.66823275364197,
+            "city": "Cibola",
+            "boundary": "Baseline Rd. to 34th St. and Levee Rd. to Cibola Lake Rd.",
+            "customers": 35,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 07:05:00 MST",
+            "etr": "2026-08-09 10:40:00 MST"
+        },
+        {
+            "latitude": 34.927430864825375,
+            "longitude": -110.13749817871813,
+            "city": "Holbrook",
+            "boundary": "Desert View Dr to Edwards Ave and Aztec Ave to Paradise Ave",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-09 08:34:00 MST",
+            "etr": "2026-08-09 12:00:00 MST"
+        }
+    ]
+}
