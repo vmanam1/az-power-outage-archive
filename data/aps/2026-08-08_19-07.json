@@ -1,0 +1,135 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-08 19:07:42 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 2820
+    },
+    "outages": [
+        {
+            "latitude": 32.56394102771241,
+            "longitude": -111.29305833699163,
+            "city": "Red Rock",
+            "boundary": "E Camino Adelante Rd.",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 04:49:00 MST",
+            "etr": "2026-08-08 12:45:00 MST"
+        },
+        {
+            "latitude": 35.02395353991754,
+            "longitude": -110.69111725441486,
+            "city": "Winslow",
+            "boundary": "East Aspinwall St to East 4th St and North Donnelley Ave to North Pope Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 10:02:00 MST",
+            "etr": "2026-08-08 13:20:00 MST"
+        },
+        {
+            "latitude": 34.74575286804569,
+            "longitude": -112.64705561479009,
+            "city": "Prescott",
+            "boundary": "Hitt Wash Rd. to Calle Diamante and Spider Ranch Rd. to Williamson Valley Rd.",
+            "customers": 252,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-08 10:03:00 MST",
+            "etr": "2026-08-08 14:05:00 MST"
+        },
+        {
+            "latitude": 35.319004200362464,
+            "longitude": -112.86282919971067,
+            "city": "Ash Fork",
+            "boundary": "Pica Camp Rd To Anvil Rock Rd And Younger Trl To Crookton",
+            "customers": 805,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-08 10:08:00 MST",
+            "etr": "2026-08-08 13:10:00 MST"
+        },
+        {
+            "latitude": 33.633919567741614,
+            "longitude": -111.9996665305745,
+            "city": "Phoenix",
+            "boundary": "Paradise Ln. and 38th St.",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 10:11:00 MST",
+            "etr": "2026-08-08 13:35:00 MST"
+        },
+        {
+            "latitude": 33.7299157340774,
+            "longitude": -111.83068977218336,
+            "city": "Scottsdale",
+            "boundary": "Rio Verde Dr. to Calle Miramonte and 114th St. to Buckskin Trl.",
+            "customers": 1503,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 10:27:00 MST",
+            "etr": "2026-08-08 12:45:00 MST"
+        },
+        {
+            "latitude": 33.43698219474359,
+            "longitude": -112.43959605819826,
+            "city": "Goodyear",
+            "boundary": "West Sherman St to West Maricopa St and South Citrus Rd to South 176th Ave",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 10:42:00 MST",
+            "etr": "2026-08-08 14:40:00 MST"
+        },
+        {
+            "latitude": 33.65573463602595,
+            "longitude": -112.0679453031941,
+            "city": "Phoenix",
+            "boundary": "East Rockwood Dr to East Union Hills Dr and North 4th St to North 5th Pl",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-08 10:46:00 MST",
+            "etr": "2026-08-08 13:45:00 MST"
+        },
+        {
+            "latitude": 34.53268049628531,
+            "longitude": -112.20778824704037,
+            "city": "Dewey",
+            "boundary": "Dewey-Copper Canyon Highway to Eagle Dr and Meadow Rd to White Dr",
+            "customers": 140,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-08 10:50:00 MST",
+            "etr": "2026-08-08 14:15:00 MST"
+        },
+        {
+            "latitude": 32.68105555225594,
+            "longitude": -114.60905196999794,
+            "city": "Yuma",
+            "boundary": "25th Pl. to 26th St. and James Ave. to Carol Ave.",
+            "customers": 8,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-08 11:35:00 MST",
+            "etr": "2026-08-08 15:00:00 MST"
+        },
+        {
+            "latitude": 33.48967397992403,
+            "longitude": -112.37832550304753,
+            "city": "Goodyear",
+            "boundary": "Indian School Rd. to Robson Cir. and 149th Ave. to 147th Ln.",
+            "customers": 69,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-08 11:44:00 MST",
+            "etr": "2026-08-08 14:30:00 MST"
+        }
+    ]
+}
