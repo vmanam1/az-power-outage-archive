@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-09 20:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 430
+    },
+    "outages": [
+        {
+            "latitude": 34.927430864825375,
+            "longitude": -110.13749817871813,
+            "city": "Holbrook",
+            "boundary": "Desert View Dr to Edwards Ave and Aztec Ave to Paradise Ave",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-09 08:34:00 MST",
+            "etr": "2026-08-09 14:30:00 MST"
+        },
+        {
+            "latitude": 33.95890852615604,
+            "longitude": -112.75857227563299,
+            "city": "Wickenburg",
+            "boundary": "US 60 to 323rd Ave. and Yucca Dr. to Mariposa Dr.",
+            "customers": 117,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 10:31:00 MST",
+            "etr": "2026-08-09 14:05:00 MST"
+        },
+        {
+            "latitude": 33.38413613108141,
+            "longitude": -110.76806879218202,
+            "city": "Globe",
+            "boundary": "Century Dr. to Saguaro Dr. and Noble Dr. to Saguaro Dr.",
+            "customers": 35,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-09 09:18:00 MST",
+            "etr": "2026-08-09 14:00:00 MST"
+        },
+        {
+            "latitude": 32.68796870411465,
+            "longitude": -114.67571486027097,
+            "city": "Yuma",
+            "boundary": "21st Ln and 44th Ave",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-09 11:34:00 MST",
+            "etr": "2026-08-09 15:00:00 MST"
+        },
+        {
+            "latitude": 34.7936885709014,
+            "longitude": -111.7438437011934,
+            "city": "Sedona",
+            "boundary": "Raintree Rd to Concho Dr and Jacks Canyon Rd to Mountain Rd",
+            "customers": 132,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 11:45:00 MST",
+            "etr": "2026-08-09 15:30:00 MST"
+        },
+        {
+            "latitude": 34.0908508350048,
+            "longitude": -111.28747714635223,
+            "city": "Payson",
+            "boundary": "Dollie Ln. to Buckboard Trail and Gisela Rd. to River Rd.",
+            "customers": 32,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-09 09:56:00 MST",
+            "etr": "2026-08-09 16:15:00 MST"
+        },
+        {
+            "latitude": 33.65210952164709,
+            "longitude": -112.2090261452648,
+            "city": "Glendale",
+            "boundary": "Union Hills Dr to Grovers Ave and 75th Ave to 69th Dr",
+            "customers": 42,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-09 12:10:00 MST",
+            "etr": "2026-08-09 14:45:00 MST"
+        },
+        {
+            "latitude": 33.40576318180492,
+            "longitude": -110.8367957908907,
+            "city": "Miami",
+            "boundary": "Cooper St. to Gregovich Way. and Palmer Ln. to Miami Gardens",
+            "customers": 60,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-08-09 09:25:00 MST",
+            "etr": "2026-08-09 16:00:00 MST"
+        }
+    ]
+}
