@@ -1,0 +1,190 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-09 21:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 16,
+        "customers_affected": 6939
+    },
+    "outages": [
+        {
+            "latitude": 34.927430864825375,
+            "longitude": -110.13749817871813,
+            "city": "Holbrook",
+            "boundary": "Desert View Dr to Edwards Ave and Aztec Ave to Paradise Ave",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-09 08:34:00 MST",
+            "etr": "2026-08-09 14:30:00 MST"
+        },
+        {
+            "latitude": 33.95890852615604,
+            "longitude": -112.75857227563299,
+            "city": "Wickenburg",
+            "boundary": "US 60 to 323rd Ave. and Yucca Dr. to Mariposa Dr.",
+            "customers": 117,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 10:31:00 MST",
+            "etr": "2026-08-09 15:05:00 MST"
+        },
+        {
+            "latitude": 32.68796870411465,
+            "longitude": -114.67571486027097,
+            "city": "Yuma",
+            "boundary": "21st Ln and 44th Ave",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-09 11:34:00 MST",
+            "etr": "2026-08-09 15:00:00 MST"
+        },
+        {
+            "latitude": 34.7936885709014,
+            "longitude": -111.7438437011934,
+            "city": "Sedona",
+            "boundary": "Raintree Rd to Concho Dr and Jacks Canyon Rd to Mountain Rd",
+            "customers": 132,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 11:45:00 MST",
+            "etr": "2026-08-09 15:30:00 MST"
+        },
+        {
+            "latitude": 34.0908508350048,
+            "longitude": -111.28747714635223,
+            "city": "Payson",
+            "boundary": "Dollie Ln. to Buckboard Trail and Gisela Rd. to River Rd.",
+            "customers": 32,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-09 09:56:00 MST",
+            "etr": "2026-08-09 16:15:00 MST"
+        },
+        {
+            "latitude": 33.65210952164709,
+            "longitude": -112.2090261452648,
+            "city": "Glendale",
+            "boundary": "Union Hills Dr to Grovers Ave and 75th Ave to 69th Dr",
+            "customers": 42,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-09 12:10:00 MST",
+            "etr": "2026-08-09 14:45:00 MST"
+        },
+        {
+            "latitude": 33.40576318180492,
+            "longitude": -110.8367957908907,
+            "city": "Miami",
+            "boundary": "Cooper St. to Gregovich Way. and Palmer Ln. to Miami Gardens",
+            "customers": 60,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-08-09 09:25:00 MST",
+            "etr": "2026-08-09 16:00:00 MST"
+        },
+        {
+            "latitude": 33.582699199931504,
+            "longitude": -112.11053010003621,
+            "city": "Phoenix",
+            "boundary": "Mescal St To Cheryl Dr And 27Th Dr To 19Th Ave",
+            "customers": 256,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-09 13:20:00 MST",
+            "etr": "2026-08-09 17:30:00 MST"
+        },
+        {
+            "latitude": 33.58426500001413,
+            "longitude": -112.09904200041514,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave To Desert Cove Rd And 21St Dr To 15Th Dr",
+            "customers": 2316,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:20:00 MST",
+            "etr": "2026-08-10 15:45:00 MST"
+        },
+        {
+            "latitude": 33.57415000013416,
+            "longitude": -112.09430399994243,
+            "city": "Phoenix",
+            "boundary": "Peoria Ave  To Sunnyslope Ln  And 23Rd Ave To 15Th Ave",
+            "customers": 957,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-09 13:25:00 MST",
+            "etr": "2026-08-09 15:45:00 MST"
+        },
+        {
+            "latitude": 33.45009799989928,
+            "longitude": -112.15127499985273,
+            "city": "Phoenix",
+            "boundary": "Van Buren St To Lincoln Street To 47Th Ave To 35Th Ave",
+            "customers": 179,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:40:00 MST",
+            "etr": "2026-08-09 17:45:00 MST"
+        },
+        {
+            "latitude": 33.442259999997475,
+            "longitude": -112.16284599960149,
+            "city": "Phoenix",
+            "boundary": "Washington St To Buckeye Rd And 51St Ave To 43Rd Ave",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:45:00 MST",
+            "etr": "2026-08-10 16:00:00 MST"
+        },
+        {
+            "latitude": 33.42238410015826,
+            "longitude": -112.13272530037707,
+            "city": "Phoenix",
+            "boundary": "Durango St To Salt River And 39Th Ave To 27Th Ave",
+            "customers": 140,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:51:00 MST",
+            "etr": "2026-08-10 16:15:00 MST"
+        },
+        {
+            "latitude": 33.535975999629365,
+            "longitude": -112.16952300014025,
+            "city": "Glendale",
+            "boundary": "Orangewood Ave To Bethany Home Rd And 55Th Ave To 48Th Ave",
+            "customers": 1650,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:50:00 MST",
+            "etr": "2026-08-10 16:00:00 MST"
+        },
+        {
+            "latitude": 33.54055699997095,
+            "longitude": -112.1791029999444,
+            "city": "Glendale",
+            "boundary": "Hayward Ave To Sierra Vista Dr And 59Th Ave To 53Rd Ave",
+            "customers": 1014,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:50:00 MST",
+            "etr": "2026-08-10 16:00:00 MST"
+        },
+        {
+            "latitude": 33.54805900006686,
+            "longitude": -112.18142000030224,
+            "city": "Glendale",
+            "boundary": "Northern Ave To Glendale Ave  And 59Th Ave To 51St Ave",
+            "customers": 8,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:54:00 MST",
+            "etr": "2026-08-09 17:55:00 MST"
+        }
+    ]
+}
