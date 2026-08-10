@@ -1,0 +1,223 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-10 09:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 19,
+        "customers_affected": 4647
+    },
+    "outages": [
+        {
+            "latitude": 33.58426500001413,
+            "longitude": -112.09904200041514,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave To Desert Cove Rd And 21St Dr To 15Th Dr",
+            "customers": 320,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:20:00 MST",
+            "etr": "2026-08-10 11:00:00 MST"
+        },
+        {
+            "latitude": 33.535975999629365,
+            "longitude": -112.16952300014025,
+            "city": "Glendale",
+            "boundary": "Orangewood Ave To Bethany Home Rd And 55Th Ave To 48Th Ave",
+            "customers": 404,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:50:00 MST",
+            "etr": "2026-08-10 11:00:00 MST"
+        },
+        {
+            "latitude": 33.38401225980517,
+            "longitude": -112.47805139579901,
+            "city": "Buckeye",
+            "boundary": "Lower Buckeye Rd. to Lower River Rd. and Airport Rd. to Citrus Rd.",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 14:28:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.36865799986456,
+            "longitude": -112.58745999992763,
+            "city": "Buckeye",
+            "boundary": "Maricopa Rd. to Watkins Ave. and Rooks Rd. to Dean Rd.",
+            "customers": 494,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 14:38:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.37768200021202,
+            "longitude": -112.67710500035736,
+            "city": "Buckeye",
+            "boundary": "Yuma Rd To Hazen Rd And 321St Ave To 255Th Ave",
+            "customers": 1358,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 14:45:00 MST",
+            "etr": "2026-08-10 07:00:00 MST"
+        },
+        {
+            "latitude": 33.3423195003384,
+            "longitude": -112.90432100017692,
+            "city": "Arlington",
+            "boundary": "Dobbins Rd To Agua Caliente Rd And 483Rd Ave To 363Rd Ave",
+            "customers": 42,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 15:19:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.58558263982045,
+            "longitude": -112.0831318737394,
+            "city": "Phoenix",
+            "boundary": "Desert Cove Ave to Peoria Ave and 7th Ave",
+            "customers": 27,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-08-09 13:20:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.31715400022271,
+            "longitude": -112.62079200022299,
+            "city": "Buckeye",
+            "boundary": "Narramore Rd To S/O Gila River To Wilson Rd To Rooks Rd",
+            "customers": 11,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-09 15:17:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.38609633203581,
+            "longitude": -112.53173531815092,
+            "city": "Buckeye",
+            "boundary": "Dean Rd to Beloat Rd and 25th Ave to Verrado Way",
+            "customers": 162,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 17:53:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.3591249412286,
+            "longitude": -112.75036673324782,
+            "city": "Buckeye",
+            "boundary": "Salome Highway and Dobbins Rd",
+            "customers": 302,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 18:24:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.54482153536285,
+            "longitude": -112.1810385756326,
+            "city": "Glendale",
+            "boundary": "Gardenia Ave to State Ave and 57th Ave to 55th Dr",
+            "customers": 9,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 18:32:00 MST",
+            "etr": "2026-08-10 07:00:00 MST"
+        },
+        {
+            "latitude": 33.581822175189636,
+            "longitude": -112.10294640293174,
+            "city": "Phoenix",
+            "boundary": "Peoria Ave and 21st Ave",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 18:40:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.30076836923929,
+            "longitude": -112.78098703770402,
+            "city": "Arlington",
+            "boundary": "Old US 80 and Arlington Rd",
+            "customers": 41,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 18:43:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.31901058309588,
+            "longitude": -112.77554968890118,
+            "city": "Arlington",
+            "boundary": "Arlington School Rd and Old Us 80",
+            "customers": 53,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 18:50:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.48011975201099,
+            "longitude": -112.475437673818,
+            "city": "Litchfield Park",
+            "boundary": "195th Ave and Thomas Rd",
+            "customers": 68,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 19:15:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.417940705925865,
+            "longitude": -112.5862246178843,
+            "city": "Buckeye",
+            "boundary": "Lower Bucke Rd and Apache Rd",
+            "customers": 663,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 23:51:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 33.368895377361554,
+            "longitude": -112.57565925873989,
+            "city": "Buckeye",
+            "boundary": "Narramore Ave and Morton Dr",
+            "customers": 594,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 23:54:00 MST",
+            "etr": "2026-08-10 03:55:00 MST"
+        },
+        {
+            "latitude": 34.64466010396783,
+            "longitude": -112.43407458935555,
+            "city": "Prescott",
+            "boundary": "Willow Creek Rd and James Lane",
+            "customers": 64,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 00:21:00 MST",
+            "etr": "2026-08-10 05:00:00 MST"
+        },
+        {
+            "latitude": 32.89482013417577,
+            "longitude": -111.73456903336442,
+            "city": "Casa Grande",
+            "boundary": "Cottonwood Ln and Hubbard St",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-10 01:29:00 MST",
+            "etr": "2026-08-10 04:00:00 MST"
+        }
+    ]
+}

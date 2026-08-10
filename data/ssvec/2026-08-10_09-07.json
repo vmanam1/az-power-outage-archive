@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-08-10 09:07:15 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 4
+    },
+    "outages": [
+        {
+            "incident_id": 20280,
+            "latitude": 31.443030429802388,
+            "longitude": -110.22645409495092,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 08:10:52 MST",
+            "etr": "2026-08-10 11:10:52 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20279,
+            "latitude": 32.44907000066209,
+            "longitude": -109.95299299988265,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 07:53:59 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 19679,
+            "latitude": 31.934552982820158,
+            "longitude": -109.66148750613786,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:19:48 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20278,
+            "latitude": 32.029225678896324,
+            "longitude": -109.51100785396096,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-09 03:39:31 MST",
+            "etr": null,
+            "restored_time": null
+        }
+    ]
+}
