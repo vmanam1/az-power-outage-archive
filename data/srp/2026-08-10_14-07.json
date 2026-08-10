@@ -1,0 +1,234 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-10 14:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 22,
+        "customers_affected": 3220
+    },
+    "outages": [
+        {
+            "latitude": 33.4543669395268,
+            "longitude": -112.147101003163,
+            "boundary": "N 43RD  AVE TO N 39TH  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-10 09:13 MST",
+            "etr": "2026-08-10 13:07 MST"
+        },
+        {
+            "latitude": 33.5712143651661,
+            "longitude": -112.151736827919,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W MOUNTAIN VIEW  RD TO W DUNLAP  AVE",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-10 03:24 MST",
+            "etr": "2026-08-10 16:00 MST"
+        },
+        {
+            "latitude": 33.49077501183611,
+            "longitude": -112.2306413522445,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 23:53 MST",
+            "etr": "2026-08-10 18:00 MST"
+        },
+        {
+            "latitude": 33.5149511755817,
+            "longitude": -112.1803734269775,
+            "boundary": "N 59TH  AVE TO N 51ST  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 328,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 20:45 MST",
+            "etr": "2026-08-10 15:00 MST"
+        },
+        {
+            "latitude": 33.557952570701545,
+            "longitude": -112.134243085693,
+            "boundary": "N 43RD  AVE TO N 27TH  AVE AND W DUNLAP  AVE TO W NORTHERN  AVE",
+            "customers": 1346,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 21:16 MST",
+            "etr": "2026-08-10 15:00 MST"
+        },
+        {
+            "latitude": 33.54050232843015,
+            "longitude": -112.1131735526605,
+            "boundary": "N 27TH  AVE TO N 23RD  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 16,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 21:59 MST",
+            "etr": "2026-08-10 15:00 MST"
+        },
+        {
+            "latitude": 33.4434963042707,
+            "longitude": -112.202605266904,
+            "boundary": "S 71ST  AVE TO S 63RD  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 20:54 MST",
+            "etr": "2026-08-10 16:00 MST"
+        },
+        {
+            "latitude": 33.440632761608555,
+            "longitude": -112.20548400849,
+            "boundary": "S 71ST  AVE TO S 63RD  AVE AND W VAN BUREN  ST TO W DURANGO  ST",
+            "customers": 18,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 20:54 MST",
+            "etr": "2026-08-10 16:00 MST"
+        },
+        {
+            "latitude": 33.489012519986105,
+            "longitude": -112.22803797281449,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 13,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 21:30 MST",
+            "etr": "2026-08-10 18:00 MST"
+        },
+        {
+            "latitude": 33.553226706339245,
+            "longitude": -112.12999189920549,
+            "boundary": "N 39TH  AVE TO N 27TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 648,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 20:42 MST",
+            "etr": "2026-08-10 15:00 MST"
+        },
+        {
+            "latitude": 33.46502737935895,
+            "longitude": -112.18039378927949,
+            "boundary": "N 59TH  AVE TO N 51ST  AVE AND W ENCANTO  BLVD TO W ROOSEVELT  ST",
+            "customers": 566,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 22:45 MST",
+            "etr": "2026-08-10 15:00 MST"
+        },
+        {
+            "latitude": 33.522596812482846,
+            "longitude": -112.1407132805725,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-09 23:56 MST",
+            "etr": "2026-08-10 15:00 MST"
+        },
+        {
+            "latitude": 33.50302211321565,
+            "longitude": -112.207248135925,
+            "boundary": "N 71ST  AVE TO N 67TH  AVE AND W CAMELBACK  RD TO W INDIAN SCHOOL  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-10 12:55 MST",
+            "etr": "2026-08-10 17:53 MST"
+        },
+        {
+            "latitude": 33.4642184771894,
+            "longitude": -111.70688516906,
+            "boundary": "N 56TH  ST TO N RECKER  RD AND E LONGBOW  PKWY TO E HERMOSA VISTA  DR",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-10 12:02 MST",
+            "etr": "2026-08-10 14:03 MST"
+        },
+        {
+            "latitude": 33.5647144937477,
+            "longitude": -112.098703751667,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W DUNLAP  AVE TO W BUTLER  DR",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 20:36 MST",
+            "etr": "2026-08-10 23:30 MST"
+        },
+        {
+            "latitude": 33.489914574551,
+            "longitude": -112.231513291605,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-10 13:11 MST",
+            "etr": "2026-08-10 17:09 MST"
+        },
+        {
+            "latitude": 33.553787576424796,
+            "longitude": -112.139414410495,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 19,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 20:41 MST",
+            "etr": "2026-08-10 17:00 MST"
+        },
+        {
+            "latitude": 33.4238769309647,
+            "longitude": -112.12620628394001,
+            "boundary": "S 35TH  AVE TO S 27TH  AVE AND W DURANGO  ST TO W BROADWAY  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-10 13:23 MST",
+            "etr": "2026-08-10 22:21 MST"
+        },
+        {
+            "latitude": 33.488093118605946,
+            "longitude": -112.003590008676,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 15,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-10 12:09 MST",
+            "etr": "2026-08-10 23:00 MST"
+        },
+        {
+            "latitude": 33.504406249262246,
+            "longitude": -112.2069004808495,
+            "boundary": "N 75TH  AVE TO N 63RD  AVE AND W CAMELBACK  RD TO W INDIAN SCHOOL  RD",
+            "customers": 83,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 21:06 MST",
+            "etr": "2026-08-10 16:02 MST"
+        },
+        {
+            "latitude": 33.42926322127795,
+            "longitude": -112.294923685364,
+            "boundary": "S 111TH  AVE TO S 107TH  AVE AND W BUCKEYE  RD TO W LOWER BUCKEYE  RD",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-10 09:14 MST",
+            "etr": "2026-08-10 16:00 MST"
+        },
+        {
+            "latitude": 33.43868784960095,
+            "longitude": -112.19751708484151,
+            "boundary": "S 71ST  AVE TO S SOUTH MOUNTAIN  FWY AND W VAN BUREN  ST TO W DURANGO  ST",
+            "customers": 54,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-10 14:05 MST",
+            "etr": "2026-08-10 18:03 MST"
+        }
+    ]
+}
