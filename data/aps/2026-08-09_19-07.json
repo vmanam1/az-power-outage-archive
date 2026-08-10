@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-09 19:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 1271
+    },
+    "outages": [
+        {
+            "latitude": 34.011662953733314,
+            "longitude": -112.33755603161303,
+            "city": "Morristown",
+            "boundary": "Champie Rd. to Hidden View Rd. and Cow Creek Rd.",
+            "customers": 5,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-08 13:05:00 MST",
+            "etr": "2026-08-09 13:30:00 MST"
+        },
+        {
+            "latitude": 34.927430864825375,
+            "longitude": -110.13749817871813,
+            "city": "Holbrook",
+            "boundary": "Desert View Dr to Edwards Ave and Aztec Ave to Paradise Ave",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-09 08:34:00 MST",
+            "etr": "2026-08-09 13:30:00 MST"
+        },
+        {
+            "latitude": 33.65576334632118,
+            "longitude": -112.10805497193387,
+            "city": "Phoenix",
+            "boundary": "West Marrow Dr to West McRae Wy and North 23rd Ave to North 22nd Ln",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 09:53:00 MST",
+            "etr": "2026-08-09 13:00:00 MST"
+        },
+        {
+            "latitude": 34.09232983365698,
+            "longitude": -111.28674383002624,
+            "city": "Payson",
+            "boundary": "East Chuck Wagon Tl to North Old Mountain Tl and South Stetson Dr to South Old Meadow Ln",
+            "customers": 86,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 10:08:00 MST",
+            "etr": "2026-08-09 13:30:00 MST"
+        },
+        {
+            "latitude": 33.95890852615604,
+            "longitude": -112.75857227563299,
+            "city": "Wickenburg",
+            "boundary": "US 60 to 323rd Ave. and Yucca Dr. to Mariposa Dr.",
+            "customers": 117,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 10:31:00 MST",
+            "etr": "2026-08-09 14:05:00 MST"
+        },
+        {
+            "latitude": 33.38413613108141,
+            "longitude": -110.76806879218202,
+            "city": "Globe",
+            "boundary": "Century Dr. to Saguaro Dr. and Noble Dr. to Saguaro Dr.",
+            "customers": 35,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-09 09:18:00 MST",
+            "etr": "2026-08-09 14:00:00 MST"
+        },
+        {
+            "latitude": 32.68796870411465,
+            "longitude": -114.67571486027097,
+            "city": "Yuma",
+            "boundary": "21st Ln and 44th Ave",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-09 11:34:00 MST",
+            "etr": "2026-08-09 15:00:00 MST"
+        },
+        {
+            "latitude": 34.7936885709014,
+            "longitude": -111.7438437011934,
+            "city": "Sedona",
+            "boundary": "Raintree Rd to Concho Dr and Jacks Canyon Rd to Mountain Rd",
+            "customers": 132,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 11:45:00 MST",
+            "etr": "2026-08-09 15:30:00 MST"
+        },
+        {
+            "latitude": 33.40928821691733,
+            "longitude": -110.85400963086018,
+            "city": "Globe",
+            "boundary": "Us 60 To Milton Avenue And Latham Boulevard To Russell Road",
+            "customers": 878,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-08-09 09:27:00 MST",
+            "etr": "2026-08-09 13:00:00 MST"
+        }
+    ]
+}
