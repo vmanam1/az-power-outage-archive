@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-09 18:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 33.48586436801795,
+            "longitude": -111.996323851315,
+            "boundary": "N 36TH  ST TO N 44TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 13,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 10:24 MST",
+            "etr": "2026-08-09 20:00 MST"
+        },
+        {
+            "latitude": 33.4891989225093,
+            "longitude": -112.224091144146,
+            "boundary": "N 79TH  AVE TO N 75TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 15:09 MST",
+            "etr": "2026-08-09 20:00 MST"
+        },
+        {
+            "latitude": 33.5439724855488,
+            "longitude": -112.2536148128105,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 18,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-09 17:34 MST",
+            "etr": "2026-08-09 19:29 MST"
+        }
+    ]
+}
