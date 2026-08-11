@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-08-11 16:07:15 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 14,
+        "map_last_refreshed": "Aug 11, 4:05 PM"
+    },
+    "outages": [
+        {
+            "latitude": 31.48604562761893,
+            "longitude": -111.01101737121544,
+            "boundary": {
+                "coordLatSW": "31.484430636700498",
+                "coordLngSW": "-111.01344716074999",
+                "coordLatNE": "31.491716318598002",
+                "coordLngNE": "-110.996021020754",
+                "coordLatCenter": "31.488073",
+                "coordLngCenter": "-111.00473"
+            },
+            "customers": 14,
+            "cause": "Poles/Wire Down",
+            "comments": "Restoration In Progress",
+            "start_time": "2026-08-09 23:14 MST",
+            "etr": "2026-08-11 20:00 MST",
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 863,
+            "last_update": "2026-08-11 16:00 MST"
+        }
+    ]
+}
