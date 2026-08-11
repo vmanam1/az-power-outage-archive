@@ -1,0 +1,99 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-08-11 11:07:36 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 14,
+        "map_last_refreshed": "Aug 11, 11:07 AM"
+    },
+    "outages": [
+        {
+            "latitude": 31.467701788275097,
+            "longitude": -110.974559578983,
+            "boundary": {
+                "coordLatSW": "31.467701788275097",
+                "coordLngSW": "-110.974559578983",
+                "coordLatNE": "31.467701788275097",
+                "coordLngNE": "-110.974559578983",
+                "coordLatCenter": "31.467701",
+                "coordLngCenter": "-110.974556"
+            },
+            "customers": 0,
+            "cause": "Equipment Repair - Replacement",
+            "comments": null,
+            "start_time": "2026-08-10 11:17 MST",
+            "etr": "2026-08-10 12:25 MST",
+            "event": "Restored",
+            "division": "USE",
+            "customers_restored": 678,
+            "last_update": "2026-08-10 13:14 MST"
+        },
+        {
+            "latitude": 31.467701788275097,
+            "longitude": -110.974559578983,
+            "boundary": {
+                "coordLatSW": "31.467701788275097",
+                "coordLngSW": "-110.974559578983",
+                "coordLatNE": "31.467701788275097",
+                "coordLngNE": "-110.974559578983",
+                "coordLatCenter": "31.467701",
+                "coordLngCenter": "-110.974556"
+            },
+            "customers": 0,
+            "cause": "Equipment Repair - Replacement",
+            "comments": null,
+            "start_time": "2026-08-10 11:13 MST",
+            "etr": "2026-08-10 11:17 MST",
+            "event": "Restored",
+            "division": "USE",
+            "customers_restored": 678,
+            "last_update": "2026-08-10 12:40 MST"
+        },
+        {
+            "latitude": 31.5084525531316,
+            "longitude": -111.002102929494,
+            "boundary": {
+                "coordLatSW": "31.508452553131601",
+                "coordLngSW": "-111.002102929494",
+                "coordLatNE": "31.508452553131601",
+                "coordLngNE": "-111.002102929494",
+                "coordLatCenter": "31.508453",
+                "coordLngCenter": "-111.002106"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-08-10 10:22 MST",
+            "etr": "2026-08-10 11:10 MST",
+            "event": "Restored",
+            "division": "USE",
+            "customers_restored": 1334,
+            "last_update": "2026-08-10 11:11 MST"
+        },
+        {
+            "latitude": 31.48604562761893,
+            "longitude": -111.01101737121544,
+            "boundary": {
+                "coordLatSW": "31.484430636700498",
+                "coordLngSW": "-111.01344716074999",
+                "coordLatNE": "31.491716318598002",
+                "coordLngNE": "-110.996021020754",
+                "coordLatCenter": "31.488073",
+                "coordLngCenter": "-111.00473"
+            },
+            "customers": 14,
+            "cause": "Poles/Wire Down",
+            "comments": "Restoration In Progress",
+            "start_time": "2026-08-09 23:14 MST",
+            "etr": "2026-08-11 20:00 MST",
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 863,
+            "last_update": "2026-08-11 11:00 MST"
+        }
+    ]
+}
