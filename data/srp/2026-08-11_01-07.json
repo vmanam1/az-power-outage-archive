@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-11 01:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 4951
+    },
+    "outages": [
+        {
+            "latitude": 33.477063644653896,
+            "longitude": -112.275020463234,
+            "boundary": "N 103RD  AVE TO N AGUA FRIA  FWY AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 3,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-10 21:12 MST",
+            "etr": "2026-08-11 04:23 MST"
+        },
+        {
+            "latitude": 33.4385788554984,
+            "longitude": -112.31344386595049,
+            "boundary": "S EL MIRAGE  RD TO S AVONDALE  BLVD AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-10 22:31 MST",
+            "etr": "2026-08-11 02:30 MST"
+        },
+        {
+            "latitude": 33.516614049241,
+            "longitude": -112.179985047846,
+            "boundary": "N 59TH  AVE TO N 55TH  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-09 20:45 MST",
+            "etr": "2026-08-11 02:00 MST"
+        },
+        {
+            "latitude": 33.5712143651661,
+            "longitude": -112.151736827919,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W MOUNTAIN VIEW  RD TO W DUNLAP  AVE",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-10 03:24 MST",
+            "etr": "2026-08-11 02:00 MST"
+        },
+        {
+            "latitude": 33.419227025445096,
+            "longitude": -111.855755919714,
+            "boundary": "N LONGMORE   TO N EXTENSION  RD AND W UNIVERSITY  DR TO W MAIN  ST",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-10 16:28 MST",
+            "etr": "2026-08-11 05:00 MST"
+        },
+        {
+            "latitude": 33.758740145339004,
+            "longitude": -111.75547322229801,
+            "boundary": "WESTERN BOUNDS OF SERVICE TERRITORY TO N 168TH  ST AND E WESTLAND  RD TO E SHEA  BLVD",
+            "customers": 1098,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 00:19 MST",
+            "etr": "2026-08-11 02:14 MST"
+        },
+        {
+            "latitude": 33.3661228647949,
+            "longitude": -111.904769477038,
+            "boundary": "S MCCLINTOCK  DR TO S PRICE  FWY AND E BASELINE  RD TO E ELLIOT  RD",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-10 23:40 MST",
+            "etr": "2026-08-11 01:41 MST"
+        },
+        {
+            "latitude": 33.43868784960095,
+            "longitude": -112.19751708484151,
+            "boundary": "S 71ST  AVE TO S SOUTH MOUNTAIN  FWY AND W VAN BUREN  ST TO W DURANGO  ST",
+            "customers": 54,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 00:48 MST",
+            "etr": "2026-08-11 02:48 MST"
+        },
+        {
+            "latitude": 33.51718320723225,
+            "longitude": -112.2030587588785,
+            "boundary": "N 79TH  AVE TO N 55TH  AVE AND W MARYLAND  AVE TO W CAMPBELL  AVE",
+            "customers": 2035,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-10 21:48 MST",
+            "etr": "2026-08-11 02:15 MST"
+        },
+        {
+            "latitude": 33.33844283077365,
+            "longitude": -111.62301870536501,
+            "boundary": "S HAWES  RD TO S SIGNAL BUTTE  RD AND E GUADALUPE  RD TO E RAY  RD",
+            "customers": 1702,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 00:42 MST",
+            "etr": "2026-08-11 02:54 MST"
+        }
+    ]
+}
