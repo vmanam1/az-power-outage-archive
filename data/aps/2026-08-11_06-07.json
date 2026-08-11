@@ -1,0 +1,245 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-11 06:07:06 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 21,
+        "customers_affected": 836
+    },
+    "outages": [
+        {
+            "latitude": 33.38401225980517,
+            "longitude": -112.47805139579901,
+            "city": "Buckeye",
+            "boundary": "Lower Buckeye Rd. to Lower River Rd. and Airport Rd. to Citrus Rd.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 14:28:00 MST",
+            "etr": "2026-08-11 01:00:00 MST"
+        },
+        {
+            "latitude": 33.36865799986456,
+            "longitude": -112.58745999992763,
+            "city": "Buckeye",
+            "boundary": "Maricopa Rd. to Watkins Ave. and Rooks Rd. to Dean Rd.",
+            "customers": 6,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 13:53:00 MST",
+            "etr": "2026-08-11 05:00:00 MST"
+        },
+        {
+            "latitude": 33.37313694899137,
+            "longitude": -112.57497031739233,
+            "city": "Buckeye",
+            "boundary": "Eason Ave. to MC 85 and 9th St.",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 23:35:00 MST",
+            "etr": "2026-08-11 02:00:00 MST"
+        },
+        {
+            "latitude": 33.359346378196534,
+            "longitude": -112.75032907766776,
+            "city": "Arlington",
+            "boundary": "Union Pacific Railroad and Salome Hwy.",
+            "customers": 19,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 03:54:00 MST",
+            "etr": "2026-08-11 03:00:00 MST"
+        },
+        {
+            "latitude": 33.37036639098451,
+            "longitude": -112.52119757591332,
+            "city": "Buckeye",
+            "boundary": "MC85 to Beloat Rd. and Dean Rd.",
+            "customers": 58,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 12:49:00 MST",
+            "etr": "2026-08-11 00:00:00 MST"
+        },
+        {
+            "latitude": 33.45696682233165,
+            "longitude": -112.68911961424455,
+            "city": "Buckeye",
+            "boundary": "Tonopah Salome Hwy. to Pierce St. and 297th Dr. to 295th Ave.",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-10 12:59:00 MST",
+            "etr": "2026-08-11 02:00:00 MST"
+        },
+        {
+            "latitude": 33.352188842751914,
+            "longitude": -112.75096815712718,
+            "city": "Arlington",
+            "boundary": "Dobbins Rd To Agua Caliente Rd And 483Rd Ave To 363Rd Ave",
+            "customers": 36,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-09 15:19:00 MST",
+            "etr": "2026-08-11 03:00:00 MST"
+        },
+        {
+            "latitude": 33.666841471051626,
+            "longitude": -114.19796682242949,
+            "city": "Quartzsite",
+            "boundary": "Pearl harbor Memorial Highway and Riggles Rd.",
+            "customers": 23,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 17:34:00 MST",
+            "etr": "2026-08-11 01:00:00 MST"
+        },
+        {
+            "latitude": 33.38196999988898,
+            "longitude": -112.37669600044464,
+            "city": "Goodyear",
+            "boundary": "Yuma Rd To Siesta Way And Cotton Ln To 115Th Ave",
+            "customers": 51,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 17:56:00 MST",
+            "etr": "2026-08-10 23:30:00 MST"
+        },
+        {
+            "latitude": 33.60525905978022,
+            "longitude": -112.0082530538616,
+            "city": "Phoenix",
+            "boundary": "Willow Ave. to Sweetwater Ave. and 34th St. to",
+            "customers": 14,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 18:09:00 MST",
+            "etr": "2026-08-11 01:00:00 MST"
+        },
+        {
+            "latitude": 33.35043082228498,
+            "longitude": -112.50460451941589,
+            "city": "Buckeye",
+            "boundary": "Lower Buckeye Rd. to Rainbow Trl. and Watson Rd. to Tuthill Rd.",
+            "customers": 25,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 20:12:00 MST",
+            "etr": "2026-08-11 01:00:00 MST"
+        },
+        {
+            "latitude": 33.38148559635293,
+            "longitude": -112.52354837628202,
+            "city": "Buckeye",
+            "boundary": "Southern Ave. to Beloat Rd. and Rainbow Rd. to Verrado Wy.",
+            "customers": 136,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 20:30:00 MST",
+            "etr": "2026-08-11 00:30:00 MST"
+        },
+        {
+            "latitude": 33.58631347326753,
+            "longitude": -112.01790539319893,
+            "city": "Phoenix",
+            "boundary": "Desert Cove Ave. and 30th St.",
+            "customers": 35,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 20:38:00 MST",
+            "etr": "2026-08-11 01:00:00 MST"
+        },
+        {
+            "latitude": 33.56138444223144,
+            "longitude": -112.05539652229285,
+            "city": "Phoenix",
+            "boundary": "Seldon Ln. to Butler Dr. and 12th St. to 14th St.",
+            "customers": 11,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 20:40:00 MST",
+            "etr": "2026-08-11 00:55:00 MST"
+        },
+        {
+            "latitude": 33.9435955001547,
+            "longitude": -113.21665999986358,
+            "city": "Aguila",
+            "boundary": "Black Mountain Rd To 525Th Ave And 3/Mi/W/O Eagle Eye Sub To Aguila Sub",
+            "customers": 106,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 20:49:00 MST",
+            "etr": "2026-08-11 00:25:00 MST"
+        },
+        {
+            "latitude": 33.377036262666856,
+            "longitude": -112.63225676969782,
+            "city": "Buckeye",
+            "boundary": "Baseline Rd. and Ogsley Rd.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 20:56:00 MST",
+            "etr": "2026-08-11 10:00:00 MST"
+        },
+        {
+            "latitude": 33.48731367321324,
+            "longitude": -112.1316796811493,
+            "city": "Phoenix",
+            "boundary": "Osborn Rd. and 31st Ave.",
+            "customers": 28,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 21:08:00 MST",
+            "etr": "2026-08-11 04:00:00 MST"
+        },
+        {
+            "latitude": 32.23400399999128,
+            "longitude": -112.74507399973098,
+            "city": "Ajo",
+            "boundary": "Ocotillo St To Calle 13 And Meqsuite Ln To Ironwood Ave",
+            "customers": 180,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 22:03:00 MST",
+            "etr": "2026-08-11 00:15:00 MST"
+        },
+        {
+            "latitude": 33.38933909935415,
+            "longitude": -112.73252130397175,
+            "city": "Buckeye",
+            "boundary": "Pearl Harbor Memorial Highway to Baseline Rd. and 315th Ave. to Palo Verde Rd.",
+            "customers": 64,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 22:03:00 MST",
+            "etr": "2026-08-11 00:55:00 MST"
+        },
+        {
+            "latitude": 33.3382339462167,
+            "longitude": -112.69405493955088,
+            "city": "Buckeye",
+            "boundary": "Old US 60 and Bruner Rd.",
+            "customers": 11,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 22:05:00 MST",
+            "etr": "2026-08-11 01:20:00 MST"
+        },
+        {
+            "latitude": 33.53181053665221,
+            "longitude": -112.06837022967966,
+            "city": "Phoenix",
+            "boundary": "McLellan Blvd. to Maryland Ave. and 3rd St. to 4th St.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 22:36:00 MST",
+            "etr": "2026-08-11 03:00:00 MST"
+        }
+    ]
+}
