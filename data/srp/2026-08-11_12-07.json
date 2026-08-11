@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-11 12:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 64
+    },
+    "outages": [
+        {
+            "latitude": 33.4334781538157,
+            "longitude": -112.180849952614,
+            "boundary": "S 59TH  AVE TO S 55TH  AVE AND W BUCKEYE  RD TO W LOWER BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 09:34 MST",
+            "etr": "2026-08-11 15:09 MST"
+        },
+        {
+            "latitude": 33.647741789163504,
+            "longitude": -111.6795463296675,
+            "boundary": "UNKNOWN TO N BEELINE  HWY AND E JOMAX  RD TO UNKNOWN",
+            "customers": 4,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 03:53 MST",
+            "etr": "2026-08-11 13:36 MST"
+        },
+        {
+            "latitude": 33.4976441295724,
+            "longitude": -112.218368087696,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W SELLS  DR TO W INDIAN SCHOOL  RD",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 01:18 MST",
+            "etr": "2026-08-11 13:00 MST"
+        },
+        {
+            "latitude": 33.3483491464513,
+            "longitude": -111.7684278605345,
+            "boundary": "S LINDSAY  RD TO S 31ST  ST AND E GUADALUPE  RD TO E MESQUITE  ST",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 11:13 MST",
+            "etr": "2026-08-11 13:14 MST"
+        },
+        {
+            "latitude": 33.50722512848585,
+            "longitude": -112.1458944652125,
+            "boundary": "GRAND  AVE TO N 39TH  AVE AND W CAMELBACK  RD TO GRAND  AVE",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 01:46 MST",
+            "etr": "2026-08-11 16:00 MST"
+        },
+        {
+            "latitude": 33.5497998534903,
+            "longitude": -112.137727555699,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W NORTHERN  AVE TO W ORANGEWOOD  AVE",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 07:18 MST",
+            "etr": "2026-08-11 16:00 MST"
+        },
+        {
+            "latitude": 33.80058050035805,
+            "longitude": -111.250088652982,
+            "boundary": "N HWY 188   TO UNKNOWN AND NORTHERN BOUNDS OF SERVICE TERRITORY TO HWY 188  ",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-11 08:40 MST",
+            "etr": "2026-08-11 13:00 MST"
+        },
+        {
+            "latitude": 33.3483491464513,
+            "longitude": -111.7684278605345,
+            "boundary": "S LINDSAY  RD TO S 31ST  ST AND E GUADALUPE  RD TO E MESQUITE  ST",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 11:56 MST",
+            "etr": "2026-08-11 13:54 MST"
+        },
+        {
+            "latitude": 33.5307827337009,
+            "longitude": -112.1571719954515,
+            "boundary": "N 47TH  AVE TO N 43RD  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 01:29 MST",
+            "etr": "2026-08-11 18:00 MST"
+        },
+        {
+            "latitude": 33.506505460584,
+            "longitude": -112.1352558250525,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W CAMELBACK  RD TO W CAMPBELL  AVE",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 01:39 MST",
+            "etr": "2026-08-11 18:00 MST"
+        }
+    ]
+}
