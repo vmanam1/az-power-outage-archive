@@ -1,0 +1,234 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-10 22:07:36 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 20,
+        "customers_affected": 4017
+    },
+    "outages": [
+        {
+            "latitude": 33.38401225980517,
+            "longitude": -112.47805139579901,
+            "city": "Buckeye",
+            "boundary": "Lower Buckeye Rd. to Lower River Rd. and Airport Rd. to Citrus Rd.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 14:28:00 MST",
+            "etr": "2026-08-10 17:00:00 MST"
+        },
+        {
+            "latitude": 33.36865799986456,
+            "longitude": -112.58745999992763,
+            "city": "Buckeye",
+            "boundary": "Maricopa Rd. to Watkins Ave. and Rooks Rd. to Dean Rd.",
+            "customers": 1693,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 13:53:00 MST",
+            "etr": "2026-08-10 16:10:00 MST"
+        },
+        {
+            "latitude": 33.38609633203581,
+            "longitude": -112.53173531815092,
+            "city": "Buckeye",
+            "boundary": "MC 85 to Beloat Rd. and Rainbow Rd. to Verrado Wy.",
+            "customers": 106,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 17:53:00 MST",
+            "etr": "2026-08-10 22:30:00 MST"
+        },
+        {
+            "latitude": 33.37313694899137,
+            "longitude": -112.57497031739233,
+            "city": "Buckeye",
+            "boundary": "Eason Ave. to MC 85 and 9th St.",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 23:35:00 MST",
+            "etr": "2026-08-10 17:00:00 MST"
+        },
+        {
+            "latitude": 33.359346378196534,
+            "longitude": -112.75032907766776,
+            "city": "Arlington",
+            "boundary": "Union Pacific Railroad and Salome Hwy.",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 03:54:00 MST",
+            "etr": "2026-08-10 19:00:00 MST"
+        },
+        {
+            "latitude": 33.38662130679358,
+            "longitude": -112.80582106524315,
+            "city": "Tonopah",
+            "boundary": "Broadway Rd. to Elliot Rd. and 375th Ave. to 339th Ave.",
+            "customers": 19,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 19:34:00 MST",
+            "etr": "2026-08-10 18:00:00 MST"
+        },
+        {
+            "latitude": 34.34111000029822,
+            "longitude": -112.18243000043068,
+            "city": "Mayer",
+            "boundary": "Spring Valley Rd. to Forest Service Rd. 52 and Senator Highway to I-17",
+            "customers": 820,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 10:25:00 MST",
+            "etr": "2026-08-10 17:00:00 MST"
+        },
+        {
+            "latitude": 33.571265432780606,
+            "longitude": -112.09049554558301,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave To Desert Cove Rd And 21St Dr To 15Th Dr",
+            "customers": 102,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:20:00 MST",
+            "etr": "2026-08-10 19:00:00 MST"
+        },
+        {
+            "latitude": 35.028669384159684,
+            "longitude": -110.70259115885781,
+            "city": "Winslow",
+            "boundary": "Oak St to Aspinwall St and Douglas Ave to Campbell Ave",
+            "customers": 13,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 12:43:00 MST",
+            "etr": "2026-08-10 16:10:00 MST"
+        },
+        {
+            "latitude": 33.37036639098451,
+            "longitude": -112.52119757591332,
+            "city": "Buckeye",
+            "boundary": "MC85 to Beloat Rd. and Dean Rd.",
+            "customers": 58,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 12:49:00 MST",
+            "etr": "2026-08-10 17:00:00 MST"
+        },
+        {
+            "latitude": 33.57386279016756,
+            "longitude": -112.09641397096661,
+            "city": "Phoenix",
+            "boundary": "Vogel Ave. and 14th Ave.",
+            "customers": 20,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 12:55:00 MST",
+            "etr": "2026-08-10 17:00:00 MST"
+        },
+        {
+            "latitude": 33.458537966860824,
+            "longitude": -112.67981993641972,
+            "city": "Palo Verde",
+            "boundary": "McDowell Rd. to Taylor St. and 293rd Ave. to Sun Valley Pwky.",
+            "customers": 20,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 12:56:00 MST",
+            "etr": "2026-08-10 17:00:00 MST"
+        },
+        {
+            "latitude": 33.45696682233165,
+            "longitude": -112.68911961424455,
+            "city": "Buckeye",
+            "boundary": "Tonopah Salome Hwy. to Pierce St. and 297th Dr. to 295th Ave.",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-10 12:59:00 MST",
+            "etr": "2026-08-10 17:00:00 MST"
+        },
+        {
+            "latitude": 33.352188842751914,
+            "longitude": -112.75096815712718,
+            "city": "Arlington",
+            "boundary": "Dobbins Rd To Agua Caliente Rd And 483Rd Ave To 363Rd Ave",
+            "customers": 36,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-09 15:19:00 MST",
+            "etr": "2026-08-10 17:00:00 MST"
+        },
+        {
+            "latitude": 33.33363848927697,
+            "longitude": -112.6987765547528,
+            "city": "Palo Verde",
+            "boundary": "Narramore Rd. and Bruner Rd.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 13:18:00 MST",
+            "etr": "2026-08-10 16:30:00 MST"
+        },
+        {
+            "latitude": 33.34069012104489,
+            "longitude": -112.68173846028718,
+            "city": "Buckeye",
+            "boundary": "Salome Highway and Dobbins Rd",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 18:24:00 MST",
+            "etr": "2026-08-10 21:00:00 MST"
+        },
+        {
+            "latitude": 32.80312470004674,
+            "longitude": -113.52629649976467,
+            "city": "Dateland",
+            "boundary": "Gila River To County 2Nd St And 61St Ave To Avenue 70",
+            "customers": 219,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 14:02:00 MST",
+            "etr": "2026-08-10 16:15:00 MST"
+        },
+        {
+            "latitude": 32.911744999931784,
+            "longitude": -113.58230599958874,
+            "city": "Dateland",
+            "boundary": "County 15Th St To Interstate 8 And Palmas Rd To Agua Caliente Rd",
+            "customers": 45,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 14:04:00 MST",
+            "etr": "2026-08-10 16:15:00 MST"
+        },
+        {
+            "latitude": 34.785173935023074,
+            "longitude": -111.77812494136802,
+            "city": "Sedona",
+            "boundary": "Sand Rock Rd. to Verde Valley School Rd. and Oak Creek Dr. to Sedona St.",
+            "customers": 73,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 14:14:00 MST",
+            "etr": "2026-08-10 17:35:00 MST"
+        },
+        {
+            "latitude": 33.49376999966228,
+            "longitude": -112.94205999961058,
+            "city": "Tonopah",
+            "boundary": "Glendale Ave to Lower Buckeye Rd and 467th Ave to Wintersburg Rd",
+            "customers": 731,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 14:18:00 MST",
+            "etr": "2026-08-10 18:20:00 MST"
+        }
+    ]
+}
