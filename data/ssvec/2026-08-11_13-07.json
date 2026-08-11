@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-08-11 13:07:06 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 256
+    },
+    "outages": [
+        {
+            "incident_id": 20366,
+            "latitude": 32.29706128086937,
+            "longitude": -109.86898474457445,
+            "city": "Willcox",
+            "customers": 205,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:42:38 MST",
+            "etr": "2026-08-10 22:43:08 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20389,
+            "latitude": 32.333273981837756,
+            "longitude": -109.91014269552363,
+            "city": "Willcox",
+            "customers": 14,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:43:08 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 19679,
+            "latitude": 31.934552982820158,
+            "longitude": -109.66148750613786,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:19:48 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20291,
+            "latitude": 32.34792291203212,
+            "longitude": -109.89260906262243,
+            "city": "Willcox",
+            "customers": 14,
+            "cause": "SSVEC Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:42:12 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20395,
+            "latitude": 32.358409287308845,
+            "longitude": -109.91018787888234,
+            "city": "Willcox",
+            "customers": 22,
+            "cause": "SSVEC Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:42:12 MST",
+            "etr": null,
+            "restored_time": null
+        }
+    ]
+}
