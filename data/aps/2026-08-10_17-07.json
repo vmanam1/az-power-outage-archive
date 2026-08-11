@@ -1,0 +1,146 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-10 17:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 12,
+        "customers_affected": 1065
+    },
+    "outages": [
+        {
+            "latitude": 33.58426500001413,
+            "longitude": -112.09904200041514,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave To Desert Cove Rd And 21St Dr To 15Th Dr",
+            "customers": 102,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:20:00 MST",
+            "etr": "2026-08-10 19:00:00 MST"
+        },
+        {
+            "latitude": 33.535975999629365,
+            "longitude": -112.16952300014025,
+            "city": "Glendale",
+            "boundary": "Orangewood Ave To Bethany Home Rd And 55Th Ave To 48Th Ave",
+            "customers": 54,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 13:50:00 MST",
+            "etr": "2026-08-10 12:00:00 MST"
+        },
+        {
+            "latitude": 33.38401225980517,
+            "longitude": -112.47805139579901,
+            "city": "Buckeye",
+            "boundary": "Lower Buckeye Rd. to Lower River Rd. and Airport Rd. to Citrus Rd.",
+            "customers": 80,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 14:28:00 MST",
+            "etr": "2026-08-10 13:00:00 MST"
+        },
+        {
+            "latitude": 33.36865799986456,
+            "longitude": -112.58745999992763,
+            "city": "Buckeye",
+            "boundary": "Maricopa Rd. to Watkins Ave. and Rooks Rd. to Dean Rd.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 14:38:00 MST",
+            "etr": "2026-08-10 13:30:00 MST"
+        },
+        {
+            "latitude": 33.37768200021202,
+            "longitude": -112.67710500035736,
+            "city": "Buckeye",
+            "boundary": "Yuma Rd To Hazen Rd And 321St Ave To 255Th Ave",
+            "customers": 6,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 14:45:00 MST",
+            "etr": "2026-08-10 11:00:00 MST"
+        },
+        {
+            "latitude": 33.3423195003384,
+            "longitude": -112.90432100017692,
+            "city": "Arlington",
+            "boundary": "Dobbins Rd To Agua Caliente Rd And 483Rd Ave To 363Rd Ave",
+            "customers": 42,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-09 15:19:00 MST",
+            "etr": "2026-08-10 16:30:00 MST"
+        },
+        {
+            "latitude": 33.38609633203581,
+            "longitude": -112.53173531815092,
+            "city": "Buckeye",
+            "boundary": "Dean Rd to Beloat Rd and 25th Ave to Verrado Way",
+            "customers": 137,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 17:53:00 MST",
+            "etr": "2026-08-10 13:00:00 MST"
+        },
+        {
+            "latitude": 33.3591249412286,
+            "longitude": -112.75036673324782,
+            "city": "Buckeye",
+            "boundary": "Salome Highway and Dobbins Rd",
+            "customers": 296,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 18:24:00 MST",
+            "etr": "2026-08-10 11:30:00 MST"
+        },
+        {
+            "latitude": 33.439015999751426,
+            "longitude": -112.67734600038179,
+            "city": "Buckeye",
+            "boundary": "Tonopah Salome Hwy To Baseline Rd And 315Th Ave To 290Th Ave",
+            "customers": 22,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 14:30:00 MST",
+            "etr": "2026-08-10 13:00:00 MST"
+        },
+        {
+            "latitude": 33.37313694899137,
+            "longitude": -112.57497031739233,
+            "city": "Buckeye",
+            "boundary": "Eason Ave. to MC 85 and 9th St.",
+            "customers": 19,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 23:35:00 MST",
+            "etr": "2026-08-10 11:00:00 MST"
+        },
+        {
+            "latitude": 33.359346378196534,
+            "longitude": -112.75032907766776,
+            "city": "Arlington",
+            "boundary": "Union Pacific Railroad and Salome Hwy.",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 03:54:00 MST",
+            "etr": "2026-08-10 12:00:00 MST"
+        },
+        {
+            "latitude": 33.38662130679358,
+            "longitude": -112.80582106524315,
+            "city": "Tonopah",
+            "boundary": "Broadway Rd. to Elliot Rd. and 375th Ave. to 339th Ave.",
+            "customers": 284,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-09 19:34:00 MST",
+            "etr": "2026-08-10 11:30:00 MST"
+        }
+    ]
+}

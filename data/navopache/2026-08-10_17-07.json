@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-10 17:07:15 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 61,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 33.93139673956479,
+            "longitude": -109.2193371982896,
+            "customers": 48,
+            "cause": "LIGHTNING",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-10 16:20:51 MST",
+            "etr": null,
+            "incident_id": "532302"
+        },
+        {
+            "latitude": 34.115972872086736,
+            "longitude": -109.25200892517756,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-10 09:55:39 MST",
+            "etr": null,
+            "incident_id": "532246"
+        },
+        {
+            "latitude": 34.037838912919845,
+            "longitude": -110.49004908361775,
+            "customers": 8,
+            "cause": "LIGHTNING",
+            "comments": null,
+            "boundary": "3 - Reservation",
+            "start_time": "2026-08-10 15:51:59 MST",
+            "etr": null,
+            "incident_id": "532298"
+        },
+        {
+            "latitude": 34.03978923215718,
+            "longitude": -110.47353804869333,
+            "customers": 3,
+            "cause": "LIGHTNING",
+            "comments": null,
+            "boundary": "3 - Reservation",
+            "start_time": "2026-08-10 15:45:16 MST",
+            "etr": null,
+            "incident_id": "532296"
+        },
+        {
+            "latitude": 34.21155358108565,
+            "longitude": -109.88187166987849,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-10 15:21:53 MST",
+            "etr": null,
+            "incident_id": "532293"
+        }
+    ]
+}
