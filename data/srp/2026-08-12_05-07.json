@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 05:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.3848582864312,
+            "longitude": -111.83887784965,
+            "boundary": "S COUNTRY CLUB  DR TO S CENTER  ST AND W SOUTHERN  AVE TO W BASELINE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 03:45 MST",
+            "etr": "2026-08-12 06:00 MST"
+        }
+    ]
+}
