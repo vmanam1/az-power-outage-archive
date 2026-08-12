@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 08:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 33.42601764618695,
+            "longitude": -111.49664971767999,
+            "boundary": "N ARROYA  RD TO N MOUNTAIN VIEW  RD AND E TEPEE  ST TO E SUPERSTITION  BLVD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 07:21 MST",
+            "etr": "2026-08-12 09:20 MST"
+        },
+        {
+            "latitude": 33.4134932383203,
+            "longitude": -111.6536359737275,
+            "boundary": "S 80TH  ST TO S HAWES  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 07:29 MST",
+            "etr": "2026-08-12 11:00 MST"
+        },
+        {
+            "latitude": 33.3950882786727,
+            "longitude": -111.87220650887,
+            "boundary": "S DOBSON  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 05:40 MST",
+            "etr": "2026-08-12 12:00 MST"
+        },
+        {
+            "latitude": 33.330335132760595,
+            "longitude": -111.99782103049151,
+            "boundary": "S 36TH  ST TO S WARNER-ELLIOT  LOOP AND E WARNER  RD TO E KNOX  RD",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 06:35 MST",
+            "etr": "2026-08-12 12:59 MST"
+        },
+        {
+            "latitude": 33.42426802263955,
+            "longitude": -111.6223512045355,
+            "boundary": "N ELLSWORTH  RD TO N CRISMON  RD AND E ADOBE  RD TO E APACHE  TRL",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 08:06 MST",
+            "etr": "2026-08-12 12:03 MST"
+        }
+    ]
+}
