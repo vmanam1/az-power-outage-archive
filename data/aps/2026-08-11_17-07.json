@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-11 17:07:15 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 203
+    },
+    "outages": [
+        {
+            "latitude": 33.37313694899137,
+            "longitude": -112.57497031739233,
+            "city": "Buckeye",
+            "boundary": "Eason Ave. to MC 85 and 9th St.",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-09 23:35:00 MST",
+            "etr": "2026-08-11 10:30:00 MST"
+        },
+        {
+            "latitude": 33.359346378196534,
+            "longitude": -112.75032907766776,
+            "city": "Arlington",
+            "boundary": "Union Pacific Railroad and Salome Hwy.",
+            "customers": 19,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 03:54:00 MST",
+            "etr": "2026-08-11 11:00:00 MST"
+        },
+        {
+            "latitude": 33.45696682233165,
+            "longitude": -112.68911961424455,
+            "city": "Buckeye",
+            "boundary": "Tonopah Salome Hwy. to Pierce St. and 297th Dr. to 295th Ave.",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-10 12:59:00 MST",
+            "etr": "2026-08-11 15:00:00 MST"
+        },
+        {
+            "latitude": 33.53181053665221,
+            "longitude": -112.06837022967966,
+            "city": "Phoenix",
+            "boundary": "McLellan Blvd. to Maryland Ave. and 3rd St. to 4th St.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-10 22:36:00 MST",
+            "etr": "2026-08-11 12:00:00 MST"
+        },
+        {
+            "latitude": 33.37758041795413,
+            "longitude": -112.59375253140624,
+            "city": "Buckeye",
+            "boundary": "Maricopa Rd. to Watkins Ave. and Rooks Rd. to Dean Rd.",
+            "customers": 6,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-11 00:39:00 MST",
+            "etr": "2026-08-11 15:00:00 MST"
+        },
+        {
+            "latitude": 33.35132157472074,
+            "longitude": -112.69027974621316,
+            "city": "Palo Verde",
+            "boundary": "Old Hwy 80 and Bruner Rd",
+            "customers": 5,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-09 14:45:00 MST",
+            "etr": "2026-08-11 10:30:00 MST"
+        },
+        {
+            "latitude": 34.56994149715228,
+            "longitude": -110.09488756339645,
+            "city": "Snowflake",
+            "boundary": "Despain Ave and Riggs St",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-11 08:19:00 MST",
+            "etr": "2026-08-11 11:15:00 MST"
+        },
+        {
+            "latitude": 34.64014148683305,
+            "longitude": -111.76926126086636,
+            "city": "Rimrock",
+            "boundary": "Ghost Rider Way to TeePee Terrace and Navajo Ln to Deer Run Trail",
+            "customers": 120,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-11 09:54:00 MST",
+            "etr": "2026-08-11 13:30:00 MST"
+        }
+    ]
+}

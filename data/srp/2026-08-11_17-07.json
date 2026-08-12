@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-11 17:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 60
+    },
+    "outages": [
+        {
+            "latitude": 33.5497998534903,
+            "longitude": -112.137727555699,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W NORTHERN  AVE TO W ORANGEWOOD  AVE",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 07:18 MST",
+            "etr": "2026-08-11 19:30 MST"
+        },
+        {
+            "latitude": 33.385244611219704,
+            "longitude": -112.321563622905,
+            "boundary": "S DYSART  RD TO S 119TH  AVE AND W SOUTHERN  AVE TO W INDIAN SPRINGS  RD",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 13:44 MST",
+            "etr": "2026-08-11 19:37 MST"
+        },
+        {
+            "latitude": 33.3486846642891,
+            "longitude": -111.76748167112899,
+            "boundary": "S LINDSAY  RD TO S 31ST  ST AND E GUADALUPE  RD TO E MESQUITE  ST",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 11:56 MST",
+            "etr": "2026-08-11 20:54 MST"
+        },
+        {
+            "latitude": 33.42194228349995,
+            "longitude": -111.807117054353,
+            "boundary": "N HORNE   TO N HARRIS  DR AND E 8TH  ST TO E MAIN  ST",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 16:39 MST",
+            "etr": "2026-08-11 18:38 MST"
+        },
+        {
+            "latitude": 33.3948893969652,
+            "longitude": -111.731596589723,
+            "boundary": "S GREENFIELD  RD TO S ROANOKE   AND E PUEBLO  AVE TO E SUPERSTITION  FWY",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 16:49 MST",
+            "etr": "2026-08-11 18:47 MST"
+        }
+    ]
+}
