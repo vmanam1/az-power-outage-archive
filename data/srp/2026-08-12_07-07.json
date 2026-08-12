@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 07:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 91
+    },
+    "outages": [
+        {
+            "latitude": 33.395244939792605,
+            "longitude": -111.87172795382949,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 29,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 05:40 MST",
+            "etr": "2026-08-12 07:30 MST"
+        },
+        {
+            "latitude": 33.3950882786727,
+            "longitude": -111.87316613373949,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 05:40 MST",
+            "etr": "2026-08-12 07:30 MST"
+        },
+        {
+            "latitude": 33.39559833618635,
+            "longitude": -111.8712246930575,
+            "boundary": "S DOBSON  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 30,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 05:38 MST",
+            "etr": "2026-08-12 07:53 MST"
+        },
+        {
+            "latitude": 33.33039184362695,
+            "longitude": -111.99827400891701,
+            "boundary": "S 36TH  ST TO S WARNER-ELLIOT  LOOP AND E WARNER  RD TO E KNOX  RD",
+            "customers": 15,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 06:35 MST",
+            "etr": "2026-08-12 08:35 MST"
+        }
+    ]
+}
