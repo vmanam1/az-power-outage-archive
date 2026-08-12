@@ -1,0 +1,124 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 10:07:06 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 69
+    },
+    "outages": [
+        {
+            "latitude": 33.4134932383203,
+            "longitude": -111.6536359737275,
+            "boundary": "S 80TH  ST TO S HAWES  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 07:29 MST",
+            "etr": "2026-08-12 11:00 MST"
+        },
+        {
+            "latitude": 33.3950882786727,
+            "longitude": -111.87220650887,
+            "boundary": "S DOBSON  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 05:40 MST",
+            "etr": "2026-08-12 12:00 MST"
+        },
+        {
+            "latitude": 33.330335132760595,
+            "longitude": -111.99782103049151,
+            "boundary": "S 36TH  ST TO S WARNER-ELLIOT  LOOP AND E WARNER  RD TO E KNOX  RD",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 06:35 MST",
+            "etr": "2026-08-12 12:59 MST"
+        },
+        {
+            "latitude": 33.42426802263955,
+            "longitude": -111.6223512045355,
+            "boundary": "N ELLSWORTH  RD TO N CRISMON  RD AND E ADOBE  RD TO E APACHE  TRL",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 08:06 MST",
+            "etr": "2026-08-12 12:03 MST"
+        },
+        {
+            "latitude": 33.4120189291722,
+            "longitude": -111.68824627807,
+            "boundary": "S 64TH  ST TO S POWER  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 08:18 MST",
+            "etr": "2026-08-12 10:15 MST"
+        },
+        {
+            "latitude": 33.558853591513696,
+            "longitude": -111.53568819837,
+            "boundary": "N BEELINE  HWY TO UNKNOWN AND NORTHERN BOUNDS OF SERVICE TERRITORY TO E MCDOWELL  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 08:26 MST",
+            "etr": "2026-08-12 11:00 MST"
+        },
+        {
+            "latitude": 33.3956980735056,
+            "longitude": -111.9380871643735,
+            "boundary": "S HARDY  DR TO S COLLEGE  AVE AND E ALAMEDA  DR TO E SOUTHERN  AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 09:18 MST",
+            "etr": "2026-08-12 11:16 MST"
+        },
+        {
+            "latitude": 33.45562742444615,
+            "longitude": -112.1477131779105,
+            "boundary": "N 43RD  AVE TO N 39TH  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 09:18 MST",
+            "etr": "2026-08-12 13:00 MST"
+        },
+        {
+            "latitude": 33.390955591613945,
+            "longitude": -111.4357184183945,
+            "boundary": "S EDGEMORE  RD TO S BLACKHAWK  RD AND E SOUTHERN  AVE TO E OBSIDIAN  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 09:24 MST",
+            "etr": "2026-08-12 11:23 MST"
+        },
+        {
+            "latitude": 33.411598948952246,
+            "longitude": -111.6428815714285,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 09:35 MST",
+            "etr": "2026-08-12 12:33 MST"
+        },
+        {
+            "latitude": 33.3277500195833,
+            "longitude": -111.940664891361,
+            "boundary": "S KYRENE  RD TO S MILL  AVE AND W WARNER  RD TO W RAY  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-12 10:00 MST",
+            "etr": "2026-08-12 11:56 MST"
+        }
+    ]
+}
