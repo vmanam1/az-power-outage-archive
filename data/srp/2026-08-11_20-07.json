@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-11 20:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 97
+    },
+    "outages": [
+        {
+            "latitude": 33.417148222993504,
+            "longitude": -111.961182153276,
+            "boundary": "S 52ND  ST TO S HARDY  DR AND W UNIVERSITY  DR TO W 13TH  ST",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-11 17:29 MST",
+            "etr": "2026-08-11 23:30 MST"
+        },
+        {
+            "latitude": 33.42194228349995,
+            "longitude": -111.807117054353,
+            "boundary": "N HORNE   TO N HARRIS  DR AND E 8TH  ST TO E MAIN  ST",
+            "customers": 46,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 16:39 MST",
+            "etr": "2026-08-11 23:00 MST"
+        },
+        {
+            "latitude": 33.3486846642891,
+            "longitude": -111.767509671129,
+            "boundary": "S LINDSAY  RD TO S 31ST  ST AND E GUADALUPE  RD TO E MESQUITE  ST",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 11:56 MST",
+            "etr": "2026-08-11 20:54 MST"
+        },
+        {
+            "latitude": 33.4447073296466,
+            "longitude": -111.984198229989,
+            "boundary": "S 44TH  ST TO S HOHOKAM  EXPY AND E VAN BUREN  ST TO W HOHOKAM  EXPY",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 19:45 MST",
+            "etr": "2026-08-11 21:44 MST"
+        },
+        {
+            "latitude": 33.519771678703904,
+            "longitude": -112.234825493317,
+            "boundary": "CARDINALS  WAY TO N 79TH  AVE AND W BETHANY HOME  RD TO W MISSOURI  AVE",
+            "customers": 8,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 17:41 MST",
+            "etr": "2026-08-12 00:30 MST"
+        },
+        {
+            "latitude": 33.346384784753596,
+            "longitude": -111.7714709934165,
+            "boundary": "N BURK  ST TO S 31ST  ST AND E GUADALUPE  RD TO E WARNER  RD",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 19:33 MST",
+            "etr": "2026-08-11 22:23 MST"
+        }
+    ]
+}
