@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 00:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 60
+    },
+    "outages": [
+        {
+            "latitude": 33.519771678703904,
+            "longitude": -112.234825493317,
+            "boundary": "CARDINALS  WAY TO N 79TH  AVE AND W BETHANY HOME  RD TO W MISSOURI  AVE",
+            "customers": 8,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 17:41 MST",
+            "etr": "2026-08-12 00:30 MST"
+        },
+        {
+            "latitude": 33.431362326689296,
+            "longitude": -111.54475676095001,
+            "boundary": "N SAN MARCOS  DR TO N APACHE  TRL AND W LOST DUTCHMAN  BLVD TO E SUPERSTITION  BLVD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 20:29 MST",
+            "etr": "2026-08-12 01:00 MST"
+        },
+        {
+            "latitude": 33.421990990814805,
+            "longitude": -111.807053294759,
+            "boundary": "N HORNE   TO N HARRIS  DR AND E 8TH  ST TO E MAIN  ST",
+            "customers": 27,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 16:39 MST",
+            "etr": "2026-08-12 02:00 MST"
+        },
+        {
+            "latitude": 33.346384784753596,
+            "longitude": -111.77101982099501,
+            "boundary": "N BURK  ST TO S 31ST  ST AND E GUADALUPE  RD TO E WARNER  RD",
+            "customers": 24,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 19:33 MST",
+            "etr": "2026-08-12 01:59 MST"
+        }
+    ]
+}
