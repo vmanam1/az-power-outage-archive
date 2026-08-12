@@ -1,0 +1,86 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-08-12 09:07:06 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 225
+    },
+    "outages": [
+        {
+            "incident_id": 20409,
+            "latitude": 31.548132404859675,
+            "longitude": -110.27310242986138,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-12 07:53:24 MST",
+            "etr": "2026-08-12 10:53:24 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20366,
+            "latitude": 32.29706128086937,
+            "longitude": -109.86898474457445,
+            "city": "Willcox",
+            "customers": 199,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:42:38 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 19679,
+            "latitude": 31.934552982820158,
+            "longitude": -109.66148750613786,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:19:48 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20291,
+            "latitude": 32.34764785068477,
+            "longitude": -109.8845050135604,
+            "city": "Willcox",
+            "customers": 9,
+            "cause": "SSVEC Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:42:12 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20344,
+            "latitude": 32.26240210068496,
+            "longitude": -109.85653370813706,
+            "city": "Willcox",
+            "customers": 2,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:42:38 MST",
+            "etr": "2026-08-10 22:43:11 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20408,
+            "latitude": 32.297254859302235,
+            "longitude": -109.35605884918392,
+            "city": "Willcox",
+            "customers": 13,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-12 03:53:31 MST",
+            "etr": null,
+            "restored_time": null
+        }
+    ]
+}
