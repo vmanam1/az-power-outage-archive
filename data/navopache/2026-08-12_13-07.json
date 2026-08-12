@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-12 13:07:36 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 259,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.023865276334284,
+            "longitude": -109.4552707245436,
+            "customers": 66,
+            "cause": "PUBLIC ACCIDENTS, OTHER",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-12 11:45:25 MST",
+            "etr": null,
+            "incident_id": "532359"
+        },
+        {
+            "latitude": 34.15207271199422,
+            "longitude": -109.96185766278762,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-12 08:21:49 MST",
+            "etr": null,
+            "incident_id": "532346"
+        },
+        {
+            "latitude": 34.19719996977288,
+            "longitude": -110.02638364965492,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-12 08:12:33 MST",
+            "etr": null,
+            "incident_id": "532345"
+        },
+        {
+            "latitude": 34.09629178278337,
+            "longitude": -109.29090597698537,
+            "customers": 189,
+            "cause": "TREES",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-12 12:25:43 MST",
+            "etr": null,
+            "incident_id": "532363"
+        },
+        {
+            "latitude": 33.7809891926906,
+            "longitude": -109.95408723557891,
+            "customers": 2,
+            "cause": "MAINTENANCE",
+            "comments": null,
+            "boundary": "3 - Reservation",
+            "start_time": "2026-08-12 11:47:36 MST",
+            "etr": null,
+            "incident_id": "532361"
+        }
+    ]
+}

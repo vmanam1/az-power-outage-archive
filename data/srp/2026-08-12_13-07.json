@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 13:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.5995332459149,
+            "longitude": -112.17677232647199,
+            "boundary": "N MARSHALL RANCH  DR TO N 51ST  AVE AND W MARSHALL RANCH  DR TO W CACTUS  RD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 10:34 MST",
+            "etr": "2026-08-13 06:00 MST"
+        },
+        {
+            "latitude": 33.3950882786727,
+            "longitude": -111.87220650887,
+            "boundary": "S DOBSON  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 05:40 MST",
+            "etr": "2026-08-12 14:00 MST"
+        },
+        {
+            "latitude": 33.584575384313595,
+            "longitude": -112.1884100679535,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W CHOLLA  ST TO W PEORIA  AVE",
+            "customers": 15,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 12:29 MST",
+            "etr": "2026-08-12 14:29 MST"
+        }
+    ]
+}
