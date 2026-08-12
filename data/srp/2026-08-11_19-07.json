@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-11 19:07:36 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 106
+    },
+    "outages": [
+        {
+            "latitude": 33.417148222993504,
+            "longitude": -111.961182153276,
+            "boundary": "S 52ND  ST TO S HARDY  DR AND W UNIVERSITY  DR TO W 13TH  ST",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-11 17:29 MST",
+            "etr": "2026-08-11 23:30 MST"
+        },
+        {
+            "latitude": 33.42194228349995,
+            "longitude": -111.807117054353,
+            "boundary": "N HORNE   TO N HARRIS  DR AND E 8TH  ST TO E MAIN  ST",
+            "customers": 46,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 16:39 MST",
+            "etr": "2026-08-11 23:00 MST"
+        },
+        {
+            "latitude": 33.5197584179996,
+            "longitude": -112.235671885384,
+            "boundary": "N 87TH  AVE TO N 79TH  AVE AND W BETHANY HOME  RD TO W MISSOURI  AVE",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-11 17:41 MST",
+            "etr": "2026-08-11 19:41 MST"
+        },
+        {
+            "latitude": 33.3486846642891,
+            "longitude": -111.767509671129,
+            "boundary": "S LINDSAY  RD TO S 31ST  ST AND E GUADALUPE  RD TO E MESQUITE  ST",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 11:56 MST",
+            "etr": "2026-08-11 20:54 MST"
+        },
+        {
+            "latitude": 33.5497998534903,
+            "longitude": -112.137727555699,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W NORTHERN  AVE TO W ORANGEWOOD  AVE",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 07:18 MST",
+            "etr": "2026-08-11 20:30 MST"
+        },
+        {
+            "latitude": 33.49376120786245,
+            "longitude": -112.18512621350601,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 14,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-11 17:40 MST",
+            "etr": "2026-08-11 20:21 MST"
+        }
+    ]
+}
