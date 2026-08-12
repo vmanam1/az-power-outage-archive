@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 15:07:15 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 33.5995332459149,
+            "longitude": -112.17677232647199,
+            "boundary": "N MARSHALL RANCH  DR TO N 51ST  AVE AND W MARSHALL RANCH  DR TO W CACTUS  RD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 10:34 MST",
+            "etr": "2026-08-13 06:00 MST"
+        },
+        {
+            "latitude": 33.7624594975683,
+            "longitude": -111.786329724921,
+            "boundary": "WESTERN BOUNDS OF SERVICE TERRITORY TO N 140TH  ST AND E LONE MOUNTAIN  RD TO E DIXILETA  DR",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 14:56 MST",
+            "etr": "2026-08-12 19:53 MST"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-12 15:07:15 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.15207271199422,
+            "longitude": -109.96185766278762,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-12 08:21:49 MST",
+            "etr": null,
+            "incident_id": "532346"
+        },
+        {
+            "latitude": 34.19719996977288,
+            "longitude": -110.02638364965492,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-12 08:12:33 MST",
+            "etr": null,
+            "incident_id": "532345"
+        },
+        {
+            "latitude": 34.426905005147916,
+            "longitude": -110.54839466132944,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-12 14:10:45 MST",
+            "etr": null,
+            "incident_id": "532792"
+        }
+    ]
+}
