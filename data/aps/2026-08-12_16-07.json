@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-12 16:07:29 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 79
+    },
+    "outages": [
+        {
+            "latitude": 33.351963773037205,
+            "longitude": -112.80383121693875,
+            "city": "Arlington",
+            "boundary": "Sunrise Dr. to Western Star Blvd. and 351st Ave. to 349th Ave.",
+            "customers": 8,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-12 02:04:00 MST",
+            "etr": "2026-08-12 10:30:00 MST"
+        },
+        {
+            "latitude": 34.57050079321602,
+            "longitude": -112.48744008768533,
+            "city": "Prescott",
+            "boundary": "White Cloud Ln to Quarry Ln and Meadow Ridge Rd to Oaklawn Dr",
+            "customers": 15,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-12 08:26:00 MST",
+            "etr": "2026-08-12 11:15:00 MST"
+        },
+        {
+            "latitude": 33.510632279186055,
+            "longitude": -111.92060551405994,
+            "city": "Scottsdale",
+            "boundary": "Bonita Dr. to Chaparral Rd. and Siesta Rd.",
+            "customers": 56,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-12 08:23:00 MST",
+            "etr": "2026-08-12 12:23:00 MST"
+        }
+    ]
+}

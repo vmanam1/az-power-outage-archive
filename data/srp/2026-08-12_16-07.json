@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 16:07:29 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 59
+    },
+    "outages": [
+        {
+            "latitude": 33.5995332459149,
+            "longitude": -112.17677232647199,
+            "boundary": "N MARSHALL RANCH  DR TO N 51ST  AVE AND W MARSHALL RANCH  DR TO W CACTUS  RD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 10:34 MST",
+            "etr": "2026-08-13 06:00 MST"
+        },
+        {
+            "latitude": 33.7624594975683,
+            "longitude": -111.786329724921,
+            "boundary": "WESTERN BOUNDS OF SERVICE TERRITORY TO N 140TH  ST AND E LONE MOUNTAIN  RD TO E DIXILETA  DR",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 14:56 MST",
+            "etr": "2026-08-12 19:53 MST"
+        },
+        {
+            "latitude": 33.4263316380536,
+            "longitude": -112.152226402869,
+            "boundary": "S 51ST  AVE TO S 35TH  AVE AND W VAN BUREN  ST TO W BROADWAY  RD",
+            "customers": 44,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 15:40 MST",
+            "etr": "2026-08-12 17:39 MST"
+        },
+        {
+            "latitude": 33.4298389594502,
+            "longitude": -112.155795707992,
+            "boundary": "S 51ST  AVE TO S 39TH  AVE AND W VAN BUREN  ST TO W ELWOOD  ST",
+            "customers": 13,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 15:41 MST",
+            "etr": "2026-08-12 17:39 MST"
+        }
+    ]
+}
