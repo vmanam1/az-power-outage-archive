@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-13 14:07:26 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 190,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.09629178278337,
+            "longitude": -109.29090597698537,
+            "customers": 189,
+            "cause": "PUBLIC ACCIDENTS, OTHER",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-13 13:59:42 MST",
+            "etr": null,
+            "incident_id": "532829"
+        },
+        {
+            "latitude": 34.25335234162552,
+            "longitude": -110.08761281942903,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "6 - Linden",
+            "start_time": "2026-08-13 13:55:59 MST",
+            "etr": null,
+            "incident_id": "532826"
+        }
+    ]
+}
