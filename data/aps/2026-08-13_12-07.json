@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-13 12:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 32.940265630171645,
+            "longitude": -113.4379988006829,
+            "city": "Dateland",
+            "boundary": "Hyder Rd. to Hidden Ranch Rd.",
+            "customers": 13,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-12 14:29:00 MST",
+            "etr": "2026-08-13 05:45:00 MST"
+        },
+        {
+            "latitude": 33.47045406665243,
+            "longitude": -112.3309910743464,
+            "city": "Avondale",
+            "boundary": "West Monte Vista Rd to West Palm Ln and North Rancho Santa Fe Bv",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-13 04:14:00 MST",
+            "etr": "2026-08-13 07:00:00 MST"
+        },
+        {
+            "latitude": 33.593067224055815,
+            "longitude": -112.2884465804195,
+            "city": "Sun City",
+            "boundary": "West Riviera Dr and North Cherry Hills Drive East",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-13 04:46:00 MST",
+            "etr": "2026-08-13 06:00:00 MST"
+        },
+        {
+            "latitude": 33.379825377242526,
+            "longitude": -112.57796283197919,
+            "city": "Buckeye",
+            "boundary": "East Graces Ave to East Baseline Rd and 5th Avenue East to North Pima Rd",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-13 04:48:00 MST",
+            "etr": "2026-08-13 08:30:00 MST"
+        }
+    ]
+}

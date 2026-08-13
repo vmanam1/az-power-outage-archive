@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-13 12:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 33.4109746655226,
+            "longitude": -111.6430046113595,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 08:46 MST",
+            "etr": "2026-08-13 12:45 MST"
+        },
+        {
+            "latitude": 33.410960456407054,
+            "longitude": -111.6422703152165,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 08:47 MST",
+            "etr": "2026-08-13 12:45 MST"
+        },
+        {
+            "latitude": 33.474855764284854,
+            "longitude": -111.9372960995905,
+            "boundary": "N 64TH  ST TO N SCOTTSDALE  RD AND E THOMAS  RD TO E MCDOWELL  RD",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-13 11:21 MST",
+            "etr": "2026-08-13 13:20 MST"
+        }
+    ]
+}
