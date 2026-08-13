@@ -1,0 +1,124 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 19:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 2427
+    },
+    "outages": [
+        {
+            "latitude": 33.4263316380536,
+            "longitude": -112.152226402869,
+            "boundary": "S 51ST  AVE TO S 35TH  AVE AND W VAN BUREN  ST TO W BROADWAY  RD",
+            "customers": 44,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 15:40 MST",
+            "etr": "2026-08-12 17:47 MST"
+        },
+        {
+            "latitude": 33.505498271727106,
+            "longitude": -111.96500067045551,
+            "boundary": "N 44TH  ST TO N 64TH  ST AND E MCDONALD  DR TO E INDIAN SCHOOL  RD",
+            "customers": 386,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 17:16 MST",
+            "etr": "2026-08-12 19:15 MST"
+        },
+        {
+            "latitude": 33.4298389594502,
+            "longitude": -112.155795707992,
+            "boundary": "S 51ST  AVE TO S 39TH  AVE AND W VAN BUREN  ST TO W ELWOOD  ST",
+            "customers": 6,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 15:41 MST",
+            "etr": "2026-08-13 05:30 MST"
+        },
+        {
+            "latitude": 33.49771289732805,
+            "longitude": -111.9808445833705,
+            "boundary": "N 44TH  ST TO N 52ND  ST AND E CAMPBELL  AVE TO E INDIAN SCHOOL  RD",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 18:22 MST",
+            "etr": "2026-08-12 19:45 MST"
+        },
+        {
+            "latitude": 33.4210776151524,
+            "longitude": -111.89737988502151,
+            "boundary": "S MCCLINTOCK  DR TO S PRICE  RD AND E RIO SALADO  PKWY TO E APACHE  BLVD",
+            "customers": 45,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 18:24 MST",
+            "etr": "2026-08-12 20:22 MST"
+        },
+        {
+            "latitude": 33.367833127460855,
+            "longitude": -111.8104115987035,
+            "boundary": "N HORNE  ST TO N NEELY  ST AND W HOUSTON  AVE TO W GUADALUPE  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 18:36 MST",
+            "etr": "2026-08-12 20:33 MST"
+        },
+        {
+            "latitude": 33.38672371037465,
+            "longitude": -112.07113610411099,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 67,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 18:13 MST",
+            "etr": "2026-08-12 20:35 MST"
+        },
+        {
+            "latitude": 33.37878861520716,
+            "longitude": -111.8058395683925,
+            "boundary": "S CENTER  ST TO N BURK  ST AND E SOUTHERN  AVE TO W GUADALUPE  RD",
+            "customers": 989,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 18:36 MST",
+            "etr": "2026-08-12 20:47 MST"
+        },
+        {
+            "latitude": 33.5512433523702,
+            "longitude": -112.13314716826099,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W NORTHERN  AVE TO W ORANGEWOOD  AVE",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 19:00 MST",
+            "etr": "2026-08-12 20:55 MST"
+        },
+        {
+            "latitude": 33.37732493684855,
+            "longitude": -111.4691794816285,
+            "boundary": "S GERONIMO  RD TO S EDGEMORE  RD AND E SOUTHERN  AVE TO E US HIGHWAY 60  ",
+            "customers": 806,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 19:02 MST",
+            "etr": "2026-08-12 21:01 MST"
+        },
+        {
+            "latitude": 33.4868587484385,
+            "longitude": -112.300393364602,
+            "boundary": "N GARDEN LAKES  PKWY TO N 107TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 36,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 18:09 MST",
+            "etr": "2026-08-12 20:31 MST"
+        }
+    ]
+}
