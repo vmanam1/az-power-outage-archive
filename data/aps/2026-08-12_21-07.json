@@ -1,0 +1,135 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-12 21:07:29 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 2351
+    },
+    "outages": [
+        {
+            "latitude": 34.14275409998978,
+            "longitude": -114.28963760018172,
+            "city": "Parker",
+            "boundary": "11Th St To 21St St And Quartz Ave To California Ave",
+            "customers": 449,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 10:48:00 MST",
+            "etr": "2026-08-12 15:00:00 MST"
+        },
+        {
+            "latitude": 34.148930500248305,
+            "longitude": -114.29643310018453,
+            "city": "Parker",
+            "boundary": "1St St To 16Th St And Reata Ave To California Ave",
+            "customers": 806,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 10:48:00 MST",
+            "etr": "2026-08-12 15:00:00 MST"
+        },
+        {
+            "latitude": 34.151578000073684,
+            "longitude": -114.2867866996095,
+            "city": "Parker",
+            "boundary": "3Rd St To 21St St And Mohave Ave To Arrowhead Ave",
+            "customers": 466,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 10:50:00 MST",
+            "etr": "2026-08-12 15:00:00 MST"
+        },
+        {
+            "latitude": 33.30969194521442,
+            "longitude": -111.85675146523755,
+            "city": "Chandler",
+            "boundary": "Galveston St. to Chandler Blvd. and Alma School Rd. to Evergreen St.",
+            "customers": 212,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 11:24:00 MST",
+            "etr": "2026-08-12 16:00:00 MST"
+        },
+        {
+            "latitude": 33.29656381579399,
+            "longitude": -111.83995251757192,
+            "city": "Chandler",
+            "boundary": "Fairview St. and Washington St. to Colorado St.",
+            "customers": 21,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 11:37:00 MST",
+            "etr": "2026-08-12 16:00:00 MST"
+        },
+        {
+            "latitude": 33.309161963668885,
+            "longitude": -111.85201995599107,
+            "city": "Chandler",
+            "boundary": "Flint St. and Sunset Dr. to Vine St.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 11:38:00 MST",
+            "etr": "2026-08-12 16:00:00 MST"
+        },
+        {
+            "latitude": 33.2985694619475,
+            "longitude": -111.84477948000384,
+            "city": "Chandler",
+            "boundary": "Frye Rd. and Dakota St.",
+            "customers": 21,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 12:00:00 MST",
+            "etr": "2026-08-12 16:00:00 MST"
+        },
+        {
+            "latitude": 33.3134172631352,
+            "longitude": -111.83294123505132,
+            "city": "Chandler",
+            "boundary": "Galvenston St. to Oakland St. and Fresno St. to Hamilton St.",
+            "customers": 21,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 12:38:00 MST",
+            "etr": "2026-08-12 16:00:00 MST"
+        },
+        {
+            "latitude": 33.332877166004955,
+            "longitude": -112.52088049217761,
+            "city": "Buckeye",
+            "boundary": "Eagle Mountain Rd. to Narramore Rd. and 222nd Ave. to 212th Ave.",
+            "customers": 97,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 13:07:00 MST",
+            "etr": "2026-08-12 16:35:00 MST"
+        },
+        {
+            "latitude": 33.617571745182396,
+            "longitude": -111.9300282736551,
+            "city": "Scottsdale",
+            "boundary": "Acoma Dr. and 71st St.",
+            "customers": 110,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-12 13:45:00 MST",
+            "etr": "2026-08-12 16:35:00 MST"
+        },
+        {
+            "latitude": 33.7120608226338,
+            "longitude": -113.79426634123114,
+            "city": "Salome",
+            "boundary": "AZ 72 to US 60 and Mcvay Rd.",
+            "customers": 143,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 14:02:00 MST",
+            "etr": "2026-08-12 17:20:00 MST"
+        }
+    ]
+}

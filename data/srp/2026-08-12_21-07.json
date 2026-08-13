@@ -1,0 +1,124 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 21:07:29 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 1746
+    },
+    "outages": [
+        {
+            "latitude": 33.4263316380536,
+            "longitude": -112.152226402869,
+            "boundary": "S 51ST  AVE TO S 35TH  AVE AND W VAN BUREN  ST TO W BROADWAY  RD",
+            "customers": 44,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 15:40 MST",
+            "etr": "2026-08-12 17:47 MST"
+        },
+        {
+            "latitude": 33.4298389594502,
+            "longitude": -112.155795707992,
+            "boundary": "S 51ST  AVE TO S 39TH  AVE AND W VAN BUREN  ST TO W ELWOOD  ST",
+            "customers": 6,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 15:41 MST",
+            "etr": "2026-08-13 05:30 MST"
+        },
+        {
+            "latitude": 33.49771289732805,
+            "longitude": -111.9808445833705,
+            "boundary": "N 44TH  ST TO N 52ND  ST AND E CAMPBELL  AVE TO E INDIAN SCHOOL  RD",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 18:22 MST",
+            "etr": "2026-08-12 23:45 MST"
+        },
+        {
+            "latitude": 33.49771289732805,
+            "longitude": -111.9808445833705,
+            "boundary": "N 44TH  ST TO N 52ND  ST AND E CAMPBELL  AVE TO E INDIAN SCHOOL  RD",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 18:22 MST",
+            "etr": "2026-08-12 23:45 MST"
+        },
+        {
+            "latitude": 33.4048743871724,
+            "longitude": -111.7933674664315,
+            "boundary": "S STAPLEY  DR TO S 24TH  ST AND E UNIVERSITY  DR TO E SUPERSTITION  FWY",
+            "customers": 1186,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 19:16 MST",
+            "etr": "2026-08-12 23:30 MST"
+        },
+        {
+            "latitude": 33.367836714289396,
+            "longitude": -111.811737244214,
+            "boundary": "N HORNE  ST TO N COOPER  RD AND W HOUSTON  AVE TO W GUADALUPE  RD",
+            "customers": 5,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 18:36 MST",
+            "etr": "2026-08-12 22:15 MST"
+        },
+        {
+            "latitude": 33.380666421498,
+            "longitude": -111.8012270942325,
+            "boundary": "S STAPLEY  DR TO S HARRIS  DR AND E SUPERSTITION  FWY TO W HOUSTON  AVE",
+            "customers": 2,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 18:36 MST",
+            "etr": "2026-08-12 23:59 MST"
+        },
+        {
+            "latitude": 33.39054761451065,
+            "longitude": -111.97286451194151,
+            "boundary": "S 48TH  ST TO S MARICOPA  FWY AND W ALAMEDA  DR TO W VINEYARD  RD",
+            "customers": 40,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 20:32 MST",
+            "etr": "2026-08-12 22:30 MST"
+        },
+        {
+            "latitude": 33.505498271727106,
+            "longitude": -111.96500067045551,
+            "boundary": "N 44TH  ST TO N 64TH  ST AND E MCDONALD  DR TO E INDIAN SCHOOL  RD",
+            "customers": 344,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 17:16 MST",
+            "etr": "2026-08-13 05:00 MST"
+        },
+        {
+            "latitude": 33.5085376823304,
+            "longitude": -112.1364343251505,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 52,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 20:07 MST",
+            "etr": "2026-08-12 22:25 MST"
+        },
+        {
+            "latitude": 33.39294178237015,
+            "longitude": -111.741269713953,
+            "boundary": "S VAL VISTA  DR TO S GREENFIELD  RD AND E PUEBLO  AVE TO E SUPERSTITION  FWY",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 19:39 MST",
+            "etr": "2026-08-12 23:30 MST"
+        }
+    ]
+}
