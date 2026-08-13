@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-13 02:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 142
+    },
+    "outages": [
+        {
+            "latitude": 33.41337831830115,
+            "longitude": -111.79435575060799,
+            "boundary": "S STAPLEY  DR TO S GILBERT  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 67,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 19:16 MST",
+            "etr": "2026-08-13 05:00 MST"
+        },
+        {
+            "latitude": 33.43021390391645,
+            "longitude": -112.155323635473,
+            "boundary": "S 51ST  AVE TO S 39TH  AVE AND W VAN BUREN  ST TO W ELWOOD  ST",
+            "customers": 17,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 15:41 MST",
+            "etr": "2026-08-13 05:30 MST"
+        },
+        {
+            "latitude": 33.397878320884544,
+            "longitude": -112.137276183301,
+            "boundary": "S 39TH  AVE TO S 35TH  AVE AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 22:01 MST",
+            "etr": "2026-08-13 04:00 MST"
+        },
+        {
+            "latitude": 33.2231588030416,
+            "longitude": -111.791889139525,
+            "boundary": "S COTTONWOOD  ST TO S GILBERT  RD AND E CLOUD  DR TO E RIGGS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 00:45 MST",
+            "etr": "2026-08-13 07:43 MST"
+        },
+        {
+            "latitude": 33.4085562995322,
+            "longitude": -111.7860098929315,
+            "boundary": "N HARRIS  DR TO S 24TH  ST AND E MAIN  ST TO E PUEBLO  AVE",
+            "customers": 17,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 21:18 MST",
+            "etr": "2026-08-13 05:30 MST"
+        },
+        {
+            "latitude": 33.367836714289396,
+            "longitude": -111.811737244214,
+            "boundary": "N HORNE  ST TO N COOPER  RD AND W HOUSTON  AVE TO W GUADALUPE  RD",
+            "customers": 5,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 18:36 MST",
+            "etr": "2026-08-13 04:00 MST"
+        },
+        {
+            "latitude": 33.514141389977496,
+            "longitude": -111.97817385690149,
+            "boundary": "N 44TH  ST TO N 56TH  ST AND E MCDONALD  DR TO E CAMELBACK  RD",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 17:16 MST",
+            "etr": "2026-08-13 07:00 MST"
+        },
+        {
+            "latitude": 33.514141389977496,
+            "longitude": -111.97817385690149,
+            "boundary": "N 44TH  ST TO N 56TH  ST AND E MCDONALD  DR TO E CAMELBACK  RD",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 17:16 MST",
+            "etr": "2026-08-13 07:00 MST"
+        }
+    ]
+}
