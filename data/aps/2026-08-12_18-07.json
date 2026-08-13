@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-12 18:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1734
+    },
+    "outages": [
+        {
+            "latitude": 35.0422155493433,
+            "longitude": -110.7437988868784,
+            "city": "Winslow",
+            "boundary": "Purple Heart Tl and Scenic View Dr",
+            "customers": 13,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 09:17:00 MST",
+            "etr": "2026-08-12 12:00:00 MST"
+        },
+        {
+            "latitude": 34.14275409998978,
+            "longitude": -114.28963760018172,
+            "city": "Parker",
+            "boundary": "11Th St To 21St St And Quartz Ave To California Ave",
+            "customers": 449,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-12 10:48:00 MST",
+            "etr": "2026-08-12 14:50:00 MST"
+        },
+        {
+            "latitude": 34.148930500248305,
+            "longitude": -114.29643310018453,
+            "city": "Parker",
+            "boundary": "1St St To 16Th St And Reata Ave To California Ave",
+            "customers": 806,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-12 10:48:00 MST",
+            "etr": "2026-08-12 13:10:00 MST"
+        },
+        {
+            "latitude": 34.151578000073684,
+            "longitude": -114.2867866996095,
+            "city": "Parker",
+            "boundary": "3Rd St To 21St St And Mohave Ave To Arrowhead Ave",
+            "customers": 466,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-12 10:50:00 MST",
+            "etr": "2026-08-12 14:00:00 MST"
+        }
+    ]
+}

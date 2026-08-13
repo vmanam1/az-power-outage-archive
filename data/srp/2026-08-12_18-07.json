@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-12 18:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1498
+    },
+    "outages": [
+        {
+            "latitude": 33.417731100787,
+            "longitude": -111.58063388109599,
+            "boundary": "N SIGNAL BUTTE  RD TO N IRONWOOD  DR AND W TEPEE  ST TO W 16TH  AVE",
+            "customers": 1062,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 16:40 MST",
+            "etr": "2026-08-12 18:40 MST"
+        },
+        {
+            "latitude": 33.4263316380536,
+            "longitude": -112.152226402869,
+            "boundary": "S 51ST  AVE TO S 35TH  AVE AND W VAN BUREN  ST TO W BROADWAY  RD",
+            "customers": 44,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 15:40 MST",
+            "etr": "2026-08-12 17:47 MST"
+        },
+        {
+            "latitude": 33.505498271727106,
+            "longitude": -111.96500067045551,
+            "boundary": "N 44TH  ST TO N 64TH  ST AND E MCDONALD  DR TO E INDIAN SCHOOL  RD",
+            "customers": 386,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-12 17:16 MST",
+            "etr": "2026-08-12 19:15 MST"
+        },
+        {
+            "latitude": 33.4298389594502,
+            "longitude": -112.155795707992,
+            "boundary": "S 51ST  AVE TO S 39TH  AVE AND W VAN BUREN  ST TO W ELWOOD  ST",
+            "customers": 6,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 15:41 MST",
+            "etr": "2026-08-13 05:30 MST"
+        }
+    ]
+}
