@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-13 04:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 117
+    },
+    "outages": [
+        {
+            "latitude": 33.29656381579399,
+            "longitude": -111.83995251757192,
+            "city": "Chandler",
+            "boundary": "Fairview St. and Washington St. to Colorado St.",
+            "customers": 25,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 11:37:00 MST",
+            "etr": "2026-08-12 22:00:00 MST"
+        },
+        {
+            "latitude": 33.309161963668885,
+            "longitude": -111.85201995599107,
+            "city": "Chandler",
+            "boundary": "Flint St. and Sunset Dr. to Vine St.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 11:38:00 MST",
+            "etr": "2026-08-12 23:00:00 MST"
+        },
+        {
+            "latitude": 33.2985694619475,
+            "longitude": -111.84477948000384,
+            "city": "Chandler",
+            "boundary": "Frye Rd. and Dakota St.",
+            "customers": 21,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 12:00:00 MST",
+            "etr": "2026-08-12 23:00:00 MST"
+        },
+        {
+            "latitude": 32.940265630171645,
+            "longitude": -113.4379988006829,
+            "city": "Dateland",
+            "boundary": "Hyder Rd. to Hidden Ranch Rd.",
+            "customers": 13,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-12 14:29:00 MST",
+            "etr": "2026-08-13 05:00:00 MST"
+        },
+        {
+            "latitude": 33.45885995813267,
+            "longitude": -112.05260064712509,
+            "city": "Phoenix",
+            "boundary": "Diamond St. to Roosevelt St. and 13th St. to 14th St.",
+            "customers": 16,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-12 15:48:00 MST",
+            "etr": "2026-08-12 21:40:00 MST"
+        },
+        {
+            "latitude": 33.63113395596988,
+            "longitude": -111.94693242841355,
+            "city": "Scottsdale",
+            "boundary": "Le Marche Ave. to Carolina Dr. and 61st St. to 64th St.",
+            "customers": 37,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-12 20:10:00 MST",
+            "etr": "2026-08-12 22:35:00 MST"
+        }
+    ]
+}
