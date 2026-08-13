@@ -1,0 +1,144 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-13 09:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 13,
+        "customers_affected": 1833
+    },
+    "outages": [
+        {
+            "latitude": 33.37533009754675,
+            "longitude": -111.782755319858,
+            "boundary": "N GILBERT  RD TO N LINDSAY  RD AND E BASELINE  RD TO E HOUSTON  AVE",
+            "customers": 4,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-13 04:49 MST",
+            "etr": "2026-08-13 13:26 MST"
+        },
+        {
+            "latitude": 33.3619197771366,
+            "longitude": -112.114074273638,
+            "boundary": "S 27TH  AVE TO S 23RD  AVE AND W SOUTH MOUNTAIN  AVE TO W OLNEY  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 07:39 MST",
+            "etr": "2026-08-13 12:38 MST"
+        },
+        {
+            "latitude": 33.41323009050505,
+            "longitude": -111.7932514813105,
+            "boundary": "N HARRIS  DR TO S GILBERT  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 16,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 19:16 MST",
+            "etr": "2026-08-13 10:00 MST"
+        },
+        {
+            "latitude": 33.4457186345024,
+            "longitude": -112.2569693694675,
+            "boundary": "S 95TH  AVE TO N 87TH  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 25,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 07:55 MST",
+            "etr": "2026-08-13 12:53 MST"
+        },
+        {
+            "latitude": 33.43418872936045,
+            "longitude": -111.61825139463599,
+            "boundary": "N 96TH  ST TO N CRISMON  RD AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 07:57 MST",
+            "etr": "2026-08-13 14:52 MST"
+        },
+        {
+            "latitude": 33.5215346422848,
+            "longitude": -112.020765684354,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E BETHANY HOME  RD TO E STANFORD  DR",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 08:26 MST",
+            "etr": "2026-08-13 11:22 MST"
+        },
+        {
+            "latitude": 33.213541218328345,
+            "longitude": -111.8063961516105,
+            "boundary": "S MCQUEEN  RD TO S GILBERT  RD AND E CLOUD  DR TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 1654,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-13 08:30 MST",
+            "etr": "2026-08-13 10:30 MST"
+        },
+        {
+            "latitude": 33.4085482573559,
+            "longitude": -111.785274507271,
+            "boundary": "S GILBERT  RD TO S 24TH  ST AND E MAIN  ST TO E PUEBLO  AVE",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 08:41 MST",
+            "etr": "2026-08-13 10:39 MST"
+        },
+        {
+            "latitude": 33.4109746655226,
+            "longitude": -111.6430046113595,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 08:46 MST",
+            "etr": "2026-08-13 12:45 MST"
+        },
+        {
+            "latitude": 33.514141389977496,
+            "longitude": -111.97817385690149,
+            "boundary": "N 44TH  ST TO N 56TH  ST AND E MCDONALD  DR TO E CAMELBACK  RD",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 17:16 MST",
+            "etr": "2026-08-13 11:00 MST"
+        },
+        {
+            "latitude": 33.514141389977496,
+            "longitude": -111.97817385690149,
+            "boundary": "N 44TH  ST TO N 56TH  ST AND E MCDONALD  DR TO E CAMELBACK  RD",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 17:16 MST",
+            "etr": "2026-08-13 11:00 MST"
+        },
+        {
+            "latitude": 33.410960456407054,
+            "longitude": -111.6422703152165,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 08:47 MST",
+            "etr": "2026-08-13 12:45 MST"
+        },
+        {
+            "latitude": 33.409180073403604,
+            "longitude": -111.664820331848,
+            "boundary": "S 72ND  ST TO S 80TH  ST AND E MAIN  ST TO E PUEBLO  AVE",
+            "customers": 76,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-13 08:51 MST",
+            "etr": "2026-08-13 10:50 MST"
+        }
+    ]
+}
