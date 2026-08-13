@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-13 07:07:28 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 10,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.346886059940964,
+            "longitude": -109.76052724128273,
+            "customers": 9,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-13 07:01:31 MST",
+            "etr": null,
+            "incident_id": "532797"
+        },
+        {
+            "latitude": 34.13534452822922,
+            "longitude": -109.97685952803452,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-13 06:20:34 MST",
+            "etr": null,
+            "incident_id": "532794"
+        }
+    ]
+}
