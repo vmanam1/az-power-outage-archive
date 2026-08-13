@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-12 17:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 34.57050079321602,
+            "longitude": -112.48744008768533,
+            "city": "Prescott",
+            "boundary": "White Cloud Ln to Quarry Ln and Meadow Ridge Rd to Oaklawn Dr",
+            "customers": 10,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-12 08:26:00 MST",
+            "etr": "2026-08-12 11:15:00 MST"
+        },
+        {
+            "latitude": 35.0422155493433,
+            "longitude": -110.7437988868784,
+            "city": "Winslow",
+            "boundary": "Purple Heart Tl and Scenic View Dr",
+            "customers": 13,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-12 09:17:00 MST",
+            "etr": "2026-08-12 12:00:00 MST"
+        }
+    ]
+}
