@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-13 11:07:38 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 57
+    },
+    "outages": [
+        {
+            "latitude": 32.940265630171645,
+            "longitude": -113.4379988006829,
+            "city": "Dateland",
+            "boundary": "Hyder Rd. to Hidden Ranch Rd.",
+            "customers": 13,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-12 14:29:00 MST",
+            "etr": "2026-08-13 05:00:00 MST"
+        },
+        {
+            "latitude": 34.56657984669519,
+            "longitude": -112.37530871238843,
+            "city": "Prescott",
+            "boundary": "Emerald Dr to East Ramada Dr and Cordes Junction Prescott Highway.",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-13 00:48:00 MST",
+            "etr": "2026-08-13 04:30:00 MST"
+        },
+        {
+            "latitude": 33.63539562324054,
+            "longitude": -112.1615968320118,
+            "city": "Glendale",
+            "boundary": "West Aire Libre Ave to West Sandra Tr and North 49th Ave to North 47th Ave",
+            "customers": 36,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-13 03:45:00 MST",
+            "etr": "2026-08-13 06:15:00 MST"
+        }
+    ]
+}
