@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-13 08:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 61
+    },
+    "outages": [
+        {
+            "latitude": 33.37533009754675,
+            "longitude": -111.782755319858,
+            "boundary": "N GILBERT  RD TO N LINDSAY  RD AND E BASELINE  RD TO E HOUSTON  AVE",
+            "customers": 4,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-13 04:49 MST",
+            "etr": "2026-08-13 13:26 MST"
+        },
+        {
+            "latitude": 33.514141389977496,
+            "longitude": -111.97817385690149,
+            "boundary": "N 44TH  ST TO N 56TH  ST AND E MCDONALD  DR TO E CAMELBACK  RD",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 17:16 MST",
+            "etr": "2026-08-13 09:00 MST"
+        },
+        {
+            "latitude": 33.3619197771366,
+            "longitude": -112.114074273638,
+            "boundary": "S 27TH  AVE TO S 23RD  AVE AND W SOUTH MOUNTAIN  AVE TO W OLNEY  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 07:39 MST",
+            "etr": "2026-08-13 12:38 MST"
+        },
+        {
+            "latitude": 33.41323009050505,
+            "longitude": -111.7932514813105,
+            "boundary": "N HARRIS  DR TO S GILBERT  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 16,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-12 19:16 MST",
+            "etr": "2026-08-13 10:00 MST"
+        },
+        {
+            "latitude": 33.4457186345024,
+            "longitude": -112.2569693694675,
+            "boundary": "S 95TH  AVE TO N 87TH  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 25,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 07:55 MST",
+            "etr": "2026-08-13 12:53 MST"
+        },
+        {
+            "latitude": 33.43418872936045,
+            "longitude": -111.61825139463599,
+            "boundary": "N 96TH  ST TO N CRISMON  RD AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-13 07:57 MST",
+            "etr": "2026-08-13 14:52 MST"
+        }
+    ]
+}
