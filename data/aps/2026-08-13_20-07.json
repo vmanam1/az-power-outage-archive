@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-13 20:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 1942
+    },
+    "outages": [
+        {
+            "latitude": 32.95345398079073,
+            "longitude": -112.71697228387055,
+            "city": "Gila Bend",
+            "boundary": "F St. to Pima St. and Dodson St. to Saint Louis St.",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-13 08:40:00 MST",
+            "etr": "2026-08-13 17:00:00 MST"
+        },
+        {
+            "latitude": 32.92782599968109,
+            "longitude": -112.72909199974767,
+            "city": "Gila Bend",
+            "boundary": "Trosper St To First St And Powerline Rd To Stout Rd",
+            "customers": 490,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-13 08:40:00 MST",
+            "etr": "2026-08-13 14:00:00 MST"
+        },
+        {
+            "latitude": 32.37950199993671,
+            "longitude": -112.87497749998015,
+            "city": "Ajo",
+            "boundary": "Childs Mountain To Guest House Rd. And Newell St. To Maple St.",
+            "customers": 1197,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-13 08:43:00 MST",
+            "etr": "2026-08-13 23:00:00 MST"
+        },
+        {
+            "latitude": 32.23400399999128,
+            "longitude": -112.74507399973098,
+            "city": "Ajo",
+            "boundary": "Ocotillo St To Calle 13 And Meqsuite Ln To Ironwood Ave",
+            "customers": 180,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-13 08:46:00 MST",
+            "etr": "2026-08-13 17:00:00 MST"
+        },
+        {
+            "latitude": 32.931516999904694,
+            "longitude": -112.7618380002371,
+            "city": "Gila Bend",
+            "boundary": "I-8 To 2/M/S/O I-8 And Citrus Valley Rd To Gila Bend Substation",
+            "customers": 8,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-13 09:24:00 MST",
+            "etr": "2026-08-13 14:00:00 MST"
+        },
+        {
+            "latitude": 33.496756207078164,
+            "longitude": -112.3526398034488,
+            "city": "Litchfield Park",
+            "boundary": "Fairway Dr to East Wigwam Bv and North Neolin Ave",
+            "customers": 21,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-13 09:56:00 MST",
+            "etr": "2026-08-13 13:30:00 MST"
+        },
+        {
+            "latitude": 35.19871232611055,
+            "longitude": -111.59157666709892,
+            "city": "Flagstaff",
+            "boundary": "Rio De Flag Dr. to Butler Ave. and Coburn Dr. to Continental Dr.",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-13 12:03:00 MST",
+            "etr": "2026-08-13 15:45:00 MST"
+        },
+        {
+            "latitude": 32.823378536017344,
+            "longitude": -111.603374702561,
+            "city": "Eloy",
+            "boundary": "Trona Dr to Tollan Dr and San Juan Rd to Estrella Rd",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-13 12:40:00 MST",
+            "etr": "2026-08-13 16:40:00 MST"
+        }
+    ]
+}
