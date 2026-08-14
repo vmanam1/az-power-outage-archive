@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-14 05:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 49
+    },
+    "outages": [
+        {
+            "latitude": 33.4488004317198,
+            "longitude": -112.255595053401,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-14 03:42 MST",
+            "etr": "2026-08-14 07:00 MST"
+        },
+        {
+            "latitude": 33.3111783876066,
+            "longitude": -111.98434217939649,
+            "boundary": "S 44TH  ST TO S 48TH  ST AND E RAY  RD TO E CHANDLER  BLVD",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-14 04:37 MST",
+            "etr": "2026-08-14 06:35 MST"
+        },
+        {
+            "latitude": 33.4702244056132,
+            "longitude": -112.202411146097,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 23,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-14 03:01 MST",
+            "etr": "2026-08-14 10:00 MST"
+        }
+    ]
+}
