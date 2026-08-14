@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-14 06:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1257
+    },
+    "outages": [
+        {
+            "latitude": 32.95345398079073,
+            "longitude": -112.71697228387055,
+            "city": "Gila Bend",
+            "boundary": "F St. to Pima St. and Dodson St. to Saint Louis St.",
+            "customers": 24,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-13 08:40:00 MST",
+            "etr": "2026-08-14 02:00:00 MST"
+        },
+        {
+            "latitude": 32.92782599968109,
+            "longitude": -112.72909199974767,
+            "city": "Gila Bend",
+            "boundary": "Trosper St To First St And Powerline Rd To Stout Rd",
+            "customers": 31,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-13 08:40:00 MST",
+            "etr": "2026-08-14 02:00:00 MST"
+        },
+        {
+            "latitude": 32.37950199993671,
+            "longitude": -112.87497749998015,
+            "city": "Ajo",
+            "boundary": "Childs Mountain To Guest House Rd. And Newell St. To Maple St.",
+            "customers": 1197,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-13 08:43:00 MST",
+            "etr": "2026-08-14 02:00:00 MST"
+        },
+        {
+            "latitude": 32.931516999904694,
+            "longitude": -112.7618380002371,
+            "city": "Gila Bend",
+            "boundary": "I-8 To 2/M/S/O I-8 And Citrus Valley Rd To Gila Bend Substation",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-13 09:24:00 MST",
+            "etr": "2026-08-14 02:00:00 MST"
+        }
+    ]
+}
