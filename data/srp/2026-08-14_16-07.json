@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-14 16:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 80
+    },
+    "outages": [
+        {
+            "latitude": 33.43141974822025,
+            "longitude": -111.8453531939625,
+            "boundary": "N EXTENSION  RD TO N COUNTRY CLUB  DR AND W BROWN  RD TO W UNIVERSITY  DR",
+            "customers": 50,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-14 15:24 MST",
+            "etr": "2026-08-14 17:23 MST"
+        },
+        {
+            "latitude": 33.5273635564493,
+            "longitude": -112.09487510483001,
+            "boundary": "N 19TH  AVE TO N 15TH  AVE AND W MARYLAND  AVE TO W BETHANY HOME  RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-14 15:36 MST",
+            "etr": "2026-08-14 17:39 MST"
+        },
+        {
+            "latitude": 33.4328951164794,
+            "longitude": -111.845485461017,
+            "boundary": "N ALMA SCHOOL  RD TO N COUNTRY CLUB  DR AND W BROWN  RD TO W RIO SALADO  PKWY",
+            "customers": 18,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-14 14:16 MST",
+            "etr": "2026-08-14 16:25 MST"
+        }
+    ]
+}
