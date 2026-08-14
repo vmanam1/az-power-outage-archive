@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-08-14 07:07:33 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 86
+    },
+    "outages": [
+        {
+            "incident_id": 20419,
+            "latitude": 31.66186091320263,
+            "longitude": -110.68201102416809,
+            "city": "Sierra Vista",
+            "customers": 24,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-13 23:27:15 MST",
+            "etr": "2026-08-14 02:27:15 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20366,
+            "latitude": 32.29706128086937,
+            "longitude": -109.86898474457445,
+            "city": "Willcox",
+            "customers": 57,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:42:38 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20417,
+            "latitude": 31.536571288432214,
+            "longitude": -110.25172331537662,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-13 14:57:18 MST",
+            "etr": "2026-08-13 17:57:18 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19679,
+            "latitude": 31.934552982820158,
+            "longitude": -109.66148750613786,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:19:48 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20412,
+            "latitude": 32.23559735779249,
+            "longitude": -109.73152029946345,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-13 09:06:31 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20397,
+            "latitude": 32.33790375918502,
+            "longitude": -109.85572833626735,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:42:38 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20416,
+            "latitude": 31.5377949196767,
+            "longitude": -110.2513196145868,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-13 14:19:50 MST",
+            "etr": "2026-08-13 17:19:50 MST",
+            "restored_time": null
+        }
+    ]
+}
