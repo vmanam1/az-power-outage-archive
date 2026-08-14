@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-14 11:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.3110588943337,
+            "longitude": -111.962414165209,
+            "boundary": "S MARICOPA  FWY TO N KYRENE  RD AND W RAY  RD TO W CHANDLER  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-14 06:50 MST",
+            "etr": "2026-08-14 12:45 MST"
+        },
+        {
+            "latitude": 33.4702244056132,
+            "longitude": -112.202411146097,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 23,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-14 03:01 MST",
+            "etr": "2026-08-14 14:30 MST"
+        },
+        {
+            "latitude": 33.48159767304065,
+            "longitude": -112.151080218703,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 3,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-08-14 08:51 MST",
+            "etr": "2026-08-14 16:00 MST"
+        },
+        {
+            "latitude": 33.29712759934135,
+            "longitude": -112.088394198446,
+            "boundary": "S 19TH  AVE TO S 24TH  ST AND W CHANDLER  BLVD TO E SOUTH MOUNTAIN  FWY",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-14 10:33 MST",
+            "etr": "2026-08-14 12:30 MST"
+        }
+    ]
+}
