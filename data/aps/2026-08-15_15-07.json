@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-15 15:07:29 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1339
+    },
+    "outages": [
+        {
+            "latitude": 32.593500318217274,
+            "longitude": -114.65915655869355,
+            "city": "Yuma",
+            "boundary": "E County 14th St to W County 18th St and Hwy 95 to B Main Lateral",
+            "customers": 1339,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-15 07:56:00 MST",
+            "etr": "2026-08-15 12:57:00 MST"
+        }
+    ]
+}
