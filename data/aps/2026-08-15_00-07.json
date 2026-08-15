@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-15 00:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 82
+    },
+    "outages": [
+        {
+            "latitude": 31.366829948322135,
+            "longitude": -109.52681285923313,
+            "city": "Douglas",
+            "boundary": "Dahlia St. to 27th St. and Washington Ave. to Violet Ave.",
+            "customers": 82,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-14 16:05:00 MST",
+            "etr": "2026-08-14 19:30:00 MST"
+        }
+    ]
+}
