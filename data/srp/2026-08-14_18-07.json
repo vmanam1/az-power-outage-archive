@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-14 18:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 85
+    },
+    "outages": [
+        {
+            "latitude": 33.4024933279472,
+            "longitude": -111.7960158706165,
+            "boundary": "S STAPLEY  DR TO S GILBERT  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 85,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-14 17:14 MST",
+            "etr": "2026-08-14 19:16 MST"
+        }
+    ]
+}
