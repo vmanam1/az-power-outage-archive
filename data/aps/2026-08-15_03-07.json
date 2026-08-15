@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-15 03:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 34.27886633009095,
+            "longitude": -114.13505629301461,
+            "city": "Parker",
+            "boundary": "Sunset Blvd and Colorado River to Highway 95",
+            "customers": 58,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-14 19:13:00 MST",
+            "etr": "2026-08-14 23:00:00 MST"
+        }
+    ]
+}
