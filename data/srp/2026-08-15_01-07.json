@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-15 01:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 126
+    },
+    "outages": [
+        {
+            "latitude": 33.4024933279472,
+            "longitude": -111.7960158706165,
+            "boundary": "S STAPLEY  DR TO S GILBERT  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 75,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-14 17:14 MST",
+            "etr": "2026-08-15 02:00 MST"
+        },
+        {
+            "latitude": 33.44909336217265,
+            "longitude": -112.187048864003,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-14 23:11 MST",
+            "etr": "2026-08-15 05:00 MST"
+        },
+        {
+            "latitude": 33.496214524835295,
+            "longitude": -112.133291603112,
+            "boundary": "GRAND  AVE TO GRAND  AVE AND W CAMPBELL  AVE TO GRAND  AVE",
+            "customers": 5,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-14 23:32 MST",
+            "etr": "2026-08-15 08:00 MST"
+        },
+        {
+            "latitude": 33.3827654183914,
+            "longitude": -111.599767851368,
+            "boundary": "S 104TH  ST TO S SPRINGWOOD  BLVD AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-14 23:18 MST",
+            "etr": "2026-08-15 04:00 MST"
+        },
+        {
+            "latitude": 33.3088562265842,
+            "longitude": -111.946307345828,
+            "boundary": "N 56TH  ST TO N MILL  AVE AND W GALVESTON  ST TO W CHANDLER  BLVD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-15 00:26 MST",
+            "etr": "2026-08-15 04:00 MST"
+        },
+        {
+            "latitude": 33.46258461360695,
+            "longitude": -111.7685923762125,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E MCDOWELL  RD TO E HERMOSA VISTA  DR",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-14 23:46 MST",
+            "etr": "2026-08-15 01:51 MST"
+        }
+    ]
+}
