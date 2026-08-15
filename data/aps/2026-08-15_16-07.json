@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-15 16:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1118
+    },
+    "outages": [
+        {
+            "latitude": 32.593500318217274,
+            "longitude": -114.65915655869355,
+            "city": "Yuma",
+            "boundary": "E County 14th St to W County 18th St and Hwy 95 to B Main Lateral",
+            "customers": 1094,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-15 07:56:00 MST",
+            "etr": "2026-08-15 11:30:00 MST"
+        },
+        {
+            "latitude": 32.75789106966373,
+            "longitude": -111.66942083022118,
+            "city": "Arizona City",
+            "boundary": "Swansea Dr. to Pineveta Dr. and Sunland Gin Rd. to Ventage Rd.",
+            "customers": 24,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-15 08:09:00 MST",
+            "etr": "2026-08-15 10:45:00 MST"
+        }
+    ]
+}
