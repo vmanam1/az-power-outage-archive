@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-15 05:07:08 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.61344720596229,
+            "longitude": -112.0410081462,
+            "city": "Phoenix",
+            "boundary": "Shenna Dr to Sharon Dr and 18th St to 20th St",
+            "customers": 34,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-14 20:19:00 MST",
+            "etr": "2026-08-14 23:00:00 MST"
+        }
+    ]
+}
