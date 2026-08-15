@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-14 17:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 33.60181353410693,
+            "longitude": -112.17657097524693,
+            "city": "Glendale",
+            "boundary": "North 55th Dr to North 56th Ave and West Surrey Ave to West Wood Rd",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-14 09:19:00 MST",
+            "etr": "2026-08-14 12:00:00 MST"
+        }
+    ]
+}
