@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-14 20:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 77
+    },
+    "outages": [
+        {
+            "latitude": 33.4024933279472,
+            "longitude": -111.7960158706165,
+            "boundary": "S STAPLEY  DR TO S GILBERT  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 75,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-14 17:14 MST",
+            "etr": "2026-08-14 23:00 MST"
+        },
+        {
+            "latitude": 33.4153668719803,
+            "longitude": -111.98850466467499,
+            "boundary": "S 40TH  ST TO S HOHOKAM  EXPY AND E UNIVERSITY  DR TO E MARICOPA  FWY",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-14 18:24 MST",
+            "etr": "2026-08-14 23:38 MST"
+        },
+        {
+            "latitude": 33.4153668719803,
+            "longitude": -111.98850466467499,
+            "boundary": "S 40TH  ST TO S HOHOKAM  EXPY AND E UNIVERSITY  DR TO E MARICOPA  FWY",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-14 18:24 MST",
+            "etr": "2026-08-14 23:38 MST"
+        }
+    ]
+}

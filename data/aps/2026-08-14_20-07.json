@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-14 20:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1867
+    },
+    "outages": [
+        {
+            "latitude": 34.55980010317624,
+            "longitude": -112.28155397073783,
+            "city": "Dewey",
+            "boundary": "Old Black Canyon Highway to Bradshaw Mountain Rd. and Swiss Rd. to AZ 69",
+            "customers": 1867,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-14 12:23:00 MST",
+            "etr": "2026-08-14 14:50:00 MST"
+        }
+    ]
+}
