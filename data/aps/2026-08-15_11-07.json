@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-15 11:07:38 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 76
+    },
+    "outages": [
+        {
+            "latitude": 35.09373759894135,
+            "longitude": -111.58785573110605,
+            "city": "Flagstaff",
+            "boundary": "Lake Mary Rd. and Crimson Rd.",
+            "customers": 69,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-08-14 23:32:00 MST",
+            "etr": "2026-08-15 08:00:00 MST"
+        },
+        {
+            "latitude": 32.9724401971715,
+            "longitude": -111.52520582990454,
+            "city": "Coolidge",
+            "boundary": "Lincoln Ave to Seagoe Ave and Arnold Way to Arizona Blvd",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-15 01:56:00 MST",
+            "etr": "2026-08-15 05:00:00 MST"
+        }
+    ]
+}

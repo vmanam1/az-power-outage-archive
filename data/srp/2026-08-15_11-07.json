@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-15 11:07:38 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.54979138930925,
+            "longitude": -112.157553473649,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W NORTHERN  AVE TO W ORANGEWOOD  AVE",
+            "customers": 36,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-15 09:16 MST",
+            "etr": "2026-08-15 11:27 MST"
+        }
+    ]
+}
