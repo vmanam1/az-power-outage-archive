@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-15 18:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 35.0406971459843,
+            "longitude": -110.72899867365194,
+            "city": "Winslow",
+            "boundary": "Pima Dr. to Maricopi Dr. and Papago Blvd. to Hopi Blvd.",
+            "customers": 9,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-15 10:10:00 MST",
+            "etr": "2026-08-15 13:45:00 MST"
+        }
+    ]
+}
