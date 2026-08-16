@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-16 08:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 77
+    },
+    "outages": [
+        {
+            "latitude": 34.78937881765085,
+            "longitude": -111.77694417599564,
+            "city": "Sedona",
+            "boundary": "Merry Go Round Rock Rd. to Bell Rock Blvd. and Oak Creek Dr. to Sedona St.",
+            "customers": 77,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-15 21:44:00 MST",
+            "etr": "2026-08-16 02:15:00 MST"
+        }
+    ]
+}

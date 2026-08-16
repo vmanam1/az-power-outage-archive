@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-16 08:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.4882776145632,
+            "longitude": -112.1435274576565,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-16 04:14 MST",
+            "etr": "2026-08-16 10:00 MST"
+        },
+        {
+            "latitude": 33.4157062140709,
+            "longitude": -111.565951592745,
+            "boundary": "N DELAWARE  DR TO N IRONWOOD  DR AND W SUPERSTITION  BLVD TO W BROADWAY  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-16 07:03 MST",
+            "etr": "2026-08-16 13:02 MST"
+        },
+        {
+            "latitude": 33.3774004954165,
+            "longitude": -111.81822225071801,
+            "boundary": "N MCQUEEN  RD TO S HORNE   AND E SUPERSTITION  FWY TO W HOUSTON  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-16 07:37 MST",
+            "etr": "2026-08-16 11:00 MST"
+        },
+        {
+            "latitude": 33.5362687809587,
+            "longitude": -112.0372435552835,
+            "boundary": "N PIESTEWA  FWY TO N 24TH  ST AND E ORANGEWOOD  AVE TO E MARYLAND  AVE",
+            "customers": 14,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-15 20:47 MST",
+            "etr": "2026-08-16 11:00 MST"
+        }
+    ]
+}
