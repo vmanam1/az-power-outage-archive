@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-16 07:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 182
+    },
+    "outages": [
+        {
+            "latitude": 33.80875633906565,
+            "longitude": -111.9373719382207,
+            "city": "Carefree",
+            "boundary": "Secluded Ln to El Sendero Rd and 66th Pl to Ridgeway Dr",
+            "customers": 9,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-15 21:31:00 MST",
+            "etr": "2026-08-16 00:30:00 MST"
+        },
+        {
+            "latitude": 34.78937881765085,
+            "longitude": -111.77694417599564,
+            "city": "Sedona",
+            "boundary": "Merry Go Round Rock Rd. to Bell Rock Blvd. and Oak Creek Dr. to Sedona St.",
+            "customers": 77,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-15 21:44:00 MST",
+            "etr": "2026-08-16 01:14:00 MST"
+        },
+        {
+            "latitude": 34.55730743305703,
+            "longitude": -112.35076493141595,
+            "city": "Prescott",
+            "boundary": "El Dorado Dr to Vista Del Oro and Fitzmaurice Dr to Destiny Dr",
+            "customers": 96,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-15 23:22:00 MST",
+            "etr": "2026-08-16 02:45:00 MST"
+        }
+    ]
+}
