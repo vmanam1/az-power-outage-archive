@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-16 16:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 193
+    },
+    "outages": [
+        {
+            "latitude": 33.47146683613535,
+            "longitude": -111.980293453282,
+            "boundary": "N 44TH  ST TO N 52ND  ST AND E THOMAS  RD TO E MCDOWELL  RD",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-16 13:16 MST",
+            "etr": "2026-08-16 20:08 MST"
+        },
+        {
+            "latitude": 33.33426785504075,
+            "longitude": -111.99638571053549,
+            "boundary": "S 36TH  ST TO S WARNER-ELLIOT  LOOP AND E ELLIOT  RD TO E KNOX  RD",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-16 15:11 MST",
+            "etr": "2026-08-16 17:02 MST"
+        },
+        {
+            "latitude": 33.369085211912946,
+            "longitude": -111.779554612888,
+            "boundary": "N BURK  ST TO N LINDSAY  RD AND E HOUSTON  AVE TO E GUADALUPE  RD",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-16 14:23 MST",
+            "etr": "2026-08-16 20:30 MST"
+        },
+        {
+            "latitude": 33.38830795866565,
+            "longitude": -112.32206861386601,
+            "boundary": "S DYSART  RD TO S 119TH  AVE AND W BROADWAY  RD TO W INDIAN SPRINGS  RD",
+            "customers": 31,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-16 14:04 MST",
+            "etr": "2026-08-16 21:00 MST"
+        },
+        {
+            "latitude": 33.41956495991375,
+            "longitude": -111.7048885085785,
+            "boundary": "N 56TH  ST TO N 64TH  ST AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 75,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-16 15:11 MST",
+            "etr": "2026-08-16 17:14 MST"
+        },
+        {
+            "latitude": 33.384333505497196,
+            "longitude": -111.878071803322,
+            "boundary": "S EVERGREEN  RD TO S DOBSON  RD AND W SOUTHERN  AVE TO W BASELINE  RD",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-16 14:51 MST",
+            "etr": "2026-08-16 17:28 MST"
+        },
+        {
+            "latitude": 33.48178329914095,
+            "longitude": -111.981254914715,
+            "boundary": "N 44TH  ST TO N 52ND  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 37,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-16 14:03 MST",
+            "etr": "2026-08-16 21:00 MST"
+        }
+    ]
+}
