@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-16 11:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 245
+    },
+    "outages": [
+        {
+            "latitude": 32.70275366214335,
+            "longitude": -114.63031606025864,
+            "city": "Yuma",
+            "boundary": "11th St to 16th St and 11th Ave to 7th Ave",
+            "customers": 245,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-16 03:50:00 MST",
+            "etr": "2026-08-16 07:15:00 MST"
+        }
+    ]
+}
