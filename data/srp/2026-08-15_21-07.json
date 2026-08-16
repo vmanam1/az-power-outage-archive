@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-15 21:07:08 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 33.53588113337365,
+            "longitude": -112.037253199892,
+            "boundary": "N PIESTEWA  FWY TO N 24TH  ST AND E ORANGEWOOD  AVE TO E MARYLAND  AVE",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-15 20:47 MST",
+            "etr": "2026-08-15 22:46 MST"
+        }
+    ]
+}
