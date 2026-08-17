@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 00:07:29 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.57994177889031,
+            "longitude": -112.01852217287976,
+            "city": "Phoenix",
+            "boundary": "Cochise Rd to Beryl Ave and Beryl Ave to 29th St",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-16 15:00:00 MST",
+            "etr": "2026-08-16 18:00:00 MST"
+        }
+    ]
+}

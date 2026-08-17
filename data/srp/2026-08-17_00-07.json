@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-17 00:07:29 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.3907570897302,
+            "longitude": -112.322157169912,
+            "boundary": "S DYSART  RD TO S 119TH  AVE AND W BROADWAY  RD TO W VINEYARD  RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-16 23:21 MST",
+            "etr": "2026-08-17 03:00 MST"
+        },
+        {
+            "latitude": 33.3096878064995,
+            "longitude": -111.9810710611215,
+            "boundary": "S 44TH  ST TO S MARICOPA  FWY AND E THISTLE LANDING  DR TO E CHANDLER  BLVD",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-16 21:06 MST",
+            "etr": "2026-08-17 05:00 MST"
+        },
+        {
+            "latitude": 33.4123334656443,
+            "longitude": -112.007261930108,
+            "boundary": "S 32ND  ST TO S 36TH  ST AND E ELWOOD  ST TO E BROADWAY  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-16 20:26 MST",
+            "etr": "2026-08-17 02:30 MST"
+        }
+    ]
+}
