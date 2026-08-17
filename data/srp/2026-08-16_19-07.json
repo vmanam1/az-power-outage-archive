@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-16 19:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 33.38830795866565,
+            "longitude": -112.32206861386601,
+            "boundary": "S DYSART  RD TO S 119TH  AVE AND W BROADWAY  RD TO W INDIAN SPRINGS  RD",
+            "customers": 31,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-16 14:04 MST",
+            "etr": "2026-08-16 21:00 MST"
+        },
+        {
+            "latitude": 33.3005180226857,
+            "longitude": -112.091722992369,
+            "boundary": "S 19TH  AVE TO S 24TH  ST AND W CHANDLER  BLVD TO E SOUTH MOUNTAIN  FWY",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-16 16:38 MST",
+            "etr": "2026-08-16 23:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-16 19:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 33.562222796264784,
+            "longitude": -111.92426508972902,
+            "city": "Scottsdale",
+            "boundary": "San Alfredo Dr. to Eastwood Ln. and Scottsdale Rd. to 73rd Way.",
+            "customers": 35,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-16 10:43:00 MST",
+            "etr": "2026-08-16 13:40:00 MST"
+        }
+    ]
+}
