@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 12:07:38 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.53702517234495,
+            "longitude": -112.1969960893379,
+            "city": "Glendale",
+            "boundary": "Lamar Rd and 64th Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-17 02:55:00 MST",
+            "etr": "2026-08-17 06:00:00 MST"
+        }
+    ]
+}

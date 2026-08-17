@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-08-17 12:07:38 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "incident_id": 20439,
+            "latitude": 31.698936002468166,
+            "longitude": -109.65241900160214,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-17 10:44:00 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20431,
+            "latitude": 31.938861221531713,
+            "longitude": -110.22872093516591,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-16 19:04:08 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20433,
+            "latitude": 31.484626531002785,
+            "longitude": -110.2818288029828,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-17 08:07:52 MST",
+            "etr": "2026-08-17 11:07:52 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 19679,
+            "latitude": 31.934552982820158,
+            "longitude": -109.66148750613786,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:19:48 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20434,
+            "latitude": 31.971572528684344,
+            "longitude": -110.29417501326978,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-17 08:44:31 MST",
+            "etr": "2026-08-17 11:44:31 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20397,
+            "latitude": 32.33790375918502,
+            "longitude": -109.85572833626735,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:42:38 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20437,
+            "latitude": 32.0543449848459,
+            "longitude": -109.94491888776575,
+            "city": "Willcox",
+            "customers": 2,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-17 10:07:00 MST",
+            "etr": null,
+            "restored_time": null
+        }
+    ]
+}

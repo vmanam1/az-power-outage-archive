@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-17 12:07:38 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 32
+    },
+    "outages": [
+        {
+            "latitude": 33.4125593841622,
+            "longitude": -111.64235006984,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-17 09:27 MST",
+            "etr": "2026-08-17 12:30 MST"
+        },
+        {
+            "latitude": 33.4543700148124,
+            "longitude": -112.19910239657301,
+            "boundary": "N 67TH  AVE TO N 63RD  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-17 11:15 MST",
+            "etr": "2026-08-17 17:15 MST"
+        },
+        {
+            "latitude": 33.3996080902724,
+            "longitude": -111.935853707943,
+            "boundary": "S MILL  AVE TO S RURAL  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-17 11:10 MST",
+            "etr": "2026-08-17 16:40 MST"
+        }
+    ]
+}
