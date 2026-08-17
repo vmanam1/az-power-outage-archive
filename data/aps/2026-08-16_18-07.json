@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-16 18:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 63
+    },
+    "outages": [
+        {
+            "latitude": 33.35461643564274,
+            "longitude": -112.81301787502274,
+            "city": "Arlington",
+            "boundary": "Lodge Dr. to Steinway Dr. and 355th Ave. to 353rd Ave.",
+            "customers": 12,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-16 09:43:00 MST",
+            "etr": "2026-08-16 12:45:00 MST"
+        },
+        {
+            "latitude": 33.45480244509911,
+            "longitude": -112.10216199043239,
+            "city": "Phoenix",
+            "boundary": "Fillmore St. to Van Buren St. and 23rd Ave to 21st Ave.",
+            "customers": 16,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-08-16 05:27:00 MST",
+            "etr": "2026-08-16 12:15:00 MST"
+        },
+        {
+            "latitude": 33.562222796264784,
+            "longitude": -111.92426508972902,
+            "city": "Scottsdale",
+            "boundary": "San Alfredo Dr. to Eastwood Ln. and Scottsdale Rd. to 73rd Way.",
+            "customers": 35,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-16 10:43:00 MST",
+            "etr": "2026-08-16 13:45:00 MST"
+        }
+    ]
+}
