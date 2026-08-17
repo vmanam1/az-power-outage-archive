@@ -1,0 +1,86 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-08-17 05:07:28 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "incident_id": 20431,
+            "latitude": 31.938861221531713,
+            "longitude": -110.22872093516591,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-16 19:04:08 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20417,
+            "latitude": 31.536571288432214,
+            "longitude": -110.25172331537662,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-13 14:57:18 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 19679,
+            "latitude": 31.934552982820158,
+            "longitude": -109.66148750613786,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-07-25 17:19:48 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20397,
+            "latitude": 32.33790375918502,
+            "longitude": -109.85572833626735,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-10 19:42:38 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 20420,
+            "latitude": 31.46917304871937,
+            "longitude": -110.19195271234787,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-14 13:30:18 MST",
+            "etr": "2026-08-14 16:30:18 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20416,
+            "latitude": 31.5377949196767,
+            "longitude": -110.2513196145868,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-08-13 14:19:50 MST",
+            "etr": null,
+            "restored_time": null
+        }
+    ]
+}
