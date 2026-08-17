@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 16:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3225
+    },
+    "outages": [
+        {
+            "latitude": 33.504626358199744,
+            "longitude": -111.91111529188527,
+            "city": "Scottsdale",
+            "boundary": "Chaparral Rd. to Camelback and 79th Pl. to Hayden Rd.",
+            "customers": 298,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-17 07:39:00 MST",
+            "etr": "2026-08-17 11:15:00 MST"
+        },
+        {
+            "latitude": 33.5807010002744,
+            "longitude": -112.0888819997545,
+            "city": "Phoenix",
+            "boundary": "Cactus Rd To Dunlap Ave And 19Th Ave To Central Ave",
+            "customers": 2927,
+            "cause": "Service interruption to a major power line",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-17 09:02:00 MST",
+            "etr": "2026-08-17 13:15:00 MST"
+        }
+    ]
+}
