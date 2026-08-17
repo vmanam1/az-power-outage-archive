@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 08:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 144
+    },
+    "outages": [
+        {
+            "latitude": 33.8629134249687,
+            "longitude": -112.63505814704672,
+            "city": "Morristown",
+            "boundary": "Carefree Hwy and US 60",
+            "customers": 37,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-16 22:25:00 MST",
+            "etr": "2026-08-17 02:00:00 MST"
+        },
+        {
+            "latitude": 34.588507795737,
+            "longitude": -111.86470886329681,
+            "city": "Camp Verde",
+            "boundary": "Que Paso Ln. to Gardner Ln. and Roundup Rd. to Gardner Ln.",
+            "customers": 99,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-17 00:45:00 MST",
+            "etr": "2026-08-17 03:45:00 MST"
+        },
+        {
+            "latitude": 33.64389449806289,
+            "longitude": -112.10981620528665,
+            "city": "Phoenix",
+            "boundary": "Village Dr and 24th Ln",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-17 01:00:00 MST",
+            "etr": "2026-08-17 04:00:00 MST"
+        }
+    ]
+}
