@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 10:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 63
+    },
+    "outages": [
+        {
+            "latitude": 33.64389449806289,
+            "longitude": -112.10981620528665,
+            "city": "Phoenix",
+            "boundary": "Village Dr and 24th Ln",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-17 01:00:00 MST",
+            "etr": "2026-08-17 04:30:00 MST"
+        },
+        {
+            "latitude": 33.51874399898791,
+            "longitude": -112.07792713200126,
+            "city": "Phoenix",
+            "boundary": "San Juan Ave and 3rd Ave",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-17 01:30:00 MST",
+            "etr": "2026-08-17 04:30:00 MST"
+        },
+        {
+            "latitude": 34.60520948805459,
+            "longitude": -112.30418184283867,
+            "city": "Prescott Valley",
+            "boundary": "Lakeshore Dr to Superstition Dr and Bitter Well Dr to Saratoga Dr",
+            "customers": 47,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-17 02:44:00 MST",
+            "etr": "2026-08-17 06:15:00 MST"
+        }
+    ]
+}

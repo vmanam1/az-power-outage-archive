@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-17 10:07:28 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.105463472256766,
+            "longitude": -109.88921988890361,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-17 08:51:45 MST",
+            "etr": null,
+            "incident_id": "532849"
+        },
+        {
+            "latitude": 34.40907527790792,
+            "longitude": -110.57078966136564,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-17 07:33:38 MST",
+            "etr": null,
+            "incident_id": "532848"
+        }
+    ]
+}
