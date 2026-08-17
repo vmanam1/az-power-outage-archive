@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 15:07:18 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 298
+    },
+    "outages": [
+        {
+            "latitude": 33.504626358199744,
+            "longitude": -111.91111529188527,
+            "city": "Scottsdale",
+            "boundary": "Chaparral Rd. to Camelback and 79th Pl. to Hayden Rd.",
+            "customers": 298,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-17 07:39:00 MST",
+            "etr": "2026-08-17 11:15:00 MST"
+        }
+    ]
+}
