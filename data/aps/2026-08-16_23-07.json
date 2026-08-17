@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-16 23:07:18 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.410326518100014,
+            "longitude": -110.82190737657807,
+            "city": "Globe",
+            "boundary": "Nielson St to Washburn St and Russell Rd",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-16 13:54:00 MST",
+            "etr": "2026-08-16 18:00:00 MST"
+        },
+        {
+            "latitude": 33.57994177889031,
+            "longitude": -112.01852217287976,
+            "city": "Phoenix",
+            "boundary": "Cochise Rd to Beryl Ave and Beryl Ave to 29th St",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-16 15:00:00 MST",
+            "etr": "2026-08-16 18:00:00 MST"
+        }
+    ]
+}
