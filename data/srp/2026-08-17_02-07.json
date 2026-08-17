@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-17 02:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.3838757065348,
+            "longitude": -111.812233755791,
+            "boundary": "S SUPERSTITION  FWY TO S SUPERSTITION  FWY AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-17 01:54 MST",
+            "etr": "2026-08-17 06:00 MST"
+        },
+        {
+            "latitude": 33.3696661860668,
+            "longitude": -111.8614957000745,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W BASELINE  RD TO W GUADALUPE  RD",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-17 01:58 MST",
+            "etr": "2026-08-17 03:57 MST"
+        }
+    ]
+}
