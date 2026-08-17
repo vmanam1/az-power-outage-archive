@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-17 07:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 33.3269850288775,
+            "longitude": -111.90994282166301,
+            "boundary": "N DESERT BREEZE E BLVD TO N COUNTRY CLUB  WAY AND E WARNER  RD TO W RAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-17 05:50 MST",
+            "etr": "2026-08-17 09:00 MST"
+        },
+        {
+            "latitude": 33.440591676858304,
+            "longitude": -111.8519143545535,
+            "boundary": "N ALMA SCHOOL  RD TO N COUNTRY CLUB  DR AND W MCLELLAN  RD TO W RIO SALADO  PKWY",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-17 06:12 MST",
+            "etr": "2026-08-17 08:16 MST"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 07:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 102
+    },
+    "outages": [
+        {
+            "latitude": 33.66502754598595,
+            "longitude": -112.02889458827414,
+            "city": "Phoenix",
+            "boundary": "Marco Polo Rd to Tonto Ln and Cave Creek Rd to 26th St",
+            "customers": 36,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-16 22:55:00 MST",
+            "etr": "2026-08-17 01:45:00 MST"
+        },
+        {
+            "latitude": 33.653592656935295,
+            "longitude": -112.02866523221245,
+            "city": "Phoenix",
+            "boundary": "Oraibi Dr to Utopia Rd and 25th St to 26th St",
+            "customers": 29,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-16 22:55:00 MST",
+            "etr": "2026-08-17 01:45:00 MST"
+        },
+        {
+            "latitude": 33.8629134249687,
+            "longitude": -112.63505814704672,
+            "city": "Morristown",
+            "boundary": "Carefree Hwy and US 60",
+            "customers": 37,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-16 22:25:00 MST",
+            "etr": "2026-08-17 02:00:00 MST"
+        }
+    ]
+}
