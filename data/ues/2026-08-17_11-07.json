@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-08-17 11:07:28 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1951,
+        "map_last_refreshed": "Aug 17, 11:05 AM"
+    },
+    "outages": [
+        {
+            "latitude": 31.508380538943,
+            "longitude": -111.002072048455,
+            "boundary": {
+                "coordLatSW": "31.512175936638499",
+                "coordLngSW": "-111.09467588157599",
+                "coordLatNE": "31.613186976697399",
+                "coordLngNE": "-110.84579009006799",
+                "coordLatCenter": "31.562683",
+                "coordLngCenter": "-110.97023"
+            },
+            "customers": 1951,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-08-17 10:45 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-17 11:02 MST"
+        },
+        {
+            "latitude": 34.4776220108878,
+            "longitude": -114.28010844215,
+            "boundary": {
+                "coordLatSW": "34.477622010887799",
+                "coordLngSW": "-114.28010844215",
+                "coordLatNE": "34.477622010887799",
+                "coordLngNE": "-114.28010844215",
+                "coordLatCenter": "34.477623",
+                "coordLngCenter": "-114.280106"
+            },
+            "customers": 0,
+            "cause": "Unable to Determine",
+            "comments": null,
+            "start_time": "2026-08-16 16:29 MST",
+            "etr": "2026-08-16 18:44 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 33,
+            "last_update": "2026-08-16 20:34 MST"
+        }
+    ]
+}
