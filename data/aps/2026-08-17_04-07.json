@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 04:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 75
+    },
+    "outages": [
+        {
+            "latitude": 34.70709969002642,
+            "longitude": -112.00286018963156,
+            "city": "Cottonwood",
+            "boundary": "Carpenter Ln to Broken Rock Dr and Branded Dr",
+            "customers": 75,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-16 19:48:00 MST",
+            "etr": "2026-08-16 23:15:00 MST"
+        }
+    ]
+}

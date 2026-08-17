@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-17 04:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.5102538930163,
+            "longitude": -112.1844098779415,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-17 02:47 MST",
+            "etr": "2026-08-17 07:30 MST"
+        }
+    ]
+}
