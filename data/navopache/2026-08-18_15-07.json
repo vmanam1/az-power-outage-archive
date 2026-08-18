@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-18 15:07:38 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 33.85016091919313,
+            "longitude": -109.10317604888394,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-18 13:30:06 MST",
+            "etr": null,
+            "incident_id": "532858"
+        },
+        {
+            "latitude": 34.1578115744838,
+            "longitude": -109.95653065315206,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-18 08:18:46 MST",
+            "etr": null,
+            "incident_id": "532857"
+        },
+        {
+            "latitude": 34.10905600420963,
+            "longitude": -109.25182027896788,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-18 14:59:01 MST",
+            "etr": null,
+            "incident_id": "532859"
+        }
+    ]
+}

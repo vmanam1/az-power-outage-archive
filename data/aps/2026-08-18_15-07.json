@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-18 15:07:38 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.568752144805224,
+            "longitude": -111.8432929020576,
+            "city": "Scottsdale",
+            "boundary": "Palomino Rd to Bella Vs and 107th Wy to 109th Pl",
+            "customers": 8,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-18 05:45:00 MST",
+            "etr": "2026-08-18 08:30:00 MST"
+        }
+    ]
+}

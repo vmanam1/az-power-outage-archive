@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-18 15:07:38 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 33.549377103001,
+            "longitude": -112.2379230523025,
+            "boundary": "N 87TH  AVE TO N 79TH  AVE AND W NORTHERN  AVE TO W ORANGEWOOD  AVE",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-18 14:31 MST",
+            "etr": "2026-08-18 16:21 MST"
+        },
+        {
+            "latitude": 33.3804329548186,
+            "longitude": -111.66586392558901,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E SUPERSTITION  FWY TO E GUADALUPE  RD",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-18 15:05 MST",
+            "etr": "2026-08-18 16:36 MST"
+        }
+    ]
+}
