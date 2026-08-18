@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-18 00:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 644
+    },
+    "outages": [
+        {
+            "latitude": 32.69630421295519,
+            "longitude": -114.66921595522888,
+            "city": "Yuma",
+            "boundary": "West 16th St to West 18th St and South Avenue C",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-17 14:51:00 MST",
+            "etr": "2026-08-17 18:15:00 MST"
+        },
+        {
+            "latitude": 33.57806291329322,
+            "longitude": -112.0977736466076,
+            "city": "Phoenix",
+            "boundary": "West Cheryl Dr to West Brown St and North 18th Ave to North 17th Ave",
+            "customers": 14,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-17 15:37:00 MST",
+            "etr": "2026-08-17 18:30:00 MST"
+        },
+        {
+            "latitude": 33.481956999941964,
+            "longitude": -112.04260299988407,
+            "city": "Phoenix",
+            "boundary": "Yale To Cheery Lynn To 12Th St To 20Th St",
+            "customers": 625,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-17 16:57:00 MST",
+            "etr": "2026-08-17 19:00:00 MST"
+        }
+    ]
+}

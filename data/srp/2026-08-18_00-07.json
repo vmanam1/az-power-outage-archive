@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-18 00:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.523171880621,
+            "longitude": -112.198877487962,
+            "boundary": "N 67TH  AVE TO N 63RD  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-17 21:27 MST",
+            "etr": "2026-08-18 03:30 MST"
+        },
+        {
+            "latitude": 33.4918214406063,
+            "longitude": -112.19861392632751,
+            "boundary": "N 67TH  AVE TO N 63RD  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-17 23:50 MST",
+            "etr": "2026-08-18 01:33 MST"
+        }
+    ]
+}
