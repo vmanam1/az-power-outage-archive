@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-18 02:07:08 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 297
+    },
+    "outages": [
+        {
+            "latitude": 32.69630421295519,
+            "longitude": -114.66921595522888,
+            "city": "Yuma",
+            "boundary": "West 16th St to West 18th St and South Avenue C",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-17 14:51:00 MST",
+            "etr": "2026-08-17 21:00:00 MST"
+        },
+        {
+            "latitude": 33.587238059303395,
+            "longitude": -112.0946475642161,
+            "city": "Phoenix",
+            "boundary": "Cholla St to Desert Cove Ln and 19th Ave to 13th Ave",
+            "customers": 292,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-17 17:57:00 MST",
+            "etr": "2026-08-17 21:30:00 MST"
+        }
+    ]
+}
