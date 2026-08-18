@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-18 10:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 5648
+    },
+    "outages": [
+        {
+            "latitude": 35.31032057464022,
+            "longitude": -111.94985437494493,
+            "city": "Williams",
+            "boundary": "Pine Rock Ln. to Larkspur Ln. and Spring Valley Rd.",
+            "customers": 8,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-18 01:30:00 MST",
+            "etr": "2026-08-18 08:00:00 MST"
+        },
+        {
+            "latitude": 35.18794699976869,
+            "longitude": -111.67493100005424,
+            "city": "Flagstaff",
+            "boundary": "Elliot Street To Forest Meadows Street And Flagstaff Ranch Road To Forest Meadows Street",
+            "customers": 4812,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-18 02:09:00 MST",
+            "etr": "2026-08-18 04:45:00 MST"
+        },
+        {
+            "latitude": 35.18059800020884,
+            "longitude": -111.71848099983825,
+            "city": "Flagstaff",
+            "boundary": "A-1 Mountain To Woody Mountain Well Fields And A-1 Mountain Road To Woody Mountain Road",
+            "customers": 676,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-18 02:09:00 MST",
+            "etr": "2026-08-18 04:45:00 MST"
+        },
+        {
+            "latitude": 33.486420242052745,
+            "longitude": -112.06596506057502,
+            "city": "Phoenix",
+            "boundary": "Mulberry Dr and 7th St",
+            "customers": 134,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-18 02:18:00 MST",
+            "etr": "2026-08-18 06:18:00 MST"
+        },
+        {
+            "latitude": 33.47220986329977,
+            "longitude": -112.1240754880833,
+            "city": "Phoenix",
+            "boundary": "Cypress St. to Monte Vista Rd. and 31st Ave. to 30th Ave.",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-18 02:37:00 MST",
+            "etr": "2026-08-18 04:00:00 MST"
+        }
+    ]
+}
