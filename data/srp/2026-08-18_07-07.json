@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-18 07:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.33335576962545,
+            "longitude": -112.0091699542925,
+            "boundary": "S 27TH  AVE TO S 40TH  ST AND E SOUTH MOUNTAIN  AVE TO E KNOX  RD",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-18 05:32 MST",
+            "etr": "2026-08-18 07:34 MST"
+        },
+        {
+            "latitude": 33.404412735722346,
+            "longitude": -111.79418944959349,
+            "boundary": "S HARRIS  DR TO S GILBERT  RD AND E BROADWAY  RD TO E 8TH  AVE",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-18 06:45 MST",
+            "etr": "2026-08-18 08:43 MST"
+        }
+    ]
+}

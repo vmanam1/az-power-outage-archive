@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-18 07:07:28 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.408756590682856,
+            "longitude": -110.60096407176343,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "There is currently no outage at this location. We tested the meter for power and we have good voltage. If your meter has a display then there is power to the meter. We recommend to check all your breakers, including the main disconnect out by the meter. Be sure you turn the main breaker all the way off & then back on. If that does not rectify the problem, you may need to contact an electrician as NEC does not provide a service for equipment on your side of the meter. Thank you",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-18 06:19:26 MST",
+            "etr": null,
+            "incident_id": "532856"
+        }
+    ]
+}
