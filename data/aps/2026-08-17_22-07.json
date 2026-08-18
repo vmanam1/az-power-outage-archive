@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 22:07:38 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 352
+    },
+    "outages": [
+        {
+            "latitude": 35.2619405158636,
+            "longitude": -111.53719786463706,
+            "city": "Flagstaff",
+            "boundary": "Silver Saddle Rd to Townsend Winona Rd and Elden Hills Rd to Masters Ln",
+            "customers": 299,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-17 11:31:00 MST",
+            "etr": "2026-08-17 16:00:00 MST"
+        },
+        {
+            "latitude": 33.47167310482923,
+            "longitude": -112.33504484333855,
+            "city": "Avondale",
+            "boundary": "Lewis Ave to Encanto Blvd and 127th Ln to 127th Ave",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-17 13:42:00 MST",
+            "etr": "2026-08-17 16:40:00 MST"
+        },
+        {
+            "latitude": 32.69630421295519,
+            "longitude": -114.66921595522888,
+            "city": "Yuma",
+            "boundary": "West 16th St to West 18th St and South Avenue C",
+            "customers": 45,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-17 14:51:00 MST",
+            "etr": "2026-08-17 18:15:00 MST"
+        }
+    ]
+}
