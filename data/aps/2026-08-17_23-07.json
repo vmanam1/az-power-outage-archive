@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 23:07:08 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 59
+    },
+    "outages": [
+        {
+            "latitude": 32.69630421295519,
+            "longitude": -114.66921595522888,
+            "city": "Yuma",
+            "boundary": "West 16th St to West 18th St and South Avenue C",
+            "customers": 45,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-17 14:51:00 MST",
+            "etr": "2026-08-17 18:15:00 MST"
+        },
+        {
+            "latitude": 33.57806291329322,
+            "longitude": -112.0977736466076,
+            "city": "Phoenix",
+            "boundary": "West Cheryl Dr to West Brown St and North 18th Ave to North 17th Ave",
+            "customers": 14,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-17 15:37:00 MST",
+            "etr": "2026-08-17 18:30:00 MST"
+        }
+    ]
+}
