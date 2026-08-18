@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-17 21:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 527
+    },
+    "outages": [
+        {
+            "latitude": 33.50422462926053,
+            "longitude": -111.91167217729284,
+            "city": "Scottsdale",
+            "boundary": "East Coolidge St to East Camelback Rd and North 78th St",
+            "customers": 220,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-17 11:11:00 MST",
+            "etr": "2026-08-17 16:30:00 MST"
+        },
+        {
+            "latitude": 35.2619405158636,
+            "longitude": -111.53719786463706,
+            "city": "Flagstaff",
+            "boundary": "Silver Saddle Rd to Townsend Winona Rd and Elden Hills Rd to Masters Ln",
+            "customers": 299,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-17 11:31:00 MST",
+            "etr": "2026-08-17 15:00:00 MST"
+        },
+        {
+            "latitude": 33.47167310482923,
+            "longitude": -112.33504484333855,
+            "city": "Avondale",
+            "boundary": "Lewis Ave to Encanto Blvd and 127th Ln to 127th Ave",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-17 13:42:00 MST",
+            "etr": "2026-08-17 16:40:00 MST"
+        }
+    ]
+}
