@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-18 01:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.4918214406063,
+            "longitude": -112.19861392632751,
+            "boundary": "N 67TH  AVE TO N 63RD  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-17 23:50 MST",
+            "etr": "2026-08-18 06:00 MST"
+        }
+    ]
+}
