@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-18 19:07:08 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 142
+    },
+    "outages": [
+        {
+            "latitude": 33.3601075000763,
+            "longitude": -110.76737479960758,
+            "city": "Globe",
+            "boundary": "Waliman Rd To Pinal Mountain And Kellner Canyon Rd To Old San Carlos Rd",
+            "customers": 19,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-18 09:55:00 MST",
+            "etr": "2026-08-18 19:00:00 MST"
+        },
+        {
+            "latitude": 33.60780414063373,
+            "longitude": -112.30114910169338,
+            "city": "Sun City",
+            "boundary": "Newcastle Dr to Grand Ave and 111th Ave",
+            "customers": 68,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-18 10:17:00 MST",
+            "etr": "2026-08-18 13:10:00 MST"
+        },
+        {
+            "latitude": 33.661978060800074,
+            "longitude": -112.06590304627771,
+            "city": "Phoenix",
+            "boundary": "Utopia Rd to Taro Ln and 4th St to 7th St",
+            "customers": 55,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-18 10:36:00 MST",
+            "etr": "2026-08-18 14:15:00 MST"
+        }
+    ]
+}

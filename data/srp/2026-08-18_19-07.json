@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-18 19:07:08 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 33.80058050035805,
+            "longitude": -111.24992085924899,
+            "boundary": "N HWY 188   TO UNKNOWN AND NORTHERN BOUNDS OF SERVICE TERRITORY TO HWY 188  ",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-18 18:12 MST",
+            "etr": "2026-08-18 20:11 MST"
+        },
+        {
+            "latitude": 33.4926255528893,
+            "longitude": -112.16248873240951,
+            "boundary": "N 51ST  AVE TO N 47TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-18 18:21 MST",
+            "etr": "2026-08-19 02:44 MST"
+        },
+        {
+            "latitude": 33.5182511738891,
+            "longitude": -112.03814725672649,
+            "boundary": "N PIESTEWA  FWY TO N 24TH  ST AND E BETHANY HOME  RD TO E CAMELBACK  RD",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-18 17:30 MST",
+            "etr": "2026-08-18 19:47 MST"
+        },
+        {
+            "latitude": 33.26423058441245,
+            "longitude": -111.5586890695705,
+            "boundary": "N IRONWOOD  DR TO N SUBURBAN  AVE AND E RANCH  RD TO E OCOTILLO  RD",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-18 18:58 MST",
+            "etr": "2026-08-18 23:45 MST"
+        }
+    ]
+}
