@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-19 01:07:29 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 51
+    },
+    "outages": [
+        {
+            "latitude": 33.3601075000763,
+            "longitude": -110.76737479960758,
+            "city": "Globe",
+            "boundary": "Waliman Rd To Pinal Mountain And Kellner Canyon Rd To Old San Carlos Rd",
+            "customers": 19,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-18 09:55:00 MST",
+            "etr": "2026-08-18 19:00:00 MST"
+        },
+        {
+            "latitude": 34.3158916381273,
+            "longitude": -112.1097291809935,
+            "city": "Mayer",
+            "boundary": "East Conestoga Dr to East Stagecoach Tl and South Cordes Lake Dr",
+            "customers": 32,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-18 15:56:00 MST",
+            "etr": "2026-08-18 19:30:00 MST"
+        }
+    ]
+}
