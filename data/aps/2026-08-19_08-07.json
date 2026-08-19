@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-19 08:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2423
+    },
+    "outages": [
+        {
+            "latitude": 32.67757469964997,
+            "longitude": -114.46980050029093,
+            "city": "Yuma",
+            "boundary": "Adobe Ridge Road To Frontage Road And 8E To 10E",
+            "customers": 2423,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-19 00:36:00 MST",
+            "etr": "2026-08-19 04:45:00 MST"
+        }
+    ]
+}
