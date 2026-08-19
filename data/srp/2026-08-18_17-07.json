@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-18 17:07:18 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 5616
+    },
+    "outages": [
+        {
+            "latitude": 33.549377103001,
+            "longitude": -112.2379230523025,
+            "boundary": "N 87TH  AVE TO N 79TH  AVE AND W NORTHERN  AVE TO W ORANGEWOOD  AVE",
+            "customers": 3,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-18 14:31 MST",
+            "etr": "2026-08-18 21:40 MST"
+        },
+        {
+            "latitude": 33.2748477917222,
+            "longitude": -111.8295369535545,
+            "boundary": "S ALMA SCHOOL  RD TO S EMMETT  DR AND E FRYE  RD TO E APPLEBY  RD",
+            "customers": 4161,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-18 16:35 MST",
+            "etr": "2026-08-18 18:34 MST"
+        },
+        {
+            "latitude": 33.26423058441245,
+            "longitude": -111.5586890695705,
+            "boundary": "N IRONWOOD  DR TO N SUBURBAN  AVE AND E RANCH  RD TO E OCOTILLO  RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-18 16:42 MST",
+            "etr": "2026-08-18 18:41 MST"
+        },
+        {
+            "latitude": 33.254044336601694,
+            "longitude": -111.845007693566,
+            "boundary": "S BASHA  RD TO S MCQUEEN  RD AND W RYAN  RD TO W CHANDLER HEIGHTS  RD",
+            "customers": 1448,
+            "cause": "Other outage cause",
+            "comments": "SRP restored power and no cause could be identified at this time.",
+            "start_time": "2026-08-18 16:35 MST",
+            "etr": "2026-08-18 18:33 MST"
+        }
+    ]
+}
