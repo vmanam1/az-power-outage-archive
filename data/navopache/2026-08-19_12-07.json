@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-19 12:07:28 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.11443336010928,
+            "longitude": -109.87367005133333,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-19 08:38:43 MST",
+            "etr": null,
+            "incident_id": "532878"
+        },
+        {
+            "latitude": 34.085965934150934,
+            "longitude": -109.3188256160197,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-19 08:08:16 MST",
+            "etr": null,
+            "incident_id": "532877"
+        }
+    ]
+}

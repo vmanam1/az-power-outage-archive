@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-19 12:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 33.459529486333814,
+            "longitude": -112.05475948829735,
+            "city": "Phoenix",
+            "boundary": "Diamond St. to Roosevelt St. and 12th St. to 13th St.",
+            "customers": 15,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-19 04:11:00 MST",
+            "etr": "2026-08-19 08:00:00 MST"
+        }
+    ]
+}
