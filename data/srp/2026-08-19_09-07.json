@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-19 09:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 59
+    },
+    "outages": [
+        {
+            "latitude": 33.4572018844912,
+            "longitude": -112.2584551645925,
+            "boundary": "N 95TH  AVE TO N 91ST  AVE AND W PAPAGO  FWY TO W VAN BUREN  ST",
+            "customers": 25,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 07:11 MST",
+            "etr": "2026-08-19 11:06 MST"
+        },
+        {
+            "latitude": 33.463173633658954,
+            "longitude": -111.6508107025245,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E MCDOWELL  RD TO E HERMOSA VISTA  DR",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 07:17 MST",
+            "etr": "2026-08-19 11:00 MST"
+        },
+        {
+            "latitude": 33.41356836951985,
+            "longitude": -111.65511131308651,
+            "boundary": "S 80TH  ST TO S HAWES  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 07:22 MST",
+            "etr": "2026-08-19 10:30 MST"
+        },
+        {
+            "latitude": 33.293394976082155,
+            "longitude": -111.7231389840485,
+            "boundary": "S 164TH  ST TO S 172ND  ST AND E FRYE  RD TO E WILLIS  RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 05:25 MST",
+            "etr": "2026-08-19 11:29 MST"
+        },
+        {
+            "latitude": 33.4228318109558,
+            "longitude": -111.4963176866335,
+            "boundary": "N ARROYA  RD TO N GERONIMO  RD AND E TEPEE  ST TO E JUNCTION  DR",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 07:28 MST",
+            "etr": "2026-08-19 12:00 MST"
+        },
+        {
+            "latitude": 33.3687297443249,
+            "longitude": -112.122494408428,
+            "boundary": "S 31ST  AVE TO S 27TH  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 08:08 MST",
+            "etr": "2026-08-19 12:07 MST"
+        },
+        {
+            "latitude": 33.2593253555769,
+            "longitude": -111.529084205743,
+            "boundary": "N COYOTE  RD TO N SIERRA VISTA  RD AND E PIMA  RD TO E AIRPORT  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 08:33 MST",
+            "etr": "2026-08-19 10:34 MST"
+        },
+        {
+            "latitude": 33.2522179075036,
+            "longitude": -111.702130293204,
+            "boundary": "S 172ND  ST TO S 180TH  ST AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 08:51 MST",
+            "etr": "2026-08-19 10:49 MST"
+        },
+        {
+            "latitude": 33.33286111619245,
+            "longitude": -111.87786286314301,
+            "boundary": "N 92ND  ST TO N ARROWHEAD  DR AND W WARNER  RD TO W RAY  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 08:52 MST",
+            "etr": "2026-08-19 10:48 MST"
+        }
+    ]
+}
