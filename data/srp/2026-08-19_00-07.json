@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-19 00:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.4625600261444,
+            "longitude": -111.966120368654,
+            "boundary": "N 48TH  ST TO N GALVIN  PKWY AND E OAK  ST TO E VAN BUREN  ST",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-18 22:37 MST",
+            "etr": "2026-08-19 02:30 MST"
+        }
+    ]
+}
