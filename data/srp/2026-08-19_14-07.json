@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-19 14:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.505498596527204,
+            "longitude": -112.034171402656,
+            "boundary": "N 20TH  ST TO N 24TH  ST AND E CAMELBACK  RD TO E CAMPBELL  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 12:23 MST",
+            "etr": "2026-08-19 19:00 MST"
+        },
+        {
+            "latitude": 33.476355875303696,
+            "longitude": -112.2905900785595,
+            "boundary": "N AVONDALE  BLVD TO N 103RD  AVE AND W THOMAS  RD TO W ENCANTO  BLVD",
+            "customers": 13,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 09:32 MST",
+            "etr": "2026-08-19 17:52 MST"
+        },
+        {
+            "latitude": 33.4592406048108,
+            "longitude": -111.5515286735875,
+            "boundary": "N SAN MARCOS  DR TO N IDAHO  RD AND W MCDOWELL  BLVD TO W MCKELLIPS  BLVD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 12:39 MST",
+            "etr": "2026-08-19 15:00 MST"
+        },
+        {
+            "latitude": 33.37532964479975,
+            "longitude": -112.10089431901301,
+            "boundary": "S 23RD  AVE TO S 15TH  AVE AND W BASELINE  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 13:00 MST",
+            "etr": "2026-08-19 14:59 MST"
+        },
+        {
+            "latitude": 33.5130614387705,
+            "longitude": -112.022134754578,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E MISSOURI  AVE TO E CAMELBACK  RD",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "SRP restored power and no cause could be identified at this time.",
+            "start_time": "2026-08-19 13:06 MST",
+            "etr": "2026-08-19 14:51 MST"
+        }
+    ]
+}
