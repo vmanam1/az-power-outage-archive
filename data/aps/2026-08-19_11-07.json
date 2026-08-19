@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-19 11:07:29 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.47088721566593,
+            "longitude": -112.1246525460589,
+            "city": "Phoenix",
+            "boundary": "Monte Vista Rd to Holly St and 31st Ave to 29th Ave",
+            "customers": 16,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-19 02:00:00 MST",
+            "etr": "2026-08-19 05:00:00 MST"
+        }
+    ]
+}

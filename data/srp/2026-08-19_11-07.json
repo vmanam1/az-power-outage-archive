@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-19 11:07:29 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.4228318109558,
+            "longitude": -111.4963176866335,
+            "boundary": "N ARROYA  RD TO N GERONIMO  RD AND E TEPEE  ST TO E JUNCTION  DR",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 07:28 MST",
+            "etr": "2026-08-19 12:00 MST"
+        },
+        {
+            "latitude": 33.3687297443249,
+            "longitude": -112.122494408428,
+            "boundary": "S 31ST  AVE TO S 27TH  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-19 08:08 MST",
+            "etr": "2026-08-19 12:07 MST"
+        },
+        {
+            "latitude": 33.476355875303696,
+            "longitude": -112.2905900785595,
+            "boundary": "N AVONDALE  BLVD TO N 103RD  AVE AND W THOMAS  RD TO W ENCANTO  BLVD",
+            "customers": 13,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 09:32 MST",
+            "etr": "2026-08-19 12:52 MST"
+        }
+    ]
+}
