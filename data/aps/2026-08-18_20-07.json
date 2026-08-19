@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-18 20:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 935
+    },
+    "outages": [
+        {
+            "latitude": 33.3601075000763,
+            "longitude": -110.76737479960758,
+            "city": "Globe",
+            "boundary": "Waliman Rd To Pinal Mountain And Kellner Canyon Rd To Old San Carlos Rd",
+            "customers": 19,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-18 09:55:00 MST",
+            "etr": "2026-08-18 19:00:00 MST"
+        },
+        {
+            "latitude": 33.60780414063373,
+            "longitude": -112.30114910169338,
+            "city": "Sun City",
+            "boundary": "Newcastle Dr to Grand Ave and 111th Ave",
+            "customers": 17,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-18 10:17:00 MST",
+            "etr": "2026-08-18 13:55:00 MST"
+        },
+        {
+            "latitude": 33.846540799959136,
+            "longitude": -111.30240673494589,
+            "city": "Tonto Basin",
+            "boundary": "Greenback Valley Rd to Claypool Jakes Corner and Drop Shot Ln to Ewing Trail",
+            "customers": 899,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-18 12:12:00 MST",
+            "etr": "2026-08-18 16:00:00 MST"
+        }
+    ]
+}
