@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-19 05:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 33.359336103520945,
+            "longitude": -111.8560407618555,
+            "boundary": "S EL DORADO   TO N MCQUEEN  RD AND W GUADALUPE  RD TO W ELLIOT  RD",
+            "customers": 18,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 04:57 MST",
+            "etr": "2026-08-19 06:50 MST"
+        }
+    ]
+}
