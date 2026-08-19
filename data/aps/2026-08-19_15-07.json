@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-19 15:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 94
+    },
+    "outages": [
+        {
+            "latitude": 33.60999533711631,
+            "longitude": -112.09366981719963,
+            "city": "Phoenix",
+            "boundary": "Thunderbird Rd. to Surrey Ave. and 18th Ave. to 13th Ln.",
+            "customers": 6,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-19 05:35:00 MST",
+            "etr": "2026-08-19 10:00:00 MST"
+        },
+        {
+            "latitude": 33.63298410011418,
+            "longitude": -112.21155980040454,
+            "city": "Peoria",
+            "boundary": "Camino San Xavier To Greenway Rd And 77Th Ave To 67Th Ave",
+            "customers": 88,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-19 07:02:00 MST",
+            "etr": "2026-08-19 11:45:00 MST"
+        }
+    ]
+}
