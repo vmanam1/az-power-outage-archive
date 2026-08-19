@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-19 06:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 34.70715294336446,
+            "longitude": -111.98512797592906,
+            "city": "Cottonwood",
+            "boundary": "Comanche Dr and Sabino Trail",
+            "customers": 14,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-18 20:51:00 MST",
+            "etr": "2026-08-19 00:20:00 MST"
+        }
+    ]
+}
