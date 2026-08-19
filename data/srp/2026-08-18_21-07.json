@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-18 21:07:38 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.4926255528893,
+            "longitude": -112.16248873240951,
+            "boundary": "N 51ST  AVE TO N 47TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-18 18:21 MST",
+            "etr": "2026-08-19 02:44 MST"
+        },
+        {
+            "latitude": 33.5182511738891,
+            "longitude": -112.03814725672649,
+            "boundary": "N PIESTEWA  FWY TO N 24TH  ST AND E BETHANY HOME  RD TO E CAMELBACK  RD",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-18 17:30 MST",
+            "etr": "2026-08-19 00:00 MST"
+        },
+        {
+            "latitude": 33.511568240298004,
+            "longitude": -112.1971234133845,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W MISSOURI  AVE TO W CAMELBACK  RD",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-18 20:54 MST",
+            "etr": "2026-08-18 22:42 MST"
+        }
+    ]
+}
