@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-20 16:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 130
+    },
+    "outages": [
+        {
+            "latitude": 33.567005544081894,
+            "longitude": -112.5377069103246,
+            "city": "Surprise",
+            "boundary": "West Cactus Rd to West Northern Ave",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 22:21:00 MST",
+            "etr": "2026-08-20 12:00:00 MST"
+        },
+        {
+            "latitude": 32.8611043150942,
+            "longitude": -113.21231502041253,
+            "city": "Dateland",
+            "boundary": "I8 and Agua Caliente Rd.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-20 02:47:00 MST",
+            "etr": "2026-08-20 12:00:00 MST"
+        },
+        {
+            "latitude": 34.71987873112585,
+            "longitude": -112.01286034766383,
+            "city": "Cottonwood",
+            "boundary": "Date St. to Fir St. and 6th St. to 16th St.",
+            "customers": 118,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-20 08:59:00 MST",
+            "etr": "2026-08-20 12:20:00 MST"
+        }
+    ]
+}
