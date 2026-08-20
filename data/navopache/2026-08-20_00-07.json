@@ -1,0 +1,103 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-20 00:07:18 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 119,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.34124908556372,
+            "longitude": -109.77830490075793,
+            "customers": 3,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-19 20:40:40 MST",
+            "etr": null,
+            "incident_id": "532911"
+        },
+        {
+            "latitude": 34.25355281871491,
+            "longitude": -109.74327060467239,
+            "customers": 8,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-19 19:47:36 MST",
+            "etr": null,
+            "incident_id": "532899"
+        },
+        {
+            "latitude": 34.39099712356887,
+            "longitude": -110.5379562377265,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-19 21:23:25 MST",
+            "etr": null,
+            "incident_id": "532942"
+        },
+        {
+            "latitude": 33.829433184568536,
+            "longitude": -109.96380700695445,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "3 - Reservation",
+            "start_time": "2026-08-19 21:39:25 MST",
+            "etr": null,
+            "incident_id": "533514"
+        },
+        {
+            "latitude": 34.332985783088006,
+            "longitude": -109.7635455806378,
+            "customers": 1,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-19 19:45:25 MST",
+            "etr": null,
+            "incident_id": "532896"
+        },
+        {
+            "latitude": 34.28736720733428,
+            "longitude": -110.11104986519497,
+            "customers": 86,
+            "cause": "WEATHER",
+            "comments": null,
+            "boundary": "6 - Linden",
+            "start_time": "2026-08-19 21:37:37 MST",
+            "etr": null,
+            "incident_id": "533104"
+        },
+        {
+            "latitude": 34.15642149721136,
+            "longitude": -109.9807941489795,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-19 21:23:25 MST",
+            "etr": null,
+            "incident_id": "533076"
+        },
+        {
+            "latitude": 34.28681054925033,
+            "longitude": -109.77858337849604,
+            "customers": 18,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-19 19:54:45 MST",
+            "etr": null,
+            "incident_id": "532905"
+        }
+    ]
+}
