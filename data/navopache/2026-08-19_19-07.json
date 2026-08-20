@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-19 19:07:28 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 96,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.09850855146067,
+            "longitude": -109.89199568313194,
+            "customers": 1,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-08-19 17:48:08 MST",
+            "etr": null,
+            "incident_id": "532887"
+        },
+        {
+            "latitude": 34.31503959716983,
+            "longitude": -109.76948344466665,
+            "customers": 2,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-19 18:33:05 MST",
+            "etr": null,
+            "incident_id": "532894"
+        },
+        {
+            "latitude": 34.467330156913704,
+            "longitude": -109.29045681934325,
+            "customers": 1,
+            "cause": "EQUIPMENT / MATERIAL FAILURE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-19 18:31:08 MST",
+            "etr": null,
+            "incident_id": "532892"
+        },
+        {
+            "latitude": 34.09990701995094,
+            "longitude": -109.89896660973767,
+            "customers": 92,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-19 18:06:33 MST",
+            "etr": null,
+            "incident_id": "532891"
+        }
+    ]
+}
