@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-19 17:07:29 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 551
+    },
+    "outages": [
+        {
+            "latitude": 34.531469789787785,
+            "longitude": -112.2984178315642,
+            "city": "Dewey",
+            "boundary": "Hideaway Dr to Shirley Ln and Piute Rd to AZ 69",
+            "customers": 551,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-19 09:53:00 MST",
+            "etr": "2026-08-19 13:15:00 MST"
+        }
+    ]
+}
