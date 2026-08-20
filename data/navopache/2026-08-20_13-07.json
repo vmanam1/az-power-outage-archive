@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-20 13:07:38 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 15,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.126979194387616,
+            "longitude": -109.27046930426879,
+            "customers": 10,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-20 11:54:36 MST",
+            "etr": null,
+            "incident_id": "533557"
+        },
+        {
+            "latitude": 34.005629831433396,
+            "longitude": -109.45851364271971,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-20 10:28:55 MST",
+            "etr": null,
+            "incident_id": "533553"
+        },
+        {
+            "latitude": 34.11498372026637,
+            "longitude": -109.92993153758557,
+            "customers": 4,
+            "cause": "SWITCHING OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-20 09:55:03 MST",
+            "etr": null,
+            "incident_id": "533551"
+        }
+    ]
+}
