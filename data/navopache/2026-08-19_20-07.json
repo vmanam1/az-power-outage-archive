@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-19 20:07:28 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 29,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.25355281871491,
+            "longitude": -109.74327060467239,
+            "customers": 8,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-19 19:47:36 MST",
+            "etr": null,
+            "incident_id": "532899"
+        },
+        {
+            "latitude": 34.332985783088006,
+            "longitude": -109.7635455806378,
+            "customers": 1,
+            "cause": null,
+            "comments": "There is currently no outage at this location. We tested the meter for power and we have good voltage. If your meter has a display then there is power to the meter. We recommend to check all your breakers, including the main disconnect out by the meter. Be sure you turn the main breaker all the way off & then back on. If that does not rectify the problem, you may need to contact an electrician as NEC does not provide a service for equipment on your side of the meter. Thank you",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-19 19:45:25 MST",
+            "etr": null,
+            "incident_id": "532896"
+        },
+        {
+            "latitude": 34.31503959716983,
+            "longitude": -109.76948344466665,
+            "customers": 2,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-19 18:33:05 MST",
+            "etr": null,
+            "incident_id": "532894"
+        },
+        {
+            "latitude": 34.28681054925033,
+            "longitude": -109.77858337849604,
+            "customers": 18,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-19 19:54:45 MST",
+            "etr": null,
+            "incident_id": "532905"
+        }
+    ]
+}
