@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-08-19 23:07:28 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 10,
+        "total_customers": 36552
+    },
+    "outages": [
+        {
+            "latitude": 33.05640306019554,
+            "longitude": -112.0048436391253,
+            "boundary": "FUS-T43670",
+            "customers": 10,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-08-19 22:12:15 MST",
+            "etr": null,
+            "pole_number": "T43670"
+        }
+    ]
+}

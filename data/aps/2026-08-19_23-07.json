@@ -1,0 +1,223 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-19 23:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 19,
+        "customers_affected": 3278
+    },
+    "outages": [
+        {
+            "latitude": 33.66094676299579,
+            "longitude": -111.87978551598397,
+            "city": "Scottsdale",
+            "boundary": "East Palm Tree Dr to East Topeka Dr and North 92nd St to North 92nd Wy",
+            "customers": 6,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 13:47:00 MST",
+            "etr": "2026-08-20 15:50:00 MST"
+        },
+        {
+            "latitude": 33.293673709268724,
+            "longitude": -111.8470130178886,
+            "city": "Chandler",
+            "boundary": "West Fairview St to West Pecos Rd and South Hartford St to South Arizona Ave",
+            "customers": 325,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 14:44:00 MST",
+            "etr": "2026-08-19 18:44:00 MST"
+        },
+        {
+            "latitude": 33.31188300035331,
+            "longitude": -111.85131700002674,
+            "city": "Chandler",
+            "boundary": "Ray Rd To Commonwealth Ave And Alma School Rd To Arizona Ave",
+            "customers": 1661,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 14:54:00 MST",
+            "etr": "2026-08-19 18:54:00 MST"
+        },
+        {
+            "latitude": 32.99570676110068,
+            "longitude": -111.87092253257495,
+            "city": "Casa Grande",
+            "boundary": "Kiva Rd and Arrowhead Rd",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:12:00 MST",
+            "etr": "2026-08-19 19:10:00 MST"
+        },
+        {
+            "latitude": 33.44197406703937,
+            "longitude": -112.13617331740683,
+            "city": "Phoenix",
+            "boundary": "West Harrison St to West Sherman St and South 39th Ave to North 35th Ave",
+            "customers": 132,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:17:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.639583370635535,
+            "longitude": -112.01403701222692,
+            "city": "Phoenix",
+            "boundary": "East Danbury Rd to East Edna Ave and North 28th St to North 36th St",
+            "customers": 376,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:13:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.453540501710954,
+            "longitude": -112.01843085913114,
+            "city": "Phoenix",
+            "boundary": "Fillmore St and Van Buren St",
+            "customers": 61,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:16:00 MST",
+            "etr": "2026-08-19 19:10:00 MST"
+        },
+        {
+            "latitude": 33.4500235406615,
+            "longitude": -112.12352776010175,
+            "city": "Phoenix",
+            "boundary": "West Polk St to West Adams St and North 33rd Ave to North 29th Ave",
+            "customers": 240,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:16:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.554313816846886,
+            "longitude": -112.08406171988997,
+            "city": "Phoenix",
+            "boundary": "Northern Ave and Glendale Ave",
+            "customers": 82,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:14:00 MST",
+            "etr": "2026-08-19 18:45:00 MST"
+        },
+        {
+            "latitude": 33.579992372203364,
+            "longitude": -112.09371105975262,
+            "city": "Phoenix",
+            "boundary": "West Cochise Dr to West Cheryl Dr and North 16th Ave to North 15th Ave",
+            "customers": 59,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:19:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.47119213527895,
+            "longitude": -112.11575518771721,
+            "city": "Phoenix",
+            "boundary": "West Monte Vista Rd to West Almeria Rd and North 27th Ave to Black Canyon Hwy",
+            "customers": 41,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:32:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.48367072180192,
+            "longitude": -111.93355618684625,
+            "city": "Scottsdale",
+            "boundary": "East Earll Dr to East Avalon Dr and North 68th St to North 69th Pl",
+            "customers": 44,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:31:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.64593272124201,
+            "longitude": -112.0195510097814,
+            "city": "Phoenix",
+            "boundary": "East Grovers Ave to East Angela Dr and North 27th St to North 32nd St",
+            "customers": 56,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:28:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.45513345000465,
+            "longitude": -112.03480324537733,
+            "city": "Phoenix",
+            "boundary": "Fillmore St and Taylor St",
+            "customers": 83,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:32:00 MST",
+            "etr": "2026-08-19 18:15:00 MST"
+        },
+        {
+            "latitude": 33.413678261231574,
+            "longitude": -111.93536825406431,
+            "city": "Tempe",
+            "boundary": "East Apache Bv to East 14th St and South Forest Ave to South College Ave",
+            "customers": 10,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:34:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.537634499741024,
+            "longitude": -112.16689641518269,
+            "city": "Glendale",
+            "boundary": "West Glendale Ave to West Flynn Ln and North 51st Ave to North 49th Ave",
+            "customers": 45,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:41:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.058137000327704,
+            "longitude": -112.23729999989324,
+            "city": "Maricopa",
+            "boundary": "Reservation To Nahalia And Maricopa City Lane To Mobile",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:48:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.416793390748715,
+            "longitude": -111.95092900256986,
+            "city": "Tempe",
+            "boundary": "West Howe St and West 12th St and South Hardy Dr to South Juddst",
+            "customers": 15,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:50:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.30720160424582,
+            "longitude": -111.82975985326924,
+            "city": "Chandler",
+            "boundary": null,
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:53:00 MST",
+            "etr": "2026-08-19 18:40:00 MST"
+        }
+    ]
+}
