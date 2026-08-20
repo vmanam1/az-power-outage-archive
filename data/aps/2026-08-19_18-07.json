@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-19 18:07:26 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 600
+    },
+    "outages": [
+        {
+            "latitude": 34.86614499996439,
+            "longitude": -111.78661300031678,
+            "city": "Sedona",
+            "boundary": "Rim Shadows Dr To Sedona Airport And Sunshine Ln To Brewer Rd",
+            "customers": 600,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 10:20:00 MST",
+            "etr": "2026-08-19 14:10:00 MST"
+        }
+    ]
+}
