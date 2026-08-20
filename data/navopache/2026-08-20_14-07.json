@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-20 14:07:38 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 44,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.5102303663267,
+            "longitude": -109.34811069428605,
+            "customers": 18,
+            "cause": "MAINTENANCE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-20 13:20:52 MST",
+            "etr": null,
+            "incident_id": "533567"
+        },
+        {
+            "latitude": 33.823888521549534,
+            "longitude": -109.15442493585009,
+            "customers": 8,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-20 13:45:23 MST",
+            "etr": null,
+            "incident_id": "533572"
+        },
+        {
+            "latitude": 33.955028129442404,
+            "longitude": -109.20882690946394,
+            "customers": 18,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-20 13:40:43 MST",
+            "etr": null,
+            "incident_id": "533570"
+        }
+    ]
+}
