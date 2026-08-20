@@ -1,0 +1,180 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-08-20 10:07:28 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 15,
+        "customers_affected": 21,
+        "total_customers": 36552
+    },
+    "outages": [
+        {
+            "latitude": 32.88675428365489,
+            "longitude": -112.13781175832167,
+            "boundary": "T-112958",
+            "customers": 5,
+            "cause": "999 - Cause Unknown",
+            "comments": "CauseFound",
+            "start_time": "2026-08-20 09:22:17 MST",
+            "etr": null,
+            "pole_number": "112958"
+        },
+        {
+            "latitude": 33.04320104373591,
+            "longitude": -112.01330814838505,
+            "boundary": "SC-1417",
+            "customers": 1,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-08-20 09:19:58 MST",
+            "etr": null,
+            "pole_number": null
+        },
+        {
+            "latitude": 32.90944270623051,
+            "longitude": -111.92912037652327,
+            "boundary": "T-101171",
+            "customers": 2,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-20 07:39:22 MST",
+            "etr": null,
+            "pole_number": "101171"
+        },
+        {
+            "latitude": 32.923103975562,
+            "longitude": -111.92001478562105,
+            "boundary": "T-101267",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-20 07:39:07 MST",
+            "etr": null,
+            "pole_number": "101267"
+        },
+        {
+            "latitude": 32.91205130858326,
+            "longitude": -112.06655620807074,
+            "boundary": "FUS-PF695",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-20 07:36:58 MST",
+            "etr": null,
+            "pole_number": "PF695"
+        },
+        {
+            "latitude": 32.94008550712864,
+            "longitude": -112.05707397320387,
+            "boundary": "T-100130",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-20 07:38:41 MST",
+            "etr": null,
+            "pole_number": "100130"
+        },
+        {
+            "latitude": 32.8869077590863,
+            "longitude": -111.95139027831925,
+            "boundary": "T-122648",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-20 07:37:46 MST",
+            "etr": null,
+            "pole_number": "122648"
+        },
+        {
+            "latitude": 32.865171570964826,
+            "longitude": -111.93359718145746,
+            "boundary": "T-100501",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-20 07:38:01 MST",
+            "etr": null,
+            "pole_number": "100501"
+        },
+        {
+            "latitude": 32.88450479787059,
+            "longitude": -112.04915917930137,
+            "boundary": "T-X286392",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-20 07:38:21 MST",
+            "etr": null,
+            "pole_number": "X286392"
+        },
+        {
+            "latitude": 32.86496654284788,
+            "longitude": -111.95262694012894,
+            "boundary": "T-100503",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-20 07:39:48 MST",
+            "etr": null,
+            "pole_number": "100503"
+        },
+        {
+            "latitude": 32.8794695487841,
+            "longitude": -112.03882446406257,
+            "boundary": "T-124416",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-20 07:31:07 MST",
+            "etr": null,
+            "pole_number": "124416"
+        },
+        {
+            "latitude": 32.8868569789548,
+            "longitude": -112.06669647122693,
+            "boundary": "T-100451",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-20 07:36:36 MST",
+            "etr": null,
+            "pole_number": "100451"
+        },
+        {
+            "latitude": 32.90109221075377,
+            "longitude": -111.97216612319751,
+            "boundary": "T-111230",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-19 23:46:12 MST",
+            "etr": null,
+            "pole_number": "111230"
+        },
+        {
+            "latitude": 32.90354411201826,
+            "longitude": -112.05065941026682,
+            "boundary": null,
+            "customers": 2,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-20 09:33:57 MST",
+            "etr": null,
+            "pole_number": "100426"
+        },
+        {
+            "latitude": 32.92325415481785,
+            "longitude": -111.94684498634685,
+            "boundary": null,
+            "customers": 1,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-20 09:59:31 MST",
+            "etr": null,
+            "pole_number": "101275"
+        }
+    ]
+}

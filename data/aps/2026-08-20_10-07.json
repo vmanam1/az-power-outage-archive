@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-20 10:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 123
+    },
+    "outages": [
+        {
+            "latitude": 33.66094676299579,
+            "longitude": -111.87978551598397,
+            "city": "Scottsdale",
+            "boundary": "East Palm Tree Dr to East Topeka Dr and North 92nd St to North 92nd Wy",
+            "customers": 6,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 13:47:00 MST",
+            "etr": "2026-08-20 07:00:00 MST"
+        },
+        {
+            "latitude": 33.583000758244104,
+            "longitude": -112.04813005265457,
+            "city": "Phoenix",
+            "boundary": "East Desert Cove Ave to East Cheryl Dr and North 15th Wy",
+            "customers": 46,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 18:32:00 MST",
+            "etr": "2026-08-20 05:00:00 MST"
+        },
+        {
+            "latitude": 33.57236412136874,
+            "longitude": -112.10016103266288,
+            "city": "Phoenix",
+            "boundary": "19th Ave and Carol Way",
+            "customers": 7,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-19 22:17:00 MST",
+            "etr": "2026-08-20 05:00:00 MST"
+        },
+        {
+            "latitude": 33.567005544081894,
+            "longitude": -112.5377069103246,
+            "city": "Surprise",
+            "boundary": "West Cactus Rd to West Northern Ave",
+            "customers": 36,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 22:21:00 MST",
+            "etr": "2026-08-20 04:30:00 MST"
+        },
+        {
+            "latitude": 33.63735541925219,
+            "longitude": -112.04698237492906,
+            "city": "Phoenix",
+            "boundary": "Kelton Ln to Aire Libre Ave and 16th Pl to 17th Pl",
+            "customers": 16,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-19 21:12:00 MST",
+            "etr": "2026-08-20 04:00:00 MST"
+        },
+        {
+            "latitude": 33.088084286260475,
+            "longitude": -113.03106241715126,
+            "city": "Buckeye",
+            "boundary": "451st Ave to Painted Rock Dam Rd and 463rd Ave to Gila River",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-19 23:52:00 MST",
+            "etr": "2026-08-20 04:00:00 MST"
+        }
+    ]
+}
