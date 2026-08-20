@@ -1,0 +1,334 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-19 22:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 32,
+        "customers_affected": 20903
+    },
+    "outages": [
+        {
+            "latitude": 33.43772129322985,
+            "longitude": -111.8249291802975,
+            "boundary": "N CENTER  ST TO N HORNE   AND E MCLELLAN  RD TO E BROWN  RD",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 17:52 MST",
+            "etr": "2026-08-19 22:53 MST"
+        },
+        {
+            "latitude": 33.41454494459555,
+            "longitude": -111.718427598743,
+            "boundary": "S GREENFIELD  RD TO S RECKER  RD AND E ADOBE  ST TO E DELTA  AVE",
+            "customers": 1431,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:39 MST",
+            "etr": "2026-08-19 23:36 MST"
+        },
+        {
+            "latitude": 33.412988145354845,
+            "longitude": -111.668424173595,
+            "boundary": "S POWER  RD TO S HAWES  RD AND E ADOBE  ST TO E PUEBLO  AVE",
+            "customers": 1254,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:40 MST",
+            "etr": "2026-08-19 23:40 MST"
+        },
+        {
+            "latitude": 33.4516712468198,
+            "longitude": -111.8215414464975,
+            "boundary": "N COUNTRY CLUB  DR TO N HARRIS  DR AND W RED MOUNTAIN  FWY TO E BROWN  RD",
+            "customers": 1296,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:45 MST",
+            "etr": "2026-08-19 23:45 MST"
+        },
+        {
+            "latitude": 33.3237469010173,
+            "longitude": -111.84797445086551,
+            "boundary": "N ALMA SCHOOL  RD TO N ARIZONA  AVE AND W KNOX  RD TO W RAY  RD",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:50 MST",
+            "etr": "2026-08-19 23:49 MST"
+        },
+        {
+            "latitude": 33.416963600002646,
+            "longitude": -111.7764169626175,
+            "boundary": "N GILBERT  RD TO S 32ND  ST AND E ADOBE  ST TO E PUEBLO  AVE",
+            "customers": 1377,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:45 MST",
+            "etr": "2026-08-20 01:44 MST"
+        },
+        {
+            "latitude": 33.42228311890295,
+            "longitude": -111.792615559463,
+            "boundary": "N STAPLEY  DR TO N 24TH  ST AND E BROWN  RD TO E BROADWAY  RD",
+            "customers": 1393,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:48 MST",
+            "etr": "2026-08-20 01:47 MST"
+        },
+        {
+            "latitude": 33.42973718664015,
+            "longitude": -111.572167065472,
+            "boundary": "N MOUNTAIN  RD TO N SAN MARCOS  DR AND W MCKELLIPS  BLVD TO W APACHE  TRL",
+            "customers": 499,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:43 MST",
+            "etr": "2026-08-20 01:42 MST"
+        },
+        {
+            "latitude": 33.4465350866136,
+            "longitude": -111.5453778492725,
+            "boundary": "N MERIDIAN  RD TO N APACHE  TRL AND UNKNOWN TO E JUNCTION  ST",
+            "customers": 1793,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:25 MST",
+            "etr": "2026-08-20 01:24 MST"
+        },
+        {
+            "latitude": 33.420049385231096,
+            "longitude": -111.583493593068,
+            "boundary": "N MOUNTAIN  RD TO N MERIDIAN  RD AND E ADOBE  RD TO E APACHE  TRL",
+            "customers": 38,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:47 MST",
+            "etr": "2026-08-20 01:47 MST"
+        },
+        {
+            "latitude": 33.317469740930704,
+            "longitude": -111.778439100636,
+            "boundary": "S 140TH  ST TO S LINDSAY  RD AND E WARNER  RD TO E WILLIAMS FIELD  RD",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:50 MST",
+            "etr": "2026-08-20 01:49 MST"
+        },
+        {
+            "latitude": 33.3995816237375,
+            "longitude": -111.87137687686399,
+            "boundary": "S ROOSEVELT  RD TO S LONGMORE   AND W BROADWAY  RD TO W SUPERSTITION  FWY",
+            "customers": 1357,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:48 MST",
+            "etr": "2026-08-20 01:47 MST"
+        },
+        {
+            "latitude": 33.39774925931086,
+            "longitude": -111.5394521244005,
+            "boundary": "S IDAHO  RD TO S TOMAHAWK  RD AND E HONDO  AVE TO E SOUTHERN  AVE",
+            "customers": 54,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:25 MST",
+            "etr": "2026-08-20 01:25 MST"
+        },
+        {
+            "latitude": 33.42913154367165,
+            "longitude": -111.51847836928,
+            "boundary": "N APACHE  TRL TO N GOLDFIELD  RD AND E LOST DUTCHMAN  BLVD TO E SUPERSTITION  BLVD",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:29 MST",
+            "etr": "2026-08-20 01:28 MST"
+        },
+        {
+            "latitude": 33.401037292909294,
+            "longitude": -111.5751931577415,
+            "boundary": "S MOUNTAIN  RD TO S SAN MARCOS  DR AND W APACHE  TRL TO W SUPERSTITION  FWY",
+            "customers": 1385,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:21 MST",
+            "etr": "2026-08-20 01:19 MST"
+        },
+        {
+            "latitude": 33.221334746912945,
+            "longitude": -111.6912418962325,
+            "boundary": "S 180TH  ST TO S POWER  RD AND E CLOUD  RD TO E SAN TAN  BLVD",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:21 MST",
+            "etr": "2026-08-20 01:19 MST"
+        },
+        {
+            "latitude": 33.22497079396415,
+            "longitude": -111.6912312169995,
+            "boundary": "S 180TH  ST TO S POWER  RD AND E CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 15,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:20 MST",
+            "etr": "2026-08-20 01:19 MST"
+        },
+        {
+            "latitude": 33.470745686650005,
+            "longitude": -111.80167850551899,
+            "boundary": "N BEELINE  HWY TO N LINDSAY  RD AND E INDIAN SCHOOL  RD TO E MCKELLIPS  RD",
+            "customers": 443,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:37 MST",
+            "etr": "2026-08-20 01:36 MST"
+        },
+        {
+            "latitude": 33.282589914312254,
+            "longitude": -111.7719496146405,
+            "boundary": "S GILBERT  RD TO S VAL VISTA  DR AND E FRYE  RD TO E QUEEN CREEK  RD",
+            "customers": 783,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:35 MST",
+            "etr": "2026-08-20 01:26 MST"
+        },
+        {
+            "latitude": 33.3509299144948,
+            "longitude": -111.98224989479351,
+            "boundary": "S WARNER-ELLIOT  LOOP TO S MARICOPA  FWY AND E GUADALUPE  RD TO E WARNER  RD",
+            "customers": 77,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:58 MST",
+            "etr": "2026-08-20 01:56 MST"
+        },
+        {
+            "latitude": 33.4231837145058,
+            "longitude": -111.9095089730005,
+            "boundary": "S RURAL  RD TO S PRICE  RD AND E RIO SALADO  PKWY TO E APACHE  BLVD",
+            "customers": 680,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:51 MST",
+            "etr": "2026-08-20 01:50 MST"
+        },
+        {
+            "latitude": 33.25204231632535,
+            "longitude": -111.781256087439,
+            "boundary": "S GILBERT  RD TO S LINDSAY  RD AND E QUEEN CREEK  RD TO E BROOKS FARM  RD",
+            "customers": 34,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:30 MST",
+            "etr": "2026-08-20 01:29 MST"
+        },
+        {
+            "latitude": 33.2534830373569,
+            "longitude": -111.7824198433965,
+            "boundary": "S GILBERT  RD TO S LINDSAY  RD AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:29 MST",
+            "etr": "2026-08-20 01:29 MST"
+        },
+        {
+            "latitude": 33.4048743871724,
+            "longitude": -111.7933674664315,
+            "boundary": "S STAPLEY  DR TO S 24TH  ST AND E UNIVERSITY  DR TO E SUPERSTITION  FWY",
+            "customers": 1189,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:48 MST",
+            "etr": "2026-08-20 01:47 MST"
+        },
+        {
+            "latitude": 33.4248385502548,
+            "longitude": -111.6239890270015,
+            "boundary": "N 88TH  ST TO N 104TH  ST AND E BROWN  RD TO E APACHE  TRL",
+            "customers": 961,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:42 MST",
+            "etr": "2026-08-20 01:42 MST"
+        },
+        {
+            "latitude": 33.52596226838965,
+            "longitude": -111.8468658400605,
+            "boundary": "N PIMA  LOOP TO N STAPLEY  DR AND UNKNOWN TO E OSBORN  RD",
+            "customers": 352,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:42 MST",
+            "etr": "2026-08-20 01:42 MST"
+        },
+        {
+            "latitude": 33.52523836254655,
+            "longitude": -112.1452834805155,
+            "boundary": "N 47TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W MISSOURI  AVE",
+            "customers": 363,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:47 MST",
+            "etr": "2026-08-20 01:46 MST"
+        },
+        {
+            "latitude": 33.45110985373715,
+            "longitude": -111.9326661200645,
+            "boundary": "N GALVIN  PKWY TO N MCCLINTOCK  DR AND E MCDOWELL  RD TO E GILBERT  DR",
+            "customers": 1195,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:55 MST",
+            "etr": "2026-08-20 01:54 MST"
+        },
+        {
+            "latitude": 33.543984738975155,
+            "longitude": -111.619251928735,
+            "boundary": "N BEELINE  HWY TO N APACHE  TRL AND UNKNOWN TO E QUENTON  ST",
+            "customers": 49,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:50 MST",
+            "etr": "2026-08-20 01:49 MST"
+        },
+        {
+            "latitude": 33.47099778185025,
+            "longitude": -111.974262194763,
+            "boundary": "N 44TH  ST TO N 56TH  ST AND E THOMAS  RD TO E ROOSEVELT  ST",
+            "customers": 1040,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:44 MST",
+            "etr": "2026-08-20 01:42 MST"
+        },
+        {
+            "latitude": 33.483046072268195,
+            "longitude": -111.8464027289215,
+            "boundary": "N LONGMORE  RD TO N BEELINE  HWY AND E CAMELBACK  RD TO W LEHI  RD",
+            "customers": 282,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:49 MST",
+            "etr": "2026-08-20 01:48 MST"
+        },
+        {
+            "latitude": 33.3028386578998,
+            "longitude": -111.58200509821751,
+            "boundary": "S VALLEY VERDE   TO UNKNOWN AND W WARNER  AVE TO W GERMANN  RD",
+            "customers": 1471,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 21:39 MST",
+            "etr": "2026-08-20 01:36 MST"
+        }
+    ]
+}

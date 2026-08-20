@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-19 22:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 2981
+    },
+    "outages": [
+        {
+            "latitude": 33.66094676299579,
+            "longitude": -111.87978551598397,
+            "city": "Scottsdale",
+            "boundary": "East Palm Tree Dr to East Topeka Dr and North 92nd St to North 92nd Wy",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-19 13:47:00 MST",
+            "etr": "2026-08-20 15:50:00 MST"
+        },
+        {
+            "latitude": 34.556263361363996,
+            "longitude": -110.04797230297993,
+            "city": "Snowflake",
+            "boundary": "Buckskin Tl to Chaparral Ln and East Snowflake Bv",
+            "customers": 60,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-19 13:54:00 MST",
+            "etr": "2026-08-19 17:15:00 MST"
+        },
+        {
+            "latitude": 33.293673709268724,
+            "longitude": -111.8470130178886,
+            "city": "Chandler",
+            "boundary": "West Fairview St to West Pecos Rd and South Hartford St to South Arizona Ave",
+            "customers": 325,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-19 14:44:00 MST",
+            "etr": "2026-08-19 18:44:00 MST"
+        },
+        {
+            "latitude": 33.42009309979738,
+            "longitude": -111.92533540005071,
+            "city": "Tempe",
+            "boundary": "University Dr To Lemon St And Mcallister Ave To Gary Dr",
+            "customers": 929,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-19 14:52:00 MST",
+            "etr": "2026-08-19 19:00:00 MST"
+        },
+        {
+            "latitude": 33.31188300035331,
+            "longitude": -111.85131700002674,
+            "city": "Chandler",
+            "boundary": "Ray Rd To Commonwealth Ave And Alma School Rd To Arizona Ave",
+            "customers": 1661,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-19 14:54:00 MST",
+            "etr": "2026-08-19 18:54:00 MST"
+        }
+    ]
+}
