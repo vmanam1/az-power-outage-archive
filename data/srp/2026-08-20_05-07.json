@@ -1,0 +1,354 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-20 05:07:29 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 34,
+        "customers_affected": 8105
+    },
+    "outages": [
+        {
+            "latitude": 33.485175731718996,
+            "longitude": -111.947651502456,
+            "boundary": "N 60TH  ST TO N 64TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 24,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 01:16 MST",
+            "etr": "2026-08-20 09:00 MST"
+        },
+        {
+            "latitude": 33.3509299144948,
+            "longitude": -111.98224989479351,
+            "boundary": "S WARNER-ELLIOT  LOOP TO S MARICOPA  FWY AND E GUADALUPE  RD TO E WARNER  RD",
+            "customers": 77,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:58 MST",
+            "etr": "2026-08-20 05:56 MST"
+        },
+        {
+            "latitude": 33.39472352946175,
+            "longitude": -111.81206055825149,
+            "boundary": "S MESA  DR TO S STAPLEY  DR AND E 8TH  AVE TO E SUPERSTITION  FWY",
+            "customers": 78,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 01:35 MST",
+            "etr": "2026-08-20 06:00 MST"
+        },
+        {
+            "latitude": 33.4490634365813,
+            "longitude": -111.84566053661,
+            "boundary": "N LONGMORE  RD TO N CENTER  ST AND E MCDOWELL  RD TO W BROWN  RD",
+            "customers": 1423,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 00:23 MST",
+            "etr": "2026-08-20 06:00 MST"
+        },
+        {
+            "latitude": 33.499914321095,
+            "longitude": -111.9641971050835,
+            "boundary": "N ARCADIA  DR TO N 56TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 01:40 MST",
+            "etr": "2026-08-20 06:00 MST"
+        },
+        {
+            "latitude": 33.3684906325418,
+            "longitude": -112.050290056345,
+            "boundary": "S CENTRAL  AVE TO S 24TH  ST AND E VINEYARD  RD TO E CHANDLER  BLVD",
+            "customers": 1580,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 23:25 MST",
+            "etr": "2026-08-20 06:06 MST"
+        },
+        {
+            "latitude": 33.433987833755154,
+            "longitude": -111.56788594843749,
+            "boundary": "N MERIDIAN  RD TO N SAN MARCOS  DR AND W MCKELLIPS  BLVD TO W TEPEE  ST",
+            "customers": 49,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 02:58 MST",
+            "etr": "2026-08-20 06:15 MST"
+        },
+        {
+            "latitude": 33.19794876635445,
+            "longitude": -111.72831847645901,
+            "boundary": "S VAL VISTA  DR TO S 172ND  ST AND E RIGGS  RD TO UNKNOWN",
+            "customers": 100,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 03:01 MST",
+            "etr": "2026-08-20 06:22 MST"
+        },
+        {
+            "latitude": 33.47168074005005,
+            "longitude": -111.856595688377,
+            "boundary": "N LONGMORE  RD TO N EXTENSION  RD AND E THOMAS  RD TO E LEHI  RD",
+            "customers": 30,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 03:11 MST",
+            "etr": "2026-08-20 05:37 MST"
+        },
+        {
+            "latitude": 33.3438456625636,
+            "longitude": -112.122746093676,
+            "boundary": "S 35TH  AVE TO S 23RD  AVE AND W CETON  DR TO W CHANDLER  BLVD",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 03:11 MST",
+            "etr": "2026-08-20 07:00 MST"
+        },
+        {
+            "latitude": 33.60605844496405,
+            "longitude": -112.205241741891,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W THUNDERBIRD  RD TO W SWEETWATER  AVE",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 03:22 MST",
+            "etr": "2026-08-20 06:30 MST"
+        },
+        {
+            "latitude": 33.39448144593205,
+            "longitude": -111.8113384026075,
+            "boundary": "S MESA  DR TO S STAPLEY  DR AND E 8TH  AVE TO E SUPERSTITION  FWY",
+            "customers": 68,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 23:53 MST",
+            "etr": "2026-08-20 07:45 MST"
+        },
+        {
+            "latitude": 33.5060901462438,
+            "longitude": -111.9861560375915,
+            "boundary": "N 40TH  ST TO N CAMELHEAD  RD AND E CAMELBACK  RD TO E CAMPBELL  AVE",
+            "customers": 51,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 22:09 MST",
+            "etr": "2026-08-20 06:00 MST"
+        },
+        {
+            "latitude": 33.52378188532465,
+            "longitude": -111.840572075336,
+            "boundary": "N EXTENSION  RD TO N CENTER  ST AND E INDIAN BEND  RD TO E JACKRABBIT  RD",
+            "customers": 2,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 22:42 MST",
+            "etr": "2026-08-20 08:00 MST"
+        },
+        {
+            "latitude": 33.39611916462725,
+            "longitude": -111.8725818579095,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 82,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 21:48 MST",
+            "etr": "2026-08-20 09:00 MST"
+        },
+        {
+            "latitude": 33.42762892836785,
+            "longitude": -111.8034377808425,
+            "boundary": "N HORNE   TO N HARRIS  DR AND E BROWN  RD TO E UNIVERSITY  DR",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 03:49 MST",
+            "etr": "2026-08-20 08:00 MST"
+        },
+        {
+            "latitude": 33.470745686650005,
+            "longitude": -111.80167850551899,
+            "boundary": "N BEELINE  HWY TO N LINDSAY  RD AND E INDIAN SCHOOL  RD TO E MCKELLIPS  RD",
+            "customers": 443,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 04:04 MST",
+            "etr": "2026-08-20 09:00 MST"
+        },
+        {
+            "latitude": 33.4458786798708,
+            "longitude": -111.849841329646,
+            "boundary": "N ALMA SCHOOL  RD TO N COUNTRY CLUB  DR AND E MCKELLIPS  RD TO W BROWN  RD",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 04:29 MST",
+            "etr": "2026-08-20 06:02 MST"
+        },
+        {
+            "latitude": 33.382814882983354,
+            "longitude": -112.061412559185,
+            "boundary": "S CENTRAL  AVE TO S 12TH  ST AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 288,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 04:39 MST",
+            "etr": "2026-08-20 07:30 MST"
+        },
+        {
+            "latitude": 33.27015871987325,
+            "longitude": -112.15310840544649,
+            "boundary": "S COCATKA  ST TO S 40TH  ST AND W PECOS  RD TO UNKNOWN",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 04:40 MST",
+            "etr": "2026-08-20 07:30 MST"
+        },
+        {
+            "latitude": 33.468609987108394,
+            "longitude": -111.971526470301,
+            "boundary": "N 48TH  ST TO N 56TH  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 213,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 21:44 MST",
+            "etr": "2026-08-20 08:00 MST"
+        },
+        {
+            "latitude": 33.4075572841021,
+            "longitude": -112.021428847265,
+            "boundary": "S 24TH  ST TO S 32ND  ST AND E ELWOOD  ST TO E ROESER  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 04:44 MST",
+            "etr": "2026-08-20 08:11 MST"
+        },
+        {
+            "latitude": 33.4073639360048,
+            "longitude": -112.02393411818801,
+            "boundary": "S 24TH  ST TO S 32ND  ST AND E ELWOOD  ST TO E ROESER  RD",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 04:45 MST",
+            "etr": "2026-08-20 08:15 MST"
+        },
+        {
+            "latitude": 33.4459025180025,
+            "longitude": -112.17226477336101,
+            "boundary": "S 55TH  AVE TO S 51ST  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 01:06 MST",
+            "etr": "2026-08-20 08:30 MST"
+        },
+        {
+            "latitude": 33.4231837145058,
+            "longitude": -111.9095089730005,
+            "boundary": "S RURAL  RD TO S PRICE  RD AND E RIO SALADO  PKWY TO E APACHE  BLVD",
+            "customers": 682,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-19 21:51 MST",
+            "etr": "2026-08-20 06:00 MST"
+        },
+        {
+            "latitude": 33.404591693963255,
+            "longitude": -112.0263619467035,
+            "boundary": "S 24TH  ST TO S 28TH  ST AND E BROADWAY  RD TO E ROESER  RD",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 03:14 MST",
+            "etr": "2026-08-20 06:00 MST"
+        },
+        {
+            "latitude": 33.4175133240103,
+            "longitude": -111.90049578544449,
+            "boundary": "S DORSEY  LN TO S EVERGREEN  RD AND E RIO SALADO  PKWY TO E BROADWAY  RD",
+            "customers": 1675,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 02:09 MST",
+            "etr": "2026-08-20 06:02 MST"
+        },
+        {
+            "latitude": 33.39613106671575,
+            "longitude": -112.0522834970415,
+            "boundary": "S 7TH  ST TO S 16TH  ST AND E BROADWAY  RD TO E VINEYARD  RD",
+            "customers": 49,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 02:39 MST",
+            "etr": "2026-08-20 09:30 MST"
+        },
+        {
+            "latitude": 33.39612061503275,
+            "longitude": -112.0518990706705,
+            "boundary": "S 12TH  ST TO S 16TH  ST AND E ROESER  RD TO E SOUTHERN  AVE",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 02:42 MST",
+            "etr": "2026-08-20 09:30 MST"
+        },
+        {
+            "latitude": 33.434172542615954,
+            "longitude": -111.8470154877055,
+            "boundary": "N ALMA SCHOOL  RD TO N COUNTRY CLUB  DR AND W MCLELLAN  RD TO W RIO SALADO  PKWY",
+            "customers": 59,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 03:25 MST",
+            "etr": "2026-08-20 09:30 MST"
+        },
+        {
+            "latitude": 33.47138414898615,
+            "longitude": -111.875137994171,
+            "boundary": "N PIMA  LOOP TO N ALMA SCHOOL  RD AND E THOMAS  RD TO E LEHI  RD",
+            "customers": 54,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 03:25 MST",
+            "etr": "2026-08-20 09:30 MST"
+        },
+        {
+            "latitude": 33.397016508716305,
+            "longitude": -111.8987365793675,
+            "boundary": "S MCCLINTOCK  DR TO S PRICE  RD AND E BROADWAY  RD TO E SUPERSTITION  FWY",
+            "customers": 86,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-19 22:44 MST",
+            "etr": "2026-08-20 10:00 MST"
+        },
+        {
+            "latitude": 33.3237517890788,
+            "longitude": -111.848441869255,
+            "boundary": "N ALMA SCHOOL  RD TO N ARIZONA  AVE AND W KNOX  RD TO W RAY  RD",
+            "customers": 27,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 03:49 MST",
+            "etr": "2026-08-20 09:30 MST"
+        },
+        {
+            "latitude": 33.5255936347,
+            "longitude": -112.1127908013285,
+            "boundary": "N 35TH  AVE TO N 15TH  AVE AND W GLENDALE  AVE TO W MISSOURI  AVE",
+            "customers": 822,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 04:21 MST",
+            "etr": "2026-08-20 05:55 MST"
+        }
+    ]
+}
