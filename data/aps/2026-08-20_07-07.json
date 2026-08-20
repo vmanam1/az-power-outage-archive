@@ -1,0 +1,157 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-20 07:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 13,
+        "customers_affected": 621
+    },
+    "outages": [
+        {
+            "latitude": 33.66094676299579,
+            "longitude": -111.87978551598397,
+            "city": "Scottsdale",
+            "boundary": "East Palm Tree Dr to East Topeka Dr and North 92nd St to North 92nd Wy",
+            "customers": 6,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 13:47:00 MST",
+            "etr": "2026-08-20 07:00:00 MST"
+        },
+        {
+            "latitude": 33.639583370635535,
+            "longitude": -112.01403701222692,
+            "city": "Phoenix",
+            "boundary": "East Danbury Rd to East Edna Ave and North 28th St to North 36th St",
+            "customers": 102,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:13:00 MST",
+            "etr": "2026-08-20 02:00:00 MST"
+        },
+        {
+            "latitude": 33.64593272124201,
+            "longitude": -112.0195510097814,
+            "city": "Phoenix",
+            "boundary": "East Grovers Ave to East Angela Dr and North 27th St to North 32nd St",
+            "customers": 80,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 15:28:00 MST",
+            "etr": "2026-08-20 02:00:00 MST"
+        },
+        {
+            "latitude": 33.583000758244104,
+            "longitude": -112.04813005265457,
+            "city": "Phoenix",
+            "boundary": "East Desert Cove Ave to East Cheryl Dr and North 15th Wy",
+            "customers": 46,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 18:32:00 MST",
+            "etr": "2026-08-20 00:45:00 MST"
+        },
+        {
+            "latitude": 33.50423108387426,
+            "longitude": -111.91156703218377,
+            "city": "Scottsdale",
+            "boundary": "East Coolidge St to East Camelback Rd and North 78th St",
+            "customers": 227,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 19:39:00 MST",
+            "etr": "2026-08-20 01:00:00 MST"
+        },
+        {
+            "latitude": 33.57236412136874,
+            "longitude": -112.10016103266288,
+            "city": "Phoenix",
+            "boundary": "19th Ave and Carol Way",
+            "customers": 7,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-19 22:17:00 MST",
+            "etr": "2026-08-20 01:30:00 MST"
+        },
+        {
+            "latitude": 33.567005544081894,
+            "longitude": -112.5377069103246,
+            "city": "Surprise",
+            "boundary": "West Cactus Rd to West Northern Ave",
+            "customers": 36,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-19 22:21:00 MST",
+            "etr": "2026-08-20 01:15:00 MST"
+        },
+        {
+            "latitude": 33.63735541925219,
+            "longitude": -112.04698237492906,
+            "city": "Phoenix",
+            "boundary": "Kelton Ln to Aire Libre Ave and 16th Pl to 17th Pl",
+            "customers": 16,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-19 21:12:00 MST",
+            "etr": "2026-08-20 00:45:00 MST"
+        },
+        {
+            "latitude": 33.5817876312943,
+            "longitude": -112.1023644464429,
+            "city": "Phoenix",
+            "boundary": "Peoria Ave. to North Ln. and 21st Ave. to 19th Ave.",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-19 23:02:00 MST",
+            "etr": "2026-08-20 02:45:00 MST"
+        },
+        {
+            "latitude": 35.29472913800832,
+            "longitude": -111.91774771622299,
+            "city": "Parks",
+            "boundary": "Bird Song Way and Government Pr Rd",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-19 23:23:00 MST",
+            "etr": "2026-08-20 03:00:00 MST"
+        },
+        {
+            "latitude": 33.57850934312692,
+            "longitude": -111.86383234563307,
+            "city": "Scottsdale",
+            "boundary": "Topaz Dr and 100th St to Cinnabar Ave",
+            "customers": 29,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-19 22:47:00 MST",
+            "etr": "2026-08-20 02:05:00 MST"
+        },
+        {
+            "latitude": 33.44620447824651,
+            "longitude": -112.028725560372,
+            "city": "Phoenix",
+            "boundary": "Madison St to Harrison St and 24th St to 26th St",
+            "customers": 41,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-19 23:46:00 MST",
+            "etr": "2026-08-20 03:46:00 MST"
+        },
+        {
+            "latitude": 33.46043368762984,
+            "longitude": -112.11579071698502,
+            "city": "Phoenix",
+            "boundary": "Papago Fwy and 27th Ave to Black Canyon Hwy",
+            "customers": 8,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-19 23:45:00 MST",
+            "etr": "2026-08-20 02:00:00 MST"
+        }
+    ]
+}
