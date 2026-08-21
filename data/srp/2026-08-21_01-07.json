@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-21 01:07:08 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 171
+    },
+    "outages": [
+        {
+            "latitude": 33.3736893766893,
+            "longitude": -111.821580509518,
+            "boundary": "N MCQUEEN  RD TO S HORNE   AND E BASELINE  RD TO W GUADALUPE  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-20 21:00 MST",
+            "etr": "2026-08-21 03:30 MST"
+        },
+        {
+            "latitude": 33.4927306068475,
+            "longitude": -111.968133743274,
+            "boundary": "N 48TH  ST TO N 56TH  ST AND E CAMELBACK  RD TO E OSBORN  RD",
+            "customers": 21,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 05:35 MST",
+            "etr": "2026-08-21 03:00 MST"
+        },
+        {
+            "latitude": 33.4927306068475,
+            "longitude": -111.968133743274,
+            "boundary": "N 48TH  ST TO N 56TH  ST AND E CAMELBACK  RD TO E OSBORN  RD",
+            "customers": 21,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 05:35 MST",
+            "etr": "2026-08-21 03:00 MST"
+        },
+        {
+            "latitude": 33.4838379574853,
+            "longitude": -111.904395334238,
+            "boundary": "N HAYDEN  RD TO N GRANITE REEF  RD AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 21:38 MST",
+            "etr": "2026-08-21 03:00 MST"
+        },
+        {
+            "latitude": 33.60845154043585,
+            "longitude": -111.7048075801815,
+            "boundary": "N 136TH  ST TO N BEELINE  HWY AND E JOMAX  RD TO E SHEA  BLVD",
+            "customers": 13,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 06:12 MST",
+            "etr": "2026-08-21 03:00 MST"
+        },
+        {
+            "latitude": 33.3892335055115,
+            "longitude": -111.66547035212801,
+            "boundary": "S 72ND  ST TO S HAWES  RD AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 28,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 10:56 MST",
+            "etr": "2026-08-21 06:30 MST"
+        },
+        {
+            "latitude": 33.42418911731765,
+            "longitude": -111.783041020036,
+            "boundary": "N GILBERT  RD TO N 24TH  ST AND E ADOBE  ST TO E MAIN  ST",
+            "customers": 43,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-21 00:04 MST",
+            "etr": "2026-08-21 05:00 MST"
+        },
+        {
+            "latitude": 33.559688814163195,
+            "longitude": -112.1149646246435,
+            "boundary": "N 31ST  AVE TO N 23RD  AVE AND W DUNLAP  AVE TO W NORTHERN  AVE",
+            "customers": 30,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 22:50 MST",
+            "etr": "2026-08-21 01:54 MST"
+        },
+        {
+            "latitude": 33.39063495098915,
+            "longitude": -112.0507852412035,
+            "boundary": "S 12TH  ST TO S 16TH  ST AND E ROESER  RD TO E VINEYARD  RD",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 16:22 MST",
+            "etr": "2026-08-21 05:00 MST"
+        }
+    ]
+}
