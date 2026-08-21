@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-21 05:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 57
+    },
+    "outages": [
+        {
+            "latitude": 33.4838379574853,
+            "longitude": -111.904395334238,
+            "boundary": "N HAYDEN  RD TO N GRANITE REEF  RD AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 21:38 MST",
+            "etr": "2026-08-21 06:30 MST"
+        },
+        {
+            "latitude": 33.60845154043585,
+            "longitude": -111.7048075801815,
+            "boundary": "N 136TH  ST TO N BEELINE  HWY AND E JOMAX  RD TO E SHEA  BLVD",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-20 06:12 MST",
+            "etr": "2026-08-21 10:00 MST"
+        },
+        {
+            "latitude": 33.4942721412093,
+            "longitude": -112.285907154881,
+            "boundary": "N 107TH  AVE TO N 103RD  AVE AND W CAMPBELL  AVE TO W THOMAS  RD",
+            "customers": 43,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-21 03:20 MST",
+            "etr": "2026-08-21 05:51 MST"
+        }
+    ]
+}
