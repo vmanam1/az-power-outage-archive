@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-20 23:07:27 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 94
+    },
+    "outages": [
+        {
+            "latitude": 32.8611043150942,
+            "longitude": -113.21231502041253,
+            "city": "Dateland",
+            "boundary": "I8 and Agua Caliente Rd.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-20 02:47:00 MST",
+            "etr": "2026-08-20 17:30:00 MST"
+        },
+        {
+            "latitude": 32.62797898825402,
+            "longitude": -114.40483046810284,
+            "city": "Yuma",
+            "boundary": "55th St. to 55th Dr. and Dorothy Dr. to Camino Del Diablo",
+            "customers": 64,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-20 14:20:00 MST",
+            "etr": "2026-08-20 17:15:00 MST"
+        },
+        {
+            "latitude": 33.67956770209174,
+            "longitude": -112.2808340527843,
+            "city": "Peoria",
+            "boundary": "Salter Dr. and 102nd Dr.",
+            "customers": 5,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-20 14:38:00 MST",
+            "etr": "2026-08-20 17:30:00 MST"
+        },
+        {
+            "latitude": 32.88862323093204,
+            "longitude": -111.76072306334831,
+            "city": "Casa Grande",
+            "boundary": "Ramos Dr. and French St.",
+            "customers": 20,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-20 15:17:00 MST",
+            "etr": "2026-08-20 18:40:00 MST"
+        }
+    ]
+}
