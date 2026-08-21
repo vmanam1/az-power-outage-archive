@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-21 12:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 48
+    },
+    "outages": [
+        {
+            "latitude": 33.601984089937424,
+            "longitude": -112.04115584989397,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave. to 18th Pl. and 19th St. to 19th Wy.",
+            "customers": 9,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-20 21:12:00 MST",
+            "etr": "2026-08-21 06:15:00 MST"
+        },
+        {
+            "latitude": 35.26533257223537,
+            "longitude": -111.52947147374299,
+            "city": "Flagstaff",
+            "boundary": "Jay Ln. to Chris Ln. and Mary's Dr. to Koch Field Rd.",
+            "customers": 17,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-21 03:24:00 MST",
+            "etr": "2026-08-21 06:45:00 MST"
+        },
+        {
+            "latitude": 33.6016406487563,
+            "longitude": -112.04085883362336,
+            "city": "Phoenix",
+            "boundary": "Larkspur Dr and 19th St to 19th Pl",
+            "customers": 14,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-21 04:17:00 MST",
+            "etr": "2026-08-21 06:40:00 MST"
+        },
+        {
+            "latitude": 33.46812767195486,
+            "longitude": -112.12180507525444,
+            "city": "Phoenix",
+            "boundary": "Granada Rd. to Coronado Rd. and 30th Ave. to 29th Ave.",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-21 02:00:00 MST",
+            "etr": "2026-08-21 06:00:00 MST"
+        }
+    ]
+}
