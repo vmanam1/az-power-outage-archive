@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-21 15:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1615
+    },
+    "outages": [
+        {
+            "latitude": 33.4001407301155,
+            "longitude": -111.5124123134765,
+            "boundary": "S CORTEZ  RD TO S ARROYA  RD AND E BROADWAY  AVE TO E SOUTHERN  AVE",
+            "customers": 5,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-21 11:05 MST",
+            "etr": "2026-08-21 18:00 MST"
+        },
+        {
+            "latitude": 33.492493121882504,
+            "longitude": -112.2268885010335,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-21 12:28 MST",
+            "etr": "2026-08-21 18:30 MST"
+        },
+        {
+            "latitude": 33.426593687308255,
+            "longitude": -112.319109220114,
+            "boundary": "S DYSART  RD TO S 111TH  AVE AND W VAN BUREN  ST TO W ELWOOD  ST",
+            "customers": 1593,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-21 14:25 MST",
+            "etr": "2026-08-21 16:24 MST"
+        },
+        {
+            "latitude": 33.5250523529222,
+            "longitude": -112.1582414154085,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W MARYLAND  AVE TO W GRAND  AVE",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-21 12:48 MST",
+            "etr": "2026-08-21 17:00 MST"
+        }
+    ]
+}
