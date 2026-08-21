@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-21 00:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 63
+    },
+    "outages": [
+        {
+            "latitude": 33.67956770209174,
+            "longitude": -112.2808340527843,
+            "city": "Peoria",
+            "boundary": "Salter Dr. and 102nd Dr.",
+            "customers": 5,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-20 14:38:00 MST",
+            "etr": "2026-08-20 17:30:00 MST"
+        },
+        {
+            "latitude": 32.88862323093204,
+            "longitude": -111.76072306334831,
+            "city": "Casa Grande",
+            "boundary": "Ramos Dr. and French St.",
+            "customers": 16,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-20 15:17:00 MST",
+            "etr": "2026-08-20 18:40:00 MST"
+        },
+        {
+            "latitude": 32.722603538825076,
+            "longitude": -114.63161263913238,
+            "city": "Yuma",
+            "boundary": "2nd St. and 3rd St. and S Ave. A and S 9th Ave.",
+            "customers": 10,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-20 16:46:00 MST",
+            "etr": "2026-08-20 19:20:00 MST"
+        },
+        {
+            "latitude": 33.636246678638805,
+            "longitude": -111.93838881225771,
+            "city": "Scottsdale",
+            "boundary": "Grandview Dr. to Beverly Ln. and 66th St. to 69th St.",
+            "customers": 32,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-20 17:01:00 MST",
+            "etr": "2026-08-20 19:50:00 MST"
+        }
+    ]
+}
