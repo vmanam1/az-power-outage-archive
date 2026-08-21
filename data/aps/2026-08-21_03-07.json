@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-21 03:07:25 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 50
+    },
+    "outages": [
+        {
+            "latitude": 33.60715770935763,
+            "longitude": -111.86763728668143,
+            "city": "Scottsdale",
+            "boundary": "Sutton Dr. to Dreyfus Ave. and 97th St. to 98th Pl.",
+            "customers": 50,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-20 19:00:00 MST",
+            "etr": "2026-08-20 21:30:00 MST"
+        }
+    ]
+}
