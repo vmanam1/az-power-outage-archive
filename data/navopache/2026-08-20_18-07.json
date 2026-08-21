@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-20 18:07:28 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 24,
+        "total_customers": 45828
+    },
+    "outages": [
+        {
+            "latitude": 34.52871936720869,
+            "longitude": -109.40144367271165,
+            "customers": 9,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-20 17:45:23 MST",
+            "etr": null,
+            "incident_id": "533627"
+        },
+        {
+            "latitude": 34.57652895704122,
+            "longitude": -109.33513003842872,
+            "customers": 3,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-20 17:37:17 MST",
+            "etr": null,
+            "incident_id": "533624"
+        },
+        {
+            "latitude": 34.08970064439094,
+            "longitude": -109.29784097097973,
+            "customers": 5,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-20 14:58:57 MST",
+            "etr": null,
+            "incident_id": "533621"
+        },
+        {
+            "latitude": 34.090303241563404,
+            "longitude": -109.2978319878269,
+            "customers": 4,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-20 14:58:57 MST",
+            "etr": null,
+            "incident_id": "533620"
+        },
+        {
+            "latitude": 34.12182573669379,
+            "longitude": -109.27576936444585,
+            "customers": 2,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-20 15:17:33 MST",
+            "etr": null,
+            "incident_id": "533597"
+        },
+        {
+            "latitude": 34.10362623857827,
+            "longitude": -109.2501134799278,
+            "customers": 1,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-20 14:46:39 MST",
+            "etr": null,
+            "incident_id": "533582"
+        }
+    ]
+}
