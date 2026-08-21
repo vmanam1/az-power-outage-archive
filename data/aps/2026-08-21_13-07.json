@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-21 13:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.62765414173864,
+            "longitude": -112.14117091662362,
+            "city": "Phoenix",
+            "boundary": "Waltann Ln. to Betty Elyse Ln. and 39th Ave. to 38th Ave.",
+            "customers": 29,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-21 05:20:00 MST",
+            "etr": "2026-08-21 08:00:00 MST"
+        }
+    ]
+}

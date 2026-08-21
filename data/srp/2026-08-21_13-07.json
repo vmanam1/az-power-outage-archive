@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-21 13:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 116
+    },
+    "outages": [
+        {
+            "latitude": 33.4838379574853,
+            "longitude": -111.904395334238,
+            "boundary": "N HAYDEN  RD TO N GRANITE REEF  RD AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-20 21:38 MST",
+            "etr": "2026-08-21 14:00 MST"
+        },
+        {
+            "latitude": 33.37532964479975,
+            "longitude": -112.10089431901301,
+            "boundary": "S 23RD  AVE TO S 15TH  AVE AND W BASELINE  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-21 12:05 MST",
+            "etr": "2026-08-21 14:04 MST"
+        },
+        {
+            "latitude": 33.36085013687,
+            "longitude": -111.9812602860055,
+            "boundary": "S WARNER-ELLIOT  LOOP TO S 48TH  ST AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 34,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-21 12:00 MST",
+            "etr": "2026-08-21 14:01 MST"
+        },
+        {
+            "latitude": 33.492493121882504,
+            "longitude": -112.2268885010335,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-21 12:28 MST",
+            "etr": "2026-08-21 14:24 MST"
+        },
+        {
+            "latitude": 33.409810642321645,
+            "longitude": -111.916780213364,
+            "boundary": "S RURAL  RD TO S MCCLINTOCK  DR AND E APACHE  BLVD TO E BROADWAY  RD",
+            "customers": 54,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-21 12:29 MST",
+            "etr": "2026-08-21 14:28 MST"
+        },
+        {
+            "latitude": 33.5250523529222,
+            "longitude": -112.158244635848,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W MARYLAND  AVE TO W GRAND  AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-21 12:48 MST",
+            "etr": "2026-08-21 14:47 MST"
+        },
+        {
+            "latitude": 33.4001407301155,
+            "longitude": -111.5124123134765,
+            "boundary": "S CORTEZ  RD TO S ARROYA  RD AND E BROADWAY  AVE TO E SOUTHERN  AVE",
+            "customers": 5,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-21 11:05 MST",
+            "etr": "2026-08-21 18:00 MST"
+        }
+    ]
+}

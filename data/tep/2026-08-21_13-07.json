@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-08-21 13:07:28 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2067,
+        "map_last_refreshed": "Aug 21, 1:05 PM"
+    },
+    "outages": [
+        {
+            "latitude": 32.1163056786762,
+            "longitude": -110.756660128766,
+            "boundary": {
+                "coordLatSW": "32.022913930438797",
+                "coordLngSW": "-110.747861776744",
+                "coordLatNE": "32.145995036195401",
+                "coordLngNE": "-110.54255677797099",
+                "coordLatCenter": "32.084457",
+                "coordLngCenter": "-110.64521"
+            },
+            "customers": 2067,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-08-21 12:52 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-08-21 13:02 MST"
+        },
+        {
+            "latitude": 32.263450984664296,
+            "longitude": -110.879599891171,
+            "boundary": {
+                "coordLatSW": "32.263450984664296",
+                "coordLngSW": "-110.879599891171",
+                "coordLatNE": "32.263450984664296",
+                "coordLngNE": "-110.879599891171",
+                "coordLatCenter": "32.26345",
+                "coordLngCenter": "-110.8796"
+            },
+            "customers": 0,
+            "cause": "Equipment Repair - Replacement",
+            "comments": null,
+            "start_time": "2026-08-20 22:36 MST",
+            "etr": "2026-08-21 00:17 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 81,
+            "last_update": "2026-08-21 01:08 MST"
+        }
+    ]
+}
