@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-21 08:07:28 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 29,
+        "total_customers": 45937
+    },
+    "outages": [
+        {
+            "latitude": 34.38402127705598,
+            "longitude": -109.822717608411,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-21 07:57:48 MST",
+            "etr": null,
+            "incident_id": "533635"
+        },
+        {
+            "latitude": 34.361755469716854,
+            "longitude": -110.29353363203641,
+            "customers": 27,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-08-21 07:39:31 MST",
+            "etr": null,
+            "incident_id": "533634"
+        },
+        {
+            "latitude": 34.5047006327354,
+            "longitude": -109.38159090492985,
+            "customers": 1,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-21 07:38:26 MST",
+            "etr": null,
+            "incident_id": "533631"
+        }
+    ]
+}
