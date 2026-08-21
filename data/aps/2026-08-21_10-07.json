@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-21 10:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 122
+    },
+    "outages": [
+        {
+            "latitude": 33.601984089937424,
+            "longitude": -112.04115584989397,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave. to 18th Pl. and 19th St. to 19th Wy.",
+            "customers": 9,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-20 21:12:00 MST",
+            "etr": "2026-08-21 05:00:00 MST"
+        },
+        {
+            "latitude": 34.61438059783559,
+            "longitude": -112.41861030374186,
+            "city": "Prescott",
+            "boundary": "Old Hwy 89A and Hwy 89 to Granite Creek",
+            "customers": 22,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-21 01:30:00 MST",
+            "etr": "2026-08-21 04:30:00 MST"
+        },
+        {
+            "latitude": 34.24892074783909,
+            "longitude": -111.31460358825815,
+            "city": "Payson",
+            "boundary": "Timber Dr to Evergreen St and Manzanita Dr to Granite Dr",
+            "customers": 29,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-21 01:30:00 MST",
+            "etr": "2026-08-21 04:00:00 MST"
+        },
+        {
+            "latitude": 34.56432916925193,
+            "longitude": -112.4934764897135,
+            "city": "Prescott",
+            "boundary": "Adams Ave. to Rockwood Dr. and Shoup St. to Swenson St.",
+            "customers": 54,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-21 02:07:00 MST",
+            "etr": "2026-08-21 05:00:00 MST"
+        },
+        {
+            "latitude": 33.46838906987869,
+            "longitude": -112.12217731824354,
+            "city": "Phoenix",
+            "boundary": "Granada Rd to Coronado Rd and 30th Ave to 29th Ave",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-21 02:00:00 MST",
+            "etr": "2026-08-21 05:30:00 MST"
+        }
+    ]
+}

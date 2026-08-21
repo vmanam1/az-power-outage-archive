@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-08-21 10:07:28 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 5,
+        "total_customers": 36552
+    },
+    "outages": [
+        {
+            "latitude": 32.93019314148358,
+            "longitude": -112.06529200793821,
+            "boundary": "MTR-900191",
+            "customers": 1,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-08-20 07:40:41 MST",
+            "etr": null,
+            "pole_number": "16193"
+        },
+        {
+            "latitude": 33.04320104373591,
+            "longitude": -112.01330814838505,
+            "boundary": "SC-1417",
+            "customers": 1,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-08-20 09:19:58 MST",
+            "etr": null,
+            "pole_number": null
+        },
+        {
+            "latitude": 32.90944270623051,
+            "longitude": -111.92912037652327,
+            "boundary": "T-101171",
+            "customers": 2,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-08-20 07:39:22 MST",
+            "etr": null,
+            "pole_number": "101171"
+        },
+        {
+            "latitude": 32.86496654284788,
+            "longitude": -111.95262694012894,
+            "boundary": "T-100503",
+            "customers": 1,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-08-20 07:39:48 MST",
+            "etr": null,
+            "pole_number": "100503"
+        }
+    ]
+}
