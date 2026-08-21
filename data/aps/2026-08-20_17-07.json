@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-20 17:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 200
+    },
+    "outages": [
+        {
+            "latitude": 32.8611043150942,
+            "longitude": -113.21231502041253,
+            "city": "Dateland",
+            "boundary": "I8 and Agua Caliente Rd.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-20 02:47:00 MST",
+            "etr": "2026-08-20 12:00:00 MST"
+        },
+        {
+            "latitude": 34.71987873112585,
+            "longitude": -112.01286034766383,
+            "city": "Cottonwood",
+            "boundary": "Date St. to Fir St. and 6th St. to 16th St.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-20 08:59:00 MST",
+            "etr": "2026-08-20 12:20:00 MST"
+        },
+        {
+            "latitude": 34.565793427227746,
+            "longitude": -112.37294804582297,
+            "city": "Prescott",
+            "boundary": "Baker St to Onyx Dr and Rose Quartz Dr",
+            "customers": 36,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-20 08:57:00 MST",
+            "etr": "2026-08-20 12:20:00 MST"
+        },
+        {
+            "latitude": 34.64032788589668,
+            "longitude": -112.51053514571765,
+            "city": "Prescott",
+            "boundary": "Love Ln to Levie Ln and Levie Ln to Double Tree Rd",
+            "customers": 95,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-20 09:21:00 MST",
+            "etr": "2026-08-20 12:15:00 MST"
+        },
+        {
+            "latitude": 34.63923535769636,
+            "longitude": -112.50031299870737,
+            "city": "Prescott",
+            "boundary": "Single Tree St. to Bridle Path and Double Tree Rd.",
+            "customers": 52,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-20 09:33:00 MST",
+            "etr": "2026-08-20 12:25:00 MST"
+        }
+    ]
+}
