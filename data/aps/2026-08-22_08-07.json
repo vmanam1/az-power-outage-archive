@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-22 08:07:26 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 33.54022696468976,
+            "longitude": -112.07071016133175,
+            "city": "Phoenix",
+            "boundary": "Myrtle Ln to Cactus Wren Dr and Central Ave to 3rd St",
+            "customers": 58,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-22 00:00:00 MST",
+            "etr": "2026-08-22 03:30:00 MST"
+        }
+    ]
+}
