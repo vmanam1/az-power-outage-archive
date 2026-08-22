@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-22 10:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 99
+    },
+    "outages": [
+        {
+            "latitude": 33.459704546844904,
+            "longitude": -112.2171297165695,
+            "boundary": "N 79TH  AVE TO N 67TH  AVE AND W MCDOWELL  RD TO W VAN BUREN  ST",
+            "customers": 80,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-22 02:42 MST",
+            "etr": "2026-08-22 12:42 MST"
+        },
+        {
+            "latitude": 33.3590506114771,
+            "longitude": -111.926518588522,
+            "boundary": "S MILL  AVE TO S LAKESHORE  DR AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 8,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-22 06:00 MST",
+            "etr": "2026-08-22 12:00 MST"
+        },
+        {
+            "latitude": 33.4740808686315,
+            "longitude": -112.16294919237549,
+            "boundary": "N 51ST  AVE TO N 47TH  AVE AND W THOMAS  RD TO W MCDOWELL  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-22 09:32 MST",
+            "etr": "2026-08-22 11:32 MST"
+        },
+        {
+            "latitude": 33.268998514753804,
+            "longitude": -111.83311336074101,
+            "boundary": "S ARIZONA  AVE TO S MCQUEEN  RD AND E GERMANN  RD TO E QUEEN CREEK  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-22 09:52 MST",
+            "etr": "2026-08-22 11:53 MST"
+        }
+    ]
+}
