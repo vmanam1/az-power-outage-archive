@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-22 04:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 683
+    },
+    "outages": [
+        {
+            "latitude": 33.366236608885146,
+            "longitude": -111.8220885552375,
+            "boundary": "N MCQUEEN  RD TO N HORNE  ST AND W HOUSTON  AVE TO W GUADALUPE  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-22 02:57 MST",
+            "etr": "2026-08-22 07:00 MST"
+        },
+        {
+            "latitude": 33.4618710759232,
+            "longitude": -112.2183615805625,
+            "boundary": "N 79TH  AVE TO N 67TH  AVE AND W ENCANTO  BLVD TO W BUCKEYE  RD",
+            "customers": 675,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-22 02:42 MST",
+            "etr": "2026-08-22 04:42 MST"
+        },
+        {
+            "latitude": 33.4274666515035,
+            "longitude": -112.323321815584,
+            "boundary": "S 127TH  AVE TO S 119TH  AVE AND W BUCKEYE  RD TO W LOWER BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-22 03:11 MST",
+            "etr": "2026-08-22 05:09 MST"
+        }
+    ]
+}
