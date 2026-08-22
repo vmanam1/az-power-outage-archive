@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-08-22 05:07:28 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 97,
+        "map_last_refreshed": "Aug 22, 5:05 AM"
+    },
+    "outages": [
+        {
+            "latitude": 34.49999705357839,
+            "longitude": -114.3353235775676,
+            "boundary": {
+                "coordLatSW": "34.497834882062101",
+                "coordLngSW": "-114.338360199297",
+                "coordLatNE": "34.502577400953101",
+                "coordLngNE": "-114.33260566704399",
+                "coordLatCenter": "34.500206",
+                "coordLngCenter": "-114.33548"
+            },
+            "customers": 97,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-08-22 04:43 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "UEE",
+            "customers_restored": 0,
+            "last_update": "2026-08-22 05:02 MST"
+        },
+        {
+            "latitude": 31.5802571323265,
+            "longitude": -110.982337933699,
+            "boundary": {
+                "coordLatSW": "31.580257132326501",
+                "coordLngSW": "-110.982337933699",
+                "coordLatNE": "31.580257132326501",
+                "coordLngNE": "-110.982337933699",
+                "coordLatCenter": "31.580257",
+                "coordLngCenter": "-110.98234"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Weather",
+            "comments": null,
+            "start_time": "2026-08-21 18:49 MST",
+            "etr": "2026-08-21 20:10 MST",
+            "event": "Restored",
+            "division": "USE",
+            "customers_restored": 99,
+            "last_update": "2026-08-21 22:31 MST"
+        }
+    ]
+}
