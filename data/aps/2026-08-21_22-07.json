@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-21 22:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 33.46468852882701,
+            "longitude": -112.09022271824807,
+            "city": "Phoenix",
+            "boundary": "Lynwood St. to Willetta St. and 15th Ave. to 13th Ave.",
+            "customers": 11,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-21 14:43:00 MST",
+            "etr": "2026-08-21 18:05:00 MST"
+        },
+        {
+            "latitude": 33.561684711136266,
+            "longitude": -112.0683987844276,
+            "city": "Phoenix",
+            "boundary": "Orchid Ln. to Butler Dr. and 3rd St. to 6th St.",
+            "customers": 12,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-21 14:59:00 MST",
+            "etr": "2026-08-21 17:40:00 MST"
+        }
+    ]
+}
