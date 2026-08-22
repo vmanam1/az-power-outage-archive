@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-21 19:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 179
+    },
+    "outages": [
+        {
+            "latitude": 35.268127268236135,
+            "longitude": -111.53646363023286,
+            "city": "Flagstaff",
+            "boundary": "Blueridge Dr. to Carols Pl. and US HWY 89 to Lunar Dr.",
+            "customers": 179,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-21 11:39:00 MST",
+            "etr": "2026-08-21 13:20:00 MST"
+        }
+    ]
+}
