@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-21 17:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.492493121882504,
+            "longitude": -112.2268885010335,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-21 12:28 MST",
+            "etr": "2026-08-21 18:30 MST"
+        },
+        {
+            "latitude": 33.4101586083801,
+            "longitude": -112.0704079646745,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND E ELWOOD  ST TO E BROADWAY  RD",
+            "customers": 17,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-21 16:40 MST",
+            "etr": "2026-08-21 18:37 MST"
+        },
+        {
+            "latitude": 33.557340701645956,
+            "longitude": -112.09203088190151,
+            "boundary": "N 19TH  AVE TO N 7TH  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-21 16:19 MST",
+            "etr": "2026-08-21 18:23 MST"
+        }
+    ]
+}
