@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-22 07:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 91
+    },
+    "outages": [
+        {
+            "latitude": 33.652079506763386,
+            "longitude": -112.0253269012755,
+            "city": "Phoenix",
+            "boundary": "Villa Maria Dr. to Michigan Ave. and 26th St. to 28th St.",
+            "customers": 33,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-21 22:44:00 MST",
+            "etr": "2026-08-22 01:35:00 MST"
+        },
+        {
+            "latitude": 33.54022696468976,
+            "longitude": -112.07071016133175,
+            "city": "Phoenix",
+            "boundary": "Myrtle Ln to Cactus Wren Dr and Central Ave to 3rd St",
+            "customers": 58,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-22 00:00:00 MST",
+            "etr": "2026-08-22 03:30:00 MST"
+        }
+    ]
+}
