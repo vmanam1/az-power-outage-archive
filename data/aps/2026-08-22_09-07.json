@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-22 09:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 33.5943471413467,
+            "longitude": -112.00690481287582,
+            "city": "Phoenix",
+            "boundary": "Laurel Ln. to Poinsettia Dr. and 34th St. to 35th St.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-22 01:05:00 MST",
+            "etr": "2026-08-22 03:40:00 MST"
+        },
+        {
+            "latitude": 33.57735249279405,
+            "longitude": -112.13119345093378,
+            "city": "Phoenix",
+            "boundary": "Cinnabar Ave. to Malapai Dr. and 34th Ln. to 33rd Ave.",
+            "customers": 30,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-22 01:33:00 MST",
+            "etr": "2026-08-22 05:00:00 MST"
+        }
+    ]
+}
