@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-22 06:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 97
+    },
+    "outages": [
+        {
+            "latitude": 34.88297519620079,
+            "longitude": -111.78805800333338,
+            "city": "Sedona",
+            "boundary": "Rim Shadow Rd. to Sunrise Cliffs Ct. and Soldier Pass Rd.",
+            "customers": 64,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-21 18:35:00 MST",
+            "etr": "2026-08-22 00:00:00 MST"
+        },
+        {
+            "latitude": 33.652079506763386,
+            "longitude": -112.0253269012755,
+            "city": "Phoenix",
+            "boundary": "Villa Maria Dr. to Michigan Ave. and 26th St. to 28th St.",
+            "customers": 33,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-21 22:44:00 MST",
+            "etr": "2026-08-22 01:35:00 MST"
+        }
+    ]
+}
