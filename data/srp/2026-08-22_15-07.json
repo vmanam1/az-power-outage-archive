@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-22 15:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 936
+    },
+    "outages": [
+        {
+            "latitude": 33.33344597248945,
+            "longitude": -111.764142552782,
+            "boundary": "S 140TH  ST TO S CORONADO  RD AND E ELLIOT  RD TO E RAY  RD",
+            "customers": 849,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-22 13:38 MST",
+            "etr": "2026-08-22 15:48 MST"
+        },
+        {
+            "latitude": 33.310883455788954,
+            "longitude": -111.9636027218985,
+            "boundary": "S MARICOPA  FWY TO N KYRENE  RD AND W RAY  RD TO W FRYE  RD",
+            "customers": 76,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-22 14:24 MST",
+            "etr": "2026-08-22 15:27 MST"
+        },
+        {
+            "latitude": 33.54625724937815,
+            "longitude": -112.099225723006,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-22 14:54 MST",
+            "etr": "2026-08-22 16:47 MST"
+        }
+    ]
+}
