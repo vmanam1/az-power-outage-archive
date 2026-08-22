@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-22 00:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 33.5537373598404,
+            "longitude": -112.16158600609,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-21 18:16 MST",
+            "etr": "2026-08-22 04:00 MST"
+        }
+    ]
+}

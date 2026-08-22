@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-22 00:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 37
+    },
+    "outages": [
+        {
+            "latitude": 33.561684711136266,
+            "longitude": -112.0683987844276,
+            "city": "Phoenix",
+            "boundary": "Orchid Ln. to Butler Dr. and 3rd St. to 6th St.",
+            "customers": 12,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-21 14:59:00 MST",
+            "etr": "2026-08-21 17:40:00 MST"
+        },
+        {
+            "latitude": 33.479185235977106,
+            "longitude": -112.08865808299184,
+            "city": "Phoenix",
+            "boundary": "Edgemont Ave. and 13th Ave.",
+            "customers": 7,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-21 15:22:00 MST",
+            "etr": "2026-08-21 18:45:00 MST"
+        },
+        {
+            "latitude": 33.4855685173525,
+            "longitude": -112.34233363970493,
+            "city": "Avondale",
+            "boundary": "Osborn Rd. and 31st Dr. to Dysart Rd.",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-21 16:26:00 MST",
+            "etr": "2026-08-21 18:00:00 MST"
+        }
+    ]
+}
