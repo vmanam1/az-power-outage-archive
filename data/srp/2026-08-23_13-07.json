@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-23 13:07:26 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.53699487128195,
+            "longitude": -112.1279939497085,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 09:51 MST",
+            "etr": "2026-08-23 17:00 MST"
+        },
+        {
+            "latitude": 33.488414940199405,
+            "longitude": -112.0089704504045,
+            "boundary": "N 32ND  ST TO N 36TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-23 12:31 MST",
+            "etr": "2026-08-23 15:30 MST"
+        },
+        {
+            "latitude": 33.5444788396846,
+            "longitude": -112.09475724652799,
+            "boundary": "N 19TH  AVE TO N 15TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 12:35 MST",
+            "etr": "2026-08-23 14:34 MST"
+        },
+        {
+            "latitude": 33.54530722494925,
+            "longitude": -112.0952341070855,
+            "boundary": "N 19TH  AVE TO N 15TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 12:58 MST",
+            "etr": "2026-08-23 14:57 MST"
+        }
+    ]
+}
