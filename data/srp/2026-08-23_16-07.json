@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-23 16:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 3096
+    },
+    "outages": [
+        {
+            "latitude": 33.4661010153204,
+            "longitude": -111.92093749587801,
+            "boundary": "N SCOTTSDALE  RD TO N 76TH  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 13:31 MST",
+            "etr": "2026-08-23 19:00 MST"
+        },
+        {
+            "latitude": 33.4085701568024,
+            "longitude": -112.069920103583,
+            "boundary": "S 19TH  AVE TO S 16TH  ST AND E MARICOPA  FWY TO E SOUTHERN  AVE",
+            "customers": 1507,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 15:05 MST",
+            "etr": "2026-08-23 17:08 MST"
+        },
+        {
+            "latitude": 33.488266981719505,
+            "longitude": -112.141703234886,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 15:42 MST",
+            "etr": "2026-08-23 17:41 MST"
+        },
+        {
+            "latitude": 33.517712893835196,
+            "longitude": -112.1489566054345,
+            "boundary": "N 51ST  AVE TO N 35TH  AVE AND W MARYLAND  AVE TO W CAMELBACK  RD",
+            "customers": 1566,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 15:05 MST",
+            "etr": "2026-08-23 17:55 MST"
+        }
+    ]
+}

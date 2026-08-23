@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-23 16:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 2069
+    },
+    "outages": [
+        {
+            "latitude": 33.644097970692115,
+            "longitude": -112.04348026135287,
+            "city": "Phoenix",
+            "boundary": "Grovers Ave to Bell Rd and 15th Pl to 20th St",
+            "customers": 783,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-08-23 01:56:00 MST",
+            "etr": "2026-08-23 09:30:00 MST"
+        },
+        {
+            "latitude": 33.49437453613069,
+            "longitude": -111.92746354309476,
+            "city": "Scottsdale",
+            "boundary": "Indian School Rd. to Main St. and Goldwater Blvd. to Brown Ave.",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-23 05:27:00 MST",
+            "etr": "2026-08-23 09:30:00 MST"
+        },
+        {
+            "latitude": 35.34104191866131,
+            "longitude": -111.91470608804461,
+            "city": "Flagstaff",
+            "boundary": "Satchel Rd to Lola Ln and Government Pr Rd",
+            "customers": 11,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-23 04:12:00 MST",
+            "etr": "2026-08-23 10:10:00 MST"
+        },
+        {
+            "latitude": 34.76024140007087,
+            "longitude": -112.44605830029866,
+            "city": "Dewey",
+            "boundary": "Iron King Road To Breezy Pine Road And Poland Road To Hecla Street",
+            "customers": 1263,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-23 08:46:00 MST",
+            "etr": "2026-08-23 12:50:00 MST"
+        }
+    ]
+}
