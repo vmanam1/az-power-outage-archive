@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-23 11:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 106
+    },
+    "outages": [
+        {
+            "latitude": 33.53699487128195,
+            "longitude": -112.1279939497085,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 09:51 MST",
+            "etr": "2026-08-23 11:48 MST"
+        },
+        {
+            "latitude": 33.4886804553285,
+            "longitude": -112.009127527869,
+            "boundary": "N 32ND  ST TO N 36TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 09:11 MST",
+            "etr": "2026-08-23 11:39 MST"
+        },
+        {
+            "latitude": 33.55490447362785,
+            "longitude": -112.10417364611749,
+            "boundary": "N 23RD  AVE TO N 19TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 96,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 09:54 MST",
+            "etr": "2026-08-23 11:56 MST"
+        }
+    ]
+}

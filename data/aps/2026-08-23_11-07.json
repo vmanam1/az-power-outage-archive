@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-23 11:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 867
+    },
+    "outages": [
+        {
+            "latitude": 33.644097970692115,
+            "longitude": -112.04348026135287,
+            "city": "Phoenix",
+            "boundary": "Grovers Ave to Bell Rd and 15th Pl to 20th St",
+            "customers": 834,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-08-23 01:56:00 MST",
+            "etr": "2026-08-23 08:30:00 MST"
+        },
+        {
+            "latitude": 34.77088620384868,
+            "longitude": -111.78171753505625,
+            "city": "Sedona",
+            "boundary": "Crown Ridge Rd. to Pinto Ln. and Eastern Vista Dr. South to Saddle Horn Rd.",
+            "customers": 25,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-23 02:50:00 MST",
+            "etr": "2026-08-23 06:15:00 MST"
+        },
+        {
+            "latitude": 33.658915188117156,
+            "longitude": -112.06156976289165,
+            "city": "Phoenix",
+            "boundary": "Sack Dr to Rosemonte Dr and 7th Pl to 8th Pl",
+            "customers": 8,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-23 03:59:00 MST",
+            "etr": "2026-08-23 06:50:00 MST"
+        }
+    ]
+}
