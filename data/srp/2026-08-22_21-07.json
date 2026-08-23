@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-22 21:07:35 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 82
+    },
+    "outages": [
+        {
+            "latitude": 33.53850849978665,
+            "longitude": -112.2213693554855,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 20,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-22 18:21 MST",
+            "etr": "2026-08-22 22:04 MST"
+        },
+        {
+            "latitude": 33.5387466669775,
+            "longitude": -112.2209424212565,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 28,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-22 15:37 MST",
+            "etr": "2026-08-22 21:30 MST"
+        },
+        {
+            "latitude": 33.288344617095206,
+            "longitude": -111.77176294543051,
+            "boundary": "S 140TH  ST TO S VAL VISTA  DR AND E PECOS  RD TO E WILLIS  RD",
+            "customers": 5,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-22 18:11 MST",
+            "etr": "2026-08-22 23:59 MST"
+        },
+        {
+            "latitude": 33.3109831576135,
+            "longitude": -111.96459134491,
+            "boundary": "S MARICOPA  FWY TO N KYRENE  RD AND W RAY  RD TO W CHANDLER  BLVD",
+            "customers": 18,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-22 14:24 MST",
+            "etr": "2026-08-22 21:30 MST"
+        },
+        {
+            "latitude": 33.54625724937815,
+            "longitude": -112.099225723006,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-22 19:41 MST",
+            "etr": "2026-08-22 22:39 MST"
+        }
+    ]
+}
