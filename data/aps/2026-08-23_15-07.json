@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-23 15:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1062
+    },
+    "outages": [
+        {
+            "latitude": 33.644097970692115,
+            "longitude": -112.04348026135287,
+            "city": "Phoenix",
+            "boundary": "Grovers Ave to Bell Rd and 15th Pl to 20th St",
+            "customers": 783,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-08-23 01:56:00 MST",
+            "etr": "2026-08-23 09:30:00 MST"
+        },
+        {
+            "latitude": 33.57185416931039,
+            "longitude": -112.01043270630403,
+            "city": "Phoenix",
+            "boundary": "Vogel Ave. to Hatcher Rd. and 32nd St. to 33rd Way",
+            "customers": 18,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-23 05:34:00 MST",
+            "etr": "2026-08-23 09:00:00 MST"
+        },
+        {
+            "latitude": 33.49437453613069,
+            "longitude": -111.92746354309476,
+            "city": "Scottsdale",
+            "boundary": "Indian School Rd. to Main St. and Goldwater Blvd. to Brown Ave.",
+            "customers": 12,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-23 05:27:00 MST",
+            "etr": "2026-08-23 09:10:00 MST"
+        },
+        {
+            "latitude": 33.669085260297265,
+            "longitude": -112.21477570264636,
+            "city": "Glendale",
+            "boundary": "Pontiac Dr and 71st Ln",
+            "customers": 7,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-23 05:43:00 MST",
+            "etr": "2026-08-23 08:40:00 MST"
+        },
+        {
+            "latitude": 33.47739475527496,
+            "longitude": -112.04451648959268,
+            "city": "Phoenix",
+            "boundary": "Cambridge Ave to Yale St and 16th St to 20th St",
+            "customers": 106,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-23 07:10:00 MST",
+            "etr": "2026-08-23 10:10:00 MST"
+        },
+        {
+            "latitude": 31.416826374340584,
+            "longitude": -109.88330339038096,
+            "city": "Bisbee",
+            "boundary": "Cole Ave to Center Ave and Cedar St to Hovland St",
+            "customers": 136,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-23 07:50:00 MST",
+            "etr": "2026-08-23 11:20:00 MST"
+        }
+    ]
+}

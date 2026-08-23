@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-23 15:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 3089
+    },
+    "outages": [
+        {
+            "latitude": 33.53699487128195,
+            "longitude": -112.1279939497085,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 09:51 MST",
+            "etr": "2026-08-23 17:00 MST"
+        },
+        {
+            "latitude": 33.4661010153204,
+            "longitude": -111.92093749587801,
+            "boundary": "N SCOTTSDALE  RD TO N 76TH  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 13:31 MST",
+            "etr": "2026-08-23 19:00 MST"
+        },
+        {
+            "latitude": 33.6199518176723,
+            "longitude": -112.2141289664045,
+            "boundary": "N 75TH  AVE TO N 71ST  AVE AND W GREENWAY  RD TO W ACOMA  DR",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 14:10 MST",
+            "etr": "2026-08-23 16:06 MST"
+        },
+        {
+            "latitude": 33.2812852653012,
+            "longitude": -111.775406512945,
+            "boundary": "S MUSTANG  DR TO S LINDSAY  RD AND E WILLIS  RD TO E GERMANN  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 14:56 MST",
+            "etr": "2026-08-23 16:29 MST"
+        },
+        {
+            "latitude": 33.4085701568024,
+            "longitude": -112.069920103583,
+            "boundary": "S 19TH  AVE TO S 16TH  ST AND E MARICOPA  FWY TO E SOUTHERN  AVE",
+            "customers": 1507,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 15:05 MST",
+            "etr": "2026-08-23 17:00 MST"
+        },
+        {
+            "latitude": 33.517712893835196,
+            "longitude": -112.1489566054345,
+            "boundary": "N 51ST  AVE TO N 35TH  AVE AND W MARYLAND  AVE TO W CAMELBACK  RD",
+            "customers": 1566,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 15:05 MST",
+            "etr": "2026-08-23 17:02 MST"
+        }
+    ]
+}
