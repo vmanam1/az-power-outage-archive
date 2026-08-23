@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-23 04:07:38 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.536045331991346,
+            "longitude": -112.132703397299,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 26,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-22 22:58 MST",
+            "etr": "2026-08-23 07:02 MST"
+        },
+        {
+            "latitude": 33.41732177091375,
+            "longitude": -111.64651598115401,
+            "boundary": "N HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-22 22:31 MST",
+            "etr": "2026-08-23 04:30 MST"
+        }
+    ]
+}
