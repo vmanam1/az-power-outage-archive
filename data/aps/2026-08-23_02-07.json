@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-23 02:07:28 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 45
+    },
+    "outages": [
+        {
+            "latitude": 33.49848078203589,
+            "longitude": -112.09044812441748,
+            "city": "Phoenix",
+            "boundary": "Glenrosa Ave. to Heatherbrae Dr. and 15th Ave. to 13th Ave.",
+            "customers": 20,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-22 13:01:00 MST",
+            "etr": "2026-08-22 21:00:00 MST"
+        },
+        {
+            "latitude": 33.596935571040476,
+            "longitude": -111.96889702313615,
+            "city": "Scottsdale",
+            "boundary": "Cactus Rd. to Paradise Dr. and 52nd St. to 54th St.",
+            "customers": 19,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-22 14:29:00 MST",
+            "etr": "2026-08-22 21:00:00 MST"
+        },
+        {
+            "latitude": 33.61852666005833,
+            "longitude": -112.01088071769578,
+            "city": "Phoenix",
+            "boundary": "33rd Pl. and Evans Dr.",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-22 18:32:00 MST",
+            "etr": "2026-08-22 21:00:00 MST"
+        }
+    ]
+}
