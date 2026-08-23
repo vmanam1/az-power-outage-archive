@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-08-23 14:07:30 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 309,
+        "map_last_refreshed": "Aug 23, 2:05 PM"
+    },
+    "outages": [
+        {
+            "latitude": 32.26008489357278,
+            "longitude": -110.95705868704336,
+            "boundary": {
+                "coordLatSW": "32.257692643191803",
+                "coordLngSW": "-110.96050190824101",
+                "coordLatNE": "32.263629648132202",
+                "coordLngNE": "-110.95300960871199",
+                "coordLatCenter": "32.260662",
+                "coordLngCenter": "-110.95676"
+            },
+            "customers": 243,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-08-23 13:57 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-08-23 14:02 MST"
+        },
+        {
+            "latitude": 32.236183598551,
+            "longitude": -110.8643943814377,
+            "boundary": {
+                "coordLatSW": "32.233204763222197",
+                "coordLngSW": "-110.86552027434001",
+                "coordLatNE": "32.238491140207202",
+                "coordLngNE": "-110.86313417146101",
+                "coordLatCenter": "32.235847",
+                "coordLngCenter": "-110.86433"
+            },
+            "customers": 66,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-08-23 13:52 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-08-23 14:01 MST"
+        }
+    ]
+}
