@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-22 17:07:28 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1290
+    },
+    "outages": [
+        {
+            "latitude": 33.41509993477895,
+            "longitude": -111.6444143604715,
+            "boundary": "S 80TH  ST TO S 96TH  ST AND E ADOBE  RD TO E RED MOUNTAIN  FWY",
+            "customers": 1234,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-22 15:22 MST",
+            "etr": "2026-08-22 17:20 MST"
+        },
+        {
+            "latitude": 33.3112551329066,
+            "longitude": -111.96587624614,
+            "boundary": "S MARICOPA  FWY TO N 56TH  ST AND W RAY  RD TO W CHANDLER  BLVD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-22 14:24 MST",
+            "etr": "2026-08-22 20:30 MST"
+        },
+        {
+            "latitude": 33.5385485322941,
+            "longitude": -112.22110956418149,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 48,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-22 15:37 MST",
+            "etr": "2026-08-22 17:38 MST"
+        },
+        {
+            "latitude": 33.2978079458413,
+            "longitude": -111.880118767743,
+            "boundary": "S ELLIS  ST TO S DOBSON  RD AND W CHANDLER  BLVD TO W PECOS  RD",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-22 15:20 MST",
+            "etr": "2026-08-22 17:55 MST"
+        }
+    ]
+}
