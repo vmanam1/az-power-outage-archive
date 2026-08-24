@@ -1,0 +1,169 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-08-24 10:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 14,
+        "customers_affected": 364,
+        "total_customers": 57940
+    },
+    "outages": [
+        {
+            "latitude": 32.43545820833747,
+            "longitude": -111.0675400472472,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-08-24 08:55:49 MST",
+            "etr": null,
+            "incident_id": "388791"
+        },
+        {
+            "latitude": 32.39701056101003,
+            "longitude": -111.32737774321495,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-08-20 07:39:21 MST",
+            "etr": null,
+            "incident_id": "388294"
+        },
+        {
+            "latitude": 32.07602323300598,
+            "longitude": -111.33592072156813,
+            "customers": 1,
+            "cause": "30 MATERIAL OR EQUIPMENT FAULT",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-07-28 02:23:24 MST",
+            "etr": "2026-07-28 05:23:24 MST",
+            "incident_id": "387491"
+        },
+        {
+            "latitude": 31.950707817693328,
+            "longitude": -111.0623927006685,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Helmet Peak",
+            "start_time": "2026-08-24 08:07:41 MST",
+            "etr": "2026-08-24 11:07:41 MST",
+            "incident_id": "388790"
+        },
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-08-13 08:00:00 MST",
+            "etr": "2026-08-13 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 31.547259314410525,
+            "longitude": -111.58477202160955,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Sasabe",
+            "start_time": "2026-08-24 00:38:02 MST",
+            "etr": "2026-08-24 03:38:02 MST",
+            "incident_id": "388788"
+        },
+        {
+            "latitude": 32.40276737572879,
+            "longitude": -111.22417030020809,
+            "customers": 18,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Marana",
+            "start_time": "2026-08-24 09:22:38 MST",
+            "etr": "2026-08-24 12:22:38 MST",
+            "incident_id": "388831"
+        },
+        {
+            "latitude": 32.35126156309191,
+            "longitude": -111.23116817627236,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley South",
+            "start_time": "2026-08-24 09:55:28 MST",
+            "etr": null,
+            "incident_id": "388840"
+        },
+        {
+            "latitude": 32.3933545276329,
+            "longitude": -111.30358137133533,
+            "customers": 76,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley North",
+            "start_time": "2026-08-24 07:30:15 MST",
+            "etr": null,
+            "incident_id": "388829"
+        },
+        {
+            "latitude": 32.19772361709736,
+            "longitude": -111.17209496318043,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Bopp Rd",
+            "start_time": "2026-08-11 07:52:07 MST",
+            "etr": null,
+            "incident_id": "387958"
+        },
+        {
+            "latitude": 32.09595642279643,
+            "longitude": -111.34398759282064,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-08-24 09:31:19 MST",
+            "etr": null,
+            "incident_id": "388838"
+        },
+        {
+            "latitude": 32.25527286836826,
+            "longitude": -111.2537158899069,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-08-24 09:54:07 MST",
+            "etr": null,
+            "incident_id": "388839"
+        },
+        {
+            "latitude": 32.251345206223604,
+            "longitude": -111.25778525814452,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-08-24 09:28:15 MST",
+            "etr": null,
+            "incident_id": "388837"
+        },
+        {
+            "latitude": 32.357476591963376,
+            "longitude": -111.25095806198428,
+            "customers": 254,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley South",
+            "start_time": "2026-08-24 09:22:38 MST",
+            "etr": "2026-08-24 12:22:38 MST",
+            "incident_id": "388815"
+        }
+    ]
+}
