@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-24 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 94
+    },
+    "outages": [
+        {
+            "latitude": 33.3943023817858,
+            "longitude": -111.854372809983,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W 8TH  AVE TO W SUPERSTITION  FWY",
+            "customers": 23,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 23:31 MST",
+            "etr": "2026-08-24 10:00 MST"
+        },
+        {
+            "latitude": 33.3513602665521,
+            "longitude": -111.907411806734,
+            "boundary": "S MCCLINTOCK  DR TO S SHUTTERFLY  WAY AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-24 03:43 MST",
+            "etr": "2026-08-24 10:57 MST"
+        },
+        {
+            "latitude": 33.5390720801473,
+            "longitude": -112.23092738318749,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 07:25 MST",
+            "etr": "2026-08-24 09:25 MST"
+        },
+        {
+            "latitude": 33.364402455162,
+            "longitude": -112.125899527531,
+            "boundary": "S 35TH  AVE TO S 27TH  AVE AND W SOUTH MOUNTAIN  AVE TO W CARVER  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 07:25 MST",
+            "etr": "2026-08-24 12:00 MST"
+        },
+        {
+            "latitude": 33.555450605896695,
+            "longitude": -112.13146748199199,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 07:21 MST",
+            "etr": "2026-08-24 09:21 MST"
+        },
+        {
+            "latitude": 33.4000860163967,
+            "longitude": -111.64333149988,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E RED MOUNTAIN  FWY TO E RED MOUNTAIN  FWY",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 08:05 MST",
+            "etr": "2026-08-24 10:03 MST"
+        }
+    ]
+}
