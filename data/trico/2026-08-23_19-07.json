@@ -1,0 +1,136 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-08-23 19:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 296,
+        "total_customers": 57940
+    },
+    "outages": [
+        {
+            "latitude": 31.59538482339002,
+            "longitude": -111.30593495738005,
+            "customers": 1,
+            "cause": "99 UNKNOWN/UNDETERMINED",
+            "comments": null,
+            "boundary": "Arivaca",
+            "start_time": "2026-08-22 18:25:56 MST",
+            "etr": null,
+            "incident_id": "388684"
+        },
+        {
+            "latitude": 32.38041310427224,
+            "longitude": -111.23698027616142,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley South",
+            "start_time": "2026-08-23 18:39:30 MST",
+            "etr": null,
+            "incident_id": "388761"
+        },
+        {
+            "latitude": 32.07602323300598,
+            "longitude": -111.33592072156813,
+            "customers": 1,
+            "cause": "30 MATERIAL OR EQUIPMENT FAULT",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-07-28 02:23:24 MST",
+            "etr": "2026-07-28 05:23:24 MST",
+            "incident_id": "387491"
+        },
+        {
+            "latitude": 32.39701056101003,
+            "longitude": -111.32737774321495,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-08-20 07:39:21 MST",
+            "etr": null,
+            "incident_id": "388294"
+        },
+        {
+            "latitude": 32.34783894116699,
+            "longitude": -111.28602829068117,
+            "customers": 23,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley South",
+            "start_time": "2026-08-23 18:45:05 MST",
+            "etr": null,
+            "incident_id": "388768"
+        },
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-08-13 08:00:00 MST",
+            "etr": "2026-08-13 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.357476591963376,
+            "longitude": -111.25095806198428,
+            "customers": 254,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley South",
+            "start_time": "2026-08-23 18:38:47 MST",
+            "etr": null,
+            "incident_id": "388755"
+        },
+        {
+            "latitude": 32.253350842163876,
+            "longitude": -111.1957925203788,
+            "customers": 4,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-08-23 18:44:12 MST",
+            "etr": null,
+            "incident_id": "388765"
+        },
+        {
+            "latitude": 32.252089727765664,
+            "longitude": -111.19952951196127,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-08-23 18:44:12 MST",
+            "etr": null,
+            "incident_id": "388763"
+        },
+        {
+            "latitude": 32.07670829447939,
+            "longitude": -111.25279062516414,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-08-06 11:09:42 MST",
+            "etr": null,
+            "incident_id": "387906"
+        },
+        {
+            "latitude": 32.19772361709736,
+            "longitude": -111.17209496318043,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Bopp Rd",
+            "start_time": "2026-08-11 07:52:07 MST",
+            "etr": null,
+            "incident_id": "387958"
+        }
+    ]
+}

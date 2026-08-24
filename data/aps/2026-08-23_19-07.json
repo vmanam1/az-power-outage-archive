@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-23 19:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 33.49437453613069,
+            "longitude": -111.92746354309476,
+            "city": "Scottsdale",
+            "boundary": "Indian School Rd. to Main St. and Goldwater Blvd. to Brown Ave.",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-23 05:27:00 MST",
+            "etr": "2026-08-23 12:45:00 MST"
+        },
+        {
+            "latitude": 33.61228889473989,
+            "longitude": -112.10427430426282,
+            "city": "Phoenix",
+            "boundary": "Thunderbird Rd. and 21st Ave.",
+            "customers": 42,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-23 10:55:00 MST",
+            "etr": "2026-08-23 13:45:00 MST"
+        },
+        {
+            "latitude": 33.47687245280334,
+            "longitude": -112.0452467920709,
+            "city": "Phoenix",
+            "boundary": "Virgina Ave. and 17th St.",
+            "customers": 8,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-23 11:52:00 MST",
+            "etr": "2026-08-23 13:20:00 MST"
+        }
+    ]
+}
