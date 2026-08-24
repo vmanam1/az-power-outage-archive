@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-24 06:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 118
+    },
+    "outages": [
+        {
+            "latitude": 33.803117838095424,
+            "longitude": -113.91855947356044,
+            "city": "Bouse",
+            "boundary": "AZ 72 to Ave 42 and Solar Ln. to Ave 42E",
+            "customers": 106,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-23 17:44:00 MST",
+            "etr": "2026-08-24 02:00:00 MST"
+        },
+        {
+            "latitude": 33.73408470018477,
+            "longitude": -113.52317429989183,
+            "city": "Salome",
+            "boundary": "2 Mi. N/O Salome To 19 Mi. S/E/O Salome Rd. And 7 Mi. W/O Salome To 17 Mi. E/O Salome Rd.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-23 18:04:00 MST",
+            "etr": "2026-08-24 01:00:00 MST"
+        }
+    ]
+}
