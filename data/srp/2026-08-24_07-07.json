@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-24 07:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 33.3943023817858,
+            "longitude": -111.854372809983,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W 8TH  AVE TO W SUPERSTITION  FWY",
+            "customers": 23,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 23:31 MST",
+            "etr": "2026-08-24 10:00 MST"
+        },
+        {
+            "latitude": 33.3513602665521,
+            "longitude": -111.907411806734,
+            "boundary": "S MCCLINTOCK  DR TO S SHUTTERFLY  WAY AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-24 03:43 MST",
+            "etr": "2026-08-24 10:57 MST"
+        },
+        {
+            "latitude": 33.397734716050195,
+            "longitude": -111.8929011577195,
+            "boundary": "S COUNTRY CLUB  WAY TO S EVERGREEN  RD AND E ALAMEDA  DR TO E SOUTHERN  AVE",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 06:57 MST",
+            "etr": "2026-08-24 08:56 MST"
+        }
+    ]
+}
