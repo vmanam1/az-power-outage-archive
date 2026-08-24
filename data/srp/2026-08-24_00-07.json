@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-24 00:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 4790
+    },
+    "outages": [
+        {
+            "latitude": 33.536045331991346,
+            "longitude": -112.132703397299,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 26,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 19:11 MST",
+            "etr": "2026-08-24 03:06 MST"
+        },
+        {
+            "latitude": 33.55308852961265,
+            "longitude": -112.221650760628,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W GRAND  AVE TO W ORANGEWOOD  AVE",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 19:27 MST",
+            "etr": "2026-08-24 03:00 MST"
+        },
+        {
+            "latitude": 33.4299428140816,
+            "longitude": -112.295635824501,
+            "boundary": "S 119TH  AVE TO S 103RD  AVE AND W VAN BUREN  ST TO W LOWER BUCKEYE  RD",
+            "customers": 1321,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:25 MST",
+            "etr": "2026-08-24 01:24 MST"
+        },
+        {
+            "latitude": 33.48290985363235,
+            "longitude": -112.137213111574,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W OSBORN  RD TO W THOMAS  RD",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:33 MST",
+            "etr": "2026-08-24 03:15 MST"
+        },
+        {
+            "latitude": 33.228913089285,
+            "longitude": -111.56188598966901,
+            "boundary": "N PAINTED DESERT  DR TO N KENWORTHY  RD AND E CHANDLER HEIGHTS  BLVD TO E COMBS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-23 17:20 MST",
+            "etr": "2026-08-24 02:00 MST"
+        },
+        {
+            "latitude": 33.15917234379805,
+            "longitude": -111.5426530399285,
+            "boundary": "N IRONWOOD  DR TO N SCHNEPF  RD AND E SKYLINE  DR TO E JUDD  RD",
+            "customers": 980,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 22:01 MST",
+            "etr": "2026-08-24 00:28 MST"
+        },
+        {
+            "latitude": 33.4085701568024,
+            "longitude": -112.069920103583,
+            "boundary": "S 19TH  AVE TO S 16TH  ST AND E MARICOPA  FWY TO E SOUTHERN  AVE",
+            "customers": 1507,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 22:39 MST",
+            "etr": "2026-08-24 01:17 MST"
+        },
+        {
+            "latitude": 33.394261188759344,
+            "longitude": -111.85335185308651,
+            "boundary": "S ALMA SCHOOL  RD TO S EXTENSION  RD AND W 8TH  AVE TO W SUPERSTITION  FWY",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 23:31 MST",
+            "etr": "2026-08-24 06:30 MST"
+        },
+        {
+            "latitude": 33.413820113468,
+            "longitude": -112.208303642044,
+            "boundary": "S 75TH  AVE TO S 63RD  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 27,
+            "cause": "Other outage cause",
+            "comments": "Storm activity is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 23:59 MST",
+            "etr": "2026-08-24 01:57 MST"
+        },
+        {
+            "latitude": 33.48275873415505,
+            "longitude": -112.0073747177745,
+            "boundary": "N 28TH  ST TO N 40TH  ST AND E INDIAN SCHOOL  RD TO E OAK  ST",
+            "customers": 904,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 00:05 MST",
+            "etr": "2026-08-24 02:04 MST"
+        }
+    ]
+}
