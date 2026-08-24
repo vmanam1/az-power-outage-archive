@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-23 18:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.4661010153204,
+            "longitude": -111.92093749587801,
+            "boundary": "N SCOTTSDALE  RD TO N 76TH  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 13:31 MST",
+            "etr": "2026-08-23 19:00 MST"
+        },
+        {
+            "latitude": 33.228913089285,
+            "longitude": -111.56188598966901,
+            "boundary": "N PAINTED DESERT  DR TO N KENWORTHY  RD AND E CHANDLER HEIGHTS  BLVD TO E COMBS  RD",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 17:20 MST",
+            "etr": "2026-08-23 19:15 MST"
+        },
+        {
+            "latitude": 33.488266981719505,
+            "longitude": -112.141703234886,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 15:42 MST",
+            "etr": "2026-08-23 20:00 MST"
+        }
+    ]
+}
