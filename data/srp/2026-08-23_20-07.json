@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-23 20:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1379
+    },
+    "outages": [
+        {
+            "latitude": 33.228913089285,
+            "longitude": -111.56188598966901,
+            "boundary": "N PAINTED DESERT  DR TO N KENWORTHY  RD AND E CHANDLER HEIGHTS  BLVD TO E COMBS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-23 17:20 MST",
+            "etr": "2026-08-23 23:30 MST"
+        },
+        {
+            "latitude": 33.58051016742265,
+            "longitude": -112.204313568177,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W CHOLLA  ST TO W MOUNTAIN VIEW  RD",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 19:12 MST",
+            "etr": "2026-08-23 21:12 MST"
+        },
+        {
+            "latitude": 33.55308852961265,
+            "longitude": -112.221650760628,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W GRAND  AVE TO W ORANGEWOOD  AVE",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 19:27 MST",
+            "etr": "2026-08-23 20:41 MST"
+        },
+        {
+            "latitude": 33.4754996894403,
+            "longitude": -111.9890008878275,
+            "boundary": "N 40TH  ST TO N 48TH  ST AND E THOMAS  RD TO E OAK  ST",
+            "customers": 13,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 19:27 MST",
+            "etr": "2026-08-23 20:48 MST"
+        },
+        {
+            "latitude": 33.53573474534965,
+            "longitude": -112.132703397299,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 37,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 19:11 MST",
+            "etr": "2026-08-23 21:34 MST"
+        },
+        {
+            "latitude": 33.4205682838642,
+            "longitude": -111.596955550469,
+            "boundary": "N CRISMON  RD TO N MERIDIAN  RD AND E BROWN  RD TO E PUEBLO  AVE",
+            "customers": 1311,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 19:18 MST",
+            "etr": "2026-08-23 21:27 MST"
+        }
+    ]
+}
