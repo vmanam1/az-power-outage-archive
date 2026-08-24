@@ -1,0 +1,184 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-23 23:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 17,
+        "customers_affected": 11328
+    },
+    "outages": [
+        {
+            "latitude": 33.228913089285,
+            "longitude": -111.56188598966901,
+            "boundary": "N PAINTED DESERT  DR TO N KENWORTHY  RD AND E CHANDLER HEIGHTS  BLVD TO E COMBS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-23 17:20 MST",
+            "etr": "2026-08-23 23:30 MST"
+        },
+        {
+            "latitude": 33.536045331991346,
+            "longitude": -112.132703397299,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 26,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 19:11 MST",
+            "etr": "2026-08-24 03:06 MST"
+        },
+        {
+            "latitude": 33.43394634982305,
+            "longitude": -112.304245351415,
+            "boundary": "N EL MIRAGE  RD TO S 107TH  AVE AND W VAN BUREN  ST TO W LOWER BUCKEYE  RD",
+            "customers": 1492,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:25 MST",
+            "etr": "2026-08-23 23:24 MST"
+        },
+        {
+            "latitude": 33.55308852961265,
+            "longitude": -112.221650760628,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W GRAND  AVE TO W ORANGEWOOD  AVE",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 19:27 MST",
+            "etr": "2026-08-24 03:00 MST"
+        },
+        {
+            "latitude": 33.3747407047326,
+            "longitude": -112.23519594807351,
+            "boundary": "S 99TH  AVE TO S 67TH  AVE AND W SOUTHERN  AVE TO W ELLIOT  RD",
+            "customers": 1054,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:43 MST",
+            "etr": "2026-08-23 23:42 MST"
+        },
+        {
+            "latitude": 33.43394634982305,
+            "longitude": -112.304245351415,
+            "boundary": "N EL MIRAGE  RD TO S 107TH  AVE AND W VAN BUREN  ST TO W LOWER BUCKEYE  RD",
+            "customers": 1492,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:49 MST",
+            "etr": "2026-08-23 23:48 MST"
+        },
+        {
+            "latitude": 33.39743391062735,
+            "longitude": -112.10156323537751,
+            "boundary": "S 27TH  AVE TO S 7TH  AVE AND W LOWER BUCKEYE  RD TO W VINEYARD  RD",
+            "customers": 1326,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:57 MST",
+            "etr": "2026-08-23 23:56 MST"
+        },
+        {
+            "latitude": 33.15917234379805,
+            "longitude": -111.5426530399285,
+            "boundary": "N IRONWOOD  DR TO N SCHNEPF  RD AND E SKYLINE  DR TO E JUDD  RD",
+            "customers": 980,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 22:01 MST",
+            "etr": "2026-08-24 00:01 MST"
+        },
+        {
+            "latitude": 33.4073976903865,
+            "longitude": -112.02539285469899,
+            "boundary": "S 20TH  ST TO S 32ND  ST AND E ELWOOD  ST TO E ROESER  RD",
+            "customers": 72,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:16 MST",
+            "etr": "2026-08-23 23:53 MST"
+        },
+        {
+            "latitude": 33.349663170521595,
+            "longitude": -111.681225421357,
+            "boundary": "S RECKER  RD TO S 80TH  ST AND E MADERO  AVE TO E SANTAN  FWY",
+            "customers": 1029,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 22:25 MST",
+            "etr": "2026-08-24 00:23 MST"
+        },
+        {
+            "latitude": 33.4248385502548,
+            "longitude": -111.6239890270015,
+            "boundary": "N 88TH  ST TO N 104TH  ST AND E BROWN  RD TO E APACHE  TRL",
+            "customers": 961,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 22:25 MST",
+            "etr": "2026-08-24 00:25 MST"
+        },
+        {
+            "latitude": 33.4085701568024,
+            "longitude": -112.069920103583,
+            "boundary": "S 19TH  AVE TO S 16TH  ST AND E MARICOPA  FWY TO E SOUTHERN  AVE",
+            "customers": 1507,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 22:39 MST",
+            "etr": "2026-08-24 00:38 MST"
+        },
+        {
+            "latitude": 33.4299428140816,
+            "longitude": -112.295635824501,
+            "boundary": "S 119TH  AVE TO S 103RD  AVE AND W VAN BUREN  ST TO W LOWER BUCKEYE  RD",
+            "customers": 1321,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:25 MST",
+            "etr": "2026-08-24 01:24 MST"
+        },
+        {
+            "latitude": 33.48290985363235,
+            "longitude": -112.137213111574,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W OSBORN  RD TO W THOMAS  RD",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:33 MST",
+            "etr": "2026-08-24 03:15 MST"
+        },
+        {
+            "latitude": 33.3868403017167,
+            "longitude": -112.224691697431,
+            "boundary": "S 79TH  AVE TO S 75TH  AVE AND W SOUTHERN  AVE TO W VINEYARD  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:33 MST",
+            "etr": "2026-08-24 01:19 MST"
+        },
+        {
+            "latitude": 33.413820113468,
+            "longitude": -112.208303642044,
+            "boundary": "S 75TH  AVE TO S 63RD  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:31 MST",
+            "etr": "2026-08-24 02:00 MST"
+        },
+        {
+            "latitude": 33.3869557187575,
+            "longitude": -112.226838247862,
+            "boundary": "S RIVER BOTTOM  RD TO S 75TH  AVE AND W SOUTHERN  AVE TO W BASELINE  RD",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:35 MST",
+            "etr": "2026-08-24 01:30 MST"
+        }
+    ]
+}
