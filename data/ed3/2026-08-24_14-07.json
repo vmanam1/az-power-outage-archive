@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-08-24 14:07:21 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 934,
+        "total_customers": 36552
+    },
+    "outages": [
+        {
+            "latitude": 32.878970851179375,
+            "longitude": -111.99703169923386,
+            "boundary": "BKR-WF132",
+            "customers": 29,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-19 23:45:00 MST",
+            "etr": null,
+            "pole_number": "WF132"
+        },
+        {
+            "latitude": 33.06295745435851,
+            "longitude": -112.06300373976836,
+            "boundary": "BKR-MW132",
+            "customers": 93,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-19 23:56:00 MST",
+            "etr": null,
+            "pole_number": "MAW132"
+        },
+        {
+            "latitude": 32.95946267029705,
+            "longitude": -111.99644049105325,
+            "boundary": "BKR-MAR112",
+            "customers": 96,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-23 21:24:00 MST",
+            "etr": null,
+            "pole_number": "MAR112"
+        },
+        {
+            "latitude": 32.9081124045192,
+            "longitude": -112.04919102835264,
+            "boundary": "FUS-T63634",
+            "customers": 716,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-23 22:07:00 MST",
+            "etr": null,
+            "pole_number": "T63634"
+        }
+    ]
+}

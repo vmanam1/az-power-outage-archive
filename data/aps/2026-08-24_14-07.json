@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-24 14:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.43556491897434,
+            "longitude": -112.12895960313024,
+            "city": "Phoenix",
+            "boundary": "Yuma and 33rd St",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-24 05:48:00 MST",
+            "etr": "2026-08-24 09:30:00 MST"
+        }
+    ]
+}

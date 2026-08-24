@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-24 14:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1029
+    },
+    "outages": [
+        {
+            "latitude": 33.5099280862158,
+            "longitude": -112.103871368176,
+            "boundary": "N 23RD  AVE TO N 19TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-24 13:35 MST",
+            "etr": "2026-08-24 19:00 MST"
+        },
+        {
+            "latitude": 33.50619624795305,
+            "longitude": -112.10021904132199,
+            "boundary": "N BLACK CANYON  HWY TO N 7TH  AVE AND W MISSOURI  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 912,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 13:50 MST",
+            "etr": "2026-08-24 15:49 MST"
+        },
+        {
+            "latitude": 33.5084662491804,
+            "longitude": -112.187258462485,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 14:01 MST",
+            "etr": "2026-08-24 16:01 MST"
+        },
+        {
+            "latitude": 33.4560999980005,
+            "longitude": -111.90618927847851,
+            "boundary": "N HAYDEN  RD TO N GRANITE REEF  RD AND E ROOSEVELT  ST TO E MCKELLIPS  RD",
+            "customers": 54,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 14:02 MST",
+            "etr": "2026-08-24 16:01 MST"
+        },
+        {
+            "latitude": 33.330778893684396,
+            "longitude": -111.87971004426501,
+            "boundary": "N 92ND  ST TO N ARROWHEAD  DR AND W WARNER  RD TO W RAY  RD",
+            "customers": 47,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 13:28 MST",
+            "etr": "2026-08-24 15:49 MST"
+        }
+    ]
+}
