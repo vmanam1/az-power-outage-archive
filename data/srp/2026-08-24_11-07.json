@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-24 11:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 75
+    },
+    "outages": [
+        {
+            "latitude": 33.413044459017996,
+            "longitude": -111.643636407637,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 08:29 MST",
+            "etr": "2026-08-24 12:00 MST"
+        },
+        {
+            "latitude": 33.555680246619,
+            "longitude": -112.13146748199199,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 23,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-24 07:21 MST",
+            "etr": "2026-08-24 15:00 MST"
+        },
+        {
+            "latitude": 33.24678015770675,
+            "longitude": -111.8739376723495,
+            "boundary": "S DOBSON  RD TO S ALMA SCHOOL  RD AND W QUEEN CREEK  RD TO W OCOTILLO  RD",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 10:47 MST",
+            "etr": "2026-08-24 12:45 MST"
+        },
+        {
+            "latitude": 33.4560999980005,
+            "longitude": -111.9062101659395,
+            "boundary": "N HAYDEN  RD TO N GRANITE REEF  RD AND E ROOSEVELT  ST TO E MCKELLIPS  RD",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 10:27 MST",
+            "etr": "2026-08-24 13:00 MST"
+        }
+    ]
+}
