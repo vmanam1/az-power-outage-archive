@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-24 16:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 74
+    },
+    "outages": [
+        {
+            "latitude": 33.5099280862158,
+            "longitude": -112.103871368176,
+            "boundary": "N 23RD  AVE TO N 19TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-24 13:35 MST",
+            "etr": "2026-08-24 19:00 MST"
+        },
+        {
+            "latitude": 33.39120880272845,
+            "longitude": -112.054307449918,
+            "boundary": "S 7TH  ST TO S 16TH  ST AND E ROESER  RD TO E VINEYARD  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 15:15 MST",
+            "etr": "2026-08-24 17:19 MST"
+        },
+        {
+            "latitude": 33.2128329927665,
+            "longitude": -111.674967407051,
+            "boundary": "S MANDARIN  DR TO S SOSSAMAN  RD AND E RIGGS  RD TO W HUNT  HWY",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 15:56 MST",
+            "etr": "2026-08-24 17:56 MST"
+        },
+        {
+            "latitude": 33.4560999980005,
+            "longitude": -111.90618927847851,
+            "boundary": "N HAYDEN  RD TO N GRANITE REEF  RD AND E ROOSEVELT  ST TO E MCKELLIPS  RD",
+            "customers": 54,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 14:02 MST",
+            "etr": "2026-08-24 17:01 MST"
+        },
+        {
+            "latitude": 33.5726255771101,
+            "longitude": -112.18658625723,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W MOUNTAIN VIEW  RD TO W OLIVE  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-24 16:01 MST",
+            "etr": "2026-08-24 21:30 MST"
+        }
+    ]
+}
