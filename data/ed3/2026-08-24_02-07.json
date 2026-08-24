@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-08-24 02:07:11 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 105,
+        "total_customers": 36552
+    },
+    "outages": [
+        {
+            "latitude": 32.94218203413989,
+            "longitude": -112.10425026008383,
+            "boundary": "T-124196",
+            "customers": 1,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-08-23 22:10:52 MST",
+            "etr": null,
+            "pole_number": "124196"
+        },
+        {
+            "latitude": 33.058390206083914,
+            "longitude": -112.0506861672882,
+            "boundary": "PC-6373",
+            "customers": 100,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-08-24 01:46:27 MST",
+            "etr": null,
+            "pole_number": null
+        },
+        {
+            "latitude": 33.03212290348929,
+            "longitude": -112.0229034453107,
+            "boundary": null,
+            "customers": 4,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-24 00:54:15 MST",
+            "etr": null,
+            "pole_number": "T4643"
+        }
+    ]
+}
