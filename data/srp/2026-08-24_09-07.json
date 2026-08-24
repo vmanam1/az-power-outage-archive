@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-24 09:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 78
+    },
+    "outages": [
+        {
+            "latitude": 33.3513602665521,
+            "longitude": -111.907411806734,
+            "boundary": "S MCCLINTOCK  DR TO S SHUTTERFLY  WAY AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-24 03:43 MST",
+            "etr": "2026-08-24 10:57 MST"
+        },
+        {
+            "latitude": 33.364402455162,
+            "longitude": -112.125899527531,
+            "boundary": "S 35TH  AVE TO S 27TH  AVE AND W SOUTH MOUNTAIN  AVE TO W CARVER  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 07:25 MST",
+            "etr": "2026-08-24 12:00 MST"
+        },
+        {
+            "latitude": 33.555450605896695,
+            "longitude": -112.13146748199199,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 07:21 MST",
+            "etr": "2026-08-24 09:21 MST"
+        },
+        {
+            "latitude": 33.4241465709558,
+            "longitude": -111.618031815376,
+            "boundary": "N 96TH  ST TO N CRISMON  RD AND E ADOBE  RD TO E APACHE  TRL",
+            "customers": 24,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 08:09 MST",
+            "etr": "2026-08-24 11:30 MST"
+        },
+        {
+            "latitude": 33.3903247281138,
+            "longitude": -111.9077892611365,
+            "boundary": "S DORSEY  LN TO S COUNTRY CLUB  WAY AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 08:19 MST",
+            "etr": "2026-08-24 10:16 MST"
+        },
+        {
+            "latitude": 33.413044459017996,
+            "longitude": -111.643636407637,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 08:29 MST",
+            "etr": "2026-08-24 12:00 MST"
+        }
+    ]
+}

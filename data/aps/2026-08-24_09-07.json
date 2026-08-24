@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-24 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 114
+    },
+    "outages": [
+        {
+            "latitude": 33.73408470018477,
+            "longitude": -113.52317429989183,
+            "city": "Salome",
+            "boundary": "2 Mi. N/O Salome To 19 Mi. S/E/O Salome Rd. And 7 Mi. W/O Salome To 17 Mi. E/O Salome Rd.",
+            "customers": 12,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-23 18:04:00 MST",
+            "etr": "2026-08-24 05:30:00 MST"
+        },
+        {
+            "latitude": 33.59192161298988,
+            "longitude": -112.10413177576321,
+            "city": "Phoenix",
+            "boundary": "Altadena Ave to Sierra St and Cortez St to 21st Dr",
+            "customers": 7,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-23 23:59:00 MST",
+            "etr": "2026-08-24 03:00:00 MST"
+        },
+        {
+            "latitude": 33.67066564026328,
+            "longitude": -114.17943153642256,
+            "city": "Quartzsite",
+            "boundary": "Pearl Harbor Highway and US 60",
+            "customers": 14,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-24 01:04:00 MST",
+            "etr": "2026-08-24 03:00:00 MST"
+        },
+        {
+            "latitude": 34.08140163565888,
+            "longitude": -112.13756223231202,
+            "city": "Black Canyon City",
+            "boundary": "Perry Rd to Squaw Valley Rd and I17 to Canyon Rd",
+            "customers": 81,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-24 01:44:00 MST",
+            "etr": "2026-08-24 04:45:00 MST"
+        }
+    ]
+}
