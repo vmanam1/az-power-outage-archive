@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-24 03:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 82
+    },
+    "outages": [
+        {
+            "latitude": 33.3234084420896,
+            "longitude": -111.690219340412,
+            "boundary": "S WREN  DR TO S POWER  RD AND E SANTAN  FWY TO E RAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-24 00:14 MST",
+            "etr": "2026-08-24 03:33 MST"
+        },
+        {
+            "latitude": 33.4199472888675,
+            "longitude": -112.290538526743,
+            "boundary": "S 111TH  AVE TO S 103RD  AVE AND W DURANGO  ST TO W BROADWAY  RD",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-24 01:35 MST",
+            "etr": "2026-08-24 06:43 MST"
+        },
+        {
+            "latitude": 33.4043021164875,
+            "longitude": -112.079812716991,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 22:39 MST",
+            "etr": "2026-08-24 07:30 MST"
+        },
+        {
+            "latitude": 33.39407068433465,
+            "longitude": -111.8548778782125,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W 8TH  AVE TO W SUPERSTITION  FWY",
+            "customers": 27,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 23:31 MST",
+            "etr": "2026-08-24 06:30 MST"
+        },
+        {
+            "latitude": 33.162380118030796,
+            "longitude": -111.53826232800449,
+            "boundary": "N GANTZEL  RD TO N SCHNEPF  RD AND E ROBERTS  RD TO E JUDD  RD",
+            "customers": 7,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 22:01 MST",
+            "etr": "2026-08-24 03:30 MST"
+        },
+        {
+            "latitude": 33.3579384196696,
+            "longitude": -111.91907773998099,
+            "boundary": "S RURAL  RD TO S MCCLINTOCK  DR AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 01:11 MST",
+            "etr": "2026-08-24 03:29 MST"
+        },
+        {
+            "latitude": 33.536045331991346,
+            "longitude": -112.132703397299,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 26,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 19:11 MST",
+            "etr": "2026-08-24 06:06 MST"
+        }
+    ]
+}
