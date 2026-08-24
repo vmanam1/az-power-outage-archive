@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-23 21:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1334
+    },
+    "outages": [
+        {
+            "latitude": 34.01990792563087,
+            "longitude": -112.74234150340143,
+            "city": "Wickenburg",
+            "boundary": "US 93 and Rincon Rd.",
+            "customers": 99,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-23 12:13:00 MST",
+            "etr": "2026-08-23 15:45:00 MST"
+        },
+        {
+            "latitude": 32.55449690798273,
+            "longitude": -111.71842482009868,
+            "city": "Eloy",
+            "boundary": "West Aries Dr to West Centaurus Ave and Andromeda St to Henness Rd",
+            "customers": 150,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-23 12:49:00 MST",
+            "etr": "2026-08-23 16:50:00 MST"
+        },
+        {
+            "latitude": 32.78917965432972,
+            "longitude": -111.60140536638781,
+            "city": "Eloy",
+            "boundary": "West Arica Rd to West Battagila Dr and North Toltec Rd to Eleven-Mile Corner Rd",
+            "customers": 768,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-23 12:57:00 MST",
+            "etr": "2026-08-23 17:00:00 MST"
+        },
+        {
+            "latitude": 32.831872600214844,
+            "longitude": -111.64269000277315,
+            "city": "Casa Grande",
+            "boundary": "Cornman Rd. to Ropers Rd. and Roughcut Dr. to Coyote Ln.",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-23 13:04:00 MST",
+            "etr": "2026-08-23 16:20:00 MST"
+        },
+        {
+            "latitude": 32.8804369427396,
+            "longitude": -111.74668186724813,
+            "city": "Casa Grande",
+            "boundary": "Florence Blvd. to 6th St. and Amarillo St. to Avenue A",
+            "customers": 86,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-23 13:27:00 MST",
+            "etr": "2026-08-23 16:10:00 MST"
+        },
+        {
+            "latitude": 32.96928947325322,
+            "longitude": -111.72932145097039,
+            "city": "Casa Grande",
+            "boundary": "Ghost Ranch Rd. to Val Vista Blvd. and Little Wind Wy. to Ginger Wy.",
+            "customers": 207,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-23 13:36:00 MST",
+            "etr": "2026-08-23 17:00:00 MST"
+        }
+    ]
+}

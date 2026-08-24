@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-08-23 21:07:21 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 466,
+        "total_customers": 36552
+    },
+    "outages": [
+        {
+            "latitude": 32.87714266593779,
+            "longitude": -112.0491498464088,
+            "boundary": "REC-PT303",
+            "customers": 139,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-08-23 20:26:24 MST",
+            "etr": null,
+            "pole_number": "PT303"
+        },
+        {
+            "latitude": 32.99929805279268,
+            "longitude": -111.9161613159538,
+            "boundary": "FUS-F54204",
+            "customers": 41,
+            "cause": "540 - Monsoon Storm",
+            "comments": "CauseFound",
+            "start_time": "2026-08-23 20:40:24 MST",
+            "etr": null,
+            "pole_number": "F54204"
+        },
+        {
+            "latitude": 33.05416459906805,
+            "longitude": -112.0489509122527,
+            "boundary": null,
+            "customers": 62,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-23 21:03:43 MST",
+            "etr": null,
+            "pole_number": "T43610"
+        },
+        {
+            "latitude": 33.06290729305376,
+            "longitude": -112.06278622351729,
+            "boundary": null,
+            "customers": 180,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-23 21:03:37 MST",
+            "etr": null,
+            "pole_number": "MAW123"
+        },
+        {
+            "latitude": 32.9746278149216,
+            "longitude": -112.11691276008813,
+            "boundary": null,
+            "customers": 44,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-23 20:43:46 MST",
+            "etr": null,
+            "pole_number": "F328001"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-23 21:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 2942
+    },
+    "outages": [
+        {
+            "latitude": 33.228913089285,
+            "longitude": -111.56188598966901,
+            "boundary": "N PAINTED DESERT  DR TO N KENWORTHY  RD AND E CHANDLER HEIGHTS  BLVD TO E COMBS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-23 17:20 MST",
+            "etr": "2026-08-23 23:30 MST"
+        },
+        {
+            "latitude": 33.55308852961265,
+            "longitude": -112.221650760628,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W GRAND  AVE TO W ORANGEWOOD  AVE",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 19:27 MST",
+            "etr": "2026-08-23 22:00 MST"
+        },
+        {
+            "latitude": 33.536045331991346,
+            "longitude": -112.132703397299,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 26,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 19:11 MST",
+            "etr": "2026-08-24 03:06 MST"
+        },
+        {
+            "latitude": 33.42156812554495,
+            "longitude": -111.7983363636155,
+            "boundary": "N STAPLEY  DR TO N GILBERT  RD AND E 8TH  ST TO E MAIN  ST",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 20:44 MST",
+            "etr": "2026-08-23 22:41 MST"
+        },
+        {
+            "latitude": 33.36819417186455,
+            "longitude": -111.96117865916449,
+            "boundary": "S 48TH  ST TO S KYRENE  RD AND W SUPERSTITION  FWY TO E MINERAL  RD",
+            "customers": 927,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 20:57 MST",
+            "etr": "2026-08-23 22:56 MST"
+        },
+        {
+            "latitude": 33.465263366299254,
+            "longitude": -111.9085519275345,
+            "boundary": "N MILLER  RD TO N GRANITE REEF  RD AND E OAK  ST TO E MCKELLIPS  RD",
+            "customers": 368,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:01 MST",
+            "etr": "2026-08-23 23:00 MST"
+        },
+        {
+            "latitude": 33.366986045108945,
+            "longitude": -112.06844387015,
+            "boundary": "S 7TH  AVE TO S 16TH  ST AND E VINEYARD  RD TO E CHANDLER  BLVD",
+            "customers": 1591,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:01 MST",
+            "etr": "2026-08-23 22:59 MST"
+        },
+        {
+            "latitude": 33.58051016742265,
+            "longitude": -112.204313568177,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W CHOLLA  ST TO W MOUNTAIN VIEW  RD",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-23 19:12 MST",
+            "etr": "2026-08-24 00:40 MST"
+        },
+        {
+            "latitude": 33.46893737888545,
+            "longitude": -111.9107721074695,
+            "boundary": "N MILLER  RD TO N GRANITE REEF  RD AND E OAK  ST TO E MCDOWELL  RD",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-23 21:03 MST",
+            "etr": "2026-08-23 23:02 MST"
+        }
+    ]
+}
