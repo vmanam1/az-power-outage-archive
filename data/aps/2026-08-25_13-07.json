@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-25 13:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 69
+    },
+    "outages": [
+        {
+            "latitude": 33.45635579971113,
+            "longitude": -112.05934119987691,
+            "city": "Phoenix",
+            "boundary": "Willetta St To Van Buren St  To 5Th St To 13Th St",
+            "customers": 16,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-24 22:16:00 MST",
+            "etr": "2026-08-25 12:00:00 MST"
+        },
+        {
+            "latitude": 34.86210365002012,
+            "longitude": -111.83018134639381,
+            "city": "Sedona",
+            "boundary": "Zia Dr. to Hohokam Cir. and Bristlecone Pines Rd. to Hohokam Dr.",
+            "customers": 18,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-25 04:45:00 MST",
+            "etr": "2026-08-25 08:15:00 MST"
+        },
+        {
+            "latitude": 33.61183675871357,
+            "longitude": -112.14889837830951,
+            "city": "Phoenix",
+            "boundary": "Aries Dr. to Boca Raton Rd. and 43rd Ave to 41st Ave.",
+            "customers": 35,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-25 05:13:00 MST",
+            "etr": "2026-08-25 07:45:00 MST"
+        }
+    ]
+}

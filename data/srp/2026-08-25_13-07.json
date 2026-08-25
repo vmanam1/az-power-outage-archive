@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-25 13:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 979
+    },
+    "outages": [
+        {
+            "latitude": 33.21411083009865,
+            "longitude": -111.6598917490545,
+            "boundary": "S LEMON  AVE TO S ACHILLES  WAY AND E CLOUD  RD TO W SUN DANCE  DR",
+            "customers": 939,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-25 11:28 MST",
+            "etr": "2026-08-25 19:00 MST"
+        },
+        {
+            "latitude": 33.54414121582985,
+            "longitude": -112.2534898781955,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-25 12:41 MST",
+            "etr": "2026-08-25 14:37 MST"
+        },
+        {
+            "latitude": 33.49876483596585,
+            "longitude": -112.04439372616,
+            "boundary": "N 16TH  ST TO N 20TH  ST AND E CAMPBELL  AVE TO E INDIAN SCHOOL  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-25 12:52 MST",
+            "etr": "2026-08-25 14:51 MST"
+        },
+        {
+            "latitude": 33.4877444387663,
+            "longitude": -112.21071871958699,
+            "boundary": "N 75TH  AVE TO N 67TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-25 06:02 MST",
+            "etr": "2026-08-25 15:22 MST"
+        },
+        {
+            "latitude": 33.40263805035975,
+            "longitude": -112.08099050375199,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-25 13:06 MST",
+            "etr": "2026-08-25 15:02 MST"
+        }
+    ]
+}
