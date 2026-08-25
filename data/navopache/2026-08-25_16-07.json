@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-25 16:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 45944
+    },
+    "outages": [
+        {
+            "latitude": 34.146333459535924,
+            "longitude": -109.96793925726196,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-25 16:06:30 MST",
+            "etr": null,
+            "incident_id": "533704"
+        }
+    ]
+}
