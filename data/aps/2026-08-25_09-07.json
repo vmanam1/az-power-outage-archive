@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-25 09:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 51
+    },
+    "outages": [
+        {
+            "latitude": 33.45497794991907,
+            "longitude": -112.12679270317155,
+            "city": "Phoenix",
+            "boundary": "Fillmore St to Taylor St and 32nd Ave to 31st Ave",
+            "customers": 14,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-24 21:00:00 MST",
+            "etr": "2026-08-25 04:00:00 MST"
+        },
+        {
+            "latitude": 33.49720486913457,
+            "longitude": -111.92921125410757,
+            "city": "Scottsdale",
+            "boundary": "5th Ave. to 3rd Ave. and Goldwater Blvd. to Marshall Wy.",
+            "customers": 15,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-24 16:10:00 MST",
+            "etr": "2026-08-25 02:30:00 MST"
+        },
+        {
+            "latitude": 33.45635579971113,
+            "longitude": -112.05934119987691,
+            "city": "Phoenix",
+            "boundary": "Willetta St To Van Buren St  To 5Th St To 13Th St",
+            "customers": 22,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-24 22:16:00 MST",
+            "etr": "2026-08-25 03:00:00 MST"
+        }
+    ]
+}
