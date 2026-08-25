@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-25 14:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1781
+    },
+    "outages": [
+        {
+            "latitude": 33.21411083009865,
+            "longitude": -111.6598917490545,
+            "boundary": "S LEMON  AVE TO S ACHILLES  WAY AND E CLOUD  RD TO W SUN DANCE  DR",
+            "customers": 939,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-25 11:28 MST",
+            "etr": "2026-08-25 19:00 MST"
+        },
+        {
+            "latitude": 33.4877444387663,
+            "longitude": -112.21071871958699,
+            "boundary": "N 75TH  AVE TO N 67TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-25 06:02 MST",
+            "etr": "2026-08-25 15:22 MST"
+        },
+        {
+            "latitude": 33.366767330388456,
+            "longitude": -112.1500434873925,
+            "boundary": "S 51ST  AVE TO S 35TH  AVE AND W VINEYARD  RD TO W CETON  DR",
+            "customers": 810,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-25 13:13 MST",
+            "etr": "2026-08-25 15:17 MST"
+        },
+        {
+            "latitude": 33.5554616971693,
+            "longitude": -112.104090946483,
+            "boundary": "N 23RD  AVE TO N 19TH  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-25 13:55 MST",
+            "etr": "2026-08-25 15:54 MST"
+        },
+        {
+            "latitude": 33.40263805035975,
+            "longitude": -112.08099050375199,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-25 13:06 MST",
+            "etr": "2026-08-25 15:13 MST"
+        }
+    ]
+}
