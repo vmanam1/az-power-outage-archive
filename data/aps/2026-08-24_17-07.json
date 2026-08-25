@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-24 17:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 154
+    },
+    "outages": [
+        {
+            "latitude": 32.66142265126399,
+            "longitude": -114.65890687465527,
+            "city": "Yuma",
+            "boundary": "32nd St. to County 14th St. and Avenue D to Avenue B",
+            "customers": 154,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-24 09:44:00 MST",
+            "etr": "2026-08-24 13:05:00 MST"
+        }
+    ]
+}
