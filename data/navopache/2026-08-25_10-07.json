@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-25 10:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 45944
+    },
+    "outages": [
+        {
+            "latitude": 34.112172383510526,
+            "longitude": -109.90145494307504,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-25 08:52:48 MST",
+            "etr": null,
+            "incident_id": "533689"
+        },
+        {
+            "latitude": 34.11127987611089,
+            "longitude": -109.88095538828857,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-25 08:27:04 MST",
+            "etr": null,
+            "incident_id": "533687"
+        },
+        {
+            "latitude": 34.209986095429976,
+            "longitude": -110.02213461836043,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-25 10:03:27 MST",
+            "etr": null,
+            "incident_id": "533693"
+        }
+    ]
+}

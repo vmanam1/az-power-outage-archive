@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-25 10:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 33.4877444387663,
+            "longitude": -112.21071871958699,
+            "boundary": "N 75TH  AVE TO N 67TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-25 06:02 MST",
+            "etr": "2026-08-25 13:22 MST"
+        },
+        {
+            "latitude": 33.4212735901691,
+            "longitude": -111.570260432608,
+            "boundary": "N MERIDIAN  DR TO N IRONWOOD  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 24,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-25 08:04 MST",
+            "etr": "2026-08-25 13:01 MST"
+        },
+        {
+            "latitude": 33.4628057202679,
+            "longitude": -111.814715577492,
+            "boundary": "N MESA  DR TO N STAPLEY  DR AND E MCDOWELL  RD TO E LEHI  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-25 08:44 MST",
+            "etr": "2026-08-25 12:43 MST"
+        },
+        {
+            "latitude": 33.5157896824542,
+            "longitude": -112.17150673321001,
+            "boundary": "N 55TH  AVE TO N 51ST  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-25 08:23 MST",
+            "etr": "2026-08-25 14:00 MST"
+        },
+        {
+            "latitude": 33.5157896824542,
+            "longitude": -112.17150673321001,
+            "boundary": "N 55TH  AVE TO N 51ST  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-25 08:23 MST",
+            "etr": "2026-08-25 14:00 MST"
+        },
+        {
+            "latitude": 33.5555862320574,
+            "longitude": -112.114550206644,
+            "boundary": "N 27TH  AVE TO N 23RD  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-25 09:50 MST",
+            "etr": "2026-08-25 11:49 MST"
+        },
+        {
+            "latitude": 33.24533337372635,
+            "longitude": -111.8622492102745,
+            "boundary": "S ALMA SCHOOL  RD TO S BASHA  RD AND W OCOTILLO  RD TO W CHANDLER HEIGHTS  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-25 09:57 MST",
+            "etr": "2026-08-25 12:00 MST"
+        },
+        {
+            "latitude": 33.45277003519815,
+            "longitude": -111.7785038840565,
+            "boundary": "N GILBERT  RD TO N LINDSAY  RD AND E HERMOSA VISTA  DR TO E MCLELLAN  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-25 08:18 MST",
+            "etr": "2026-08-25 11:30 MST"
+        }
+    ]
+}
