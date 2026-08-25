@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-24 22:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 463
+    },
+    "outages": [
+        {
+            "latitude": 33.48228300347955,
+            "longitude": -112.244287182026,
+            "boundary": "N 91ST  AVE TO N 83RD  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 52,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 19:15 MST",
+            "etr": "2026-08-24 22:17 MST"
+        },
+        {
+            "latitude": 33.5726255771101,
+            "longitude": -112.18658625723,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W MOUNTAIN VIEW  RD TO W OLIVE  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-24 16:01 MST",
+            "etr": "2026-08-25 04:30 MST"
+        },
+        {
+            "latitude": 33.3033107574383,
+            "longitude": -111.89781938695,
+            "boundary": "N GALAXY  DR TO S DOBSON  RD AND W GALVESTON  ST TO W SANTAN  FWY",
+            "customers": 410,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 21:39 MST",
+            "etr": "2026-08-24 23:39 MST"
+        }
+    ]
+}
