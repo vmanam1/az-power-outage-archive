@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-24 23:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 410
+    },
+    "outages": [
+        {
+            "latitude": 33.3033107574383,
+            "longitude": -111.89781938695,
+            "boundary": "N GALAXY  DR TO S DOBSON  RD AND W GALVESTON  ST TO W SANTAN  FWY",
+            "customers": 410,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-24 21:39 MST",
+            "etr": "2026-08-24 23:50 MST"
+        }
+    ]
+}
