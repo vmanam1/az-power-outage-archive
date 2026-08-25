@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-25 07:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 43
+    },
+    "outages": [
+        {
+            "latitude": 33.4001338380956,
+            "longitude": -111.592406913299,
+            "boundary": "S SIGNAL BUTTE  RD TO S MERIDIAN  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 4,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-25 01:19 MST",
+            "etr": "2026-08-25 07:25 MST"
+        },
+        {
+            "latitude": 33.45176990266355,
+            "longitude": -112.258967181842,
+            "boundary": "N 95TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 37,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-25 06:01 MST",
+            "etr": "2026-08-25 12:00 MST"
+        },
+        {
+            "latitude": 33.4877444387663,
+            "longitude": -112.21071871958699,
+            "boundary": "N 75TH  AVE TO N 67TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-25 06:02 MST",
+            "etr": "2026-08-25 13:22 MST"
+        }
+    ]
+}
