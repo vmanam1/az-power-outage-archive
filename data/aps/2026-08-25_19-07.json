@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-25 19:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 34.4088558040752,
+            "longitude": -111.44743917881489,
+            "city": "Pine",
+            "boundary": "Cedar Meadow Ln. and Juniper Loop to Walnut Ln.",
+            "customers": 14,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-25 09:02:00 MST",
+            "etr": "2026-08-25 15:30:00 MST"
+        },
+        {
+            "latitude": 32.884517836015,
+            "longitude": -111.7047430480285,
+            "city": "Casa Grande",
+            "boundary": "Windy Cliff Ln to Silver Moon Ln and Coyote Trail Dr",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-25 08:56:00 MST",
+            "etr": "2026-08-25 13:15:00 MST"
+        }
+    ]
+}
