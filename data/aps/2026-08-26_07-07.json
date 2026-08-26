@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 07:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 32.93127236790636,
+            "longitude": -111.7597039022006,
+            "city": "Casa Grande",
+            "boundary": "Palm Ave to Camino Grande and Tally Ho Ln",
+            "customers": 16,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-25 23:02:00 MST",
+            "etr": "2026-08-26 03:00:00 MST"
+        }
+    ]
+}
