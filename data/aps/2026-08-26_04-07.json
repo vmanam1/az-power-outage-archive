@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 04:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 618
+    },
+    "outages": [
+        {
+            "latitude": 34.4088558040752,
+            "longitude": -111.44743917881489,
+            "city": "Pine",
+            "boundary": "Cedar Meadow Ln. and Juniper Loop to Walnut Ln.",
+            "customers": 14,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-25 09:02:00 MST",
+            "etr": "2026-08-25 22:30:00 MST"
+        },
+        {
+            "latitude": 33.850474000011715,
+            "longitude": -111.84649800026149,
+            "city": "Scottsdale",
+            "boundary": "Ho Ho Kam Rd and Stagecoach Pass Rd",
+            "customers": 604,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-25 16:28:00 MST",
+            "etr": "2026-08-25 22:35:00 MST"
+        }
+    ]
+}

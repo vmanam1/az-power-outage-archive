@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-26 04:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 654
+    },
+    "outages": [
+        {
+            "latitude": 33.48799128196265,
+            "longitude": -112.000276203259,
+            "boundary": "N 36TH  ST TO N 40TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-25 23:48 MST",
+            "etr": "2026-08-26 05:00 MST"
+        },
+        {
+            "latitude": 33.3669931105507,
+            "longitude": -112.1789982992945,
+            "boundary": "S 63RD  AVE TO S 47TH  AVE AND W VINEYARD  RD TO W ELLIOT  RD",
+            "customers": 642,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-26 02:59 MST",
+            "etr": "2026-08-26 04:57 MST"
+        },
+        {
+            "latitude": 33.4856045706128,
+            "longitude": -112.0125606521395,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-26 03:28 MST",
+            "etr": "2026-08-26 06:30 MST"
+        }
+    ]
+}
