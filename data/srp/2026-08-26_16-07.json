@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-26 16:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.48799128196265,
+            "longitude": -112.000276203259,
+            "boundary": "N 36TH  ST TO N 40TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-26 11:16 MST",
+            "etr": "2026-08-26 18:19 MST"
+        },
+        {
+            "latitude": 33.33039184362695,
+            "longitude": -111.99827400891701,
+            "boundary": "S 36TH  ST TO S WARNER-ELLIOT  LOOP AND E WARNER  RD TO E KNOX  RD",
+            "customers": 15,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-26 11:43 MST",
+            "etr": "2026-08-26 19:45 MST"
+        },
+        {
+            "latitude": 33.544268050947,
+            "longitude": -112.11541790997501,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-26 15:57 MST",
+            "etr": "2026-08-26 17:51 MST"
+        },
+        {
+            "latitude": 33.544122222774945,
+            "longitude": -112.116063470842,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-26 15:58 MST",
+            "etr": "2026-08-26 17:51 MST"
+        }
+    ]
+}

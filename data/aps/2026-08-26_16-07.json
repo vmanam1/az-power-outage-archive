@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 16:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 368
+    },
+    "outages": [
+        {
+            "latitude": 35.036974926248156,
+            "longitude": -110.7301668760851,
+            "city": "Winslow",
+            "boundary": "Jolly Rd. to 3rd St. and Willow Dr. to Pleasant Ln.",
+            "customers": 359,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 07:21:00 MST",
+            "etr": "2026-08-26 11:30:00 MST"
+        },
+        {
+            "latitude": 33.76260282493006,
+            "longitude": -111.9283602324282,
+            "city": "Scottsdale",
+            "boundary": "Mongomery Rd. to Davis Rd. and 67th St. to 70th St.",
+            "customers": 9,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-26 08:33:00 MST",
+            "etr": "2026-08-26 11:15:00 MST"
+        }
+    ]
+}
