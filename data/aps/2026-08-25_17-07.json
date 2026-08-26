@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-25 17:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1208
+    },
+    "outages": [
+        {
+            "latitude": 33.45635579971113,
+            "longitude": -112.05934119987691,
+            "city": "Phoenix",
+            "boundary": "Willetta St To Van Buren St  To 5Th St To 13Th St",
+            "customers": 16,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-08-24 22:16:00 MST",
+            "etr": "2026-08-25 12:00:00 MST"
+        },
+        {
+            "latitude": 34.25960700028214,
+            "longitude": -111.32695899960794,
+            "city": "Payson",
+            "boundary": "Blueridge Reservoir To Rimview And County Club Vista To Tonto Natural Bridge",
+            "customers": 732,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-25 07:32:00 MST",
+            "etr": "2026-08-25 10:45:00 MST"
+        },
+        {
+            "latitude": 33.64408908706409,
+            "longitude": -112.14590462674254,
+            "city": "Glendale",
+            "boundary": "Helena Dr. to Campo Bello Dr. and 41st Ave. to 39th Ave.",
+            "customers": 25,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-25 08:14:00 MST",
+            "etr": "2026-08-25 10:45:00 MST"
+        },
+        {
+            "latitude": 34.4088558040752,
+            "longitude": -111.44743917881489,
+            "city": "Pine",
+            "boundary": "Cedar Meadow Ln. and Juniper Loop to Walnut Ln.",
+            "customers": 279,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-25 09:02:00 MST",
+            "etr": "2026-08-25 12:30:00 MST"
+        },
+        {
+            "latitude": 33.426521365917864,
+            "longitude": -112.34593388973431,
+            "city": "Avondale",
+            "boundary": "Main St to Lower Buckeye Rd and Litchfield Rd to Dysart Rd",
+            "customers": 145,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-25 09:50:00 MST",
+            "etr": "2026-08-25 13:30:00 MST"
+        },
+        {
+            "latitude": 32.884517836015,
+            "longitude": -111.7047430480285,
+            "city": "Casa Grande",
+            "boundary": "Windy Cliff Ln to Silver Moon Ln and Coyote Trail Dr",
+            "customers": 11,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-25 08:56:00 MST",
+            "etr": "2026-08-25 13:15:00 MST"
+        }
+    ]
+}

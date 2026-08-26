@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-25 17:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 33.41249595512605,
+            "longitude": -111.62722078910201,
+            "boundary": "S ELLSWORTH  RD TO S 96TH  ST AND E APACHE  TRL TO E BROADWAY  RD",
+            "customers": 20,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-25 15:08 MST",
+            "etr": "2026-08-25 17:29 MST"
+        }
+    ]
+}
