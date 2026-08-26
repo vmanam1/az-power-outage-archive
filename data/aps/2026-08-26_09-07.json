@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 47
+    },
+    "outages": [
+        {
+            "latitude": 33.57189425286314,
+            "longitude": -111.96614548881077,
+            "city": "Paradise Valley",
+            "boundary": "Mountain View Rd to Hatcher Rd and 52nd St to 55th St",
+            "customers": 23,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-26 01:05:00 MST",
+            "etr": "2026-08-26 03:30:00 MST"
+        },
+        {
+            "latitude": 34.34173836993129,
+            "longitude": -110.79978366057426,
+            "city": "Forest Lakes",
+            "boundary": "Forest Lakes Site 5 to Peace Pl and Merzville Loop",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-26 01:01:00 MST",
+            "etr": "2026-08-26 04:15:00 MST"
+        },
+        {
+            "latitude": 34.58456919810033,
+            "longitude": -111.85069540896927,
+            "city": "Camp Verde",
+            "boundary": "Wd Ln and Montezuma Castle Hwy",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-26 01:45:00 MST",
+            "etr": "2026-08-26 04:15:00 MST"
+        },
+        {
+            "latitude": 33.45944998694567,
+            "longitude": -112.03308663224304,
+            "city": "Phoenix",
+            "boundary": "Roosevelt St and 22nd St",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-26 02:02:00 MST",
+            "etr": "2026-08-26 03:15:00 MST"
+        }
+    ]
+}
