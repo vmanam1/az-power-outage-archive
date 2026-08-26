@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 00:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 2684
+    },
+    "outages": [
+        {
+            "latitude": 34.4088558040752,
+            "longitude": -111.44743917881489,
+            "city": "Pine",
+            "boundary": "Cedar Meadow Ln. and Juniper Loop to Walnut Ln.",
+            "customers": 14,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-25 09:02:00 MST",
+            "etr": "2026-08-25 20:30:00 MST"
+        },
+        {
+            "latitude": 34.39376747274067,
+            "longitude": -111.27321931343646,
+            "city": "Payson",
+            "boundary": "State Route 87 to Deadeye Rd. and Forest Service Road 903OT",
+            "customers": 1393,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-25 12:19:00 MST",
+            "etr": "2026-08-25 17:40:00 MST"
+        },
+        {
+            "latitude": 33.645640505806895,
+            "longitude": -112.16661002598191,
+            "city": "Glendale",
+            "boundary": "Grovers Ave to Linder Dr and 51st Ave to 47th Ave",
+            "customers": 57,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-25 15:02:00 MST",
+            "etr": "2026-08-25 19:02:00 MST"
+        },
+        {
+            "latitude": 33.850474000011715,
+            "longitude": -111.84649800026149,
+            "city": "Scottsdale",
+            "boundary": "Ho Ho Kam Rd and Stagecoach Pass Rd",
+            "customers": 1220,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-25 16:28:00 MST",
+            "etr": "2026-08-25 19:00:00 MST"
+        }
+    ]
+}
