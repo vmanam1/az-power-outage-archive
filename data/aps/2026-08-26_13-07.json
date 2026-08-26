@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 13:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 34.56072963100806,
+            "longitude": -111.85115890462157,
+            "city": "Camp Verde",
+            "boundary": "Apache Rd and Hopi Dr",
+            "customers": 8,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-26 05:02:00 MST",
+            "etr": "2026-08-26 08:30:00 MST"
+        }
+    ]
+}
