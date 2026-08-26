@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 14:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 542
+    },
+    "outages": [
+        {
+            "latitude": 34.5221049226664,
+            "longitude": -112.20794161730713,
+            "city": "Dewey",
+            "boundary": "Gladsstone Ave to White Dr and Golden View Dr",
+            "customers": 97,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 06:26:00 MST",
+            "etr": "2026-08-26 09:30:00 MST"
+        },
+        {
+            "latitude": 33.95380399976652,
+            "longitude": -112.70787699972233,
+            "city": "Wickenburg",
+            "boundary": "Rose Ln To Stonehenge Ranch  And El Recreo To Sportsman Club",
+            "customers": 445,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-26 06:47:00 MST",
+            "etr": "2026-08-26 09:00:00 MST"
+        }
+    ]
+}
