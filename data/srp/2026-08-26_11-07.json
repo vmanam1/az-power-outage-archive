@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-26 11:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.45802604724135,
+            "longitude": -111.7784143356175,
+            "boundary": "N GILBERT  RD TO N LINDSAY  RD AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-26 09:59 MST",
+            "etr": "2026-08-26 11:56 MST"
+        },
+        {
+            "latitude": 33.2497926571823,
+            "longitude": -111.539512822711,
+            "boundary": "N KENWORTHY  RD TO N SCHNEPF  RD AND E AIRPORT  DR TO E SOUTHWOOD  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-26 10:20 MST",
+            "etr": "2026-08-26 12:18 MST"
+        },
+        {
+            "latitude": 33.41230213136685,
+            "longitude": -111.6248646395985,
+            "boundary": "S ELLSWORTH  RD TO S CRISMON  RD AND E APACHE  TRL TO E BROADWAY  RD",
+            "customers": 25,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-26 10:56 MST",
+            "etr": "2026-08-26 12:54 MST"
+        }
+    ]
+}

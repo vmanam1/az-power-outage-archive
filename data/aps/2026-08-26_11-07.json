@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 11:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 52
+    },
+    "outages": [
+        {
+            "latitude": 34.58456919810033,
+            "longitude": -111.85069540896927,
+            "city": "Camp Verde",
+            "boundary": "Wd Ln and Montezuma Castle Hwy",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-26 01:45:00 MST",
+            "etr": "2026-08-26 04:45:00 MST"
+        },
+        {
+            "latitude": 33.467656423067375,
+            "longitude": -112.12519567286955,
+            "city": "Phoenix",
+            "boundary": "Coronado Rd to Almeria Rd and 31st Ave to 30th Ave",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-26 02:00:00 MST",
+            "etr": "2026-08-26 04:45:00 MST"
+        },
+        {
+            "latitude": 32.71349731523496,
+            "longitude": -114.62919524665168,
+            "city": "Yuma",
+            "boundary": "7th St to 8th St and 9th Ave to 7th Ave",
+            "customers": 6,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-26 03:08:00 MST",
+            "etr": "2026-08-26 06:30:00 MST"
+        },
+        {
+            "latitude": 33.629887739168645,
+            "longitude": -112.1930626173387,
+            "city": "Glendale",
+            "boundary": "Marconi Ave and 63rd Ave to 61st Dr",
+            "customers": 29,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-26 03:45:00 MST",
+            "etr": "2026-08-26 06:40:00 MST"
+        }
+    ]
+}
