@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-25 22:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 608
+    },
+    "outages": [
+        {
+            "latitude": 34.4088558040752,
+            "longitude": -111.44743917881489,
+            "city": "Pine",
+            "boundary": "Cedar Meadow Ln. and Juniper Loop to Walnut Ln.",
+            "customers": 14,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-25 09:02:00 MST",
+            "etr": "2026-08-25 15:30:00 MST"
+        },
+        {
+            "latitude": 34.39376747274067,
+            "longitude": -111.27321931343646,
+            "city": "Payson",
+            "boundary": "State Route 87 to Deadeye Rd. and Forest Service Road 903OT",
+            "customers": 568,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-25 12:19:00 MST",
+            "etr": "2026-08-25 15:40:00 MST"
+        },
+        {
+            "latitude": 32.48752142198538,
+            "longitude": -114.77119930261125,
+            "city": "San Luis",
+            "boundary": "San Luis Ln to Udall Ln and 9th Ave to 107th Ave",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-25 13:19:00 MST",
+            "etr": "2026-08-25 16:00:00 MST"
+        },
+        {
+            "latitude": 32.892185149368345,
+            "longitude": -111.74704458899357,
+            "city": "Casa Grande",
+            "boundary": "Morrison Ave and Agua Del Oro",
+            "customers": 14,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-25 14:33:00 MST",
+            "etr": "2026-08-25 16:55:00 MST"
+        },
+        {
+            "latitude": 33.582014312726045,
+            "longitude": -112.23930957699788,
+            "city": "Peoria",
+            "boundary": "Peoria Ave. and Grand Ave.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-25 15:01:00 MST",
+            "etr": "2026-08-25 17:00:00 MST"
+        }
+    ]
+}
