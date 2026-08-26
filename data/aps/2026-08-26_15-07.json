@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 15:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 438
+    },
+    "outages": [
+        {
+            "latitude": 33.95380399976652,
+            "longitude": -112.70787699972233,
+            "city": "Wickenburg",
+            "boundary": "Rose Ln To Stonehenge Ranch  And El Recreo To Sportsman Club",
+            "customers": 53,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-26 06:47:00 MST",
+            "etr": "2026-08-26 09:00:00 MST"
+        },
+        {
+            "latitude": 34.90461036209686,
+            "longitude": -110.16215238779189,
+            "city": "Holbrook",
+            "boundary": "California St and 3rd Ave",
+            "customers": 26,
+            "cause": "Vegetation/Debris",
+            "comments": "We are working to restore the power outage caused by vegetation or debris interfering with our equipment.",
+            "start_time": "2026-08-26 07:06:00 MST",
+            "etr": "2026-08-26 11:00:00 MST"
+        },
+        {
+            "latitude": 35.036974926248156,
+            "longitude": -110.7301668760851,
+            "city": "Winslow",
+            "boundary": "Jolly Rd. to 3rd St. and Willow Dr. to Pleasant Ln.",
+            "customers": 359,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 07:21:00 MST",
+            "etr": "2026-08-26 11:30:00 MST"
+        }
+    ]
+}
