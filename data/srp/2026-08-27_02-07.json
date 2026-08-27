@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-27 02:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 70
+    },
+    "outages": [
+        {
+            "latitude": 33.4106502613835,
+            "longitude": -111.6841192744,
+            "boundary": "S 64TH  ST TO S 72ND  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-26 20:41 MST",
+            "etr": "2026-08-27 05:00 MST"
+        },
+        {
+            "latitude": 33.4790613430273,
+            "longitude": -111.968537644132,
+            "boundary": "N 48TH  ST TO N 56TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 52,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 01:15 MST",
+            "etr": "2026-08-27 03:08 MST"
+        },
+        {
+            "latitude": 33.4815301962653,
+            "longitude": -112.20202189230301,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 01:35 MST",
+            "etr": "2026-08-27 06:00 MST"
+        },
+        {
+            "latitude": 33.4816511409271,
+            "longitude": -112.2011061352155,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-27 01:49 MST",
+            "etr": "2026-08-27 03:43 MST"
+        }
+    ]
+}
