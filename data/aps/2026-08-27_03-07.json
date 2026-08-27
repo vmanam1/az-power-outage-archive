@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-27 03:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 45
+    },
+    "outages": [
+        {
+            "latitude": 33.4624333658965,
+            "longitude": -112.33507818341201,
+            "city": "Avondale",
+            "boundary": "Rancho Santa Fe Blvd. And McDowell Rd.",
+            "customers": 24,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 18:06:00 MST",
+            "etr": "2026-08-26 20:40:00 MST"
+        },
+        {
+            "latitude": 33.960460442161846,
+            "longitude": -112.77311833839758,
+            "city": "Wickenburg",
+            "boundary": "Val Vista Dr and Vulture Mine Rd",
+            "customers": 21,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 18:48:00 MST",
+            "etr": "2026-08-26 21:50:00 MST"
+        }
+    ]
+}
