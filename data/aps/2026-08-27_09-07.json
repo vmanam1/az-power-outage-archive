@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-27 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 32.71573404499505,
+            "longitude": -114.62896782825604,
+            "city": "Yuma",
+            "boundary": "6th St to 7th St and 8th Ave to 7th Ave",
+            "customers": 6,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-27 01:49:00 MST",
+            "etr": "2026-08-27 04:50:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-08-27 09:07:11 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "incident_id": 20532,
+            "latitude": 31.905610021709073,
+            "longitude": -110.27482458521952,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-27 08:58:37 MST",
+            "etr": "2026-08-27 11:58:37 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20530,
+            "latitude": 32.25736133561368,
+            "longitude": -109.87944959422606,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-27 07:26:13 MST",
+            "etr": "2026-08-27 10:26:13 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20531,
+            "latitude": 32.079873999818986,
+            "longitude": -109.74636499984966,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-08-27 08:43:22 MST",
+            "etr": "2026-08-27 11:43:22 MST",
+            "restored_time": null
+        }
+    ]
+}
