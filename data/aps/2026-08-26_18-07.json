@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 18:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 33.58105995214713,
+            "longitude": -112.27021023038293,
+            "city": "Peoria",
+            "boundary": "Peoria Ave and 99th Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 08:17:00 MST",
+            "etr": "2026-08-26 12:30:00 MST"
+        },
+        {
+            "latitude": 35.05299889284735,
+            "longitude": -110.7387756479468,
+            "city": "Winslow",
+            "boundary": "Scenic View Dr to Purple Heart Tl and Mount Ararat to Painted Desert Dr",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 07:57:00 MST",
+            "etr": "2026-08-26 13:00:00 MST"
+        },
+        {
+            "latitude": 34.25843906022567,
+            "longitude": -111.32329103187749,
+            "city": "Payson",
+            "boundary": "Glade Ln and Beeline Hwy",
+            "customers": 10,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-26 09:35:00 MST",
+            "etr": "2026-08-26 13:20:00 MST"
+        }
+    ]
+}

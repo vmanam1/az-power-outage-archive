@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-26 18:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 33.544268050947,
+            "longitude": -112.11541790997501,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-26 15:57 MST",
+            "etr": "2026-08-26 19:30 MST"
+        },
+        {
+            "latitude": 33.544122222774945,
+            "longitude": -112.116063470842,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-26 15:58 MST",
+            "etr": "2026-08-26 23:00 MST"
+        },
+        {
+            "latitude": 33.48799128196265,
+            "longitude": -112.000276203259,
+            "boundary": "N 36TH  ST TO N 40TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-26 11:16 MST",
+            "etr": "2026-08-26 19:19 MST"
+        }
+    ]
+}
