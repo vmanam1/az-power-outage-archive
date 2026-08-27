@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-27 06:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 33.49737032410509,
+            "longitude": -111.92946928978304,
+            "city": "Scottsdale",
+            "boundary": "Goldwater Blvd and 3rd Ave",
+            "customers": 15,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 22:58:00 MST",
+            "etr": "2026-08-27 01:40:00 MST"
+        }
+    ]
+}
