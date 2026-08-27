@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-27 04:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 54
+    },
+    "outages": [
+        {
+            "latitude": 33.44412745246325,
+            "longitude": -111.70449908342499,
+            "boundary": "N ALTA MESA  DR TO N RECKER  RD AND E MCKELLIPS  RD TO E BROWN  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 03:54 MST",
+            "etr": "2026-08-27 10:00 MST"
+        },
+        {
+            "latitude": 33.4790613430273,
+            "longitude": -111.968537644132,
+            "boundary": "N 48TH  ST TO N 56TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 52,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 01:15 MST",
+            "etr": "2026-08-27 06:00 MST"
+        }
+    ]
+}
