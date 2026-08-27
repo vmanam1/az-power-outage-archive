@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-27 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 2332
+    },
+    "outages": [
+        {
+            "latitude": 33.45315244331765,
+            "longitude": -112.26097609689401,
+            "boundary": "N 95TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 06:49 MST",
+            "etr": "2026-08-27 11:00 MST"
+        },
+        {
+            "latitude": 33.4085294468764,
+            "longitude": -111.9805059528535,
+            "boundary": "S 44TH  ST TO S MARICOPA  FWY AND E ELWOOD  ST TO E ROESER  RD",
+            "customers": 53,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-27 07:25 MST",
+            "etr": "2026-08-27 09:25 MST"
+        },
+        {
+            "latitude": 33.4048743871724,
+            "longitude": -111.7933674664315,
+            "boundary": "S STAPLEY  DR TO S 24TH  ST AND E UNIVERSITY  DR TO E SUPERSTITION  FWY",
+            "customers": 1188,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-27 07:47 MST",
+            "etr": "2026-08-27 09:47 MST"
+        },
+        {
+            "latitude": 33.509767262364,
+            "longitude": -112.0961157338365,
+            "boundary": "N BLACK CANYON  HWY TO N 7TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 1084,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-27 08:06 MST",
+            "etr": "2026-08-27 10:05 MST"
+        },
+        {
+            "latitude": 33.4790902434189,
+            "longitude": -111.965896865093,
+            "boundary": "N 52ND  ST TO N 56TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-27 08:07 MST",
+            "etr": "2026-08-27 14:06 MST"
+        }
+    ]
+}
