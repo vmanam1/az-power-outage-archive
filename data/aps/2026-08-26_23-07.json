@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 23:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 688
+    },
+    "outages": [
+        {
+            "latitude": 33.49173561882952,
+            "longitude": -112.06701788159644,
+            "city": "Phoenix",
+            "boundary": "Fairmont Ave TO Clarendon Ave and 4th St to 6th St",
+            "customers": 17,
+            "cause": "Vegetation/Debris",
+            "comments": "We are working to restore the power outage caused by vegetation or debris interfering with our equipment.",
+            "start_time": "2026-08-26 12:37:00 MST",
+            "etr": "2026-08-26 19:00:00 MST"
+        },
+        {
+            "latitude": 34.35719189976014,
+            "longitude": -110.00457186011434,
+            "city": "Show Low",
+            "boundary": "Juniper Ridge Dr and Stallion Dr",
+            "customers": 595,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-26 15:10:00 MST",
+            "etr": "2026-08-26 19:10:00 MST"
+        },
+        {
+            "latitude": 33.62327339734139,
+            "longitude": -112.18729125604858,
+            "city": "Glendale",
+            "boundary": "Greenway Rd to Country Gables Way and 60th Dr to 59th Ave",
+            "customers": 40,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 15:50:00 MST",
+            "etr": "2026-08-26 18:40:00 MST"
+        },
+        {
+            "latitude": 33.73882177692126,
+            "longitude": -112.26874927059194,
+            "city": "Peoria",
+            "boundary": "99th Ave and Happy Valley Rd",
+            "customers": 36,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 15:54:00 MST",
+            "etr": "2026-08-26 18:20:00 MST"
+        }
+    ]
+}
