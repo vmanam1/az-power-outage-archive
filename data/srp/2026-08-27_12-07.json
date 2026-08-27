@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-27 12:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 301
+    },
+    "outages": [
+        {
+            "latitude": 33.4091253025191,
+            "longitude": -111.79284469093551,
+            "boundary": "S STAPLEY  DR TO S 24TH  ST AND E MAIN  ST TO E 8TH  AVE",
+            "customers": 82,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-27 07:47 MST",
+            "etr": "2026-08-27 12:47 MST"
+        },
+        {
+            "latitude": 33.2908841112631,
+            "longitude": -111.89266860301501,
+            "boundary": "S PRICE  FWY TO S ELLIS  ST AND W FRYE  RD TO W WILLIS  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 10:41 MST",
+            "etr": "2026-08-27 12:18 MST"
+        },
+        {
+            "latitude": 33.4518796405507,
+            "longitude": -112.261465073703,
+            "boundary": "N 99TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 16,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-27 09:11 MST",
+            "etr": "2026-08-27 16:00 MST"
+        },
+        {
+            "latitude": 33.5632471415277,
+            "longitude": -112.2041858529315,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W OLIVE  AVE TO W BUTLER  DR",
+            "customers": 25,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 10:47 MST",
+            "etr": "2026-08-27 13:30 MST"
+        },
+        {
+            "latitude": 33.45315244331765,
+            "longitude": -112.26097609689401,
+            "boundary": "N 95TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 06:49 MST",
+            "etr": "2026-08-27 14:00 MST"
+        },
+        {
+            "latitude": 33.52942413012655,
+            "longitude": -112.109697421294,
+            "boundary": "N 27TH  AVE TO N 19TH  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 152,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 09:04 MST",
+            "etr": "2026-08-27 13:02 MST"
+        },
+        {
+            "latitude": 33.453579178705255,
+            "longitude": -112.2588414373095,
+            "boundary": "N 95TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 16,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-27 11:28 MST",
+            "etr": "2026-08-27 16:00 MST"
+        }
+    ]
+}
