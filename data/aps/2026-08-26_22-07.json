@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 22:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 33.81086792536777,
+            "longitude": -111.95288500594762,
+            "city": "Cave Creek",
+            "boundary": "Restin Rd. and Cave Creek Rd.",
+            "customers": 13,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-26 12:05:00 MST",
+            "etr": "2026-08-26 16:00:00 MST"
+        },
+        {
+            "latitude": 33.49173561882952,
+            "longitude": -112.06701788159644,
+            "city": "Phoenix",
+            "boundary": "Fairmont Ave TO Clarendon Ave and 4th St to 6th St",
+            "customers": 17,
+            "cause": "Vegetation/Debris",
+            "comments": "We are working to restore the power outage caused by vegetation or debris interfering with our equipment.",
+            "start_time": "2026-08-26 12:37:00 MST",
+            "etr": "2026-08-26 16:00:00 MST"
+        },
+        {
+            "latitude": 33.62982136385129,
+            "longitude": -112.24707647382647,
+            "city": "Peoria",
+            "boundary": "87th Dr. and Lockland Ct.",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-26 14:32:00 MST",
+            "etr": "2026-08-26 17:25:00 MST"
+        }
+    ]
+}
