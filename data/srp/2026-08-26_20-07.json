@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-26 20:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 63
+    },
+    "outages": [
+        {
+            "latitude": 33.544268050947,
+            "longitude": -112.11541790997501,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-26 15:57 MST",
+            "etr": "2026-08-26 23:00 MST"
+        },
+        {
+            "latitude": 33.48146595554785,
+            "longitude": -111.9739098656495,
+            "boundary": "N 48TH  ST TO N 52ND  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 52,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-26 19:24 MST",
+            "etr": "2026-08-26 21:24 MST"
+        },
+        {
+            "latitude": 33.544122222774945,
+            "longitude": -112.1159369338445,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-26 15:58 MST",
+            "etr": "2026-08-26 23:00 MST"
+        }
+    ]
+}

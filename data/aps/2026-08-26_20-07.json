@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-26 20:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 73
+    },
+    "outages": [
+        {
+            "latitude": 34.25843906022567,
+            "longitude": -111.32329103187749,
+            "city": "Payson",
+            "boundary": "Glade Ln and Beeline Hwy",
+            "customers": 10,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-26 09:35:00 MST",
+            "etr": "2026-08-26 14:20:00 MST"
+        },
+        {
+            "latitude": 33.81086792536777,
+            "longitude": -111.95288500594762,
+            "city": "Cave Creek",
+            "boundary": "Restin Rd. and Cave Creek Rd.",
+            "customers": 13,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-26 12:05:00 MST",
+            "etr": "2026-08-26 14:25:00 MST"
+        },
+        {
+            "latitude": 33.49173561882952,
+            "longitude": -112.06701788159644,
+            "city": "Phoenix",
+            "boundary": "Fairmont Ave TO Clarendon Ave and 4th St to 6th St",
+            "customers": 17,
+            "cause": "Vegetation/Debris",
+            "comments": "We are working to restore the power outage caused by vegetation or debris interfering with our equipment.",
+            "start_time": "2026-08-26 12:37:00 MST",
+            "etr": "2026-08-26 15:05:00 MST"
+        },
+        {
+            "latitude": 33.66277617633138,
+            "longitude": -112.20512800759901,
+            "city": "Glendale",
+            "boundary": "67th Ave and Utopia Rd",
+            "customers": 33,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-26 12:51:00 MST",
+            "etr": "2026-08-26 15:40:00 MST"
+        }
+    ]
+}
