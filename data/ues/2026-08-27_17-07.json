@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-08-27 17:07:21 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 76,
+        "map_last_refreshed": "Aug 27, 5:05 PM"
+    },
+    "outages": [
+        {
+            "latitude": 31.4708552684436,
+            "longitude": -111.018173072207,
+            "boundary": {
+                "coordLatSW": "31.4708552684436",
+                "coordLngSW": "-111.01817307220701",
+                "coordLatNE": "31.4708552684436",
+                "coordLngNE": "-111.01817307220701",
+                "coordLatCenter": "31.470856",
+                "coordLngCenter": "-111.01817"
+            },
+            "customers": 0,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-08-27 07:29 MST",
+            "etr": "2026-08-27 09:30 MST",
+            "event": "Planned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-27 15:22 MST"
+        },
+        {
+            "latitude": 31.337245514046195,
+            "longitude": -110.93462655354772,
+            "boundary": {
+                "coordLatSW": "31.336070310859402",
+                "coordLngSW": "-110.936104744277",
+                "coordLatNE": "31.338303349954799",
+                "coordLngNE": "-110.93072117077",
+                "coordLatCenter": "31.337187",
+                "coordLngCenter": "-110.93341"
+            },
+            "customers": 76,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-08-27 16:04 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-27 17:00 MST"
+        }
+    ]
+}
