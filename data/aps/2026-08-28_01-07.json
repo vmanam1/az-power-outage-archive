@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-28 01:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.60753054624117,
+            "longitude": -112.12751343679537,
+            "city": "Phoenix",
+            "boundary": "West Joan De Arc Ave to West Willow Ave and North 33rd Ave to North 31st Ave",
+            "customers": 13,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-27 15:16:00 MST",
+            "etr": "2026-08-27 19:00:00 MST"
+        }
+    ]
+}
