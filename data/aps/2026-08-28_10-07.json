@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-28 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 175
+    },
+    "outages": [
+        {
+            "latitude": 33.59651091202703,
+            "longitude": -112.28847892605795,
+            "city": "Sun City",
+            "boundary": "Saint Andrews Drive West and 107th Ave.",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-28 00:51:00 MST",
+            "etr": "2026-08-28 05:00:00 MST"
+        },
+        {
+            "latitude": 34.86582965771225,
+            "longitude": -111.78449726570173,
+            "city": "Sedona",
+            "boundary": "Soldiers Pass Rd.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-28 02:03:00 MST",
+            "etr": "2026-08-28 05:20:00 MST"
+        },
+        {
+            "latitude": 33.65158836085917,
+            "longitude": -111.98661090312203,
+            "city": "Phoenix",
+            "boundary": "Desert Cactus St. to Villa Rita Dr. and 44th St.",
+            "customers": 7,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-28 02:09:00 MST",
+            "etr": "2026-08-28 05:20:00 MST"
+        },
+        {
+            "latitude": 33.49188697976916,
+            "longitude": -112.05224290294466,
+            "city": "Phoenix",
+            "boundary": "Indianola Ave. to Clarendon Ave. and Longview Ave.",
+            "customers": 29,
+            "cause": "Fire",
+            "comments": "An issue affecting electrical equipment in the area has resulted in a power outage. Our crews are actively working to restore service  and we appreciate your patience as we complete repairs safely.",
+            "start_time": "2026-08-28 02:44:00 MST",
+            "etr": "2026-08-28 08:40:00 MST"
+        },
+        {
+            "latitude": 33.54064611136232,
+            "longitude": -112.1704441398191,
+            "city": "Glendale",
+            "boundary": "Midway Ave. to Flynn Ln. and 54th Ave. to 51st Ave.",
+            "customers": 124,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-28 02:13:00 MST",
+            "etr": "2026-08-28 05:50:00 MST"
+        }
+    ]
+}
