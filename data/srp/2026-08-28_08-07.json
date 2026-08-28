@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-28 08:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 49
+    },
+    "outages": [
+        {
+            "latitude": 33.38864703132555,
+            "longitude": -111.812703798287,
+            "boundary": "S MESA  DR TO S SUPERSTITION  FWY AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-27 23:30 MST",
+            "etr": "2026-08-28 10:00 MST"
+        },
+        {
+            "latitude": 33.4468381316869,
+            "longitude": -112.260933789768,
+            "boundary": "S 95TH  AVE TO S 91ST  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 06:27 MST",
+            "etr": "2026-08-28 11:00 MST"
+        },
+        {
+            "latitude": 33.46507716109605,
+            "longitude": -111.651841031488,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E QUENTON  ST TO E HERMOSA VISTA  DR",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 07:34 MST",
+            "etr": "2026-08-28 09:33 MST"
+        },
+        {
+            "latitude": 33.41929793852605,
+            "longitude": -111.5899349865235,
+            "boundary": "N SIGNAL BUTTE  RD TO N MERIDIAN  RD AND E UNIVERSITY  DR TO E APACHE  TRL",
+            "customers": 19,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-28 06:05 MST",
+            "etr": "2026-08-28 12:09 MST"
+        }
+    ]
+}

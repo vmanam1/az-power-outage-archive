@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-28 08:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 61
+    },
+    "outages": [
+        {
+            "latitude": 33.592790784305905,
+            "longitude": -111.88022249157245,
+            "city": "Scottsdale",
+            "boundary": "Altadena Ave to Cortez St and 93rd Pl to 94th Way",
+            "customers": 32,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-27 23:15:00 MST",
+            "etr": "2026-08-28 02:00:00 MST"
+        },
+        {
+            "latitude": 33.59651091202703,
+            "longitude": -112.28847892605795,
+            "city": "Sun City",
+            "boundary": "Saint Andrews Drive West and 107th Ave.",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-28 00:51:00 MST",
+            "etr": "2026-08-28 05:00:00 MST"
+        },
+        {
+            "latitude": 33.53316363237226,
+            "longitude": -111.95689913857449,
+            "city": "Paradise Valley",
+            "boundary": "Smoketree Ln. and Las Brisas Dr.",
+            "customers": 11,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-28 00:55:00 MST",
+            "etr": "2026-08-28 04:20:00 MST"
+        },
+        {
+            "latitude": 33.57277067718083,
+            "longitude": -112.08373720079865,
+            "city": "Phoenix",
+            "boundary": "Vogel Ave. to Hatcher Rd. and 9th Ave. to 7th Ave.",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-28 01:00:00 MST",
+            "etr": "2026-08-28 02:30:00 MST"
+        }
+    ]
+}
