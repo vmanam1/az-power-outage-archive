@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-28 13:07:09 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 26
+    },
+    "outages": [
+        {
+            "latitude": 32.97219418471699,
+            "longitude": -111.77765573422712,
+            "city": "Casa Grande",
+            "boundary": "Hopi Dr. to Jackrabbit Ln. and Katsina Rd. to Scott Dr.",
+            "customers": 15,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-28 03:08:00 MST",
+            "etr": "2026-08-28 06:45:00 MST"
+        },
+        {
+            "latitude": 33.491495315938266,
+            "longitude": -112.0525745411846,
+            "city": "Phoenix",
+            "boundary": "Clarendon Ave. to Harding St.",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-28 04:06:00 MST",
+            "etr": "2026-08-28 12:30:00 MST"
+        }
+    ]
+}
