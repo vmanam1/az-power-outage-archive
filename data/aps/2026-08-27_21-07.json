@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-27 21:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 113
+    },
+    "outages": [
+        {
+            "latitude": 34.24079414929355,
+            "longitude": -110.05325348595886,
+            "city": "Payson",
+            "boundary": "Whipple St to 9th Dr and Deuce of Clubs to 6th Dr",
+            "customers": 113,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-27 13:59:00 MST",
+            "etr": "2026-08-27 17:20:00 MST"
+        }
+    ]
+}

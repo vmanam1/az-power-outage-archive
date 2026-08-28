@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-27 21:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 178
+    },
+    "outages": [
+        {
+            "latitude": 33.3978707687642,
+            "longitude": -111.5135185472935,
+            "boundary": "S CORTEZ  RD TO S ARROYA  RD AND E BROADWAY  AVE TO E SUPERSTITION  FWY",
+            "customers": 31,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-27 17:41 MST",
+            "etr": "2026-08-28 02:00 MST"
+        },
+        {
+            "latitude": 33.19605242133485,
+            "longitude": -111.507356275636,
+            "boundary": "N SIERRA VISTA  DR TO N SURREY  LN AND E ROLLING RIDGE  RD TO E SKYLINE  DR",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-27 20:45 MST",
+            "etr": "2026-08-27 22:01 MST"
+        },
+        {
+            "latitude": 33.40239192725275,
+            "longitude": -111.51633406912251,
+            "boundary": "S TOMAHAWK  RD TO S ARROYA  RD AND E JUNCTION  ST TO E SOUTHERN  AVE",
+            "customers": 138,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 21:01 MST",
+            "etr": "2026-08-27 22:59 MST"
+        }
+    ]
+}
