@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-28 11:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 32
+    },
+    "outages": [
+        {
+            "latitude": 33.59651091202703,
+            "longitude": -112.28847892605795,
+            "city": "Sun City",
+            "boundary": "Saint Andrews Drive West and 107th Ave.",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-28 00:51:00 MST",
+            "etr": "2026-08-28 05:00:00 MST"
+        },
+        {
+            "latitude": 33.65158836085917,
+            "longitude": -111.98661090312203,
+            "city": "Phoenix",
+            "boundary": "Desert Cactus St. to Villa Rita Dr. and 44th St.",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-28 02:09:00 MST",
+            "etr": "2026-08-28 05:45:00 MST"
+        },
+        {
+            "latitude": 32.97219418471699,
+            "longitude": -111.77765573422712,
+            "city": "Casa Grande",
+            "boundary": "Hopi Dr. to Jackrabbit Ln. and Katsina Rd. to Scott Dr.",
+            "customers": 17,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-28 03:08:00 MST",
+            "etr": "2026-08-28 06:25:00 MST"
+        }
+    ]
+}
