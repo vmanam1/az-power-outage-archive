@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-28 16:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 2584
+    },
+    "outages": [
+        {
+            "latitude": 33.389722396208796,
+            "longitude": -112.09131841445151,
+            "boundary": "S 19TH  AVE TO S 7TH  AVE AND W SOUTHERN  AVE TO W VINEYARD  RD",
+            "customers": 11,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-28 13:15 MST",
+            "etr": "2026-08-28 21:16 MST"
+        },
+        {
+            "latitude": 33.4275088881394,
+            "longitude": -111.886447033036,
+            "boundary": "S SMITH  RD TO N DOBSON  RD AND E RED MOUNTAIN  FWY TO E APACHE  BLVD",
+            "customers": 1898,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-28 14:28 MST",
+            "etr": "2026-08-28 16:28 MST"
+        },
+        {
+            "latitude": 33.49219830975245,
+            "longitude": -112.01668338513,
+            "boundary": "N 24TH  ST TO N 36TH  ST AND E CAMPBELL  AVE TO E THOMAS  RD",
+            "customers": 658,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-28 15:31 MST",
+            "etr": "2026-08-28 17:31 MST"
+        },
+        {
+            "latitude": 33.3913827824515,
+            "longitude": -112.272866365531,
+            "boundary": "S 103RD  AVE TO S 95TH  AVE AND W BROADWAY  RD TO E BASELINE  RD",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-28 15:15 MST",
+            "etr": "2026-08-28 17:09 MST"
+        },
+        {
+            "latitude": 33.389846149926456,
+            "longitude": -112.269845700007,
+            "boundary": "S 103RD  AVE TO S 91ST  AVE AND W BROADWAY  RD TO E BASELINE  RD",
+            "customers": 15,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-28 15:10 MST",
+            "etr": "2026-08-28 17:24 MST"
+        }
+    ]
+}
