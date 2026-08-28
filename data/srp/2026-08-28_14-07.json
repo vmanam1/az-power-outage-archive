@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-28 14:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 48
+    },
+    "outages": [
+        {
+            "latitude": 33.3897074132618,
+            "longitude": -112.0927328364825,
+            "boundary": "S 19TH  AVE TO S 7TH  AVE AND W ROESER  RD TO W VINEYARD  RD",
+            "customers": 48,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-28 13:15 MST",
+            "etr": "2026-08-28 15:16 MST"
+        }
+    ]
+}
