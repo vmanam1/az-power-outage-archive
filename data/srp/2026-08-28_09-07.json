@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-28 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 3705
+    },
+    "outages": [
+        {
+            "latitude": 33.38864703132555,
+            "longitude": -111.812703798287,
+            "boundary": "S MESA  DR TO S SUPERSTITION  FWY AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-27 23:30 MST",
+            "etr": "2026-08-28 10:00 MST"
+        },
+        {
+            "latitude": 33.46507716109605,
+            "longitude": -111.651841031488,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E QUENTON  ST TO E HERMOSA VISTA  DR",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 07:34 MST",
+            "etr": "2026-08-28 09:33 MST"
+        },
+        {
+            "latitude": 33.41929793852605,
+            "longitude": -111.5899349865235,
+            "boundary": "N SIGNAL BUTTE  RD TO N MERIDIAN  RD AND E UNIVERSITY  DR TO E APACHE  TRL",
+            "customers": 19,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-28 06:05 MST",
+            "etr": "2026-08-28 12:09 MST"
+        },
+        {
+            "latitude": 33.4100744745984,
+            "longitude": -111.6428510436015,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 08:07 MST",
+            "etr": "2026-08-28 10:05 MST"
+        },
+        {
+            "latitude": 33.4543790246239,
+            "longitude": -111.830298089711,
+            "boundary": "N COUNTRY CLUB  DR TO N MESA  DR AND W RED MOUNTAIN  FWY TO E MCKELLIPS  RD",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 08:11 MST",
+            "etr": "2026-08-28 10:08 MST"
+        },
+        {
+            "latitude": 33.499619199466196,
+            "longitude": -111.901046793104,
+            "boundary": "N HAYDEN  RD TO N PIMA  RD AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 08:46 MST",
+            "etr": "2026-08-28 13:45 MST"
+        },
+        {
+            "latitude": 33.4611299429218,
+            "longitude": -112.25278768908501,
+            "boundary": "N 103RD  AVE TO N 75TH  AVE AND W THOMAS  RD TO W BUCKEYE  RD",
+            "customers": 3611,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-28 08:59 MST",
+            "etr": "2026-08-28 10:58 MST"
+        },
+        {
+            "latitude": 33.3310342474741,
+            "longitude": -111.90947334082401,
+            "boundary": "S LAKESHORE  DR TO N PRICE  FWY AND E WARNER  RD TO W RAY  RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-28 09:03 MST",
+            "etr": "2026-08-28 11:02 MST"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-28 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 33.59651091202703,
+            "longitude": -112.28847892605795,
+            "city": "Sun City",
+            "boundary": "Saint Andrews Drive West and 107th Ave.",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-28 00:51:00 MST",
+            "etr": "2026-08-28 05:00:00 MST"
+        },
+        {
+            "latitude": 34.86582965771225,
+            "longitude": -111.78449726570173,
+            "city": "Sedona",
+            "boundary": "Soldiers Pass Rd.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-28 02:03:00 MST",
+            "etr": "2026-08-28 05:20:00 MST"
+        }
+    ]
+}
