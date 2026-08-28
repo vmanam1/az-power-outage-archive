@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-27 18:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.577642622709696,
+            "longitude": -112.04934793192291,
+            "city": "Phoenix",
+            "boundary": "Cheryl Dr to Cinnabar Ave and 15th St to 16th St",
+            "customers": 16,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-27 10:49:00 MST",
+            "etr": "2026-08-27 11:55:00 MST"
+        }
+    ]
+}

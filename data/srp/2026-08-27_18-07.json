@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-27 18:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1627
+    },
+    "outages": [
+        {
+            "latitude": 33.4000824109147,
+            "longitude": -111.52186130503901,
+            "boundary": "S ROYAL PALM  RD TO S ARROYA  RD AND E TEPEE  ST TO E GERMANN  RD",
+            "customers": 1627,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-27 17:41 MST",
+            "etr": "2026-08-27 19:41 MST"
+        }
+    ]
+}
