@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-27 19:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 90
+    },
+    "outages": [
+        {
+            "latitude": 33.37040045611385,
+            "longitude": -111.83773010238,
+            "boundary": "N ARIZONA  AVE TO N MCQUEEN  RD AND W BASELINE  RD TO W GUADALUPE  RD",
+            "customers": 42,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-27 18:20 MST",
+            "etr": "2026-08-27 20:22 MST"
+        },
+        {
+            "latitude": 33.3978707687642,
+            "longitude": -111.5135185472935,
+            "boundary": "S CORTEZ  RD TO S ARROYA  RD AND E BROADWAY  AVE TO E SUPERSTITION  FWY",
+            "customers": 31,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-27 17:41 MST",
+            "etr": "2026-08-28 02:00 MST"
+        },
+        {
+            "latitude": 33.43275141706875,
+            "longitude": -112.3183400830455,
+            "boundary": "S EL MIRAGE  RD TO S 119TH  AVE AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 19:04 MST",
+            "etr": "2026-08-27 21:02 MST"
+        }
+    ]
+}
