@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-27 23:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 141
+    },
+    "outages": [
+        {
+            "latitude": 34.24079414929355,
+            "longitude": -110.05325348595886,
+            "city": "Payson",
+            "boundary": "Whipple St to 9th Dr and Deuce of Clubs to 6th Dr",
+            "customers": 113,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-27 13:59:00 MST",
+            "etr": "2026-08-27 17:20:00 MST"
+        },
+        {
+            "latitude": 34.396857612909,
+            "longitude": -112.23357943220965,
+            "city": "Mayer",
+            "boundary": "Wicks Ave to Main St and Miami St to Poplar St",
+            "customers": 15,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-27 14:05:00 MST",
+            "etr": "2026-08-27 17:30:00 MST"
+        },
+        {
+            "latitude": 33.60753054624117,
+            "longitude": -112.12751343679537,
+            "city": "Phoenix",
+            "boundary": "West Joan De Arc Ave to West Willow Ave and North 33rd Ave to North 31st Ave",
+            "customers": 13,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-27 15:16:00 MST",
+            "etr": "2026-08-27 18:00:00 MST"
+        }
+    ]
+}
