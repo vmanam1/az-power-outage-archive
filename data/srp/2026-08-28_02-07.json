@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-28 02:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 27
+    },
+    "outages": [
+        {
+            "latitude": 33.2087213140041,
+            "longitude": -111.858659252763,
+            "boundary": "S DOBSON  RD TO S ARIZONA  AVE AND E SAN TAN  BLVD TO E HUNT  HWY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-27 23:21 MST",
+            "etr": "2026-08-28 05:00 MST"
+        },
+        {
+            "latitude": 33.5535777572906,
+            "longitude": -112.152094351784,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 01:19 MST",
+            "etr": "2026-08-28 05:30 MST"
+        },
+        {
+            "latitude": 33.48004054858655,
+            "longitude": -112.1681231147555,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 01:23 MST",
+            "etr": "2026-08-28 07:30 MST"
+        },
+        {
+            "latitude": 33.38938872738465,
+            "longitude": -111.81270828833249,
+            "boundary": "S MESA  DR TO S SUPERSTITION  FWY AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 22,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-27 23:30 MST",
+            "etr": "2026-08-28 03:30 MST"
+        }
+    ]
+}

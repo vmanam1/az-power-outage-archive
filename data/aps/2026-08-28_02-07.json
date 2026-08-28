@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-28 02:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.60753054624117,
+            "longitude": -112.12751343679537,
+            "city": "Phoenix",
+            "boundary": "West Joan De Arc Ave to West Willow Ave and North 33rd Ave to North 31st Ave",
+            "customers": 13,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-27 15:16:00 MST",
+            "etr": "2026-08-27 20:00:00 MST"
+        },
+        {
+            "latitude": 33.4485562597027,
+            "longitude": -112.10302257198299,
+            "city": "Phoenix",
+            "boundary": "West Adams St to West Washington St and North 21st Ave to North 20th Ave",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-27 18:17:00 MST",
+            "etr": "2026-08-27 21:15:00 MST"
+        }
+    ]
+}
