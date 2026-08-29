@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-29 15:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 417,
+        "total_customers": 45950
+    },
+    "outages": [
+        {
+            "latitude": 34.43258067071949,
+            "longitude": -110.58670780820246,
+            "customers": 1,
+            "cause": "OTHER UTILITY",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-26 15:08:37 MST",
+            "etr": null,
+            "incident_id": "533720"
+        },
+        {
+            "latitude": 34.10246585991122,
+            "longitude": -109.89005532211796,
+            "customers": 47,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-29 11:13:30 MST",
+            "etr": null,
+            "incident_id": "533753"
+        },
+        {
+            "latitude": 34.10873617835854,
+            "longitude": -109.88816886002104,
+            "customers": 369,
+            "cause": "DAMAGED MATERIAL OR EQUIP",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-29 11:13:30 MST",
+            "etr": null,
+            "incident_id": "533751"
+        }
+    ]
+}
