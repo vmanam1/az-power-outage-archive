@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 14:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2109
+    },
+    "outages": [
+        {
+            "latitude": 33.58241400011906,
+            "longitude": -112.13906200022157,
+            "city": "Phoenix",
+            "boundary": "Paradise Dr  To Arizona Canal And 43Rd Ave To 31St Dr",
+            "customers": 2109,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-29 06:52:00 MST",
+            "etr": "2026-08-29 10:52:00 MST"
+        }
+    ]
+}
