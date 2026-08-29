@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-29 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 714
+    },
+    "outages": [
+        {
+            "latitude": 33.3451024107971,
+            "longitude": -111.946202982356,
+            "boundary": "S HARDY  DR TO S MILL  AVE AND W ELLIOT  RD TO W CARVER  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-29 04:09 MST",
+            "etr": "2026-08-29 12:30 MST"
+        },
+        {
+            "latitude": 33.3513602665521,
+            "longitude": -111.907411806734,
+            "boundary": "S MCCLINTOCK  DR TO S SHUTTERFLY  WAY AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-29 05:33 MST",
+            "etr": "2026-08-29 12:19 MST"
+        },
+        {
+            "latitude": 33.50523240455685,
+            "longitude": -112.033729535536,
+            "boundary": "N 20TH  ST TO N 24TH  ST AND E CAMELBACK  RD TO E CAMPBELL  AVE",
+            "customers": 28,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-29 06:58 MST",
+            "etr": "2026-08-29 11:00 MST"
+        },
+        {
+            "latitude": 33.244155075628996,
+            "longitude": -111.63506728115,
+            "boundary": "S 204TH  ST TO S CRISMON  RD AND E OCOTILLO  RD TO E CHANDLER HEIGHTS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-29 07:01 MST",
+            "etr": "2026-08-29 12:00 MST"
+        },
+        {
+            "latitude": 33.5648913057711,
+            "longitude": -112.115507342025,
+            "boundary": "N 31ST  AVE TO N 23RD  AVE AND W DUNLAP  AVE TO W BUTLER  DR",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-28 22:19 MST",
+            "etr": "2026-08-29 14:30 MST"
+        },
+        {
+            "latitude": 33.55051748007515,
+            "longitude": -112.20225821707,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W GRAND  AVE TO W ORANGEWOOD  AVE",
+            "customers": 4,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-29 04:18 MST",
+            "etr": "2026-08-29 14:38 MST"
+        },
+        {
+            "latitude": 33.4657858271723,
+            "longitude": -111.701889153817,
+            "boundary": "N 56TH  ST TO N 64TH  ST AND E PRESTON  ST TO E HERMOSA VISTA  DR",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-29 05:39 MST",
+            "etr": "2026-08-29 13:29 MST"
+        },
+        {
+            "latitude": 33.433498778905246,
+            "longitude": -111.840912626486,
+            "boundary": "N EXTENSION  RD TO N CENTER  ST AND W MCLELLAN  RD TO W RIO SALADO  PKWY",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 22:30 MST",
+            "etr": "2026-08-29 10:00 MST"
+        },
+        {
+            "latitude": 33.52041636306235,
+            "longitude": -112.10597414358651,
+            "boundary": "N 27TH  AVE TO N 15TH  AVE AND W MARYLAND  AVE TO W CAMELBACK  RD",
+            "customers": 668,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-29 08:17 MST",
+            "etr": "2026-08-29 10:17 MST"
+        }
+    ]
+}
