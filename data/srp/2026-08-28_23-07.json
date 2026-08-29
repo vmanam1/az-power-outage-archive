@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-28 23:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 1476
+    },
+    "outages": [
+        {
+            "latitude": 33.418468657065205,
+            "longitude": -112.17780429762249,
+            "boundary": "S 59TH  AVE TO S 51ST  AVE AND W LOWER BUCKEYE  RD TO W ELWOOD  ST",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 19:41 MST",
+            "etr": "2026-08-29 05:03 MST"
+        },
+        {
+            "latitude": 33.44684260136905,
+            "longitude": -112.2594611971035,
+            "boundary": "S 95TH  AVE TO S 91ST  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 20:35 MST",
+            "etr": "2026-08-29 01:00 MST"
+        },
+        {
+            "latitude": 33.3516744789091,
+            "longitude": -111.4366667803765,
+            "boundary": "S BLOSSOM ROCK  TRL TO UNKNOWN AND E BASELINE  AVE TO E US HIGHWAY 60  ",
+            "customers": 15,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-28 18:12 MST",
+            "etr": "2026-08-29 06:00 MST"
+        },
+        {
+            "latitude": 33.56391858352525,
+            "longitude": -112.108112540322,
+            "boundary": "N 31ST  AVE TO N 15TH  AVE AND W MOUNTAIN VIEW  RD TO W NORTHERN  AVE",
+            "customers": 435,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-08-28 22:22 MST",
+            "etr": "2026-08-29 00:21 MST"
+        },
+        {
+            "latitude": 33.433498778905246,
+            "longitude": -111.840912626486,
+            "boundary": "N EXTENSION  RD TO N CENTER  ST AND W MCLELLAN  RD TO W RIO SALADO  PKWY",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 22:30 MST",
+            "etr": "2026-08-29 08:00 MST"
+        },
+        {
+            "latitude": 33.565467314390105,
+            "longitude": -112.11856636495095,
+            "boundary": "N 35TH  AVE TO N 19TH  AVE AND W MOUNTAIN VIEW  RD TO W NORTHERN  AVE",
+            "customers": 895,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-28 22:19 MST",
+            "etr": "2026-08-29 00:17 MST"
+        },
+        {
+            "latitude": 33.3763516025945,
+            "longitude": -112.054982767734,
+            "boundary": "S 7TH  ST TO S 15TH  TER AND E VINEYARD  RD TO E SOUTH MOUNTAIN  AVE",
+            "customers": 36,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-28 22:44 MST",
+            "etr": "2026-08-29 00:47 MST"
+        },
+        {
+            "latitude": 33.4371767799866,
+            "longitude": -112.1674922424305,
+            "boundary": "S 59TH  AVE TO S 43RD  AVE AND W VAN BUREN  ST TO W LOWER BUCKEYE  RD",
+            "customers": 88,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-28 21:57 MST",
+            "etr": "2026-08-29 01:17 MST"
+        }
+    ]
+}

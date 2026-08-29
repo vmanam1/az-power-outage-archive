@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-28 23:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.629765685914926,
+            "longitude": -112.33489575623905,
+            "city": "Surprise",
+            "boundary": "West Paradise Ln to Grand Ave and North Sunny Ln to North Nash St",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-28 14:49:00 MST",
+            "etr": "2026-08-28 17:30:00 MST"
+        },
+        {
+            "latitude": 32.71518273072913,
+            "longitude": -114.62886377639668,
+            "city": "Yuma",
+            "boundary": "6th St to 7th St and 8th Ave to 7th Ave",
+            "customers": 17,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-28 15:17:00 MST",
+            "etr": "2026-08-28 19:00:00 MST"
+        }
+    ]
+}
