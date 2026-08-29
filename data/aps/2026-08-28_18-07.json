@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-28 18:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.491495315938266,
+            "longitude": -112.0525745411846,
+            "city": "Phoenix",
+            "boundary": "Clarendon Ave. to Harding St.",
+            "customers": 5,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-28 04:06:00 MST",
+            "etr": "2026-08-28 12:30:00 MST"
+        }
+    ]
+}
