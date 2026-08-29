@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 07:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 57
+    },
+    "outages": [
+        {
+            "latitude": 36.126794188928926,
+            "longitude": -111.25788740266471,
+            "city": "Tuba City",
+            "boundary": "TC North West to Old Airport Rd. and Moenave St. to Maloney St.",
+            "customers": 57,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-28 23:38:00 MST",
+            "etr": "2026-08-29 02:30:00 MST"
+        }
+    ]
+}
