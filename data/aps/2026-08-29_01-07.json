@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 01:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 77
+    },
+    "outages": [
+        {
+            "latitude": 33.629765685914926,
+            "longitude": -112.33489575623905,
+            "city": "Surprise",
+            "boundary": "West Paradise Ln to Grand Ave and North Sunny Ln to North Nash St",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-28 14:49:00 MST",
+            "etr": "2026-08-28 19:00:00 MST"
+        },
+        {
+            "latitude": 32.71518273072913,
+            "longitude": -114.62886377639668,
+            "city": "Yuma",
+            "boundary": "6th St to 7th St and 8th Ave to 7th Ave",
+            "customers": 17,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-28 15:17:00 MST",
+            "etr": "2026-08-28 19:00:00 MST"
+        },
+        {
+            "latitude": 33.64862673597514,
+            "longitude": -112.18276361586258,
+            "city": "Glendale",
+            "boundary": "West John Cabot Rd to West Libby St and North 58th ln to North 57th Dr",
+            "customers": 26,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-28 17:01:00 MST",
+            "etr": "2026-08-28 19:30:00 MST"
+        },
+        {
+            "latitude": 33.58400811900778,
+            "longitude": -111.91146686374138,
+            "city": "Scottsdale",
+            "boundary": "East Mercer Ln to East Clinton St and North 78th St",
+            "customers": 22,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-28 17:12:00 MST",
+            "etr": "2026-08-28 20:00:00 MST"
+        }
+    ]
+}
