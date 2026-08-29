@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 12:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 260
+    },
+    "outages": [
+        {
+            "latitude": 34.55871439409522,
+            "longitude": -112.56812241776065,
+            "city": "Prescott",
+            "boundary": "Skyline Dr. to Lookout Point Rd. and Double Eagle Dr. to Happy Valley Cir.",
+            "customers": 108,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 04:25:00 MST",
+            "etr": "2026-08-29 07:45:00 MST"
+        },
+        {
+            "latitude": 33.631341063141825,
+            "longitude": -112.33097459295588,
+            "city": "Surprise",
+            "boundary": "Bola Dr. to Marshall Dr. and Nash St. to Factory St.",
+            "customers": 119,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-29 04:55:00 MST",
+            "etr": "2026-08-29 08:15:00 MST"
+        },
+        {
+            "latitude": 34.212541435684415,
+            "longitude": -112.76260561603728,
+            "city": "Yarnell",
+            "boundary": "Mountainaire Dr. to Stone Ridge Wy and Candy Cane Ln.",
+            "customers": 33,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 04:59:00 MST",
+            "etr": "2026-08-29 07:40:00 MST"
+        }
+    ]
+}

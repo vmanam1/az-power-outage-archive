@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-29 12:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 419,
+        "total_customers": 45950
+    },
+    "outages": [
+        {
+            "latitude": 34.43258067071949,
+            "longitude": -110.58670780820246,
+            "customers": 1,
+            "cause": "OTHER UTILITY",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-26 15:08:37 MST",
+            "etr": null,
+            "incident_id": "533720"
+        },
+        {
+            "latitude": 34.10246585991122,
+            "longitude": -109.89005532211796,
+            "customers": 47,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-29 11:13:30 MST",
+            "etr": null,
+            "incident_id": "533753"
+        },
+        {
+            "latitude": 34.112648383606476,
+            "longitude": -109.89673878783273,
+            "customers": 1,
+            "cause": null,
+            "comments": "There is currently no outage at this location. We tested the meter for power and we have good voltage. If your meter has a display then there is power to the meter. We recommend to check all your breakers, including the main disconnect out by the meter. Be sure you turn the main breaker all the way off & then back on. If that does not rectify the problem, you may need to contact an electrician as NEC does not provide a service for equipment on your side of the meter. Thank you",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-29 12:00:46 MST",
+            "etr": null,
+            "incident_id": "533764"
+        },
+        {
+            "latitude": 34.099929335750154,
+            "longitude": -109.89127703090453,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-29 11:58:13 MST",
+            "etr": null,
+            "incident_id": "533763"
+        },
+        {
+            "latitude": 34.10873617835854,
+            "longitude": -109.88816886002104,
+            "customers": 369,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-08-29 11:13:30 MST",
+            "etr": null,
+            "incident_id": "533751"
+        }
+    ]
+}
