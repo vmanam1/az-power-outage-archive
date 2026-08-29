@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 553
+    },
+    "outages": [
+        {
+            "latitude": 36.048245624865416,
+            "longitude": -112.12390335740015,
+            "city": "Grand Canyon",
+            "boundary": "Mather Point Rd. to Center Rd. and Village Loop Dr. to Rim Dr.",
+            "customers": 553,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 00:28:00 MST",
+            "etr": "2026-08-29 02:45:00 MST"
+        }
+    ]
+}
