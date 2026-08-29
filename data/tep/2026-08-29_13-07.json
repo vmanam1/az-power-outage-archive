@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-08-29 13:07:30 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 0,
+        "map_last_refreshed": "Aug 29, 1:05 PM"
+    },
+    "outages": [
+        {
+            "latitude": 32.2190737172872,
+            "longitude": -110.95479549355,
+            "boundary": {
+                "coordLatSW": "32.219073717287202",
+                "coordLngSW": "-110.95479549354999",
+                "coordLatNE": "32.219073717287202",
+                "coordLngNE": "-110.95479549354999",
+                "coordLatCenter": "32.219074",
+                "coordLngCenter": "-110.954796"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-08-27 19:40 MST",
+            "etr": "2026-08-28 21:34 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 25,
+            "last_update": "2026-08-28 23:40 MST"
+        }
+    ]
+}
