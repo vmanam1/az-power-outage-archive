@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-28 22:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 137
+    },
+    "outages": [
+        {
+            "latitude": 33.418468657065205,
+            "longitude": -112.17780429762249,
+            "boundary": "S 59TH  AVE TO S 51ST  AVE AND W LOWER BUCKEYE  RD TO W ELWOOD  ST",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 19:41 MST",
+            "etr": "2026-08-29 05:03 MST"
+        },
+        {
+            "latitude": 33.44684260136905,
+            "longitude": -112.2594611971035,
+            "boundary": "S 95TH  AVE TO S 91ST  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 20:35 MST",
+            "etr": "2026-08-29 01:00 MST"
+        },
+        {
+            "latitude": 33.3516744789091,
+            "longitude": -111.4366667803765,
+            "boundary": "S BLOSSOM ROCK  TRL TO UNKNOWN AND E BASELINE  AVE TO E US HIGHWAY 60  ",
+            "customers": 15,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-28 18:12 MST",
+            "etr": "2026-08-29 06:00 MST"
+        },
+        {
+            "latitude": 33.43320223770465,
+            "longitude": -112.170371879399,
+            "boundary": "S 59TH  AVE TO S 43RD  AVE AND W VAN BUREN  ST TO W ELWOOD  ST",
+            "customers": 117,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-28 21:57 MST",
+            "etr": "2026-08-29 01:17 MST"
+        }
+    ]
+}
