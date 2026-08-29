@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 03:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 32
+    },
+    "outages": [
+        {
+            "latitude": 33.629765685914926,
+            "longitude": -112.33489575623905,
+            "city": "Surprise",
+            "boundary": "West Paradise Ln to Grand Ave and North Sunny Ln to North Nash St",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-28 14:49:00 MST",
+            "etr": "2026-08-28 20:45:00 MST"
+        },
+        {
+            "latitude": 33.65701066989092,
+            "longitude": -112.21196308288167,
+            "city": "Glendale",
+            "boundary": "West Wescott Dr to West Kimberly Wy and North 71st Dr to North 71st Ave",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-28 19:42:00 MST",
+            "etr": "2026-08-28 22:15:00 MST"
+        }
+    ]
+}
