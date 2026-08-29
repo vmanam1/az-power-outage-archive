@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 05:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.663636837071195,
+            "longitude": -112.02925958904545,
+            "city": "Phoenix",
+            "boundary": "East Oraibi Dr to East Piute ave and North 25th St to North 26th St",
+            "customers": 31,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-28 21:09:00 MST",
+            "etr": "2026-08-28 23:45:00 MST"
+        }
+    ]
+}
