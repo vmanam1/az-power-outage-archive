@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-28 20:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.418468657065205,
+            "longitude": -112.17780429762249,
+            "boundary": "S 59TH  AVE TO S 51ST  AVE AND W LOWER BUCKEYE  RD TO W ELWOOD  ST",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-28 19:41 MST",
+            "etr": "2026-08-29 05:03 MST"
+        },
+        {
+            "latitude": 33.3520805610764,
+            "longitude": -111.43724046061851,
+            "boundary": "S BLOSSOM ROCK  TRL TO UNKNOWN AND E BASELINE  AVE TO E US HIGHWAY 60  ",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-28 18:12 MST",
+            "etr": "2026-08-28 21:30 MST"
+        }
+    ]
+}
