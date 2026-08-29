@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 10:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.60498058888666,
+            "longitude": -112.17856035912232,
+            "city": "Glendale",
+            "boundary": "Willow Ave. to Pershing Ave. and 55th Dr.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-08-29 02:42:00 MST",
+            "etr": "2026-08-29 05:05:00 MST"
+        }
+    ]
+}
