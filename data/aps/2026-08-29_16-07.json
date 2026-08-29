@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 16:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 34.02144747564463,
+            "longitude": -112.33985144006468,
+            "city": "Morristown",
+            "boundary": "Champie Rd. and Cow Creek Rd.",
+            "customers": 27,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 06:50:00 MST",
+            "etr": "2026-08-29 10:25:00 MST"
+        },
+        {
+            "latitude": 35.291474992748284,
+            "longitude": -112.49041506356458,
+            "city": "Ash Fork",
+            "boundary": "Terry Ln. to Pinto Dr. and Boone Tl. to Highview Dr.",
+            "customers": 15,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 06:28:00 MST",
+            "etr": "2026-08-29 10:30:00 MST"
+        }
+    ]
+}
