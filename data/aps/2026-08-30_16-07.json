@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-30 16:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 36.07721715891623,
+            "longitude": -112.12967225730637,
+            "city": "Grand Canyon",
+            "boundary": "Phantom Ranch to Forest Service Rd. and Rim Dr. to Pima St.",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 10:42:00 MST",
+            "etr": "2026-08-30 11:00:00 MST"
+        }
+    ]
+}
