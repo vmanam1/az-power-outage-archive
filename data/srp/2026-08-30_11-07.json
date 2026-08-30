@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-30 11:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.4696751181999,
+            "longitude": -112.163697377918,
+            "boundary": "N 51ST  AVE TO N 47TH  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 16,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-29 16:06 MST",
+            "etr": "2026-08-30 13:00 MST"
+        }
+    ]
+}
