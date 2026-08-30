@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-08-29 20:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 12,
+        "total_customers": 57952
+    },
+    "outages": [
+        {
+            "latitude": 32.46205863108689,
+            "longitude": -111.3214219128804,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley North",
+            "start_time": "2026-08-29 16:44:00 MST",
+            "etr": "2026-08-29 22:02:57 MST",
+            "incident_id": "389093"
+        },
+        {
+            "latitude": 31.60015163099096,
+            "longitude": -111.30712073355524,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Arivaca",
+            "start_time": "2026-08-29 17:17:57 MST",
+            "etr": "2026-08-29 20:17:57 MST",
+            "incident_id": "389091"
+        },
+        {
+            "latitude": 32.460254689924426,
+            "longitude": -111.3215476770202,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley North",
+            "start_time": "2026-08-29 16:44:00 MST",
+            "etr": "2026-08-29 22:01:40 MST",
+            "incident_id": "389092"
+        },
+        {
+            "latitude": 31.597833294363287,
+            "longitude": -111.3105612810939,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Arivaca",
+            "start_time": "2026-08-29 17:17:57 MST",
+            "etr": "2026-08-29 20:17:57 MST",
+            "incident_id": "389090"
+        },
+        {
+            "latitude": 32.07602323300598,
+            "longitude": -111.33592072156813,
+            "customers": 1,
+            "cause": "30 MATERIAL OR EQUIPMENT FAULT",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-07-28 02:23:24 MST",
+            "etr": "2026-07-28 05:23:24 MST",
+            "incident_id": "387491"
+        }
+    ]
+}

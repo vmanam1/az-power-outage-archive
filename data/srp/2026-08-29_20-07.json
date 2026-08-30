@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-29 20:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 196
+    },
+    "outages": [
+        {
+            "latitude": 33.5223035340668,
+            "longitude": -112.1007829223995,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 6,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-29 08:17 MST",
+            "etr": "2026-08-29 22:00 MST"
+        },
+        {
+            "latitude": 33.443489517817596,
+            "longitude": -112.219616261507,
+            "boundary": "S 79TH  AVE TO S 71ST  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-29 19:49 MST",
+            "etr": "2026-08-30 00:01 MST"
+        },
+        {
+            "latitude": 33.4661010153204,
+            "longitude": -111.92093749587801,
+            "boundary": "N SCOTTSDALE  RD TO N 76TH  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-29 19:51 MST",
+            "etr": "2026-08-30 06:00 MST"
+        },
+        {
+            "latitude": 33.4696751181999,
+            "longitude": -112.163697377918,
+            "boundary": "N 51ST  AVE TO N 47TH  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 16,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-29 16:06 MST",
+            "etr": "2026-08-29 22:00 MST"
+        },
+        {
+            "latitude": 33.5366063687107,
+            "longitude": -112.09621883568599,
+            "boundary": "N 19TH  AVE TO N 15TH  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 172,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-29 20:02 MST",
+            "etr": "2026-08-29 22:01 MST"
+        }
+    ]
+}
