@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-30 06:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 85
+    },
+    "outages": [
+        {
+            "latitude": 36.07721715891623,
+            "longitude": -112.12967225730637,
+            "city": "Grand Canyon",
+            "boundary": "Phantom Ranch to Forest Service Rd. and Rim Dr. to Pima St.",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 10:42:00 MST",
+            "etr": "2026-08-30 11:00:00 MST"
+        },
+        {
+            "latitude": 35.2074520266979,
+            "longitude": -111.58760509305694,
+            "city": "Flagstaff",
+            "boundary": "Solaire Ave and Rio De Flag Dr",
+            "customers": 41,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-29 15:21:00 MST",
+            "etr": "2026-08-30 00:15:00 MST"
+        },
+        {
+            "latitude": 33.66784933604521,
+            "longitude": -112.33564037606628,
+            "city": "Sun City West",
+            "boundary": "West Sonnet Dr to West Beardsley Rd and West Paintbrush Dr to West Stardust Bv",
+            "customers": 21,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-29 20:54:00 MST",
+            "etr": "2026-08-30 00:50:00 MST"
+        },
+        {
+            "latitude": 33.739174547803046,
+            "longitude": -112.4266816099758,
+            "city": "Surprise",
+            "boundary": "West Dale Ln to West Blue Sky Dr and North 171st Ave to North 166th Ave",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 21:45:00 MST",
+            "etr": "2026-08-30 03:45:00 MST"
+        }
+    ]
+}
