@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 21:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 1932
+    },
+    "outages": [
+        {
+            "latitude": 35.291474992748284,
+            "longitude": -112.49041506356458,
+            "city": "Ash Fork",
+            "boundary": "Terry Ln. to Pinto Dr. and Boone Tl. to Highview Dr.",
+            "customers": 15,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 06:28:00 MST",
+            "etr": "2026-08-29 14:40:00 MST"
+        },
+        {
+            "latitude": 34.29071121827363,
+            "longitude": -112.93325621787373,
+            "city": "Congress",
+            "boundary": "AZ 89 and White Spar",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 09:34:00 MST",
+            "etr": "2026-08-29 14:35:00 MST"
+        },
+        {
+            "latitude": 34.50286497988134,
+            "longitude": -110.12853724480719,
+            "city": "Snowflake",
+            "boundary": "Player Dr. to Bryant Ave. and Porter St. to Fairway Rd.",
+            "customers": 15,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-29 09:55:00 MST",
+            "etr": "2026-08-29 16:15:00 MST"
+        },
+        {
+            "latitude": 36.07721715891623,
+            "longitude": -112.12967225730637,
+            "city": "Grand Canyon",
+            "boundary": "Phantom Ranch to Forest Service Rd. and Rim Dr. to Pima St.",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 10:42:00 MST",
+            "etr": "2026-08-30 11:00:00 MST"
+        },
+        {
+            "latitude": 32.83178563625847,
+            "longitude": -111.63857942971232,
+            "city": "Casa Grande",
+            "boundary": "Cornman Rd. to Stampede Wy. and Roughcut Dr. and Coyote Ln.",
+            "customers": 22,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-08-29 11:42:00 MST",
+            "etr": "2026-08-29 15:45:00 MST"
+        },
+        {
+            "latitude": 32.752944999695075,
+            "longitude": -111.54629699986292,
+            "city": "Eloy",
+            "boundary": "13th St. to Shay Rd. and I-10 to Citrus Heights Rd.",
+            "customers": 1465,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 12:06:00 MST",
+            "etr": "2026-08-29 15:00:00 MST"
+        },
+        {
+            "latitude": 34.522527795660224,
+            "longitude": -112.46073936457908,
+            "city": "Prescott",
+            "boundary": "Senator Highway and Creatinine Dr",
+            "customers": 89,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-29 13:17:00 MST",
+            "etr": "2026-08-30 16:10:00 MST"
+        },
+        {
+            "latitude": 33.387786670164765,
+            "longitude": -110.7758011829239,
+            "city": "Globe",
+            "boundary": "Ash St to Skyline Dr and Wallman Rd to Agave St",
+            "customers": 118,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-29 13:42:00 MST",
+            "etr": "2026-08-30 16:00:00 MST"
+        },
+        {
+            "latitude": 35.301589456740686,
+            "longitude": -111.98110623367343,
+            "city": "Parks",
+            "boundary": "County Road 171 to East Peaceful Valley Rd and Spring Valley Rd",
+            "customers": 185,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-29 13:49:00 MST",
+            "etr": "2026-08-29 17:15:00 MST"
+        }
+    ]
+}
