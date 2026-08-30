@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-08-29 18:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 306,
+        "total_customers": 57952
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-08-13 08:00:00 MST",
+            "etr": "2026-08-13 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 31.60015163099096,
+            "longitude": -111.30712073355524,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Arivaca",
+            "start_time": "2026-08-29 17:17:57 MST",
+            "etr": null,
+            "incident_id": "389091"
+        },
+        {
+            "latitude": 31.597833294363287,
+            "longitude": -111.3105612810939,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Arivaca",
+            "start_time": "2026-08-29 17:17:57 MST",
+            "etr": null,
+            "incident_id": "389090"
+        },
+        {
+            "latitude": 31.789753213812837,
+            "longitude": -111.05729026985398,
+            "customers": 111,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Green Valley",
+            "start_time": "2026-08-29 15:30:55 MST",
+            "etr": "2026-08-29 18:30:55 MST",
+            "incident_id": "389055"
+        },
+        {
+            "latitude": 32.07602323300598,
+            "longitude": -111.33592072156813,
+            "customers": 1,
+            "cause": "30 MATERIAL OR EQUIPMENT FAULT",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-07-28 02:23:24 MST",
+            "etr": "2026-07-28 05:23:24 MST",
+            "incident_id": "387491"
+        },
+        {
+            "latitude": 32.445594433545,
+            "longitude": -111.30395866375468,
+            "customers": 183,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley North",
+            "start_time": "2026-08-29 16:44:05 MST",
+            "etr": "2026-08-29 19:44:05 MST",
+            "incident_id": "389087"
+        }
+    ]
+}
