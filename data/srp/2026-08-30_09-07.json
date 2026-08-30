@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-30 09:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 113
+    },
+    "outages": [
+        {
+            "latitude": 33.4152565934559,
+            "longitude": -111.64241758080101,
+            "boundary": "S HAWES  RD TO N ELLSWORTH  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 94,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-30 06:58 MST",
+            "etr": "2026-08-30 09:55 MST"
+        },
+        {
+            "latitude": 33.4661010153204,
+            "longitude": -111.92093749587801,
+            "boundary": "N SCOTTSDALE  RD TO N 76TH  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-29 19:51 MST",
+            "etr": "2026-08-30 10:00 MST"
+        },
+        {
+            "latitude": 33.4696751181999,
+            "longitude": -112.163697377918,
+            "boundary": "N 51ST  AVE TO N 47TH  AVE AND W ENCANTO  BLVD TO W MCDOWELL  RD",
+            "customers": 16,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-29 16:06 MST",
+            "etr": "2026-08-30 10:00 MST"
+        },
+        {
+            "latitude": 33.5822016262143,
+            "longitude": -112.1533329551545,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W CHOLLA  ST TO W MOUNTAIN VIEW  RD",
+            "customers": 2,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-08-29 20:09 MST",
+            "etr": "2026-08-30 10:15 MST"
+        }
+    ]
+}
