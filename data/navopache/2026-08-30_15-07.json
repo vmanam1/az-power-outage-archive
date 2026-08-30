@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-30 15:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 834,
+        "total_customers": 45950
+    },
+    "outages": [
+        {
+            "latitude": 34.203277521767085,
+            "longitude": -109.41117242724003,
+            "customers": 807,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-30 14:48:53 MST",
+            "etr": null,
+            "incident_id": "533936"
+        },
+        {
+            "latitude": 34.27925447883195,
+            "longitude": -109.40016806500803,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-30 14:48:53 MST",
+            "etr": null,
+            "incident_id": "533911"
+        },
+        {
+            "latitude": 34.28410142726865,
+            "longitude": -109.35426415398312,
+            "customers": 9,
+            "cause": null,
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-30 14:48:53 MST",
+            "etr": null,
+            "incident_id": "533932"
+        },
+        {
+            "latitude": 34.20337410524246,
+            "longitude": -109.41117242724003,
+            "customers": 15,
+            "cause": null,
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-30 14:48:53 MST",
+            "etr": null,
+            "incident_id": "533931"
+        },
+        {
+            "latitude": 34.43258067071949,
+            "longitude": -110.58670780820246,
+            "customers": 1,
+            "cause": "OTHER UTILITY",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-26 15:08:37 MST",
+            "etr": null,
+            "incident_id": "533720"
+        },
+        {
+            "latitude": 34.25911401124956,
+            "longitude": -109.41604129608064,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-30 14:48:53 MST",
+            "etr": null,
+            "incident_id": "533906"
+        }
+    ]
+}
