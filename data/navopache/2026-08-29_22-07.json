@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-29 22:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 311,
+        "total_customers": 45950
+    },
+    "outages": [
+        {
+            "latitude": 33.82345567942799,
+            "longitude": -109.98538454008198,
+            "customers": 301,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-08-29 21:04:54 MST",
+            "etr": null,
+            "incident_id": "533823"
+        },
+        {
+            "latitude": 34.43258067071949,
+            "longitude": -110.58670780820246,
+            "customers": 1,
+            "cause": "OTHER UTILITY",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-26 15:08:37 MST",
+            "etr": null,
+            "incident_id": "533720"
+        },
+        {
+            "latitude": 34.52871936720869,
+            "longitude": -109.40144367271165,
+            "customers": 9,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-29 20:55:59 MST",
+            "etr": null,
+            "incident_id": "533818"
+        }
+    ]
+}
