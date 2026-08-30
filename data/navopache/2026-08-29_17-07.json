@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-29 17:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 24,
+        "total_customers": 45950
+    },
+    "outages": [
+        {
+            "latitude": 34.43258067071949,
+            "longitude": -110.58670780820246,
+            "customers": 1,
+            "cause": "OTHER UTILITY",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-26 15:08:37 MST",
+            "etr": null,
+            "incident_id": "533720"
+        },
+        {
+            "latitude": 34.52871936720869,
+            "longitude": -109.40144367271165,
+            "customers": 9,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-29 16:14:40 MST",
+            "etr": null,
+            "incident_id": "533797"
+        },
+        {
+            "latitude": 34.345002165927255,
+            "longitude": -109.72779263232485,
+            "customers": 6,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-29 16:04:37 MST",
+            "etr": null,
+            "incident_id": "533794"
+        },
+        {
+            "latitude": 34.5314871830771,
+            "longitude": -109.40819900364917,
+            "customers": 8,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-29 15:39:33 MST",
+            "etr": null,
+            "incident_id": "533792"
+        }
+    ]
+}

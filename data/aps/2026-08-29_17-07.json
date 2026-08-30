@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-29 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 35.291474992748284,
+            "longitude": -112.49041506356458,
+            "city": "Ash Fork",
+            "boundary": "Terry Ln. to Pinto Dr. and Boone Tl. to Highview Dr.",
+            "customers": 15,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 06:28:00 MST",
+            "etr": "2026-08-29 11:30:00 MST"
+        },
+        {
+            "latitude": 34.29071121827363,
+            "longitude": -112.93325621787373,
+            "city": "Congress",
+            "boundary": "AZ 89 and White Spar",
+            "customers": 10,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-29 09:34:00 MST",
+            "etr": "2026-08-29 11:35:00 MST"
+        },
+        {
+            "latitude": 34.50286497988134,
+            "longitude": -110.12853724480719,
+            "city": "Snowflake",
+            "boundary": "Player Dr. to Bryant Ave. and Porter St. to Fairway Rd.",
+            "customers": 15,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-29 09:55:00 MST",
+            "etr": "2026-08-29 13:10:00 MST"
+        }
+    ]
+}
