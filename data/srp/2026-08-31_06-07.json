@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-31 06:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 57
+    },
+    "outages": [
+        {
+            "latitude": 33.384879363207205,
+            "longitude": -111.8921147862865,
+            "boundary": "S COUNTRY CLUB  WAY TO S EVERGREEN  RD AND E SOUTHERN  AVE TO W BASELINE  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 03:39 MST",
+            "etr": "2026-08-31 11:00 MST"
+        },
+        {
+            "latitude": 33.7315544065323,
+            "longitude": -111.714112070934,
+            "boundary": "N 168TH  ST TO N 172ND  ST AND E PINNACLE VISTA  DR TO E JOMAX  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-30 22:37 MST",
+            "etr": "2026-08-31 08:00 MST"
+        },
+        {
+            "latitude": 33.47516143963735,
+            "longitude": -111.9841313641785,
+            "boundary": "N 44TH  ST TO N 48TH  ST AND E THOMAS  RD TO E OAK  ST",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-31 04:38 MST",
+            "etr": "2026-08-31 08:31 MST"
+        },
+        {
+            "latitude": 33.5552906262684,
+            "longitude": -112.13713892046451,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 43,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-31 03:30 MST",
+            "etr": "2026-08-31 05:40 MST"
+        },
+        {
+            "latitude": 33.433897021608544,
+            "longitude": -112.29478260536101,
+            "boundary": "S 111TH  AVE TO S 107TH  AVE AND W VAN BUREN  ST TO W DURANGO  ST",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-31 05:46 MST",
+            "etr": "2026-08-31 07:45 MST"
+        }
+    ]
+}
