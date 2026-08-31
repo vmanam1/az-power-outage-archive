@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-31 03:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1747
+    },
+    "outages": [
+        {
+            "latitude": 33.5234182501734,
+            "longitude": -112.2042802117675,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-30 22:33 MST",
+            "etr": "2026-08-31 04:00 MST"
+        },
+        {
+            "latitude": 33.731840050619255,
+            "longitude": -111.7155646780665,
+            "boundary": "N 164TH  ST TO N 172ND  ST AND E PINNACLE VISTA  DR TO E JOMAX  RD",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-30 22:37 MST",
+            "etr": "2026-08-31 04:00 MST"
+        },
+        {
+            "latitude": 33.409191738625395,
+            "longitude": -112.29834414414199,
+            "boundary": "S AVONDALE  BLVD TO S 107TH  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 3,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 01:19 MST",
+            "etr": "2026-08-31 08:41 MST"
+        },
+        {
+            "latitude": 33.41312827469785,
+            "longitude": -111.72781382572,
+            "boundary": "S 40TH  ST TO S 56TH  ST AND E UNIVERSITY  DR TO E PUEBLO  AVE",
+            "customers": 1727,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-31 00:35 MST",
+            "etr": "2026-08-31 03:06 MST"
+        },
+        {
+            "latitude": 33.407597796465595,
+            "longitude": -112.028792609777,
+            "boundary": "S 20TH  ST TO S 28TH  ST AND E ELWOOD  ST TO E ROESER  RD",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-30 20:49 MST",
+            "etr": "2026-08-31 11:00 MST"
+        }
+    ]
+}

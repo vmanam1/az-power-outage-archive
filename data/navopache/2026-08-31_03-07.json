@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-31 03:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2,
+        "total_customers": 45950
+    },
+    "outages": [
+        {
+            "latitude": 34.15583423844006,
+            "longitude": -109.97705715739706,
+            "customers": 1,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-08-30 22:39:34 MST",
+            "etr": null,
+            "incident_id": "533942"
+        },
+        {
+            "latitude": 34.43258067071949,
+            "longitude": -110.58670780820246,
+            "customers": 1,
+            "cause": "OTHER UTILITY",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-26 15:08:37 MST",
+            "etr": null,
+            "incident_id": "533720"
+        }
+    ]
+}
