@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-31 09:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 2749
+    },
+    "outages": [
+        {
+            "latitude": 33.384879363207205,
+            "longitude": -111.8921147862865,
+            "boundary": "S COUNTRY CLUB  WAY TO S EVERGREEN  RD AND E SOUTHERN  AVE TO W BASELINE  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 03:39 MST",
+            "etr": "2026-08-31 11:00 MST"
+        },
+        {
+            "latitude": 33.309913865613396,
+            "longitude": -111.86735402869,
+            "boundary": "N DOBSON  RD TO N ALMA SCHOOL  RD AND W GALVESTON  ST TO W CHANDLER  BLVD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-31 06:09 MST",
+            "etr": "2026-08-31 11:00 MST"
+        },
+        {
+            "latitude": 33.5552906262684,
+            "longitude": -112.13713892046451,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 43,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 03:30 MST",
+            "etr": "2026-08-31 12:42 MST"
+        },
+        {
+            "latitude": 33.292325829157946,
+            "longitude": -112.14465667453999,
+            "boundary": "UNKNOWN TO S 24TH  ST AND W ESTRELLA  DR TO UNKNOWN",
+            "customers": 702,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-31 07:21 MST",
+            "etr": "2026-08-31 09:21 MST"
+        },
+        {
+            "latitude": 33.4519987457437,
+            "longitude": -111.664594369725,
+            "boundary": "N SOSSAMAN  RD TO N 80TH  ST AND E HERMOSA VISTA  DR TO E RED MOUNTAIN  FWY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-31 07:33 MST",
+            "etr": "2026-08-31 11:30 MST"
+        },
+        {
+            "latitude": 33.332162459688846,
+            "longitude": -112.001084696834,
+            "boundary": "S 36TH  ST TO S 40TH  ST AND E ELLIOT  RD TO E KNOX  RD",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-31 08:10 MST",
+            "etr": "2026-08-31 10:08 MST"
+        },
+        {
+            "latitude": 33.3457791705727,
+            "longitude": -111.750287438274,
+            "boundary": "S VAL VISTA  DR TO S GREENFIELD  RD AND E ELLIOT  RD TO E MESQUITE  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-31 08:29 MST",
+            "etr": "2026-08-31 12:00 MST"
+        },
+        {
+            "latitude": 33.53268890782145,
+            "longitude": -112.106084617842,
+            "boundary": "N 31ST  AVE TO N 15TH  AVE AND W ORANGEWOOD  AVE TO W BETHANY HOME  RD",
+            "customers": 1071,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-31 06:40 MST",
+            "etr": "2026-08-31 09:30 MST"
+        },
+        {
+            "latitude": 33.48275873415505,
+            "longitude": -112.0073747177745,
+            "boundary": "N 28TH  ST TO N 40TH  ST AND E INDIAN SCHOOL  RD TO E OAK  ST",
+            "customers": 903,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-31 07:16 MST",
+            "etr": "2026-08-31 11:00 MST"
+        },
+        {
+            "latitude": 33.4366773318246,
+            "longitude": -111.615543603798,
+            "boundary": "N 96TH  ST TO N 104TH  ST AND E MCLELLAN  RD TO E ADOBE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-31 09:02 MST",
+            "etr": "2026-08-31 10:58 MST"
+        }
+    ]
+}
