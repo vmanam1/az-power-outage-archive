@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-08-31 08:07:11 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 2320,
+        "total_customers": 36520
+    },
+    "outages": [
+        {
+            "latitude": 32.95946267029705,
+            "longitude": -111.99644049105325,
+            "boundary": "BKR-MAR112",
+            "customers": 95,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-31 07:41:19 MST",
+            "etr": null,
+            "pole_number": "MAR112"
+        },
+        {
+            "latitude": 32.999446733848124,
+            "longitude": -112.06595562849436,
+            "boundary": "BKR-PSN114",
+            "customers": 604,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-30 19:52:22 MST",
+            "etr": null,
+            "pole_number": "PSN114"
+        },
+        {
+            "latitude": 32.87914843219481,
+            "longitude": -111.99674651814875,
+            "boundary": "FUS-T63615",
+            "customers": 253,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-31 07:41:19 MST",
+            "etr": null,
+            "pole_number": "T63615"
+        },
+        {
+            "latitude": 32.9081124045192,
+            "longitude": -112.04919102835264,
+            "boundary": "FUS-T63634",
+            "customers": 628,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-31 07:40:37 MST",
+            "etr": null,
+            "pole_number": "T63634"
+        },
+        {
+            "latitude": 32.90124262878426,
+            "longitude": -112.03202571612151,
+            "boundary": "FUS-F63208",
+            "customers": 7,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-31 07:40:56 MST",
+            "etr": null,
+            "pole_number": "F63208"
+        },
+        {
+            "latitude": 32.99866444227107,
+            "longitude": -112.06553388592748,
+            "boundary": "FUS-T53602",
+            "customers": 729,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-30 19:59:06 MST",
+            "etr": null,
+            "pole_number": "T53602"
+        },
+        {
+            "latitude": 32.98222583534085,
+            "longitude": -112.13462051001947,
+            "boundary": "T-102843",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-31 07:39:56 MST",
+            "etr": null,
+            "pole_number": "102843"
+        },
+        {
+            "latitude": 33.048182851230784,
+            "longitude": -111.99351735044549,
+            "boundary": "T-ED3X4105",
+            "customers": 2,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-31 07:41:29 MST",
+            "etr": null,
+            "pole_number": "ED3X4105"
+        },
+        {
+            "latitude": 32.92391391391926,
+            "longitude": -111.99780060955968,
+            "boundary": "T-101836",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-29 15:23:00 MST",
+            "etr": "2026-08-30 16:27:00 MST",
+            "pole_number": "101836"
+        }
+    ]
+}
