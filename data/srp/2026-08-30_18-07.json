@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-30 18:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 82
+    },
+    "outages": [
+        {
+            "latitude": 33.45394957695875,
+            "longitude": -111.7725930408155,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E HERMOSA VISTA  DR TO E MCKELLIPS  RD",
+            "customers": 8,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-30 14:44 MST",
+            "etr": "2026-08-30 20:45 MST"
+        },
+        {
+            "latitude": 33.31508305892039,
+            "longitude": -111.94049084584151,
+            "boundary": "N KYRENE  RD TO N MILL  AVE AND W RAY  RD TO W GALVESTON  ST",
+            "customers": 47,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-30 17:02 MST",
+            "etr": "2026-08-30 19:03 MST"
+        },
+        {
+            "latitude": 33.5449379719182,
+            "longitude": -112.1411339408575,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-30 17:47 MST",
+            "etr": "2026-08-30 19:45 MST"
+        }
+    ]
+}
