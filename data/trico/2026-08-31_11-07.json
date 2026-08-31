@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-08-31 11:07:01 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 30,
+        "total_customers": 57952
+    },
+    "outages": [
+        {
+            "latitude": 32.26020309735132,
+            "longitude": -111.22655981886419,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-08-31 10:17:43 MST",
+            "etr": null,
+            "incident_id": "389138"
+        },
+        {
+            "latitude": 32.260051168253355,
+            "longitude": -111.22794322440191,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-08-31 10:17:43 MST",
+            "etr": null,
+            "incident_id": "389139"
+        },
+        {
+            "latitude": 32.25049431698629,
+            "longitude": -111.22249045062655,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-08-31 10:17:43 MST",
+            "etr": null,
+            "incident_id": "389136"
+        },
+        {
+            "latitude": 32.35165618079678,
+            "longitude": -111.25166773105882,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley South",
+            "start_time": "2026-08-31 10:16:35 MST",
+            "etr": null,
+            "incident_id": "389137"
+        },
+        {
+            "latitude": 32.52660531343944,
+            "longitude": -111.23372837483247,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Pinal County West",
+            "start_time": "2026-08-31 10:09:55 MST",
+            "etr": null,
+            "incident_id": "389134"
+        },
+        {
+            "latitude": 32.320673454984316,
+            "longitude": -111.22770067927517,
+            "customers": 22,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-08-31 09:57:50 MST",
+            "etr": null,
+            "incident_id": "389133"
+        },
+        {
+            "latitude": 32.07602323300598,
+            "longitude": -111.33592072156813,
+            "customers": 1,
+            "cause": "30 MATERIAL OR EQUIPMENT FAULT",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-07-28 02:23:24 MST",
+            "etr": "2026-07-28 05:23:24 MST",
+            "incident_id": "387491"
+        }
+    ]
+}

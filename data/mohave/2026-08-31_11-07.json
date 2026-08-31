@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-08-31 11:07:01 MST",
+        "source": "MOHAVE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 93,
+        "total_customers": 47058
+    },
+    "outages": [
+        {
+            "latitude": 35.50155434132824,
+            "longitude": -113.17305632622384,
+            "customers": 3,
+            "cause": null,
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-08-31 10:17:16 MST",
+            "etr": null,
+            "incident_id": "350480"
+        },
+        {
+            "latitude": 35.108384964203395,
+            "longitude": -114.61524761616144,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-08-31 09:32:33 MST",
+            "etr": null,
+            "incident_id": "350472"
+        },
+        {
+            "latitude": 35.173087553168116,
+            "longitude": -113.78594091205254,
+            "customers": 88,
+            "cause": null,
+            "comments": "We are currently experiencing an outage in your area. Our crews are responding to restore your power. Thank you for your patience.",
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-08-31 09:37:00 MST",
+            "etr": null,
+            "incident_id": "350473"
+        },
+        {
+            "latitude": 35.477534259436446,
+            "longitude": -113.13789626599852,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-08-31 10:59:01 MST",
+            "etr": null,
+            "incident_id": "350484"
+        }
+    ]
+}

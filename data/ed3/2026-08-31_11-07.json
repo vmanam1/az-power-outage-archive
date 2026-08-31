@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-08-31 11:07:01 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 25,
+        "total_customers": 36520
+    },
+    "outages": [
+        {
+            "latitude": 32.98222583534085,
+            "longitude": -112.13462051001947,
+            "boundary": "T-102843",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-31 07:39:56 MST",
+            "etr": null,
+            "pole_number": "102843"
+        },
+        {
+            "latitude": 33.048182851230784,
+            "longitude": -111.99351735044549,
+            "boundary": "T-ED3X4105",
+            "customers": 2,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-31 07:41:29 MST",
+            "etr": null,
+            "pole_number": "ED3X4105"
+        },
+        {
+            "latitude": 32.93930423783791,
+            "longitude": -111.96393496083009,
+            "boundary": "FUS-F64205",
+            "customers": 2,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-31 10:38:00 MST",
+            "etr": null,
+            "pole_number": "F64205"
+        },
+        {
+            "latitude": 32.92391391391926,
+            "longitude": -111.99780060955968,
+            "boundary": "T-101836",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-29 15:23:00 MST",
+            "etr": "2026-08-30 16:27:00 MST",
+            "pole_number": "101836"
+        },
+        {
+            "latitude": 33.04307682999956,
+            "longitude": -112.05030535145744,
+            "boundary": null,
+            "customers": 9,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-31 10:33:56 MST",
+            "etr": null,
+            "pole_number": "TF00559"
+        },
+        {
+            "latitude": 33.06605796827863,
+            "longitude": -112.03367637645626,
+            "boundary": null,
+            "customers": 10,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-31 11:00:45 MST",
+            "etr": null,
+            "pole_number": "T1210"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-31 11:07:01 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 47,
+        "total_customers": 45950
+    },
+    "outages": [
+        {
+            "latitude": 33.94070550307283,
+            "longitude": -109.19442691545748,
+            "customers": 2,
+            "cause": null,
+            "comments": "There is currently no outage at this location. We tested the meter for power and we have good voltage. If your meter has a display then there is power to the meter. We recommend to check all your breakers, including the main disconnect out by the meter. Be sure you turn the main breaker all the way off & then back on. If that does not rectify the problem, you may need to contact an electrician as NEC does not provide a service for equipment on your side of the meter. Thank you",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-31 10:25:06 MST",
+            "etr": null,
+            "incident_id": "533969"
+        },
+        {
+            "latitude": 34.55768066932422,
+            "longitude": -109.62695674166841,
+            "customers": 44,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-08-31 06:40:37 MST",
+            "etr": null,
+            "incident_id": "533957"
+        },
+        {
+            "latitude": 34.43258067071949,
+            "longitude": -110.58670780820246,
+            "customers": 1,
+            "cause": "OTHER UTILITY",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-08-26 15:08:37 MST",
+            "etr": null,
+            "incident_id": "533720"
+        }
+    ]
+}
