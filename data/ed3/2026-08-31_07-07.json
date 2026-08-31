@@ -1,0 +1,103 @@
+{
+    "metadata": {
+        "provider": "ED3",
+        "scraped_at": "2026-08-31 07:07:21 MST",
+        "source": "ED3 OMS Mobile Outage Service",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 1364,
+        "total_customers": 36520
+    },
+    "outages": [
+        {
+            "latitude": 33.06297030145548,
+            "longitude": -112.06260836088406,
+            "boundary": "BKR-MW112",
+            "customers": 304,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-30 19:42:04 MST",
+            "etr": null,
+            "pole_number": "MAW112"
+        },
+        {
+            "latitude": 32.92391391391926,
+            "longitude": -111.99780060955968,
+            "boundary": "T-101836",
+            "customers": 1,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-29 15:23:00 MST",
+            "etr": "2026-08-30 16:27:00 MST",
+            "pole_number": "101836"
+        },
+        {
+            "latitude": 32.98986582318751,
+            "longitude": -112.11706923661562,
+            "boundary": null,
+            "customers": 47,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-30 19:52:22 MST",
+            "etr": null,
+            "pole_number": "F286379"
+        },
+        {
+            "latitude": 32.998719793489514,
+            "longitude": -112.06561032296594,
+            "boundary": null,
+            "customers": 264,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-30 19:52:22 MST",
+            "etr": null,
+            "pole_number": "T53601"
+        },
+        {
+            "latitude": 32.98575449451757,
+            "longitude": -112.10884654063322,
+            "boundary": null,
+            "customers": 18,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-30 19:53:39 MST",
+            "etr": null,
+            "pole_number": "F52205"
+        },
+        {
+            "latitude": 32.98629450471958,
+            "longitude": -112.12848190628546,
+            "boundary": null,
+            "customers": 1,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-30 19:55:20 MST",
+            "etr": null,
+            "pole_number": "102956"
+        },
+        {
+            "latitude": 32.999447013865336,
+            "longitude": -112.06587225976675,
+            "boundary": null,
+            "customers": 729,
+            "cause": null,
+            "comments": "CauseUnknown",
+            "start_time": "2026-08-30 19:59:06 MST",
+            "etr": null,
+            "pole_number": "PSN113"
+        },
+        {
+            "latitude": 33.0814928962172,
+            "longitude": -112.13685605306942,
+            "boundary": null,
+            "customers": 0,
+            "cause": null,
+            "comments": "Calls Bundle",
+            "start_time": "2026-08-30 19:42:36 MST",
+            "etr": null,
+            "pole_number": "107423"
+        }
+    ]
+}
