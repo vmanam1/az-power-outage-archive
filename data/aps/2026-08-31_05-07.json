@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-31 05:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 940
+    },
+    "outages": [
+        {
+            "latitude": 36.07721715891623,
+            "longitude": -112.12967225730637,
+            "city": "Grand Canyon",
+            "boundary": "Phantom Ranch to Forest Service Rd. and Rim Dr. to Pima St.",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 10:42:00 MST",
+            "etr": "2026-08-31 11:00:00 MST"
+        },
+        {
+            "latitude": 33.73408470018477,
+            "longitude": -113.52317429989183,
+            "city": "Salome",
+            "boundary": "2 Mi. N/O Salome To 19 Mi. S/E/O Salome Rd. And 7 Mi. W/O Salome To 17 Mi. E/O Salome Rd.",
+            "customers": 304,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-30 12:19:00 MST",
+            "etr": "2026-08-31 02:30:00 MST"
+        },
+        {
+            "latitude": 33.3423195003384,
+            "longitude": -112.90432100017692,
+            "city": "Arlington",
+            "boundary": "Dobbins Rd To Agua Caliente Rd And 483Rd Ave To 363Rd Ave",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-30 13:09:00 MST",
+            "etr": "2026-08-31 02:00:00 MST"
+        },
+        {
+            "latitude": 33.72622087630581,
+            "longitude": -112.50107000630236,
+            "city": "Wittmann",
+            "boundary": "Morning Star Ln and Jomax Rd",
+            "customers": 458,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-30 14:38:00 MST",
+            "etr": "2026-08-31 00:45:00 MST"
+        },
+        {
+            "latitude": 33.64990233307879,
+            "longitude": -112.0358312594222,
+            "city": "Phoenix",
+            "boundary": "Michele Dr to Charleston Ave and 20th Place to 21st Street",
+            "customers": 9,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-30 15:15:00 MST",
+            "etr": "2026-08-31 01:00:00 MST"
+        },
+        {
+            "latitude": 34.21513485993239,
+            "longitude": -112.15021236743179,
+            "city": "Mayer",
+            "boundary": "Crown King Rd and Arizona Veterans Highway",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-30 16:07:00 MST",
+            "etr": "2026-08-31 01:20:00 MST"
+        },
+        {
+            "latitude": 33.695467776800854,
+            "longitude": -112.48097949399349,
+            "city": "Surprise",
+            "boundary": "West Happy Valley Rd to West Deer Valley Rd and North 225th Ave to North Citrus Rd",
+            "customers": 84,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-30 16:10:00 MST",
+            "etr": "2026-08-30 23:45:00 MST"
+        },
+        {
+            "latitude": 33.675987414281614,
+            "longitude": -112.06058953203339,
+            "city": "Phoenix",
+            "boundary": "10th St and Dove Valley Rd",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-30 19:48:00 MST",
+            "etr": "2026-08-31 01:20:00 MST"
+        }
+    ]
+}
