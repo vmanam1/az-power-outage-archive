@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-31 00:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 683
+    },
+    "outages": [
+        {
+            "latitude": 33.314557614783396,
+            "longitude": -111.94009304857701,
+            "boundary": "N KYRENE  RD TO N MILL  AVE AND W RAY  RD TO W GALVESTON  ST",
+            "customers": 29,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-30 17:02 MST",
+            "etr": "2026-08-31 06:00 MST"
+        },
+        {
+            "latitude": 33.53652764911965,
+            "longitude": -112.2347948635925,
+            "boundary": "N 83RD  AVE TO N 79TH  AVE AND W EMIL ROVEY  PKWY TO W MARYLAND  AVE",
+            "customers": 25,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-30 20:48 MST",
+            "etr": "2026-08-31 02:01 MST"
+        },
+        {
+            "latitude": 33.5234182501734,
+            "longitude": -112.2042802117675,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-30 22:33 MST",
+            "etr": "2026-08-31 04:00 MST"
+        },
+        {
+            "latitude": 33.53268920289605,
+            "longitude": -112.152968143122,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 18,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-30 21:40 MST",
+            "etr": "2026-08-31 01:00 MST"
+        },
+        {
+            "latitude": 33.407597796465595,
+            "longitude": -112.028792609777,
+            "boundary": "S 20TH  ST TO S 28TH  ST AND E ELWOOD  ST TO E ROESER  RD",
+            "customers": 3,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-08-30 20:49 MST",
+            "etr": "2026-08-31 11:00 MST"
+        },
+        {
+            "latitude": 33.48532338606225,
+            "longitude": -112.1982348603905,
+            "boundary": "N 67TH  AVE TO N 63RD  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-30 21:39 MST",
+            "etr": "2026-08-31 01:30 MST"
+        },
+        {
+            "latitude": 33.41939821369115,
+            "longitude": -111.7990578999225,
+            "boundary": "N STAPLEY  DR TO N HARRIS  DR AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-30 19:10 MST",
+            "etr": "2026-08-31 03:00 MST"
+        },
+        {
+            "latitude": 33.4673467724985,
+            "longitude": -112.2162629284535,
+            "boundary": "N 79TH  AVE TO N 67TH  AVE AND W ENCANTO  BLVD TO W ROOSEVELT  ST",
+            "customers": 557,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-30 21:44 MST",
+            "etr": "2026-08-31 01:23 MST"
+        },
+        {
+            "latitude": 33.731840050619255,
+            "longitude": -111.7155646780665,
+            "boundary": "N 164TH  ST TO N 172ND  ST AND E PINNACLE VISTA  DR TO E JOMAX  RD",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-30 22:37 MST",
+            "etr": "2026-08-31 02:00 MST"
+        }
+    ]
+}
