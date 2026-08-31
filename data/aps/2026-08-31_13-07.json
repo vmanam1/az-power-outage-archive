@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-31 13:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 186
+    },
+    "outages": [
+        {
+            "latitude": 36.07721715891623,
+            "longitude": -112.12967225730637,
+            "city": "Grand Canyon",
+            "boundary": "Phantom Ranch to Forest Service Rd. and Rim Dr. to Pima St.",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 10:42:00 MST",
+            "etr": "2026-08-31 11:00:00 MST"
+        },
+        {
+            "latitude": 33.73408470018477,
+            "longitude": -113.52317429989183,
+            "city": "Salome",
+            "boundary": "2 Mi. N/O Salome To 19 Mi. S/E/O Salome Rd. And 7 Mi. W/O Salome To 17 Mi. E/O Salome Rd.",
+            "customers": 39,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-30 12:19:00 MST",
+            "etr": "2026-08-31 12:00:00 MST"
+        },
+        {
+            "latitude": 33.695467776800854,
+            "longitude": -112.48097949399349,
+            "city": "Surprise",
+            "boundary": "West Happy Valley Rd to West Deer Valley Rd and North 225th Ave to North Citrus Rd",
+            "customers": 83,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-30 16:10:00 MST",
+            "etr": "2026-08-31 08:00:00 MST"
+        },
+        {
+            "latitude": 33.73821458186691,
+            "longitude": -113.57420533371636,
+            "city": "Salome",
+            "boundary": "Palm Dr. to Old Bell Rd. and Mesquite Ave. to Salome Rd.",
+            "customers": 39,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-30 12:18:00 MST",
+            "etr": "2026-08-31 07:00:00 MST"
+        },
+        {
+            "latitude": 32.98699955602253,
+            "longitude": -111.52571711862491,
+            "city": "Coolidge",
+            "boundary": "Van Ki Inn Rd to Caroline St and 8th Pl to 5th Pl",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-31 05:23:00 MST",
+            "etr": "2026-08-31 09:00:00 MST"
+        }
+    ]
+}

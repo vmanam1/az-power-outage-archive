@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-31 13:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 77
+    },
+    "outages": [
+        {
+            "latitude": 33.4307718981107,
+            "longitude": -112.170701480606,
+            "boundary": "S 55TH  AVE TO S 47TH  AVE AND W BUCKEYE  RD TO W LOWER BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 09:20 MST",
+            "etr": "2026-08-31 15:00 MST"
+        },
+        {
+            "latitude": 33.412430966489595,
+            "longitude": -111.6416451808155,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-31 11:30 MST",
+            "etr": "2026-08-31 14:28 MST"
+        },
+        {
+            "latitude": 33.41254607316445,
+            "longitude": -111.61504054844849,
+            "boundary": "S 96TH  ST TO S 104TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 17,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 12:13 MST",
+            "etr": "2026-08-31 16:42 MST"
+        },
+        {
+            "latitude": 33.5552906262684,
+            "longitude": -112.13713892046451,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 43,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 03:30 MST",
+            "etr": "2026-08-31 14:00 MST"
+        },
+        {
+            "latitude": 33.384879363207205,
+            "longitude": -111.8921147862865,
+            "boundary": "S COUNTRY CLUB  WAY TO S EVERGREEN  RD AND E SOUTHERN  AVE TO W BASELINE  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 03:39 MST",
+            "etr": "2026-08-31 14:00 MST"
+        },
+        {
+            "latitude": 33.58890150085215,
+            "longitude": -112.1920211526965,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W CACTUS  RD TO W PEORIA  AVE",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-08-31 12:03 MST",
+            "etr": "2026-08-31 14:13 MST"
+        },
+        {
+            "latitude": 33.35936630194955,
+            "longitude": -111.6797784739235,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-31 12:51 MST",
+            "etr": "2026-08-31 15:00 MST"
+        }
+    ]
+}
