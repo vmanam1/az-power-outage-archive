@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-08-31 15:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 53,
+        "total_customers": 45950
+    },
+    "outages": [
+        {
+            "latitude": 33.84688570453004,
+            "longitude": -109.14226174690141,
+            "customers": 53,
+            "cause": "TREES",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-08-31 14:42:02 MST",
+            "etr": null,
+            "incident_id": "533973"
+        }
+    ]
+}
