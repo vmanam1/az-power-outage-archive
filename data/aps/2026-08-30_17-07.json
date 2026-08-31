@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-30 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 91
+    },
+    "outages": [
+        {
+            "latitude": 36.07721715891623,
+            "longitude": -112.12967225730637,
+            "city": "Grand Canyon",
+            "boundary": "Phantom Ranch to Forest Service Rd. and Rim Dr. to Pima St.",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 10:42:00 MST",
+            "etr": "2026-08-30 11:00:00 MST"
+        },
+        {
+            "latitude": 35.02625076101918,
+            "longitude": -110.70013694623022,
+            "city": "Winslow",
+            "boundary": "4th St. to 3rd St. and Hicks Ave. to Winslow Ave.",
+            "customers": 20,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-08-30 09:40:00 MST",
+            "etr": "2026-08-30 13:00:00 MST"
+        },
+        {
+            "latitude": 34.438804304779204,
+            "longitude": -110.06653193243277,
+            "city": "Taylor",
+            "boundary": "Love Lake Rd. and Blackies Rd.",
+            "customers": 53,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-08-30 09:40:00 MST",
+            "etr": "2026-08-30 12:20:00 MST"
+        }
+    ]
+}
