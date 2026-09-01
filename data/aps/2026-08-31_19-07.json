@@ -1,0 +1,124 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-08-31 19:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 489
+    },
+    "outages": [
+        {
+            "latitude": 36.07721715891623,
+            "longitude": -112.12967225730637,
+            "city": "Grand Canyon",
+            "boundary": "Phantom Ranch to Forest Service Rd. and Rim Dr. to Pima St.",
+            "customers": 11,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 10:42:00 MST",
+            "etr": "2026-09-01 09:00:00 MST"
+        },
+        {
+            "latitude": 33.73408470018477,
+            "longitude": -113.52317429989183,
+            "city": "Salome",
+            "boundary": "2 Mi. N/O Salome To 19 Mi. S/E/O Salome Rd. And 7 Mi. W/O Salome To 17 Mi. E/O Salome Rd.",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-30 12:19:00 MST",
+            "etr": "2026-08-31 15:00:00 MST"
+        },
+        {
+            "latitude": 33.73821458186691,
+            "longitude": -113.57420533371636,
+            "city": "Salome",
+            "boundary": "Palm Dr. to Old Bell Rd. and Mesquite Ave. to Salome Rd.",
+            "customers": 7,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-30 12:18:00 MST",
+            "etr": "2026-08-31 21:00:00 MST"
+        },
+        {
+            "latitude": 33.86355324172006,
+            "longitude": -113.92799850434035,
+            "city": "Bouse",
+            "boundary": "Mountain View Rd and Vincent Pl to Avenue 42 E",
+            "customers": 19,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-31 08:15:00 MST",
+            "etr": "2026-08-31 15:00:00 MST"
+        },
+        {
+            "latitude": 33.7009666440322,
+            "longitude": -113.86517820530585,
+            "city": "Salome",
+            "boundary": "Rose Acre Farms to Hwy 72 and Hwy 60",
+            "customers": 293,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-08-31 08:34:00 MST",
+            "etr": "2026-08-31 19:00:00 MST"
+        },
+        {
+            "latitude": 33.333692429768114,
+            "longitude": -112.88909430458283,
+            "city": "Buckeye",
+            "boundary": "Elliot Rd and Brunner Rd",
+            "customers": 5,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-31 11:20:00 MST",
+            "etr": "2026-08-31 17:00:00 MST"
+        },
+        {
+            "latitude": 33.655235614780324,
+            "longitude": -112.13340901532634,
+            "city": "Phoenix",
+            "boundary": "Union Hills Dr and 35th Ave",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-31 11:21:00 MST",
+            "etr": "2026-08-31 15:00:00 MST"
+        },
+        {
+            "latitude": 33.621426520775024,
+            "longitude": -111.96763723206989,
+            "city": "Scottsdale",
+            "boundary": "Nisbet Rd to Acoma Rd and Marilyn Rd to 54th St",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-08-31 11:26:00 MST",
+            "etr": "2026-08-31 14:20:00 MST"
+        },
+        {
+            "latitude": 33.73625953819931,
+            "longitude": -113.57505529089211,
+            "city": "Salome",
+            "boundary": "Palm Dr to Old Bell Rd and Mesquite Ave to Jackrabbit Ln",
+            "customers": 39,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-08-30 12:18:00 MST",
+            "etr": "2026-08-31 21:00:00 MST"
+        },
+        {
+            "latitude": 32.760291176237594,
+            "longitude": -111.67970763167743,
+            "city": "Arizona City",
+            "boundary": "Leander Dr to Carousel Dr and Kashmir Rd to Del Rio Rd",
+            "customers": 75,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-08-31 11:42:00 MST",
+            "etr": "2026-08-31 15:15:00 MST"
+        }
+    ]
+}
