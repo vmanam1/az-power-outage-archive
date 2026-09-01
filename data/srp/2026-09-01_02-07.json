@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-01 02:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 33.40679547200415,
+            "longitude": -111.685457172338,
+            "boundary": "S 64TH  ST TO S 72ND  ST AND E MAIN  ST TO E PUEBLO  AVE",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-08-31 20:17 MST",
+            "etr": "2026-09-01 05:00 MST"
+        },
+        {
+            "latitude": 33.5898428005677,
+            "longitude": -112.193391278576,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W CACTUS  RD TO W PEORIA  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 12:03 MST",
+            "etr": "2026-09-01 03:00 MST"
+        },
+        {
+            "latitude": 33.3041640779325,
+            "longitude": -111.683095192618,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E WILLIAMS FIELD  RD TO E OLD PECOS  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-01 00:31 MST",
+            "etr": "2026-09-01 03:30 MST"
+        },
+        {
+            "latitude": 33.4090599798977,
+            "longitude": -111.9802244486465,
+            "boundary": "S 44TH  ST TO S MARICOPA  FWY AND E ELWOOD  ST TO E ROESER  RD",
+            "customers": 26,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-01 00:10 MST",
+            "etr": "2026-09-01 03:12 MST"
+        }
+    ]
+}
