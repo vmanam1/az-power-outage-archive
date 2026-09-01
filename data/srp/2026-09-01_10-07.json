@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-01 10:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 64
+    },
+    "outages": [
+        {
+            "latitude": 33.3756451119336,
+            "longitude": -111.9758999865925,
+            "boundary": "S 44TH  ST TO S MARICOPA  FWY AND W BASELINE  RD TO E CALLE SONORA  ",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-01 05:01 MST",
+            "etr": "2026-09-01 13:00 MST"
+        },
+        {
+            "latitude": 33.5099280862158,
+            "longitude": -112.103871368176,
+            "boundary": "N 23RD  AVE TO N 19TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-01 07:49 MST",
+            "etr": "2026-09-01 11:30 MST"
+        },
+        {
+            "latitude": 33.7455310767146,
+            "longitude": -111.7500001892835,
+            "boundary": "N 148TH  ST TO N 156TH  ST AND NON-DEDICATED   TO E RIO VERDE  DR",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-01 08:32 MST",
+            "etr": "2026-09-01 16:00 MST"
+        },
+        {
+            "latitude": 33.40878144681175,
+            "longitude": -111.6416606808955,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E RED MOUNTAIN  FWY TO E RED MOUNTAIN  FWY",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-01 07:28 MST",
+            "etr": "2026-09-01 10:26 MST"
+        },
+        {
+            "latitude": 33.4919733318188,
+            "longitude": -111.9083303223425,
+            "boundary": "N MILLER  RD TO N GRANITE REEF  RD AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-01 09:22 MST",
+            "etr": "2026-09-01 11:21 MST"
+        },
+        {
+            "latitude": 33.464655082768004,
+            "longitude": -111.6508031605915,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E OAK  ST TO E HERMOSA VISTA  DR",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-01 08:01 MST",
+            "etr": "2026-09-01 12:00 MST"
+        },
+        {
+            "latitude": 33.41929793852605,
+            "longitude": -111.5899349865235,
+            "boundary": "N SIGNAL BUTTE  RD TO N MERIDIAN  RD AND E UNIVERSITY  DR TO E APACHE  TRL",
+            "customers": 19,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-01 08:38 MST",
+            "etr": "2026-09-01 13:38 MST"
+        },
+        {
+            "latitude": 33.3054186703764,
+            "longitude": -111.7737266991505,
+            "boundary": "S MUSTANG  DR TO S VAL VISTA  DR AND E GALVESTON  ST TO E FRYE  RD",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-01 09:11 MST",
+            "etr": "2026-09-01 11:11 MST"
+        }
+    ]
+}
