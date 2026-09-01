@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-08-31 20:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.402399312479346,
+            "longitude": -111.490023579799,
+            "boundary": "S MOUNTAIN VIEW  RD TO S GERONIMO  RD AND E BROADWAY  AVE TO E SOUTHERN  AVE",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 17:20 MST",
+            "etr": "2026-08-31 22:30 MST"
+        },
+        {
+            "latitude": 33.5898428005677,
+            "longitude": -112.193391278576,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W CACTUS  RD TO W PEORIA  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 12:03 MST",
+            "etr": "2026-08-31 23:00 MST"
+        },
+        {
+            "latitude": 33.4706854685095,
+            "longitude": -111.91694172586,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E OAK  ST TO E MCDOWELL  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-08-31 13:25 MST",
+            "etr": "2026-08-31 21:00 MST"
+        }
+    ]
+}
