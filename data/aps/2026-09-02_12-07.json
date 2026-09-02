@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-02 12:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 157
+    },
+    "outages": [
+        {
+            "latitude": 34.6977588121062,
+            "longitude": -111.96431718903551,
+            "city": "Cottonwood",
+            "boundary": "Ramada Rd. to Mesa Dr. and Posse Trl. to Kachina Dr.",
+            "customers": 11,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-02 01:29:00 MST",
+            "etr": "2026-09-02 09:00:00 MST"
+        },
+        {
+            "latitude": 33.666786089946235,
+            "longitude": -112.22242696114503,
+            "city": "Glendale",
+            "boundary": "Beardsley Rd to Union Hills Dr and 79th Ave to 67th Ave",
+            "customers": 146,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-09-02 01:35:00 MST",
+            "etr": "2026-09-02 08:00:00 MST"
+        }
+    ]
+}
