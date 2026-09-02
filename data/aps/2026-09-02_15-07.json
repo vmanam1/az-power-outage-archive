@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-02 15:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 37
+    },
+    "outages": [
+        {
+            "latitude": 33.45575584627895,
+            "longitude": -112.05384543183447,
+            "city": "Phoenix",
+            "boundary": "Pierce St to Fillmore St and 13th St to 14th St",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-02 06:00:00 MST",
+            "etr": "2026-09-02 09:00:00 MST"
+        },
+        {
+            "latitude": 33.729932442894835,
+            "longitude": -112.50204354561005,
+            "city": "Wittmann",
+            "boundary": "Bunker Peak Rd. to Morning Star Ln. and 204th Pl. to 203rd Ave.",
+            "customers": 21,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-02 07:01:00 MST",
+            "etr": "2026-09-02 09:15:00 MST"
+        }
+    ]
+}
