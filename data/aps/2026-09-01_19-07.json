@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-01 19:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 72
+    },
+    "outages": [
+        {
+            "latitude": 36.07721715891623,
+            "longitude": -112.12967225730637,
+            "city": "Grand Canyon",
+            "boundary": "Phantom Ranch to Forest Service Rd. and Rim Dr. to Pima St.",
+            "customers": 11,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-08-29 10:42:00 MST",
+            "etr": "2026-09-02 09:00:00 MST"
+        },
+        {
+            "latitude": 34.70993735426,
+            "longitude": -112.0091405561246,
+            "city": "Cottonwood",
+            "boundary": "Sierra Dr. to Destry Ln. and Rainbow Rd. to Donner Tl.",
+            "customers": 7,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-01 09:34:00 MST",
+            "etr": "2026-09-01 12:55:00 MST"
+        },
+        {
+            "latitude": 33.43159434705038,
+            "longitude": -112.44906100088252,
+            "city": "Goodyear",
+            "boundary": "Sonora St and 181st Dr",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-01 09:59:00 MST",
+            "etr": "2026-09-01 13:45:00 MST"
+        },
+        {
+            "latitude": 32.58906620962403,
+            "longitude": -114.7024951741114,
+            "city": "Somerton",
+            "boundary": "Garvin St to County 17th St and Somerton Ave to South Ave E",
+            "customers": 48,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-01 11:38:00 MST",
+            "etr": "2026-09-01 13:40:00 MST"
+        }
+    ]
+}
