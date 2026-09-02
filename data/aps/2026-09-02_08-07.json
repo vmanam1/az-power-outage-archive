@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-02 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 34.50172954265315,
+            "longitude": -110.1288028640603,
+            "city": "Snowflake",
+            "boundary": "Putter Dr. to Bryant Ave. and Porter St.",
+            "customers": 15,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-02 00:19:00 MST",
+            "etr": "2026-09-02 03:50:00 MST"
+        }
+    ]
+}
