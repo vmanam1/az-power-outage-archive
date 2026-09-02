@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-02 14:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 27
+    },
+    "outages": [
+        {
+            "latitude": 33.3941000841771,
+            "longitude": -111.854372809983,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W 8TH  AVE TO W SUPERSTITION  FWY",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-02 14:00 MST",
+            "etr": "2026-09-02 15:57 MST"
+        }
+    ]
+}
