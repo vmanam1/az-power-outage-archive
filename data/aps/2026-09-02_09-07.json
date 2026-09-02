@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-02 09:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 2002
+    },
+    "outages": [
+        {
+            "latitude": 33.467266523862065,
+            "longitude": -112.12692148834562,
+            "city": "Phoenix",
+            "boundary": "Coronado Rd. to Almeria Rd. and 32nd Ave. to 31st Ave.",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-02 01:04:00 MST",
+            "etr": "2026-09-02 03:30:00 MST"
+        },
+        {
+            "latitude": 33.59389044400696,
+            "longitude": -111.83870370302013,
+            "city": "Scottsdale",
+            "boundary": "N 112th St.",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-02 01:07:00 MST",
+            "etr": "2026-09-02 03:50:00 MST"
+        },
+        {
+            "latitude": 34.6977588121062,
+            "longitude": -111.96431718903551,
+            "city": "Cottonwood",
+            "boundary": "Ramada Rd. to Mesa Dr. and Posse Trl. to Kachina Dr.",
+            "customers": 34,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-02 01:29:00 MST",
+            "etr": "2026-09-02 04:50:00 MST"
+        },
+        {
+            "latitude": 33.65915480031284,
+            "longitude": -112.21563809969216,
+            "city": "Glendale",
+            "boundary": "Mendota Dr To Mcrae Wy And 78Th Dr To 67Th Ave",
+            "customers": 1823,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-02 01:39:00 MST",
+            "etr": "2026-09-02 03:50:00 MST"
+        },
+        {
+            "latitude": 34.258889623876875,
+            "longitude": -111.32514904702404,
+            "city": "Payson",
+            "boundary": "Glade Ln. to Beeline Hwy.",
+            "customers": 41,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-02 01:32:00 MST",
+            "etr": "2026-09-02 05:32:00 MST"
+        },
+        {
+            "latitude": 33.63762392373927,
+            "longitude": -111.99796150301243,
+            "city": "Phoenix",
+            "boundary": "Phelps Rd. to Grandview Rd. and 38th St. to 40th St",
+            "customers": 87,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-02 01:44:00 MST",
+            "etr": "2026-09-02 05:00:00 MST"
+        }
+    ]
+}
