@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-03 14:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 33.62427774596071,
+            "longitude": -112.17870879494322,
+            "city": "Glendale",
+            "boundary": "Greenway Rd. and 55th Ave.",
+            "customers": 13,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-03 02:46:00 MST",
+            "etr": "2026-09-03 07:50:00 MST"
+        },
+        {
+            "latitude": 32.675441216298665,
+            "longitude": -114.45155167984159,
+            "city": "Yuma",
+            "boundary": "Amber Dr. to Sapphire Dr. and Avenue 10 1/2 East to Quartz Ave.",
+            "customers": 29,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-03 05:17:00 MST",
+            "etr": "2026-09-03 08:35:00 MST"
+        }
+    ]
+}
