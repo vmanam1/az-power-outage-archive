@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-02 17:07:07 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.45575584627895,
+            "longitude": -112.05384543183447,
+            "city": "Phoenix",
+            "boundary": "Pierce St to Fillmore St and 13th St to 14th St",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-02 06:00:00 MST",
+            "etr": "2026-09-02 10:30:00 MST"
+        }
+    ]
+}
