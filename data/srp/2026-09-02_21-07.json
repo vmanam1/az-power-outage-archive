@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-02 21:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.3779722714424,
+            "longitude": -111.742070903209,
+            "boundary": "N VAL VISTA  DR TO N GREENFIELD  RD AND E SUPERSTITION  FWY TO E HOUSTON  AVE",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-02 14:50 MST",
+            "etr": "2026-09-02 22:00 MST"
+        },
+        {
+            "latitude": 33.3770269645709,
+            "longitude": -112.069002377815,
+            "boundary": "S CENTRAL  AVE TO S MARDIAN  WAY AND E VINEYARD  RD TO E SOUTH MOUNTAIN  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-02 17:49 MST",
+            "etr": "2026-09-02 23:20 MST"
+        }
+    ]
+}
