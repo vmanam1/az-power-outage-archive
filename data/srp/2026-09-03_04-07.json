@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-03 04:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.45164791957265,
+            "longitude": -111.930496138096,
+            "boundary": "N COLLEGE  AVE TO N SCOTTSDALE  RD AND E CONTINENTAL  DR TO E WEBER  DR",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-02 22:05 MST",
+            "etr": "2026-09-03 05:07 MST"
+        },
+        {
+            "latitude": 33.4665380821831,
+            "longitude": -111.90001159990149,
+            "boundary": "N HAYDEN  RD TO N PIMA  RD AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-03 02:38 MST",
+            "etr": "2026-09-03 04:37 MST"
+        },
+        {
+            "latitude": 33.2050260371593,
+            "longitude": -111.82692288801701,
+            "boundary": "S ARIZONA  AVE TO S 124TH  ST AND E RIGGS  RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 13,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-02 23:53 MST",
+            "etr": "2026-09-03 10:00 MST"
+        },
+        {
+            "latitude": 33.5823334257649,
+            "longitude": -112.16745332289901,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W CHOLLA  ST TO W MOUNTAIN VIEW  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-03 03:50 MST",
+            "etr": "2026-09-03 05:48 MST"
+        }
+    ]
+}
