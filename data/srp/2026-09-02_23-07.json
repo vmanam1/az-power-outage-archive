@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-02 23:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 33.3770269645709,
+            "longitude": -112.069002377815,
+            "boundary": "S CENTRAL  AVE TO S MARDIAN  WAY AND E VINEYARD  RD TO E SOUTH MOUNTAIN  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-02 17:49 MST",
+            "etr": "2026-09-02 23:20 MST"
+        },
+        {
+            "latitude": 33.279603148083055,
+            "longitude": -111.617947153849,
+            "boundary": "S ELLSWORTH  RD TO S MERRILL  RD AND E PECOS  RD TO E RYAN  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-02 21:25 MST",
+            "etr": "2026-09-03 04:00 MST"
+        },
+        {
+            "latitude": 33.3779722714424,
+            "longitude": -111.742070903209,
+            "boundary": "N VAL VISTA  DR TO N GREENFIELD  RD AND E SUPERSTITION  FWY TO E HOUSTON  AVE",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-02 14:50 MST",
+            "etr": "2026-09-03 00:00 MST"
+        },
+        {
+            "latitude": 33.45208244282385,
+            "longitude": -111.9304901793055,
+            "boundary": "N COLLEGE  AVE TO N SCOTTSDALE  RD AND E CONTINENTAL  DR TO E WEBER  DR",
+            "customers": 18,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-02 22:05 MST",
+            "etr": "2026-09-03 00:07 MST"
+        },
+        {
+            "latitude": 33.4032818500095,
+            "longitude": -111.6919114983185,
+            "boundary": "S RECKER  RD TO S POWER  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 35,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-02 21:48 MST",
+            "etr": "2026-09-03 00:21 MST"
+        }
+    ]
+}

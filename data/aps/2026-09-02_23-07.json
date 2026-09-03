@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-02 23:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 135
+    },
+    "outages": [
+        {
+            "latitude": 34.55127945985417,
+            "longitude": -112.4235785909309,
+            "city": "Prescott",
+            "boundary": "Prescott Canyon Cr to Independence Ave and Memorial Ave to Valentine Dr",
+            "customers": 107,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-02 14:30:00 MST",
+            "etr": "2026-09-02 21:30:00 MST"
+        },
+        {
+            "latitude": 34.58241333605627,
+            "longitude": -111.8608419447821,
+            "city": "Camp Verde",
+            "boundary": "Camp Lincoln Rd to Garner Ln and Butler LN to Gilbert Way",
+            "customers": 28,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-02 15:15:00 MST",
+            "etr": "2026-09-02 18:45:00 MST"
+        }
+    ]
+}
