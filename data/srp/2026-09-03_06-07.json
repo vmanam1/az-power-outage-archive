@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-03 06:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 59
+    },
+    "outages": [
+        {
+            "latitude": 33.2050260371593,
+            "longitude": -111.82692288801701,
+            "boundary": "S ARIZONA  AVE TO S 124TH  ST AND E RIGGS  RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 13,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-02 23:53 MST",
+            "etr": "2026-09-03 10:00 MST"
+        },
+        {
+            "latitude": 33.3661228647949,
+            "longitude": -111.904769477038,
+            "boundary": "S MCCLINTOCK  DR TO S PRICE  FWY AND E BASELINE  RD TO E ELLIOT  RD",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 05:01 MST",
+            "etr": "2026-09-03 07:07 MST"
+        }
+    ]
+}
