@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-03 12:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1139
+    },
+    "outages": [
+        {
+            "latitude": 33.4267898437432,
+            "longitude": -112.147817002447,
+            "boundary": "S 43RD  AVE TO S 39TH  AVE AND W BUCKEYE  RD TO W LOWER BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-03 08:53 MST",
+            "etr": "2026-09-03 12:50 MST"
+        },
+        {
+            "latitude": 33.2050260371593,
+            "longitude": -111.82692288801701,
+            "boundary": "S ARIZONA  AVE TO S 124TH  ST AND E RIGGS  RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 13,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-02 23:53 MST",
+            "etr": "2026-09-03 13:00 MST"
+        },
+        {
+            "latitude": 33.3331638858608,
+            "longitude": -111.856648607562,
+            "boundary": "N ARROWHEAD  DR TO N HARTFORD  ST AND W ELLIOT  RD TO W KNOX  RD",
+            "customers": 51,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 09:44 MST",
+            "etr": "2026-09-03 11:44 MST"
+        },
+        {
+            "latitude": 33.25774872566545,
+            "longitude": -111.65696241982499,
+            "boundary": "S 196TH  ST TO S HAWES  RD AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-03 11:17 MST",
+            "etr": "2026-09-03 16:00 MST"
+        },
+        {
+            "latitude": 33.417731100787,
+            "longitude": -111.58063388109599,
+            "boundary": "N SIGNAL BUTTE  RD TO N IRONWOOD  DR AND W TEPEE  ST TO W 16TH  AVE",
+            "customers": 1065,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 11:16 MST",
+            "etr": "2026-09-03 13:21 MST"
+        }
+    ]
+}

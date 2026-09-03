@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-03 12:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 66
+    },
+    "outages": [
+        {
+            "latitude": 32.38288748088203,
+            "longitude": -112.86947585605745,
+            "city": "Ajo",
+            "boundary": "6th St. to 4th St. and Jefferson Ave. to Mckinley Ave.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-03 01:45:00 MST",
+            "etr": "2026-09-03 05:30:00 MST"
+        },
+        {
+            "latitude": 34.73006198103291,
+            "longitude": -112.00389971468847,
+            "city": "Cottonwood",
+            "boundary": "Cyprus St. to Cottonwood St. and Willow Tree Ln.",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-03 01:58:00 MST",
+            "etr": "2026-09-03 08:00:00 MST"
+        },
+        {
+            "latitude": 33.62427774596071,
+            "longitude": -112.17870879494322,
+            "city": "Glendale",
+            "boundary": "Greenway Rd. and 55th Ave.",
+            "customers": 13,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-03 02:46:00 MST",
+            "etr": "2026-09-03 05:35:00 MST"
+        },
+        {
+            "latitude": 34.69785412676216,
+            "longitude": -111.96437400298565,
+            "city": "Cottonwood",
+            "boundary": "Ramada Rd. to Mesa Dr. and Posse Tl. to Kachina Dr.",
+            "customers": 34,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-03 04:50:00 MST",
+            "etr": "2026-09-03 08:05:00 MST"
+        }
+    ]
+}
