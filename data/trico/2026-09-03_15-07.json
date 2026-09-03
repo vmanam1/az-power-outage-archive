@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-03 15:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 8,
+        "total_customers": 57957
+    },
+    "outages": [
+        {
+            "latitude": 31.961789883529995,
+            "longitude": -110.84201799513761,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-03 14:26:21 MST",
+            "etr": null,
+            "incident_id": "389227"
+        },
+        {
+            "latitude": 32.54246402060606,
+            "longitude": -110.87317156919522,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Pinal County East",
+            "start_time": "2026-09-02 09:11:04 MST",
+            "etr": null,
+            "incident_id": "389213"
+        },
+        {
+            "latitude": 32.19475891643947,
+            "longitude": -111.17211292948612,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Bopp Rd",
+            "start_time": "2026-09-03 09:45:25 MST",
+            "etr": null,
+            "incident_id": "389224"
+        },
+        {
+            "latitude": 32.12617137898969,
+            "longitude": -111.08048477049317,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Pascua",
+            "start_time": "2026-09-03 07:09:34 MST",
+            "etr": null,
+            "incident_id": "389222"
+        },
+        {
+            "latitude": 32.41314236765133,
+            "longitude": -111.07257061283897,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Thornydale",
+            "start_time": "2026-09-03 07:22:19 MST",
+            "etr": null,
+            "incident_id": "389223"
+        },
+        {
+            "latitude": 32.07602323300598,
+            "longitude": -111.33592072156813,
+            "customers": 1,
+            "cause": "30 MATERIAL OR EQUIPMENT FAULT",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-07-28 02:23:24 MST",
+            "etr": "2026-07-28 05:23:24 MST",
+            "incident_id": "387491"
+        }
+    ]
+}

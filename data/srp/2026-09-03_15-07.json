@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-03 15:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 49
+    },
+    "outages": [
+        {
+            "latitude": 33.3337647587582,
+            "longitude": -111.8566412562935,
+            "boundary": "N ARROWHEAD  DR TO N HARTFORD  ST AND W ELLIOT  RD TO W KNOX  RD",
+            "customers": 27,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-03 09:44 MST",
+            "etr": "2026-09-03 17:00 MST"
+        },
+        {
+            "latitude": 33.40449473816609,
+            "longitude": -111.584146387515,
+            "boundary": "S MOUNTAIN  RD TO S MERIDIAN  RD AND E BROADWAY  RD TO E PUEBLO  AVE",
+            "customers": 10,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-09-03 13:40 MST",
+            "etr": "2026-09-03 17:23 MST"
+        },
+        {
+            "latitude": 33.3891944680621,
+            "longitude": -111.97505098715399,
+            "boundary": "S 48TH  ST TO S WENDLER  DR AND W SOUTHERN  AVE TO W VINEYARD  RD",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-09-03 14:32 MST",
+            "etr": "2026-09-03 15:30 MST"
+        },
+        {
+            "latitude": 33.512743186616405,
+            "longitude": -112.024310139237,
+            "boundary": "N 24TH  ST TO N 28TH  ST AND E MISSOURI  AVE TO E CAMELBACK  RD",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 14:57 MST",
+            "etr": "2026-09-03 15:37 MST"
+        }
+    ]
+}
