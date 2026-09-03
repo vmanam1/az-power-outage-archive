@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-03 05:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2,
+        "total_customers": 57957
+    },
+    "outages": [
+        {
+            "latitude": 32.54246402060606,
+            "longitude": -110.87317156919522,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Pinal County East",
+            "start_time": "2026-09-02 09:11:04 MST",
+            "etr": null,
+            "incident_id": "389213"
+        },
+        {
+            "latitude": 32.07602323300598,
+            "longitude": -111.33592072156813,
+            "customers": 1,
+            "cause": "30 MATERIAL OR EQUIPMENT FAULT",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-07-28 02:23:24 MST",
+            "etr": "2026-07-28 05:23:24 MST",
+            "incident_id": "387491"
+        }
+    ]
+}
