@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-03 09:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 138
+    },
+    "outages": [
+        {
+            "latitude": 34.22756064033844,
+            "longitude": -111.34739193892334,
+            "city": "Payson",
+            "boundary": "Gold Nugget Ln. and Lakeview Dr.",
+            "customers": 17,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-03 01:35:00 MST",
+            "etr": "2026-09-03 04:30:00 MST"
+        },
+        {
+            "latitude": 32.38288748088203,
+            "longitude": -112.86947585605745,
+            "city": "Ajo",
+            "boundary": "6th St. to 4th St. and Jefferson Ave. to Mckinley Ave.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-03 01:45:00 MST",
+            "etr": "2026-09-03 05:30:00 MST"
+        },
+        {
+            "latitude": 34.73006198103291,
+            "longitude": -112.00389971468847,
+            "city": "Cottonwood",
+            "boundary": "Cyprus St. to Cottonwood St. and Willow Tree Ln.",
+            "customers": 112,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-03 01:58:00 MST",
+            "etr": "2026-09-03 08:00:00 MST"
+        }
+    ]
+}
