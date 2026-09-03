@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-03 02:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 188
+    },
+    "outages": [
+        {
+            "latitude": 34.55127945985417,
+            "longitude": -112.4235785909309,
+            "city": "Prescott",
+            "boundary": "Prescott Canyon Cr to Independence Ave and Memorial Ave to Valentine Dr",
+            "customers": 107,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-02 14:30:00 MST",
+            "etr": "2026-09-02 21:30:00 MST"
+        },
+        {
+            "latitude": 33.62396059666877,
+            "longitude": -112.17903066130954,
+            "city": "Glendale",
+            "boundary": "Greenway Rd to Caribbean Ln and 57th Ave to 55th Ave",
+            "customers": 81,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-02 17:55:00 MST",
+            "etr": "2026-09-02 20:45:00 MST"
+        }
+    ]
+}
