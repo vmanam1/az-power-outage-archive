@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-02 18:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.645312100277074,
+            "longitude": -112.01247053183111,
+            "city": "Phoenix",
+            "boundary": "Libby St to Campo Bello Dr and 32nd St",
+            "customers": 30,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-02 10:52:00 MST",
+            "etr": "2026-09-02 13:30:00 MST"
+        }
+    ]
+}

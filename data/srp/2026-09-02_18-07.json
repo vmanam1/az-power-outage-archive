@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-02 18:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.3941000841771,
+            "longitude": -111.854372809983,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W 8TH  AVE TO W SUPERSTITION  FWY",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-02 14:00 MST",
+            "etr": "2026-09-02 16:04 MST"
+        },
+        {
+            "latitude": 33.3779722714424,
+            "longitude": -111.742070903209,
+            "boundary": "N VAL VISTA  DR TO N GREENFIELD  RD AND E SUPERSTITION  FWY TO E HOUSTON  AVE",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-02 14:50 MST",
+            "etr": "2026-09-02 22:00 MST"
+        },
+        {
+            "latitude": 33.3770269645709,
+            "longitude": -112.069002377815,
+            "boundary": "S CENTRAL  AVE TO S MARDIAN  WAY AND E VINEYARD  RD TO E SOUTH MOUNTAIN  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-02 17:49 MST",
+            "etr": "2026-09-02 19:55 MST"
+        }
+    ]
+}
