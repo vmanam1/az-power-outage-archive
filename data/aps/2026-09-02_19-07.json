@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-02 19:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.645312100277074,
+            "longitude": -112.01247053183111,
+            "city": "Phoenix",
+            "boundary": "Libby St to Campo Bello Dr and 32nd St",
+            "customers": 13,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-02 10:52:00 MST",
+            "etr": "2026-09-02 13:30:00 MST"
+        }
+    ]
+}
