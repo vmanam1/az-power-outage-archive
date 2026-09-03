@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-03 00:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 812
+    },
+    "outages": [
+        {
+            "latitude": 33.279603148083055,
+            "longitude": -111.617947153849,
+            "boundary": "S ELLSWORTH  RD TO S MERRILL  RD AND E PECOS  RD TO E RYAN  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-02 21:25 MST",
+            "etr": "2026-09-03 04:00 MST"
+        },
+        {
+            "latitude": 33.4032818500095,
+            "longitude": -111.6919114983185,
+            "boundary": "S RECKER  RD TO S POWER  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 35,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-02 21:48 MST",
+            "etr": "2026-09-03 00:21 MST"
+        },
+        {
+            "latitude": 33.45164791957265,
+            "longitude": -111.930496138096,
+            "boundary": "N COLLEGE  AVE TO N SCOTTSDALE  RD AND E CONTINENTAL  DR TO E WEBER  DR",
+            "customers": 9,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-02 22:05 MST",
+            "etr": "2026-09-03 05:07 MST"
+        },
+        {
+            "latitude": 33.3779722714424,
+            "longitude": -111.742070903209,
+            "boundary": "N VAL VISTA  DR TO N GREENFIELD  RD AND E SUPERSTITION  FWY TO E HOUSTON  AVE",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-02 14:50 MST",
+            "etr": "2026-09-03 01:00 MST"
+        },
+        {
+            "latitude": 33.5540213630858,
+            "longitude": -112.151892821471,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-02 23:42 MST",
+            "etr": "2026-09-03 01:40 MST"
+        },
+        {
+            "latitude": 33.21122042819215,
+            "longitude": -111.832276492103,
+            "boundary": "S ALMA SCHOOL  RD TO S COOPER  RD AND E CLOUD  RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 761,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-02 23:53 MST",
+            "etr": "2026-09-03 01:53 MST"
+        }
+    ]
+}
