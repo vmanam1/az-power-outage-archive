@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-03 11:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 149
+    },
+    "outages": [
+        {
+            "latitude": 33.4267898437432,
+            "longitude": -112.147817002447,
+            "boundary": "S 43RD  AVE TO S 39TH  AVE AND W BUCKEYE  RD TO W LOWER BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-03 08:53 MST",
+            "etr": "2026-09-03 12:50 MST"
+        },
+        {
+            "latitude": 33.2050260371593,
+            "longitude": -111.82692288801701,
+            "boundary": "S ARIZONA  AVE TO S 124TH  ST AND E RIGGS  RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 13,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-02 23:53 MST",
+            "etr": "2026-09-03 13:00 MST"
+        },
+        {
+            "latitude": 33.3331638858608,
+            "longitude": -111.856648607562,
+            "boundary": "N ARROWHEAD  DR TO N HARTFORD  ST AND W ELLIOT  RD TO W KNOX  RD",
+            "customers": 51,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 09:44 MST",
+            "etr": "2026-09-03 11:44 MST"
+        },
+        {
+            "latitude": 33.4538651395563,
+            "longitude": -111.948853472829,
+            "boundary": "N 52ND  ST TO N COLLEGE  AVE AND E MCDOWELL  RD TO E RED MOUNTAIN  FWY",
+            "customers": 84,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 10:50 MST",
+            "etr": "2026-09-03 12:47 MST"
+        }
+    ]
+}
