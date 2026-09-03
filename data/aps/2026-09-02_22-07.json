@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-02 22:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 34.40265621327973,
+            "longitude": -111.4551705724268,
+            "city": "Pine",
+            "boundary": "Arroyo Way to Pinon Ln and Juniper Ln to Summit Ridge Dr",
+            "customers": 58,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-02 12:27:00 MST",
+            "etr": "2026-09-02 16:00:00 MST"
+        }
+    ]
+}
