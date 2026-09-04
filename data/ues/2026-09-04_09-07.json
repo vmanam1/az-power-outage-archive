@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-09-04 09:07:21 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 14,
+        "map_last_refreshed": "Sep 4, 9:05 AM"
+    },
+    "outages": [
+        {
+            "latitude": 31.63268196891102,
+            "longitude": -111.0518161352605,
+            "boundary": {
+                "coordLatSW": "31.631704349331599",
+                "coordLngSW": "-111.053750296608",
+                "coordLatNE": "31.633480917349001",
+                "coordLngNE": "-111.04903514131999",
+                "coordLatCenter": "31.632591",
+                "coordLngCenter": "-111.05139"
+            },
+            "customers": 14,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-09-04 08:50 MST",
+            "etr": "2026-09-04 10:50 MST",
+            "event": "Planned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-09-04 09:00 MST"
+        },
+        {
+            "latitude": 31.4708552684436,
+            "longitude": -111.018173072207,
+            "boundary": {
+                "coordLatSW": "31.4708552684436",
+                "coordLngSW": "-111.01817307220701",
+                "coordLatNE": "31.4708552684436",
+                "coordLngNE": "-111.01817307220701",
+                "coordLatCenter": "31.470856",
+                "coordLngCenter": "-111.01817"
+            },
+            "customers": 0,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-08-27 07:29 MST",
+            "etr": "2026-08-27 09:30 MST",
+            "event": "Planned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-27 15:22 MST"
+        }
+    ]
+}

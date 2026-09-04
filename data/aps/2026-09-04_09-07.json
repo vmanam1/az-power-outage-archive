@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-04 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 610
+    },
+    "outages": [
+        {
+            "latitude": 33.65497990012476,
+            "longitude": -112.12562220015299,
+            "city": "Phoenix",
+            "boundary": "Yorkshire Dr To Libby St And 34Th Dr To 29Th Ave",
+            "customers": 437,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 00:32:00 MST",
+            "etr": "2026-09-04 02:50:00 MST"
+        },
+        {
+            "latitude": 33.84485572985525,
+            "longitude": -111.97135985240392,
+            "city": "Cave Creek",
+            "boundary": "East Highland Rd to East Grapevine Rd and North 49th St to North Spur Cross Rd",
+            "customers": 95,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 00:56:00 MST",
+            "etr": "2026-09-04 03:45:00 MST"
+        },
+        {
+            "latitude": 34.742007741136085,
+            "longitude": -112.00856569273328,
+            "city": "Cottonwood",
+            "boundary": "Vanderhoef Ln to Coconino St and 16th St to Memory Ln",
+            "customers": 73,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-04 01:01:00 MST",
+            "etr": "2026-09-04 05:10:00 MST"
+        },
+        {
+            "latitude": 33.6047940772212,
+            "longitude": -111.86306374527936,
+            "city": "Scottsdale",
+            "boundary": "East Wood Dr to East Sweetwater Ave and North 100th St to North 102nd St",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-04 01:32:00 MST",
+            "etr": "2026-09-04 03:00:00 MST"
+        }
+    ]
+}
