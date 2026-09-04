@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-04 07:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 35.16127514489881,
+            "longitude": -111.65826292614572,
+            "city": "Flagstaff",
+            "boundary": "Walapai Dr to South Yaqui St and East Sioux Dr",
+            "customers": 19,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-03 23:41:00 MST",
+            "etr": "2026-09-04 03:00:00 MST"
+        }
+    ]
+}

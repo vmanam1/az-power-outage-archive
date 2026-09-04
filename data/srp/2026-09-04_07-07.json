@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-04 07:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.3756451119336,
+            "longitude": -111.9758999865925,
+            "boundary": "S 44TH  ST TO S MARICOPA  FWY AND W BASELINE  RD TO E CALLE SONORA  ",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-04 03:56 MST",
+            "etr": "2026-09-04 07:55 MST"
+        },
+        {
+            "latitude": 33.4644234386623,
+            "longitude": -111.735275584436,
+            "boundary": "N 40TH  ST TO N HIGLEY  RD AND E MCDOWELL  RD TO E HERMOSA VISTA  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-04 04:50 MST",
+            "etr": "2026-09-04 12:48 MST"
+        },
+        {
+            "latitude": 33.412613979868894,
+            "longitude": -111.617600014598,
+            "boundary": "S 96TH  ST TO S 104TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-04 06:33 MST",
+            "etr": "2026-09-04 08:36 MST"
+        }
+    ]
+}
