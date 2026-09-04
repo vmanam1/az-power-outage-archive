@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-04 15:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.369681746104646,
+            "longitude": -111.807789708207,
+            "boundary": "S HORNE   TO N NEELY  ST AND W HOUSTON  AVE TO W GUADALUPE  RD",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-04 14:13 MST",
+            "etr": "2026-09-04 16:15 MST"
+        }
+    ]
+}
