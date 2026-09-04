@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-04 02:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 92
+    },
+    "outages": [
+        {
+            "latitude": 33.205217662761996,
+            "longitude": -111.85610481411,
+            "boundary": "S ALMA SCHOOL  RD TO S ARIZONA  AVE AND E SAN TAN  BLVD TO UNKNOWN",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-03 23:28 MST",
+            "etr": "2026-09-04 05:25 MST"
+        },
+        {
+            "latitude": 33.3900919953142,
+            "longitude": -111.6672077138265,
+            "boundary": "S 72ND  ST TO S HAWES  RD AND E PUEBLO  AVE TO E BASELINE  RD",
+            "customers": 29,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-03 20:56 MST",
+            "etr": "2026-09-04 06:32 MST"
+        },
+        {
+            "latitude": 33.4128510164129,
+            "longitude": -111.63128967706399,
+            "boundary": "N 88TH  ST TO S 96TH  ST AND E RED MOUNTAIN  FWY TO E BROADWAY  RD",
+            "customers": 62,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-09-03 18:53 MST",
+            "etr": "2026-09-04 06:30 MST"
+        }
+    ]
+}
