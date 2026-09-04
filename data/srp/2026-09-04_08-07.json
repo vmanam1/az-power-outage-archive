@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-04 08:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.4644234386623,
+            "longitude": -111.735275584436,
+            "boundary": "N 40TH  ST TO N HIGLEY  RD AND E MCDOWELL  RD TO E HERMOSA VISTA  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-04 04:50 MST",
+            "etr": "2026-09-04 12:48 MST"
+        },
+        {
+            "latitude": 33.46549512487505,
+            "longitude": -111.65080454645249,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E OAK  ST TO E HERMOSA VISTA  DR",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-04 07:40 MST",
+            "etr": "2026-09-04 11:00 MST"
+        },
+        {
+            "latitude": 33.22382195025235,
+            "longitude": -111.81471275388051,
+            "boundary": "S MCQUEEN  RD TO S COOPER  RD AND E CLOUD  RD TO E RIGGS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-04 07:56 MST",
+            "etr": "2026-09-04 11:30 MST"
+        }
+    ]
+}
