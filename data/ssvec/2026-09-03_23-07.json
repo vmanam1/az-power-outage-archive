@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-09-03 23:07:11 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "incident_id": 20598,
+            "latitude": 32.093654956807505,
+            "longitude": -109.92784675511426,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-09-03 15:20:12 MST",
+            "etr": "2026-09-03 18:20:12 MST",
+            "restored_time": null
+        }
+    ]
+}
