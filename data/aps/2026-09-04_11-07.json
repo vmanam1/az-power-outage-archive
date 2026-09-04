@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-04 11:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 312
+    },
+    "outages": [
+        {
+            "latitude": 34.742007741136085,
+            "longitude": -112.00856569273328,
+            "city": "Cottonwood",
+            "boundary": "Vanderhoef Ln to Coconino St and 16th St to Memory Ln",
+            "customers": 73,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-04 01:01:00 MST",
+            "etr": "2026-09-04 05:10:00 MST"
+        },
+        {
+            "latitude": 33.50898521172118,
+            "longitude": -112.07319007206466,
+            "city": "Phoenix",
+            "boundary": "Colter St to Campbell Ave and 7th Ave to 8th Place",
+            "customers": 234,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 03:18:00 MST",
+            "etr": "2026-09-04 06:45:00 MST"
+        },
+        {
+            "latitude": 33.51078130016915,
+            "longitude": -112.07433620019631,
+            "city": "Phoenix",
+            "boundary": "Missouri Ave.  To Campbell Ave. And 7Th Ave To 12Th St",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 03:50:00 MST",
+            "etr": "2026-09-04 07:50:00 MST"
+        }
+    ]
+}

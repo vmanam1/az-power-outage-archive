@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-04 11:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1814
+    },
+    "outages": [
+        {
+            "latitude": 33.4644234386623,
+            "longitude": -111.735275584436,
+            "boundary": "N 40TH  ST TO N HIGLEY  RD AND E MCDOWELL  RD TO E HERMOSA VISTA  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-04 04:50 MST",
+            "etr": "2026-09-04 12:48 MST"
+        },
+        {
+            "latitude": 33.4715566760592,
+            "longitude": -111.689401881361,
+            "boundary": "N RECKER  RD TO N POWER  RD AND E RED MOUNTAIN  FWY TO E MCDOWELL  RD",
+            "customers": 128,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-04 09:02 MST",
+            "etr": "2026-09-04 13:59 MST"
+        },
+        {
+            "latitude": 33.414572381275605,
+            "longitude": -111.9130314627055,
+            "boundary": "S RURAL  RD TO S SMITH  RD AND NON-DEDICATED  RD TO E ALAMEDA  DR",
+            "customers": 1685,
+            "cause": "Other outage cause",
+            "comments": "SRP restored power and no cause could be identified at this time.",
+            "start_time": "2026-09-04 10:21 MST",
+            "etr": "2026-09-04 12:21 MST"
+        }
+    ]
+}
