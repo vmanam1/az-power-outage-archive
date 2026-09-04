@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-04 14:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1439
+    },
+    "outages": [
+        {
+            "latitude": 33.315814591794904,
+            "longitude": -111.6047698863645,
+            "boundary": "S ELLSWORTH  RD TO S MERIDIAN  RD AND E WARNER  RD TO E GATEWAY  FWY",
+            "customers": 1439,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-04 13:02 MST",
+            "etr": "2026-09-04 15:09 MST"
+        }
+    ]
+}

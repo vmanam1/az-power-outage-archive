@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-04 14:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 288
+    },
+    "outages": [
+        {
+            "latitude": 33.50898521172118,
+            "longitude": -112.07319007206466,
+            "city": "Phoenix",
+            "boundary": "Colter St to Campbell Ave and 7th Ave to 8th Place",
+            "customers": 234,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-04 03:18:00 MST",
+            "etr": "2026-09-04 11:00:00 MST"
+        },
+        {
+            "latitude": 35.05430291686148,
+            "longitude": -110.68555888637353,
+            "city": "Winslow",
+            "boundary": "Mchood Rd. to Mike's Pike St. and Parker Dr. to French Rd.",
+            "customers": 42,
+            "cause": "Blown fuse",
+            "comments": "Our crews are working to restore the outage caused by a blown fuse.",
+            "start_time": "2026-09-04 06:20:00 MST",
+            "etr": "2026-09-04 09:05:00 MST"
+        },
+        {
+            "latitude": 33.58284400606707,
+            "longitude": -112.30713324512823,
+            "city": "Youngtown",
+            "boundary": "Langford Ave. and Kansas Ave.",
+            "customers": 12,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-04 06:44:00 MST",
+            "etr": "2026-09-04 09:15:00 MST"
+        }
+    ]
+}
