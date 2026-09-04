@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-04 10:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 73
+    },
+    "outages": [
+        {
+            "latitude": 34.742007741136085,
+            "longitude": -112.00856569273328,
+            "city": "Cottonwood",
+            "boundary": "Vanderhoef Ln to Coconino St and 16th St to Memory Ln",
+            "customers": 73,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-04 01:01:00 MST",
+            "etr": "2026-09-04 05:10:00 MST"
+        }
+    ]
+}
