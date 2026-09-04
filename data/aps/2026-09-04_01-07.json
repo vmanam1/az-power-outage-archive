@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-04 01:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 259
+    },
+    "outages": [
+        {
+            "latitude": 33.3934391140459,
+            "longitude": -110.78722265899192,
+            "city": "Globe",
+            "boundary": "Cottonwood St to Ash St and Pine St to Hill St",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-03 14:12:00 MST",
+            "etr": "2026-09-03 18:30:00 MST"
+        },
+        {
+            "latitude": 33.667829804782606,
+            "longitude": -112.15939590387016,
+            "city": "Glendale",
+            "boundary": "Arrowhead Lakes Dr to Wahalla Ln and 47th Ave to 43rd Ave",
+            "customers": 241,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-03 15:01:00 MST",
+            "etr": "2026-09-03 19:00:00 MST"
+        }
+    ]
+}
