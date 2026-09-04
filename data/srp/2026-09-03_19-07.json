@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-03 19:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 21
+    },
+    "outages": [
+        {
+            "latitude": 33.4204538386659,
+            "longitude": -111.6558873530565,
+            "boundary": "N 80TH  ST TO N HAWES  RD AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 18:53 MST",
+            "etr": "2026-09-03 20:48 MST"
+        },
+        {
+            "latitude": 33.41263824652955,
+            "longitude": -111.631770200324,
+            "boundary": "N 88TH  ST TO S 96TH  ST AND E APACHE  TRL TO E BROADWAY  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 18:53 MST",
+            "etr": "2026-09-03 20:48 MST"
+        }
+    ]
+}
