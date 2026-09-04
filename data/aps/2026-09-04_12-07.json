@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-04 12:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 234
+    },
+    "outages": [
+        {
+            "latitude": 33.50898521172118,
+            "longitude": -112.07319007206466,
+            "city": "Phoenix",
+            "boundary": "Colter St to Campbell Ave and 7th Ave to 8th Place",
+            "customers": 234,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-04 03:18:00 MST",
+            "etr": "2026-09-04 11:00:00 MST"
+        }
+    ]
+}
