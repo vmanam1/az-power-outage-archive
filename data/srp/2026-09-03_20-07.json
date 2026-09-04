@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-03 20:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.41263824652955,
+            "longitude": -111.631770200324,
+            "boundary": "N 88TH  ST TO S 96TH  ST AND E APACHE  TRL TO E BROADWAY  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 18:53 MST",
+            "etr": "2026-09-03 20:55 MST"
+        },
+        {
+            "latitude": 33.3891944680621,
+            "longitude": -111.97505098715399,
+            "boundary": "S 48TH  ST TO S WENDLER  DR AND W SOUTHERN  AVE TO W VINEYARD  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-03 19:40 MST",
+            "etr": "2026-09-03 20:38 MST"
+        },
+        {
+            "latitude": 33.4763193491069,
+            "longitude": -111.894726565252,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  RD AND E THOMAS  RD TO E OAK  ST",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-03 20:00 MST",
+            "etr": "2026-09-03 21:59 MST"
+        }
+    ]
+}
