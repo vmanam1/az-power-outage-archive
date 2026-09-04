@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-03 18:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 508
+    },
+    "outages": [
+        {
+            "latitude": 33.6045778367285,
+            "longitude": -111.92661460460853,
+            "city": "Scottsdale",
+            "boundary": "Dreyfus Ave. and Scottsdale Rd.",
+            "customers": 5,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-03 09:00:00 MST",
+            "etr": "2026-09-03 11:45:00 MST"
+        },
+        {
+            "latitude": 32.91118301431769,
+            "longitude": -111.8666831590687,
+            "city": "Casa Grande",
+            "boundary": "Torero Rd. to Kortsen Rd. and Contento Ave. to Calma Dr.",
+            "customers": 14,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-03 10:18:00 MST",
+            "etr": "2026-09-03 14:20:00 MST"
+        },
+        {
+            "latitude": 32.925513785030425,
+            "longitude": -111.73397447800372,
+            "city": "Casa Grande",
+            "boundary": "Cordova Ave. to Rodeo Rd. and Amarillo St. to Colorado St.",
+            "customers": 185,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-03 10:43:00 MST",
+            "etr": "2026-09-03 13:40:00 MST"
+        },
+        {
+            "latitude": 33.3423195003384,
+            "longitude": -112.90432100017692,
+            "city": "Arlington",
+            "boundary": "Dobbins Rd To Agua Caliente Rd And 483Rd Ave To 363Rd Ave",
+            "customers": 304,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-03 10:57:00 MST",
+            "etr": "2026-09-03 13:15:00 MST"
+        }
+    ]
+}

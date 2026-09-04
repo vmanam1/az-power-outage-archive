@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-03 18:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 27
+    },
+    "outages": [
+        {
+            "latitude": 33.3337647587582,
+            "longitude": -111.8566412562935,
+            "boundary": "N ARROWHEAD  DR TO N HARTFORD  ST AND W ELLIOT  RD TO W KNOX  RD",
+            "customers": 27,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-03 09:44 MST",
+            "etr": "2026-09-03 19:00 MST"
+        }
+    ]
+}
