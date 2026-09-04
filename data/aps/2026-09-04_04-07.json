@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-04 04:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.44902930786068,
+            "longitude": -112.10919373208357,
+            "city": "Phoenix",
+            "boundary": "Adam St to Washington St and 24th Ave to 23rd Ave",
+            "customers": 13,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-03 19:25:00 MST",
+            "etr": "2026-09-03 22:20:00 MST"
+        }
+    ]
+}
