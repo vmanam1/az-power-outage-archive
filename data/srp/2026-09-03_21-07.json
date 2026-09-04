@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-03 21:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 385
+    },
+    "outages": [
+        {
+            "latitude": 33.408447083221446,
+            "longitude": -111.52121789253101,
+            "boundary": "S TOMAHAWK  RD TO S GOLDFIELD  RD AND E JUNCTION  ST TO E 16TH  AVE",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 20:31 MST",
+            "etr": "2026-09-03 22:47 MST"
+        },
+        {
+            "latitude": 33.3900919953142,
+            "longitude": -111.6654923779765,
+            "boundary": "S 72ND  ST TO S HAWES  RD AND E PUEBLO  AVE TO E BASELINE  RD",
+            "customers": 76,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 20:56 MST",
+            "etr": "2026-09-03 22:54 MST"
+        },
+        {
+            "latitude": 33.410242359189695,
+            "longitude": -111.63307966694401,
+            "boundary": "N 88TH  ST TO S 96TH  ST AND E RED MOUNTAIN  FWY TO E PUEBLO  AVE",
+            "customers": 306,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-03 18:53 MST",
+            "etr": "2026-09-03 22:30 MST"
+        }
+    ]
+}

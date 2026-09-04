@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-03 21:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 33.63715189179807,
+            "longitude": -112.27476375911708,
+            "city": "Sun City",
+            "boundary": "Bell Rd to Campana Dr and 99th Ave to 98th Ave",
+            "customers": 23,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-03 12:55:00 MST",
+            "etr": "2026-09-03 16:00:00 MST"
+        }
+    ]
+}
