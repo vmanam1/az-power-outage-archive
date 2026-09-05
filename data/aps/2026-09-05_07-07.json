@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-05 07:07:07 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 33.42887480022498,
+            "longitude": -111.92640900000295,
+            "city": "Tempe",
+            "boundary": "Red Mountain Fwy To Rio Salado Pkwy And Mill Ave To Mcclintock Dr",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 22:10:00 MST",
+            "etr": "2026-09-05 00:30:00 MST"
+        },
+        {
+            "latitude": 33.42949239789611,
+            "longitude": -111.93383866118901,
+            "city": "Tempe",
+            "boundary": "E Rio Salado Pkwy.",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 22:23:00 MST",
+            "etr": "2026-09-05 00:30:00 MST"
+        }
+    ]
+}
