@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-04 19:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 38
+    },
+    "outages": [
+        {
+            "latitude": 33.41643995432359,
+            "longitude": -111.95144460410192,
+            "city": "Tempe",
+            "boundary": "West Howe St to West 12th St and South Hardy Dr to South Judd St",
+            "customers": 15,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 08:29:00 MST",
+            "etr": "2026-09-04 15:00:00 MST"
+        },
+        {
+            "latitude": 33.425613129136934,
+            "longitude": -111.95406776468161,
+            "city": "Tempe",
+            "boundary": "5th St and Robert Rd to Westfall Ave",
+            "customers": 23,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-04 11:54:00 MST",
+            "etr": "2026-09-04 15:00:00 MST"
+        }
+    ]
+}
