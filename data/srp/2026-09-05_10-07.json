@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-05 10:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 73
+    },
+    "outages": [
+        {
+            "latitude": 33.4105702201563,
+            "longitude": -111.708940250908,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E MAIN  ST TO E DELTA  AVE",
+            "customers": 62,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-05 07:34 MST",
+            "etr": "2026-09-05 09:33 MST"
+        },
+        {
+            "latitude": 33.2588650122252,
+            "longitude": -111.88802566560099,
+            "boundary": "S OLD PRICE  RD TO S DOBSON  RD AND W QUEEN CREEK  RD TO W OCOTILLO  RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-05 07:45 MST",
+            "etr": "2026-09-05 12:00 MST"
+        },
+        {
+            "latitude": 33.4035249366385,
+            "longitude": -111.892901331796,
+            "boundary": "S COUNTRY CLUB  WAY TO S ROOSEVELT  RD AND E BROADWAY  RD TO E ALAMEDA  DR",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-05 08:11 MST",
+            "etr": "2026-09-05 11:00 MST"
+        }
+    ]
+}
