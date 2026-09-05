@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-09-05 15:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 103,
+        "total_customers": 45957
+    },
+    "outages": [
+        {
+            "latitude": 34.14366442562829,
+            "longitude": -109.9612198589358,
+            "customers": 53,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-09-05 13:45:42 MST",
+            "etr": null,
+            "incident_id": "534085"
+        },
+        {
+            "latitude": 34.0964405610223,
+            "longitude": -109.31323809495169,
+            "customers": 4,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-09-05 13:50:54 MST",
+            "etr": null,
+            "incident_id": "534092"
+        },
+        {
+            "latitude": 34.096358733023266,
+            "longitude": -109.31323809495169,
+            "customers": 46,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-09-05 13:50:54 MST",
+            "etr": null,
+            "incident_id": "534090"
+        }
+    ]
+}
