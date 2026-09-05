@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-05 08:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 123
+    },
+    "outages": [
+        {
+            "latitude": 33.348233818755546,
+            "longitude": -111.74948001171549,
+            "boundary": "S VAL VISTA  DR TO S GREENFIELD  RD AND E GUADALUPE  RD TO E MESQUITE  ST",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-05 07:08 MST",
+            "etr": "2026-09-05 09:09 MST"
+        },
+        {
+            "latitude": 33.4105702201563,
+            "longitude": -111.708940250908,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E MAIN  ST TO E DELTA  AVE",
+            "customers": 62,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-05 07:34 MST",
+            "etr": "2026-09-05 09:33 MST"
+        },
+        {
+            "latitude": 33.2588650122252,
+            "longitude": -111.88802566560099,
+            "boundary": "S OLD PRICE  RD TO S DOBSON  RD AND W QUEEN CREEK  RD TO W OCOTILLO  RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-05 07:45 MST",
+            "etr": "2026-09-05 12:00 MST"
+        },
+        {
+            "latitude": 33.446013838217496,
+            "longitude": -111.488936099751,
+            "boundary": "N NODAK  RD TO N BARKLEY  RD AND E MCKELLIPS  BLVD TO E LOST DUTCHMAN  BLVD",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-05 08:04 MST",
+            "etr": "2026-09-05 10:04 MST"
+        }
+    ]
+}

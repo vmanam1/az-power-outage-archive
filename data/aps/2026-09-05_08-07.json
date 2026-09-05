@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-05 08:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.716075255130995,
+            "longitude": -111.88185588927043,
+            "city": "Scottsdale",
+            "boundary": "East hackamore Dr to East Happy Valley Rd and North 89th St to North 96th St",
+            "customers": 10,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-05 00:12:00 MST",
+            "etr": "2026-09-05 03:15:00 MST"
+        }
+    ]
+}
