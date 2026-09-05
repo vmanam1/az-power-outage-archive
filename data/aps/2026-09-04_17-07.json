@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-04 17:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 33.41643995432359,
+            "longitude": -111.95144460410192,
+            "city": "Tempe",
+            "boundary": "West Howe St to West 12th St and South Hardy Dr to South Judd St",
+            "customers": 15,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 08:29:00 MST",
+            "etr": "2026-09-04 12:00:00 MST"
+        }
+    ]
+}
