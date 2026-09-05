@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-05 06:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1021
+    },
+    "outages": [
+        {
+            "latitude": 33.42887480022498,
+            "longitude": -111.92640900000295,
+            "city": "Tempe",
+            "boundary": "Red Mountain Fwy To Rio Salado Pkwy And Mill Ave To Mcclintock Dr",
+            "customers": 295,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 22:12:00 MST",
+            "etr": "2026-09-05 00:20:00 MST"
+        },
+        {
+            "latitude": 33.43401119575623,
+            "longitude": -111.92664581836972,
+            "city": "Tempe",
+            "boundary": "College Ave. to Playa Del Norte Dr. and Tempe Town Lake and Scottsdale Rd.",
+            "customers": 664,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 22:14:00 MST",
+            "etr": "2026-09-05 00:20:00 MST"
+        },
+        {
+            "latitude": 33.42949239789611,
+            "longitude": -111.93383866118901,
+            "city": "Tempe",
+            "boundary": "E Rio Salado Pkwy.",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-04 22:23:00 MST",
+            "etr": "2026-09-05 00:20:00 MST"
+        },
+        {
+            "latitude": 35.19059543814533,
+            "longitude": -111.58906416099593,
+            "city": "Flagstaff",
+            "boundary": "Hickory Dr. to Mount Pleasant Dr. and Butler Ave. to Edgewood St.",
+            "customers": 54,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-04 22:28:00 MST",
+            "etr": "2026-09-05 01:15:00 MST"
+        }
+    ]
+}
