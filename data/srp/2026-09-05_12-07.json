@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-05 12:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 38
+    },
+    "outages": [
+        {
+            "latitude": 33.40337010322685,
+            "longitude": -111.89299485703549,
+            "boundary": "S COUNTRY CLUB  WAY TO S ROOSEVELT  RD AND E BROADWAY  RD TO E ALAMEDA  DR",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-05 08:11 MST",
+            "etr": "2026-09-05 16:00 MST"
+        },
+        {
+            "latitude": 33.4093409920347,
+            "longitude": -111.70845181016799,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E MAIN  ST TO E DELTA  AVE",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-05 07:34 MST",
+            "etr": "2026-09-05 15:30 MST"
+        },
+        {
+            "latitude": 33.303188437108005,
+            "longitude": -111.874555804284,
+            "boundary": "S ELLIS  ST TO N ARROWHEAD  DR AND W CHANDLER  BLVD TO W FRYE  RD",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-05 11:58 MST",
+            "etr": "2026-09-05 13:58 MST"
+        }
+    ]
+}
