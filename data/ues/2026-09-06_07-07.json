@@ -1,0 +1,141 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-09-06 07:07:30 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 0,
+        "map_last_refreshed": "Sep 6, 7:07 AM"
+    },
+    "outages": [
+        {
+            "latitude": 34.5041084606827,
+            "longitude": -114.34334175554,
+            "boundary": {
+                "coordLatSW": "34.504108460682701",
+                "coordLngSW": "-114.34334175554",
+                "coordLatNE": "34.504108460682701",
+                "coordLngNE": "-114.34334175554",
+                "coordLatCenter": "34.50411",
+                "coordLngCenter": "-114.34334"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage",
+            "comments": null,
+            "start_time": "2026-09-05 19:59 MST",
+            "etr": "2026-09-05 20:42 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 3313,
+            "last_update": "2026-09-05 22:36 MST"
+        },
+        {
+            "latitude": 34.6422768197742,
+            "longitude": -114.271499057879,
+            "boundary": {
+                "coordLatSW": "34.642276819774203",
+                "coordLngSW": "-114.271499057879",
+                "coordLatNE": "34.642276819774203",
+                "coordLngNE": "-114.271499057879",
+                "coordLatCenter": "34.642277",
+                "coordLngCenter": "-114.2715"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage",
+            "comments": null,
+            "start_time": "2026-09-05 19:59 MST",
+            "etr": "2026-09-05 20:43 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 342,
+            "last_update": "2026-09-05 22:24 MST"
+        },
+        {
+            "latitude": 34.50714320714953,
+            "longitude": -114.35846050221886,
+            "boundary": {
+                "coordLatSW": "34.507143207149532",
+                "coordLngSW": "-114.35846050221886",
+                "coordLatNE": "34.507143207149532",
+                "coordLngNE": "-114.35846050221886",
+                "coordLatCenter": "34.507145",
+                "coordLngCenter": "-114.35846"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage",
+            "comments": null,
+            "start_time": "2026-09-05 19:59 MST",
+            "etr": "2026-09-05 20:40 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 926,
+            "last_update": "2026-09-05 22:43 MST"
+        },
+        {
+            "latitude": 34.5127091054664,
+            "longitude": -114.335584084882,
+            "boundary": {
+                "coordLatSW": "34.512709105466399",
+                "coordLngSW": "-114.335584084882",
+                "coordLatNE": "34.512709105466399",
+                "coordLngNE": "-114.335584084882",
+                "coordLatCenter": "34.51271",
+                "coordLngCenter": "-114.33559"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage",
+            "comments": null,
+            "start_time": "2026-09-05 19:59 MST",
+            "etr": "2026-09-05 20:40 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 1790,
+            "last_update": "2026-09-05 22:46 MST"
+        },
+        {
+            "latitude": 34.5620360774825,
+            "longitude": -114.368508987503,
+            "boundary": {
+                "coordLatSW": "34.562036077482503",
+                "coordLngSW": "-114.36850898750301",
+                "coordLatNE": "34.562036077482503",
+                "coordLngNE": "-114.36850898750301",
+                "coordLatCenter": "34.562035",
+                "coordLngCenter": "-114.36851"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage",
+            "comments": null,
+            "start_time": "2026-09-05 19:59 MST",
+            "etr": "2026-09-05 20:49 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 3770,
+            "last_update": "2026-09-05 22:55 MST"
+        },
+        {
+            "latitude": 31.4708552684436,
+            "longitude": -111.018173072207,
+            "boundary": {
+                "coordLatSW": "31.4708552684436",
+                "coordLngSW": "-111.01817307220701",
+                "coordLatNE": "31.4708552684436",
+                "coordLngNE": "-111.01817307220701",
+                "coordLatCenter": "31.470856",
+                "coordLngCenter": "-111.01817"
+            },
+            "customers": 0,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-08-27 07:29 MST",
+            "etr": "2026-08-27 09:30 MST",
+            "event": "Planned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-27 15:22 MST"
+        }
+    ]
+}
