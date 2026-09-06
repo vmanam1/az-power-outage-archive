@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-06 05:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 21
+    },
+    "outages": [
+        {
+            "latitude": 34.515040748822166,
+            "longitude": -110.07972021230664,
+            "city": "Snowflake",
+            "boundary": "Apple St and Pear St",
+            "customers": 21,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-05 21:13:00 MST",
+            "etr": "2026-09-06 00:35:00 MST"
+        }
+    ]
+}
