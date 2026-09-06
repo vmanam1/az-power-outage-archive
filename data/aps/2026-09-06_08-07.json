@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-06 08:07:09 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3113
+    },
+    "outages": [
+        {
+            "latitude": 35.17639490009531,
+            "longitude": -111.6628117998101,
+            "city": "Flagstaff",
+            "boundary": "Route 66 To Melissa Dr And Wody Mountain Rd To Knoles Dr",
+            "customers": 3106,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-06 00:40:00 MST",
+            "etr": "2026-09-06 04:50:00 MST"
+        },
+        {
+            "latitude": 33.84298795712747,
+            "longitude": -111.88353553134088,
+            "city": "Scottsdale",
+            "boundary": "East Larry Hughes Dr to Red Lawrence Dr and North Tom Morris Rd",
+            "customers": 7,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-06 00:48:00 MST",
+            "etr": "2026-09-06 03:45:00 MST"
+        }
+    ]
+}
