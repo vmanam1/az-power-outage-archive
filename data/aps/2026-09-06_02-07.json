@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-06 02:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.64590194067266,
+            "longitude": -112.01313133165579,
+            "city": "Phoenix",
+            "boundary": "Libby St. to Monic Ave. and 32nd St. to 33rd Wy.",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-05 18:19:00 MST",
+            "etr": "2026-09-05 21:50:00 MST"
+        }
+    ]
+}
