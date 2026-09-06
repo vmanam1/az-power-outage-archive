@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-05 20:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 38
+    },
+    "outages": [
+        {
+            "latitude": 33.476237165313,
+            "longitude": -111.74278676582051,
+            "boundary": "N VAL VISTA  DR TO N GREENFIELD  RD AND E RED MOUNTAIN  FWY TO E QUENTON  DR",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-05 15:59 MST",
+            "etr": "2026-09-06 00:00 MST"
+        },
+        {
+            "latitude": 33.4093409920347,
+            "longitude": -111.70845181016799,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E MAIN  ST TO E DELTA  AVE",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-05 07:34 MST",
+            "etr": "2026-09-05 21:00 MST"
+        },
+        {
+            "latitude": 33.3512332674106,
+            "longitude": -111.861133793232,
+            "boundary": "N DOBSON  RD TO S EXTENSION  RD AND W GUADALUPE  RD TO W WARNER  RD",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-05 19:43 MST",
+            "etr": "2026-09-05 21:45 MST"
+        }
+    ]
+}
