@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-06 04:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 3372
+    },
+    "outages": [
+        {
+            "latitude": 33.536294400155654,
+            "longitude": -112.09630507555849,
+            "boundary": "N 19TH  AVE TO N 15TH  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 106,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-05 20:19 MST",
+            "etr": "2026-09-06 06:30 MST"
+        },
+        {
+            "latitude": 33.5139138357546,
+            "longitude": -112.01701288571999,
+            "boundary": "N 24TH  ST TO N 36TH  ST AND E LINCOLN  DR TO E CAMPBELL  AVE",
+            "customers": 677,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-06 02:41 MST",
+            "etr": "2026-09-06 04:34 MST"
+        },
+        {
+            "latitude": 33.5083100446249,
+            "longitude": -112.026589571912,
+            "boundary": "N 20TH  ST TO N 32ND  ST AND E MISSOURI  AVE TO E CAMPBELL  AVE",
+            "customers": 326,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-06 02:41 MST",
+            "etr": "2026-09-06 04:34 MST"
+        },
+        {
+            "latitude": 33.5016551247777,
+            "longitude": -112.02853898829099,
+            "boundary": "N 20TH  ST TO N 32ND  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 990,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-06 02:47 MST",
+            "etr": "2026-09-06 04:34 MST"
+        },
+        {
+            "latitude": 33.49671631825895,
+            "longitude": -112.02388245889199,
+            "boundary": "N 20TH  ST TO N 32ND  ST AND E CAMELBACK  RD TO E THOMAS  RD",
+            "customers": 1273,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-06 02:41 MST",
+            "etr": "2026-09-06 05:10 MST"
+        }
+    ]
+}
