@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-05 19:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 33
+    },
+    "outages": [
+        {
+            "latitude": 34.86501739881865,
+            "longitude": -111.78404406474259,
+            "city": "Sedona",
+            "boundary": "Mission Rd. to AZ 89A and Traumari Ln. to Soldier Pass Rd.",
+            "customers": 33,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-05 11:24:00 MST",
+            "etr": "2026-09-05 14:45:00 MST"
+        }
+    ]
+}
