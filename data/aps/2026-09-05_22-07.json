@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-05 22:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 38
+    },
+    "outages": [
+        {
+            "latitude": 34.86501739881865,
+            "longitude": -111.78404406474259,
+            "city": "Sedona",
+            "boundary": "Mission Rd. to AZ 89A and Traumari Ln. to Soldier Pass Rd.",
+            "customers": 14,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-05 11:24:00 MST",
+            "etr": "2026-09-05 16:30:00 MST"
+        },
+        {
+            "latitude": 33.660470584330696,
+            "longitude": -112.34311261919343,
+            "city": "Sun City West",
+            "boundary": "Camino Del Sol to Pomegranate Dr. and Ashwood Dr. to 133rd Ave.",
+            "customers": 24,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-05 14:23:00 MST",
+            "etr": "2026-09-05 17:15:00 MST"
+        }
+    ]
+}
