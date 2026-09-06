@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-06 11:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.70052443517686,
+            "longitude": -112.13976533168172,
+            "city": "Glendale",
+            "boundary": "38th Ave to Pinnacle Peak Rd and 39th Dr to 35th Dr",
+            "customers": 29,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-06 03:35:00 MST",
+            "etr": "2026-09-06 07:35:00 MST"
+        }
+    ]
+}
