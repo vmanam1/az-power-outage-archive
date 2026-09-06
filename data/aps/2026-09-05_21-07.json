@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-05 21:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 55
+    },
+    "outages": [
+        {
+            "latitude": 34.86501739881865,
+            "longitude": -111.78404406474259,
+            "city": "Sedona",
+            "boundary": "Mission Rd. to AZ 89A and Traumari Ln. to Soldier Pass Rd.",
+            "customers": 33,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-05 11:24:00 MST",
+            "etr": "2026-09-05 15:00:00 MST"
+        },
+        {
+            "latitude": 31.345962535300835,
+            "longitude": -109.55527433868676,
+            "city": "Douglas",
+            "boundary": "Douglas Rd. and Pan American Ave.",
+            "customers": 11,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-05 13:19:00 MST",
+            "etr": "2026-09-05 16:25:00 MST"
+        },
+        {
+            "latitude": 33.29405410519569,
+            "longitude": -111.84826678215761,
+            "city": "Chandler",
+            "boundary": "Nebraska St and Geronimo St",
+            "customers": 11,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-05 13:50:00 MST",
+            "etr": "2026-09-05 17:00:00 MST"
+        }
+    ]
+}
