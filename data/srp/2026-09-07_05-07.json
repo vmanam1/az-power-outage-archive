@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-07 05:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 492
+    },
+    "outages": [
+        {
+            "latitude": 33.39813722592875,
+            "longitude": -111.991306963661,
+            "boundary": "S 36TH  ST TO S 48TH  ST AND E BROADWAY  RD TO E VINEYARD  RD",
+            "customers": 371,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-07 00:40 MST",
+            "etr": "2026-09-07 02:51 MST"
+        },
+        {
+            "latitude": 33.436807856319405,
+            "longitude": -111.76044410861351,
+            "boundary": "N LINDSAY  RD TO N VAL VISTA  DR AND E MCLELLAN  RD TO E ADOBE  ST",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-07 03:16 MST",
+            "etr": "2026-09-07 05:25 MST"
+        },
+        {
+            "latitude": 33.39637769158375,
+            "longitude": -111.8723707583285,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-07 03:55 MST",
+            "etr": "2026-09-07 05:54 MST"
+        },
+        {
+            "latitude": 33.3957155087629,
+            "longitude": -111.8727884404245,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 54,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-07 03:55 MST",
+            "etr": "2026-09-07 05:53 MST"
+        },
+        {
+            "latitude": 33.3962078322191,
+            "longitude": -111.8714012880875,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 20,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-07 03:55 MST",
+            "etr": "2026-09-07 06:00 MST"
+        }
+    ]
+}
