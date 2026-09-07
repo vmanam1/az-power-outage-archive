@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-06 22:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 34.6444832948146,
+            "longitude": -112.4203570176247,
+            "city": "Prescott",
+            "boundary": "Wilkinson Dr to Clubhouse Dr and Wineglass Dr",
+            "customers": 24,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-06 14:17:00 MST",
+            "etr": "2026-09-06 17:40:00 MST"
+        }
+    ]
+}
