@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-07 02:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 379
+    },
+    "outages": [
+        {
+            "latitude": 33.39813722592875,
+            "longitude": -111.991306963661,
+            "boundary": "S 36TH  ST TO S 48TH  ST AND E BROADWAY  RD TO E VINEYARD  RD",
+            "customers": 371,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-07 00:40 MST",
+            "etr": "2026-09-07 02:51 MST"
+        },
+        {
+            "latitude": 33.4999082812613,
+            "longitude": -112.029390913108,
+            "boundary": "N 20TH  ST TO N 28TH  ST AND E CAMPBELL  AVE TO E INDIAN SCHOOL  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-06 18:36 MST",
+            "etr": "2026-09-07 02:30 MST"
+        },
+        {
+            "latitude": 33.51641222632005,
+            "longitude": -112.155132939119,
+            "boundary": "N GRAND  AVE TO N 43RD  AVE AND W BETHANY HOME  RD TO W GRAND  AVE",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-06 23:37 MST",
+            "etr": "2026-09-07 03:30 MST"
+        }
+    ]
+}
