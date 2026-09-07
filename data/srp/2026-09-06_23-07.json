@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-06 23:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.1435721314557,
+            "longitude": -111.52283363381599,
+            "boundary": "N TOURMALINE  DR TO N SIERRA VISTA  DR AND E JUDD  RD TO E MAGMA  RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-06 19:00 MST",
+            "etr": "2026-09-07 01:42 MST"
+        },
+        {
+            "latitude": 33.4999082812613,
+            "longitude": -112.029390913108,
+            "boundary": "N 20TH  ST TO N 28TH  ST AND E CAMPBELL  AVE TO E INDIAN SCHOOL  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-06 18:36 MST",
+            "etr": "2026-09-07 01:30 MST"
+        }
+    ]
+}
