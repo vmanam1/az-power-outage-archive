@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-06 17:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 33.49312550974795,
+            "longitude": -111.9767088685075,
+            "boundary": "N 44TH  ST TO N 52ND  ST AND E CAMPBELL  AVE TO E OSBORN  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-06 17:02 MST",
+            "etr": "2026-09-06 18:39 MST"
+        }
+    ]
+}
