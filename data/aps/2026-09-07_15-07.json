@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-07 15:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 32.633668230016305,
+            "longitude": -114.40696744787438,
+            "city": "Yuma",
+            "boundary": "E 52nd Dr",
+            "customers": 8,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-07 07:21:00 MST",
+            "etr": "2026-09-07 10:45:00 MST"
+        },
+        {
+            "latitude": 34.922937605701094,
+            "longitude": -110.14887944709238,
+            "city": "Holbrook",
+            "boundary": "1st Ave. and Hill Top St. to Hermosa Rd.",
+            "customers": 10,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-07 07:54:00 MST",
+            "etr": "2026-09-07 11:15:00 MST"
+        }
+    ]
+}
