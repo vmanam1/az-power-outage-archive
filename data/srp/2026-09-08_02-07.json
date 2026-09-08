@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-08 02:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 32
+    },
+    "outages": [
+        {
+            "latitude": 33.388163987699556,
+            "longitude": -111.9754132197385,
+            "boundary": "S 48TH  ST TO S WENDLER  DR AND W SOUTHERN  AVE TO W VINEYARD  RD",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-08 01:13 MST",
+            "etr": "2026-09-08 03:20 MST"
+        }
+    ]
+}
