@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-08 15:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 69
+    },
+    "outages": [
+        {
+            "latitude": 33.5573437470088,
+            "longitude": -111.9396763298252,
+            "city": "Paradise Valley",
+            "boundary": "El Maro Cr. and Invergordon Rd",
+            "customers": 23,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-08 01:04:00 MST",
+            "etr": "2026-09-08 08:30:00 MST"
+        },
+        {
+            "latitude": 33.449684604989,
+            "longitude": -112.10427979386752,
+            "city": "Phoenix",
+            "boundary": "Van Buren St. to Washington St. and Black Canyon Hwy. to 19th Ave.",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-08 05:15:00 MST",
+            "etr": "2026-09-08 08:45:00 MST"
+        },
+        {
+            "latitude": 34.77443760891523,
+            "longitude": -112.04823084901933,
+            "city": "Clarkdale",
+            "boundary": "Siesta St. to S Broadway and Luke Ln. to Tuzigoot Rd.",
+            "customers": 26,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-08 05:23:00 MST",
+            "etr": "2026-09-08 08:55:00 MST"
+        }
+    ]
+}
