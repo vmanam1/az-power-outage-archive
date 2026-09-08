@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-07 19:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.4543880299714,
+            "longitude": -111.8269834519945,
+            "boundary": "N CENTER  ST TO N MESA  DR AND W RED MOUNTAIN  FWY TO E MCKELLIPS  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-07 17:56 MST",
+            "etr": "2026-09-07 19:53 MST"
+        }
+    ]
+}
