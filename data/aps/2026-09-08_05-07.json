@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-08 05:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 190
+    },
+    "outages": [
+        {
+            "latitude": 34.625358987774696,
+            "longitude": -112.31262216082165,
+            "city": "Prescott Valley",
+            "boundary": "Long Mesa Dr to Adobe Ln and Hondo Dr to Ranger Rd",
+            "customers": 185,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-07 20:26:00 MST",
+            "etr": "2026-09-08 00:00:00 MST"
+        },
+        {
+            "latitude": 33.55077592511309,
+            "longitude": -112.06728957705414,
+            "city": "Phoenix",
+            "boundary": "Winter Dr to Hayward Ave and 6th St",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-07 20:01:00 MST",
+            "etr": "2026-09-07 23:00:00 MST"
+        }
+    ]
+}
