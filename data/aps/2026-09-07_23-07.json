@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-07 23:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 72
+    },
+    "outages": [
+        {
+            "latitude": 33.64889362894799,
+            "longitude": -112.11636963626987,
+            "city": "Phoenix",
+            "boundary": "Michigan Ave to Grovers Ave and 27th Ave to Black Canyon Hwy",
+            "customers": 72,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-07 15:24:00 MST",
+            "etr": "2026-09-07 18:30:00 MST"
+        }
+    ]
+}

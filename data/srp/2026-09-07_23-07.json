@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-07 23:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1964
+    },
+    "outages": [
+        {
+            "latitude": 33.36072815015045,
+            "longitude": -111.954509044326,
+            "boundary": "S MARICOPA  FWY TO S MILL  AVE AND E CALLE SONORA   TO W ELLIOT  RD",
+            "customers": 1931,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-07 21:38 MST",
+            "etr": "2026-09-07 23:47 MST"
+        },
+        {
+            "latitude": 33.381044262611695,
+            "longitude": -111.860335170922,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W SUPERSTITION  FWY TO W BASELINE  RD",
+            "customers": 33,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-07 21:51 MST",
+            "etr": "2026-09-07 23:55 MST"
+        }
+    ]
+}
