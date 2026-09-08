@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-08 13:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 8,
+        "total_customers": 57961
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 31.89622316122695,
+            "longitude": -110.99583652125881,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": null,
+            "boundary": "Green Valley",
+            "start_time": "2026-09-08 12:28:46 MST",
+            "etr": null,
+            "incident_id": "389249"
+        },
+        {
+            "latitude": 32.49677366698099,
+            "longitude": -111.10767677414725,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Pinal County West",
+            "start_time": "2026-09-08 13:04:01 MST",
+            "etr": null,
+            "incident_id": "389250"
+        }
+    ]
+}
