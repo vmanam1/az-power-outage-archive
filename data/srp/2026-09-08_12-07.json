@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-08 12:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 33.4668533619581,
+            "longitude": -111.9946638042165,
+            "boundary": "N 36TH  ST TO N 44TH  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-08 08:12 MST",
+            "etr": "2026-09-08 14:35 MST"
+        },
+        {
+            "latitude": 33.2211653964362,
+            "longitude": -111.80061083961999,
+            "boundary": "S COOPER  RD TO S RIGGS RANCH  RD AND E CLOUD  DR TO E RIGGS  RD",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-08 09:13 MST",
+            "etr": "2026-09-08 14:12 MST"
+        },
+        {
+            "latitude": 33.3684874603552,
+            "longitude": -112.07246482311649,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND E BASELINE  RD TO E DOBBINS  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-08 11:00 MST",
+            "etr": "2026-09-08 12:58 MST"
+        },
+        {
+            "latitude": 33.39565602517195,
+            "longitude": -111.6629699770765,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E PUEBLO  AVE TO E SOUTHERN  AVE",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-08 11:22 MST",
+            "etr": "2026-09-08 13:20 MST"
+        }
+    ]
+}

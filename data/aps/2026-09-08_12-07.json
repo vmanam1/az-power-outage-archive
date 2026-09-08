@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-08 12:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 55
+    },
+    "outages": [
+        {
+            "latitude": 33.5573437470088,
+            "longitude": -111.9396763298252,
+            "city": "Paradise Valley",
+            "boundary": "El Maro Cr. and Invergordon Rd",
+            "customers": 23,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-08 01:04:00 MST",
+            "etr": "2026-09-08 07:30:00 MST"
+        },
+        {
+            "latitude": 33.47018834820866,
+            "longitude": -112.03600495407227,
+            "city": "Phoenix",
+            "boundary": "Monte Vista Rd. to Palm Ln. and 21st St. to 21st Pl.",
+            "customers": 14,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-08 03:09:00 MST",
+            "etr": "2026-09-08 05:45:00 MST"
+        },
+        {
+            "latitude": 33.83408457574263,
+            "longitude": -112.64313618795035,
+            "city": "Morristown",
+            "boundary": "West Rising Star Way to West Rice Rd and North 271st Ave",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-08 04:15:00 MST",
+            "etr": "2026-09-08 06:00:00 MST"
+        }
+    ]
+}
