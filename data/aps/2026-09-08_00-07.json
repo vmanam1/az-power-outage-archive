@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-08 00:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 90
+    },
+    "outages": [
+        {
+            "latitude": 33.441699692667264,
+            "longitude": -112.35607449666628,
+            "city": "Goodyear",
+            "boundary": "Windsor Dr. to San Xavier Ave. and Crescent Dr. to 3rd Ave.",
+            "customers": 90,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-07 16:22:00 MST",
+            "etr": "2026-09-07 19:25:00 MST"
+        }
+    ]
+}
