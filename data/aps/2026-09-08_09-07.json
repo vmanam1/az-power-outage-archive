@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-08 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 113
+    },
+    "outages": [
+        {
+            "latitude": 33.5573437470088,
+            "longitude": -111.9396763298252,
+            "city": "Paradise Valley",
+            "boundary": "El Maro Cr. and Invergordon Rd",
+            "customers": 23,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-08 01:04:00 MST",
+            "etr": "2026-09-08 07:30:00 MST"
+        },
+        {
+            "latitude": 33.5528553967338,
+            "longitude": -111.8973061018769,
+            "city": "Scottsdale",
+            "boundary": "Via de Ventura to Via Paseo Del Norte and Hayden Rd. to Pima Rd.",
+            "customers": 25,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-08 01:58:00 MST",
+            "etr": "2026-09-08 05:20:00 MST"
+        },
+        {
+            "latitude": 33.61259437223189,
+            "longitude": -112.12343342442051,
+            "city": "Phoenix",
+            "boundary": "West Hearn Rd to West Thunderbird Rd and North 31st Ave to North 30th Ave",
+            "customers": 65,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-08 02:03:00 MST",
+            "etr": "2026-09-08 04:45:00 MST"
+        }
+    ]
+}
