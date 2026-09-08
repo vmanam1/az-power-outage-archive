@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-08 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 33.6478300528785,
+            "longitude": -112.38846181333747,
+            "city": "Surprise",
+            "boundary": "W Pasadena Dr.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-08 00:31:00 MST",
+            "etr": "2026-09-08 02:00:00 MST"
+        },
+        {
+            "latitude": 33.46090589009068,
+            "longitude": -112.02847821105513,
+            "city": "Phoenix",
+            "boundary": "Red Mountain Freeway to Portland St and 24th Place to 25th St",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-08 01:00:00 MST",
+            "etr": "2026-09-08 03:00:00 MST"
+        }
+    ]
+}
