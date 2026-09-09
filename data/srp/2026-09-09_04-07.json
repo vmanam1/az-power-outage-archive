@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-09 04:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.43288058992886,
+            "longitude": -112.2970491991925,
+            "boundary": "S AVONDALE  BLVD TO S 107TH  AVE AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-09 03:30 MST",
+            "etr": "2026-09-09 05:28 MST"
+        }
+    ]
+}
