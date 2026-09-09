@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-09 07:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 87
+    },
+    "outages": [
+        {
+            "latitude": 33.43288058992886,
+            "longitude": -112.2970491991925,
+            "boundary": "S AVONDALE  BLVD TO S 107TH  AVE AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-09 03:30 MST",
+            "etr": "2026-09-09 10:44 MST"
+        },
+        {
+            "latitude": 33.46796194047455,
+            "longitude": -112.196916702756,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W ENCANTO  BLVD TO W PAPAGO  FWY",
+            "customers": 47,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-09 05:46 MST",
+            "etr": "2026-09-09 07:47 MST"
+        },
+        {
+            "latitude": 33.3974581958372,
+            "longitude": -111.72603268261051,
+            "boundary": "S GREENFIELD  RD TO S HIGLEY  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-09 06:01 MST",
+            "etr": "2026-09-09 08:03 MST"
+        }
+    ]
+}
