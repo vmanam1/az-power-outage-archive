@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-09 11:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 33.59929737292446,
+            "longitude": -111.9395351595783,
+            "city": "Scottsdale",
+            "boundary": "Larkspur Dr. to Cactus Rd. and 65th Pl. to 66th St.",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-09 01:36:00 MST",
+            "etr": "2026-09-09 06:00:00 MST"
+        },
+        {
+            "latitude": 33.46848812324331,
+            "longitude": -112.03520154130635,
+            "city": "Phoenix",
+            "boundary": "East Palm Ln to East Coronado Rd and North 21st Pl to North 22nd St",
+            "customers": 19,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-09 02:05:00 MST",
+            "etr": "2026-09-09 05:00:00 MST"
+        },
+        {
+            "latitude": 33.68248274535874,
+            "longitude": -112.08786931995158,
+            "city": "Phoenix",
+            "boundary": "West Deer Valley Rd to West Melinda Ln and North 12th Ave",
+            "customers": 9,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-09 02:58:00 MST",
+            "etr": "2026-09-09 05:45:00 MST"
+        }
+    ]
+}
