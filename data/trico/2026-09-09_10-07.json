@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-09 10:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 10,
+        "total_customers": 57960
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 31.97782373770377,
+            "longitude": -110.71582266400694,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-09 08:00:00 MST",
+            "etr": "2026-09-09 12:00:00 MST",
+            "incident_id": "389231"
+        },
+        {
+            "latitude": 31.977816117715875,
+            "longitude": -110.71707132225204,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-09 08:00:00 MST",
+            "etr": "2026-09-09 12:00:00 MST",
+            "incident_id": "389232"
+        }
+    ]
+}
