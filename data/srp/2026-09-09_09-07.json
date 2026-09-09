@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-09 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 111
+    },
+    "outages": [
+        {
+            "latitude": 33.43288058992886,
+            "longitude": -112.2970491991925,
+            "boundary": "S AVONDALE  BLVD TO S 107TH  AVE AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-09 03:30 MST",
+            "etr": "2026-09-09 10:44 MST"
+        },
+        {
+            "latitude": 33.46761841043375,
+            "longitude": -112.19634070119,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W ENCANTO  BLVD TO W PAPAGO  FWY",
+            "customers": 21,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-09 05:46 MST",
+            "etr": "2026-09-09 12:00 MST"
+        },
+        {
+            "latitude": 33.4118820812719,
+            "longitude": -111.6463554214455,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-09 08:01 MST",
+            "etr": "2026-09-09 11:00 MST"
+        },
+        {
+            "latitude": 33.45543811778521,
+            "longitude": -111.776442480773,
+            "boundary": "N 24TH  ST TO N LINDSAY  RD AND E HERMOSA VISTA  DR TO E MCKELLIPS  RD",
+            "customers": 21,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-09 08:01 MST",
+            "etr": "2026-09-09 10:30 MST"
+        },
+        {
+            "latitude": 33.45081718693865,
+            "longitude": -112.2591110111965,
+            "boundary": "N 95TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-09 08:22 MST",
+            "etr": "2026-09-09 10:30 MST"
+        },
+        {
+            "latitude": 33.37579116077135,
+            "longitude": -112.121286561392,
+            "boundary": "S 31ST  AVE TO S 27TH  AVE AND W VINEYARD  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-09 08:24 MST",
+            "etr": "2026-09-09 10:21 MST"
+        },
+        {
+            "latitude": 33.43292610954945,
+            "longitude": -112.294413174986,
+            "boundary": "S AVONDALE  BLVD TO S 107TH  AVE AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 32,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-09 08:47 MST",
+            "etr": "2026-09-09 10:43 MST"
+        },
+        {
+            "latitude": 33.41933756081405,
+            "longitude": -111.890120361149,
+            "boundary": "S SMITH  RD TO S EVERGREEN  RD AND E UNIVERSITY  DR TO E APACHE  BLVD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-09 08:47 MST",
+            "etr": "2026-09-09 11:30 MST"
+        },
+        {
+            "latitude": 33.2461110604643,
+            "longitude": -111.762381728853,
+            "boundary": "S LINDSAY  RD TO S VAL VISTA  DR AND E OCOTILLO  RD TO E BROOKS FARM  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-09 08:58 MST",
+            "etr": "2026-09-09 10:30 MST"
+        }
+    ]
+}

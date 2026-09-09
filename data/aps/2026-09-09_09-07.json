@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-09 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 85
+    },
+    "outages": [
+        {
+            "latitude": 33.60865269295645,
+            "longitude": -112.07237377386427,
+            "city": "Phoenix",
+            "boundary": "East Eugie Ave to East Thunderbird Rd and North 1st St to North 3rd St",
+            "customers": 35,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-09 00:53:00 MST",
+            "etr": "2026-09-09 03:20:00 MST"
+        },
+        {
+            "latitude": 33.86298497072811,
+            "longitude": -112.6351733326257,
+            "city": "Morristown",
+            "boundary": "West Carefree Highway and US 60",
+            "customers": 37,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-09 01:02:00 MST",
+            "etr": "2026-09-09 04:00:00 MST"
+        },
+        {
+            "latitude": 33.59929737292446,
+            "longitude": -111.9395351595783,
+            "city": "Scottsdale",
+            "boundary": "Larkspur Dr. to Cactus Rd. and 65th Pl. to 66th St.",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-09 01:36:00 MST",
+            "etr": "2026-09-09 06:00:00 MST"
+        }
+    ]
+}
