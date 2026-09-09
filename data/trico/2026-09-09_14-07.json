@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-09 14:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 710,
+        "total_customers": 57960
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.55366339706308,
+            "longitude": -110.85521424666317,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Pinal County East",
+            "start_time": "2026-09-09 13:42:38 MST",
+            "etr": null,
+            "incident_id": "389275"
+        },
+        {
+            "latitude": 31.948405872911426,
+            "longitude": -110.77368315146514,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-09 13:40:46 MST",
+            "etr": null,
+            "incident_id": "389273"
+        },
+        {
+            "latitude": 31.951874012739168,
+            "longitude": -110.75827704434033,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-09 11:29:29 MST",
+            "etr": null,
+            "incident_id": "389263"
+        },
+        {
+            "latitude": 31.96176701957131,
+            "longitude": -110.78905332597856,
+            "customers": 699,
+            "cause": "Pending Investigation",
+            "comments": "Crews are on scene and determining the exact cause, updates to follow.",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-09 13:40:46 MST",
+            "etr": null,
+            "incident_id": "389271"
+        }
+    ]
+}
