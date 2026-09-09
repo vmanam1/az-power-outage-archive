@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-09 13:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 33.57446310168601,
+            "longitude": -112.0536311351302,
+            "city": "Phoenix",
+            "boundary": "Mountain View Rd. and 13th St. to 14th St.",
+            "customers": 45,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-09 05:32:00 MST",
+            "etr": "2026-09-09 08:20:00 MST"
+        },
+        {
+            "latitude": 33.666213249965836,
+            "longitude": -112.23413579120444,
+            "city": "Peoria",
+            "boundary": "Beardsley Rd. and 83rd Ave.",
+            "customers": 17,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-09 05:35:00 MST",
+            "etr": "2026-09-09 08:15:00 MST"
+        }
+    ]
+}
