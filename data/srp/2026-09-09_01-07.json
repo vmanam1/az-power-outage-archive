@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-09 01:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.3394387380347,
+            "longitude": -111.663035468845,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E ELLIOT  RD TO E SANTAN  FWY",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-08 20:46 MST",
+            "etr": "2026-09-09 03:00 MST"
+        }
+    ]
+}
