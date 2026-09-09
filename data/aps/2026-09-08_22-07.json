@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-08 22:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 11
+    },
+    "outages": [
+        {
+            "latitude": 32.878771370299845,
+            "longitude": -111.73821544601962,
+            "city": "Casa Grande",
+            "boundary": "Love St to 6th St and Amarillo St to Pueblo Dr",
+            "customers": 11,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-09-08 14:17:00 MST",
+            "etr": "2026-09-08 17:30:00 MST"
+        }
+    ]
+}

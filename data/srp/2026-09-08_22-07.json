@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-08 22:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.3394387380347,
+            "longitude": -111.663035468845,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E ELLIOT  RD TO E SANTAN  FWY",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-08 20:46 MST",
+            "etr": "2026-09-09 03:00 MST"
+        },
+        {
+            "latitude": 33.4966994135795,
+            "longitude": -112.122928462235,
+            "boundary": "GRAND  AVE TO N 27TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-08 20:00 MST",
+            "etr": "2026-09-09 01:00 MST"
+        }
+    ]
+}
