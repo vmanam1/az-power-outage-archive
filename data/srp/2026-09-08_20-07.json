@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-08 20:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 33.4966994135795,
+            "longitude": -112.122928462235,
+            "boundary": "GRAND  AVE TO N 27TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-08 20:00 MST",
+            "etr": "2026-09-08 21:58 MST"
+        }
+    ]
+}
