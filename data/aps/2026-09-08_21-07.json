@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-08 21:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 33.67692675489362,
+            "longitude": -112.21925207777574,
+            "city": "Glendale",
+            "boundary": "Aurora Dr. to Rose Garden Ln. and 75th Ave. to 73rd Ave.",
+            "customers": 8,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-08 09:03:00 MST",
+            "etr": "2026-09-08 15:00:00 MST"
+        },
+        {
+            "latitude": 35.198832010979665,
+            "longitude": -111.65712608839074,
+            "city": "Flagstaff",
+            "boundary": "Grand Canyon Ave to Coconino Ave and Sycamore St to Walnut St",
+            "customers": 33,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-08 13:09:00 MST",
+            "etr": "2026-09-08 16:35:00 MST"
+        }
+    ]
+}

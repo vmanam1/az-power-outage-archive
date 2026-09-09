@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-08 21:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 32
+    },
+    "outages": [
+        {
+            "latitude": 33.412428492595254,
+            "longitude": -111.56393692742401,
+            "boundary": "S DELAWARE  DR TO S SAN MARCOS  DR AND W SUPERSTITION  BLVD TO W BROADWAY  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-08 20:36 MST",
+            "etr": "2026-09-08 22:32 MST"
+        },
+        {
+            "latitude": 33.3394387380347,
+            "longitude": -111.663035468845,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E ELLIOT  RD TO E SANTAN  FWY",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-08 20:46 MST",
+            "etr": "2026-09-09 03:00 MST"
+        },
+        {
+            "latitude": 33.4966994135795,
+            "longitude": -112.122928462235,
+            "boundary": "GRAND  AVE TO N 27TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-08 20:00 MST",
+            "etr": "2026-09-08 22:32 MST"
+        }
+    ]
+}
