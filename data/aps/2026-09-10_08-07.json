@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-10 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 33.725950261299495,
+            "longitude": -111.9826185447593,
+            "city": "Phoenix",
+            "boundary": "East Rowel Rd and North 45th St to North 45th Pl",
+            "customers": 15,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 00:29:00 MST",
+            "etr": "2026-09-10 02:15:00 MST"
+        }
+    ]
+}
