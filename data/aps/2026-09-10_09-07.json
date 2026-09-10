@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-10 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 158
+    },
+    "outages": [
+        {
+            "latitude": 33.59617022134895,
+            "longitude": -111.98722250581184,
+            "city": "Phoenix",
+            "boundary": "North Paradise Vlg Pkwy South to East Paradise Dr and East Cactus Rd",
+            "customers": 21,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 01:36:00 MST",
+            "etr": "2026-09-10 04:15:00 MST"
+        },
+        {
+            "latitude": 34.181542129037744,
+            "longitude": -111.34484852987626,
+            "city": "Payson",
+            "boundary": "Vera Ln. to Johnson Ln. and Anderson Ln. to Oxbow Trl.",
+            "customers": 108,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 01:36:00 MST",
+            "etr": "2026-09-10 06:00:00 MST"
+        },
+        {
+            "latitude": 33.61469104671244,
+            "longitude": -112.04174555884369,
+            "city": "Phoenix",
+            "boundary": "East Hearn Rd to East Sheena Dr and North 18th St to North 20th St",
+            "customers": 29,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-10 01:42:00 MST",
+            "etr": "2026-09-10 05:30:00 MST"
+        }
+    ]
+}

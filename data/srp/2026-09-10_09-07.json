@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-10 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 76
+    },
+    "outages": [
+        {
+            "latitude": 33.4215827885745,
+            "longitude": -111.648457091479,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E ADOBE  RD TO E MAIN  ST",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-10 07:26 MST",
+            "etr": "2026-09-10 10:30 MST"
+        },
+        {
+            "latitude": 33.41842721210175,
+            "longitude": -111.5754818271875,
+            "boundary": "N MERIDIAN  RD TO N DELAWARE  DR AND W SUPERSTITION  BLVD TO W APACHE  TRL",
+            "customers": 19,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-10 07:54 MST",
+            "etr": "2026-09-10 11:00 MST"
+        },
+        {
+            "latitude": 33.409764631053605,
+            "longitude": -111.676417223655,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E MAIN  ST TO E PUEBLO  AVE",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-10 08:20 MST",
+            "etr": "2026-09-10 12:18 MST"
+        },
+        {
+            "latitude": 33.4110738475241,
+            "longitude": -111.6478707156545,
+            "boundary": "S 80TH  ST TO N 88TH  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-10 08:27 MST",
+            "etr": "2026-09-10 12:25 MST"
+        },
+        {
+            "latitude": 33.411623428951,
+            "longitude": -111.64763618747699,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-10 08:47 MST",
+            "etr": "2026-09-10 12:41 MST"
+        },
+        {
+            "latitude": 33.454511208027895,
+            "longitude": -112.2575532168,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 35,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-10 06:27 MST",
+            "etr": "2026-09-10 10:08 MST"
+        }
+    ]
+}
