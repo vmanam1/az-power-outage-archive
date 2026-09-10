@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-10 10:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 114
+    },
+    "outages": [
+        {
+            "latitude": 34.181542129037744,
+            "longitude": -111.34484852987626,
+            "city": "Payson",
+            "boundary": "Vera Ln. to Johnson Ln. and Anderson Ln. to Oxbow Trl.",
+            "customers": 108,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 01:36:00 MST",
+            "etr": "2026-09-10 06:00:00 MST"
+        },
+        {
+            "latitude": 33.648374135738,
+            "longitude": -112.0465020619163,
+            "city": "Phoenix",
+            "boundary": "Michelle Dr to Charleston Ave and 16th St to 17th Way",
+            "customers": 6,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-10 02:08:00 MST",
+            "etr": "2026-09-10 05:00:00 MST"
+        }
+    ]
+}
