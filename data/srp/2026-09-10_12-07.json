@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-10 12:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 96
+    },
+    "outages": [
+        {
+            "latitude": 33.3349549222927,
+            "longitude": -111.929096021829,
+            "boundary": "S MILL  AVE TO S LAKESHORE  DR AND E CARVER  RD TO E KNOX  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-10 09:17 MST",
+            "etr": "2026-09-10 14:15 MST"
+        },
+        {
+            "latitude": 33.8027689971614,
+            "longitude": -111.23297913222001,
+            "boundary": "N HWY 188   TO EASTERN BOUNDS OF SERVICE TERRITORY AND NORTHERN BOUNDS OF SERVICE TERRITORY TO UNKNOWN",
+            "customers": 94,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-10 11:08 MST",
+            "etr": "2026-09-10 14:00 MST"
+        },
+        {
+            "latitude": 33.8110659905888,
+            "longitude": -111.266361450247,
+            "boundary": "N HWY 188   TO UNKNOWN AND NORTHERN BOUNDS OF SERVICE TERRITORY TO HWY 188  ",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-10 11:08 MST",
+            "etr": "2026-09-10 14:00 MST"
+        }
+    ]
+}

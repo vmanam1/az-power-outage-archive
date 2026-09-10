@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-10 12:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 11
+    },
+    "outages": [
+        {
+            "latitude": 33.648374135738,
+            "longitude": -112.0465020619163,
+            "city": "Phoenix",
+            "boundary": "Michelle Dr to Charleston Ave and 16th St to 17th Way",
+            "customers": 6,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-10 02:08:00 MST",
+            "etr": "2026-09-10 06:00:00 MST"
+        },
+        {
+            "latitude": 33.871440999965024,
+            "longitude": -111.30550500010631,
+            "city": "Tonto Basin",
+            "boundary": "Village of Rye to Cline Blvd and Highway 87 to Tonto Creek",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-10 03:57:00 MST",
+            "etr": "2026-09-10 07:00:00 MST"
+        }
+    ]
+}
