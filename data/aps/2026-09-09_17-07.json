@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-09 17:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 35.83699335118725,
+            "longitude": -110.23193251474581,
+            "city": "Keams Canyon",
+            "boundary": "Arizona State Highway 264",
+            "customers": 6,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-09 08:43:00 MST",
+            "etr": "2026-09-09 12:05:00 MST"
+        }
+    ]
+}
