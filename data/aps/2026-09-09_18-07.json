@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-09 18:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 976
+    },
+    "outages": [
+        {
+            "latitude": 35.83699335118725,
+            "longitude": -110.23193251474581,
+            "city": "Keams Canyon",
+            "boundary": "Arizona State Highway 264",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-09 08:43:00 MST",
+            "etr": "2026-09-09 12:05:00 MST"
+        },
+        {
+            "latitude": 33.567249599826724,
+            "longitude": -112.30886699991478,
+            "city": "Youngtown",
+            "boundary": "Fooks Dr  To Glen Harbor Blvd And 125Th Ave To 103Rd Ave",
+            "customers": 970,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-09 10:35:00 MST",
+            "etr": "2026-09-09 14:35:00 MST"
+        }
+    ]
+}
