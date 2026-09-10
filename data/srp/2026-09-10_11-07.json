@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-10 11:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.3349549222927,
+            "longitude": -111.929096021829,
+            "boundary": "S MILL  AVE TO S LAKESHORE  DR AND E CARVER  RD TO E KNOX  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-10 09:17 MST",
+            "etr": "2026-09-10 11:15 MST"
+        }
+    ]
+}
