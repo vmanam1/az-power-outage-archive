@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-10 00:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 33.567249599826724,
+            "longitude": -112.30886699991478,
+            "city": "Youngtown",
+            "boundary": "Fooks Dr  To Glen Harbor Blvd And 125Th Ave To 103Rd Ave",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-09 10:35:00 MST",
+            "etr": "2026-09-09 19:00:00 MST"
+        },
+        {
+            "latitude": 32.92265998509381,
+            "longitude": -111.7546749742383,
+            "city": "Casa Grande",
+            "boundary": "Rodeo Rd to Center Ave and Pinal Ave Iowa Ct",
+            "customers": 30,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-09 16:17:00 MST",
+            "etr": "2026-09-09 17:40:00 MST"
+        }
+    ]
+}
