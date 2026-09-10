@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-09 19:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.567249599826724,
+            "longitude": -112.30886699991478,
+            "city": "Youngtown",
+            "boundary": "Fooks Dr  To Glen Harbor Blvd And 125Th Ave To 103Rd Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-09 10:35:00 MST",
+            "etr": "2026-09-09 13:00:00 MST"
+        }
+    ]
+}
