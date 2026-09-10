@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-09 21:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 111
+    },
+    "outages": [
+        {
+            "latitude": 33.567249599826724,
+            "longitude": -112.30886699991478,
+            "city": "Youngtown",
+            "boundary": "Fooks Dr  To Glen Harbor Blvd And 125Th Ave To 103Rd Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-09 10:35:00 MST",
+            "etr": "2026-09-09 16:00:00 MST"
+        },
+        {
+            "latitude": 33.65309154298706,
+            "longitude": -112.3649378052654,
+            "city": "Sun City West",
+            "boundary": "Pennystone Dr and Summerstar Dr",
+            "customers": 27,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-09 13:41:00 MST",
+            "etr": "2026-09-09 16:30:00 MST"
+        },
+        {
+            "latitude": 31.423343470274286,
+            "longitude": -109.89375738987114,
+            "city": "Bisbee",
+            "boundary": "Mason Addition Rd to Lowell Ave and Hwy 91 to Hillside Ave",
+            "customers": 77,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-09 13:33:00 MST",
+            "etr": "2026-09-09 17:15:00 MST"
+        }
+    ]
+}
