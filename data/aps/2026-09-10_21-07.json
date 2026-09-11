@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-10 21:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 86
+    },
+    "outages": [
+        {
+            "latitude": 33.471063815684495,
+            "longitude": -112.11381804536718,
+            "city": "Phoenix",
+            "boundary": "Holly St to Coronado Rd and 27th Ave to 25th Dr",
+            "customers": 42,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 13:08:00 MST",
+            "etr": "2026-09-10 21:30:00 MST"
+        },
+        {
+            "latitude": 33.822473615963276,
+            "longitude": -111.87597760330867,
+            "city": "Scottsdale",
+            "boundary": "Cave Creek Rd to Venus Dr and Stardust Ln",
+            "customers": 36,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-10 13:20:00 MST",
+            "etr": "2026-09-11 16:15:00 MST"
+        },
+        {
+            "latitude": 33.63641025115939,
+            "longitude": -112.12636426876479,
+            "city": "Phoenix",
+            "boundary": "Sandra Tr and 31st Ave",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 13:32:00 MST",
+            "etr": "2026-09-11 16:25:00 MST"
+        }
+    ]
+}
