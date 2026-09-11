@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-11 14:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 290
+    },
+    "outages": [
+        {
+            "latitude": 32.693033126859206,
+            "longitude": -114.65577030443283,
+            "city": "Yuma",
+            "boundary": "Rome St to 20th St and Athens Ave to Naples Ave",
+            "customers": 28,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-11 05:59:00 MST",
+            "etr": "2026-09-11 09:40:00 MST"
+        },
+        {
+            "latitude": 34.88916408029652,
+            "longitude": -110.18516077277235,
+            "city": "Holbrook",
+            "boundary": "Dewitt Rd to McLaws Rd and Heywood Ave to Whiting Ave",
+            "customers": 262,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-11 06:36:00 MST",
+            "etr": "2026-09-11 10:00:00 MST"
+        }
+    ]
+}
