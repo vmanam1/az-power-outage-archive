@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-09-11 13:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 69,
+        "total_customers": 46017
+    },
+    "outages": [
+        {
+            "latitude": 34.271927856286915,
+            "longitude": -110.107627283962,
+            "customers": 69,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-09-11 12:53:37 MST",
+            "etr": null,
+            "incident_id": "534174"
+        }
+    ]
+}
