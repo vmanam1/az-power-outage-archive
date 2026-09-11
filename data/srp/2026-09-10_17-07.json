@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-10 17:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.504358225276846,
+            "longitude": -112.121743913656,
+            "boundary": "N 31ST  AVE TO N 27TH  AVE AND W CAMELBACK  RD TO W CAMPBELL  AVE",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-10 17:01 MST",
+            "etr": "2026-09-10 18:34 MST"
+        }
+    ]
+}
