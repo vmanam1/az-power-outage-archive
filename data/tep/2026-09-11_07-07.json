@@ -1,0 +1,162 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-09-11 07:07:21 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 19,
+        "map_last_refreshed": "Sep 11, 7:05 AM"
+    },
+    "outages": [
+        {
+            "latitude": 32.204759728678674,
+            "longitude": -110.88106855240615,
+            "boundary": {
+                "coordLatSW": "32.204553374520401",
+                "coordLngSW": "-110.881750207387",
+                "coordLatNE": "32.204922277730297",
+                "coordLngNE": "-110.88050191121999",
+                "coordLatCenter": "32.204735",
+                "coordLngCenter": "-110.88113"
+            },
+            "customers": 12,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-09-11 06:57 MST",
+            "etr": "2026-09-11 08:57 MST",
+            "event": "Planned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-09-11 07:00 MST"
+        },
+        {
+            "latitude": 32.20472086487026,
+            "longitude": -110.88224319201757,
+            "boundary": {
+                "coordLatSW": "32.204555749530002",
+                "coordLngSW": "-110.88259078864101",
+                "coordLatNE": "32.204935921386003",
+                "coordLngNE": "-110.881880402295",
+                "coordLatCenter": "32.204746",
+                "coordLngCenter": "-110.88223"
+            },
+            "customers": 7,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-09-11 06:57 MST",
+            "etr": "2026-09-11 08:58 MST",
+            "event": "Planned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-09-11 07:00 MST"
+        },
+        {
+            "latitude": 32.2354003054151,
+            "longitude": -110.943589195467,
+            "boundary": {
+                "coordLatSW": "32.235400305415098",
+                "coordLngSW": "-110.943589195467",
+                "coordLatNE": "32.235400305415098",
+                "coordLngNE": "-110.943589195467",
+                "coordLatCenter": "32.2354",
+                "coordLngCenter": "-110.94359"
+            },
+            "customers": 0,
+            "cause": "Equipment Repair - Replacement",
+            "comments": null,
+            "start_time": "2026-09-10 23:45 MST",
+            "etr": "2026-09-11 02:57 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 30,
+            "last_update": "2026-09-11 03:01 MST"
+        },
+        {
+            "latitude": 32.2972452638978,
+            "longitude": -111.042666848237,
+            "boundary": {
+                "coordLatSW": "32.2972452638978",
+                "coordLngSW": "-111.042666848237",
+                "coordLatNE": "32.2972452638978",
+                "coordLngNE": "-111.042666848237",
+                "coordLatCenter": "32.297245",
+                "coordLngCenter": "-111.04266"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage",
+            "comments": null,
+            "start_time": "2026-09-10 10:34 MST",
+            "etr": "2026-09-10 10:41 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 1085,
+            "last_update": "2026-09-10 14:10 MST"
+        },
+        {
+            "latitude": 32.2972452638978,
+            "longitude": -111.042666848237,
+            "boundary": {
+                "coordLatSW": "32.2972452638978",
+                "coordLngSW": "-111.042666848237",
+                "coordLatNE": "32.2972452638978",
+                "coordLngNE": "-111.042666848237",
+                "coordLatCenter": "32.297245",
+                "coordLngCenter": "-111.04266"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage",
+            "comments": null,
+            "start_time": "2026-09-10 10:28 MST",
+            "etr": "2026-09-10 10:34 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 1085,
+            "last_update": "2026-09-10 10:52 MST"
+        },
+        {
+            "latitude": 32.183600412008495,
+            "longitude": -110.823036191188,
+            "boundary": {
+                "coordLatSW": "32.183600412008495",
+                "coordLngSW": "-110.823036191188",
+                "coordLatNE": "32.183600412008495",
+                "coordLngNE": "-110.823036191188",
+                "coordLatCenter": "32.1836",
+                "coordLngCenter": "-110.82304"
+            },
+            "customers": 0,
+            "cause": "Unable to Determine",
+            "comments": null,
+            "start_time": "2026-09-10 17:46 MST",
+            "etr": "2026-09-10 18:55 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 32,
+            "last_update": "2026-09-10 18:59 MST"
+        },
+        {
+            "latitude": 32.236611904741494,
+            "longitude": -110.935578975916,
+            "boundary": {
+                "coordLatSW": "32.236611904741494",
+                "coordLngSW": "-110.935578975916",
+                "coordLatNE": "32.236611904741494",
+                "coordLngNE": "-110.935578975916",
+                "coordLatCenter": "32.23661",
+                "coordLngCenter": "-110.93558"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage",
+            "comments": null,
+            "start_time": "2026-09-10 15:53 MST",
+            "etr": "2026-09-10 17:15 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 97,
+            "last_update": "2026-09-10 18:20 MST"
+        }
+    ]
+}
