@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-11 12:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 26
+    },
+    "outages": [
+        {
+            "latitude": 32.376897653792916,
+            "longitude": -112.87606834668752,
+            "city": "Ajo",
+            "boundary": "Clymer St to Hoover St and Brannan Dr to Thompson Ave",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 23:22:00 MST",
+            "etr": "2026-09-11 06:30:00 MST"
+        },
+        {
+            "latitude": 33.46925121920105,
+            "longitude": -112.04741466041344,
+            "city": "Phoenix",
+            "boundary": "Palm Ln to Granada Rd and 16th St to 17th St",
+            "customers": 8,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-11 04:05:00 MST",
+            "etr": "2026-09-11 08:00:00 MST"
+        }
+    ]
+}

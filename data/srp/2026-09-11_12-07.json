@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-11 12:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 33.4894614669417,
+            "longitude": -112.176651008622,
+            "boundary": "N 59TH  AVE TO N 51ST  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-11 09:10 MST",
+            "etr": "2026-09-11 14:09 MST"
+        },
+        {
+            "latitude": 33.39957866180575,
+            "longitude": -111.61728926940049,
+            "boundary": "S 96TH  ST TO S CHESHIRE   AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 11:29 MST",
+            "etr": "2026-09-11 14:27 MST"
+        },
+        {
+            "latitude": 33.3770906024976,
+            "longitude": -112.226310693033,
+            "boundary": "S 79TH  AVE TO S 75TH  AVE AND W VINEYARD  RD TO W DOBBINS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 07:41 MST",
+            "etr": "2026-09-11 14:37 MST"
+        },
+        {
+            "latitude": 33.514135592893254,
+            "longitude": -112.0048705724875,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E STANFORD  DR TO E CAMELBACK  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 12:01 MST",
+            "etr": "2026-09-11 14:30 MST"
+        }
+    ]
+}
