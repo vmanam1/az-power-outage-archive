@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-11 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 51
+    },
+    "outages": [
+        {
+            "latitude": 33.37346601262119,
+            "longitude": -112.2247797046375,
+            "boundary": "S 79TH  AVE TO S 75TH  AVE AND W VINEYARD  RD TO W DOBBINS  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 07:41 MST",
+            "etr": "2026-09-11 14:37 MST"
+        },
+        {
+            "latitude": 33.50424888054585,
+            "longitude": -111.898954510539,
+            "boundary": "N HAYDEN  RD TO N PIMA  RD AND E CHAPARRAL  RD TO E CAMELBACK  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 07:49 MST",
+            "etr": "2026-09-11 12:15 MST"
+        },
+        {
+            "latitude": 33.43096848873805,
+            "longitude": -111.6348667008515,
+            "boundary": "N 88TH  ST TO N 96TH  ST AND E BROWN  RD TO E UNIVERSITY  DR",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 07:50 MST",
+            "etr": "2026-09-11 11:30 MST"
+        },
+        {
+            "latitude": 33.4128985879996,
+            "longitude": -111.6457684445055,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 18,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 07:55 MST",
+            "etr": "2026-09-11 12:53 MST"
+        },
+        {
+            "latitude": 33.316006909843196,
+            "longitude": -111.864561182003,
+            "boundary": "N ARROWHEAD  DR TO N ALMA SCHOOL  RD AND W RAY  RD TO W GALVESTON  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 07:56 MST",
+            "etr": "2026-09-11 12:54 MST"
+        }
+    ]
+}
