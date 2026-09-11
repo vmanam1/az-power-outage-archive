@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-11 09:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 33.37346601262119,
+            "longitude": -112.2247797046375,
+            "boundary": "S 79TH  AVE TO S 75TH  AVE AND W VINEYARD  RD TO W DOBBINS  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 07:41 MST",
+            "etr": "2026-09-11 14:37 MST"
+        },
+        {
+            "latitude": 33.43096848873805,
+            "longitude": -111.6348667008515,
+            "boundary": "N 88TH  ST TO N 96TH  ST AND E BROWN  RD TO E UNIVERSITY  DR",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 07:50 MST",
+            "etr": "2026-09-11 11:30 MST"
+        },
+        {
+            "latitude": 33.4128985879996,
+            "longitude": -111.6457684445055,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 18,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 07:55 MST",
+            "etr": "2026-09-11 12:53 MST"
+        },
+        {
+            "latitude": 33.316006909843196,
+            "longitude": -111.864561182003,
+            "boundary": "N ARROWHEAD  DR TO N ALMA SCHOOL  RD AND W RAY  RD TO W GALVESTON  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 07:56 MST",
+            "etr": "2026-09-11 12:54 MST"
+        },
+        {
+            "latitude": 33.4132497719185,
+            "longitude": -111.645853948723,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-11 08:10 MST",
+            "etr": "2026-09-11 12:06 MST"
+        },
+        {
+            "latitude": 33.3944799242247,
+            "longitude": -111.535398973075,
+            "boundary": "S ROYAL PALM  RD TO S TOMAHAWK  RD AND E HONDO  AVE TO E SUPERSTITION  FWY",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 08:24 MST",
+            "etr": "2026-09-11 11:30 MST"
+        },
+        {
+            "latitude": 33.3306412464491,
+            "longitude": -111.87458462491651,
+            "boundary": "N 92ND  ST TO N ARROWHEAD  DR AND W WARNER  RD TO W RAY  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 09:06 MST",
+            "etr": "2026-09-11 11:06 MST"
+        }
+    ]
+}

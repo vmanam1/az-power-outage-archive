@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-11 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 402
+    },
+    "outages": [
+        {
+            "latitude": 32.376897653792916,
+            "longitude": -112.87606834668752,
+            "city": "Ajo",
+            "boundary": "Clymer St to Hoover St and Brannan Dr to Thompson Ave",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 23:22:00 MST",
+            "etr": "2026-09-11 06:30:00 MST"
+        },
+        {
+            "latitude": 33.550668876695696,
+            "longitude": -112.45756551696729,
+            "city": "Litchfield Park",
+            "boundary": "Butler Dr. to Glendale Rd. and White Tanks Mtn. to Reems Rd.",
+            "customers": 384,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-11 01:44:00 MST",
+            "etr": "2026-09-11 04:00:00 MST"
+        }
+    ]
+}
