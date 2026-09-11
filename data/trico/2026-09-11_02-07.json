@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-11 02:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 9,
+        "total_customers": 57977
+    },
+    "outages": [
+        {
+            "latitude": 32.41247500640237,
+            "longitude": -111.07967628673735,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Thornydale",
+            "start_time": "2026-09-10 07:53:11 MST",
+            "etr": null,
+            "incident_id": "389280"
+        },
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.479535282349346,
+            "longitude": -111.10287078737656,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-09-10 12:27:31 MST",
+            "etr": null,
+            "incident_id": "389290"
+        }
+    ]
+}
