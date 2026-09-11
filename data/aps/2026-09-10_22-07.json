@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-10 22:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 63
+    },
+    "outages": [
+        {
+            "latitude": 33.471063815684495,
+            "longitude": -112.11381804536718,
+            "city": "Phoenix",
+            "boundary": "Holly St to Coronado Rd and 27th Ave to 25th Dr",
+            "customers": 42,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 13:08:00 MST",
+            "etr": "2026-09-10 21:30:00 MST"
+        },
+        {
+            "latitude": 33.822473615963276,
+            "longitude": -111.87597760330867,
+            "city": "Scottsdale",
+            "boundary": "Cave Creek Rd to Venus Dr and Stardust Ln",
+            "customers": 10,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-10 13:20:00 MST",
+            "etr": "2026-09-10 16:15:00 MST"
+        },
+        {
+            "latitude": 33.466828125335596,
+            "longitude": -112.12389014497893,
+            "city": "Phoenix",
+            "boundary": "Almeria Rd. and 30th Ave.",
+            "customers": 11,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 14:12:00 MST",
+            "etr": "2026-09-10 17:25:00 MST"
+        }
+    ]
+}
