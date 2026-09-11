@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-11 03:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 33.471063815684495,
+            "longitude": -112.11381804536718,
+            "city": "Phoenix",
+            "boundary": "Holly St to Coronado Rd and 27th Ave to 25th Dr",
+            "customers": 42,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-10 13:08:00 MST",
+            "etr": "2026-09-10 21:30:00 MST"
+        }
+    ]
+}
