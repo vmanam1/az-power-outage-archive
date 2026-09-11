@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-11 05:07:01 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 33.5603735903336,
+            "longitude": -112.2043757182045,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W OLIVE  AVE TO W GRAND  AVE",
+            "customers": 42,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-11 03:40 MST",
+            "etr": "2026-09-11 05:48 MST"
+        }
+    ]
+}
