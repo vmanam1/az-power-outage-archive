@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-12 10:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 35.20052137708236,
+            "longitude": -111.57722580105906,
+            "city": "Flagstaff",
+            "boundary": "Bear Paw Dr. to  Pion Ridge Dr. and Country Club Dr. to Pinon Ridge Dr.",
+            "customers": 25,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-11 23:52:00 MST",
+            "etr": "2026-09-12 03:45:00 MST"
+        }
+    ]
+}
