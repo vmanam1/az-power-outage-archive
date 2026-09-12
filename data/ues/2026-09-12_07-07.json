@@ -1,0 +1,78 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-09-12 07:07:21 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 0,
+        "map_last_refreshed": "Sep 12, 7:05 AM"
+    },
+    "outages": [
+        {
+            "latitude": 31.4679583046221,
+            "longitude": -110.974732215703,
+            "boundary": {
+                "coordLatSW": "31.467958304622101",
+                "coordLngSW": "-110.974732215703",
+                "coordLatNE": "31.467958304622101",
+                "coordLngNE": "-110.974732215703",
+                "coordLatCenter": "31.467958",
+                "coordLngCenter": "-110.97473"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-09-11 20:56 MST",
+            "etr": "2026-09-11 21:10 MST",
+            "event": "Restored",
+            "division": "USE",
+            "customers_restored": 2277,
+            "last_update": "2026-09-11 21:22 MST"
+        },
+        {
+            "latitude": 31.4326037587998,
+            "longitude": -110.955765746913,
+            "boundary": {
+                "coordLatSW": "31.4326037587998",
+                "coordLngSW": "-110.955765746913",
+                "coordLatNE": "31.4326037587998",
+                "coordLngNE": "-110.955765746913",
+                "coordLatCenter": "31.432604",
+                "coordLngCenter": "-110.955765"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Weather",
+            "comments": null,
+            "start_time": "2026-09-11 14:24 MST",
+            "etr": "2026-09-11 15:51 MST",
+            "event": "Restored",
+            "division": "USE",
+            "customers_restored": 59,
+            "last_update": "2026-09-11 15:58 MST"
+        },
+        {
+            "latitude": 31.4708552684436,
+            "longitude": -111.018173072207,
+            "boundary": {
+                "coordLatSW": "31.4708552684436",
+                "coordLngSW": "-111.01817307220701",
+                "coordLatNE": "31.4708552684436",
+                "coordLngNE": "-111.01817307220701",
+                "coordLatCenter": "31.470856",
+                "coordLngCenter": "-111.01817"
+            },
+            "customers": 0,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-08-27 07:29 MST",
+            "etr": "2026-08-27 09:30 MST",
+            "event": "Planned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-27 15:22 MST"
+        }
+    ]
+}
