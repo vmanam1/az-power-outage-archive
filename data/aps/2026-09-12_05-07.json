@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-12 05:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 61
+    },
+    "outages": [
+        {
+            "latitude": 33.60967767664952,
+            "longitude": -111.99936455470524,
+            "city": "Phoenix",
+            "boundary": "Eugie Ave to Joan De Arc Ave and 36th Pl to 40th St",
+            "customers": 61,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-11 21:21:00 MST",
+            "etr": "2026-09-12 00:00:00 MST"
+        }
+    ]
+}
