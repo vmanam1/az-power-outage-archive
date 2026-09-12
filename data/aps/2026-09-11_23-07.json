@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-11 23:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3555
+    },
+    "outages": [
+        {
+            "latitude": 34.67673576431776,
+            "longitude": -111.94628530993064,
+            "city": "Cornville",
+            "boundary": "Thede Ln to Thousand Trails Rd and Owl Slick Rd to Thousand Trails Rd",
+            "customers": 43,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-11 11:48:00 MST",
+            "etr": "2026-09-11 19:00:00 MST"
+        },
+        {
+            "latitude": 34.28798149974291,
+            "longitude": -110.95225540006075,
+            "city": "Star Valley",
+            "boundary": "Chevelon Ranger Station To Young And Forest Lakes To Ellison Creek Summer Homes",
+            "customers": 3512,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-11 15:47:00 MST",
+            "etr": "2026-09-11 20:00:00 MST"
+        }
+    ]
+}
