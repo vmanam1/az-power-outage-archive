@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-12 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 127
+    },
+    "outages": [
+        {
+            "latitude": 35.20052137708236,
+            "longitude": -111.57722580105906,
+            "city": "Flagstaff",
+            "boundary": "Bear Paw Dr. to  Pion Ridge Dr. and Country Club Dr. to Pinon Ridge Dr.",
+            "customers": 25,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-11 23:52:00 MST",
+            "etr": "2026-09-12 03:15:00 MST"
+        },
+        {
+            "latitude": 33.556590022309464,
+            "longitude": -112.070731915833,
+            "city": "Phoenix",
+            "boundary": "Griswold Rd. to Northern Ave. and Central Ave. to 6th St.",
+            "customers": 102,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-12 01:07:00 MST",
+            "etr": "2026-09-12 04:40:00 MST"
+        }
+    ]
+}
