@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-11 20:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 131
+    },
+    "outages": [
+        {
+            "latitude": 33.42526263609856,
+            "longitude": -112.07284741598774,
+            "city": "Phoenix",
+            "boundary": "Watkins St to University Dr and Central Ave to 7th St",
+            "customers": 8,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-09-11 10:00:00 MST",
+            "etr": "2026-09-11 15:00:00 MST"
+        },
+        {
+            "latitude": 33.79568486775755,
+            "longitude": -111.87912661699444,
+            "city": "Scottsdale",
+            "boundary": "North 92nd Wy to East Vista Dr and North Segundo Cr",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-11 11:45:00 MST",
+            "etr": "2026-09-11 14:15:00 MST"
+        },
+        {
+            "latitude": 34.67673576431776,
+            "longitude": -111.94628530993064,
+            "city": "Cornville",
+            "boundary": "Thede Ln to Thousand Trails Rd and Owl Slick Rd to Thousand Trails Rd",
+            "customers": 43,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-11 11:48:00 MST",
+            "etr": "2026-09-11 15:15:00 MST"
+        },
+        {
+            "latitude": 34.60389941687974,
+            "longitude": -111.89578473577296,
+            "city": "Camp Verde",
+            "boundary": "Newton Ln to West Horseshoe Bend Dr and Rainbow Dr to Verde West Dr",
+            "customers": 72,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-11 12:11:00 MST",
+            "etr": "2026-09-11 15:00:00 MST"
+        }
+    ]
+}
