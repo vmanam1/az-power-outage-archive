@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-12 14:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 21,
+        "total_customers": 57984
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.24669560707157,
+            "longitude": -111.20900673821005,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-09-12 12:25:59 MST",
+            "etr": "2026-09-12 15:25:59 MST",
+            "incident_id": "389319"
+        },
+        {
+            "latitude": 32.244735410606786,
+            "longitude": -111.23176106435996,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-09-12 12:24:18 MST",
+            "etr": "2026-09-12 15:24:18 MST",
+            "incident_id": "389316"
+        },
+        {
+            "latitude": 32.428012625869215,
+            "longitude": -111.30792023415822,
+            "customers": 4,
+            "cause": "50 LIGHTNING",
+            "comments": "Blown fuse due to lightning",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-09-12 11:49:33 MST",
+            "etr": "2026-09-12 14:49:33 MST",
+            "incident_id": "389314"
+        },
+        {
+            "latitude": 32.29277082315413,
+            "longitude": -111.2285540787952,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-12 14:03:25 MST",
+            "etr": null,
+            "incident_id": "389321"
+        },
+        {
+            "latitude": 32.247447764250914,
+            "longitude": -111.20961759260334,
+            "customers": 5,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-09-12 12:25:59 MST",
+            "etr": "2026-09-12 15:25:59 MST",
+            "incident_id": "389320"
+        }
+    ]
+}
