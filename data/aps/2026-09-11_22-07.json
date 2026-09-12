@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-11 22:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 148
+    },
+    "outages": [
+        {
+            "latitude": 34.67673576431776,
+            "longitude": -111.94628530993064,
+            "city": "Cornville",
+            "boundary": "Thede Ln to Thousand Trails Rd and Owl Slick Rd to Thousand Trails Rd",
+            "customers": 43,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-11 11:48:00 MST",
+            "etr": "2026-09-11 19:00:00 MST"
+        },
+        {
+            "latitude": 34.293208252074564,
+            "longitude": -111.3658781966787,
+            "city": "Payson",
+            "boundary": "Verde Estates Rd to Joan Dr and Jep Pl to AZ87",
+            "customers": 105,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-11 13:50:00 MST",
+            "etr": "2026-09-11 17:00:00 MST"
+        }
+    ]
+}
