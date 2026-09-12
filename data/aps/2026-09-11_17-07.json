@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-11 17:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 32
+    },
+    "outages": [
+        {
+            "latitude": 35.25499311678481,
+            "longitude": -112.19314018955843,
+            "city": "Williams",
+            "boundary": "Peoples Church Camp Rd and Cooper Rd",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-11 09:06:00 MST",
+            "etr": "2026-09-11 12:00:00 MST"
+        },
+        {
+            "latitude": 33.42526263609856,
+            "longitude": -112.07284741598774,
+            "city": "Phoenix",
+            "boundary": "Watkins St to University Dr and Central Ave to 7th St",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-11 10:00:00 MST",
+            "etr": "2026-09-11 15:00:00 MST"
+        }
+    ]
+}
