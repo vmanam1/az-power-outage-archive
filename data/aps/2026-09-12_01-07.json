@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-12 01:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3513
+    },
+    "outages": [
+        {
+            "latitude": 34.28798149974291,
+            "longitude": -110.95225540006075,
+            "city": "Star Valley",
+            "boundary": "Chevelon Ranger Station To Young And Forest Lakes To Ellison Creek Summer Homes",
+            "customers": 3513,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-11 15:47:00 MST",
+            "etr": "2026-09-11 19:46:00 MST"
+        }
+    ]
+}
