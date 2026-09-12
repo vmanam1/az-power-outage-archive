@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-12 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 33.5243837562121,
+            "longitude": -111.91135157849999,
+            "boundary": "N CATTLETRACK  RD TO N HAYDEN  RD AND E LINCOLN  DR TO E JACKRABBIT  RD",
+            "customers": 15,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-12 02:52 MST",
+            "etr": "2026-09-12 09:15 MST"
+        }
+    ]
+}
