@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-12 06:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 61
+    },
+    "outages": [
+        {
+            "latitude": 33.60967767664952,
+            "longitude": -111.99936455470524,
+            "city": "Phoenix",
+            "boundary": "Eugie Ave to Joan De Arc Ave and 36th Pl to 40th St",
+            "customers": 61,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-11 21:21:00 MST",
+            "etr": "2026-09-12 00:00:00 MST"
+        }
+    ]
+}
