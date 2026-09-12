@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-11 18:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 33.42526263609856,
+            "longitude": -112.07284741598774,
+            "city": "Phoenix",
+            "boundary": "Watkins St to University Dr and Central Ave to 7th St",
+            "customers": 8,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-09-11 10:00:00 MST",
+            "etr": "2026-09-11 15:00:00 MST"
+        },
+        {
+            "latitude": 35.255084842826584,
+            "longitude": -112.19345723825985,
+            "city": "Williams",
+            "boundary": "East Edison Ave and North 7th St to North Grand Canyon Blvd",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-11 11:00:00 MST",
+            "etr": "2026-09-11 14:15:00 MST"
+        }
+    ]
+}
