@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-12 13:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 34.345839613960436,
+            "longitude": -109.97308610344206,
+            "city": "Show Low",
+            "boundary": "Fox Circle and Cox Dr",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-12 05:20:00 MST",
+            "etr": "2026-09-12 08:30:00 MST"
+        }
+    ]
+}
