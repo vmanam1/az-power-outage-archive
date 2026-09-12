@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-12 02:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 91
+    },
+    "outages": [
+        {
+            "latitude": 33.45082202314045,
+            "longitude": -112.261377946935,
+            "boundary": "N 99TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 25,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-11 22:22 MST",
+            "etr": "2026-09-12 05:00 MST"
+        },
+        {
+            "latitude": 33.52433242892354,
+            "longitude": -111.9117760468585,
+            "boundary": "N CATTLETRACK  RD TO N HAYDEN  RD AND E LINCOLN  DR TO E JACKRABBIT  RD",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-12 00:26 MST",
+            "etr": "2026-09-12 04:00 MST"
+        },
+        {
+            "latitude": 33.5307991022398,
+            "longitude": -112.114654489489,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-12 01:36 MST",
+            "etr": "2026-09-12 06:00 MST"
+        },
+        {
+            "latitude": 33.3161705163508,
+            "longitude": -112.155570827199,
+            "boundary": "S 51ST  AVE TO S SOUTH MOUNTAIN  FWY AND W ESTRELLA  DR TO W PECOS  RD",
+            "customers": 33,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-12 00:46 MST",
+            "etr": "2026-09-12 02:56 MST"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-12 02:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3514
+    },
+    "outages": [
+        {
+            "latitude": 34.31653448365918,
+            "longitude": -111.01852168772908,
+            "city": "Payson",
+            "boundary": "Chevelon Ranger Station To Young And Forest Lakes To Ellison Creek Summer Homes",
+            "customers": 3514,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-11 15:47:00 MST",
+            "etr": "2026-09-11 19:45:00 MST"
+        }
+    ]
+}
