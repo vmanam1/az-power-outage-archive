@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-12 16:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.52582118338655,
+            "longitude": -112.11912983850951,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-12 15:41 MST",
+            "etr": "2026-09-12 17:24 MST"
+        }
+    ]
+}

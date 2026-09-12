@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-12 16:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1418
+    },
+    "outages": [
+        {
+            "latitude": 32.37950199993671,
+            "longitude": -112.87497749998015,
+            "city": "Ajo",
+            "boundary": "Childs Mountain To Guest House Rd. And Newell St. To Maple St.",
+            "customers": 1195,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-12 08:52:00 MST",
+            "etr": "2026-09-12 12:55:00 MST"
+        },
+        {
+            "latitude": 32.23400399999128,
+            "longitude": -112.74507399973098,
+            "city": "Ajo",
+            "boundary": "Ocotillo St To Calle 13 And Meqsuite Ln To Ironwood Ave",
+            "customers": 180,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-12 08:53:00 MST",
+            "etr": "2026-09-12 12:55:00 MST"
+        },
+        {
+            "latitude": 34.52761073568269,
+            "longitude": -112.23155313116935,
+            "city": "Dewey",
+            "boundary": "Dewey Copper Canyon Hwy. to Dewey Ct. and River Dr. to Foothill Dr.",
+            "customers": 43,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-12 08:58:00 MST",
+            "etr": "2026-09-12 11:40:00 MST"
+        }
+    ]
+}
