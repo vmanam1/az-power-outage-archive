@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-13 15:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 178
+    },
+    "outages": [
+        {
+            "latitude": 34.5950284053323,
+            "longitude": -112.31759777377184,
+            "city": "Prescott Valley",
+            "boundary": "Sommer Dr to Yavapai Dr and Robert Rd to Greg Dr",
+            "customers": 49,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 06:43:00 MST",
+            "etr": "2026-09-13 10:05:00 MST"
+        },
+        {
+            "latitude": 34.57381885032482,
+            "longitude": -112.47966177596444,
+            "city": "Prescott",
+            "boundary": "Mission Wy. to Douglas Ave. and Nolte Dr. to Kelmo Dr.",
+            "customers": 76,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 06:50:00 MST",
+            "etr": "2026-09-13 10:10:00 MST"
+        },
+        {
+            "latitude": 34.637705064248834,
+            "longitude": -112.49403771578052,
+            "city": "Prescott",
+            "boundary": "Louis Trl. to Mcintosh Dr. and Oneal Rd. and Bailey Ln.",
+            "customers": 53,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 07:26:00 MST",
+            "etr": "2026-09-13 10:45:00 MST"
+        }
+    ]
+}
