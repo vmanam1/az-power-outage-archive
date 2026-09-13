@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-13 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 73
+    },
+    "outages": [
+        {
+            "latitude": 33.55948279116265,
+            "longitude": -112.1147459966765,
+            "boundary": "N BLACK CANYON  HWY TO N 23RD  AVE AND W DUNLAP  AVE TO W NORTHERN  AVE",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-13 04:04 MST",
+            "etr": "2026-09-13 12:00 MST"
+        },
+        {
+            "latitude": 33.43063138949765,
+            "longitude": -112.2659364400925,
+            "boundary": "S 99TH  AVE TO S 91ST  AVE AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 42,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-13 06:00 MST",
+            "etr": "2026-09-13 12:00 MST"
+        },
+        {
+            "latitude": 33.5111774229776,
+            "longitude": -112.1690795964945,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-13 06:45 MST",
+            "etr": "2026-09-13 10:20 MST"
+        },
+        {
+            "latitude": 33.41608053238235,
+            "longitude": -111.564132560438,
+            "boundary": "N DELAWARE  DR TO N SAN MARCOS  DR AND W SUPERSTITION  BLVD TO W BROADWAY  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-13 07:54 MST",
+            "etr": "2026-09-13 12:00 MST"
+        }
+    ]
+}
