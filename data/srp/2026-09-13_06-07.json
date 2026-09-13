@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-13 06:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 73
+    },
+    "outages": [
+        {
+            "latitude": 33.459423286827004,
+            "longitude": -111.7076454172495,
+            "boundary": "N 56TH  ST TO N RECKER  RD AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 18,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-13 05:09 MST",
+            "etr": "2026-09-13 07:11 MST"
+        },
+        {
+            "latitude": 33.55948279116265,
+            "longitude": -112.1147459966765,
+            "boundary": "N BLACK CANYON  HWY TO N 23RD  AVE AND W DUNLAP  AVE TO W NORTHERN  AVE",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-13 04:04 MST",
+            "etr": "2026-09-13 12:00 MST"
+        },
+        {
+            "latitude": 33.43063138949765,
+            "longitude": -112.2659364400925,
+            "boundary": "S 99TH  AVE TO S 91ST  AVE AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 42,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-13 06:00 MST",
+            "etr": "2026-09-13 12:00 MST"
+        }
+    ]
+}
