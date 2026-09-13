@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-13 00:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 33.34970303267785,
+            "longitude": -111.7207078921285,
+            "boundary": "N 164TH  ST TO S 172ND  ST AND E OLNEY  AVE TO E MESQUITE  ST",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-12 23:25 MST",
+            "etr": "2026-09-13 02:00 MST"
+        }
+    ]
+}
