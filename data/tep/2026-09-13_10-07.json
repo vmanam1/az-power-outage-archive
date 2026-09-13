@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-09-13 10:07:21 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1260,
+        "map_last_refreshed": "Sep 13, 10:05 AM"
+    },
+    "outages": [
+        {
+            "latitude": 32.2540466529379,
+            "longitude": -110.751351038356,
+            "boundary": {
+                "coordLatSW": "32.252210575134903",
+                "coordLngSW": "-110.785201755976",
+                "coordLatNE": "32.308746260437303",
+                "coordLngNE": "-110.74006957021899",
+                "coordLatCenter": "32.28048",
+                "coordLngCenter": "-110.762634"
+            },
+            "customers": 1060,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-09-13 09:47 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-09-13 09:57 MST"
+        },
+        {
+            "latitude": 32.2540466529379,
+            "longitude": -110.751351038356,
+            "boundary": {
+                "coordLatSW": "32.269766310494603",
+                "coordLngSW": "-110.758967779671",
+                "coordLatNE": "32.287303329382198",
+                "coordLngNE": "-110.74448391526099",
+                "coordLatCenter": "32.278534",
+                "coordLngCenter": "-110.751724"
+            },
+            "customers": 200,
+            "cause": "Emergency/Safety Issue",
+            "comments": "Restoration In Progress",
+            "start_time": "2026-09-13 09:41 MST",
+            "etr": "2026-09-13 11:43 MST",
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 1060,
+            "last_update": "2026-09-13 09:54 MST"
+        }
+    ]
+}
