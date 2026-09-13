@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-13 12:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 26
+    },
+    "outages": [
+        {
+            "latitude": 35.30718881504153,
+            "longitude": -111.54543823021426,
+            "city": "Flagstaff",
+            "boundary": "Buckboard Trail to Timberline Trail and Homestead Ln to Highway 89",
+            "customers": 20,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-13 03:28:00 MST",
+            "etr": "2026-09-13 07:00:00 MST"
+        },
+        {
+            "latitude": 33.619132850233804,
+            "longitude": -112.39580750270572,
+            "city": "Surprise",
+            "boundary": "Mauna Loa Ln. and 156th Ave.",
+            "customers": 6,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-13 04:29:00 MST",
+            "etr": "2026-09-13 06:25:00 MST"
+        }
+    ]
+}
