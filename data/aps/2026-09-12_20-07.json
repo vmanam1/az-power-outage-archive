@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-12 20:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 252
+    },
+    "outages": [
+        {
+            "latitude": 32.598657595344996,
+            "longitude": -110.63935836063138,
+            "city": "San Manuel",
+            "boundary": "Webb Dr. to 1st Ave. and Nichols Ave. to Main St.",
+            "customers": 252,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-12 10:44:00 MST",
+            "etr": "2026-09-12 13:55:00 MST"
+        }
+    ]
+}
