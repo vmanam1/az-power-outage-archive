@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-13 05:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 33.55951660236535,
+            "longitude": -112.1159502957105,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W DUNLAP  AVE TO W NORTHERN  AVE",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-13 04:04 MST",
+            "etr": "2026-09-13 05:40 MST"
+        }
+    ]
+}
