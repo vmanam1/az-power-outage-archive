@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-13 16:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 128
+    },
+    "outages": [
+        {
+            "latitude": 34.637705064248834,
+            "longitude": -112.49403771578052,
+            "city": "Prescott",
+            "boundary": "Louis Trl. to Mcintosh Dr. and Oneal Rd. and Bailey Ln.",
+            "customers": 53,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 07:26:00 MST",
+            "etr": "2026-09-13 10:45:00 MST"
+        },
+        {
+            "latitude": 34.865726273736044,
+            "longitude": -111.75671212962217,
+            "city": "Sedona",
+            "boundary": "Bear Wallow Ln. to Gassway Pl. and Schnebly Hill Rd.",
+            "customers": 75,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 08:01:00 MST",
+            "etr": "2026-09-13 11:25:00 MST"
+        }
+    ]
+}
