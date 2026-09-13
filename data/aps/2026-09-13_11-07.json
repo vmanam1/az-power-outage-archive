@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-13 11:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 89
+    },
+    "outages": [
+        {
+            "latitude": 34.85650018722203,
+            "longitude": -111.80015671839577,
+            "city": "Sedona",
+            "boundary": "Whippet Way to Stanley Steamer Dr and Pierce Dr to Sunset Dr",
+            "customers": 47,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-13 03:24:00 MST",
+            "etr": "2026-09-13 06:45:00 MST"
+        },
+        {
+            "latitude": 35.30718881504153,
+            "longitude": -111.54543823021426,
+            "city": "Flagstaff",
+            "boundary": "Buckboard Trail to Timberline Trail and Homestead Ln to Highway 89",
+            "customers": 42,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-13 03:28:00 MST",
+            "etr": "2026-09-13 07:00:00 MST"
+        }
+    ]
+}

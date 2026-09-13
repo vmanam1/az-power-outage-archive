@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-13 11:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 79
+    },
+    "outages": [
+        {
+            "latitude": 33.43063138949765,
+            "longitude": -112.2659364400925,
+            "boundary": "S 99TH  AVE TO S 91ST  AVE AND W BUCKEYE  RD TO W DURANGO  ST",
+            "customers": 42,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-13 06:00 MST",
+            "etr": "2026-09-13 12:00 MST"
+        },
+        {
+            "latitude": 33.55948279116265,
+            "longitude": -112.1147459966765,
+            "boundary": "N BLACK CANYON  HWY TO N 23RD  AVE AND W DUNLAP  AVE TO W NORTHERN  AVE",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-13 04:04 MST",
+            "etr": "2026-09-13 13:30 MST"
+        },
+        {
+            "latitude": 33.3939676349145,
+            "longitude": -111.6774230528745,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E PUEBLO  AVE TO E SUPERSTITION  FWY",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-13 08:39 MST",
+            "etr": "2026-09-13 16:40 MST"
+        },
+        {
+            "latitude": 33.25066423814195,
+            "longitude": -111.63966984614649,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-13 10:26 MST",
+            "etr": "2026-09-13 12:22 MST"
+        },
+        {
+            "latitude": 33.5115299476583,
+            "longitude": -112.1692297695925,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-13 06:45 MST",
+            "etr": "2026-09-13 11:20 MST"
+        },
+        {
+            "latitude": 33.40947933967045,
+            "longitude": -111.7086980825935,
+            "boundary": "S HIGLEY  RD TO S RECKER  RD AND E MAIN  ST TO E DELTA  AVE",
+            "customers": 8,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-13 09:06 MST",
+            "etr": "2026-09-13 18:30 MST"
+        }
+    ]
+}
