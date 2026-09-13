@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-13 14:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 125
+    },
+    "outages": [
+        {
+            "latitude": 34.5950284053323,
+            "longitude": -112.31759777377184,
+            "city": "Prescott Valley",
+            "boundary": "Sommer Dr to Yavapai Dr and Robert Rd to Greg Dr",
+            "customers": 49,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 06:43:00 MST",
+            "etr": "2026-09-13 10:05:00 MST"
+        },
+        {
+            "latitude": 34.57381885032482,
+            "longitude": -112.47966177596444,
+            "city": "Prescott",
+            "boundary": "Mission Wy. to Douglas Ave. and Nolte Dr. to Kelmo Dr.",
+            "customers": 76,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 06:50:00 MST",
+            "etr": "2026-09-13 10:10:00 MST"
+        }
+    ]
+}
