@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-13 02:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 764
+    },
+    "outages": [
+        {
+            "latitude": 33.56100710653065,
+            "longitude": -112.112008205525,
+            "boundary": "N 31ST  AVE TO N 19TH  AVE AND W MOUNTAIN VIEW  RD TO W ORANGEWOOD  AVE",
+            "customers": 764,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-13 02:03 MST",
+            "etr": "2026-09-13 04:03 MST"
+        }
+    ]
+}
