@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-13 13:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 63
+    },
+    "outages": [
+        {
+            "latitude": 35.30718881504153,
+            "longitude": -111.54543823021426,
+            "city": "Flagstaff",
+            "boundary": "Buckboard Trail to Timberline Trail and Homestead Ln to Highway 89",
+            "customers": 20,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-13 03:28:00 MST",
+            "etr": "2026-09-13 07:00:00 MST"
+        },
+        {
+            "latitude": 34.52679299373704,
+            "longitude": -112.2310229302173,
+            "city": "Dewey",
+            "boundary": "River Dr. to Deer Pass and Old Black Canyon Hwy to Gone Fishing Rd.",
+            "customers": 43,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-13 05:06:00 MST",
+            "etr": "2026-09-13 08:00:00 MST"
+        }
+    ]
+}
