@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-13 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 75
+    },
+    "outages": [
+        {
+            "latitude": 34.865726273736044,
+            "longitude": -111.75671212962217,
+            "city": "Sedona",
+            "boundary": "Bear Wallow Ln. to Gassway Pl. and Schnebly Hill Rd.",
+            "customers": 75,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 08:01:00 MST",
+            "etr": "2026-09-13 11:25:00 MST"
+        }
+    ]
+}
