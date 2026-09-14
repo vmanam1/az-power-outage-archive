@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-13 23:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 153
+    },
+    "outages": [
+        {
+            "latitude": 31.35289410363792,
+            "longitude": -109.54783896691042,
+            "city": "Douglas",
+            "boundary": "19th St to 17th St and AZ 80 to Ave",
+            "customers": 103,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 12:16:00 MST",
+            "etr": "2026-09-13 17:00:00 MST"
+        },
+        {
+            "latitude": 31.35757495572565,
+            "longitude": -109.53706743183191,
+            "city": "Douglas",
+            "boundary": "23rd St and Eddie Ave",
+            "customers": 10,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 12:51:00 MST",
+            "etr": "2026-09-13 17:00:00 MST"
+        },
+        {
+            "latitude": 33.60169510433089,
+            "longitude": -114.52159539136449,
+            "city": "Ehrenberg",
+            "boundary": "Pearl Harbor Memorial Highway and Ox Bow Rd to Poston Rd",
+            "customers": 5,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-13 13:27:00 MST",
+            "etr": "2026-09-13 17:25:00 MST"
+        },
+        {
+            "latitude": 31.436958462101288,
+            "longitude": -109.62569689132454,
+            "city": "Douglas",
+            "boundary": "Leake Rd and US 91",
+            "customers": 16,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 11:28:00 MST",
+            "etr": "2026-09-13 18:15:00 MST"
+        },
+        {
+            "latitude": 33.49143278078493,
+            "longitude": -112.09017089893092,
+            "city": "Phoenix",
+            "boundary": "Clarendon Ave and 15th Ave",
+            "customers": 19,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-09-13 15:15:00 MST",
+            "etr": "2026-09-13 18:00:00 MST"
+        }
+    ]
+}
