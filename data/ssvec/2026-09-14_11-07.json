@@ -1,0 +1,86 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-09-14 11:07:11 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 11
+    },
+    "outages": [
+        {
+            "incident_id": 21015,
+            "latitude": 31.48495609118382,
+            "longitude": -110.25535989856111,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-09-14 10:50:27 MST",
+            "etr": "2026-09-14 13:50:27 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20989,
+            "latitude": 31.612040607753435,
+            "longitude": -110.56277420187963,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-09-12 12:23:15 MST",
+            "etr": "2026-09-12 15:23:15 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 21010,
+            "latitude": 31.46252817480607,
+            "longitude": -110.22279753994232,
+            "city": "Sierra Vista",
+            "customers": 3,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-09-14 09:27:33 MST",
+            "etr": "2026-09-14 12:27:33 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 20967,
+            "latitude": 32.36959380638107,
+            "longitude": -109.93984034911769,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Weather",
+            "comments": "Power Out",
+            "start_time": "2026-09-09 20:54:07 MST",
+            "etr": "2026-09-09 23:54:07 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 21013,
+            "latitude": 31.89441553728715,
+            "longitude": -110.21071546002386,
+            "city": "Benson",
+            "customers": 4,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-09-14 09:55:49 MST",
+            "etr": "2026-09-14 12:55:49 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 21009,
+            "latitude": 31.96649441556934,
+            "longitude": -110.29705830717789,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-09-14 09:14:57 MST",
+            "etr": "2026-09-14 12:14:57 MST",
+            "restored_time": null
+        }
+    ]
+}

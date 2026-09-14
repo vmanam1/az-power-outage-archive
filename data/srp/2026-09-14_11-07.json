@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-14 11:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 49
+    },
+    "outages": [
+        {
+            "latitude": 33.3327897599426,
+            "longitude": -111.85852263337699,
+            "boundary": "N ARROWHEAD  DR TO N HARTFORD  ST AND W WARNER  RD TO W KNOX  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-14 07:16 MST",
+            "etr": "2026-09-14 15:00 MST"
+        },
+        {
+            "latitude": 33.53725660356285,
+            "longitude": -111.9875631525955,
+            "boundary": "N 40TH  ST TO N TATUM  BLVD AND UNKNOWN TO E LINCOLN  DR",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-14 07:41 MST",
+            "etr": "2026-09-14 14:39 MST"
+        },
+        {
+            "latitude": 33.409764631053605,
+            "longitude": -111.676417223655,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E MAIN  ST TO E PUEBLO  AVE",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-14 08:05 MST",
+            "etr": "2026-09-14 12:04 MST"
+        },
+        {
+            "latitude": 33.404805698402456,
+            "longitude": -111.536953926302,
+            "boundary": "S IDAHO  RD TO S TOMAHAWK  RD AND E BROADWAY  AVE TO E HONDO  AVE",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-14 08:39 MST",
+            "etr": "2026-09-14 14:15 MST"
+        },
+        {
+            "latitude": 33.35615651053585,
+            "longitude": -111.9600548283275,
+            "boundary": "S PRIEST  DR TO S HARDY  DR AND E CALLE GUADALUPE   TO W ELLIOT  RD",
+            "customers": 22,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-14 10:02 MST",
+            "etr": "2026-09-14 11:59 MST"
+        },
+        {
+            "latitude": 33.4347345319482,
+            "longitude": -111.590887240011,
+            "boundary": "N SIGNAL BUTTE  RD TO N MERIDIAN  RD AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-14 08:59 MST",
+            "etr": "2026-09-14 13:00 MST"
+        },
+        {
+            "latitude": 33.448845253292504,
+            "longitude": -112.2584449727485,
+            "boundary": "N 95TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-14 07:23 MST",
+            "etr": "2026-09-14 12:13 MST"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-14 11:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 445
+    },
+    "outages": [
+        {
+            "latitude": 34.40835130030339,
+            "longitude": -110.07869159998381,
+            "city": "Taylor",
+            "boundary": "Pinedale Dr To White Mt. Lake Road And Pinedale Rd To Love Lake Rd",
+            "customers": 438,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-14 01:41:00 MST",
+            "etr": "2026-09-14 04:45:00 MST"
+        },
+        {
+            "latitude": 34.86578643273761,
+            "longitude": -111.7553786335835,
+            "city": "Sedona",
+            "boundary": "Schnebly Hill Rd and Quail Ridge Ln",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-14 02:59:00 MST",
+            "etr": "2026-09-14 06:59:00 MST"
+        }
+    ]
+}
