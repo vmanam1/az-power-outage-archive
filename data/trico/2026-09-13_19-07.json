@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-13 19:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 10,
+        "total_customers": 57984
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.17582816625523,
+            "longitude": -111.107577959466,
+            "customers": 4,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Bopp Rd",
+            "start_time": "2026-09-13 17:49:49 MST",
+            "etr": "2026-09-13 20:49:49 MST",
+            "incident_id": "389335"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "GARKANE",
+        "scraped_at": "2026-09-13 19:07:30 MST",
+        "source": "GARKANE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 851,
+        "total_customers": 16986
+    },
+    "outages": [
+        {
+            "latitude": 36.93166467718928,
+            "longitude": -112.95966153045154,
+            "customers": 690,
+            "cause": null,
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-09-13 16:52:28 MST",
+            "etr": null,
+            "incident_id": "300333"
+        },
+        {
+            "latitude": 36.89571676394079,
+            "longitude": -112.7481801462347,
+            "customers": 147,
+            "cause": null,
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-09-13 18:03:09 MST",
+            "etr": null,
+            "incident_id": "300360"
+        },
+        {
+            "latitude": 36.98303967313743,
+            "longitude": -112.98164330545701,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-09-13 17:00:36 MST",
+            "etr": null,
+            "incident_id": "300350"
+        },
+        {
+            "latitude": 37.00409792111271,
+            "longitude": -112.50975828664333,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-09-13 17:51:34 MST",
+            "etr": null,
+            "incident_id": "300353"
+        },
+        {
+            "latitude": 36.87278888157417,
+            "longitude": -112.8378948936722,
+            "customers": 10,
+            "cause": null,
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-09-13 18:03:04 MST",
+            "etr": null,
+            "incident_id": "300354"
+        },
+        {
+            "latitude": 37.00358857405639,
+            "longitude": -112.51047693887074,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-09-13 17:51:02 MST",
+            "etr": null,
+            "incident_id": "300351"
+        },
+        {
+            "latitude": 37.00246225929452,
+            "longitude": -112.48644700501718,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-09-13 17:51:32 MST",
+            "etr": null,
+            "incident_id": "300352"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-13 19:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 113
+    },
+    "outages": [
+        {
+            "latitude": 31.438705874288004,
+            "longitude": -109.62563593164934,
+            "city": "Douglas",
+            "boundary": "Double Adobe Rd to Benton Dr to Brooks Rd to US 191",
+            "customers": 113,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 11:28:00 MST",
+            "etr": "2026-09-13 15:00:00 MST"
+        }
+    ]
+}
