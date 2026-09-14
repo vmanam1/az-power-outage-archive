@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-14 15:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 33.15122851003415,
+            "longitude": -111.5900713934145,
+            "boundary": "N ROYCE  RD TO N GARY  RD AND W DANIEL  RD TO W JUDD  RD",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-14 14:16 MST",
+            "etr": "2026-09-14 16:19 MST"
+        }
+    ]
+}

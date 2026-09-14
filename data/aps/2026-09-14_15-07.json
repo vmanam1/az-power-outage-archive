@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-14 15:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 107
+    },
+    "outages": [
+        {
+            "latitude": 34.345875046780066,
+            "longitude": -109.97301100069105,
+            "city": "Show Low",
+            "boundary": "Fox Cir to Cox Dr and Smith Pl",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-14 06:50:00 MST",
+            "etr": "2026-09-14 09:50:00 MST"
+        },
+        {
+            "latitude": 33.491999617787876,
+            "longitude": -112.34931215976879,
+            "city": "Litchfield Park",
+            "boundary": "East Palm St to East Sagebrush St and South Florence Ave to South Villa Nueva Dr",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-14 06:48:00 MST",
+            "etr": "2026-09-14 09:40:00 MST"
+        },
+        {
+            "latitude": 31.39880879733955,
+            "longitude": -109.9292424740361,
+            "city": "Bisbee",
+            "boundary": "Cochise Ln to SR-92 and Mohave Dr to Yavapai Dr",
+            "customers": 80,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-14 07:07:00 MST",
+            "etr": "2026-09-14 10:30:00 MST"
+        },
+        {
+            "latitude": 33.569328972005145,
+            "longitude": -111.8433187394018,
+            "city": "Scottsdale",
+            "boundary": "East Bella Vs to North 109th Pl and",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-14 07:45:00 MST",
+            "etr": "2026-09-14 10:45:00 MST"
+        }
+    ]
+}

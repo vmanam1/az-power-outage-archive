@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-09-14 15:07:11 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "incident_id": 21017,
+            "latitude": 31.802459465590506,
+            "longitude": -109.69323810921176,
+            "city": "Elfrida",
+            "customers": 3,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-09-14 11:43:08 MST",
+            "etr": "2026-09-14 14:43:08 MST",
+            "restored_time": null
+        }
+    ]
+}

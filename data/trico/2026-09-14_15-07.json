@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-14 15:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 10,
+        "total_customers": 57984
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.5269688681691,
+            "longitude": -110.88508322986429,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Pinal County East",
+            "start_time": "2026-09-14 14:13:20 MST",
+            "etr": null,
+            "incident_id": "389343"
+        },
+        {
+            "latitude": 31.97525576596208,
+            "longitude": -111.38633417531993,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Sasabe",
+            "start_time": "2026-09-14 14:29:28 MST",
+            "etr": "2026-09-14 17:29:28 MST",
+            "incident_id": "389344"
+        },
+        {
+            "latitude": 32.17486251646297,
+            "longitude": -111.12530172002413,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Bopp Rd",
+            "start_time": "2026-09-14 11:39:05 MST",
+            "etr": null,
+            "incident_id": "389341"
+        },
+        {
+            "latitude": 32.43131089761676,
+            "longitude": -111.21445951198541,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Marana",
+            "start_time": "2026-09-14 11:46:10 MST",
+            "etr": null,
+            "incident_id": "389342"
+        }
+    ]
+}
