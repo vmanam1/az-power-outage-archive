@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "GARKANE",
+        "scraped_at": "2026-09-13 21:07:21 MST",
+        "source": "GARKANE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7,
+        "total_customers": 16986
+    },
+    "outages": [
+        {
+            "latitude": 36.88088735628405,
+            "longitude": -112.8091577877292,
+            "customers": 7,
+            "cause": "Lightning",
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-09-13 18:25:17 MST",
+            "etr": null,
+            "incident_id": "300361"
+        }
+    ]
+}

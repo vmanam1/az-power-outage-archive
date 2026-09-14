@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-13 21:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.5614383536699,
+            "longitude": -112.135131546953,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W DUNLAP  AVE TO W NORTHERN  AVE",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-13 19:09 MST",
+            "etr": "2026-09-14 02:30 MST"
+        },
+        {
+            "latitude": 33.49963621424935,
+            "longitude": -112.10289972831,
+            "boundary": "N 23RD  AVE TO N 19TH  AVE AND W CAMPBELL  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 19,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-13 20:36 MST",
+            "etr": "2026-09-14 02:45 MST"
+        },
+        {
+            "latitude": 33.2986346297548,
+            "longitude": -111.670716833363,
+            "boundary": "S POWER  RD TO S 80TH  ST AND E WILLIAMS FIELD  RD TO E OLD PECOS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-13 20:27 MST",
+            "etr": "2026-09-13 22:23 MST"
+        }
+    ]
+}
