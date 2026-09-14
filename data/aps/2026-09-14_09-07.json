@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-14 09:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 501
+    },
+    "outages": [
+        {
+            "latitude": 33.53928027518469,
+            "longitude": -112.04842207788546,
+            "city": "Phoenix",
+            "boundary": "East Aurelius Ave to East Glendale Ave and North 15th St to North 16th St",
+            "customers": 11,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-14 01:04:00 MST",
+            "etr": "2026-09-14 07:00:00 MST"
+        },
+        {
+            "latitude": 33.62677578794202,
+            "longitude": -112.07115528463987,
+            "city": "Phoenix",
+            "boundary": "Waltann Ln. to Coral Gables Dr. and 2nd Pl. to Moon Valley Dr.",
+            "customers": 52,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-14 01:20:00 MST",
+            "etr": "2026-09-14 04:10:00 MST"
+        },
+        {
+            "latitude": 34.40835130030339,
+            "longitude": -110.07869159998381,
+            "city": "Taylor",
+            "boundary": "Pinedale Dr To White Mt. Lake Road And Pinedale Rd To Love Lake Rd",
+            "customers": 438,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-14 01:41:00 MST",
+            "etr": "2026-09-14 04:45:00 MST"
+        }
+    ]
+}
