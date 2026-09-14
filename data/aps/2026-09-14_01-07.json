@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-14 01:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 134
+    },
+    "outages": [
+        {
+            "latitude": 33.60169510433089,
+            "longitude": -114.52159539136449,
+            "city": "Ehrenberg",
+            "boundary": "Pearl Harbor Memorial Highway and Ox Bow Rd to Poston Rd",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-13 13:27:00 MST",
+            "etr": "2026-09-13 20:00:00 MST"
+        },
+        {
+            "latitude": 31.436958462101288,
+            "longitude": -109.62569689132454,
+            "city": "Douglas",
+            "boundary": "Leake Rd and US 91",
+            "customers": 16,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 11:28:00 MST",
+            "etr": "2026-09-13 20:30:00 MST"
+        },
+        {
+            "latitude": 33.49143278078493,
+            "longitude": -112.09017089893092,
+            "city": "Phoenix",
+            "boundary": "Clarendon Ave and 15th Ave",
+            "customers": 48,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-13 15:15:00 MST",
+            "etr": "2026-09-13 20:00:00 MST"
+        },
+        {
+            "latitude": 34.87106261135765,
+            "longitude": -111.76555497459914,
+            "city": "Sedona",
+            "boundary": "Forest View Trail to Manzanita Ln and Manzanita Dr",
+            "customers": 65,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-13 17:22:00 MST",
+            "etr": "2026-09-13 20:45:00 MST"
+        }
+    ]
+}
