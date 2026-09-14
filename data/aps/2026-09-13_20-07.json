@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-13 20:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 226
+    },
+    "outages": [
+        {
+            "latitude": 31.438705874288004,
+            "longitude": -109.62563593164934,
+            "city": "Douglas",
+            "boundary": "Double Adobe Rd to Benton Dr to Brooks Rd to US 191",
+            "customers": 113,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 11:28:00 MST",
+            "etr": "2026-09-13 15:00:00 MST"
+        },
+        {
+            "latitude": 31.35289410363792,
+            "longitude": -109.54783896691042,
+            "city": "Douglas",
+            "boundary": "19th St to 17th St and AZ 80 to Ave",
+            "customers": 103,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-13 12:16:00 MST",
+            "etr": "2026-09-13 15:15:00 MST"
+        },
+        {
+            "latitude": 31.35757495572565,
+            "longitude": -109.53706743183191,
+            "city": "Douglas",
+            "boundary": "23rd St and Eddie Ave",
+            "customers": 10,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-13 12:51:00 MST",
+            "etr": "2026-09-13 15:50:00 MST"
+        }
+    ]
+}
