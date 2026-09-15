@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-15 04:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.4502892488162,
+            "longitude": -111.47744863614301,
+            "boundary": "N GERONIMO  RD TO UNKNOWN AND UNKNOWN TO E SINGLETREE  ST",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-14 20:51 MST",
+            "etr": "2026-09-15 06:00 MST"
+        }
+    ]
+}
