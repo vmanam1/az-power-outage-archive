@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-14 23:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 209
+    },
+    "outages": [
+        {
+            "latitude": 33.43880337886287,
+            "longitude": -112.10559331406922,
+            "city": "Phoenix",
+            "boundary": "Grant St. to Buckeye Rd. and 23rd Ave. to 19th Ave.",
+            "customers": 102,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-14 14:24:00 MST",
+            "etr": "2026-09-14 17:50:00 MST"
+        },
+        {
+            "latitude": 34.55228373707602,
+            "longitude": -112.42499337372301,
+            "city": "Prescott",
+            "boundary": "Cordes Junction Prescott Hwy. to Independence Ave. and Memorial Ave.",
+            "customers": 107,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-14 14:49:00 MST",
+            "etr": "2026-09-14 23:00:00 MST"
+        }
+    ]
+}
