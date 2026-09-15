@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-15 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 33.475277596860046,
+            "longitude": -112.03546774805764,
+            "city": "Phoenix",
+            "boundary": "East Yale St to East Sheridan St and North 20th St to North 22nd St",
+            "customers": 19,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-15 02:40:00 MST",
+            "etr": "2026-09-15 06:15:00 MST"
+        }
+    ]
+}
