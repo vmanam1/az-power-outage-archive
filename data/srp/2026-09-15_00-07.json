@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-15 00:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 112
+    },
+    "outages": [
+        {
+            "latitude": 33.45071503261315,
+            "longitude": -111.4780157168795,
+            "boundary": "N GERONIMO  RD TO UNKNOWN AND UNKNOWN TO E SINGLETREE  ST",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-14 20:51 MST",
+            "etr": "2026-09-15 03:00 MST"
+        },
+        {
+            "latitude": 33.4153595105188,
+            "longitude": -111.887029290665,
+            "boundary": "S PIMA  LOOP TO S ROOSEVELT  RD AND E UNIVERSITY  DR TO W BROADWAY  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-14 20:11 MST",
+            "etr": "2026-09-15 04:00 MST"
+        },
+        {
+            "latitude": 33.460538210398596,
+            "longitude": -111.5812328660045,
+            "boundary": "N SIGNAL BUTTE  RD TO N DELAWARE  DR AND UNKNOWN TO W MCKELLIPS  BLVD",
+            "customers": 63,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-09-14 20:15 MST",
+            "etr": "2026-09-15 04:00 MST"
+        },
+        {
+            "latitude": 33.274440404128,
+            "longitude": -111.549265731129,
+            "boundary": "N SUBURBAN  AVE TO N COYOTE  RD AND E PECOS  RD TO E PIMA  RD",
+            "customers": 39,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-14 22:30 MST",
+            "etr": "2026-09-15 01:02 MST"
+        }
+    ]
+}

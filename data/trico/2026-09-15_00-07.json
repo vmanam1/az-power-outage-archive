@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-15 00:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 34,
+        "total_customers": 57993
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 31.95515909696831,
+            "longitude": -110.77850710454153,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-14 16:36:25 MST",
+            "etr": "2026-09-14 21:36:25 MST",
+            "incident_id": "389347"
+        },
+        {
+            "latitude": 31.92394986644115,
+            "longitude": -110.74658097933948,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-14 16:50:16 MST",
+            "etr": null,
+            "incident_id": "389388"
+        },
+        {
+            "latitude": 31.954579833106923,
+            "longitude": -110.77812082896929,
+            "customers": 6,
+            "cause": "30 MATERIAL OR EQUIPMENT FAULT",
+            "comments": "Planned outage",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-14 23:29:34 MST",
+            "etr": null,
+            "incident_id": "389392"
+        },
+        {
+            "latitude": 32.24276757392975,
+            "longitude": -111.15953651550669,
+            "customers": 19,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-09-14 18:19:47 MST",
+            "etr": null,
+            "incident_id": "389382"
+        }
+    ]
+}

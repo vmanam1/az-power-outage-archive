@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-15 00:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 107
+    },
+    "outages": [
+        {
+            "latitude": 34.55228373707602,
+            "longitude": -112.42499337372301,
+            "city": "Prescott",
+            "boundary": "Cordes Junction Prescott Hwy. to Independence Ave. and Memorial Ave.",
+            "customers": 107,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-14 14:49:00 MST",
+            "etr": "2026-09-14 23:00:00 MST"
+        }
+    ]
+}
