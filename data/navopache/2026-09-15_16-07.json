@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-09-15 16:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 8,
+        "total_customers": 46017
+    },
+    "outages": [
+        {
+            "latitude": 33.82403777694548,
+            "longitude": -109.98006651359927,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "3 - Reservation",
+            "start_time": "2026-09-15 13:34:46 MST",
+            "etr": null,
+            "incident_id": "534398"
+        },
+        {
+            "latitude": 34.346886059940964,
+            "longitude": -109.76052724128273,
+            "customers": 7,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-09-15 15:52:25 MST",
+            "etr": null,
+            "incident_id": "534681"
+        }
+    ]
+}
