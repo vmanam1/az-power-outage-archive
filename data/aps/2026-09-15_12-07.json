@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-15 12:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.475277596860046,
+            "longitude": -112.03546774805764,
+            "city": "Phoenix",
+            "boundary": "East Yale St to East Sheridan St and North 20th St to North 22nd St",
+            "customers": 19,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-15 02:40:00 MST",
+            "etr": "2026-09-15 06:15:00 MST"
+        },
+        {
+            "latitude": 34.2633403578329,
+            "longitude": -110.04419272766029,
+            "city": "Shongopovi",
+            "boundary": "North Paloma St South Paloma and West Paloma to North Central Ave",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-15 03:22:00 MST",
+            "etr": "2026-09-15 05:45:00 MST"
+        }
+    ]
+}
