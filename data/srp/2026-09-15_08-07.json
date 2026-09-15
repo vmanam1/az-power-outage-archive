@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-15 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 159
+    },
+    "outages": [
+        {
+            "latitude": 33.453650275691544,
+            "longitude": -112.2570824180255,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-15 06:12 MST",
+            "etr": "2026-09-15 12:00 MST"
+        },
+        {
+            "latitude": 33.13500523752555,
+            "longitude": -111.524992801587,
+            "boundary": "N TOURMALINE  DR TO N SIERRA VISTA  DR AND E JUDD  RD TO E MAGMA  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-15 07:38 MST",
+            "etr": "2026-09-15 09:37 MST"
+        },
+        {
+            "latitude": 33.4571804778085,
+            "longitude": -111.664565813672,
+            "boundary": "N 76TH  ST TO N 80TH  ST AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-15 07:41 MST",
+            "etr": "2026-09-15 11:40 MST"
+        },
+        {
+            "latitude": 33.218956976242254,
+            "longitude": -111.77102472944199,
+            "boundary": "S 140TH  ST TO S HILLCREST  DR AND E CLOUD  RD TO E HUNT  HWY",
+            "customers": 34,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 07:04 MST",
+            "etr": "2026-09-15 09:05 MST"
+        },
+        {
+            "latitude": 33.260789475918244,
+            "longitude": -111.87771206001551,
+            "boundary": "S DOBSON  RD TO S EARL  BLVD AND W EARL  BLVD TO W OCOTILLO  RD",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-15 07:56 MST",
+            "etr": "2026-09-15 10:00 MST"
+        },
+        {
+            "latitude": 33.41857674292685,
+            "longitude": -111.570534282867,
+            "boundary": "N MERIDIAN  RD TO N IRONWOOD  DR AND W SUPERSTITION  BLVD TO W APACHE  TRL",
+            "customers": 90,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-15 08:01 MST",
+            "etr": "2026-09-15 11:30 MST"
+        },
+        {
+            "latitude": 33.433897021608544,
+            "longitude": -112.29478260536101,
+            "boundary": "S 111TH  AVE TO S 107TH  AVE AND W VAN BUREN  ST TO W DURANGO  ST",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-15 08:02 MST",
+            "etr": "2026-09-15 12:01 MST"
+        }
+    ]
+}
