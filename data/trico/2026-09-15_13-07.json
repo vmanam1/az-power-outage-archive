@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-15 13:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 23,
+        "total_customers": 57993
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.34347510014332,
+            "longitude": -111.22809593800025,
+            "customers": 15,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-15 09:00:00 MST",
+            "etr": "2026-09-15 12:00:00 MST",
+            "incident_id": "389339"
+        },
+        {
+            "latitude": 32.11192875732149,
+            "longitude": -111.11764807380237,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-09-15 10:00:03 MST",
+            "etr": null,
+            "incident_id": "389394"
+        },
+        {
+            "latitude": 31.977259856890537,
+            "longitude": -110.70528542572275,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-15 08:00:00 MST",
+            "etr": "2026-09-15 11:00:00 MST",
+            "incident_id": "389294"
+        }
+    ]
+}
