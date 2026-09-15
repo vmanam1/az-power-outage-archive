@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-15 15:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 32
+    },
+    "outages": [
+        {
+            "latitude": 35.036048801963034,
+            "longitude": -110.71716028766393,
+            "city": "Winslow",
+            "boundary": "Desert View Dr. to Easy St. and Carol Dr.",
+            "customers": 32,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-15 07:16:00 MST",
+            "etr": "2026-09-15 10:40:00 MST"
+        }
+    ]
+}
