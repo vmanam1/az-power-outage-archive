@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-14 21:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1195
+    },
+    "outages": [
+        {
+            "latitude": 33.414999097279846,
+            "longitude": -111.8862335151045,
+            "boundary": "S PRICE  RD TO S EVERGREEN  RD AND E UNIVERSITY  DR TO W BROADWAY  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-14 20:11 MST",
+            "etr": "2026-09-15 04:00 MST"
+        },
+        {
+            "latitude": 33.3894903356268,
+            "longitude": -111.6851504210485,
+            "boundary": "S POWER  RD TO S 72ND  ST AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-14 20:32 MST",
+            "etr": "2026-09-14 23:00 MST"
+        },
+        {
+            "latitude": 33.4515464870015,
+            "longitude": -111.60248627539801,
+            "boundary": "N ELLSWORTH  RD TO N IRONWOOD  DR AND UNKNOWN TO E ADOBE  RD",
+            "customers": 1181,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-14 20:15 MST",
+            "etr": "2026-09-14 22:28 MST"
+        },
+        {
+            "latitude": 33.4502892488162,
+            "longitude": -111.47744863614301,
+            "boundary": "N GERONIMO  RD TO UNKNOWN AND UNKNOWN TO E SINGLETREE  ST",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-14 20:51 MST",
+            "etr": "2026-09-14 22:45 MST"
+        },
+        {
+            "latitude": 33.450927645993346,
+            "longitude": -111.4780157168795,
+            "boundary": "N GERONIMO  RD TO UNKNOWN AND UNKNOWN TO E SINGLETREE  ST",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-14 20:52 MST",
+            "etr": "2026-09-14 22:45 MST"
+        }
+    ]
+}

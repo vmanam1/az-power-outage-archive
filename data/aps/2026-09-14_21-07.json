@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-14 21:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 165
+    },
+    "outages": [
+        {
+            "latitude": 32.98954075928992,
+            "longitude": -111.87711365863105,
+            "city": "Casa Grande",
+            "boundary": "Kiva Rd. to Val Vista Blvd. and Papoose Rd.",
+            "customers": 49,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-09-14 11:12:00 MST",
+            "etr": "2026-09-14 15:20:00 MST"
+        },
+        {
+            "latitude": 32.55128405990436,
+            "longitude": -111.72856942992354,
+            "city": "Clarkdale",
+            "boundary": "Moonchild Ave. to Celphus Dr. and Night Sky St. and Henness Rd.",
+            "customers": 72,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-14 12:28:00 MST",
+            "etr": "2026-09-14 15:15:00 MST"
+        },
+        {
+            "latitude": 33.307256154198306,
+            "longitude": -111.8279090857304,
+            "city": "Chandler",
+            "boundary": "Detroit St. to Chandler Blvd. and Jackson St. to Kingston St.",
+            "customers": 44,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-14 13:39:00 MST",
+            "etr": "2026-09-15 16:10:00 MST"
+        }
+    ]
+}
