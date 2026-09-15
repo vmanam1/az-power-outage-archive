@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-14 20:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1762
+    },
+    "outages": [
+        {
+            "latitude": 33.30705089914585,
+            "longitude": -111.695816927067,
+            "boundary": "N 132ND  ST TO S MOUNTAIN  RD AND E MESQUITE  ST TO E QUEEN CREEK  RD",
+            "customers": 1762,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-14 19:52 MST",
+            "etr": "2026-09-14 21:51 MST"
+        }
+    ]
+}
