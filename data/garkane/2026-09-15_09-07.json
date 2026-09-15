@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "GARKANE",
+        "scraped_at": "2026-09-15 09:07:30 MST",
+        "source": "GARKANE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 16986
+    },
+    "outages": [
+        {
+            "latitude": 36.85860190637754,
+            "longitude": -112.73525338929441,
+            "customers": 1,
+            "cause": "URD Secondaries",
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-09-14 23:18:33 MST",
+            "etr": null,
+            "incident_id": "300449"
+        }
+    ]
+}
