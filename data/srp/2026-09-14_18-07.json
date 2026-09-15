@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-14 18:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 831
+    },
+    "outages": [
+        {
+            "latitude": 33.304484694440106,
+            "longitude": -111.8665693221875,
+            "boundary": "N DOBSON  RD TO N HARTFORD  ST AND W GALVESTON  ST TO W FRYE  RD",
+            "customers": 831,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-14 15:11 MST",
+            "etr": "2026-09-14 18:30 MST"
+        }
+    ]
+}

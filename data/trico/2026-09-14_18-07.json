@@ -1,0 +1,136 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-14 18:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 89,
+        "total_customers": 57984
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.283483225690084,
+            "longitude": -111.31698423537624,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley South",
+            "start_time": "2026-09-14 16:37:34 MST",
+            "etr": null,
+            "incident_id": "389349"
+        },
+        {
+            "latitude": 31.955120987616006,
+            "longitude": -110.77830947517899,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-14 16:36:25 MST",
+            "etr": "2026-09-14 19:36:25 MST",
+            "incident_id": "389347"
+        },
+        {
+            "latitude": 31.923263662707956,
+            "longitude": -110.74603300701608,
+            "customers": 7,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-14 16:50:30 MST",
+            "etr": null,
+            "incident_id": "389358"
+        },
+        {
+            "latitude": 32.25566790428645,
+            "longitude": -111.26954420521528,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-09-14 16:24:03 MST",
+            "etr": "2026-09-14 19:24:03 MST",
+            "incident_id": "389346"
+        },
+        {
+            "latitude": 31.924575069829203,
+            "longitude": -110.74859320557617,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-14 17:49:32 MST",
+            "etr": null,
+            "incident_id": "389365"
+        },
+        {
+            "latitude": 32.161281506652195,
+            "longitude": -111.08484159962177,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Valencia",
+            "start_time": "2026-09-14 18:03:09 MST",
+            "etr": null,
+            "incident_id": "389366"
+        },
+        {
+            "latitude": 31.988483481125435,
+            "longitude": -110.78933180371666,
+            "customers": 19,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-14 16:38:50 MST",
+            "etr": "2026-09-14 19:38:50 MST",
+            "incident_id": "389353"
+        },
+        {
+            "latitude": 32.15747146446908,
+            "longitude": -111.08287428914926,
+            "customers": 4,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Valencia",
+            "start_time": "2026-09-14 17:48:23 MST",
+            "etr": "2026-09-14 20:48:23 MST",
+            "incident_id": "389364"
+        },
+        {
+            "latitude": 31.97024153687863,
+            "longitude": -110.69796415615615,
+            "customers": 46,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-14 17:08:50 MST",
+            "etr": null,
+            "incident_id": "389361"
+        },
+        {
+            "latitude": 31.932565099794015,
+            "longitude": -110.705384240404,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-14 17:11:33 MST",
+            "etr": null,
+            "incident_id": "389362"
+        }
+    ]
+}
