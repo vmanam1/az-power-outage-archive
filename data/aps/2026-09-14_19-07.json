@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-14 19:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 86
+    },
+    "outages": [
+        {
+            "latitude": 33.491999617787876,
+            "longitude": -112.34931215976879,
+            "city": "Litchfield Park",
+            "boundary": "East Palm St to East Sagebrush St and South Florence Ave to South Villa Nueva Dr",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-14 06:48:00 MST",
+            "etr": "2026-09-14 12:35:00 MST"
+        },
+        {
+            "latitude": 33.723193930950785,
+            "longitude": -111.83134595826075,
+            "city": "Scottsdale",
+            "boundary": "East Christmas Cholla Dr to East Cottontail Ln and North 115th Pl to North 116th St",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-14 09:26:00 MST",
+            "etr": "2026-09-14 13:00:00 MST"
+        },
+        {
+            "latitude": 32.98954075928992,
+            "longitude": -111.87711365863105,
+            "city": "Casa Grande",
+            "boundary": "Kiva Rd. to Val Vista Blvd. and Papoose Rd.",
+            "customers": 49,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-09-14 11:12:00 MST",
+            "etr": "2026-09-14 15:20:00 MST"
+        },
+        {
+            "latitude": 33.571470876226726,
+            "longitude": -111.84699734498184,
+            "city": "Scottsdale",
+            "boundary": "Mountain View Rd. to 106th Wy. and 107th St. to 108th St.",
+            "customers": 23,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-14 11:47:00 MST",
+            "etr": "2026-09-14 14:35:00 MST"
+        }
+    ]
+}
