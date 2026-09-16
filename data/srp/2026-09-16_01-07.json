@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-16 01:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 26
+    },
+    "outages": [
+        {
+            "latitude": 33.4153595105188,
+            "longitude": -111.887029290665,
+            "boundary": "S PIMA  LOOP TO S ROOSEVELT  RD AND E UNIVERSITY  DR TO W BROADWAY  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-15 20:04 MST",
+            "etr": "2026-09-16 04:00 MST"
+        },
+        {
+            "latitude": 33.44877783693885,
+            "longitude": -111.8290585555515,
+            "boundary": "N COUNTRY CLUB  DR TO N MESA  DR AND E MCKELLIPS  RD TO E MCLELLAN  RD",
+            "customers": 16,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-15 16:26 MST",
+            "etr": "2026-09-16 03:00 MST"
+        },
+        {
+            "latitude": 33.55279312533855,
+            "longitude": -112.108569992781,
+            "boundary": "N BLACK CANYON  HWY TO N 19TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-16 00:39 MST",
+            "etr": "2026-09-16 05:00 MST"
+        },
+        {
+            "latitude": 33.30789617782205,
+            "longitude": -111.887925131003,
+            "boundary": "N PRICE  FWY TO N ELLIS  ST AND W GALVESTON  ST TO W CHANDLER  BLVD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-16 00:44 MST",
+            "etr": "2026-09-16 02:43 MST"
+        }
+    ]
+}
