@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-15 19:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 273
+    },
+    "outages": [
+        {
+            "latitude": 33.2948261307627,
+            "longitude": -112.1587699467605,
+            "boundary": "S 51ST  AVE TO S SOUTH MOUNTAIN  FWY AND W GALVESTON  ST TO W PECOS  RD",
+            "customers": 6,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-09-15 16:03 MST",
+            "etr": "2026-09-15 20:53 MST"
+        },
+        {
+            "latitude": 33.5111051158673,
+            "longitude": -112.10121085443299,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 34,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-15 15:09 MST",
+            "etr": "2026-09-15 20:09 MST"
+        },
+        {
+            "latitude": 33.48706925871045,
+            "longitude": -112.003164558128,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 40,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 17:53 MST",
+            "etr": "2026-09-15 19:38 MST"
+        },
+        {
+            "latitude": 33.4505378653855,
+            "longitude": -111.82729272158,
+            "boundary": "N CENTER  ST TO N MESA  DR AND W RED MOUNTAIN  FWY TO E MCLELLAN  RD",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 18:36 MST",
+            "etr": "2026-09-15 20:35 MST"
+        },
+        {
+            "latitude": 33.485944735738755,
+            "longitude": -112.0031161248495,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 94,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 17:41 MST",
+            "etr": "2026-09-15 19:45 MST"
+        },
+        {
+            "latitude": 33.44933069997525,
+            "longitude": -111.82883585821199,
+            "boundary": "N COUNTRY CLUB  DR TO N MESA  DR AND W RED MOUNTAIN  FWY TO E MCLELLAN  RD",
+            "customers": 36,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 16:26 MST",
+            "etr": "2026-09-15 20:02 MST"
+        },
+        {
+            "latitude": 33.3764914001991,
+            "longitude": -111.953571849862,
+            "boundary": "S PRIEST  DR TO S KYRENE  RD AND W SUPERSTITION  FWY TO E CALLE SONORA  ",
+            "customers": 58,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 18:44 MST",
+            "etr": "2026-09-15 20:42 MST"
+        }
+    ]
+}

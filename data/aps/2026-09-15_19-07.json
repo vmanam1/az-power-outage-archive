@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-15 19:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 239
+    },
+    "outages": [
+        {
+            "latitude": 35.036048801963034,
+            "longitude": -110.71716028766393,
+            "city": "Winslow",
+            "boundary": "Desert View Dr. to Easy St. and Carol Dr.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-15 07:16:00 MST",
+            "etr": "2026-09-15 16:30:00 MST"
+        },
+        {
+            "latitude": 33.67179663923802,
+            "longitude": -112.23054783641635,
+            "city": "Peoria",
+            "boundary": "West Harmony Ln to West Ross Ave and North 81st Ave to North 79th Ave",
+            "customers": 24,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-15 08:15:00 MST",
+            "etr": "2026-09-15 15:00:00 MST"
+        },
+        {
+            "latitude": 32.92782599968109,
+            "longitude": -112.72909199974767,
+            "city": "Gila Bend",
+            "boundary": "Trosper St To First St And Powerline Rd To Stout Rd",
+            "customers": 210,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-15 10:37:00 MST",
+            "etr": "2026-09-15 12:55:00 MST"
+        }
+    ]
+}
