@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-16 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.59806843280197,
+            "longitude": -112.16470053557295,
+            "city": "Glendale",
+            "boundary": "Columbine Dr. to Cactus Rd. and 50th Ave. to 49th Ave.",
+            "customers": 25,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-16 01:09:00 MST",
+            "etr": "2026-09-16 03:30:00 MST"
+        }
+    ]
+}
