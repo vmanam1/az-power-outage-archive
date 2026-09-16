@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-15 17:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 85
+    },
+    "outages": [
+        {
+            "latitude": 33.2948261307627,
+            "longitude": -112.1587699467605,
+            "boundary": "S 51ST  AVE TO S SOUTH MOUNTAIN  FWY AND W GALVESTON  ST TO W PECOS  RD",
+            "customers": 6,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-09-15 16:03 MST",
+            "etr": "2026-09-15 20:53 MST"
+        },
+        {
+            "latitude": 33.5111051158673,
+            "longitude": -112.10121085443299,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 34,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-15 15:09 MST",
+            "etr": "2026-09-15 20:09 MST"
+        },
+        {
+            "latitude": 33.44933069997525,
+            "longitude": -111.82883585821199,
+            "boundary": "N COUNTRY CLUB  DR TO N MESA  DR AND W RED MOUNTAIN  FWY TO E MCLELLAN  RD",
+            "customers": 36,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 16:26 MST",
+            "etr": "2026-09-15 18:27 MST"
+        },
+        {
+            "latitude": 33.5123244514604,
+            "longitude": -112.1021777653845,
+            "boundary": "N 23RD  AVE TO N 19TH  AVE AND W MISSOURI  AVE TO W CAMELBACK  RD",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 15:28 MST",
+            "etr": "2026-09-15 20:09 MST"
+        }
+    ]
+}
