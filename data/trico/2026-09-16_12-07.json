@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-16 12:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 9,
+        "total_customers": 58007
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.32715626464337,
+            "longitude": -111.31888866377884,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley South",
+            "start_time": "2026-09-16 11:53:48 MST",
+            "etr": null,
+            "incident_id": "389404"
+        },
+        {
+            "latitude": 32.16948662535012,
+            "longitude": -111.0655907030804,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-09-16 11:19:48 MST",
+            "etr": null,
+            "incident_id": "389403"
+        },
+        {
+            "latitude": 32.53207362713436,
+            "longitude": -110.87035984235553,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Pinal County East",
+            "start_time": "2026-09-16 08:04:58 MST",
+            "etr": null,
+            "incident_id": "389400"
+        }
+    ]
+}

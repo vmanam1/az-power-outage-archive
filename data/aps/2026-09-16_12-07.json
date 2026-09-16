@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-16 12:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 78
+    },
+    "outages": [
+        {
+            "latitude": 33.47521705364345,
+            "longitude": -112.04183564010374,
+            "city": "Phoenix",
+            "boundary": "Yale St to Sheridan St and 17th St to 20th St",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-16 03:04:00 MST",
+            "etr": "2026-09-16 06:00:00 MST"
+        },
+        {
+            "latitude": 34.55787966978355,
+            "longitude": -110.05051331083025,
+            "city": "Snowflake",
+            "boundary": "Buckskin Tl. to Chaparral Dr. and Silver Creek to Snowflake Blvd.",
+            "customers": 60,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 04:35:00 MST",
+            "etr": "2026-09-16 08:35:00 MST"
+        },
+        {
+            "latitude": 33.31196603178025,
+            "longitude": -111.84227381636838,
+            "city": "Chandler",
+            "boundary": "Oakland St. to Hulet Dr. and Arizona Ave.",
+            "customers": 8,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-15 23:49:00 MST",
+            "etr": "2026-09-16 07:25:00 MST"
+        }
+    ]
+}
