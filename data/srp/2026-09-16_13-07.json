@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-16 13:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 4422
+    },
+    "outages": [
+        {
+            "latitude": 33.3906976892449,
+            "longitude": -111.878493800051,
+            "boundary": "S EVERGREEN  RD TO S DOBSON  RD AND W SOUTHERN  AVE TO W SUPERSTITION  FWY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-16 08:20 MST",
+            "etr": "2026-09-16 14:30 MST"
+        },
+        {
+            "latitude": 33.40199251107075,
+            "longitude": -111.5389099813955,
+            "boundary": "S IDAHO  RD TO S TOMAHAWK  RD AND E BROADWAY  AVE TO E SOUTHERN  AVE",
+            "customers": 13,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-16 12:00 MST",
+            "etr": "2026-09-16 13:59 MST"
+        },
+        {
+            "latitude": 33.40199251107075,
+            "longitude": -111.5389099813955,
+            "boundary": "S IDAHO  RD TO S TOMAHAWK  RD AND E BROADWAY  AVE TO E SOUTHERN  AVE",
+            "customers": 13,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-16 12:10 MST",
+            "etr": "2026-09-16 14:09 MST"
+        },
+        {
+            "latitude": 33.39376822667195,
+            "longitude": -111.490386426443,
+            "boundary": "S MOUNTAIN VIEW  RD TO S GERONIMO  RD AND E 16TH  AVE TO E 32ND  AVE",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-16 12:17 MST",
+            "etr": "2026-09-16 13:36 MST"
+        },
+        {
+            "latitude": 33.416461879293095,
+            "longitude": -111.611051407042,
+            "boundary": "N ELLSWORTH  RD TO N MOUNTAIN  RD AND E ADOBE  RD TO E PUEBLO  AVE",
+            "customers": 1551,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-16 12:21 MST",
+            "etr": "2026-09-16 14:19 MST"
+        },
+        {
+            "latitude": 33.421074096106295,
+            "longitude": -111.715223848768,
+            "boundary": "N HIGLEY  RD TO N 56TH  ST AND E ADOBE  RD TO E MAIN  ST",
+            "customers": 12,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-09-16 12:31 MST",
+            "etr": "2026-09-16 18:07 MST"
+        },
+        {
+            "latitude": 33.3795219676054,
+            "longitude": -112.15284069909299,
+            "boundary": "S 47TH  AVE TO S 39TH  AVE AND W VINEYARD  RD TO W 43RD  AVE",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-16 12:38 MST",
+            "etr": "2026-09-16 14:38 MST"
+        },
+        {
+            "latitude": 33.4465350866136,
+            "longitude": -111.5453778492725,
+            "boundary": "N MERIDIAN  RD TO N APACHE  TRL AND UNKNOWN TO E JUNCTION  ST",
+            "customers": 1807,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-16 12:58 MST",
+            "etr": "2026-09-16 14:58 MST"
+        },
+        {
+            "latitude": 33.41835991265525,
+            "longitude": -111.629143063998,
+            "boundary": "N 88TH  ST TO N 96TH  ST AND E ADOBE  RD TO E BROADWAY  RD",
+            "customers": 196,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-16 12:15 MST",
+            "etr": "2026-09-16 14:39 MST"
+        },
+        {
+            "latitude": 33.44022935329025,
+            "longitude": -111.672060298865,
+            "boundary": "N POWER  RD TO N 80TH  ST AND E HERMOSA VISTA  DR TO E UNIVERSITY  DR",
+            "customers": 821,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-16 13:02 MST",
+            "etr": "2026-09-16 15:01 MST"
+        }
+    ]
+}

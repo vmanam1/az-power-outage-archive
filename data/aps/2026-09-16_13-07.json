@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-16 13:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 243
+    },
+    "outages": [
+        {
+            "latitude": 33.47521705364345,
+            "longitude": -112.04183564010374,
+            "city": "Phoenix",
+            "boundary": "Yale St to Sheridan St and 17th St to 20th St",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-16 03:04:00 MST",
+            "etr": "2026-09-16 06:55:00 MST"
+        },
+        {
+            "latitude": 33.31196603178025,
+            "longitude": -111.84227381636838,
+            "city": "Chandler",
+            "boundary": "Oakland St. to Hulet Dr. and Arizona Ave.",
+            "customers": 7,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-15 23:49:00 MST",
+            "etr": "2026-09-16 07:50:00 MST"
+        },
+        {
+            "latitude": 34.39564092696251,
+            "longitude": -112.22803218890482,
+            "city": "Mayer",
+            "boundary": "Eldon Dr to East Oak Hills Tl and Pinto St to Main St",
+            "customers": 132,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 05:41:00 MST",
+            "etr": "2026-09-16 08:30:00 MST"
+        },
+        {
+            "latitude": 33.89584367912118,
+            "longitude": -112.0411726088639,
+            "city": "New River",
+            "boundary": "Cline Creek to 20th St. and 16th St. to 22nd St.",
+            "customers": 94,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 05:48:00 MST",
+            "etr": "2026-09-16 08:40:00 MST"
+        }
+    ]
+}
