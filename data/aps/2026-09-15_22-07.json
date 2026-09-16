@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-15 22:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 38
+    },
+    "outages": [
+        {
+            "latitude": 33.57253286276736,
+            "longitude": -111.79182726060368,
+            "city": "Scottsdale",
+            "boundary": "Sorrel Ln. to Del Timbre Dr. and 132nd Pl. to 136th St.",
+            "customers": 38,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-15 14:04:00 MST",
+            "etr": "2026-09-15 16:00:00 MST"
+        }
+    ]
+}
