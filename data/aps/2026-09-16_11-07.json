@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-16 11:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.47521705364345,
+            "longitude": -112.04183564010374,
+            "city": "Phoenix",
+            "boundary": "Yale St to Sheridan St and 17th St to 20th St",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-16 03:04:00 MST",
+            "etr": "2026-09-16 06:00:00 MST"
+        }
+    ]
+}

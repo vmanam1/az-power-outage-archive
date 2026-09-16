@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-16 11:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 586
+    },
+    "outages": [
+        {
+            "latitude": 33.4332951012797,
+            "longitude": -111.59256734957799,
+            "boundary": "N SIGNAL BUTTE  RD TO N MOUNTAIN  RD AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-16 07:29 MST",
+            "etr": "2026-09-16 12:28 MST"
+        },
+        {
+            "latitude": 33.3906976892449,
+            "longitude": -111.878493800051,
+            "boundary": "S EVERGREEN  RD TO S DOBSON  RD AND W SOUTHERN  AVE TO W SUPERSTITION  FWY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-16 08:20 MST",
+            "etr": "2026-09-16 14:30 MST"
+        },
+        {
+            "latitude": 33.62474716966345,
+            "longitude": -111.057364214578,
+            "boundary": "UNKNOWN TO N HWY 288   AND UNKNOWN TO UNKNOWN",
+            "customers": 582,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-16 09:48 MST",
+            "etr": "2026-09-16 11:47 MST"
+        }
+    ]
+}
