@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-16 15:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 1643
+    },
+    "outages": [
+        {
+            "latitude": 33.31196603178025,
+            "longitude": -111.84227381636838,
+            "city": "Chandler",
+            "boundary": "Oakland St. to Hulet Dr. and Arizona Ave.",
+            "customers": 8,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-15 23:49:00 MST",
+            "etr": "2026-09-16 08:50:00 MST"
+        },
+        {
+            "latitude": 33.89584367912118,
+            "longitude": -112.0411726088639,
+            "city": "New River",
+            "boundary": "Cline Creek to 20th St. and 16th St. to 22nd St.",
+            "customers": 21,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 05:48:00 MST",
+            "etr": "2026-09-16 08:40:00 MST"
+        },
+        {
+            "latitude": 33.6591305452723,
+            "longitude": -111.88301244324927,
+            "city": "Scottsdale",
+            "boundary": "Downing Olsen Dr and 90th St",
+            "customers": 41,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-16 06:19:00 MST",
+            "etr": "2026-09-16 08:30:00 MST"
+        },
+        {
+            "latitude": 33.57615800025915,
+            "longitude": -112.0016459997441,
+            "city": "Phoenix",
+            "boundary": "Shea Blvd To Dunlap Ave And 30Th St  To 42Nd St",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 06:47:00 MST",
+            "etr": "2026-09-16 10:50:00 MST"
+        },
+        {
+            "latitude": 34.310871758286844,
+            "longitude": -109.98463058582193,
+            "city": "Show Low",
+            "boundary": "Kaibab Ln to Red Fox Ln and Brown Trout Dr",
+            "customers": 188,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 07:04:00 MST",
+            "etr": "2026-09-16 10:00:00 MST"
+        },
+        {
+            "latitude": 32.891505680997035,
+            "longitude": -111.83746653243107,
+            "city": "Casa Grande",
+            "boundary": "West Clayton Rd to Gila Bend Hwy and North Blanco Rd",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 07:47:00 MST",
+            "etr": "2026-09-16 11:15:00 MST"
+        },
+        {
+            "latitude": 34.17680023794067,
+            "longitude": -114.21691010886542,
+            "city": "Parker",
+            "boundary": "Treasure Rd and Fenton Dr to Rio Vista Rd",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 07:57:00 MST",
+            "etr": "2026-09-16 09:00:00 MST"
+        },
+        {
+            "latitude": 33.84934743175287,
+            "longitude": -112.13228681112732,
+            "city": "Phoenix",
+            "boundary": "West Owens Wy to North Explorations Tl and North Integrity Tl to North Dedication Tl",
+            "customers": 9,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 07:55:00 MST",
+            "etr": "2026-09-16 10:00:00 MST"
+        },
+        {
+            "latitude": 33.617183099983755,
+            "longitude": -112.06824250002605,
+            "city": "Phoenix",
+            "boundary": "Coral Gables Dr To Thunderbird Rd  And 5 Ave To 9 St",
+            "customers": 1352,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 08:00:00 MST",
+            "etr": "2026-09-16 12:00:00 MST"
+        }
+    ]
+}
