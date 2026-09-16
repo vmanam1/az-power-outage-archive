@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-15 23:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.4153595105188,
+            "longitude": -111.887029290665,
+            "boundary": "S PIMA  LOOP TO S ROOSEVELT  RD AND E UNIVERSITY  DR TO W BROADWAY  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-15 20:04 MST",
+            "etr": "2026-09-16 04:00 MST"
+        },
+        {
+            "latitude": 33.4852313089087,
+            "longitude": -112.19464402133801,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W OSBORN  RD TO W THOMAS  RD",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-15 19:34 MST",
+            "etr": "2026-09-16 04:00 MST"
+        },
+        {
+            "latitude": 33.44877783693885,
+            "longitude": -111.8290585555515,
+            "boundary": "N COUNTRY CLUB  DR TO N MESA  DR AND E MCKELLIPS  RD TO E MCLELLAN  RD",
+            "customers": 16,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-15 16:26 MST",
+            "etr": "2026-09-16 03:00 MST"
+        }
+    ]
+}
