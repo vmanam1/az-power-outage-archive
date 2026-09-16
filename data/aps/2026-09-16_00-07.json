@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-16 00:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 47
+    },
+    "outages": [
+        {
+            "latitude": 33.57253286276736,
+            "longitude": -111.79182726060368,
+            "city": "Scottsdale",
+            "boundary": "Sorrel Ln. to Del Timbre Dr. and 132nd Pl. to 136th St.",
+            "customers": 38,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-15 14:04:00 MST",
+            "etr": "2026-09-15 18:00:00 MST"
+        },
+        {
+            "latitude": 33.74592407509521,
+            "longitude": -111.98951254503304,
+            "city": "Cave Creek",
+            "boundary": "Hoot Owl Tl. to Dale Ln. and 43rd St.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-15 15:10:00 MST",
+            "etr": "2026-09-15 18:30:00 MST"
+        }
+    ]
+}
