@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-15 20:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 71
+    },
+    "outages": [
+        {
+            "latitude": 35.036048801963034,
+            "longitude": -110.71716028766393,
+            "city": "Winslow",
+            "boundary": "Desert View Dr. to Easy St. and Carol Dr.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-15 07:16:00 MST",
+            "etr": "2026-09-15 17:30:00 MST"
+        },
+        {
+            "latitude": 33.67179663923802,
+            "longitude": -112.23054783641635,
+            "city": "Peoria",
+            "boundary": "West Harmony Ln to West Ross Ave and North 81st Ave to North 79th Ave",
+            "customers": 6,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-15 08:15:00 MST",
+            "etr": "2026-09-15 15:00:00 MST"
+        },
+        {
+            "latitude": 33.57253286276736,
+            "longitude": -111.79182726060368,
+            "city": "Scottsdale",
+            "boundary": "Appaloosa Pl. to Del Timber Dr. and 132nd Pl. to 135th Wy.",
+            "customers": 60,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-15 12:42:00 MST",
+            "etr": "2026-09-15 15:15:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-15 20:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 123
+    },
+    "outages": [
+        {
+            "latitude": 33.2948261307627,
+            "longitude": -112.1587699467605,
+            "boundary": "S 51ST  AVE TO S SOUTH MOUNTAIN  FWY AND W GALVESTON  ST TO W PECOS  RD",
+            "customers": 6,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-09-15 16:03 MST",
+            "etr": "2026-09-15 20:53 MST"
+        },
+        {
+            "latitude": 33.4505378653855,
+            "longitude": -111.82729272158,
+            "boundary": "N CENTER  ST TO N MESA  DR AND W RED MOUNTAIN  FWY TO E MCLELLAN  RD",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 18:36 MST",
+            "etr": "2026-09-15 20:35 MST"
+        },
+        {
+            "latitude": 33.44877783693885,
+            "longitude": -111.8290585555515,
+            "boundary": "N COUNTRY CLUB  DR TO N MESA  DR AND E MCKELLIPS  RD TO E MCLELLAN  RD",
+            "customers": 16,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-15 16:26 MST",
+            "etr": "2026-09-15 21:00 MST"
+        },
+        {
+            "latitude": 33.4852313089087,
+            "longitude": -112.19464402133801,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W OSBORN  RD TO W THOMAS  RD",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 19:34 MST",
+            "etr": "2026-09-15 21:36 MST"
+        },
+        {
+            "latitude": 33.449848537467204,
+            "longitude": -111.82838666315399,
+            "boundary": "N COUNTRY CLUB  DR TO N MESA  DR AND W RED MOUNTAIN  FWY TO E MCLELLAN  RD",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 19:57 MST",
+            "etr": "2026-09-15 21:54 MST"
+        },
+        {
+            "latitude": 33.3764914001991,
+            "longitude": -111.953571849862,
+            "boundary": "S PRIEST  DR TO S KYRENE  RD AND W SUPERSTITION  FWY TO E CALLE SONORA  ",
+            "customers": 58,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-15 18:44 MST",
+            "etr": "2026-09-15 21:22 MST"
+        },
+        {
+            "latitude": 33.4153595105188,
+            "longitude": -111.887029290665,
+            "boundary": "S PIMA  LOOP TO S ROOSEVELT  RD AND E UNIVERSITY  DR TO W BROADWAY  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-15 20:04 MST",
+            "etr": "2026-09-16 04:00 MST"
+        }
+    ]
+}
