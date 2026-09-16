@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-16 14:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 2363
+    },
+    "outages": [
+        {
+            "latitude": 33.31196603178025,
+            "longitude": -111.84227381636838,
+            "city": "Chandler",
+            "boundary": "Oakland St. to Hulet Dr. and Arizona Ave.",
+            "customers": 8,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-15 23:49:00 MST",
+            "etr": "2026-09-16 07:50:00 MST"
+        },
+        {
+            "latitude": 33.89584367912118,
+            "longitude": -112.0411726088639,
+            "city": "New River",
+            "boundary": "Cline Creek to 20th St. and 16th St. to 22nd St.",
+            "customers": 21,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 05:48:00 MST",
+            "etr": "2026-09-16 08:40:00 MST"
+        },
+        {
+            "latitude": 33.62568999974475,
+            "longitude": -112.0828050001637,
+            "city": "Phoenix",
+            "boundary": "Kelton Ln To Thunderbird Rd And 19Th Ave To Central Ave",
+            "customers": 1410,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 06:14:00 MST",
+            "etr": "2026-09-16 10:55:00 MST"
+        },
+        {
+            "latitude": 32.894672817185295,
+            "longitude": -111.84000803165985,
+            "city": "Casa Grande",
+            "boundary": "Clayton Rd and Candlestick Dr",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-16 06:16:00 MST",
+            "etr": "2026-09-16 09:40:00 MST"
+        },
+        {
+            "latitude": 33.6591305452723,
+            "longitude": -111.88301244324927,
+            "city": "Scottsdale",
+            "boundary": "Downing Olsen Dr and 90th St",
+            "customers": 41,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-16 06:19:00 MST",
+            "etr": "2026-09-16 08:30:00 MST"
+        },
+        {
+            "latitude": 33.57615800025915,
+            "longitude": -112.0016459997441,
+            "city": "Phoenix",
+            "boundary": "Shea Blvd To Dunlap Ave And 30Th St  To 42Nd St",
+            "customers": 858,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 06:47:00 MST",
+            "etr": "2026-09-16 10:50:00 MST"
+        },
+        {
+            "latitude": 33.4429353307277,
+            "longitude": -112.14024051800914,
+            "city": "Phoenix",
+            "boundary": "Buchanan St. to Lincoln St. and 39th Ave. 35th Ave.",
+            "customers": 20,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 06:50:00 MST",
+            "etr": "2026-09-16 10:25:00 MST"
+        }
+    ]
+}
