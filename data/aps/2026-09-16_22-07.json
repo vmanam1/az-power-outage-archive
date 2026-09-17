@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-16 22:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 101
+    },
+    "outages": [
+        {
+            "latitude": 33.89584367912118,
+            "longitude": -112.0411726088639,
+            "city": "New River",
+            "boundary": "Cline Creek to 20th St. and 16th St. to 22nd St.",
+            "customers": 21,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 05:48:00 MST",
+            "etr": "2026-09-16 19:00:00 MST"
+        },
+        {
+            "latitude": 33.84934743175287,
+            "longitude": -112.13228681112732,
+            "city": "Phoenix",
+            "boundary": "West Owens Wy to North Explorations Tl and North Integrity Tl to North Dedication Tl",
+            "customers": 9,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 07:55:00 MST",
+            "etr": "2026-09-16 16:00:00 MST"
+        },
+        {
+            "latitude": 33.65478152371193,
+            "longitude": -112.25854733028568,
+            "city": "Peoria",
+            "boundary": "Lakeview Rd. to Union Hills Dr. and 94th Ave. to 91st Ave.",
+            "customers": 12,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-16 12:47:00 MST",
+            "etr": "2026-09-16 15:30:00 MST"
+        },
+        {
+            "latitude": 33.43812172284717,
+            "longitude": -112.53513314001758,
+            "city": "Buckeye",
+            "boundary": "Sundance Blvd. to Desert Bloom St. and 224th Ln.",
+            "customers": 47,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-16 14:27:00 MST",
+            "etr": "2026-09-16 16:30:00 MST"
+        },
+        {
+            "latitude": 33.58619607064035,
+            "longitude": -112.09783319323283,
+            "city": "Phoenix",
+            "boundary": "Desert Cove Ave. and 18th Ave.",
+            "customers": 12,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-16 14:26:00 MST",
+            "etr": "2026-09-16 17:15:00 MST"
+        }
+    ]
+}
