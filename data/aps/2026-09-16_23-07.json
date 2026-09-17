@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-16 23:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 45
+    },
+    "outages": [
+        {
+            "latitude": 33.58619607064035,
+            "longitude": -112.09783319323283,
+            "city": "Phoenix",
+            "boundary": "Desert Cove Ave. and 18th Ave.",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-16 14:26:00 MST",
+            "etr": "2026-09-16 17:15:00 MST"
+        },
+        {
+            "latitude": 33.647156913744006,
+            "longitude": -112.19046832322233,
+            "city": "Glendale",
+            "boundary": "Grovers Ave. and 63rd Ave. to 59th Ave.",
+            "customers": 33,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-16 15:25:00 MST",
+            "etr": "2026-09-16 17:55:00 MST"
+        }
+    ]
+}
