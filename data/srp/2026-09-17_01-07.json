@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-17 01:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 77
+    },
+    "outages": [
+        {
+            "latitude": 33.307372005662145,
+            "longitude": -111.784729676965,
+            "boundary": "N 132ND  ST TO S LINDSAY  RD AND E GALVESTON  ST TO E FRYE  RD",
+            "customers": 26,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-16 23:04 MST",
+            "etr": "2026-09-17 03:03 MST"
+        },
+        {
+            "latitude": 33.45083269802705,
+            "longitude": -112.2630515891415,
+            "boundary": "N 99TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 28,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-16 23:20 MST",
+            "etr": "2026-09-17 05:06 MST"
+        },
+        {
+            "latitude": 33.42070964638815,
+            "longitude": -111.5684051284475,
+            "boundary": "N DELAWARE  DR TO N IRONWOOD  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-16 23:27 MST",
+            "etr": "2026-09-17 02:45 MST"
+        },
+        {
+            "latitude": 33.536941017092104,
+            "longitude": -112.1520290687735,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-16 23:48 MST",
+            "etr": "2026-09-17 05:06 MST"
+        },
+        {
+            "latitude": 33.5099381920355,
+            "longitude": -112.183304725425,
+            "boundary": "N 59TH  AVE TO N 55TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-17 00:04 MST",
+            "etr": "2026-09-17 03:05 MST"
+        },
+        {
+            "latitude": 33.55566358552055,
+            "longitude": -112.1016280514875,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-17 00:56 MST",
+            "etr": "2026-09-17 05:30 MST"
+        },
+        {
+            "latitude": 33.485454202576946,
+            "longitude": -111.904689673606,
+            "boundary": "N HAYDEN  RD TO N GRANITE REEF  RD AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-09-16 23:32 MST",
+            "etr": "2026-09-17 02:30 MST"
+        }
+    ]
+}
