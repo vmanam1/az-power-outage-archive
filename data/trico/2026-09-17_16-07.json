@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-17 16:07:07 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 8,
+        "total_customers": 58011
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.317606484018896,
+            "longitude": -111.24085201503652,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-17 15:48:39 MST",
+            "etr": null,
+            "incident_id": "389418"
+        },
+        {
+            "latitude": 32.41547050972892,
+            "longitude": -110.71400806713277,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Mt Lemmon",
+            "start_time": "2026-09-17 08:40:54 MST",
+            "etr": null,
+            "incident_id": "389415"
+        }
+    ]
+}
