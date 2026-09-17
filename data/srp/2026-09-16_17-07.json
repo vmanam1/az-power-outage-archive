@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-16 17:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1277
+    },
+    "outages": [
+        {
+            "latitude": 33.33745627365555,
+            "longitude": -111.7748020511825,
+            "boundary": "S GILBERT  RD TO S 31ST  ST AND E MESQUITE  ST TO E RAY  RD",
+            "customers": 8,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-09-16 14:10 MST",
+            "etr": "2026-09-16 18:00 MST"
+        },
+        {
+            "latitude": 33.51718320723225,
+            "longitude": -112.206919681002,
+            "boundary": "N 79TH  AVE TO N 59TH  AVE AND W MARYLAND  AVE TO W CAMPBELL  AVE",
+            "customers": 1241,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-16 16:34 MST",
+            "etr": "2026-09-16 18:34 MST"
+        },
+        {
+            "latitude": 33.42330446334605,
+            "longitude": -111.57507786381251,
+            "boundary": "N MERIDIAN  RD TO N DELAWARE  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-16 16:40 MST",
+            "etr": "2026-09-16 22:00 MST"
+        },
+        {
+            "latitude": 33.42298304171355,
+            "longitude": -111.57581538745501,
+            "boundary": "N MERIDIAN  RD TO N DELAWARE  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 16,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-16 16:54 MST",
+            "etr": "2026-09-16 23:00 MST"
+        }
+    ]
+}
