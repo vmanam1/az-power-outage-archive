@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-17 03:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 74
+    },
+    "outages": [
+        {
+            "latitude": 33.5480454153355,
+            "longitude": -112.07346651601692,
+            "city": "Phoenix",
+            "boundary": "Northern Ave. to Orangewood Ave. and 7th Ave. to 7th St.",
+            "customers": 61,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-09-16 18:56:00 MST",
+            "etr": "2026-09-16 22:30:00 MST"
+        },
+        {
+            "latitude": 34.59640587995482,
+            "longitude": -111.8858393893461,
+            "city": "Camp Verde",
+            "boundary": "Park Verde Rd. to Doug's Park Rd. and River View Dr.",
+            "customers": 13,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 19:51:00 MST",
+            "etr": "2026-09-17 01:00:00 MST"
+        }
+    ]
+}
