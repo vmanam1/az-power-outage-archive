@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-17 14:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 885
+    },
+    "outages": [
+        {
+            "latitude": 33.56771875184141,
+            "longitude": -111.90942008201094,
+            "city": "Scottsdale",
+            "boundary": "East Del Rubi Dr to East Del Cadena Dr and East Gainey Ranch Rd",
+            "customers": 21,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-17 06:33:00 MST",
+            "etr": "2026-09-17 09:00:00 MST"
+        },
+        {
+            "latitude": 31.351003099665725,
+            "longitude": -109.93554949983182,
+            "city": "Bisbee",
+            "boundary": "Hereford Rd To Mexican Border And Wilson Rd To Gold Gulch Rd",
+            "customers": 864,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-17 07:02:00 MST",
+            "etr": "2026-09-17 11:00:00 MST"
+        }
+    ]
+}
