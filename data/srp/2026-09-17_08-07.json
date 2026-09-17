@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-17 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 50
+    },
+    "outages": [
+        {
+            "latitude": 33.227333292055604,
+            "longitude": -111.822795153914,
+            "boundary": "S ARIZONA  AVE TO S 124TH  ST AND E CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-17 06:28 MST",
+            "etr": "2026-09-17 08:28 MST"
+        },
+        {
+            "latitude": 33.3549413603195,
+            "longitude": -111.888604361278,
+            "boundary": "N PRICE  FWY TO N DOBSON  RD AND W GUADALUPE  RD TO W ELLIOT  RD",
+            "customers": 45,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-17 07:35 MST",
+            "etr": "2026-09-17 09:35 MST"
+        },
+        {
+            "latitude": 33.48684318535555,
+            "longitude": -112.01149889195901,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-17 08:03 MST",
+            "etr": "2026-09-17 11:02 MST"
+        }
+    ]
+}

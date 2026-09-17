@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-17 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 33.8694972709477,
+            "longitude": -112.14104623405545,
+            "city": "Phoenix",
+            "boundary": "Anthem Way and Navigation Way",
+            "customers": 13,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-17 00:54:00 MST",
+            "etr": "2026-09-17 03:50:00 MST"
+        },
+        {
+            "latitude": 33.45454062096898,
+            "longitude": -112.12706420908471,
+            "city": "Phoenix",
+            "boundary": "West Fillmore to West Taylor St and North 32nd Ave to North 31st Ave",
+            "customers": 22,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-17 00:58:00 MST",
+            "etr": "2026-09-17 05:30:00 MST"
+        }
+    ]
+}
