@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-09-17 15:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 22,
+        "total_customers": 46016
+    },
+    "outages": [
+        {
+            "latitude": 34.34327398970818,
+            "longitude": -110.25879577999468,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "6 - Linden",
+            "start_time": "2026-09-17 07:51:32 MST",
+            "etr": null,
+            "incident_id": "534705"
+        },
+        {
+            "latitude": 34.52946683457212,
+            "longitude": -109.40144367271165,
+            "customers": 2,
+            "cause": "DAMAGED MATERIAL OR EQUIP",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-09-17 14:54:39 MST",
+            "etr": null,
+            "incident_id": "534716"
+        },
+        {
+            "latitude": 33.73722422260965,
+            "longitude": -109.0705133051488,
+            "customers": 19,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-09-17 10:39:28 MST",
+            "etr": null,
+            "incident_id": "534709"
+        }
+    ]
+}
