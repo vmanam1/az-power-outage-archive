@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-16 21:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 102
+    },
+    "outages": [
+        {
+            "latitude": 33.89584367912118,
+            "longitude": -112.0411726088639,
+            "city": "New River",
+            "boundary": "Cline Creek to 20th St. and 16th St. to 22nd St.",
+            "customers": 21,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 05:48:00 MST",
+            "etr": "2026-09-16 19:00:00 MST"
+        },
+        {
+            "latitude": 33.84934743175287,
+            "longitude": -112.13228681112732,
+            "city": "Phoenix",
+            "boundary": "West Owens Wy to North Explorations Tl and North Integrity Tl to North Dedication Tl",
+            "customers": 9,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 07:55:00 MST",
+            "etr": "2026-09-16 16:00:00 MST"
+        },
+        {
+            "latitude": 33.617183099983755,
+            "longitude": -112.06824250002605,
+            "city": "Phoenix",
+            "boundary": "West Braeburn Dr to West Interlacken Dr and North 2nd Ave to North Hana Maui Dr",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-16 08:00:00 MST",
+            "etr": "2026-09-16 15:00:00 MST"
+        },
+        {
+            "latitude": 33.71488557468536,
+            "longitude": -111.85126568735939,
+            "city": "Scottsdale",
+            "boundary": "East Ranch Gate Rd to East Buckskin Tl and North 106th Pl to North Windy Walk Dr",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-16 09:32:00 MST",
+            "etr": "2026-09-16 15:00:00 MST"
+        },
+        {
+            "latitude": 33.65478152371193,
+            "longitude": -112.25854733028568,
+            "city": "Peoria",
+            "boundary": "Lakeview Rd. to Union Hills Dr. and 94th Ave. to 91st Ave.",
+            "customers": 62,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-16 12:47:00 MST",
+            "etr": "2026-09-16 15:15:00 MST"
+        }
+    ]
+}
