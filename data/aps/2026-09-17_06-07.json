@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-17 06:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 34.59640587995482,
+            "longitude": -111.8858393893461,
+            "city": "Camp Verde",
+            "boundary": "Park Verde Rd. to Doug's Park Rd. and River View Dr.",
+            "customers": 13,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-16 19:51:00 MST",
+            "etr": "2026-09-17 01:00:00 MST"
+        }
+    ]
+}

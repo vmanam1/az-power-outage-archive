@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-17 06:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 867
+    },
+    "outages": [
+        {
+            "latitude": 33.229731760747,
+            "longitude": -111.8252100791,
+            "boundary": "S ARIZONA  AVE TO S COOPER  RD AND E OCOTILLO  RD TO E HUNT  HWY",
+            "customers": 867,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-17 04:22 MST",
+            "etr": "2026-09-17 06:31 MST"
+        }
+    ]
+}
