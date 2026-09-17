@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-17 04:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.5099381920355,
+            "longitude": -112.183304725425,
+            "boundary": "N 59TH  AVE TO N 55TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-17 00:04 MST",
+            "etr": "2026-09-17 05:55 MST"
+        }
+    ]
+}
