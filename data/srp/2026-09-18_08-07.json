@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-18 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.360134558332504,
+            "longitude": -112.140013353432,
+            "boundary": "S 39TH  AVE TO S 35TH  AVE AND W DOBBINS  RD TO W OLNEY  AVE",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-18 07:23 MST",
+            "etr": "2026-09-18 09:22 MST"
+        },
+        {
+            "latitude": 33.407527154114,
+            "longitude": -112.01878787259301,
+            "boundary": "S 28TH  ST TO S 32ND  ST AND E ELWOOD  ST TO E ROESER  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 07:25 MST",
+            "etr": "2026-09-18 13:30 MST"
+        },
+        {
+            "latitude": 33.30935408437735,
+            "longitude": -111.8624945296345,
+            "boundary": "N ARROWHEAD  DR TO N ALMA SCHOOL  RD AND W GALVESTON  ST TO W CHANDLER  BLVD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 07:34 MST",
+            "etr": "2026-09-18 11:33 MST"
+        },
+        {
+            "latitude": 33.48177376460125,
+            "longitude": -112.0184980023575,
+            "boundary": "N 28TH  ST TO N 32ND  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 08:05 MST",
+            "etr": "2026-09-18 10:02 MST"
+        }
+    ]
+}
