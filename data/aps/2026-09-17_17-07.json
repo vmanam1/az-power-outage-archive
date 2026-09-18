@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-17 17:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 32.72614126437161,
+            "longitude": -114.63723770259196,
+            "city": "Yuma",
+            "boundary": "West Colorado St and North 15th Ave to North 14th Ave",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-17 08:08:00 MST",
+            "etr": "2026-09-17 11:30:00 MST"
+        },
+        {
+            "latitude": 33.5877873620552,
+            "longitude": -112.01878372995114,
+            "city": "Phoenix",
+            "boundary": "East Yucca St to East Shangri La Rd and North 26th St to North 30th St",
+            "customers": 13,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-17 08:29:00 MST",
+            "etr": "2026-09-17 12:00:00 MST"
+        },
+        {
+            "latitude": 33.65722835500666,
+            "longitude": -112.06714186258037,
+            "city": "Phoenix",
+            "boundary": "Sack Dr to Rosemonte Dr and 4th St to 7th St",
+            "customers": 12,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-17 08:47:00 MST",
+            "etr": "2026-09-17 11:20:00 MST"
+        }
+    ]
+}
