@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-17 19:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.5877873620552,
+            "longitude": -112.01878372995114,
+            "city": "Phoenix",
+            "boundary": "East Yucca St to East Shangri La Rd and North 26th St to North 30th St",
+            "customers": 13,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-17 08:29:00 MST",
+            "etr": "2026-09-17 12:30:00 MST"
+        }
+    ]
+}
