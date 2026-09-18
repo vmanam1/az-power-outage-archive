@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-18 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1334
+    },
+    "outages": [
+        {
+            "latitude": 33.407527154114,
+            "longitude": -112.01878787259301,
+            "boundary": "S 28TH  ST TO S 32ND  ST AND E ELWOOD  ST TO E ROESER  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 07:25 MST",
+            "etr": "2026-09-18 13:30 MST"
+        },
+        {
+            "latitude": 33.30935408437735,
+            "longitude": -111.8624945296345,
+            "boundary": "N ARROWHEAD  DR TO N ALMA SCHOOL  RD AND W GALVESTON  ST TO W CHANDLER  BLVD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 07:34 MST",
+            "etr": "2026-09-18 11:33 MST"
+        },
+        {
+            "latitude": 33.399011666478,
+            "longitude": -112.34245520962699,
+            "boundary": "S 135TH  AVE TO S 127TH  AVE AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 08:49 MST",
+            "etr": "2026-09-18 13:00 MST"
+        },
+        {
+            "latitude": 33.4205682838642,
+            "longitude": -111.596955550469,
+            "boundary": "N CRISMON  RD TO N MERIDIAN  RD AND E BROWN  RD TO E PUEBLO  AVE",
+            "customers": 1325,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-18 09:06 MST",
+            "etr": "2026-09-18 11:05 MST"
+        }
+    ]
+}
