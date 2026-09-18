@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-18 10:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 66
+    },
+    "outages": [
+        {
+            "latitude": 32.400434390023705,
+            "longitude": -112.87509269993215,
+            "city": "Ajo",
+            "boundary": "Snyder Rd and Elliott Rd",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-18 00:30:00 MST",
+            "etr": "2026-09-18 03:45:00 MST"
+        },
+        {
+            "latitude": 33.479295950651654,
+            "longitude": -112.03403118920474,
+            "city": "Phoenix",
+            "boundary": "Windsor Ave and Greenfield Rd",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-18 01:39:00 MST",
+            "etr": "2026-09-18 03:15:00 MST"
+        },
+        {
+            "latitude": 33.58932502881909,
+            "longitude": -112.01733950128235,
+            "city": "Phoenix",
+            "boundary": "Cholla St and 28th St to 32nd St",
+            "customers": 55,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-18 02:35:00 MST",
+            "etr": "2026-09-18 06:10:00 MST"
+        }
+    ]
+}
