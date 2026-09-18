@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-18 00:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 82
+    },
+    "outages": [
+        {
+            "latitude": 33.45418086671555,
+            "longitude": -112.26303849169099,
+            "boundary": "N 99TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-17 20:44 MST",
+            "etr": "2026-09-18 02:00 MST"
+        },
+        {
+            "latitude": 33.3577230224588,
+            "longitude": -111.845430930288,
+            "boundary": "S EXTENSION  RD TO S HAMILTON  ST AND W GUADALUPE  RD TO W ELLIOT  RD",
+            "customers": 35,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-17 23:23 MST",
+            "etr": "2026-09-18 01:22 MST"
+        },
+        {
+            "latitude": 33.4277132219551,
+            "longitude": -111.8755740559865,
+            "boundary": "N EVERGREEN  RD TO N DOBSON  RD AND E RED MOUNTAIN  FWY TO W UNIVERSITY  DR",
+            "customers": 39,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-17 23:02 MST",
+            "etr": "2026-09-18 01:06 MST"
+        }
+    ]
+}
