@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-18 04:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 142
+    },
+    "outages": [
+        {
+            "latitude": 33.432819642461,
+            "longitude": -111.591273251095,
+            "boundary": "N SIGNAL BUTTE  RD TO N MERIDIAN  DR AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 00:50 MST",
+            "etr": "2026-09-18 03:30 MST"
+        },
+        {
+            "latitude": 33.3754209845813,
+            "longitude": -111.836095918903,
+            "boundary": "N ARIZONA  AVE TO S CENTER  ST AND W BASELINE  RD TO W GUADALUPE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 03:34 MST",
+            "etr": "2026-09-18 05:32 MST"
+        },
+        {
+            "latitude": 33.5429458191687,
+            "longitude": -112.11794004059351,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W ORANGEWOOD  AVE TO W GLENDALE  AVE",
+            "customers": 85,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 03:52 MST",
+            "etr": "2026-09-18 06:15 MST"
+        },
+        {
+            "latitude": 33.3577325070301,
+            "longitude": -111.845430930288,
+            "boundary": "S EXTENSION  RD TO S HAMILTON  ST AND W GUADALUPE  RD TO W ELLIOT  RD",
+            "customers": 27,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-17 23:23 MST",
+            "etr": "2026-09-18 06:30 MST"
+        },
+        {
+            "latitude": 33.3577325070301,
+            "longitude": -111.845430930288,
+            "boundary": "S EXTENSION  RD TO S HAMILTON  ST AND W GUADALUPE  RD TO W ELLIOT  RD",
+            "customers": 27,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-17 23:23 MST",
+            "etr": "2026-09-18 06:30 MST"
+        }
+    ]
+}
