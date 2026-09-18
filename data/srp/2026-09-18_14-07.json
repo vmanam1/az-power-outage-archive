@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-18 14:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 33.407037875927,
+            "longitude": -111.895029766476,
+            "boundary": "S COUNTRY CLUB  WAY TO S PRICE  RD AND E APACHE  BLVD TO E ALAMEDA  DR",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-18 11:26 MST",
+            "etr": "2026-09-18 17:00 MST"
+        },
+        {
+            "latitude": 33.483703374521,
+            "longitude": -112.030433875574,
+            "boundary": "N 20TH  ST TO N 28TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 22,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-18 12:20 MST",
+            "etr": "2026-09-18 16:16 MST"
+        },
+        {
+            "latitude": 33.39468808541765,
+            "longitude": -111.52763885138151,
+            "boundary": "S ROYAL PALM  RD TO S CORTEZ  RD AND E 16TH  AVE TO E SUPERSTITION  FWY",
+            "customers": 39,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-18 13:53 MST",
+            "etr": "2026-09-18 15:52 MST"
+        }
+    ]
+}
