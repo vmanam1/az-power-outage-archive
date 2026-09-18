@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-18 03:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 38
+    },
+    "outages": [
+        {
+            "latitude": 33.2986346297548,
+            "longitude": -111.670716833363,
+            "boundary": "S POWER  RD TO S 80TH  ST AND E WILLIAMS FIELD  RD TO E OLD PECOS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 01:21 MST",
+            "etr": "2026-09-18 02:20 MST"
+        },
+        {
+            "latitude": 33.3577325070301,
+            "longitude": -111.845430930288,
+            "boundary": "S EXTENSION  RD TO S HAMILTON  ST AND W GUADALUPE  RD TO W ELLIOT  RD",
+            "customers": 27,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-17 23:23 MST",
+            "etr": "2026-09-18 04:30 MST"
+        },
+        {
+            "latitude": 33.432819642461,
+            "longitude": -111.591273251095,
+            "boundary": "N SIGNAL BUTTE  RD TO N MERIDIAN  DR AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-18 00:50 MST",
+            "etr": "2026-09-18 03:30 MST"
+        },
+        {
+            "latitude": 33.45418086671555,
+            "longitude": -112.26303849169099,
+            "boundary": "N 99TH  AVE TO N 91ST  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-17 20:44 MST",
+            "etr": "2026-09-18 04:00 MST"
+        }
+    ]
+}
