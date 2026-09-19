@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-18 23:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 33.679228237646065,
+            "longitude": -112.32829142222027,
+            "city": "Sun City West",
+            "boundary": "Deer Valley Dr. to Aurora Dr. and 124th Ave to Old El Mirage Rd.",
+            "customers": 40,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-18 14:25:00 MST",
+            "etr": "2026-09-18 17:20:00 MST"
+        }
+    ]
+}
