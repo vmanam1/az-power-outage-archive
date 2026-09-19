@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-19 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 34.78123944676363,
+            "longitude": -111.76112915395903,
+            "city": "Sedona",
+            "boundary": "Castle Rock Rd. to Cortez Dr. and Red Rock Scenic Byway to Canyon Diablo Rd.",
+            "customers": 26,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-19 00:14:00 MST",
+            "etr": "2026-09-19 04:00:00 MST"
+        },
+        {
+            "latitude": 33.81986036928344,
+            "longitude": -111.88310251822114,
+            "city": "Carefree",
+            "boundary": "Lazywood Pl and Twilight Tl",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-19 00:21:00 MST",
+            "etr": "2026-09-19 04:00:00 MST"
+        }
+    ]
+}

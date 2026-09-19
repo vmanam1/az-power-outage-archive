@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-19 10:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.49237184264495,
+            "longitude": -112.0196616161295,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-19 08:17 MST",
+            "etr": "2026-09-19 10:33 MST"
+        }
+    ]
+}
