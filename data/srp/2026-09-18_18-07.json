@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-18 18:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 122
+    },
+    "outages": [
+        {
+            "latitude": 33.395268838768445,
+            "longitude": -111.528168358252,
+            "boundary": "S ROYAL PALM  RD TO S CORTEZ  RD AND E 16TH  AVE TO E SUPERSTITION  FWY",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-18 13:53 MST",
+            "etr": "2026-09-18 19:00 MST"
+        },
+        {
+            "latitude": 33.55380050553125,
+            "longitude": -112.161463991664,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-18 17:26 MST",
+            "etr": "2026-09-18 19:25 MST"
+        },
+        {
+            "latitude": 33.5539604082552,
+            "longitude": -112.161424796501,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 63,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-18 17:26 MST",
+            "etr": "2026-09-18 19:24 MST"
+        }
+    ]
+}
