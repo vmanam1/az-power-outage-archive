@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-19 11:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.3046006345903,
+            "longitude": -111.900669942094,
+            "boundary": "N COUNTRY CLUB  WAY TO N PRICE  FWY AND W GALVESTON  ST TO W FRYE  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-09-19 11:06 MST",
+            "etr": "2026-09-19 12:49 MST"
+        }
+    ]
+}
