@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-19 05:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 104
+    },
+    "outages": [
+        {
+            "latitude": 33.56061181778127,
+            "longitude": -111.9460945733413,
+            "city": "Paradise Valley",
+            "boundary": "Caballo Dr to Mockingbird Ln and 62nd St to Invergordon Rd",
+            "customers": 51,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-18 17:06:00 MST",
+            "etr": "2026-09-18 23:00:00 MST"
+        },
+        {
+            "latitude": 33.4591962970894,
+            "longitude": -112.05292798962135,
+            "city": "Phoenix",
+            "boundary": "Diamond St to Roosevelt St and 13th St to 14th St",
+            "customers": 16,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-18 17:51:00 MST",
+            "etr": "2026-09-19 00:00:00 MST"
+        },
+        {
+            "latitude": 33.812498556756005,
+            "longitude": -111.93543161942785,
+            "city": "Carefree",
+            "boundary": "Ridgeway Dr and Secluded Ln",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-18 17:52:00 MST",
+            "etr": "2026-09-18 23:20:00 MST"
+        },
+        {
+            "latitude": 33.530009818218566,
+            "longitude": -112.34456899038993,
+            "city": "Litchfield Park",
+            "boundary": "Sierra Vista Dr to Maryland Ave and 134th Ave to 131st Dr",
+            "customers": 32,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-18 21:51:00 MST",
+            "etr": "2026-09-19 00:50:00 MST"
+        }
+    ]
+}
