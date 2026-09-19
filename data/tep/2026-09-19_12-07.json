@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-09-19 12:07:11 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 39,
+        "map_last_refreshed": "Sep 19, 12:06 PM"
+    },
+    "outages": [
+        {
+            "latitude": 32.24652609201748,
+            "longitude": -110.9754710438023,
+            "boundary": {
+                "coordLatSW": "32.246283192895099",
+                "coordLngSW": "-110.976161099531",
+                "coordLatNE": "32.246798278471303",
+                "coordLngNE": "-110.97469142172301",
+                "coordLatCenter": "32.246544",
+                "coordLngCenter": "-110.975426"
+            },
+            "customers": 15,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-09-19 08:25 MST",
+            "etr": null,
+            "event": "Planned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-09-19 12:01 MST"
+        },
+        {
+            "latitude": 32.25165651477437,
+            "longitude": -110.98332815577369,
+            "boundary": {
+                "coordLatSW": "32.251454480759698",
+                "coordLngSW": "-110.98430010361199",
+                "coordLatNE": "32.251870110174302",
+                "coordLngNE": "-110.98235560657801",
+                "coordLatCenter": "32.251663",
+                "coordLngCenter": "-110.98332"
+            },
+            "customers": 24,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-09-19 08:00 MST",
+            "etr": "2026-09-19 10:08 MST",
+            "event": "Planned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-09-19 12:01 MST"
+        }
+    ]
+}
