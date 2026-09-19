@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-19 08:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 33.4221193937185,
+            "longitude": -111.78887062964401,
+            "boundary": "N HARRIS  DR TO N 24TH  ST AND E 8TH  ST TO E MAIN  ST",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-19 07:45 MST",
+            "etr": "2026-09-19 08:53 MST"
+        }
+    ]
+}

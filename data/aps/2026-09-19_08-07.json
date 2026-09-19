@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-19 08:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 82
+    },
+    "outages": [
+        {
+            "latitude": 33.56061181778127,
+            "longitude": -111.9460945733413,
+            "city": "Paradise Valley",
+            "boundary": "Caballo Dr to Mockingbird Ln and 62nd St to Invergordon Rd",
+            "customers": 29,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-18 17:06:00 MST",
+            "etr": "2026-09-19 02:00:00 MST"
+        },
+        {
+            "latitude": 33.4591962970894,
+            "longitude": -112.05292798962135,
+            "city": "Phoenix",
+            "boundary": "Diamond St to Roosevelt St and 13th St to 14th St",
+            "customers": 16,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-18 17:51:00 MST",
+            "etr": "2026-09-19 03:00:00 MST"
+        },
+        {
+            "latitude": 34.78123944676363,
+            "longitude": -111.76112915395903,
+            "city": "Sedona",
+            "boundary": "Castle Rock Rd. to Cortez Dr. and Red Rock Scenic Byway to Canyon Diablo Rd.",
+            "customers": 37,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-19 00:14:00 MST",
+            "etr": "2026-09-19 03:30:00 MST"
+        }
+    ]
+}
