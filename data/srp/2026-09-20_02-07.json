@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-20 02:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.547203473681606,
+            "longitude": -112.1076776638385,
+            "boundary": "N BLACK CANYON  HWY TO N 19TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 3,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-19 20:33 MST",
+            "etr": "2026-09-20 03:34 MST"
+        },
+        {
+            "latitude": 33.4018762797608,
+            "longitude": -111.95967959135251,
+            "boundary": "S MARICOPA  FWY TO S HARDY  DR AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 00:38 MST",
+            "etr": "2026-09-20 02:37 MST"
+        },
+        {
+            "latitude": 33.41580183554735,
+            "longitude": -111.63791376646,
+            "boundary": "N 88TH  ST TO N ELLSWORTH  RD AND E RED MOUNTAIN  FWY TO E RED MOUNTAIN  FWY",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-20 01:19 MST",
+            "etr": "2026-09-20 08:00 MST"
+        }
+    ]
+}
