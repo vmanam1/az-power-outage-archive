@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-20 01:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 211
+    },
+    "outages": [
+        {
+            "latitude": 33.547203473681606,
+            "longitude": -112.1076776638385,
+            "boundary": "N BLACK CANYON  HWY TO N 19TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 3,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-19 20:33 MST",
+            "etr": "2026-09-20 03:34 MST"
+        },
+        {
+            "latitude": 33.305045595144804,
+            "longitude": -111.8789392418405,
+            "boundary": "S ELLIS  ST TO N ARROWHEAD  DR AND W GALVESTON  ST TO W FRYE  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-19 23:03 MST",
+            "etr": "2026-09-20 02:01 MST"
+        },
+        {
+            "latitude": 33.39651519871195,
+            "longitude": -111.9524322643275,
+            "boundary": "S MARICOPA  FWY TO S MILL  AVE AND W BROADWAY  RD TO W SUPERSTITION  FWY",
+            "customers": 85,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 00:38 MST",
+            "etr": "2026-09-20 02:37 MST"
+        },
+        {
+            "latitude": 33.40160965681835,
+            "longitude": -111.950445116178,
+            "boundary": "S PRIEST  DR TO S MILL  AVE AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 96,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 00:38 MST",
+            "etr": "2026-09-20 02:37 MST"
+        },
+        {
+            "latitude": 33.4056345535262,
+            "longitude": -111.95612092361151,
+            "boundary": "S MARICOPA  FWY TO S MILL  AVE AND W 13TH  ST TO W ALAMEDA  DR",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 00:38 MST",
+            "etr": "2026-09-20 02:37 MST"
+        },
+        {
+            "latitude": 33.4018762797608,
+            "longitude": -111.95967959135251,
+            "boundary": "S MARICOPA  FWY TO S HARDY  DR AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 00:38 MST",
+            "etr": "2026-09-20 02:37 MST"
+        }
+    ]
+}

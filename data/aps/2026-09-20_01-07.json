@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-20 01:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.6758125838507,
+            "longitude": -112.07970030306586,
+            "city": "Phoenix",
+            "boundary": "Monona Dr to Mohawk Dr and 6th Dr to 3rd Ave",
+            "customers": 7,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-19 16:26:00 MST",
+            "etr": "2026-09-19 19:00:00 MST"
+        }
+    ]
+}
