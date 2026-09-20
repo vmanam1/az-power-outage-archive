@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-19 22:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.547222391127505,
+            "longitude": -112.1080916760985,
+            "boundary": "N BLACK CANYON  HWY TO N 19TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-19 20:33 MST",
+            "etr": "2026-09-19 22:34 MST"
+        }
+    ]
+}
