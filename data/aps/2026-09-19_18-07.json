@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-19 18:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3265
+    },
+    "outages": [
+        {
+            "latitude": 34.60596239989288,
+            "longitude": -112.32164199996073,
+            "city": "Prescott Valley",
+            "boundary": "Long Mesa Dr  To Yavapai Rd And Verde Vista Dr To Carla Vista Dr",
+            "customers": 3256,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-19 10:52:00 MST",
+            "etr": "2026-09-19 14:15:00 MST"
+        },
+        {
+            "latitude": 32.972882816344274,
+            "longitude": -111.52572762172723,
+            "city": "Coolidge",
+            "boundary": "Coolidge Ave. to Lincoln Ave. and Arnold Way to Arizona Blvd",
+            "customers": 9,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-19 10:52:00 MST",
+            "etr": "2026-09-19 14:15:00 MST"
+        }
+    ]
+}
