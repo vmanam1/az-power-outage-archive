@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-19 19:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 39
+    },
+    "outages": [
+        {
+            "latitude": 32.972882816344274,
+            "longitude": -111.52572762172723,
+            "city": "Coolidge",
+            "boundary": "Coolidge Ave. to Lincoln Ave. and Arnold Way to Arizona Blvd",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-19 10:52:00 MST",
+            "etr": "2026-09-19 14:15:00 MST"
+        },
+        {
+            "latitude": 34.92788868405572,
+            "longitude": -110.13696745225167,
+            "city": "Holbrook",
+            "boundary": "Paradise Ave. to Aztec Ave. and Desert View Dr. to Edwardo Ave.",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-19 11:03:00 MST",
+            "etr": "2026-09-19 14:40:00 MST"
+        }
+    ]
+}
