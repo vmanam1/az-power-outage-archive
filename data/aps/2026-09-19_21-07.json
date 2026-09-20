@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-19 21:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.55670079591635,
+            "longitude": -112.0817593207488,
+            "city": "Phoenix",
+            "boundary": "El Camino Dr. to Northern Ave. and 8th Ave. to 3rd Ave.",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-19 11:44:00 MST",
+            "etr": "2026-09-19 16:30:00 MST"
+        }
+    ]
+}
