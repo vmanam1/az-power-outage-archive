@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-20 03:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 107
+    },
+    "outages": [
+        {
+            "latitude": 33.41580183554735,
+            "longitude": -111.63791376646,
+            "boundary": "N 88TH  ST TO N ELLSWORTH  RD AND E RED MOUNTAIN  FWY TO E RED MOUNTAIN  FWY",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-20 01:19 MST",
+            "etr": "2026-09-20 08:00 MST"
+        },
+        {
+            "latitude": 33.485340810881,
+            "longitude": -112.2521873463325,
+            "boundary": "N AGUA FRIA  FWY TO N 87TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 02:44 MST",
+            "etr": "2026-09-20 04:41 MST"
+        },
+        {
+            "latitude": 33.547220014074355,
+            "longitude": -112.107717745082,
+            "boundary": "N BLACK CANYON  HWY TO N 19TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 5,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-19 20:33 MST",
+            "etr": "2026-09-20 06:00 MST"
+        },
+        {
+            "latitude": 33.40629390036115,
+            "longitude": -111.927188650727,
+            "boundary": "S COLLEGE  AVE TO S DORSEY  LN AND E APACHE  BLVD TO E ALAMEDA  DR",
+            "customers": 71,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-20 02:29 MST",
+            "etr": "2026-09-20 09:00 MST"
+        }
+    ]
+}
