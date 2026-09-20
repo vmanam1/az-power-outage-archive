@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-20 12:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 4408
+    },
+    "outages": [
+        {
+            "latitude": 33.3395693497313,
+            "longitude": -111.932210547792,
+            "boundary": "S MILL  AVE TO S RURAL  RD AND E CARVER  RD TO E WARNER  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-20 10:41 MST",
+            "etr": "2026-09-20 15:00 MST"
+        },
+        {
+            "latitude": 33.3464739796495,
+            "longitude": -111.98889716890949,
+            "boundary": "S 36TH  ST TO S MARICOPA  FWY AND E BASELINE  RD TO E KNOX  RD",
+            "customers": 2760,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 10:06 MST",
+            "etr": "2026-09-20 12:17 MST"
+        },
+        {
+            "latitude": 33.4024933279472,
+            "longitude": -111.7960158706165,
+            "boundary": "S STAPLEY  DR TO S GILBERT  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 75,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 11:43 MST",
+            "etr": "2026-09-20 13:42 MST"
+        },
+        {
+            "latitude": 33.33713899469325,
+            "longitude": -111.979531335019,
+            "boundary": "S WARNER-ELLIOT  LOOP TO S PRIEST  DR AND E ELLIOT  RD TO E KNOX  RD",
+            "customers": 833,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 12:00 MST",
+            "etr": "2026-09-20 13:58 MST"
+        },
+        {
+            "latitude": 33.35104146206305,
+            "longitude": -111.980808673506,
+            "boundary": "S WARNER-ELLIOT  LOOP TO S MARICOPA  FWY AND E GUADALUPE  RD TO E WARNER  RD",
+            "customers": 739,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 11:25 MST",
+            "etr": "2026-09-20 13:24 MST"
+        }
+    ]
+}
