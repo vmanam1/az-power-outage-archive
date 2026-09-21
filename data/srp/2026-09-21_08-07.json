@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-21 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.4647967406314,
+            "longitude": -111.893924994003,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  LOOP AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-20 23:53 MST",
+            "etr": "2026-09-21 14:00 MST"
+        },
+        {
+            "latitude": 33.4113774470241,
+            "longitude": -111.6469067643385,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 20,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 07:11 MST",
+            "etr": "2026-09-21 11:30 MST"
+        },
+        {
+            "latitude": 33.44366617373655,
+            "longitude": -111.84248255982351,
+            "boundary": "N ALMA SCHOOL  RD TO N COUNTRY CLUB  DR AND W MCKELLIPS  RD TO W BROWN  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 07:17 MST",
+            "etr": "2026-09-21 11:30 MST"
+        },
+        {
+            "latitude": 33.4182986754913,
+            "longitude": -111.692111045535,
+            "boundary": "N RECKER  RD TO N POWER  RD AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-21 06:51 MST",
+            "etr": "2026-09-21 09:21 MST"
+        }
+    ]
+}
