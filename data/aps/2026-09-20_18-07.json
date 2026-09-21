@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-20 18:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 98
+    },
+    "outages": [
+        {
+            "latitude": 32.639136193081754,
+            "longitude": -114.54933837399935,
+            "city": "Yuma",
+            "boundary": "County 12 1/2 St to Taos Ln and Avenue 4 1/4 East to Avenue 5 East",
+            "customers": 98,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-20 10:06:00 MST",
+            "etr": "2026-09-20 16:00:00 MST"
+        }
+    ]
+}
