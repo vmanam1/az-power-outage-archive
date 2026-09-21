@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-21 04:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 84
+    },
+    "outages": [
+        {
+            "latitude": 35.40215708525924,
+            "longitude": -112.13843859007564,
+            "city": "Williams",
+            "boundary": "New Moon Way to Arizona St and St Francis Ave to Overlook Dr",
+            "customers": 84,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-20 20:35:00 MST",
+            "etr": "2026-09-21 00:00:00 MST"
+        }
+    ]
+}
