@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-21 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 88
+    },
+    "outages": [
+        {
+            "latitude": 33.4113774470241,
+            "longitude": -111.6469067643385,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 20,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 07:11 MST",
+            "etr": "2026-09-21 11:30 MST"
+        },
+        {
+            "latitude": 33.4182986754913,
+            "longitude": -111.692111045535,
+            "boundary": "N RECKER  RD TO N POWER  RD AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-21 06:51 MST",
+            "etr": "2026-09-21 09:21 MST"
+        },
+        {
+            "latitude": 33.63068737522515,
+            "longitude": -111.76180748669199,
+            "boundary": "UNKNOWN TO UNKNOWN AND E JOMAX  RD TO E VIA LINDA  ",
+            "customers": 29,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 08:16 MST",
+            "etr": "2026-09-21 12:14 MST"
+        },
+        {
+            "latitude": 33.4880484823546,
+            "longitude": -111.881177516478,
+            "boundary": "N PIMA  LOOP TO N DOBSON  RD AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 08:25 MST",
+            "etr": "2026-09-21 12:00 MST"
+        },
+        {
+            "latitude": 33.4041266620648,
+            "longitude": -111.906074292476,
+            "boundary": "S MCCLINTOCK  DR TO S COUNTRY CLUB  WAY AND E BROADWAY  RD TO E ALAMEDA  DR",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 08:36 MST",
+            "etr": "2026-09-21 11:30 MST"
+        },
+        {
+            "latitude": 33.4647967406314,
+            "longitude": -111.893924994003,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  LOOP AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-20 23:53 MST",
+            "etr": "2026-09-21 15:00 MST"
+        },
+        {
+            "latitude": 33.4183965193857,
+            "longitude": -111.6820211430515,
+            "boundary": "N 64TH  ST TO S 72ND  ST AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 08:57 MST",
+            "etr": "2026-09-21 10:55 MST"
+        },
+        {
+            "latitude": 33.47898541338815,
+            "longitude": -112.00689854590999,
+            "boundary": "N 32ND  ST TO N 36TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 09:02 MST",
+            "etr": "2026-09-21 12:30 MST"
+        },
+        {
+            "latitude": 33.50607882481195,
+            "longitude": -111.8953801877265,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  RD AND E CHAPARRAL  RD TO E CAMELBACK  RD",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-21 09:07 MST",
+            "etr": "2026-09-21 11:03 MST"
+        }
+    ]
+}

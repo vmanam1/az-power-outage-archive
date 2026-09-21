@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-21 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 403
+    },
+    "outages": [
+        {
+            "latitude": 35.40215708525924,
+            "longitude": -112.13843859007564,
+            "city": "Williams",
+            "boundary": "New Moon Way to Arizona St and St Francis Ave to Overlook Dr",
+            "customers": 135,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-20 20:35:00 MST",
+            "etr": "2026-09-21 03:00:00 MST"
+        },
+        {
+            "latitude": 33.61641993412853,
+            "longitude": -112.00179253203494,
+            "city": "Phoenix",
+            "boundary": "Hearn Rd and 36th Way to 37th St",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-21 00:59:00 MST",
+            "etr": "2026-09-21 03:00:00 MST"
+        },
+        {
+            "latitude": 33.660573973344164,
+            "longitude": -112.10628174786866,
+            "city": "Phoenix",
+            "boundary": "Kerry Ln to Maple Dr and 22nd Ln to 21st Dr",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-21 01:24:00 MST",
+            "etr": "2026-09-21 03:45:00 MST"
+        },
+        {
+            "latitude": 34.591708713116965,
+            "longitude": -112.32366174779105,
+            "city": "Prescott",
+            "boundary": "Victor Rd to Yavapai Rd and Barbara Rd to Prescott Rd",
+            "customers": 14,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-21 01:30:00 MST",
+            "etr": "2026-09-21 04:00:00 MST"
+        },
+        {
+            "latitude": 33.4530129026763,
+            "longitude": -112.0096277484358,
+            "city": "Phoenix",
+            "boundary": "Polk St to Van Buren St and 32nd St to 36th St",
+            "customers": 241,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-21 01:41:00 MST",
+            "etr": "2026-09-21 05:15:00 MST"
+        }
+    ]
+}
