@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-21 14:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 35.40215708525924,
+            "longitude": -112.13843859007564,
+            "city": "Williams",
+            "boundary": "New Moon Way to Arizona St and St Francis Ave to Overlook Dr",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-20 20:35:00 MST",
+            "etr": "2026-09-21 07:30:00 MST"
+        },
+        {
+            "latitude": 32.97285729191493,
+            "longitude": -111.52543630257216,
+            "city": "Coolidge",
+            "boundary": "Coolidge Ave to Kachina Dr and Arnold Way to Arizona Bv",
+            "customers": 9,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-21 05:57:00 MST",
+            "etr": "2026-09-21 09:35:00 MST"
+        }
+    ]
+}
