@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-21 11:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 59
+    },
+    "outages": [
+        {
+            "latitude": 33.4113774470241,
+            "longitude": -111.6469067643385,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 20,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 07:11 MST",
+            "etr": "2026-09-21 11:30 MST"
+        },
+        {
+            "latitude": 33.4647967406314,
+            "longitude": -111.893924994003,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  LOOP AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-20 23:53 MST",
+            "etr": "2026-09-21 15:00 MST"
+        },
+        {
+            "latitude": 33.47898541338815,
+            "longitude": -112.00689854590999,
+            "boundary": "N 32ND  ST TO N 36TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 09:02 MST",
+            "etr": "2026-09-21 12:30 MST"
+        },
+        {
+            "latitude": 33.4182986754913,
+            "longitude": -111.692111045535,
+            "boundary": "N RECKER  RD TO N POWER  RD AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 11,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-21 06:51 MST",
+            "etr": "2026-09-21 13:30 MST"
+        },
+        {
+            "latitude": 33.42639441617395,
+            "longitude": -111.7907407548955,
+            "boundary": "N HARRIS  DR TO N 24TH  ST AND E 8TH  ST TO E UNIVERSITY  DR",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 09:55 MST",
+            "etr": "2026-09-21 11:49 MST"
+        },
+        {
+            "latitude": 33.49944210786445,
+            "longitude": -112.2882063021765,
+            "boundary": "N 111TH  AVE TO N 103RD  AVE AND W CAMPBELL  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 10:19 MST",
+            "etr": "2026-09-21 12:15 MST"
+        },
+        {
+            "latitude": 33.25809355660835,
+            "longitude": -111.80216609443349,
+            "boundary": "S COOPER  RD TO S EMMETT  DR AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 10:57 MST",
+            "etr": "2026-09-21 13:00 MST"
+        }
+    ]
+}
