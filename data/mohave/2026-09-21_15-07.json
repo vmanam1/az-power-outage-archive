@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-09-21 15:07:21 MST",
+        "source": "MOHAVE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 47076
+    },
+    "outages": [
+        {
+            "latitude": 34.69958855824956,
+            "longitude": -113.61114672404423,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-09-21 10:16:03 MST",
+            "etr": null,
+            "incident_id": "350634"
+        }
+    ]
+}
