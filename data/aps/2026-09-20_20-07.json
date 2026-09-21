@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-20 20:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 146
+    },
+    "outages": [
+        {
+            "latitude": 32.639136193081754,
+            "longitude": -114.54933837399935,
+            "city": "Yuma",
+            "boundary": "County 12 1/2 St to Taos Ln and Avenue 4 1/4 East to Avenue 5 East",
+            "customers": 98,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-09-20 10:06:00 MST",
+            "etr": "2026-09-20 16:00:00 MST"
+        },
+        {
+            "latitude": 33.578546442664525,
+            "longitude": -112.0585649593517,
+            "city": "Phoenix",
+            "boundary": "Cheryl Dr. to Mountain View Rd. and 7th St. to 12th St.",
+            "customers": 48,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-20 12:24:00 MST",
+            "etr": "2026-09-20 16:00:00 MST"
+        }
+    ]
+}
