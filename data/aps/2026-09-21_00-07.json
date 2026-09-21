@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-21 00:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.77119042795647,
+            "longitude": -111.90648618878458,
+            "city": "Scottsdale",
+            "boundary": "Lone Mountain Rd and Hayden Rd. to Granite Reff Rd.",
+            "customers": 7,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-20 15:11:00 MST",
+            "etr": "2026-09-20 18:30:00 MST"
+        },
+        {
+            "latitude": 34.36063297398886,
+            "longitude": -109.98339619012879,
+            "city": "Show Low",
+            "boundary": "Huggins Dr to Airport Dr and Silver Lake Blvd to Tee St",
+            "customers": 29,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-20 16:28:00 MST",
+            "etr": "2026-09-21 13:25:00 MST"
+        }
+    ]
+}

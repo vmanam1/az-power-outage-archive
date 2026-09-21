@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-21 00:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1365
+    },
+    "outages": [
+        {
+            "latitude": 33.37403330116585,
+            "longitude": -112.119675784441,
+            "boundary": "S 35TH  AVE TO S 19TH  AVE AND W SOUTHERN  AVE TO W CARVER  RD",
+            "customers": 650,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 23:12 MST",
+            "etr": "2026-09-21 01:11 MST"
+        },
+        {
+            "latitude": 33.40716503240465,
+            "longitude": -111.9014317278835,
+            "boundary": "S MCCLINTOCK  DR TO S PRICE  RD AND E APACHE  BLVD TO E ALAMEDA  DR",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-20 23:43 MST",
+            "etr": "2026-09-21 05:41 MST"
+        },
+        {
+            "latitude": 33.3982132097047,
+            "longitude": -111.875385141764,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 60,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-20 16:56 MST",
+            "etr": "2026-09-21 01:56 MST"
+        },
+        {
+            "latitude": 33.4647967406314,
+            "longitude": -111.893924994003,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  LOOP AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-20 23:53 MST",
+            "etr": "2026-09-21 14:00 MST"
+        },
+        {
+            "latitude": 33.38756239954495,
+            "longitude": -112.1368113454345,
+            "boundary": "S 39TH  AVE TO S 35TH  AVE AND W SOUTHERN  AVE TO W VINEYARD  RD",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-20 23:12 MST",
+            "etr": "2026-09-21 01:11 MST"
+        },
+        {
+            "latitude": 33.3658339749619,
+            "longitude": -112.132568594274,
+            "boundary": "S 43RD  AVE TO S 27TH  AVE AND W BASELINE  RD TO W CETON  DR",
+            "customers": 641,
+            "cause": "Other outage cause",
+            "comments": "SRP restored power and no cause could be identified at this time.",
+            "start_time": "2026-09-20 23:12 MST",
+            "etr": "2026-09-21 01:11 MST"
+        }
+    ]
+}
