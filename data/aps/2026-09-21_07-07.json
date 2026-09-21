@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-21 07:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 169
+    },
+    "outages": [
+        {
+            "latitude": 35.40215708525924,
+            "longitude": -112.13843859007564,
+            "city": "Williams",
+            "boundary": "New Moon Way to Arizona St and St Francis Ave to Overlook Dr",
+            "customers": 135,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-20 20:35:00 MST",
+            "etr": "2026-09-21 01:30:00 MST"
+        },
+        {
+            "latitude": 33.6259256480151,
+            "longitude": -112.04006411744771,
+            "city": "Phoenix",
+            "boundary": "Greenway Rd to Karen Dr and 19th Pl to 20th St",
+            "customers": 34,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-20 22:53:00 MST",
+            "etr": "2026-09-21 01:45:00 MST"
+        }
+    ]
+}
