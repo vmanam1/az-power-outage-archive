@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-20 23:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 60
+    },
+    "outages": [
+        {
+            "latitude": 33.3982132097047,
+            "longitude": -111.875385141764,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 60,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-20 16:56 MST",
+            "etr": "2026-09-20 23:56 MST"
+        }
+    ]
+}
