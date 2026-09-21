@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-09-21 13:07:21 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 0,
+        "map_last_refreshed": "Sep 21, 1:06 PM"
+    },
+    "outages": [
+        {
+            "latitude": 31.371514683587,
+            "longitude": -110.918448812676,
+            "boundary": {
+                "coordLatSW": "31.371514683587002",
+                "coordLngSW": "-110.918448812676",
+                "coordLatNE": "31.371514683587002",
+                "coordLngNE": "-110.918448812676",
+                "coordLatCenter": "31.371515",
+                "coordLngCenter": "-110.91845"
+            },
+            "customers": 0,
+            "cause": "Equipment Repair - Replacement",
+            "comments": null,
+            "start_time": "2026-09-20 20:38 MST",
+            "etr": "2026-09-20 21:44 MST",
+            "event": "Restored",
+            "division": "USE",
+            "customers_restored": 26,
+            "last_update": "2026-09-20 22:45 MST"
+        },
+        {
+            "latitude": 31.4708552684436,
+            "longitude": -111.018173072207,
+            "boundary": {
+                "coordLatSW": "31.4708552684436",
+                "coordLngSW": "-111.01817307220701",
+                "coordLatNE": "31.4708552684436",
+                "coordLngNE": "-111.01817307220701",
+                "coordLatCenter": "31.470856",
+                "coordLngCenter": "-111.01817"
+            },
+            "customers": 0,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-08-27 07:29 MST",
+            "etr": "2026-08-27 09:30 MST",
+            "event": "Planned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-27 15:22 MST"
+        }
+    ]
+}
