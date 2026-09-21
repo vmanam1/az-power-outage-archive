@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-21 12:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1427
+    },
+    "outages": [
+        {
+            "latitude": 35.40215708525924,
+            "longitude": -112.13843859007564,
+            "city": "Williams",
+            "boundary": "New Moon Way to Arizona St and St Francis Ave to Overlook Dr",
+            "customers": 135,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-20 20:35:00 MST",
+            "etr": "2026-09-21 07:30:00 MST"
+        },
+        {
+            "latitude": 33.596165799885796,
+            "longitude": -114.52738509984596,
+            "city": "Ehrenberg",
+            "boundary": "I-10 To Colorado River Road And Colorado River Road To Oxbow Road",
+            "customers": 9,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-09-21 02:53:00 MST",
+            "etr": "2026-09-21 06:45:00 MST"
+        },
+        {
+            "latitude": 33.61501389993807,
+            "longitude": -114.50802459985947,
+            "city": "Ehrenberg",
+            "boundary": "Sourdough Rd To I-10 And Riviera Pl To S/O I-10 E/O Bingo Exit",
+            "customers": 682,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-09-21 02:53:00 MST",
+            "etr": "2026-09-21 06:45:00 MST"
+        },
+        {
+            "latitude": 33.375550531777364,
+            "longitude": -114.66651761913465,
+            "city": "Cibola",
+            "boundary": "Oxbow Rd. to 44th St. and Sunset Peak Dr. to Cibola Lake Rd.",
+            "customers": 295,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-09-21 02:53:00 MST",
+            "etr": "2026-09-21 06:45:00 MST"
+        },
+        {
+            "latitude": 34.601244995647,
+            "longitude": -113.14437556303534,
+            "city": "Bagdad",
+            "boundary": "Arena Rd to Lindahl Rd and Mine Rd",
+            "customers": 306,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-21 03:51:00 MST",
+            "etr": "2026-09-21 07:20:00 MST"
+        }
+    ]
+}
