@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-09-21 21:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 46014
+    },
+    "outages": [
+        {
+            "latitude": 34.60199842331228,
+            "longitude": -109.65422061054524,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-09-21 15:58:04 MST",
+            "etr": null,
+            "incident_id": "534801"
+        }
+    ]
+}
