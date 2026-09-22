@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-22 03:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1338
+    },
+    "outages": [
+        {
+            "latitude": 33.314090708238155,
+            "longitude": -111.87480732432451,
+            "boundary": "N BULLMOOSE  DR TO N ALMA SCHOOL  RD AND W WARNER  RD TO W FRYE  RD",
+            "customers": 1336,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-22 01:12 MST",
+            "etr": "2026-09-22 03:22 MST"
+        },
+        {
+            "latitude": 33.3645537055856,
+            "longitude": -111.857968803944,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W MEDINA  AVE TO W ELLIOT  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-22 02:03 MST",
+            "etr": "2026-09-22 06:02 MST"
+        }
+    ]
+}
