@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-22 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 106
+    },
+    "outages": [
+        {
+            "latitude": 33.3645537055856,
+            "longitude": -111.857968803944,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W MEDINA  AVE TO W ELLIOT  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-22 02:03 MST",
+            "etr": "2026-09-22 08:30 MST"
+        },
+        {
+            "latitude": 33.35455965596125,
+            "longitude": -111.65913109183751,
+            "boundary": "S 80TH  ST TO S HAWES  RD AND E PALOMA  AVE TO E ELLIOT  RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-22 07:26 MST",
+            "etr": "2026-09-22 09:25 MST"
+        },
+        {
+            "latitude": 33.4205008989847,
+            "longitude": -111.64841173788099,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E ADOBE  RD TO E MAIN  ST",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-22 07:28 MST",
+            "etr": "2026-09-22 12:30 MST"
+        },
+        {
+            "latitude": 33.3082886455527,
+            "longitude": -111.86270267210301,
+            "boundary": "N ARROWHEAD  DR TO N ALMA SCHOOL  RD AND W GALVESTON  ST TO W FRYE  RD",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-22 07:33 MST",
+            "etr": "2026-09-22 13:29 MST"
+        },
+        {
+            "latitude": 33.4326816638802,
+            "longitude": -111.595228366712,
+            "boundary": "N SIGNAL BUTTE  RD TO N MOUNTAIN  RD AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-22 07:49 MST",
+            "etr": "2026-09-22 11:45 MST"
+        },
+        {
+            "latitude": 33.49289083116335,
+            "longitude": -112.0158047198765,
+            "boundary": "N 28TH  ST TO N 32ND  ST AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 39,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-22 07:50 MST",
+            "etr": "2026-09-22 09:49 MST"
+        },
+        {
+            "latitude": 33.4416414647972,
+            "longitude": -111.8383354784925,
+            "boundary": "N EXTENSION  RD TO N CENTER  ST AND W MCLELLAN  RD TO W BROWN  RD",
+            "customers": 25,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-22 07:59 MST",
+            "etr": "2026-09-22 17:00 MST"
+        },
+        {
+            "latitude": 33.3691843097073,
+            "longitude": -112.0472579791535,
+            "boundary": "S 12TH  ST TO S 20TH  ST AND E BASELINE  RD TO E DOBBINS  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-22 08:05 MST",
+            "etr": "2026-09-22 14:30 MST"
+        }
+    ]
+}

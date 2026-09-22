@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-22 08:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.472024164201756,
+            "longitude": -112.0381046896921,
+            "city": "Phoenix",
+            "boundary": "Cypress St to Monte Vista Rd and 20th Pl to 21st St",
+            "customers": 14,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-21 22:43:00 MST",
+            "etr": "2026-09-22 02:30:00 MST"
+        },
+        {
+            "latitude": 33.67236814869059,
+            "longitude": -112.02255315879967,
+            "city": "Phoenix",
+            "boundary": "Hononegh Dr and 28th Pl",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-22 00:45:00 MST",
+            "etr": "2026-09-22 01:30:00 MST"
+        },
+        {
+            "latitude": 33.56082620124466,
+            "longitude": -111.9224532488864,
+            "city": "Scottsdale",
+            "boundary": "Vaquero Dr. and 73rd Wy.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-22 01:00:00 MST",
+            "etr": "2026-09-22 02:15:00 MST"
+        }
+    ]
+}

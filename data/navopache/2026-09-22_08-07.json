@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-09-22 08:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 88,
+        "total_customers": 46022
+    },
+    "outages": [
+        {
+            "latitude": 34.11312438102374,
+            "longitude": -109.93886079151098,
+            "customers": 87,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-09-22 07:28:13 MST",
+            "etr": null,
+            "incident_id": "534811"
+        },
+        {
+            "latitude": 34.60199842331228,
+            "longitude": -109.65422061054524,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-09-21 15:58:04 MST",
+            "etr": null,
+            "incident_id": "534801"
+        }
+    ]
+}
