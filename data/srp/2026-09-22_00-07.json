@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-22 00:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.1954159559497,
+            "longitude": -111.610750038686,
+            "boundary": "N THOMPSON  RD TO N SAN TAN HEIGHTS  BLVD AND W EMPIRE  BLVD TO W SAN TAN HEIGHTS  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-21 22:19 MST",
+            "etr": "2026-09-22 00:15 MST"
+        }
+    ]
+}
