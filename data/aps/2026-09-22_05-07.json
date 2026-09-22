@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-22 05:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.438131531721275,
+            "longitude": -112.34118922016894,
+            "city": "Avondale",
+            "boundary": "Riley Dr. and 7th St. to Dysart Rd.",
+            "customers": 5,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-21 21:49:00 MST",
+            "etr": "2026-09-22 00:40:00 MST"
+        }
+    ]
+}
