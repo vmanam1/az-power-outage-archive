@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-22 14:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 256,
+        "total_customers": 58020
+    },
+    "outages": [
+        {
+            "latitude": 32.46725044497495,
+            "longitude": -111.08536262248663,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-09-21 07:40:56 MST",
+            "etr": null,
+            "incident_id": "389439"
+        },
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.332037043366874,
+            "longitude": -111.21827735194344,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-21 22:38:12 MST",
+            "etr": null,
+            "incident_id": "389449"
+        },
+        {
+            "latitude": 32.04633230565611,
+            "longitude": -111.23720485498248,
+            "customers": 3,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-09-22 13:08:50 MST",
+            "etr": null,
+            "incident_id": "389489"
+        },
+        {
+            "latitude": 32.30823791477292,
+            "longitude": -111.23565076954074,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-22 12:27:43 MST",
+            "etr": "2026-09-22 15:27:43 MST",
+            "incident_id": "389486"
+        },
+        {
+            "latitude": 32.31977007581257,
+            "longitude": -111.25256604634308,
+            "customers": 243,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-22 12:27:43 MST",
+            "etr": "2026-09-22 15:27:43 MST",
+            "incident_id": "389485"
+        },
+        {
+            "latitude": 32.315814839062526,
+            "longitude": -111.22554472259299,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-22 12:27:43 MST",
+            "etr": "2026-09-22 15:27:43 MST",
+            "incident_id": "389482"
+        }
+    ]
+}

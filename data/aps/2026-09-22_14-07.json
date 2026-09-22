@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-22 14:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 51
+    },
+    "outages": [
+        {
+            "latitude": 33.633676551007675,
+            "longitude": -112.16564402264113,
+            "city": "Glendale",
+            "boundary": "Sandra Tr to Beverly Ln and 51st Ave to 49th Way",
+            "customers": 30,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-22 06:32:00 MST",
+            "etr": "2026-09-22 09:05:00 MST"
+        },
+        {
+            "latitude": 33.4241698261458,
+            "longitude": -112.07086603160994,
+            "city": "Phoenix",
+            "boundary": "Cocopah St to University Dr and 3rd Dr to 7th St",
+            "customers": 21,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-22 06:33:00 MST",
+            "etr": "2026-09-22 12:25:00 MST"
+        }
+    ]
+}
