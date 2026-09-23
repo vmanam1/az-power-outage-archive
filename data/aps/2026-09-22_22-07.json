@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-22 22:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 32.755344645016386,
+            "longitude": -111.54717811600261,
+            "city": "Eloy",
+            "boundary": "East Phoenix Ave to East 6th St and North Santa Cruz Ave to Tryon Ave",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-22 14:31:00 MST",
+            "etr": "2026-09-22 18:00:00 MST"
+        },
+        {
+            "latitude": 32.71497927309601,
+            "longitude": -114.6259865120675,
+            "city": "Yuma",
+            "boundary": "6th St. to 7th St. and 6th Ave. to 5th Ave.",
+            "customers": 26,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-22 15:00:00 MST",
+            "etr": "2026-09-22 19:15:00 MST"
+        }
+    ]
+}
