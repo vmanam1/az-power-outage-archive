@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-22 18:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.45218740456245,
+            "longitude": -111.92557166921549,
+            "boundary": "N COLLEGE  AVE TO N MILLER  RD AND E ROOSEVELT  ST TO E WEBER  DR",
+            "customers": 4,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-22 14:09 MST",
+            "etr": "2026-09-22 20:44 MST"
+        },
+        {
+            "latitude": 33.4955871154639,
+            "longitude": -112.14199278172799,
+            "boundary": "N 43RD  AVE TO GRAND  AVE AND GRAND  AVE TO W OSBORN  RD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-22 14:25 MST",
+            "etr": "2026-09-22 20:33 MST"
+        },
+        {
+            "latitude": 33.4954659922391,
+            "longitude": -112.141554918278,
+            "boundary": "N 43RD  AVE TO GRAND  AVE AND GRAND  AVE TO W OSBORN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-22 17:20 MST",
+            "etr": "2026-09-22 23:18 MST"
+        }
+    ]
+}
