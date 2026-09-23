@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-22 19:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.58272057130101,
+            "longitude": -112.08707851504064,
+            "city": "Phoenix",
+            "boundary": "West Sahuaro Dr to West Peoria Ave and North 13th Ave to North 10th Dr",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-22 11:20:00 MST",
+            "etr": "2026-09-22 14:15:00 MST"
+        }
+    ]
+}
