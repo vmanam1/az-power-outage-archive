@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-23 08:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.346968967928504,
+            "longitude": -111.909720585994,
+            "boundary": "S LAKESHORE  DR TO S SHUTTERFLY  WAY AND E ELLIOT  RD TO E WARNER  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-23 07:31 MST",
+            "etr": "2026-09-23 10:00 MST"
+        },
+        {
+            "latitude": 33.3677944227148,
+            "longitude": -112.246634345006,
+            "boundary": "S 91ST  AVE TO S 83RD  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-23 07:32 MST",
+            "etr": "2026-09-23 11:31 MST"
+        },
+        {
+            "latitude": 33.48494733554395,
+            "longitude": -112.2318156951695,
+            "boundary": "N 83RD  AVE TO N 79TH  AVE AND W OSBORN  RD TO W THOMAS  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-23 07:45 MST",
+            "etr": "2026-09-23 09:42 MST"
+        },
+        {
+            "latitude": 33.4572544212578,
+            "longitude": -111.7806879161,
+            "boundary": "N GILBERT  RD TO N LINDSAY  RD AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-23 08:03 MST",
+            "etr": "2026-09-23 10:00 MST"
+        }
+    ]
+}
