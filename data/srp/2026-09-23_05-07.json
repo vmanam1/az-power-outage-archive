@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-23 05:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 457
+    },
+    "outages": [
+        {
+            "latitude": 33.38285401388185,
+            "longitude": -111.80891935766451,
+            "boundary": "S MESA  DR TO S HARRIS  DR AND E SOUTHERN  AVE TO W HOUSTON  AVE",
+            "customers": 457,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-23 04:29 MST",
+            "etr": "2026-09-23 06:40 MST"
+        }
+    ]
+}
