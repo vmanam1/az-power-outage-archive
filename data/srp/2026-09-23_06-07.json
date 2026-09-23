@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-23 06:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 194
+    },
+    "outages": [
+        {
+            "latitude": 33.381786974966246,
+            "longitude": -111.8082566112,
+            "boundary": "S SUPERSTITION  FWY TO S HARRIS  DR AND E SOUTHERN  AVE TO W HOUSTON  AVE",
+            "customers": 194,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-23 04:29 MST",
+            "etr": "2026-09-23 06:40 MST"
+        }
+    ]
+}
