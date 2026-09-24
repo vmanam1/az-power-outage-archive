@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-24 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 2151
+    },
+    "outages": [
+        {
+            "latitude": 33.74560661613461,
+            "longitude": -112.43692306357818,
+            "city": "Surprise",
+            "boundary": "West Dove Valley Rd to West Jomax Rd and North 183rd Ave to North 151st Ave",
+            "customers": 1809,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-23 22:46:00 MST",
+            "etr": "2026-09-24 03:00:00 MST"
+        },
+        {
+            "latitude": 33.7366088869756,
+            "longitude": -112.38516634371769,
+            "city": "Surprise",
+            "boundary": "Dale Ln. to 151st Ave. and 155th Ave. to 148th Ave.",
+            "customers": 69,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-23 22:54:00 MST",
+            "etr": "2026-09-24 03:00:00 MST"
+        },
+        {
+            "latitude": 33.29434100002431,
+            "longitude": -112.44821999991015,
+            "city": "Goodyear",
+            "boundary": "Ray Rd To Cedarwood Ln And Garnet Rd To Cantamia Pkwy",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-24 00:34:00 MST",
+            "etr": "2026-09-24 03:00:00 MST"
+        },
+        {
+            "latitude": 34.57249852107136,
+            "longitude": -112.36740941915835,
+            "city": "Prescott Valley",
+            "boundary": "Oxford to Bond Cir and Mulberry St to Fleet St",
+            "customers": 184,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-24 01:22:00 MST",
+            "etr": "2026-09-24 05:30:00 MST"
+        },
+        {
+            "latitude": 33.5686398410076,
+            "longitude": -111.86566516303591,
+            "city": "Scottsdale",
+            "boundary": "Sand Salvador Dr and Doubletree Ranch Rd",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-24 01:17:00 MST",
+            "etr": "2026-09-24 05:00:00 MST"
+        },
+        {
+            "latitude": 33.569524620077885,
+            "longitude": -111.86547940490989,
+            "city": "Scottsdale",
+            "boundary": "San Salvador Dr to Rockne Rd and 100th St",
+            "customers": 40,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-24 01:15:00 MST",
+            "etr": "2026-09-24 05:00:00 MST"
+        },
+        {
+            "latitude": 33.84064771093115,
+            "longitude": -111.93595109000381,
+            "city": "Cave Creek",
+            "boundary": "Arroyo Rd to Tanya Rd and Ridgeway Dr",
+            "customers": 36,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-24 01:51:00 MST",
+            "etr": "2026-09-24 04:50:00 MST"
+        }
+    ]
+}
