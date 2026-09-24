@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-24 12:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.3378633807356,
+            "longitude": -111.9299625000975,
+            "boundary": "S MILL  AVE TO S LAKESHORE  DR AND E CARVER  RD TO E WARNER  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-24 06:52 MST",
+            "etr": "2026-09-24 14:00 MST"
+        },
+        {
+            "latitude": 33.506249869252954,
+            "longitude": -111.931731002591,
+            "boundary": "N 68TH  ST TO N SCOTTSDALE  RD AND E CHAPARRAL  RD TO E CAMELBACK  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-24 08:35 MST",
+            "etr": "2026-09-24 12:33 MST"
+        },
+        {
+            "latitude": 33.389152189415896,
+            "longitude": -111.636768041202,
+            "boundary": "S HAWES  RD TO S 96TH  ST AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-24 08:43 MST",
+            "etr": "2026-09-24 15:37 MST"
+        },
+        {
+            "latitude": 33.5124420772444,
+            "longitude": -112.033966844839,
+            "boundary": "N 20TH  ST TO N 24TH  ST AND E MISSOURI  AVE TO E CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-24 10:34 MST",
+            "etr": "2026-09-24 13:31 MST"
+        },
+        {
+            "latitude": 33.4328582309802,
+            "longitude": -111.581444404763,
+            "boundary": "N MOUNTAIN  RD TO N DELAWARE  DR AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-24 11:54 MST",
+            "etr": "2026-09-24 13:52 MST"
+        }
+    ]
+}

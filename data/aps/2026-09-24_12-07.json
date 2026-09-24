@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-24 12:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 43
+    },
+    "outages": [
+        {
+            "latitude": 33.60990072514351,
+            "longitude": -113.35112423423381,
+            "city": "Salome",
+            "boundary": "Salome Rd to 56th St and Avenue 71 E to Avenue 75 E",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-24 03:14:00 MST",
+            "etr": "2026-09-24 06:20:00 MST"
+        },
+        {
+            "latitude": 33.49676276562744,
+            "longitude": -112.03493483419344,
+            "city": "Phoenix",
+            "boundary": "Glenrosa Ave to Indian School Rd and 21st St to 22nd St",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-24 03:07:00 MST",
+            "etr": "2026-09-24 06:00:00 MST"
+        },
+        {
+            "latitude": 33.603622863086116,
+            "longitude": -111.87050951685173,
+            "city": "Scottsdale",
+            "boundary": "Sweetwater Ave to Desert Trl and 96th St to 98th St",
+            "customers": 24,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-24 04:28:00 MST",
+            "etr": "2026-09-24 06:45:00 MST"
+        }
+    ]
+}
