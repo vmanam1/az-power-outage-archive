@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-24 11:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 11,
+        "total_customers": 58025
+    },
+    "outages": [
+        {
+            "latitude": 32.46725044497495,
+            "longitude": -111.08536262248663,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-09-24 08:21:27 MST",
+            "etr": null,
+            "incident_id": "389517"
+        },
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 31.978280935819708,
+            "longitude": -110.71162753162952,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-09-24 08:00:00 MST",
+            "etr": "2026-09-24 12:00:00 MST",
+            "incident_id": "389504"
+        },
+        {
+            "latitude": 32.332037043366874,
+            "longitude": -111.21827735194344,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-21 22:38:12 MST",
+            "etr": null,
+            "incident_id": "389449"
+        },
+        {
+            "latitude": 32.09633693013243,
+            "longitude": -111.23006324847273,
+            "customers": 2,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-09-24 10:21:46 MST",
+            "etr": null,
+            "incident_id": "389519"
+        }
+    ]
+}
