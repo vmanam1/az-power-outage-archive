@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-24 14:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.4328582309802,
+            "longitude": -111.581444404763,
+            "boundary": "N MOUNTAIN  RD TO N DELAWARE  DR AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-24 11:54 MST",
+            "etr": "2026-09-24 15:52 MST"
+        },
+        {
+            "latitude": 33.3378633807356,
+            "longitude": -111.9299625000975,
+            "boundary": "S MILL  AVE TO S LAKESHORE  DR AND E CARVER  RD TO E WARNER  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-24 06:52 MST",
+            "etr": "2026-09-24 14:20 MST"
+        },
+        {
+            "latitude": 33.4231622194973,
+            "longitude": -111.97701948836149,
+            "boundary": "S 44TH  ST TO S 52ND  ST AND W 1ST  ST TO E MARICOPA  FWY",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-09-24 13:53 MST",
+            "etr": "2026-09-24 14:10 MST"
+        }
+    ]
+}
