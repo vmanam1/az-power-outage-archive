@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-23 23:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 66
+    },
+    "outages": [
+        {
+            "latitude": 32.38588801536015,
+            "longitude": -112.86273720414074,
+            "city": "Lukeville",
+            "boundary": "Gringo Pass St to Puerto Blanco Dr and Ajo Sonoita Hwy",
+            "customers": 57,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-09-23 07:21:00 MST",
+            "etr": "2026-09-23 17:30:00 MST"
+        },
+        {
+            "latitude": 33.66970358583586,
+            "longitude": -112.37011848203542,
+            "city": "Sun City West",
+            "boundary": "R H Johnson Blvd. and Yosemite Dr.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-23 15:34:00 MST",
+            "etr": "2026-09-23 19:00:00 MST"
+        }
+    ]
+}
