@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-23 18:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.495179297632944,
+            "longitude": -111.9470786612975,
+            "boundary": "N JOKAKE  DR TO N 64TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-23 16:15 MST",
+            "etr": "2026-09-23 19:30 MST"
+        },
+        {
+            "latitude": 33.363699178830046,
+            "longitude": -112.1202855195335,
+            "boundary": "S 31ST  AVE TO S 23RD  AVE AND W SOUTH MOUNTAIN  AVE TO W CARVER  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-23 17:39 MST",
+            "etr": "2026-09-23 18:30 MST"
+        },
+        {
+            "latitude": 33.303071446703,
+            "longitude": -111.961925527212,
+            "boundary": "S MARICOPA  FWY TO N KYRENE  RD AND W CHANDLER  BLVD TO W FRYE  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-23 17:41 MST",
+            "etr": "2026-09-23 19:40 MST"
+        }
+    ]
+}
