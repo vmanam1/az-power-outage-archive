@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-24 05:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 745
+    },
+    "outages": [
+        {
+            "latitude": 34.886377566202036,
+            "longitude": -110.19326220311103,
+            "city": "Holbrook",
+            "boundary": "McLaws Rd to Willow Wy and Poplar Dr to Aspen Al",
+            "customers": 12,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-09-23 16:16:00 MST",
+            "etr": "2026-09-23 22:30:00 MST"
+        },
+        {
+            "latitude": 33.49376999966228,
+            "longitude": -112.94205999961058,
+            "city": "Tonopah",
+            "boundary": "Glendale Ave to Lower Buckeye Rd and 467th Ave to Wintersburg Rd",
+            "customers": 733,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-23 21:26:00 MST",
+            "etr": "2026-09-24 01:30:00 MST"
+        }
+    ]
+}
