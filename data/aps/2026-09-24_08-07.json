@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-24 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 5600
+    },
+    "outages": [
+        {
+            "latitude": 33.90942011232353,
+            "longitude": -113.16837132587045,
+            "city": "Aguila",
+            "boundary": "West Hector Rd to Aguila Rd and North Eagle Eye Rd to 491st Ave",
+            "customers": 50,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-23 22:34:00 MST",
+            "etr": "2026-09-24 02:05:00 MST"
+        },
+        {
+            "latitude": 33.74560661613461,
+            "longitude": -112.43692306357818,
+            "city": "Surprise",
+            "boundary": "West Dove Valley Rd to West Jomax Rd and North 183rd Ave to North 151st Ave",
+            "customers": 1971,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-23 22:46:00 MST",
+            "etr": "2026-09-24 02:30:00 MST"
+        },
+        {
+            "latitude": 33.7366088869756,
+            "longitude": -112.38516634371769,
+            "city": "Surprise",
+            "boundary": "Dale Ln. to 151st Ave. and 155th Ave. to 148th Ave.",
+            "customers": 69,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-23 22:54:00 MST",
+            "etr": "2026-09-24 02:00:00 MST"
+        },
+        {
+            "latitude": 33.73253499965378,
+            "longitude": -112.26638499998558,
+            "city": "Peoria",
+            "boundary": "Keyser Dr To Happy Valley Pkwy And 103Rd Dr To 90Th Ln",
+            "customers": 1886,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-23 23:42:00 MST",
+            "etr": "2026-09-24 02:00:00 MST"
+        },
+        {
+            "latitude": 33.29434100002431,
+            "longitude": -112.44821999991015,
+            "city": "Goodyear",
+            "boundary": "Ray Rd To Cedarwood Ln And Garnet Rd To Cantamia Pkwy",
+            "customers": 1624,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-24 00:34:00 MST",
+            "etr": "2026-09-24 03:00:00 MST"
+        }
+    ]
+}
