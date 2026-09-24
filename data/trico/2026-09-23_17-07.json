@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-23 17:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 11,
+        "total_customers": 58029
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.332037043366874,
+            "longitude": -111.21827735194344,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-21 22:38:12 MST",
+            "etr": null,
+            "incident_id": "389449"
+        },
+        {
+            "latitude": 32.04842621247523,
+            "longitude": -111.3090790608749,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Three Points",
+            "start_time": "2026-09-23 16:46:46 MST",
+            "etr": "2026-09-23 19:46:46 MST",
+            "incident_id": "389513"
+        },
+        {
+            "latitude": 32.019990674795416,
+            "longitude": -111.44282922354607,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Three Points",
+            "start_time": "2026-09-23 15:23:39 MST",
+            "etr": "2026-09-23 18:23:39 MST",
+            "incident_id": "389511"
+        },
+        {
+            "latitude": 32.444419387312436,
+            "longitude": -111.0343742469529,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-09-23 12:22:18 MST",
+            "etr": null,
+            "incident_id": "389510"
+        }
+    ]
+}

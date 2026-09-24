@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-23 17:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.495179297632944,
+            "longitude": -111.9470786612975,
+            "boundary": "N JOKAKE  DR TO N 64TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-23 16:15 MST",
+            "etr": "2026-09-23 17:30 MST"
+        }
+    ]
+}
