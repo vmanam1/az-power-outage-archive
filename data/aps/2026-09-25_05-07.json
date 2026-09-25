@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-25 05:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 64
+    },
+    "outages": [
+        {
+            "latitude": 33.39743600306961,
+            "longitude": -110.864172375874,
+            "city": "Miami",
+            "boundary": "Gordon St. to El Camino and Maquey Trl. to Russell Rd.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-24 19:36:00 MST",
+            "etr": "2026-09-25 00:05:00 MST"
+        },
+        {
+            "latitude": 33.60348844835271,
+            "longitude": -111.95409573103304,
+            "city": "Scottsdale",
+            "boundary": "Sweetwater Ave. to Windrose Dr. and 59th St. to 60th St.",
+            "customers": 35,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-24 20:45:00 MST",
+            "etr": "2026-09-24 23:15:00 MST"
+        },
+        {
+            "latitude": 33.43730568210686,
+            "longitude": -110.72326127586608,
+            "city": "Globe",
+            "boundary": "Globe-Showlow Hwy. to Fairground Rd. and Mounch Ranch Rd.",
+            "customers": 24,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-24 21:58:00 MST",
+            "etr": "2026-09-25 00:50:00 MST"
+        }
+    ]
+}
