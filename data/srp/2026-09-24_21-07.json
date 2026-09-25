@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-24 21:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 930
+    },
+    "outages": [
+        {
+            "latitude": 33.43022286481955,
+            "longitude": -111.56211374035,
+            "boundary": "N DELAWARE  DR TO N SAN MARCOS  DR AND W LOST DUTCHMAN  BLVD TO W SUPERSTITION  BLVD",
+            "customers": 13,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-24 17:46 MST",
+            "etr": "2026-09-24 23:30 MST"
+        },
+        {
+            "latitude": 33.4153595105188,
+            "longitude": -111.887029290665,
+            "boundary": "S PIMA  LOOP TO S ROOSEVELT  RD AND E UNIVERSITY  DR TO W BROADWAY  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-24 19:47 MST",
+            "etr": "2026-09-25 04:00 MST"
+        },
+        {
+            "latitude": 33.59392067844265,
+            "longitude": -111.771889670552,
+            "boundary": "UNKNOWN TO N BEELINE  HWY AND E PINNACLE VISTA  DR TO E BEELINE  HWY",
+            "customers": 894,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-24 20:28 MST",
+            "etr": "2026-09-24 22:26 MST"
+        },
+        {
+            "latitude": 33.2215808146118,
+            "longitude": -111.635155961258,
+            "boundary": "S 204TH  ST TO S ACHILLES  WAY AND E CLOUD  RD TO E RIGGS  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-09-24 20:38 MST",
+            "etr": "2026-09-24 23:00 MST"
+        },
+        {
+            "latitude": 33.401603642359646,
+            "longitude": -112.05840510486149,
+            "boundary": "S 7TH  ST TO S 12TH  ST AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 17,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-24 16:37 MST",
+            "etr": "2026-09-24 23:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-24 21:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 35.2507910882138,
+            "longitude": -112.50244777760642,
+            "city": "Ash Fork",
+            "boundary": "Cumberland Rd to Roberts Rd and Yavapai Blvd to Hals Wy",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-24 08:38:00 MST",
+            "etr": "2026-09-24 14:30:00 MST"
+        }
+    ]
+}
