@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-25 02:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 863
+    },
+    "outages": [
+        {
+            "latitude": 34.23989300030085,
+            "longitude": -111.33677399958874,
+            "city": "Payson",
+            "boundary": "West Country Lane To Cedar Lane And Tyler Parkway To Foothill Dr.",
+            "customers": 182,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-09-24 14:11:00 MST",
+            "etr": "2026-09-24 20:00:00 MST"
+        },
+        {
+            "latitude": 32.94593834185332,
+            "longitude": -111.52096960140008,
+            "city": "Coolidge",
+            "boundary": "Martin Rd. to Bartlett Rd. and 5th St.",
+            "customers": 14,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-24 15:29:00 MST",
+            "etr": "2026-09-24 20:00:00 MST"
+        },
+        {
+            "latitude": 33.407465699643474,
+            "longitude": -110.84553300027846,
+            "city": "Globe",
+            "boundary": "Us 60 To Milton Avenue And Latham Boulevard To Russell Road",
+            "customers": 639,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-24 16:16:00 MST",
+            "etr": "2026-09-24 20:10:00 MST"
+        },
+        {
+            "latitude": 33.422865820272655,
+            "longitude": -110.71899777361129,
+            "city": "Globe",
+            "boundary": "Fairground Rd. and Kachina Trl.",
+            "customers": 28,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-24 18:01:00 MST",
+            "etr": "2026-09-24 21:35:00 MST"
+        }
+    ]
+}
