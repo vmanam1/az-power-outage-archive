@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-09-24 17:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5,
+        "total_customers": 46017
+    },
+    "outages": [
+        {
+            "latitude": 34.14032615590685,
+            "longitude": -109.98088398050793,
+            "customers": 5,
+            "cause": "MAINTENANCE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-09-24 16:33:34 MST",
+            "etr": null,
+            "incident_id": "535054"
+        }
+    ]
+}
