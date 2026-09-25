@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-24 20:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 33.401720174054304,
+            "longitude": -112.05840510486149,
+            "boundary": "S 7TH  ST TO S 12TH  ST AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-24 16:37 MST",
+            "etr": "2026-09-24 19:04 MST"
+        },
+        {
+            "latitude": 33.43022286481955,
+            "longitude": -111.56211374035,
+            "boundary": "N DELAWARE  DR TO N SAN MARCOS  DR AND W LOST DUTCHMAN  BLVD TO W SUPERSTITION  BLVD",
+            "customers": 13,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-24 17:46 MST",
+            "etr": "2026-09-24 23:30 MST"
+        },
+        {
+            "latitude": 33.4153595105188,
+            "longitude": -111.887029290665,
+            "boundary": "S PIMA  LOOP TO S ROOSEVELT  RD AND E UNIVERSITY  DR TO W BROADWAY  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-24 19:47 MST",
+            "etr": "2026-09-25 04:00 MST"
+        }
+    ]
+}
