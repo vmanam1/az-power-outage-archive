@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-24 19:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1401
+    },
+    "outages": [
+        {
+            "latitude": 35.2507910882138,
+            "longitude": -112.50244777760642,
+            "city": "Ash Fork",
+            "boundary": "Cumberland Rd to Roberts Rd and Yavapai Blvd to Hals Wy",
+            "customers": 33,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-24 08:38:00 MST",
+            "etr": "2026-09-24 12:35:00 MST"
+        },
+        {
+            "latitude": 34.23989300030085,
+            "longitude": -111.33677399958874,
+            "city": "Payson",
+            "boundary": "West Country Lane To Cedar Lane And Tyler Parkway To Foothill Dr.",
+            "customers": 1368,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-24 11:55:00 MST",
+            "etr": "2026-09-24 14:20:00 MST"
+        }
+    ]
+}
