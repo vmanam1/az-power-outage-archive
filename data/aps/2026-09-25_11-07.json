@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-25 11:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 331
+    },
+    "outages": [
+        {
+            "latitude": 33.574696646140346,
+            "longitude": -112.07319151565731,
+            "city": "Phoenix",
+            "boundary": "Mountain View Rd and Central Ave to 1st St",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-25 03:07:00 MST",
+            "etr": "2026-09-25 06:00:00 MST"
+        },
+        {
+            "latitude": 32.701746000233896,
+            "longitude": -114.60697899968203,
+            "city": "Yuma",
+            "boundary": "6Th Street To 20Th Street And Arizona Avenue To Lee Drive",
+            "customers": 321,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-25 03:40:00 MST",
+            "etr": "2026-09-25 06:40:00 MST"
+        }
+    ]
+}
