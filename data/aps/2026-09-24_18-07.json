@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-24 18:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 57
+    },
+    "outages": [
+        {
+            "latitude": 35.2507910882138,
+            "longitude": -112.50244777760642,
+            "city": "Ash Fork",
+            "boundary": "Cumberland Rd to Roberts Rd and Yavapai Blvd to Hals Wy",
+            "customers": 33,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-24 08:38:00 MST",
+            "etr": "2026-09-24 12:20:00 MST"
+        },
+        {
+            "latitude": 34.39490937606008,
+            "longitude": -111.45738622665087,
+            "city": "Pine",
+            "boundary": "Hidden Pines Loop to Hwy 87 and Ruin Hill Loop to Pine Creek Canyon Dr",
+            "customers": 24,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-24 09:06:00 MST",
+            "etr": "2026-09-24 12:00:00 MST"
+        }
+    ]
+}

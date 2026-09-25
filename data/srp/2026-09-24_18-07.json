@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-24 18:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 55
+    },
+    "outages": [
+        {
+            "latitude": 33.4895237795879,
+            "longitude": -112.141603559972,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-24 16:46 MST",
+            "etr": "2026-09-24 20:30 MST"
+        },
+        {
+            "latitude": 33.401720174054304,
+            "longitude": -112.05840510486149,
+            "boundary": "S 7TH  ST TO S 12TH  ST AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 24,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-24 16:37 MST",
+            "etr": "2026-09-24 19:04 MST"
+        },
+        {
+            "latitude": 33.430468472107194,
+            "longitude": -111.5620494635615,
+            "boundary": "N DELAWARE  DR TO N SAN MARCOS  DR AND W LOST DUTCHMAN  BLVD TO W SUPERSTITION  BLVD",
+            "customers": 30,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-24 17:46 MST",
+            "etr": "2026-09-24 19:23 MST"
+        }
+    ]
+}
