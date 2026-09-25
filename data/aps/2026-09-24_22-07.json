@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-24 22:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 34.23989300030085,
+            "longitude": -111.33677399958874,
+            "city": "Payson",
+            "boundary": "West Country Lane To Cedar Lane And Tyler Parkway To Foothill Dr.",
+            "customers": 20,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-09-24 14:11:00 MST",
+            "etr": "2026-09-24 18:10:00 MST"
+        }
+    ]
+}
