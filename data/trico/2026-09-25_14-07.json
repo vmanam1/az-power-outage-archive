@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-25 14:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 11,
+        "total_customers": 58028
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.3432550051945,
+            "longitude": -111.19121111242916,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-24 22:59:44 MST",
+            "etr": null,
+            "incident_id": "389527"
+        },
+        {
+            "latitude": 32.336234454402764,
+            "longitude": -111.22426013173653,
+            "customers": 3,
+            "cause": "70 VEHICLES",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-25 13:31:07 MST",
+            "etr": null,
+            "incident_id": "389533"
+        },
+        {
+            "latitude": 32.33498208269605,
+            "longitude": -111.22407148552684,
+            "customers": 1,
+            "cause": "70 VEHICLES",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-25 13:31:07 MST",
+            "etr": null,
+            "incident_id": "389532"
+        }
+    ]
+}

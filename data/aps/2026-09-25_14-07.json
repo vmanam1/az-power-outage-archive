@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-25 14:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.6420149483368,
+            "longitude": -112.06300614567475,
+            "city": "Phoenix",
+            "boundary": "Anderson Ave to Bell Rd and 7th St to 9th St",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-25 06:26:00 MST",
+            "etr": "2026-09-25 08:00:00 MST"
+        }
+    ]
+}
