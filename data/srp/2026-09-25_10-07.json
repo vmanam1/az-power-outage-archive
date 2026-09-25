@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-25 10:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 51
+    },
+    "outages": [
+        {
+            "latitude": 33.4023561046272,
+            "longitude": -111.620172639147,
+            "boundary": "S 96TH  ST TO S CRISMON  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 31,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-25 08:02 MST",
+            "etr": "2026-09-25 12:00 MST"
+        },
+        {
+            "latitude": 33.429323938201904,
+            "longitude": -112.16782757951,
+            "boundary": "S 55TH  AVE TO S 47TH  AVE AND W BUCKEYE  RD TO W LOWER BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-25 08:57 MST",
+            "etr": "2026-09-25 12:53 MST"
+        },
+        {
+            "latitude": 33.62418761173525,
+            "longitude": -111.75476177735649,
+            "boundary": "UNKNOWN TO N BEELINE  HWY AND E JOMAX  RD TO E SHEA  BLVD",
+            "customers": 19,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-25 08:24 MST",
+            "etr": "2026-09-25 10:25 MST"
+        }
+    ]
+}
