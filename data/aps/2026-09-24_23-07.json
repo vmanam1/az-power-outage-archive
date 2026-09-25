@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-24 23:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 194
+    },
+    "outages": [
+        {
+            "latitude": 34.23989300030085,
+            "longitude": -111.33677399958874,
+            "city": "Payson",
+            "boundary": "West Country Lane To Cedar Lane And Tyler Parkway To Foothill Dr.",
+            "customers": 182,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-09-24 14:11:00 MST",
+            "etr": "2026-09-24 18:10:00 MST"
+        },
+        {
+            "latitude": 32.94593834185332,
+            "longitude": -111.52096960140008,
+            "city": "Coolidge",
+            "boundary": "Martin Rd. to Bartlett Rd. and 5th St.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-24 15:29:00 MST",
+            "etr": "2026-09-24 18:20:00 MST"
+        }
+    ]
+}
