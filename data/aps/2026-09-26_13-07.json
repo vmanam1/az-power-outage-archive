@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-26 13:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.616755148145096,
+            "longitude": -111.98415730494207,
+            "city": "Phoenix",
+            "boundary": "Acoma Dr. to Hearn Rd. and 45th St. to 46th Pl.",
+            "customers": 12,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-26 03:59:00 MST",
+            "etr": "2026-09-26 06:35:00 MST"
+        }
+    ]
+}
