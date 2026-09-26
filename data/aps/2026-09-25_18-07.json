@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-25 18:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 39
+    },
+    "outages": [
+        {
+            "latitude": 33.398789829367054,
+            "longitude": -112.54187740281151,
+            "city": "Buckeye",
+            "boundary": "Roeser Rd to Sunland Ave and 229th Ave to 223rd Ave",
+            "customers": 39,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-25 10:31:00 MST",
+            "etr": "2026-09-25 14:05:00 MST"
+        }
+    ]
+}
