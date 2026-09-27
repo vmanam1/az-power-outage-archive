@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-27 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 61
+    },
+    "outages": [
+        {
+            "latitude": 33.34772979370751,
+            "longitude": -111.78477566708303,
+            "city": "Gilbert",
+            "boundary": "Palo Verde St. to Sliver Creek Rd. and Colonia Way to Avenida Sierra Madre",
+            "customers": 31,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-26 23:58:00 MST",
+            "etr": "2026-09-27 02:50:00 MST"
+        },
+        {
+            "latitude": 32.785889092232395,
+            "longitude": -111.51707511269097,
+            "city": "Eloy",
+            "boundary": "Colt Dr and Shetland Rd to Sorrel Rd",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-27 00:28:00 MST",
+            "etr": "2026-09-27 04:00:00 MST"
+        }
+    ]
+}
