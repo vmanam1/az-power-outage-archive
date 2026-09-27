@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-27 06:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 77
+    },
+    "outages": [
+        {
+            "latitude": 32.70886253223651,
+            "longitude": -114.67764802038937,
+            "city": "Yuma",
+            "boundary": "Crane S. to 12th St. and Mohave Ln. to Apache Ln.",
+            "customers": 6,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-26 20:15:00 MST",
+            "etr": "2026-09-26 23:55:00 MST"
+        },
+        {
+            "latitude": 32.647964250206435,
+            "longitude": -114.40137084483962,
+            "city": "Yuma",
+            "boundary": "44th St. to 45th St. and Montana Ave. to Camino Del Diablo",
+            "customers": 71,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-26 21:33:00 MST",
+            "etr": "2026-09-27 00:55:00 MST"
+        }
+    ]
+}
