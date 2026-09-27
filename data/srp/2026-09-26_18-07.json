@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-26 18:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 6804
+    },
+    "outages": [
+        {
+            "latitude": 33.444060136833755,
+            "longitude": -111.76634537140501,
+            "boundary": "N HARRIS  DR TO N GREENFIELD  RD AND E RED MOUNTAIN  FWY TO E MAIN  ST",
+            "customers": 4291,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-26 17:22 MST",
+            "etr": "2026-09-26 19:22 MST"
+        },
+        {
+            "latitude": 33.4465831220175,
+            "longitude": -111.77022871340199,
+            "boundary": "N GILBERT  RD TO N VAL VISTA  DR AND E HERMOSA VISTA  DR TO E ADOBE  ST",
+            "customers": 914,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-26 17:23 MST",
+            "etr": "2026-09-26 19:22 MST"
+        },
+        {
+            "latitude": 33.42905933719455,
+            "longitude": -111.7508579565185,
+            "boundary": "N LINDSAY  RD TO N 48TH  ST AND E MCLELLAN  RD TO E MAIN  ST",
+            "customers": 1599,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-26 17:23 MST",
+            "etr": "2026-09-26 19:28 MST"
+        }
+    ]
+}
