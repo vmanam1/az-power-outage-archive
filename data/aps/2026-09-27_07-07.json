@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-27 07:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 71
+    },
+    "outages": [
+        {
+            "latitude": 32.647964250206435,
+            "longitude": -114.40137084483962,
+            "city": "Yuma",
+            "boundary": "44th St. to 45th St. and Montana Ave. to Camino Del Diablo",
+            "customers": 71,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-26 21:33:00 MST",
+            "etr": "2026-09-27 00:55:00 MST"
+        }
+    ]
+}
