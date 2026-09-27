@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-27 11:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 33.637316754225985,
+            "longitude": -112.04612331871778,
+            "city": "Phoenix",
+            "boundary": "Kelton Ln to Aire Libre Ave and 16th Pl to 17th Pl",
+            "customers": 16,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-27 01:31:00 MST",
+            "etr": "2026-09-27 05:30:00 MST"
+        },
+        {
+            "latitude": 32.7195867026693,
+            "longitude": -114.66018207542189,
+            "city": "Yuma",
+            "boundary": "5th St. and Vaughn Ave. to May Ave.",
+            "customers": 42,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-27 03:35:00 MST",
+            "etr": "2026-09-27 07:00:00 MST"
+        }
+    ]
+}
