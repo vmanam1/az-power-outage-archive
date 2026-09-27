@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-27 05:07:01 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 33.4360249302958,
+            "longitude": -112.272737039275,
+            "boundary": "S 103RD  AVE TO S 95TH  AVE AND W VAN BUREN  ST TO W DURANGO  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-26 22:37 MST",
+            "etr": "2026-09-28 10:00 MST"
+        },
+        {
+            "latitude": 33.435857202762904,
+            "longitude": -112.272131111831,
+            "boundary": "S 103RD  AVE TO S 95TH  AVE AND W VAN BUREN  ST TO W DURANGO  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-26 22:37 MST",
+            "etr": "2026-09-28 10:00 MST"
+        },
+        {
+            "latitude": 33.507998316484205,
+            "longitude": -112.2200706480885,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W MISSOURI  AVE TO W SELLS  DR",
+            "customers": 4,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-27 02:25 MST",
+            "etr": "2026-09-27 10:00 MST"
+        },
+        {
+            "latitude": 33.513693858264304,
+            "longitude": -112.11931360176101,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W MISSOURI  AVE TO W CAMELBACK  RD",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-27 04:07 MST",
+            "etr": "2026-09-27 06:19 MST"
+        }
+    ]
+}
