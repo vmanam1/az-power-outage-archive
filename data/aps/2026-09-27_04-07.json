@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-27 04:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 84
+    },
+    "outages": [
+        {
+            "latitude": 32.70886253223651,
+            "longitude": -114.67764802038937,
+            "city": "Yuma",
+            "boundary": "Crane S. to 12th St. and Mohave Ln. to Apache Ln.",
+            "customers": 39,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-26 20:15:00 MST",
+            "etr": "2026-09-26 23:35:00 MST"
+        },
+        {
+            "latitude": 34.875261198096034,
+            "longitude": -111.76527573239474,
+            "city": "Sedona",
+            "boundary": "Navahopi rd. to Apple Ave. and Ridge Rd. to Smith Rd.",
+            "customers": 45,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-26 20:24:00 MST",
+            "etr": "2026-09-26 23:45:00 MST"
+        }
+    ]
+}
