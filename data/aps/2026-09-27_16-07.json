@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-27 16:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1470
+    },
+    "outages": [
+        {
+            "latitude": 33.34257199999032,
+            "longitude": -111.78866000033784,
+            "city": "Gilbert",
+            "boundary": "Commerce Ave To Estancia Blvd And Cooper Rd  To Lindsay Rd",
+            "customers": 1470,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-27 08:54:00 MST",
+            "etr": "2026-09-27 11:10:00 MST"
+        }
+    ]
+}
