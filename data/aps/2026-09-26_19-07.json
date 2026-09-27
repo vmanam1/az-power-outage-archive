@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-26 19:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.148061475685104,
+            "longitude": -111.5557564762987,
+            "city": "Cave Creek",
+            "boundary": "Barwick Dr to Baker Dr and Desert Willow to 51st Pl",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-26 08:20:00 MST",
+            "etr": "2026-09-26 13:30:00 MST"
+        }
+    ]
+}
