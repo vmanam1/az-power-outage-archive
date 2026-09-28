@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-28 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1436
+    },
+    "outages": [
+        {
+            "latitude": 32.666798355993535,
+            "longitude": -114.48216157192533,
+            "city": "Yuma",
+            "boundary": "Frontage Rd. to County Breeze Blvd. and Organ Pipe Ln.",
+            "customers": 18,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-27 22:47:00 MST",
+            "etr": "2026-09-28 03:10:00 MST"
+        },
+        {
+            "latitude": 34.6456151412082,
+            "longitude": -112.51251493558581,
+            "city": "Prescott",
+            "boundary": "Chipmunk Rd. to Yampa Dr. and Buchanan Dr. to Pioneer Pwy.",
+            "customers": 1337,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-27 23:29:00 MST",
+            "etr": "2026-09-28 03:00:00 MST"
+        },
+        {
+            "latitude": 32.59104240509275,
+            "longitude": -114.57366306575553,
+            "city": "Yuma",
+            "boundary": "County 16 3/4 St. to County 17 St. and Avenue 3 1/2E",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-28 00:49:00 MST",
+            "etr": "2026-09-28 05:00:00 MST"
+        },
+        {
+            "latitude": 35.2830371201351,
+            "longitude": -111.50896390239379,
+            "city": "Flagstaff",
+            "boundary": "Mcgee Rd to Neptune Dr and Patriot Dr to Stardust Trail",
+            "customers": 61,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-28 00:57:00 MST",
+            "etr": "2026-09-28 04:30:00 MST"
+        }
+    ]
+}

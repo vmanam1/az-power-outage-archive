@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-28 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.2056457842663,
+            "longitude": -111.683467727609,
+            "boundary": "S POWER  RD TO S MANDARIN  DR AND E SAN TAN  BLVD TO W SUN DANCE  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-28 07:19 MST",
+            "etr": "2026-09-28 11:18 MST"
+        },
+        {
+            "latitude": 33.457514730271896,
+            "longitude": -111.665268982813,
+            "boundary": "N 72ND  ST TO N 80TH  ST AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-28 07:28 MST",
+            "etr": "2026-09-28 11:00 MST"
+        },
+        {
+            "latitude": 33.5134147580154,
+            "longitude": -111.8993229134935,
+            "boundary": "N HAYDEN  RD TO N PIMA  RD AND E JACKRABBIT  RD TO E CHAPARRAL  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-28 08:00 MST",
+            "etr": "2026-09-28 09:58 MST"
+        },
+        {
+            "latitude": 33.45566240120675,
+            "longitude": -111.92362635213149,
+            "boundary": "N SCOTTSDALE  RD TO N MILLER  RD AND E ROOSEVELT  ST TO E MCKELLIPS  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-28 08:06 MST",
+            "etr": "2026-09-28 10:04 MST"
+        }
+    ]
+}
