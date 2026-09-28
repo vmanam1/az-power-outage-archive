@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-28 05:07:01 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 26
+    },
+    "outages": [
+        {
+            "latitude": 33.57435352966923,
+            "longitude": -112.02415361797112,
+            "city": "Phoenix",
+            "boundary": "Perdue Ave. to Northern Ave. and 26th St. to 27th Pl.",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-27 21:47:00 MST",
+            "etr": "2026-09-28 00:20:00 MST"
+        }
+    ]
+}
