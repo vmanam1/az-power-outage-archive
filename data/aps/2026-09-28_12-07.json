@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-28 12:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 194
+    },
+    "outages": [
+        {
+            "latitude": 33.580983977040226,
+            "longitude": -112.27024241612123,
+            "city": "Peoria",
+            "boundary": "99th Ave and Peoria Ave.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-28 01:35:00 MST",
+            "etr": "2026-09-28 05:50:00 MST"
+        },
+        {
+            "latitude": 32.568308041849555,
+            "longitude": -114.57031161761878,
+            "city": "Yuma",
+            "boundary": "Cou8nty 17th St to Avenue 3E and East County 19th St to Range Rd",
+            "customers": 143,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-28 02:58:00 MST",
+            "etr": "2026-09-28 06:55:00 MST"
+        },
+        {
+            "latitude": 33.63101052001412,
+            "longitude": -112.32736681055283,
+            "city": "Surprise",
+            "boundary": "Paradise Ln. to Rimrock St. and Factory St. to Jerry St.",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-28 04:26:00 MST",
+            "etr": "2026-09-28 07:25:00 MST"
+        },
+        {
+            "latitude": 33.65693275929049,
+            "longitude": -112.0618923317405,
+            "city": "Phoenix",
+            "boundary": "7th Place to Rosemonte Dr and 7th St to 10th St",
+            "customers": 33,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-28 04:41:00 MST",
+            "etr": "2026-09-28 07:30:00 MST"
+        }
+    ]
+}
