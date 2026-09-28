@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-28 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 239
+    },
+    "outages": [
+        {
+            "latitude": 35.2830371201351,
+            "longitude": -111.50896390239379,
+            "city": "Flagstaff",
+            "boundary": "Mcgee Rd to Neptune Dr and Patriot Dr to Stardust Trail",
+            "customers": 47,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-28 00:57:00 MST",
+            "etr": "2026-09-28 04:30:00 MST"
+        },
+        {
+            "latitude": 33.547870673349784,
+            "longitude": -111.89251330776513,
+            "city": "Scottsdale",
+            "boundary": "Via Taz Norte to Via Paseo Del Norte and Via De La Siesta to Pima Rd.",
+            "customers": 42,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-28 01:35:00 MST",
+            "etr": "2026-09-28 03:50:00 MST"
+        },
+        {
+            "latitude": 33.580983977040226,
+            "longitude": -112.27024241612123,
+            "city": "Peoria",
+            "boundary": "99th Ave and Peoria Ave.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-28 01:35:00 MST",
+            "etr": "2026-09-28 05:50:00 MST"
+        },
+        {
+            "latitude": 32.568308041849555,
+            "longitude": -114.57031161761878,
+            "city": "Yuma",
+            "boundary": "Cou8nty 17th St to Avenue 3E and East County 19th St to Range Rd",
+            "customers": 143,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-28 02:58:00 MST",
+            "etr": "2026-09-28 06:55:00 MST"
+        }
+    ]
+}
