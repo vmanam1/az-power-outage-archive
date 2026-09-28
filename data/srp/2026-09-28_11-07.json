@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-28 11:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1300
+    },
+    "outages": [
+        {
+            "latitude": 33.75516421841645,
+            "longitude": -111.702943069778,
+            "boundary": "N 168TH  ST TO N 180TH  ST AND E MONTGOMERY  RD TO E RIO VERDE  DR",
+            "customers": 31,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-28 09:54 MST",
+            "etr": "2026-09-28 11:53 MST"
+        },
+        {
+            "latitude": 33.490378221113744,
+            "longitude": -112.2419175254435,
+            "boundary": "N AGUA FRIA  FWY TO N 75TH  AVE AND W CAMPBELL  AVE TO W THOMAS  RD",
+            "customers": 1261,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-28 10:11 MST",
+            "etr": "2026-09-28 12:11 MST"
+        },
+        {
+            "latitude": 33.332609485102594,
+            "longitude": -111.998770386195,
+            "boundary": "S 36TH  ST TO S WARNER-ELLIOT  LOOP AND E WARNER  RD TO E KNOX  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-28 11:06 MST",
+            "etr": "2026-09-28 13:05 MST"
+        }
+    ]
+}
