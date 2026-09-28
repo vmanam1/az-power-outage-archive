@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-28 06:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 88
+    },
+    "outages": [
+        {
+            "latitude": 33.57435352966923,
+            "longitude": -112.02415361797112,
+            "city": "Phoenix",
+            "boundary": "Perdue Ave. to Northern Ave. and 26th St. to 27th Pl.",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-27 21:47:00 MST",
+            "etr": "2026-09-28 00:20:00 MST"
+        },
+        {
+            "latitude": 32.67902089905701,
+            "longitude": -114.63006261138099,
+            "city": "Yuma",
+            "boundary": "Westridge Dr. to Del Valle Dr. and Las Palmas Vista Ave. to Mesa Ave.",
+            "customers": 14,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-27 22:20:00 MST",
+            "etr": "2026-09-28 01:30:00 MST"
+        },
+        {
+            "latitude": 32.666798355993535,
+            "longitude": -114.48216157192533,
+            "city": "Yuma",
+            "boundary": "Frontage Rd. to County Breeze Blvd. and Organ Pipe Ln.",
+            "customers": 36,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-27 22:47:00 MST",
+            "etr": "2026-09-28 02:10:00 MST"
+        },
+        {
+            "latitude": 33.661316892982065,
+            "longitude": -114.19597868092414,
+            "city": "Quartzsite",
+            "boundary": "D Rw. and C Rw.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-27 22:51:00 MST",
+            "etr": "2026-09-28 02:00:00 MST"
+        }
+    ]
+}
