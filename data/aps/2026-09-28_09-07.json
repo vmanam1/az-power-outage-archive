@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-28 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 133
+    },
+    "outages": [
+        {
+            "latitude": 32.59104240509275,
+            "longitude": -114.57366306575553,
+            "city": "Yuma",
+            "boundary": "County 16 3/4 St. to County 17 St. and Avenue 3 1/2E",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-28 00:49:00 MST",
+            "etr": "2026-09-28 05:00:00 MST"
+        },
+        {
+            "latitude": 35.2830371201351,
+            "longitude": -111.50896390239379,
+            "city": "Flagstaff",
+            "boundary": "Mcgee Rd to Neptune Dr and Patriot Dr to Stardust Trail",
+            "customers": 61,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-28 00:57:00 MST",
+            "etr": "2026-09-28 04:30:00 MST"
+        },
+        {
+            "latitude": 33.547870673349784,
+            "longitude": -111.89251330776513,
+            "city": "Scottsdale",
+            "boundary": "Via Taz Norte to Via Paseo Del Norte and Via De La Siesta to Pima Rd.",
+            "customers": 42,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-28 01:35:00 MST",
+            "etr": "2026-09-28 03:30:00 MST"
+        },
+        {
+            "latitude": 31.366769218049726,
+            "longitude": -109.52800683343347,
+            "city": "Douglas",
+            "boundary": "Primrose St. to 27th St. and Washington Ave. to Gladiola Ave.",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-28 01:54:00 MST",
+            "etr": "2026-09-28 04:15:00 MST"
+        }
+    ]
+}

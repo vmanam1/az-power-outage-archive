@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-09-28 09:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 9,
+        "total_customers": 58034
+    },
+    "outages": [
+        {
+            "latitude": 32.3432550051945,
+            "longitude": -111.19121111242916,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-24 22:59:44 MST",
+            "etr": null,
+            "incident_id": "389527"
+        },
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 31.9614774089354,
+            "longitude": -110.99110239971084,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Sahuarita",
+            "start_time": "2026-09-28 08:40:09 MST",
+            "etr": null,
+            "incident_id": "389595"
+        },
+        {
+            "latitude": 32.342200059903426,
+            "longitude": -111.20338328453067,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-28 08:23:01 MST",
+            "etr": null,
+            "incident_id": "389594"
+        }
+    ]
+}
