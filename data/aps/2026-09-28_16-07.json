@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-28 16:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.36282082502568,
+            "longitude": -112.69465647392302,
+            "city": "Buckeye",
+            "boundary": "Burner Rd. to Old US 80 and Johnson Rd. to Palo Verde Rd.",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-28 07:10:00 MST",
+            "etr": "2026-09-28 10:45:00 MST"
+        }
+    ]
+}
