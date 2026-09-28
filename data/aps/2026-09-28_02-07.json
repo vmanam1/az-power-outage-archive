@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-28 02:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 401
+    },
+    "outages": [
+        {
+            "latitude": 32.68977451331254,
+            "longitude": -114.65368892588582,
+            "city": "Yuma",
+            "boundary": "20th Pl. to 22nd St. and 27th Wy. to S. Avenue B.",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-27 16:24:00 MST",
+            "etr": "2026-09-27 19:45:00 MST"
+        },
+        {
+            "latitude": 33.31735625022816,
+            "longitude": -111.84040502772662,
+            "city": "Chandler",
+            "boundary": "Linda Ln. to Ivanhoe Pl. and AZ Ave. to Colorado St.",
+            "customers": 33,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-27 18:09:00 MST",
+            "etr": "2026-09-27 21:00:00 MST"
+        },
+        {
+            "latitude": 34.50248904965978,
+            "longitude": -112.23154754724155,
+            "city": "Humboldt",
+            "boundary": "Blue Ridge Rd. to Rancho Pl. and Jones St. to Robeki Wy.",
+            "customers": 352,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-27 18:33:00 MST",
+            "etr": "2026-09-27 22:00:00 MST"
+        }
+    ]
+}
