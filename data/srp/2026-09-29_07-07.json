@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-29 07:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1214
+    },
+    "outages": [
+        {
+            "latitude": 33.5151262402837,
+            "longitude": -111.8980255152205,
+            "boundary": "N HAYDEN  RD TO N PIMA  RD AND E MCDONALD  DR TO E CHAPARRAL  RD",
+            "customers": 34,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 04:47 MST",
+            "etr": "2026-09-29 08:48 MST"
+        },
+        {
+            "latitude": 33.6746710457378,
+            "longitude": -111.7172203294995,
+            "boundary": "UNKNOWN TO N BEELINE  HWY AND E JOMAX  RD TO E SHEA  BLVD",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 05:10 MST",
+            "etr": "2026-09-29 09:08 MST"
+        },
+        {
+            "latitude": 33.39603982185555,
+            "longitude": -112.3027387003555,
+            "boundary": "S AVONDALE  BLVD TO S 111TH  AVE AND W ROESER  RD TO W SOUTHERN  AVE",
+            "customers": 5,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-09-29 04:11 MST",
+            "etr": "2026-09-29 11:11 MST"
+        },
+        {
+            "latitude": 33.41439740559885,
+            "longitude": -111.906516085133,
+            "boundary": "S DORSEY  LN TO S SMITH  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 44,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-29 06:47 MST",
+            "etr": "2026-09-29 13:46 MST"
+        },
+        {
+            "latitude": 33.4887534973531,
+            "longitude": -111.95064589270251,
+            "boundary": "N 56TH  ST TO N 64TH  ST AND E CAMELBACK  RD TO E THOMAS  RD",
+            "customers": 52,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 05:08 MST",
+            "etr": "2026-09-29 08:37 MST"
+        },
+        {
+            "latitude": 33.3747407047326,
+            "longitude": -112.23519594807351,
+            "boundary": "S 99TH  AVE TO S 67TH  AVE AND W SOUTHERN  AVE TO W ELLIOT  RD",
+            "customers": 1057,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-09-29 05:09 MST",
+            "etr": "2026-09-29 08:54 MST"
+        }
+    ]
+}
