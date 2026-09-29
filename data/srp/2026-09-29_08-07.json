@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-29 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 88
+    },
+    "outages": [
+        {
+            "latitude": 33.6746710457378,
+            "longitude": -111.7172203294995,
+            "boundary": "UNKNOWN TO N BEELINE  HWY AND E JOMAX  RD TO E SHEA  BLVD",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 05:10 MST",
+            "etr": "2026-09-29 09:08 MST"
+        },
+        {
+            "latitude": 33.39603982185555,
+            "longitude": -112.3027387003555,
+            "boundary": "S AVONDALE  BLVD TO S 111TH  AVE AND W ROESER  RD TO W SOUTHERN  AVE",
+            "customers": 5,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-09-29 04:11 MST",
+            "etr": "2026-09-29 11:11 MST"
+        },
+        {
+            "latitude": 33.41439740559885,
+            "longitude": -111.906516085133,
+            "boundary": "S DORSEY  LN TO S SMITH  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 44,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-29 06:47 MST",
+            "etr": "2026-09-29 13:46 MST"
+        },
+        {
+            "latitude": 33.36961771972245,
+            "longitude": -112.246744597857,
+            "boundary": "S 91ST  AVE TO S 83RD  AVE AND W BROADWAY  RD TO UNKNOWN",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-29 07:33 MST",
+            "etr": "2026-09-29 12:11 MST"
+        },
+        {
+            "latitude": 33.3334113245125,
+            "longitude": -112.166399639338,
+            "boundary": "S 51ST  AVE TO S 47TH  AVE AND W CARVER  RD TO W RAY  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-29 08:05 MST",
+            "etr": "2026-09-29 10:01 MST"
+        }
+    ]
+}
