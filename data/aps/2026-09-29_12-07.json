@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-29 12:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 111
+    },
+    "outages": [
+        {
+            "latitude": 31.37047510796743,
+            "longitude": -109.52192947541485,
+            "city": "Douglas",
+            "boundary": "Carnation St to Primerose St and Washington Ave to Lincoln Ave",
+            "customers": 55,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-29 01:12:00 MST",
+            "etr": "2026-09-29 06:00:00 MST"
+        },
+        {
+            "latitude": 33.501548170240135,
+            "longitude": -112.07998107240621,
+            "city": "Phoenix",
+            "boundary": "Campbell Ave to Roma Ave and 5th Ave to 3rd Ave",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-29 02:02:00 MST",
+            "etr": "2026-09-29 08:00:00 MST"
+        },
+        {
+            "latitude": 33.458562943060485,
+            "longitude": -112.01913091713037,
+            "city": "Phoenix",
+            "boundary": "Roosevelt St and 29th St",
+            "customers": 6,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-29 03:48:00 MST",
+            "etr": "2026-09-29 06:30:00 MST"
+        },
+        {
+            "latitude": 33.94285738785108,
+            "longitude": -113.16611240968058,
+            "city": "Aguila",
+            "boundary": "US 60 to Long Rifle Rd. and 3rd St. to 6th St.",
+            "customers": 31,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-29 02:57:00 MST",
+            "etr": "2026-09-29 10:25:00 MST"
+        },
+        {
+            "latitude": 33.50908253862565,
+            "longitude": -112.06614962124678,
+            "city": "Phoenix",
+            "boundary": "Camelback to Mariposa St. and 5th St. to 7th St.",
+            "customers": 9,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-29 05:01:00 MST",
+            "etr": "2026-09-29 07:35:00 MST"
+        }
+    ]
+}
