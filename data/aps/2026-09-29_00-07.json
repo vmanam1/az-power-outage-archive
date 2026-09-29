@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-29 00:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 93
+    },
+    "outages": [
+        {
+            "latitude": 33.54928569811628,
+            "longitude": -111.89202838459833,
+            "city": "Scottsdale",
+            "boundary": "Via Taz Norte and Pima Rd.",
+            "customers": 20,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-28 15:00:00 MST",
+            "etr": "2026-09-28 18:00:00 MST"
+        },
+        {
+            "latitude": 33.60996185563855,
+            "longitude": -112.26882924311012,
+            "city": "Sun City",
+            "boundary": "Thunderbird Blvd. and 99th Ave.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-28 16:03:00 MST",
+            "etr": "2026-09-28 18:50:00 MST"
+        },
+        {
+            "latitude": 33.8235258932855,
+            "longitude": -111.95271163019946,
+            "city": "Cave Creek",
+            "boundary": "Cholla Rd. to Tandem Rd. and Kohuana Pl.",
+            "customers": 22,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-28 16:05:00 MST",
+            "etr": "2026-09-28 19:00:00 MST"
+        },
+        {
+            "latitude": 33.03627538293848,
+            "longitude": -111.50722112223357,
+            "city": "Florence",
+            "boundary": "Franklin Rd. to Florence Coolidge Hwy. and Christensen Rd.",
+            "customers": 42,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-28 16:27:00 MST",
+            "etr": "2026-09-28 19:50:00 MST"
+        }
+    ]
+}
