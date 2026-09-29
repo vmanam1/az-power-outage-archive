@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-09-28 22:07:30 MST",
+        "source": "MOHAVE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 216,
+        "total_customers": 47105
+    },
+    "outages": [
+        {
+            "latitude": 34.94550533109343,
+            "longitude": -114.57915330804049,
+            "customers": 3,
+            "cause": "Extreme Storm",
+            "comments": "We are currently experiencing an outage in your area. Our crews are responding to restore your power. Thank you for your patience.",
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 20:05:00 MST",
+            "etr": null,
+            "incident_id": "350721"
+        },
+        {
+            "latitude": 35.10258654847536,
+            "longitude": -114.64378709274189,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 20:09:55 MST",
+            "etr": null,
+            "incident_id": "350722"
+        },
+        {
+            "latitude": 34.85341774379975,
+            "longitude": -114.5403191383026,
+            "customers": 9,
+            "cause": "Extreme Storm",
+            "comments": "We are currently experiencing an outage in your area. Our crews are responding to restore your power. Thank you for your patience.",
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 20:46:00 MST",
+            "etr": null,
+            "incident_id": "350733"
+        },
+        {
+            "latitude": 35.12902515120056,
+            "longitude": -113.95777964277569,
+            "customers": 27,
+            "cause": "Extreme Storm",
+            "comments": "We are currently experiencing an outage in your area. Our crews are responding to restore your power. Thank you for your patience.",
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-09-28 21:53:00 MST",
+            "etr": null,
+            "incident_id": "350735"
+        },
+        {
+            "latitude": 35.11369063082757,
+            "longitude": -114.60154830807672,
+            "customers": 1,
+            "cause": "Consumers Problem",
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 19:34:37 MST",
+            "etr": null,
+            "incident_id": "350716"
+        },
+        {
+            "latitude": 35.51802925168683,
+            "longitude": -113.31571777651473,
+            "customers": 66,
+            "cause": "Extreme Storm",
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-09-28 19:20:00 MST",
+            "etr": null,
+            "incident_id": "350717"
+        },
+        {
+            "latitude": 35.050117503063994,
+            "longitude": -114.56761893979079,
+            "customers": 109,
+            "cause": "Extreme Storm",
+            "comments": "We are currently experiencing an outage in your area. Our crews are responding to restore your power. Thank you for your patience.",
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 20:18:00 MST",
+            "etr": null,
+            "incident_id": "350730"
+        }
+    ]
+}
