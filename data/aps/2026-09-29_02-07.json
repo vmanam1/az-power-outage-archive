@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-29 02:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 285
+    },
+    "outages": [
+        {
+            "latitude": 33.8235258932855,
+            "longitude": -111.95271163019946,
+            "city": "Cave Creek",
+            "boundary": "Cholla Rd. to Tandem Rd. and Kohuana Pl.",
+            "customers": 22,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-28 16:05:00 MST",
+            "etr": "2026-09-28 20:00:00 MST"
+        },
+        {
+            "latitude": 33.62436976075374,
+            "longitude": -112.28178565074118,
+            "city": "Sun City",
+            "boundary": "Twin Oaks Dr. to Pleasant Valley Rd. and 105th Dr. to White Mountain Rd.",
+            "customers": 22,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-28 18:03:00 MST",
+            "etr": "2026-09-28 20:30:00 MST"
+        },
+        {
+            "latitude": 32.80847103481255,
+            "longitude": -111.6843093792811,
+            "city": "Casa Grande",
+            "boundary": "Hilltop Dr. to Mountain Dr. and Arica Pl. to John Jacob Astor Ave.",
+            "customers": 241,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-28 18:33:00 MST",
+            "etr": "2026-09-28 21:55:00 MST"
+        }
+    ]
+}
