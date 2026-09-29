@@ -1,0 +1,103 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-09-28 21:07:30 MST",
+        "source": "MOHAVE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 183,
+        "total_customers": 47105
+    },
+    "outages": [
+        {
+            "latitude": 34.94550533109343,
+            "longitude": -114.57915330804049,
+            "customers": 3,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 20:08:01 MST",
+            "etr": null,
+            "incident_id": "350721"
+        },
+        {
+            "latitude": 34.851825435609285,
+            "longitude": -114.53698638859805,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 20:48:30 MST",
+            "etr": null,
+            "incident_id": "350732"
+        },
+        {
+            "latitude": 35.10258654847536,
+            "longitude": -114.64378709274189,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 20:09:55 MST",
+            "etr": null,
+            "incident_id": "350722"
+        },
+        {
+            "latitude": 34.85197287284744,
+            "longitude": -114.54209780256541,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 20:55:55 MST",
+            "etr": null,
+            "incident_id": "350733"
+        },
+        {
+            "latitude": 35.402575347048554,
+            "longitude": -113.85768037065232,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-09-28 18:10:48 MST",
+            "etr": null,
+            "incident_id": "350704"
+        },
+        {
+            "latitude": 35.11369063082757,
+            "longitude": -114.60154830807672,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 19:34:37 MST",
+            "etr": null,
+            "incident_id": "350716"
+        },
+        {
+            "latitude": 35.51802925168683,
+            "longitude": -113.31571777651473,
+            "customers": 66,
+            "cause": "Extreme Storm",
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-09-28 19:20:43 MST",
+            "etr": null,
+            "incident_id": "350717"
+        },
+        {
+            "latitude": 35.050117503063994,
+            "longitude": -114.56761893979079,
+            "customers": 109,
+            "cause": null,
+            "comments": "We are currently experiencing an outage in your area. Our crews are responding to restore your power. Thank you for your patience.",
+            "boundary": "Western Service Area",
+            "start_time": "2026-09-28 20:19:46 MST",
+            "etr": null,
+            "incident_id": "350730"
+        }
+    ]
+}
