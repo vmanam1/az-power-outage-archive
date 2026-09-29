@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-29 01:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 11
+    },
+    "outages": [
+        {
+            "latitude": 33.2919530567829,
+            "longitude": -111.634420045816,
+            "boundary": "S 88TH  ST TO S CRISMON  RD AND E WILLIAMS FIELD  RD TO E WILLIS  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-28 20:53 MST",
+            "etr": "2026-09-29 02:00 MST"
+        },
+        {
+            "latitude": 33.2850722189733,
+            "longitude": -111.66452455377001,
+            "boundary": "S SOSSAMAN  RD TO S 80TH  ST AND E PECOS  RD TO E GERMANN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-28 20:51 MST",
+            "etr": "2026-09-29 05:00 MST"
+        },
+        {
+            "latitude": 33.32054168499985,
+            "longitude": -111.918078670947,
+            "boundary": "S RURAL  RD TO N MCCLINTOCK  DR AND E KNOX  RD TO W GALVESTON  ST",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-28 22:59 MST",
+            "etr": "2026-09-29 04:59 MST"
+        },
+        {
+            "latitude": 33.7545412717867,
+            "longitude": -111.7734357306055,
+            "boundary": "N 140TH  ST TO N 144TH  ST AND E MONTGOMERY  RD TO E PEAK VIEW  RD",
+            "customers": 3,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-28 19:43 MST",
+            "etr": "2026-09-29 02:00 MST"
+        }
+    ]
+}
