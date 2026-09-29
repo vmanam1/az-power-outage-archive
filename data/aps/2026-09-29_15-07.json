@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-29 15:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 151
+    },
+    "outages": [
+        {
+            "latitude": 33.43279235223431,
+            "longitude": -112.09332576064917,
+            "city": "Phoenix",
+            "boundary": "Pima St to Sonora St and 17th Ave to 15th Ave",
+            "customers": 14,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-29 06:32:00 MST",
+            "etr": "2026-09-29 09:30:00 MST"
+        },
+        {
+            "latitude": 34.39818223815453,
+            "longitude": -112.22652521740501,
+            "city": "Poland Junction",
+            "boundary": "Copper Rd to Soleil Down Rd and Hackberry Rd to Big Bug Trl",
+            "customers": 137,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-29 07:39:00 MST",
+            "etr": "2026-09-29 11:30:00 MST"
+        }
+    ]
+}
