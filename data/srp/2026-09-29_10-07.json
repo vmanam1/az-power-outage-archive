@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-29 10:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1322
+    },
+    "outages": [
+        {
+            "latitude": 33.39603982185555,
+            "longitude": -112.3027387003555,
+            "boundary": "S AVONDALE  BLVD TO S 111TH  AVE AND W ROESER  RD TO W SOUTHERN  AVE",
+            "customers": 5,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-09-29 04:11 MST",
+            "etr": "2026-09-29 11:11 MST"
+        },
+        {
+            "latitude": 33.41439740559885,
+            "longitude": -111.906516085133,
+            "boundary": "S DORSEY  LN TO S SMITH  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 44,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-29 06:47 MST",
+            "etr": "2026-09-29 13:46 MST"
+        },
+        {
+            "latitude": 33.3334113245125,
+            "longitude": -112.166399639338,
+            "boundary": "S 51ST  AVE TO S 47TH  AVE AND W CARVER  RD TO W RAY  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-29 08:05 MST",
+            "etr": "2026-09-29 15:01 MST"
+        },
+        {
+            "latitude": 33.382280587309296,
+            "longitude": -111.773269162044,
+            "boundary": "S 24TH  ST TO N NIELSON  ST AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-29 09:39 MST",
+            "etr": "2026-09-29 11:37 MST"
+        },
+        {
+            "latitude": 33.35372390588,
+            "longitude": -111.879765519358,
+            "boundary": "N PRICE  FWY TO N ALMA SCHOOL  RD AND W BASELINE  RD TO W WARNER  RD",
+            "customers": 1262,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 09:47 MST",
+            "etr": "2026-09-29 11:46 MST"
+        }
+    ]
+}

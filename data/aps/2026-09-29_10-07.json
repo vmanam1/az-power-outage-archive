@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-29 10:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 157
+    },
+    "outages": [
+        {
+            "latitude": 33.391663999890596,
+            "longitude": -112.44342399971113,
+            "city": "Goodyear",
+            "boundary": "Lower Buckeye Rd To Gila River And Perryville Rd To 155Th Ave",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-28 21:01:00 MST",
+            "etr": "2026-09-29 04:00:00 MST"
+        },
+        {
+            "latitude": 35.22243342568955,
+            "longitude": -111.6001974691989,
+            "city": "Flagstaff",
+            "boundary": "Hemberg Dr. to Swiss Rd. and Loma Vista Dr. to Fanning Dr.",
+            "customers": 8,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-28 22:46:00 MST",
+            "etr": "2026-09-29 03:45:00 MST"
+        },
+        {
+            "latitude": 33.58202341304944,
+            "longitude": -112.08803837839646,
+            "city": "Phoenix",
+            "boundary": "Peoria Ave to North Ln and 13th Ave to 11th Ave",
+            "customers": 20,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-28 23:32:00 MST",
+            "etr": "2026-09-29 05:00:00 MST"
+        },
+        {
+            "latitude": 31.37047510796743,
+            "longitude": -109.52192947541485,
+            "city": "Douglas",
+            "boundary": "Carnation St to Primerose St and Washington Ave to Lincoln Ave",
+            "customers": 124,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-29 01:12:00 MST",
+            "etr": "2026-09-29 04:40:00 MST"
+        }
+    ]
+}
