@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-28 18:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 43
+    },
+    "outages": [
+        {
+            "latitude": 33.36282082502568,
+            "longitude": -112.69465647392302,
+            "city": "Buckeye",
+            "boundary": "Burner Rd. to Old US 80 and Johnson Rd. to Palo Verde Rd.",
+            "customers": 7,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-09-28 07:10:00 MST",
+            "etr": "2026-09-28 16:25:00 MST"
+        },
+        {
+            "latitude": 34.616319697816856,
+            "longitude": -112.48769091617727,
+            "city": "Prescott",
+            "boundary": "Williamson Valley Rd and Cody Dr",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-28 09:03:00 MST",
+            "etr": "2026-09-28 12:30:00 MST"
+        },
+        {
+            "latitude": 33.48444965607244,
+            "longitude": -111.93550615983348,
+            "city": "Scottsdale",
+            "boundary": "Cheery Lane Rd to Avalon Dr and 67th Place to 68th Place",
+            "customers": 22,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-28 09:25:00 MST",
+            "etr": "2026-09-28 13:30:00 MST"
+        },
+        {
+            "latitude": 32.67653610563577,
+            "longitude": -114.61707170484979,
+            "city": "Yuma",
+            "boundary": "Palo Verde St and Arizona Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-28 10:15:00 MST",
+            "etr": "2026-09-28 14:15:00 MST"
+        }
+    ]
+}
