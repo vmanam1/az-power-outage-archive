@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-29 16:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 247
+    },
+    "outages": [
+        {
+            "latitude": 34.26019460036976,
+            "longitude": -111.25216989986743,
+            "city": "Payson",
+            "boundary": "Pinon Drive To Moonlight Drive And Manzanita Drive To Payson- Heber Highway",
+            "customers": 247,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-29 08:28:00 MST",
+            "etr": "2026-09-29 11:30:00 MST"
+        }
+    ]
+}
