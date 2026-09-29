@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-29 06:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 253
+    },
+    "outages": [
+        {
+            "latitude": 33.32054168499985,
+            "longitude": -111.918078670947,
+            "boundary": "S RURAL  RD TO N MCCLINTOCK  DR AND E KNOX  RD TO W GALVESTON  ST",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-28 22:59 MST",
+            "etr": "2026-09-29 06:59 MST"
+        },
+        {
+            "latitude": 33.39603982185555,
+            "longitude": -112.3027387003555,
+            "boundary": "S AVONDALE  BLVD TO S 111TH  AVE AND W ROESER  RD TO W SOUTHERN  AVE",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 04:11 MST",
+            "etr": "2026-09-29 08:11 MST"
+        },
+        {
+            "latitude": 33.4080507925377,
+            "longitude": -112.2979829695135,
+            "boundary": "S AVONDALE  BLVD TO S 107TH  AVE AND W LOWER BUCKEYE  RD TO W ROESER  RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 04:13 MST",
+            "etr": "2026-09-29 08:11 MST"
+        },
+        {
+            "latitude": 33.47865837563775,
+            "longitude": -112.168082541681,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 47,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 04:29 MST",
+            "etr": "2026-09-29 08:29 MST"
+        },
+        {
+            "latitude": 33.5151262402837,
+            "longitude": -111.8980255152205,
+            "boundary": "N HAYDEN  RD TO N PIMA  RD AND E MCDONALD  DR TO E CHAPARRAL  RD",
+            "customers": 34,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 04:47 MST",
+            "etr": "2026-09-29 08:48 MST"
+        },
+        {
+            "latitude": 33.4887534973531,
+            "longitude": -111.9503756227245,
+            "boundary": "N 56TH  ST TO N 64TH  ST AND E CAMELBACK  RD TO E THOMAS  RD",
+            "customers": 117,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 05:08 MST",
+            "etr": "2026-09-29 08:37 MST"
+        },
+        {
+            "latitude": 33.36961771972245,
+            "longitude": -112.246744597857,
+            "boundary": "S 91ST  AVE TO S 83RD  AVE AND W BROADWAY  RD TO UNKNOWN",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 05:09 MST",
+            "etr": "2026-09-29 08:54 MST"
+        },
+        {
+            "latitude": 33.6746710457378,
+            "longitude": -111.7172203294995,
+            "boundary": "UNKNOWN TO N BEELINE  HWY AND E JOMAX  RD TO E SHEA  BLVD",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-29 05:10 MST",
+            "etr": "2026-09-29 09:08 MST"
+        }
+    ]
+}
