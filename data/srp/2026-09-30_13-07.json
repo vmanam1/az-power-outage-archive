@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-30 13:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.4516534799998,
+            "longitude": -111.883751562429,
+            "boundary": "N PIMA  LOOP TO N DOBSON  RD AND E LEHI  RD TO E WEBER  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 05:22 MST",
+            "etr": "2026-09-30 15:00 MST"
+        },
+        {
+            "latitude": 33.28841571953,
+            "longitude": -111.68617793891599,
+            "boundary": "S RECKER  RD TO S 188TH  ST AND E PECOS  RD TO E GERMANN  RD",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-30 12:45 MST",
+            "etr": "2026-09-30 14:06 MST"
+        },
+        {
+            "latitude": 33.1199548540907,
+            "longitude": -111.589441111307,
+            "boundary": "N ROYCE  RD TO N GARY  RD AND W DIXIE  RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 08:13 MST",
+            "etr": "2026-09-30 14:11 MST"
+        }
+    ]
+}
