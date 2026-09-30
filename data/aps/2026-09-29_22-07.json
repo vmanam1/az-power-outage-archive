@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-29 22:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 129
+    },
+    "outages": [
+        {
+            "latitude": 33.43765599982623,
+            "longitude": -112.07168600032658,
+            "city": "Phoenix",
+            "boundary": "Lincoln St To Durango St And 1St St To 7Th St",
+            "customers": 33,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-29 09:16:00 MST",
+            "etr": "2026-09-29 16:30:00 MST"
+        },
+        {
+            "latitude": 35.18059800020884,
+            "longitude": -111.71848099983825,
+            "city": "Flagstaff",
+            "boundary": "A-1 Mountain To Woody Mountain Well Fields And A-1 Mountain Road To Woody Mountain Road",
+            "customers": 81,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-09-29 11:18:00 MST",
+            "etr": "2026-09-29 19:00:00 MST"
+        },
+        {
+            "latitude": 33.60928962878568,
+            "longitude": -111.95916710079925,
+            "city": "Scottsdale",
+            "boundary": "Voltaire Ave. to Presidio Rd. and 56th St. to 57th Pl.",
+            "customers": 15,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-09-29 14:33:00 MST",
+            "etr": "2026-09-29 17:05:00 MST"
+        }
+    ]
+}
