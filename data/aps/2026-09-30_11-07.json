@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-30 11:07:01 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 231
+    },
+    "outages": [
+        {
+            "latitude": 34.40308307823453,
+            "longitude": -112.24413930534259,
+            "city": "Mayer",
+            "boundary": "Sunset Dr to 8th St and Agua Fria Ave to Central Ave",
+            "customers": 51,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-30 01:33:00 MST",
+            "etr": "2026-09-30 04:45:00 MST"
+        },
+        {
+            "latitude": 34.07221507464066,
+            "longitude": -112.13331464640741,
+            "city": "Black Canyon City",
+            "boundary": "Wagon Wheel Cir to Landfill Rd and Palo Verde Ln to Mud Springs Rd",
+            "customers": 180,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-09-30 03:57:00 MST",
+            "etr": "2026-09-30 07:30:00 MST"
+        }
+    ]
+}

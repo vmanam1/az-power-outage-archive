@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-30 11:07:01 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 77
+    },
+    "outages": [
+        {
+            "latitude": 33.1199548540907,
+            "longitude": -111.589441111307,
+            "boundary": "N ROYCE  RD TO N GARY  RD AND W DIXIE  RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 08:13 MST",
+            "etr": "2026-09-30 12:11 MST"
+        },
+        {
+            "latitude": 33.58898788074435,
+            "longitude": -112.21373827260601,
+            "boundary": "N 75TH  AVE TO N 67TH  AVE AND W CACTUS  RD TO W PEORIA  AVE",
+            "customers": 46,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-30 03:32 MST",
+            "etr": "2026-09-30 12:13 MST"
+        },
+        {
+            "latitude": 33.5350307865357,
+            "longitude": -112.044449556643,
+            "boundary": "N 16TH  ST TO N PIESTEWA  FWY AND E GLENDALE  AVE TO E MARYLAND  AVE",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 08:03 MST",
+            "etr": "2026-09-30 13:00 MST"
+        },
+        {
+            "latitude": 33.4733518113613,
+            "longitude": -111.79047002687099,
+            "boundary": "N HARRIS  ST TO N GILBERT  RD AND E THOMAS  RD TO E MCDOWELL  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-30 08:32 MST",
+            "etr": "2026-09-30 15:00 MST"
+        },
+        {
+            "latitude": 33.4516534799998,
+            "longitude": -111.883751562429,
+            "boundary": "N PIMA  LOOP TO N DOBSON  RD AND E LEHI  RD TO E WEBER  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 05:22 MST",
+            "etr": "2026-09-30 15:00 MST"
+        },
+        {
+            "latitude": 33.37905240539785,
+            "longitude": -112.23679468689599,
+            "boundary": "S 87TH  AVE TO S 79TH  AVE AND W VINEYARD  RD TO W DOBBINS  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 08:43 MST",
+            "etr": "2026-09-30 12:00 MST"
+        }
+    ]
+}
