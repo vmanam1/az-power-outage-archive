@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-30 15:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.639540860997265,
+            "longitude": -111.99862391621136,
+            "city": "Phoenix",
+            "boundary": "Edna Ave. and 38th St. to 40th St.",
+            "customers": 34,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-30 07:45:00 MST",
+            "etr": "2026-09-30 10:35:00 MST"
+        }
+    ]
+}
