@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-30 02:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 81
+    },
+    "outages": [
+        {
+            "latitude": 35.18059800020884,
+            "longitude": -111.71848099983825,
+            "city": "Flagstaff",
+            "boundary": "A-1 Mountain To Woody Mountain Well Fields And A-1 Mountain Road To Woody Mountain Road",
+            "customers": 81,
+            "cause": "Switching cabinet replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged switching cabinet.",
+            "start_time": "2026-09-29 11:18:00 MST",
+            "etr": "2026-09-29 22:00:00 MST"
+        }
+    ]
+}
