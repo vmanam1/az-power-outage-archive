@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-29 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 71
+    },
+    "outages": [
+        {
+            "latitude": 34.26019460036976,
+            "longitude": -111.25216989986743,
+            "city": "Payson",
+            "boundary": "Pinon Drive To Moonlight Drive And Manzanita Drive To Payson- Heber Highway",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-29 08:28:00 MST",
+            "etr": "2026-09-29 11:30:00 MST"
+        },
+        {
+            "latitude": 33.43765599982623,
+            "longitude": -112.07168600032658,
+            "city": "Phoenix",
+            "boundary": "Lincoln St To Durango St And 1St St To 7Th St",
+            "customers": 33,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-29 09:16:00 MST",
+            "etr": "2026-09-29 15:35:00 MST"
+        },
+        {
+            "latitude": 33.432792589131104,
+            "longitude": -112.09392180092502,
+            "city": "Phoenix",
+            "boundary": "Pima St. to Sonora St. and 17th Ave. to 15th Ave.",
+            "customers": 14,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-09-29 09:25:00 MST",
+            "etr": "2026-09-29 11:00:00 MST"
+        }
+    ]
+}
