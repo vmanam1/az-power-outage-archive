@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-30 12:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 44
+    },
+    "outages": [
+        {
+            "latitude": 33.5350307865357,
+            "longitude": -112.044449556643,
+            "boundary": "N 16TH  ST TO N PIESTEWA  FWY AND E GLENDALE  AVE TO E MARYLAND  AVE",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 08:03 MST",
+            "etr": "2026-09-30 13:00 MST"
+        },
+        {
+            "latitude": 33.4733518113613,
+            "longitude": -111.79047002687099,
+            "boundary": "N HARRIS  ST TO N GILBERT  RD AND E THOMAS  RD TO E MCDOWELL  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-30 08:32 MST",
+            "etr": "2026-09-30 15:00 MST"
+        },
+        {
+            "latitude": 33.4516534799998,
+            "longitude": -111.883751562429,
+            "boundary": "N PIMA  LOOP TO N DOBSON  RD AND E LEHI  RD TO E WEBER  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 05:22 MST",
+            "etr": "2026-09-30 15:00 MST"
+        },
+        {
+            "latitude": 33.402270318224,
+            "longitude": -111.58634203901701,
+            "boundary": "S MOUNTAIN  RD TO S MERIDIAN  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 11:45 MST",
+            "etr": "2026-09-30 13:44 MST"
+        },
+        {
+            "latitude": 33.1199548540907,
+            "longitude": -111.589441111307,
+            "boundary": "N ROYCE  RD TO N GARY  RD AND W DIXIE  RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 08:13 MST",
+            "etr": "2026-09-30 13:11 MST"
+        }
+    ]
+}
