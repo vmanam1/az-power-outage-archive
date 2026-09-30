@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-29 19:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 737
+    },
+    "outages": [
+        {
+            "latitude": 33.43765599982623,
+            "longitude": -112.07168600032658,
+            "city": "Phoenix",
+            "boundary": "Lincoln St To Durango St And 1St St To 7Th St",
+            "customers": 33,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-09-29 09:16:00 MST",
+            "etr": "2026-09-29 15:35:00 MST"
+        },
+        {
+            "latitude": 34.94992623131896,
+            "longitude": -111.6419978616265,
+            "city": "Munds Park",
+            "boundary": "Sequoia Dr. and Pintail to Penguin Pl.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-29 10:49:00 MST",
+            "etr": "2026-09-29 13:40:00 MST"
+        },
+        {
+            "latitude": 34.51425950405872,
+            "longitude": -110.08253029882223,
+            "city": "Snowflake",
+            "boundary": "Brimhall St. to 3rd Street North. and Apples St. to Show Low-Holbrook Hwy.",
+            "customers": 34,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-09-29 10:48:00 MST",
+            "etr": "2026-09-29 14:10:00 MST"
+        },
+        {
+            "latitude": 35.18059800020884,
+            "longitude": -111.71848099983825,
+            "city": "Flagstaff",
+            "boundary": "A-1 Mountain To Woody Mountain Well Fields And A-1 Mountain Road To Woody Mountain Road",
+            "customers": 658,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-09-29 11:18:00 MST",
+            "etr": "2026-09-29 14:20:00 MST"
+        }
+    ]
+}
