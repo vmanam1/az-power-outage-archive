@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-30 14:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 88
+    },
+    "outages": [
+        {
+            "latitude": 33.4516534799998,
+            "longitude": -111.883751562429,
+            "boundary": "N PIMA  LOOP TO N DOBSON  RD AND E LEHI  RD TO E WEBER  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 05:22 MST",
+            "etr": "2026-09-30 15:00 MST"
+        },
+        {
+            "latitude": 33.5252205938337,
+            "longitude": -111.91148220967949,
+            "boundary": "N CATTLETRACK  RD TO N GRANITE REEF  RD AND E LINCOLN  DR TO E JACKRABBIT  RD",
+            "customers": 72,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-30 13:38 MST",
+            "etr": "2026-09-30 15:37 MST"
+        },
+        {
+            "latitude": 33.28841571953,
+            "longitude": -111.68617793891599,
+            "boundary": "S RECKER  RD TO S 188TH  ST AND E PECOS  RD TO E GERMANN  RD",
+            "customers": 2,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-30 12:45 MST",
+            "etr": "2026-09-30 16:00 MST"
+        },
+        {
+            "latitude": 33.1199548540907,
+            "longitude": -111.589441111307,
+            "boundary": "N ROYCE  RD TO N GARY  RD AND W DIXIE  RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 08:13 MST",
+            "etr": "2026-09-30 15:30 MST"
+        }
+    ]
+}
