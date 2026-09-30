@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-09-30 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 57
+    },
+    "outages": [
+        {
+            "latitude": 33.60703597105539,
+            "longitude": -112.0909045323622,
+            "city": "Phoenix",
+            "boundary": "Willow Ave to Andora Dr and 16th Ave to 14th Dr",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-30 00:43:00 MST",
+            "etr": "2026-09-30 02:30:00 MST"
+        },
+        {
+            "latitude": 34.40308307823453,
+            "longitude": -112.24413930534259,
+            "city": "Mayer",
+            "boundary": "Sunset Dr to 8th St and Agua Fria Ave to Central Ave",
+            "customers": 51,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-09-30 01:33:00 MST",
+            "etr": "2026-09-30 04:30:00 MST"
+        }
+    ]
+}
