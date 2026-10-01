@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-30 19:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 17
+    },
+    "outages": [
+        {
+            "latitude": 33.4800700338947,
+            "longitude": -111.635289192313,
+            "boundary": "N 88TH  ST TO N 92ND  ST AND UNKNOWN TO E QUENTON  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 17:34 MST",
+            "etr": "2026-09-30 22:33 MST"
+        },
+        {
+            "latitude": 33.5243837562121,
+            "longitude": -111.91135157849999,
+            "boundary": "N CATTLETRACK  RD TO N HAYDEN  RD AND E LINCOLN  DR TO E JACKRABBIT  RD",
+            "customers": 15,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-30 13:38 MST",
+            "etr": "2026-09-30 22:00 MST"
+        },
+        {
+            "latitude": 33.3338835035195,
+            "longitude": -111.85769157512101,
+            "boundary": "N ARROWHEAD  DR TO N HARTFORD  ST AND W ELLIOT  RD TO W KNOX  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-30 19:00 MST",
+            "etr": "2026-09-30 20:58 MST"
+        }
+    ]
+}
