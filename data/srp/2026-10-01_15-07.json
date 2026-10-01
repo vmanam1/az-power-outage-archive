@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-01 15:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 21
+    },
+    "outages": [
+        {
+            "latitude": 33.1643468460857,
+            "longitude": -111.54242134600395,
+            "boundary": "N IRONWOOD  DR TO N SCHNEPF  RD AND E SKYLINE  DR TO E BELLA VISTA  RD",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-01 14:54 MST",
+            "etr": "2026-10-01 16:52 MST"
+        }
+    ]
+}
