@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-01 08:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 21,
+        "total_customers": 58043
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 31.952056943952126,
+            "longitude": -111.11632755033455,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Helmet Peak",
+            "start_time": "2026-10-01 07:53:39 MST",
+            "etr": null,
+            "incident_id": "389724"
+        },
+        {
+            "latitude": 32.303636787798105,
+            "longitude": -111.2305842713376,
+            "customers": 11,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-10-01 07:52:23 MST",
+            "etr": "2026-10-01 10:52:23 MST",
+            "incident_id": "389723"
+        },
+        {
+            "latitude": 32.41625918267451,
+            "longitude": -111.23375532429098,
+            "customers": 2,
+            "cause": "10 CONSTRUCTION",
+            "comments": "Planned outage",
+            "boundary": "Marana",
+            "start_time": "2026-10-01 08:00:00 MST",
+            "etr": "2026-10-01 10:00:00 MST",
+            "incident_id": "389609"
+        },
+        {
+            "latitude": 31.659138838436647,
+            "longitude": -111.27348780931312,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Arivaca",
+            "start_time": "2026-10-01 01:13:36 MST",
+            "etr": "2026-10-01 04:13:36 MST",
+            "incident_id": "389718"
+        }
+    ]
+}
