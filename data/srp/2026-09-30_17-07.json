@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-30 17:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 86
+    },
+    "outages": [
+        {
+            "latitude": 33.5252205938337,
+            "longitude": -111.91148220967949,
+            "boundary": "N CATTLETRACK  RD TO N GRANITE REEF  RD AND E LINCOLN  DR TO E JACKRABBIT  RD",
+            "customers": 72,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-09-30 13:38 MST",
+            "etr": "2026-09-30 15:38 MST"
+        },
+        {
+            "latitude": 33.5566868368944,
+            "longitude": -112.129685280433,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 7,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-30 14:15 MST",
+            "etr": "2026-09-30 20:00 MST"
+        },
+        {
+            "latitude": 33.5566868368944,
+            "longitude": -112.129685280433,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 7,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-30 14:15 MST",
+            "etr": "2026-09-30 20:00 MST"
+        }
+    ]
+}
