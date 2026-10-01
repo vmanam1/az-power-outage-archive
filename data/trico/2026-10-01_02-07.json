@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-01 02:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 8,
+        "total_customers": 58043
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.16569213496612,
+            "longitude": -111.24582868171122,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Three Points",
+            "start_time": "2026-10-01 01:29:21 MST",
+            "etr": null,
+            "incident_id": "389719"
+        },
+        {
+            "latitude": 31.659138838436647,
+            "longitude": -111.27348780931312,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Arivaca",
+            "start_time": "2026-10-01 01:13:36 MST",
+            "etr": null,
+            "incident_id": "389718"
+        }
+    ]
+}
