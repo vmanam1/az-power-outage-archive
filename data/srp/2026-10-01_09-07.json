@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-01 09:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 53
+    },
+    "outages": [
+        {
+            "latitude": 33.358451511434154,
+            "longitude": -111.8363704121475,
+            "boundary": "N ARIZONA  AVE TO N MCQUEEN  RD AND W GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-01 07:27 MST",
+            "etr": "2026-10-01 10:24 MST"
+        },
+        {
+            "latitude": 33.469778756305104,
+            "longitude": -111.918453070691,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E OAK  ST TO E MCDOWELL  RD",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-01 08:32 MST",
+            "etr": "2026-10-01 12:00 MST"
+        },
+        {
+            "latitude": 33.55821298946695,
+            "longitude": -112.1002697109385,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 33,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-01 06:55 MST",
+            "etr": "2026-10-01 10:00 MST"
+        },
+        {
+            "latitude": 33.773324729021596,
+            "longitude": -111.785047040164,
+            "boundary": "WESTERN BOUNDS OF SERVICE TERRITORY TO N 140TH  ST AND E ASHLER HILLS  DR TO E LONE MOUNTAIN  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-01 08:50 MST",
+            "etr": "2026-10-01 14:00 MST"
+        }
+    ]
+}

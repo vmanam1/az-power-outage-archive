@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-01 09:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.49417273302701,
+            "longitude": -112.08460693079212,
+            "city": "Phoenix",
+            "boundary": "Amelia Ave. to Piccadilly Rd. and 11th Ave. to 8th Ave.",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-01 01:00:00 MST",
+            "etr": "2026-10-01 04:30:00 MST"
+        }
+    ]
+}
