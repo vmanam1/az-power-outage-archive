@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-09-30 18:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.5566868368944,
+            "longitude": -112.129685280433,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 7,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-30 14:15 MST",
+            "etr": "2026-09-30 20:00 MST"
+        },
+        {
+            "latitude": 33.5566868368944,
+            "longitude": -112.129685280433,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 7,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-09-30 14:15 MST",
+            "etr": "2026-09-30 20:00 MST"
+        },
+        {
+            "latitude": 33.4800700338947,
+            "longitude": -111.635289192313,
+            "boundary": "N 88TH  ST TO N 92ND  ST AND UNKNOWN TO E QUENTON  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-09-30 17:34 MST",
+            "etr": "2026-09-30 22:33 MST"
+        },
+        {
+            "latitude": 33.5243837562121,
+            "longitude": -111.91135157849999,
+            "boundary": "N CATTLETRACK  RD TO N HAYDEN  RD AND E LINCOLN  DR TO E JACKRABBIT  RD",
+            "customers": 15,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-09-30 13:38 MST",
+            "etr": "2026-09-30 22:00 MST"
+        }
+    ]
+}
