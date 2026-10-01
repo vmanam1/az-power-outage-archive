@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-01 14:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 18,
+        "total_customers": 58043
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 31.952056943952126,
+            "longitude": -111.11632755033455,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Helmet Peak",
+            "start_time": "2026-10-01 07:53:39 MST",
+            "etr": null,
+            "incident_id": "389724"
+        },
+        {
+            "latitude": 32.419853623980806,
+            "longitude": -111.23410566725185,
+            "customers": 2,
+            "cause": "10 CONSTRUCTION",
+            "comments": "Planned outage",
+            "boundary": "Marana",
+            "start_time": "2026-10-01 12:00:00 MST",
+            "etr": "2026-10-01 15:00:00 MST",
+            "incident_id": "389612"
+        },
+        {
+            "latitude": 32.419792959492824,
+            "longitude": -111.23506686460598,
+            "customers": 1,
+            "cause": "10 CONSTRUCTION",
+            "comments": "Planned outage",
+            "boundary": "Marana",
+            "start_time": "2026-10-01 12:00:00 MST",
+            "etr": "2026-10-01 15:00:00 MST",
+            "incident_id": "389610"
+        },
+        {
+            "latitude": 32.09164896923602,
+            "longitude": -111.22371215941313,
+            "customers": 5,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Three Points",
+            "start_time": "2026-10-01 14:00:27 MST",
+            "etr": null,
+            "incident_id": "389742"
+        },
+        {
+            "latitude": 32.537382571661134,
+            "longitude": -110.85952616002754,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Pinal County East",
+            "start_time": "2026-10-01 13:51:41 MST",
+            "etr": null,
+            "incident_id": "389740"
+        },
+        {
+            "latitude": 32.49653121590097,
+            "longitude": -111.1072815154222,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Pinal County West",
+            "start_time": "2026-10-01 13:04:40 MST",
+            "etr": "2026-10-01 16:04:40 MST",
+            "incident_id": "389739"
+        }
+    ]
+}
