@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-01 13:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 66
+    },
+    "outages": [
+        {
+            "latitude": 34.780857238076536,
+            "longitude": -111.77732239008644,
+            "city": "Sedona",
+            "boundary": "Verde Valley School Rd and Paint Cir to Bell Rock Rd",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-01 04:30:00 MST",
+            "etr": "2026-10-01 07:30:00 MST"
+        },
+        {
+            "latitude": 35.256432717983785,
+            "longitude": -111.49726464657866,
+            "city": "Flagstaff",
+            "boundary": "Musket Trail and April Dr to Sleeping Dog Rd",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-01 05:12:00 MST",
+            "etr": "2026-10-01 08:40:00 MST"
+        },
+        {
+            "latitude": 33.47599765693978,
+            "longitude": -112.03533604605384,
+            "city": "Phoenix",
+            "boundary": "Virginia Ave to Yale St and 21st St to 22nd St",
+            "customers": 33,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-01 05:58:00 MST",
+            "etr": "2026-10-01 08:00:00 MST"
+        }
+    ]
+}
