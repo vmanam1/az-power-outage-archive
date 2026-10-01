@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-01 07:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 66
+    },
+    "outages": [
+        {
+            "latitude": 33.55821298946695,
+            "longitude": -112.1002697109385,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 33,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-01 06:55 MST",
+            "etr": "2026-10-01 08:50 MST"
+        },
+        {
+            "latitude": 33.55821298946695,
+            "longitude": -112.1002697109385,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 33,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-01 06:55 MST",
+            "etr": "2026-10-01 08:50 MST"
+        }
+    ]
+}
