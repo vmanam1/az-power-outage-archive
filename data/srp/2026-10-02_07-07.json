@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-02 07:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1546
+    },
+    "outages": [
+        {
+            "latitude": 33.3366919443382,
+            "longitude": -111.96301649677,
+            "boundary": "S MARICOPA  FWY TO S HARDY  DR AND W ELLIOT  RD TO W WARNER  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 05:08 MST",
+            "etr": "2026-10-02 09:04 MST"
+        },
+        {
+            "latitude": 33.61669783855885,
+            "longitude": -112.22681435877601,
+            "boundary": "N AGUA FRIA  FWY TO N 67TH  AVE AND W BELL  RD TO W CACTUS  RD",
+            "customers": 1545,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-02 06:34 MST",
+            "etr": "2026-10-02 08:33 MST"
+        }
+    ]
+}
