@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-02 00:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 8,
+        "total_customers": 58045
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.40711318635511,
+            "longitude": -111.09216286918837,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-10-01 22:33:14 MST",
+            "etr": null,
+            "incident_id": "389747"
+        },
+        {
+            "latitude": 32.406862909745634,
+            "longitude": -111.0914532001138,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-10-01 19:44:58 MST",
+            "etr": "2026-10-02 02:00:00 MST",
+            "incident_id": "389746"
+        }
+    ]
+}
