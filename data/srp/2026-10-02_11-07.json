@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-02 11:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 59
+    },
+    "outages": [
+        {
+            "latitude": 33.32238977292625,
+            "longitude": -111.599976933003,
+            "boundary": "S INSPIRIAN  PKWY TO S MOUNTAIN  RD AND E WARNER  RD TO E GALVESTON  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 08:45 MST",
+            "etr": "2026-10-02 14:45 MST"
+        },
+        {
+            "latitude": 33.764421390119395,
+            "longitude": -111.7444402926225,
+            "boundary": "N 152ND  ST TO N 160TH  ST AND E LONE MOUNTAIN  RD TO E DIXILETA  DR",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 09:27 MST",
+            "etr": "2026-10-02 13:01 MST"
+        },
+        {
+            "latitude": 33.3155823469989,
+            "longitude": -111.976403362719,
+            "boundary": "S 48TH  ST TO S MARICOPA  FWY AND E RAY  RD TO E THISTLE LANDING  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 08:04 MST",
+            "etr": "2026-10-02 12:30 MST"
+        },
+        {
+            "latitude": 33.4856456525591,
+            "longitude": -112.0133067148185,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 26,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-02 10:07 MST",
+            "etr": "2026-10-02 12:12 MST"
+        },
+        {
+            "latitude": 33.48549575359475,
+            "longitude": -112.01331209179,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-02 10:07 MST",
+            "etr": "2026-10-02 12:12 MST"
+        }
+    ]
+}
