@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-02 14:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.397974301631464,
+            "longitude": -110.78538227597775,
+            "city": "Globe",
+            "boundary": "Mesquite St to Cedar St and Sutherland St to Devereaux St",
+            "customers": 15,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-02 05:58:00 MST",
+            "etr": "2026-10-02 07:45:00 MST"
+        },
+        {
+            "latitude": 34.342270224133046,
+            "longitude": -109.95615111221488,
+            "city": "Show Low",
+            "boundary": "Silver Creek to White Mountain Lake Rd. and Sliver Creek Dr.",
+            "customers": 15,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-02 06:36:00 MST",
+            "etr": "2026-10-02 10:05:00 MST"
+        }
+    ]
+}
