@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-02 12:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 44
+    },
+    "outages": [
+        {
+            "latitude": 34.15209905292583,
+            "longitude": -114.29829770267705,
+            "city": "Parker",
+            "boundary": "5th St. to 6th St. and Ocotillo Ave. to Navajo Ave.",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-02 01:02:00 MST",
+            "etr": "2026-10-02 07:00:00 MST"
+        },
+        {
+            "latitude": 34.410830554996785,
+            "longitude": -111.45233577595269,
+            "city": "Pine",
+            "boundary": "Canyon View to Juniper Loop and Deer Crossing Trail to Milk Ranch View",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-02 03:10:00 MST",
+            "etr": "2026-10-02 06:15:00 MST"
+        },
+        {
+            "latitude": 33.4106445670511,
+            "longitude": -110.82908057414042,
+            "city": "Miami",
+            "boundary": "Cherokee Ave and Miami Gardens",
+            "customers": 14,
+            "cause": "Animals",
+            "comments": "We are working to restore the power outage caused by animals coming into contact with our equipment.",
+            "start_time": "2026-10-02 04:14:00 MST",
+            "etr": "2026-10-02 07:10:00 MST"
+        }
+    ]
+}
