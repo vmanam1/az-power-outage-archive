@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-01 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 34.60282163568388,
+            "longitude": -112.30860556142102,
+            "city": "Prescott Valley",
+            "boundary": "Lakeshore Dr. to Flap Jack Rd and Navajo Dr. to Constance Dr.",
+            "customers": 22,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-01 08:26:00 MST",
+            "etr": "2026-10-01 12:00:00 MST"
+        },
+        {
+            "latitude": 33.57467876802442,
+            "longitude": -111.86544628761862,
+            "city": "Scottsdale",
+            "boundary": "Mountain View Rd to Via Linda and 96th St",
+            "customers": 40,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-01 09:43:00 MST",
+            "etr": "2026-10-01 12:40:00 MST"
+        }
+    ]
+}
