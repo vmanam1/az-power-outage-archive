@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-01 21:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 183
+    },
+    "outages": [
+        {
+            "latitude": 32.9685503109328,
+            "longitude": -111.52724308320481,
+            "city": "Coolidge",
+            "boundary": "West Coolidge Ave to West Canal Rd and South Picacho St",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-01 12:39:00 MST",
+            "etr": "2026-10-01 16:30:00 MST"
+        },
+        {
+            "latitude": 33.958945909164186,
+            "longitude": -112.77258822458211,
+            "city": "Wickenburg",
+            "boundary": "Val Vista Rd. and Smoketree St. to Vulture Mine Rd.",
+            "customers": 21,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-01 13:17:00 MST",
+            "etr": "2026-10-01 16:10:00 MST"
+        },
+        {
+            "latitude": 32.892888072892035,
+            "longitude": -111.74567815263173,
+            "city": "Casa Grande",
+            "boundary": "East Cottonwood Ln to East Manor Dr and North Casa Grande Ave to North Trekell Rd",
+            "customers": 153,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-01 13:27:00 MST",
+            "etr": "2026-10-01 16:30:00 MST"
+        }
+    ]
+}
