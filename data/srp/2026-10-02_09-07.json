@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-02 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 51
+    },
+    "outages": [
+        {
+            "latitude": 33.40201893578495,
+            "longitude": -111.632097271735,
+            "boundary": "S 88TH  ST TO S 96TH  ST AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 30,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 07:12 MST",
+            "etr": "2026-10-02 12:08 MST"
+        },
+        {
+            "latitude": 33.3155823469989,
+            "longitude": -111.976403362719,
+            "boundary": "S 48TH  ST TO S MARICOPA  FWY AND E RAY  RD TO E THISTLE LANDING  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 08:04 MST",
+            "etr": "2026-10-02 10:00 MST"
+        },
+        {
+            "latitude": 33.425071932451246,
+            "longitude": -111.573215406895,
+            "boundary": "N MERIDIAN  RD TO N IRONWOOD  DR AND W TEPEE  ST TO W SUPERSTITION  BLVD",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 08:30 MST",
+            "etr": "2026-10-02 10:28 MST"
+        },
+        {
+            "latitude": 33.32238977292625,
+            "longitude": -111.599976933003,
+            "boundary": "S INSPIRIAN  PKWY TO S MOUNTAIN  RD AND E WARNER  RD TO E GALVESTON  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 08:45 MST",
+            "etr": "2026-10-02 14:45 MST"
+        }
+    ]
+}

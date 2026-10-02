@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-02 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 34.15209905292583,
+            "longitude": -114.29829770267705,
+            "city": "Parker",
+            "boundary": "5th St. to 6th St. and Ocotillo Ave. to Navajo Ave.",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-02 01:02:00 MST",
+            "etr": "2026-10-02 07:00:00 MST"
+        }
+    ]
+}
