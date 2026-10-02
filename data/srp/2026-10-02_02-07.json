@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-02 02:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.298428419711556,
+            "longitude": -111.95314335906599,
+            "boundary": "S 56TH  ST TO S KYRENE  RD AND W CHANDLER  BLVD TO W SANTAN  FWY",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 00:30 MST",
+            "etr": "2026-10-02 03:28 MST"
+        }
+    ]
+}
