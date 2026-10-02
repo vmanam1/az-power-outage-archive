@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-01 20:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 153
+    },
+    "outages": [
+        {
+            "latitude": 32.9685503109328,
+            "longitude": -111.52724308320481,
+            "city": "Coolidge",
+            "boundary": "West Coolidge Ave to West Canal Rd and South Picacho St",
+            "customers": 153,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-01 12:39:00 MST",
+            "etr": "2026-10-01 16:30:00 MST"
+        }
+    ]
+}
