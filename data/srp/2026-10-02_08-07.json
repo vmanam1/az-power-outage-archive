@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-02 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.40201893578495,
+            "longitude": -111.632097271735,
+            "boundary": "S 88TH  ST TO S 96TH  ST AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 30,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 07:12 MST",
+            "etr": "2026-10-02 12:08 MST"
+        },
+        {
+            "latitude": 33.5035906871511,
+            "longitude": -111.97427483921899,
+            "boundary": "N CAMELHEAD  RD TO N 56TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 07:48 MST",
+            "etr": "2026-10-02 09:41 MST"
+        },
+        {
+            "latitude": 33.3155823469989,
+            "longitude": -111.976403362719,
+            "boundary": "S 48TH  ST TO S MARICOPA  FWY AND E RAY  RD TO E THISTLE LANDING  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 08:04 MST",
+            "etr": "2026-10-02 10:00 MST"
+        }
+    ]
+}
