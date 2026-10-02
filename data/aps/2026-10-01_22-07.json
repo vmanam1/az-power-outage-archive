@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-01 22:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 153
+    },
+    "outages": [
+        {
+            "latitude": 32.892888072892035,
+            "longitude": -111.74567815263173,
+            "city": "Casa Grande",
+            "boundary": "East Cottonwood Ln to East Manor Dr and North Casa Grande Ave to North Trekell Rd",
+            "customers": 153,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-01 13:27:00 MST",
+            "etr": "2026-10-01 16:20:00 MST"
+        }
+    ]
+}
