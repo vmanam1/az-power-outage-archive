@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-03 11:07:01 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.3629897493945,
+            "longitude": -111.558329085889,
+            "boundary": "S IRONWOOD  DR TO S BLOSSOM ROCK  TRL AND W GUADALUPE  RD TO W ELLIOT  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-03 06:42 MST",
+            "etr": "2026-10-03 13:05 MST"
+        },
+        {
+            "latitude": 33.226518643963345,
+            "longitude": -111.85060335490999,
+            "boundary": "S ALMA SCHOOL  RD TO S ARIZONA  AVE AND W CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-03 07:19 MST",
+            "etr": "2026-10-03 14:00 MST"
+        },
+        {
+            "latitude": 33.421805711861,
+            "longitude": -111.535000757017,
+            "boundary": "N ROYAL PALM  RD TO N TOMAHAWK  RD AND E TEPEE  ST TO E JUNCTION  ST",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-03 08:14 MST",
+            "etr": "2026-10-03 12:00 MST"
+        }
+    ]
+}
