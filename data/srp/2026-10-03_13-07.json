@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-03 13:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 4
+    },
+    "outages": [
+        {
+            "latitude": 33.226518643963345,
+            "longitude": -111.85060335490999,
+            "boundary": "S ALMA SCHOOL  RD TO S ARIZONA  AVE AND W CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-03 07:19 MST",
+            "etr": "2026-10-03 17:00 MST"
+        }
+    ]
+}
