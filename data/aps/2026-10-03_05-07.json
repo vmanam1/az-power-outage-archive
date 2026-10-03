@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-03 05:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 33
+    },
+    "outages": [
+        {
+            "latitude": 33.634150325227154,
+            "longitude": -112.19291604642031,
+            "city": "Glendale",
+            "boundary": "West Kings Ave to West Sandra Tr and North 63rd Ave to North 59th Ave",
+            "customers": 33,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-02 21:23:00 MST",
+            "etr": "2026-10-03 00:15:00 MST"
+        }
+    ]
+}

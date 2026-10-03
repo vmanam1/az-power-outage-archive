@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-03 05:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 69
+    },
+    "outages": [
+        {
+            "latitude": 33.4287434480656,
+            "longitude": -111.7514095092395,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E BROWN  RD TO E UNIVERSITY  DR",
+            "customers": 52,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-02 22:13 MST",
+            "etr": "2026-10-03 07:00 MST"
+        },
+        {
+            "latitude": 33.5470565115759,
+            "longitude": -112.16144955854449,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-03 04:42 MST",
+            "etr": "2026-10-03 06:41 MST"
+        },
+        {
+            "latitude": 33.2519739718096,
+            "longitude": -111.829630668556,
+            "boundary": "S HAMILTON  ST TO S MCQUEEN  RD AND E APPLEBY  RD TO E OCOTILLO  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-03 04:57 MST",
+            "etr": "2026-10-03 09:00 MST"
+        }
+    ]
+}
