@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-02 19:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 321
+    },
+    "outages": [
+        {
+            "latitude": 34.36317337007634,
+            "longitude": -110.00052706080032,
+            "city": "Show Low",
+            "boundary": "Cedar Mirror Pl and Silver Creek Dr",
+            "customers": 15,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-02 10:03:00 MST",
+            "etr": "2026-10-02 13:00:00 MST"
+        },
+        {
+            "latitude": 33.45005200010471,
+            "longitude": -111.98526700010078,
+            "city": "Phoenix",
+            "boundary": "Mckinley St To Washington St And 40Th St  To Hohokam Fwy",
+            "customers": 306,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-02 11:24:00 MST",
+            "etr": "2026-10-02 15:30:00 MST"
+        }
+    ]
+}
