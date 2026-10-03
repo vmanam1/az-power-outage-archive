@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-03 16:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 2268
+    },
+    "outages": [
+        {
+            "latitude": 33.226518643963345,
+            "longitude": -111.85060335490999,
+            "boundary": "S ALMA SCHOOL  RD TO S ARIZONA  AVE AND W CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-03 07:19 MST",
+            "etr": "2026-10-03 17:00 MST"
+        },
+        {
+            "latitude": 33.54900685624385,
+            "longitude": -112.2407740998685,
+            "boundary": "N AGUA FRIA  FWY TO N 75TH  AVE AND W OLIVE  AVE TO W GLENDALE  AVE",
+            "customers": 1114,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-03 15:27 MST",
+            "etr": "2026-10-03 17:26 MST"
+        },
+        {
+            "latitude": 33.2525099956047,
+            "longitude": -111.80526560400199,
+            "boundary": "S ADAMS  AVE TO S EMMETT  DR AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 36,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-03 15:01 MST",
+            "etr": "2026-10-03 17:00 MST"
+        },
+        {
+            "latitude": 33.54770707030485,
+            "longitude": -112.23534380093349,
+            "boundary": "N 91ST  AVE TO N 75TH  AVE AND W BUTLER  DR TO W GLENDALE  AVE",
+            "customers": 801,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-03 15:30 MST",
+            "etr": "2026-10-03 17:27 MST"
+        },
+        {
+            "latitude": 33.5533556713615,
+            "longitude": -112.249052592403,
+            "boundary": "N 95TH  AVE TO N 79TH  AVE AND W OLIVE  AVE TO W EMIL ROVEY  PKWY",
+            "customers": 313,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-03 15:30 MST",
+            "etr": "2026-10-03 17:28 MST"
+        }
+    ]
+}
