@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-03 03:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 108
+    },
+    "outages": [
+        {
+            "latitude": 33.48060649283535,
+            "longitude": -111.9841115832405,
+            "boundary": "N 44TH  ST TO N 48TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 23:44 MST",
+            "etr": "2026-10-03 06:00 MST"
+        },
+        {
+            "latitude": 33.4287434480656,
+            "longitude": -111.7514095092395,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E BROWN  RD TO E UNIVERSITY  DR",
+            "customers": 52,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-02 22:13 MST",
+            "etr": "2026-10-03 05:13 MST"
+        },
+        {
+            "latitude": 33.477234303391754,
+            "longitude": -111.94996465667751,
+            "boundary": "N 56TH  ST TO N 64TH  ST AND E THOMAS  RD TO E OAK  ST",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-03 02:04 MST",
+            "etr": "2026-10-03 04:04 MST"
+        },
+        {
+            "latitude": 33.4021423035319,
+            "longitude": -112.074267753089,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 20:42 MST",
+            "etr": "2026-10-03 04:30 MST"
+        },
+        {
+            "latitude": 33.751971743107504,
+            "longitude": -111.7184366171045,
+            "boundary": "N 164TH  ST TO N 172ND  ST AND E DIXILETA  DR TO E RIO VERDE  DR",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-02 23:35 MST",
+            "etr": "2026-10-03 03:30 MST"
+        }
+    ]
+}
