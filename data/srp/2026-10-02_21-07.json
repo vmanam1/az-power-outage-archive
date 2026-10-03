@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-02 21:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1913
+    },
+    "outages": [
+        {
+            "latitude": 33.392581902267295,
+            "longitude": -112.2912178133625,
+            "boundary": "S 111TH  AVE TO S 103RD  AVE AND W ROESER  RD TO UNKNOWN",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 16:58 MST",
+            "etr": "2026-10-03 01:00 MST"
+        },
+        {
+            "latitude": 33.40730629081325,
+            "longitude": -111.9902636197925,
+            "boundary": "S 40TH  ST TO S 44TH  PL AND E MARICOPA  FWY TO E ROESER  RD",
+            "customers": 10,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-02 17:53 MST",
+            "etr": "2026-10-03 02:58 MST"
+        },
+        {
+            "latitude": 33.428301592645894,
+            "longitude": -111.886447033036,
+            "boundary": "S SMITH  RD TO N DOBSON  RD AND E BROWN  RD TO E APACHE  BLVD",
+            "customers": 1900,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-02 20:11 MST",
+            "etr": "2026-10-02 22:11 MST"
+        },
+        {
+            "latitude": 33.4021423035319,
+            "longitude": -112.074267753089,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W BROADWAY  RD TO W ROESER  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-02 20:42 MST",
+            "etr": "2026-10-02 22:40 MST"
+        }
+    ]
+}
