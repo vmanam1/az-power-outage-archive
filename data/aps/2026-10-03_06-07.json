@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-03 06:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2319
+    },
+    "outages": [
+        {
+            "latitude": 33.40653271705919,
+            "longitude": -112.5673791588811,
+            "city": "Buckeye",
+            "boundary": "Illini St. to Southern Ave. and Miller Rd. to Farm Rd.",
+            "customers": 2319,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-02 22:48:00 MST",
+            "etr": "2026-10-03 01:05:00 MST"
+        }
+    ]
+}
