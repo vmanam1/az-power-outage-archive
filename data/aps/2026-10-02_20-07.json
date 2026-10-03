@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-02 20:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 33.42741006224423,
+            "longitude": -112.77528578992184,
+            "city": "Tonopah",
+            "boundary": "Buckeye Rd to Lower Buckeye Rd and 339th Ave to 331st Ave",
+            "customers": 41,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-02 13:02:00 MST",
+            "etr": "2026-10-02 16:55:00 MST"
+        }
+    ]
+}
