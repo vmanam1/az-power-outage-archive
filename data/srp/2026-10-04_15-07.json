@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-04 15:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 853
+    },
+    "outages": [
+        {
+            "latitude": 33.40454939225895,
+            "longitude": -111.8114187127415,
+            "boundary": "S HORNE   TO S STAPLEY  DR AND E BROADWAY  RD TO E 8TH  AVE",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-10-04 14:37 MST",
+            "etr": "2026-10-04 20:38 MST"
+        },
+        {
+            "latitude": 33.39611541833165,
+            "longitude": -111.95137940110601,
+            "boundary": "S PRIEST  DR TO S MILL  AVE AND W ALAMEDA  DR TO W SOUTHERN  AVE",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-04 14:52 MST",
+            "etr": "2026-10-04 16:21 MST"
+        },
+        {
+            "latitude": 33.39523830681935,
+            "longitude": -111.8560166201565,
+            "boundary": "S LONGMORE   TO S COUNTRY CLUB  DR AND W 8TH  AVE TO W SUPERSTITION  FWY",
+            "customers": 835,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-04 14:52 MST",
+            "etr": "2026-10-04 16:49 MST"
+        }
+    ]
+}
