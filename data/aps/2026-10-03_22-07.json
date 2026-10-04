@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-03 22:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 303
+    },
+    "outages": [
+        {
+            "latitude": 33.48617000034962,
+            "longitude": -112.36439000002875,
+            "city": "Goodyear",
+            "boundary": "Pima St To Elliot Rd And Kimball Ave To Avondale Blvd",
+            "customers": 303,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-03 15:02:00 MST",
+            "etr": "2026-10-03 16:30:00 MST"
+        }
+    ]
+}
