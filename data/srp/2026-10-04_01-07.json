@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-04 01:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.351232139782496,
+            "longitude": -111.737971859841,
+            "boundary": "N VAL VISTA  DR TO N 164TH  ST AND E OLNEY  AVE TO E MESQUITE  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-04 00:46 MST",
+            "etr": "2026-10-04 04:00 MST"
+        }
+    ]
+}
