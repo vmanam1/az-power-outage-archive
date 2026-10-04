@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-04 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 477
+    },
+    "outages": [
+        {
+            "latitude": 33.48453479967595,
+            "longitude": -112.12576110035715,
+            "city": "Scottsdale",
+            "boundary": "Doubletree Ranch Rd To Humingbird Ln And Cheney Dr To Scottsdale Rd",
+            "customers": 477,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-04 01:18:00 MST",
+            "etr": "2026-10-04 04:00:00 MST"
+        }
+    ]
+}
