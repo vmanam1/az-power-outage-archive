@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-04 02:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 50
+    },
+    "outages": [
+        {
+            "latitude": 34.71930085201353,
+            "longitude": -112.03484795812231,
+            "city": "Cottonwood",
+            "boundary": "West Whipple dr to West Fir St and Pioneer Dr to Tonopah Wy",
+            "customers": 50,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-03 17:54:00 MST",
+            "etr": "2026-10-03 21:15:00 MST"
+        }
+    ]
+}
