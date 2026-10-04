@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-04 12:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 983
+    },
+    "outages": [
+        {
+            "latitude": 33.53652287789715,
+            "longitude": -112.0957217993365,
+            "boundary": "N 19TH  AVE TO N 15TH  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 40,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-04 03:08 MST",
+            "etr": "2026-10-04 14:00 MST"
+        },
+        {
+            "latitude": 33.20635997423,
+            "longitude": -111.72412030230001,
+            "boundary": "S 156TH  ST TO S 172ND  ST AND E COLDWATER  BLVD TO UNKNOWN",
+            "customers": 52,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-10-04 10:22 MST",
+            "etr": "2026-10-04 15:30 MST"
+        },
+        {
+            "latitude": 33.37506505516785,
+            "longitude": -111.780836281685,
+            "boundary": "N NEELY  ST TO S 32ND  ST AND E SUPERSTITION  FWY TO E GUADALUPE  RD",
+            "customers": 891,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-04 11:19 MST",
+            "etr": "2026-10-04 14:00 MST"
+        }
+    ]
+}
