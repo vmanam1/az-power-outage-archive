@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-03 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 17
+    },
+    "outages": [
+        {
+            "latitude": 33.59098445924398,
+            "longitude": -112.01413479743886,
+            "city": "Phoenix",
+            "boundary": "Cortez St. to Lupine Ave. and 32nd St.",
+            "customers": 17,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-03 07:53:00 MST",
+            "etr": "2026-10-03 10:40:00 MST"
+        }
+    ]
+}
