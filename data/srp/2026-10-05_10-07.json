@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-05 10:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 551
+    },
+    "outages": [
+        {
+            "latitude": 33.31986873430395,
+            "longitude": -111.58728404991851,
+            "boundary": "S MOUNTAIN  RD TO S MERIDIAN  RD AND E WARNER  RD TO E GALVESTON  ST",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 07:26 MST",
+            "etr": "2026-10-05 12:30 MST"
+        },
+        {
+            "latitude": 33.32075393984255,
+            "longitude": -111.8018041647435,
+            "boundary": "S COOPER  RD TO S GILBERT  RD AND W KNOX  RD TO E GALVESTON  ST",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 07:55 MST",
+            "etr": "2026-10-05 11:00 MST"
+        },
+        {
+            "latitude": 33.2092514334133,
+            "longitude": -111.883226026964,
+            "boundary": "S PRICE  RD TO S DOBSON  RD AND E RIGGS  RD TO E HUNT  HWY",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 08:58 MST",
+            "etr": "2026-10-05 10:55 MST"
+        },
+        {
+            "latitude": 33.5022969003127,
+            "longitude": -112.283707038027,
+            "boundary": "N 107TH  AVE TO N 99TH  AVE AND W CAMELBACK  RD TO W INDIAN SCHOOL  RD",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 09:03 MST",
+            "etr": "2026-10-05 10:57 MST"
+        },
+        {
+            "latitude": 33.56973846422075,
+            "longitude": -112.219526493199,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W MOUNTAIN VIEW  RD TO W OLIVE  AVE",
+            "customers": 5,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-05 04:14 MST",
+            "etr": "2026-10-05 11:30 MST"
+        },
+        {
+            "latitude": 33.442457193150645,
+            "longitude": -111.70083787514051,
+            "boundary": "N ALTA MESA  DR TO N 64TH  ST AND E MCLELLAN  RD TO E BROWN  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 09:15 MST",
+            "etr": "2026-10-05 11:11 MST"
+        },
+        {
+            "latitude": 33.37293094543245,
+            "longitude": -111.81337194795651,
+            "boundary": "N MCQUEEN  RD TO N COOPER  RD AND E BASELINE  RD TO W GUADALUPE  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 09:27 MST",
+            "etr": "2026-10-05 10:30 MST"
+        },
+        {
+            "latitude": 33.4940753692231,
+            "longitude": -111.9381566990275,
+            "boundary": "N 64TH  ST TO N 68TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 09:56 MST",
+            "etr": "2026-10-05 11:55 MST"
+        },
+        {
+            "latitude": 33.1512394654965,
+            "longitude": -111.45004104952051,
+            "boundary": "N ATTAWAY  RD TO N CYPRESS  DR AND E BELLA VISTA  RD TO E MAGMA  RD",
+            "customers": 496,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-05 08:55 MST",
+            "etr": "2026-10-05 10:49 MST"
+        },
+        {
+            "latitude": 33.1256586714685,
+            "longitude": -111.460468864449,
+            "boundary": "N ATTAWAY  RD TO N FELIX  RD AND W MAGMA  RD TO W ARIZONA FARMS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 10:04 MST",
+            "etr": "2026-10-05 11:23 MST"
+        }
+    ]
+}
