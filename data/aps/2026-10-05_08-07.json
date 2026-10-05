@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-05 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.57437995213644,
+            "longitude": -111.8527538912563,
+            "city": "Scottsdale",
+            "boundary": "Vogel Ave to Saddlehorn Dr and 105th St to 106th Pl",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-05 00:42:00 MST",
+            "etr": "2026-10-05 03:35:00 MST"
+        }
+    ]
+}
