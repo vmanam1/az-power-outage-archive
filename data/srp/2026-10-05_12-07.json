@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-05 12:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 81
+    },
+    "outages": [
+        {
+            "latitude": 33.31986873430395,
+            "longitude": -111.58728404991851,
+            "boundary": "S MOUNTAIN  RD TO S MERIDIAN  RD AND E WARNER  RD TO E GALVESTON  ST",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 07:26 MST",
+            "etr": "2026-10-05 12:30 MST"
+        },
+        {
+            "latitude": 33.472032695143454,
+            "longitude": -112.3020965498655,
+            "boundary": "N AVONDALE  BLVD TO N 107TH  AVE AND W THOMAS  RD TO W MCDOWELL  RD",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 10:29 MST",
+            "etr": "2026-10-05 12:24 MST"
+        },
+        {
+            "latitude": 33.320464197553704,
+            "longitude": -111.590518822945,
+            "boundary": "S SIGNAL BUTTE  RD TO S MERIDIAN  RD AND E WARNER  RD TO E GALVESTON  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 10:54 MST",
+            "etr": "2026-10-05 15:00 MST"
+        },
+        {
+            "latitude": 33.39624485523705,
+            "longitude": -111.5580609936585,
+            "boundary": "S IRONWOOD  DR TO S SAN MARCOS  DR AND W 16TH  AVE TO W SOUTHERN  AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 11:18 MST",
+            "etr": "2026-10-05 13:14 MST"
+        },
+        {
+            "latitude": 33.3801921656912,
+            "longitude": -111.6824941747595,
+            "boundary": "S POWER  RD TO S 72ND  ST AND E SUPERSTITION  FWY TO E MADERO  AVE",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-05 11:19 MST",
+            "etr": "2026-10-05 13:18 MST"
+        },
+        {
+            "latitude": 33.56973846422075,
+            "longitude": -112.219526493199,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W MOUNTAIN VIEW  RD TO W OLIVE  AVE",
+            "customers": 5,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-05 04:14 MST",
+            "etr": "2026-10-05 12:30 MST"
+        },
+        {
+            "latitude": 33.4940753692231,
+            "longitude": -111.9381566990275,
+            "boundary": "N 64TH  ST TO N 68TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 09:56 MST",
+            "etr": "2026-10-05 13:00 MST"
+        }
+    ]
+}
