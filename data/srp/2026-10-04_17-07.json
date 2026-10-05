@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-04 17:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1049
+    },
+    "outages": [
+        {
+            "latitude": 33.40454939225895,
+            "longitude": -111.8114187127415,
+            "boundary": "S HORNE   TO S STAPLEY  DR AND E BROADWAY  RD TO E 8TH  AVE",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-10-04 14:37 MST",
+            "etr": "2026-10-04 20:38 MST"
+        },
+        {
+            "latitude": 33.39611541833165,
+            "longitude": -111.95137940110601,
+            "boundary": "S PRIEST  DR TO S MILL  AVE AND W ALAMEDA  DR TO W SOUTHERN  AVE",
+            "customers": 11,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-04 14:52 MST",
+            "etr": "2026-10-04 20:30 MST"
+        },
+        {
+            "latitude": 33.41342129081325,
+            "longitude": -111.546446675069,
+            "boundary": "S IRONWOOD  DR TO S TOMAHAWK  RD AND W TEPEE  ST TO W 16TH  AVE",
+            "customers": 1031,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-04 15:21 MST",
+            "etr": "2026-10-04 18:42 MST"
+        }
+    ]
+}

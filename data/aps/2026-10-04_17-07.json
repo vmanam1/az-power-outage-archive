@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-04 17:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 65
+    },
+    "outages": [
+        {
+            "latitude": 35.23716219605039,
+            "longitude": -111.67080760264443,
+            "city": "Flagstaff",
+            "boundary": "Mountain Dr. to Brenda Loop and Snow Cap Wy. to Fremont Blvd.",
+            "customers": 36,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-04 07:10:00 MST",
+            "etr": "2026-10-04 10:30:00 MST"
+        },
+        {
+            "latitude": 33.93341325985207,
+            "longitude": -112.1139103400761,
+            "city": "New River",
+            "boundary": "White Spar Rd. to Mingus Rd. and 26th Ave. to 23rd Ave.",
+            "customers": 29,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-04 08:21:00 MST",
+            "etr": "2026-10-04 10:50:00 MST"
+        }
+    ]
+}
