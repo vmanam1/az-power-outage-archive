@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-05 11:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 95
+    },
+    "outages": [
+        {
+            "latitude": 33.65232329036874,
+            "longitude": -112.13874480599306,
+            "city": "Glendale",
+            "boundary": "Wagoner Rd to Villa Maria Dr and 37th Ave to 36th Ave",
+            "customers": 19,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-05 03:50:00 MST",
+            "etr": "2026-10-05 06:45:00 MST"
+        },
+        {
+            "latitude": 35.04183976976313,
+            "longitude": -110.73846356064067,
+            "city": "Winslow",
+            "boundary": "Scenic View Dr. to Frontage Rd. and Mount Ararat to Painted Desert Dr.",
+            "customers": 76,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-05 04:01:00 MST",
+            "etr": "2026-10-05 07:25:00 MST"
+        }
+    ]
+}

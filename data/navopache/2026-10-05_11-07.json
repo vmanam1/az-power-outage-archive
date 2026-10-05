@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-05 11:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 9,
+        "total_customers": 45997
+    },
+    "outages": [
+        {
+            "latitude": 33.87817789552366,
+            "longitude": -109.96010594798335,
+            "customers": 8,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-05 09:48:33 MST",
+            "etr": null,
+            "incident_id": "535120"
+        },
+        {
+            "latitude": 34.43052828783648,
+            "longitude": -110.6001555880076,
+            "customers": 1,
+            "cause": "CONSTRUCTION",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-05 10:22:42 MST",
+            "etr": null,
+            "incident_id": "535122"
+        }
+    ]
+}
