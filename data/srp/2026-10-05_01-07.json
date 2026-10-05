@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-05 01:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.4150838187297,
+            "longitude": -111.771431527221,
+            "boundary": "N 24TH  ST TO S 32ND  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-04 23:01 MST",
+            "etr": "2026-10-05 05:00 MST"
+        },
+        {
+            "latitude": 33.3889660638355,
+            "longitude": -112.2223500054705,
+            "boundary": "S 79TH  AVE TO S 71ST  AVE AND W SOUTHERN  AVE TO W VINEYARD  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-04 23:59 MST",
+            "etr": "2026-10-05 01:56 MST"
+        },
+        {
+            "latitude": 33.5101047166298,
+            "longitude": -111.99664697232001,
+            "boundary": "N 36TH  ST TO N 44TH  ST AND E STANFORD  DR TO E CAMPBELL  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-05 00:28 MST",
+            "etr": "2026-10-05 04:00 MST"
+        },
+        {
+            "latitude": 33.464442238698155,
+            "longitude": -112.0089440081085,
+            "boundary": "N 32ND  ST TO N 36TH  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-04 23:08 MST",
+            "etr": "2026-10-05 02:07 MST"
+        }
+    ]
+}
