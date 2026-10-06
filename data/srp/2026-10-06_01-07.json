@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-06 01:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.32637453692435,
+            "longitude": -111.6794693225615,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E WARNER  RD TO E RAY  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-06 00:12 MST",
+            "etr": "2026-10-06 04:30 MST"
+        }
+    ]
+}
