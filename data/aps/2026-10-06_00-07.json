@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-06 00:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 50
+    },
+    "outages": [
+        {
+            "latitude": 33.642206070770285,
+            "longitude": -112.27658583266913,
+            "city": "Sun City",
+            "boundary": "Palmeras Dr and 99th Ave",
+            "customers": 19,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-05 15:28:00 MST",
+            "etr": "2026-10-05 18:20:00 MST"
+        },
+        {
+            "latitude": 33.67034268165741,
+            "longitude": -112.29661067543577,
+            "city": "Sun City",
+            "boundary": "Runion Dr to Ventana Dr West and 110th Ln to 109th Dr",
+            "customers": 31,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-05 16:24:00 MST",
+            "etr": "2026-10-05 19:00:00 MST"
+        }
+    ]
+}
