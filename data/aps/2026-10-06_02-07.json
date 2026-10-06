@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-06 02:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.67034268165741,
+            "longitude": -112.29661067543577,
+            "city": "Sun City",
+            "boundary": "Runion Dr to Ventana Dr West and 110th Ln to 109th Dr",
+            "customers": 24,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-05 16:24:00 MST",
+            "etr": "2026-10-05 20:30:00 MST"
+        }
+    ]
+}
