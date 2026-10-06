@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-05 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 39
+    },
+    "outages": [
+        {
+            "latitude": 33.397745031253386,
+            "longitude": -112.54007559076072,
+            "city": "Buckeye",
+            "boundary": "Roeser Rd to Sunland Ave and 229th Ave to Rainbow Rd",
+            "customers": 39,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-05 09:15:00 MST",
+            "etr": "2026-10-05 12:50:00 MST"
+        }
+    ]
+}
