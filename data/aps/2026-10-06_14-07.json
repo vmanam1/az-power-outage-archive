@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-06 14:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 33.42871506069557,
+            "longitude": -112.13597980412496,
+            "city": "Phoenix",
+            "boundary": "Durango St and 35th Ave",
+            "customers": 9,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-10-05 19:51:00 MST",
+            "etr": "2026-10-06 09:00:00 MST"
+        }
+    ]
+}
