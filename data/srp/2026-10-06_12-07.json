@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-06 12:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 38
+    },
+    "outages": [
+        {
+            "latitude": 33.52242010142305,
+            "longitude": -112.20656961671051,
+            "boundary": "N 71ST  AVE TO N 67TH  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 13,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-10-06 10:35 MST",
+            "etr": "2026-10-06 13:27 MST"
+        },
+        {
+            "latitude": 33.318447995587846,
+            "longitude": -111.8062926748225,
+            "boundary": "N ADAMS  AVE TO S 132ND  ST AND W RAY  RD TO E GALVESTON  ST",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-06 11:24 MST",
+            "etr": "2026-10-06 13:21 MST"
+        },
+        {
+            "latitude": 33.3187153428077,
+            "longitude": -111.8045958487645,
+            "boundary": "N ADAMS  AVE TO S GILBERT  RD AND W KNOX  RD TO E GALVESTON  ST",
+            "customers": 13,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-06 11:38 MST",
+            "etr": "2026-10-06 13:37 MST"
+        },
+        {
+            "latitude": 33.71691887054335,
+            "longitude": -111.671657196191,
+            "boundary": "N 176TH  ST TO N BEELINE  HWY AND E RIO VERDE  DR TO UNKNOWN",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-06 12:05 MST",
+            "etr": "2026-10-06 14:02 MST"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-06 12:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 12,
+        "total_customers": 58032
+    },
+    "outages": [
+        {
+            "latitude": 32.397655281832755,
+            "longitude": -111.06591409658274,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Thornydale",
+            "start_time": "2026-10-06 08:00:00 MST",
+            "etr": "2026-10-06 12:00:00 MST",
+            "incident_id": "389605"
+        },
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.1282406348066,
+            "longitude": -111.07891271874574,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Valencia",
+            "start_time": "2026-10-06 12:01:16 MST",
+            "etr": null,
+            "incident_id": "389775"
+        },
+        {
+            "latitude": 32.425267765234565,
+            "longitude": -111.33053981301549,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-10-02 08:21:08 MST",
+            "etr": null,
+            "incident_id": "389752"
+        },
+        {
+            "latitude": 32.311965719245045,
+            "longitude": -111.25473996933094,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-10-06 09:38:02 MST",
+            "etr": null,
+            "incident_id": "389774"
+        },
+        {
+            "latitude": 31.9614774089354,
+            "longitude": -110.99110239971084,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Sahuarita",
+            "start_time": "2026-10-02 07:47:52 MST",
+            "etr": null,
+            "incident_id": "389751"
+        },
+        {
+            "latitude": 32.53030895839912,
+            "longitude": -110.88733800122775,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Pinal County East",
+            "start_time": "2026-10-05 07:08:47 MST",
+            "etr": null,
+            "incident_id": "389770"
+        }
+    ]
+}
