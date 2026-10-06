@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-05 22:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 21
+    },
+    "outages": [
+        {
+            "latitude": 33.338260036711546,
+            "longitude": -111.852382371714,
+            "boundary": "N ALMA SCHOOL  RD TO N ARIZONA  AVE AND W ELLIOT  RD TO W WARNER  RD",
+            "customers": 21,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-05 21:09 MST",
+            "etr": "2026-10-05 23:07 MST"
+        }
+    ]
+}
