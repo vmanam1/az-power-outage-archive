@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-06 16:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 6,
+        "total_customers": 46006
+    },
+    "outages": [
+        {
+            "latitude": 34.2350326601252,
+            "longitude": -110.08120783145237,
+            "customers": 1,
+            "cause": null,
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-06 15:29:50 MST",
+            "etr": null,
+            "incident_id": "535145"
+        },
+        {
+            "latitude": 34.235478261096866,
+            "longitude": -110.08180970269281,
+            "customers": 1,
+            "cause": null,
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-06 15:30:45 MST",
+            "etr": null,
+            "incident_id": "535146"
+        },
+        {
+            "latitude": 34.234653897445064,
+            "longitude": -110.08202529836103,
+            "customers": 3,
+            "cause": null,
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-06 15:31:52 MST",
+            "etr": null,
+            "incident_id": "535147"
+        },
+        {
+            "latitude": 34.2008628989187,
+            "longitude": -110.02348209128681,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-10-06 08:15:47 MST",
+            "etr": null,
+            "incident_id": "535128"
+        }
+    ]
+}
