@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-06 03:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 76
+    },
+    "outages": [
+        {
+            "latitude": 33.42984579993081,
+            "longitude": -112.12876099999396,
+            "city": "Phoenix",
+            "boundary": "Buckeye Rd To Gibson Ln And 37Th Ave To 27Th Ave",
+            "customers": 76,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-05 19:51:00 MST",
+            "etr": "2026-10-06 00:00:00 MST"
+        }
+    ]
+}
