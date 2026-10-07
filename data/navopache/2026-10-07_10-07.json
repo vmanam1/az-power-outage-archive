@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-07 10:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3963,
+        "total_customers": 46007
+    },
+    "outages": [
+        {
+            "latitude": 34.421080749272214,
+            "longitude": -109.63572429884263,
+            "customers": 1,
+            "cause": "MAINTENANCE",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-07 09:23:07 MST",
+            "etr": null,
+            "incident_id": "535153"
+        },
+        {
+            "latitude": 34.31575187941469,
+            "longitude": -110.10243502161906,
+            "customers": 3960,
+            "cause": "SWITCHING OUTAGE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-07 09:40:59 MST",
+            "etr": null,
+            "incident_id": "535188"
+        },
+        {
+            "latitude": 34.270012585250385,
+            "longitude": -109.40020399761939,
+            "customers": 2,
+            "cause": "MAINTENANCE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-07 09:21:46 MST",
+            "etr": null,
+            "incident_id": "535152"
+        }
+    ]
+}

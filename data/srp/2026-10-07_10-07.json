@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-07 10:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 64
+    },
+    "outages": [
+        {
+            "latitude": 33.308298528282805,
+            "longitude": -111.86591421860399,
+            "boundary": "N DOBSON  RD TO N ALMA SCHOOL  RD AND W GALVESTON  ST TO W FRYE  RD",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 07:56 MST",
+            "etr": "2026-10-07 13:00 MST"
+        },
+        {
+            "latitude": 33.49246191324565,
+            "longitude": -111.952648641982,
+            "boundary": "N 56TH  ST TO N 64TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 08:25 MST",
+            "etr": "2026-10-07 12:30 MST"
+        },
+        {
+            "latitude": 33.3197899204014,
+            "longitude": -111.58730796081349,
+            "boundary": "S SIGNAL BUTTE  RD TO S IRONWOOD  DR AND E WARNER  RD TO E GALVESTON  ST",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 08:41 MST",
+            "etr": "2026-10-07 12:38 MST"
+        },
+        {
+            "latitude": 33.60232280398205,
+            "longitude": -112.24072406188799,
+            "boundary": "N 87TH  AVE TO N 83RD  AVE AND W THUNDERBIRD  RD TO W CACTUS  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 09:49 MST",
+            "etr": "2026-10-07 11:47 MST"
+        },
+        {
+            "latitude": 33.4462646900109,
+            "longitude": -112.32062172740251,
+            "boundary": "N FAIRWAY  DR TO N 119TH  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 14,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-10-07 09:59 MST",
+            "etr": "2026-10-07 11:58 MST"
+        },
+        {
+            "latitude": 33.3812841343898,
+            "longitude": -111.77735093221901,
+            "boundary": "S 24TH  ST TO S LINDSAY  RD AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 10:00 MST",
+            "etr": "2026-10-07 12:35 MST"
+        },
+        {
+            "latitude": 33.532405946471954,
+            "longitude": -112.15574891043451,
+            "boundary": "N 47TH  AVE TO N 43RD  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 3,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-10-07 10:06 MST",
+            "etr": "2026-10-07 12:06 MST"
+        }
+    ]
+}
