@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-07 15:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 4,
+        "total_customers": 46007
+    },
+    "outages": [
+        {
+            "latitude": 34.43020968236453,
+            "longitude": -110.60073949294237,
+            "customers": 4,
+            "cause": "DAMAGED MATERIAL OR EQUIP",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-07 14:33:13 MST",
+            "etr": null,
+            "incident_id": "535190"
+        }
+    ]
+}
