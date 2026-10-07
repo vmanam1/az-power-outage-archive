@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-07 01:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 33.82826577408661,
+            "longitude": -111.90419380316386,
+            "city": "Carefree",
+            "boundary": "Paint Pony Dr. to Round Robin Ct. and 80th St. to Concho Ln.",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-06 15:01:00 MST",
+            "etr": "2026-10-06 18:45:00 MST"
+        },
+        {
+            "latitude": 34.79295544513846,
+            "longitude": -111.71728448789722,
+            "city": "Sedona",
+            "boundary": "White Horse Way to Mountain Rd and Sedona Rd to Valley Vista Dr",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-06 16:46:00 MST",
+            "etr": "2026-10-06 20:10:00 MST"
+        }
+    ]
+}
