@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-06 17:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.2793390359492,
+            "longitude": -111.609761151846,
+            "boundary": "S CRISMON  RD TO S SIGNAL BUTTE  RD AND E PECOS  RD TO E GERMANN  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-06 12:31 MST",
+            "etr": "2026-10-06 17:31 MST"
+        },
+        {
+            "latitude": 33.2536074738802,
+            "longitude": -111.5465407557605,
+            "boundary": "N SUBURBAN  AVE TO N COYOTE  RD AND E AIRPORT  DR TO E OCOTILLO  RD",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-06 13:38 MST",
+            "etr": "2026-10-06 18:40 MST"
+        },
+        {
+            "latitude": 33.5603892258752,
+            "longitude": -112.2013823545645,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W OLIVE  AVE TO W GRAND  AVE",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-06 14:24 MST",
+            "etr": "2026-10-06 20:30 MST"
+        },
+        {
+            "latitude": 33.4005687586612,
+            "longitude": -111.92088466894151,
+            "boundary": "S RURAL  RD TO S DORSEY  LN AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 7,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-06 16:47 MST",
+            "etr": "2026-10-06 17:40 MST"
+        }
+    ]
+}
