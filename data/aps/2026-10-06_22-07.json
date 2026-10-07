@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-06 22:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 32.699779842900845,
+            "longitude": -114.6262406463597,
+            "city": "Yuma",
+            "boundary": "15th St. to 15th Pl. and 6th Ave. to 5th Ave.",
+            "customers": 8,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-06 11:47:00 MST",
+            "etr": "2026-10-06 15:45:00 MST"
+        },
+        {
+            "latitude": 33.56953309897433,
+            "longitude": -111.96614983036854,
+            "city": "Paradise Valley",
+            "boundary": "Sanna St. to Doubletree Ranch Rd. and 52nd St. to 54th Pl.",
+            "customers": 11,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-06 14:00:00 MST",
+            "etr": "2026-10-06 17:45:00 MST"
+        }
+    ]
+}
