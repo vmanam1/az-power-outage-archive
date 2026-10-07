@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-07 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 77
+    },
+    "outages": [
+        {
+            "latitude": 33.98531556965063,
+            "longitude": -112.77240289315583,
+            "city": "Wickenburg",
+            "boundary": "Vulture Mine Rd.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-07 01:07:00 MST",
+            "etr": "2026-10-07 06:55:00 MST"
+        },
+        {
+            "latitude": 34.03360958762914,
+            "longitude": -112.84327963669622,
+            "city": "Wickenburg",
+            "boundary": "Date Creek Rd to Vista Royale Dr and Gold Rock Cir",
+            "customers": 56,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-07 01:06:00 MST",
+            "etr": "2026-10-07 05:00:00 MST"
+        },
+        {
+            "latitude": 33.39694294165845,
+            "longitude": -110.82019447887578,
+            "city": "Globe",
+            "boundary": "Horseshoe Ln. to Pinal Canyon Dr. and Russell Rd.",
+            "customers": 14,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-07 02:02:00 MST",
+            "etr": "2026-10-07 03:30:00 MST"
+        }
+    ]
+}
