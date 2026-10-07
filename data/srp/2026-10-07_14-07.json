@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-07 14:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.5105403966234,
+            "longitude": -111.963373112653,
+            "boundary": "N CAMELHEAD  RD TO N 56TH  ST AND E MCDONALD  DR TO E CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-07 10:39 MST",
+            "etr": "2026-10-07 15:39 MST"
+        },
+        {
+            "latitude": 33.4462646900109,
+            "longitude": -112.32062172740251,
+            "boundary": "N FAIRWAY  DR TO N 119TH  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 13:45 MST",
+            "etr": "2026-10-07 15:44 MST"
+        },
+        {
+            "latitude": 33.4753958585839,
+            "longitude": -111.909667632341,
+            "boundary": "N MILLER  RD TO N GRANITE REEF  RD AND E THOMAS  RD TO E OAK  ST",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-07 13:47 MST",
+            "etr": "2026-10-07 15:45 MST"
+        },
+        {
+            "latitude": 33.4460558246403,
+            "longitude": -112.32044764149,
+            "boundary": "N FAIRWAY  DR TO N 119TH  AVE AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 13:53 MST",
+            "etr": "2026-10-07 16:32 MST"
+        }
+    ]
+}
