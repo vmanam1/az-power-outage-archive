@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-06 20:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 66
+    },
+    "outages": [
+        {
+            "latitude": 34.71432544528946,
+            "longitude": -112.02851900265387,
+            "city": "Cottonwood",
+            "boundary": "Larkspur Dr. to Papago Ln. and Saddleback Dr. to Paradise Dr.",
+            "customers": 58,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-06 11:59:00 MST",
+            "etr": "2026-10-06 15:30:00 MST"
+        },
+        {
+            "latitude": 32.699779842900845,
+            "longitude": -114.6262406463597,
+            "city": "Yuma",
+            "boundary": "15th St. to 15th Pl. and 6th Ave. to 5th Ave.",
+            "customers": 8,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-06 11:47:00 MST",
+            "etr": "2026-10-06 15:15:00 MST"
+        }
+    ]
+}
