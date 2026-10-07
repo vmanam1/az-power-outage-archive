@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-07 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.308298528282805,
+            "longitude": -111.86591421860399,
+            "boundary": "N DOBSON  RD TO N ALMA SCHOOL  RD AND W GALVESTON  ST TO W FRYE  RD",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 07:56 MST",
+            "etr": "2026-10-07 13:00 MST"
+        },
+        {
+            "latitude": 33.5192584954396,
+            "longitude": -112.221194896024,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W BETHANY HOME  RD TO W MISSOURI  AVE",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 07:58 MST",
+            "etr": "2026-10-07 09:57 MST"
+        },
+        {
+            "latitude": 33.48552466517725,
+            "longitude": -112.185580199996,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W OSBORN  RD TO W THOMAS  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 07:59 MST",
+            "etr": "2026-10-07 12:00 MST"
+        }
+    ]
+}
