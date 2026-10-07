@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-07 12:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 49
+    },
+    "outages": [
+        {
+            "latitude": 33.98531556965063,
+            "longitude": -112.77240289315583,
+            "city": "Wickenburg",
+            "boundary": "Vulture Mine Rd.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-07 01:07:00 MST",
+            "etr": "2026-10-07 06:00:00 MST"
+        },
+        {
+            "latitude": 33.484826331333906,
+            "longitude": -112.0329074327169,
+            "city": "Phoenix",
+            "boundary": "Monterey Wy to Cheery Lynn Rd and 22nd St to 23rd St",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-07 02:26:00 MST",
+            "etr": "2026-10-07 08:20:00 MST"
+        },
+        {
+            "latitude": 33.56733700627915,
+            "longitude": -112.05984227565081,
+            "city": "Phoenix",
+            "boundary": "Dunlap Ave to Townley Ave and 9th Pl to 10th St",
+            "customers": 16,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-07 01:08:00 MST",
+            "etr": "2026-10-07 05:30:00 MST"
+        },
+        {
+            "latitude": 32.905409649628055,
+            "longitude": -111.74151714455759,
+            "city": "Casa Grande",
+            "boundary": "Avenida Del Palma to Racine Pl and Trekell Rd",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-07 03:59:00 MST",
+            "etr": "2026-10-07 06:40:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-07 12:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.308298528282805,
+            "longitude": -111.86591421860399,
+            "boundary": "N DOBSON  RD TO N ALMA SCHOOL  RD AND W GALVESTON  ST TO W FRYE  RD",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 07:56 MST",
+            "etr": "2026-10-07 13:00 MST"
+        },
+        {
+            "latitude": 33.532405946471954,
+            "longitude": -112.15574891043451,
+            "boundary": "N 47TH  AVE TO N 43RD  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 3,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-10-07 10:06 MST",
+            "etr": "2026-10-07 14:45 MST"
+        },
+        {
+            "latitude": 33.31435282944325,
+            "longitude": -112.016594258574,
+            "boundary": "S RAY  RD TO S 36TH  ST AND E RAY  RD TO E CHANDLER  BLVD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 11:21 MST",
+            "etr": "2026-10-07 14:19 MST"
+        },
+        {
+            "latitude": 33.5105403966234,
+            "longitude": -111.963373112653,
+            "boundary": "N CAMELHEAD  RD TO N 56TH  ST AND E MCDONALD  DR TO E CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-07 10:39 MST",
+            "etr": "2026-10-07 15:39 MST"
+        },
+        {
+            "latitude": 33.3766458117497,
+            "longitude": -111.988269353879,
+            "boundary": "S 40TH  ST TO S 48TH  ST AND E VINEYARD  RD TO E GUADALUPE  RD",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-07 11:41 MST",
+            "etr": "2026-10-07 13:43 MST"
+        }
+    ]
+}
