@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-08 14:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 12,
+        "total_customers": 58033
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.316050184277834,
+            "longitude": -111.25310503551361,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-10-06 13:36:20 MST",
+            "etr": null,
+            "incident_id": "389776"
+        },
+        {
+            "latitude": 32.425267765234565,
+            "longitude": -111.33053981301549,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-10-02 08:21:08 MST",
+            "etr": null,
+            "incident_id": "389752"
+        },
+        {
+            "latitude": 32.12633874701333,
+            "longitude": -111.12139404853768,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-07 11:23:19 MST",
+            "etr": null,
+            "incident_id": "389784"
+        },
+        {
+            "latitude": 32.15950959068152,
+            "longitude": -111.08765332646145,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-08 08:48:41 MST",
+            "etr": null,
+            "incident_id": "389818"
+        },
+        {
+            "latitude": 32.38717230873811,
+            "longitude": -111.0676208956228,
+            "customers": 2,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Thornydale",
+            "start_time": "2026-10-08 08:00:03 MST",
+            "etr": null,
+            "incident_id": "389817"
+        }
+    ]
+}
