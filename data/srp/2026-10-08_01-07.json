@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-08 01:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.3798143417029,
+            "longitude": -111.806242663135,
+            "boundary": "S HORNE   TO S HARRIS  DR AND E SUPERSTITION  FWY TO W HOUSTON  AVE",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-07 23:28 MST",
+            "etr": "2026-10-08 07:00 MST"
+        },
+        {
+            "latitude": 33.1512643822496,
+            "longitude": -111.589127303468,
+            "boundary": "N ROYCE  RD TO N GARY  RD AND W DANIEL  RD TO W JUDD  RD",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-07 21:17 MST",
+            "etr": "2026-10-08 05:00 MST"
+        }
+    ]
+}
