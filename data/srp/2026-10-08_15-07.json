@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-08 15:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 28
+    },
+    "outages": [
+        {
+            "latitude": 33.53335342184195,
+            "longitude": -112.11872372729,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-08 08:56 MST",
+            "etr": "2026-10-08 18:30 MST"
+        },
+        {
+            "latitude": 33.52798823343235,
+            "longitude": -112.12936119484351,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W MARYLAND  AVE TO W BETHANY HOME  RD",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-08 11:15 MST",
+            "etr": "2026-10-08 15:31 MST"
+        },
+        {
+            "latitude": 33.52798823343235,
+            "longitude": -112.12936119484351,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W MARYLAND  AVE TO W BETHANY HOME  RD",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-08 11:15 MST",
+            "etr": "2026-10-08 15:31 MST"
+        }
+    ]
+}
