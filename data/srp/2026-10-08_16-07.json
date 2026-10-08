@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-08 16:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.53335342184195,
+            "longitude": -112.11872372729,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-08 08:56 MST",
+            "etr": "2026-10-08 18:30 MST"
+        }
+    ]
+}
