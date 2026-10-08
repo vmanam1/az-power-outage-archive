@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-08 13:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 93
+    },
+    "outages": [
+        {
+            "latitude": 33.052383055130626,
+            "longitude": -110.91446824463968,
+            "city": "Kearny",
+            "boundary": "Beauford Rd. and Industrial Dr.",
+            "customers": 19,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-08 05:34:00 MST",
+            "etr": "2026-10-08 08:55:00 MST"
+        },
+        {
+            "latitude": 33.68746504525486,
+            "longitude": -112.1258299759866,
+            "city": "Phoenix",
+            "boundary": "Adobe Dr. to Louise Dr. and 31st Ave. to 30th Ave.",
+            "customers": 74,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-08 06:02:00 MST",
+            "etr": "2026-10-08 08:35:00 MST"
+        }
+    ]
+}
