@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-08 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.6095478978722,
+            "longitude": -112.04638372235235,
+            "city": "Phoenix",
+            "boundary": "Calle Santa Cruz and 16th Pl. to 17th Pl.",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-08 01:36:00 MST",
+            "etr": "2026-10-08 07:30:00 MST"
+        },
+        {
+            "latitude": 33.50265037301784,
+            "longitude": -112.05504583168404,
+            "city": "Phoenix",
+            "boundary": "Minnezona Ave. to Campbell Ave. and 12th St. to 13th Pl.",
+            "customers": 15,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-08 01:38:00 MST",
+            "etr": "2026-10-08 05:00:00 MST"
+        }
+    ]
+}
