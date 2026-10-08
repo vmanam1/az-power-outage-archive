@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-08 08:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 507
+    },
+    "outages": [
+        {
+            "latitude": 33.48708548916516,
+            "longitude": -112.49690743156636,
+            "city": "Buckeye",
+            "boundary": "Lost Creek Dr. to Crescent Dr. and Springfield St. to 202nd Ln.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-07 21:22:00 MST",
+            "etr": "2026-10-08 03:00:00 MST"
+        },
+        {
+            "latitude": 33.00944322379341,
+            "longitude": -110.78757599513926,
+            "city": "Hayden",
+            "boundary": "Copper Basin Railway to 1st St and Lower Rd to Tucson-Globe Highway",
+            "customers": 437,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-08 00:39:00 MST",
+            "etr": "2026-10-08 04:05:00 MST"
+        },
+        {
+            "latitude": 33.00947361306453,
+            "longitude": -110.7877390905673,
+            "city": "Phoenix",
+            "boundary": "Portland St. to Roosevelt St. and 4th St. to 5th St.",
+            "customers": 64,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-08 00:45:00 MST",
+            "etr": "2026-10-08 03:15:00 MST"
+        }
+    ]
+}
