@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-08 12:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.50265037301784,
+            "longitude": -112.05504583168404,
+            "city": "Phoenix",
+            "boundary": "Minnezona Ave. to Campbell Ave. and 12th St. to 13th Pl.",
+            "customers": 15,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-08 01:38:00 MST",
+            "etr": "2026-10-08 06:00:00 MST"
+        },
+        {
+            "latitude": 33.05722694583086,
+            "longitude": -110.91320070380746,
+            "city": "Kearny",
+            "boundary": "Shake Dr. to Tilbury Dr. and Greenwich Rd. to Fairhaven Rd.",
+            "customers": 14,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-08 04:15:00 MST",
+            "etr": "2026-10-08 05:30:00 MST"
+        }
+    ]
+}
