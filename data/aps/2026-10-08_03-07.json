@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-08 03:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 207
+    },
+    "outages": [
+        {
+            "latitude": 33.463582582220155,
+            "longitude": -112.06983158832263,
+            "city": "Phoenix",
+            "boundary": "Willetta St and 3rd St",
+            "customers": 207,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-07 19:49:00 MST",
+            "etr": "2026-10-07 23:25:00 MST"
+        }
+    ]
+}
