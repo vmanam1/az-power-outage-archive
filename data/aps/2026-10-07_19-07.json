@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-07 19:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 33.43486684105348,
+            "longitude": -112.1105455762119,
+            "city": "Phoenix",
+            "boundary": "Yuma St to Papago St and 24th Ave",
+            "customers": 9,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-07 11:11:00 MST",
+            "etr": "2026-10-07 14:05:00 MST"
+        }
+    ]
+}
