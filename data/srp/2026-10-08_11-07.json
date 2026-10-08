@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-08 11:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 61
+    },
+    "outages": [
+        {
+            "latitude": 33.4134566037646,
+            "longitude": -111.780466433961,
+            "boundary": "S GILBERT  RD TO S LINDSAY  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-08 07:14 MST",
+            "etr": "2026-10-08 14:00 MST"
+        },
+        {
+            "latitude": 33.443039247799604,
+            "longitude": -111.640191687338,
+            "boundary": "N HAWES  RD TO N ELLSWORTH  RD AND E MCKELLIPS  RD TO E BROWN  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-08 07:49 MST",
+            "etr": "2026-10-08 14:46 MST"
+        },
+        {
+            "latitude": 33.34141034213115,
+            "longitude": -111.9338925310195,
+            "boundary": "S MILL  AVE TO S RURAL  RD AND E ELLIOT  RD TO E WARNER  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-08 10:08 MST",
+            "etr": "2026-10-08 12:08 MST"
+        },
+        {
+            "latitude": 33.53335342184195,
+            "longitude": -112.11872372729,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 12,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-08 08:56 MST",
+            "etr": "2026-10-08 18:30 MST"
+        },
+        {
+            "latitude": 33.3962179262724,
+            "longitude": -111.81740753086049,
+            "boundary": "S MESA  DR TO S STAPLEY  DR AND E 8TH  AVE TO E SOUTHERN  AVE",
+            "customers": 34,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-08 11:05 MST",
+            "etr": "2026-10-08 13:04 MST"
+        }
+    ]
+}

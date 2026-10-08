@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-08 11:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 107
+    },
+    "outages": [
+        {
+            "latitude": 33.50265037301784,
+            "longitude": -112.05504583168404,
+            "city": "Phoenix",
+            "boundary": "Minnezona Ave. to Campbell Ave. and 12th St. to 13th Pl.",
+            "customers": 15,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-08 01:38:00 MST",
+            "etr": "2026-10-08 05:00:00 MST"
+        },
+        {
+            "latitude": 33.70230327499476,
+            "longitude": -112.2477608328678,
+            "city": "Peoria",
+            "boundary": "Calle Lejos to Pinnacle Peak Rd and 91st Ave to 83rd Ave",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-08 02:41:00 MST",
+            "etr": "2026-10-08 05:50:00 MST"
+        },
+        {
+            "latitude": 33.055921657851925,
+            "longitude": -112.23345886033222,
+            "city": "Maricopa",
+            "boundary": "Maricopa Rd to 81st Dr and 83rd Ave to 72nd Ave",
+            "customers": 87,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-10-08 03:21:00 MST",
+            "etr": "2026-10-08 06:15:00 MST"
+        }
+    ]
+}
