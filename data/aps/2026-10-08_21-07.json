@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-08 21:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 34.567950263268855,
+            "longitude": -111.86124247392287,
+            "city": "Camp Verde",
+            "boundary": "Angus Dr. to Zellner Ln. and Hereford Dr. to Red Angus Dr.",
+            "customers": 13,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-08 11:17:00 MST",
+            "etr": "2026-10-08 14:45:00 MST"
+        },
+        {
+            "latitude": 33.59184510493165,
+            "longitude": -112.1451902747505,
+            "city": "Phoenix",
+            "boundary": "Laurel Ln. to Altadena Ave. and 40th Dr. to 39th Ave.",
+            "customers": 5,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-10-08 13:13:00 MST",
+            "etr": "2026-10-08 15:45:00 MST"
+        }
+    ]
+}

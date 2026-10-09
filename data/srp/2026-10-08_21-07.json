@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-08 21:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 48
+    },
+    "outages": [
+        {
+            "latitude": 33.41336166899665,
+            "longitude": -111.617600014598,
+            "boundary": "S 96TH  ST TO S 104TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 4,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-08 16:13 MST",
+            "etr": "2026-10-09 01:00 MST"
+        },
+        {
+            "latitude": 33.38990943539875,
+            "longitude": -111.806534403263,
+            "boundary": "S HORNE   TO S HARRIS  DR AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 30,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-08 17:40 MST",
+            "etr": "2026-10-08 23:59 MST"
+        },
+        {
+            "latitude": 33.1677803165707,
+            "longitude": -111.5513987464,
+            "boundary": "N IRONWOOD  DR TO N GANTZEL  RD AND W ROBERTS  RD TO E BELLA VISTA  RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-08 17:49 MST",
+            "etr": "2026-10-09 01:00 MST"
+        },
+        {
+            "latitude": 33.567376019521504,
+            "longitude": -112.101283177829,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W MOUNTAIN VIEW  RD TO W BUTLER  DR",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-08 19:23 MST",
+            "etr": "2026-10-09 03:30 MST"
+        }
+    ]
+}
