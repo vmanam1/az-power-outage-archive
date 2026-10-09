@@ -1,0 +1,103 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-09 14:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 14,
+        "total_customers": 58032
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.0481673320456,
+            "longitude": -111.22350554689775,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-10-09 12:10:35 MST",
+            "etr": null,
+            "incident_id": "389833"
+        },
+        {
+            "latitude": 32.11192875732149,
+            "longitude": -111.11764807380237,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-09 10:23:42 MST",
+            "etr": null,
+            "incident_id": "389832"
+        },
+        {
+            "latitude": 32.16795059818287,
+            "longitude": -111.15189185243777,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Bopp Rd",
+            "start_time": "2026-10-09 09:23:45 MST",
+            "etr": null,
+            "incident_id": "389831"
+        },
+        {
+            "latitude": 32.38903081166341,
+            "longitude": -110.69779347625214,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Mt Lemmon",
+            "start_time": "2026-10-09 08:47:53 MST",
+            "etr": null,
+            "incident_id": "389830"
+        },
+        {
+            "latitude": 32.15950959068152,
+            "longitude": -111.08765332646145,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-08 08:48:41 MST",
+            "etr": null,
+            "incident_id": "389818"
+        },
+        {
+            "latitude": 31.890579189297075,
+            "longitude": -110.99942079924296,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Green Valley",
+            "start_time": "2026-10-09 07:32:52 MST",
+            "etr": null,
+            "incident_id": "389829"
+        },
+        {
+            "latitude": 32.3919133119758,
+            "longitude": -111.06450374158646,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Thornydale",
+            "start_time": "2026-10-09 08:00:00 MST",
+            "etr": "2026-10-09 12:00:00 MST",
+            "incident_id": "389828"
+        }
+    ]
+}
