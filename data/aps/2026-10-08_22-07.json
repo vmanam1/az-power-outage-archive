@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-08 22:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 34.567950263268855,
+            "longitude": -111.86124247392287,
+            "city": "Camp Verde",
+            "boundary": "Angus Dr. to Zellner Ln. and Hereford Dr. to Red Angus Dr.",
+            "customers": 13,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-08 11:17:00 MST",
+            "etr": "2026-10-08 16:00:00 MST"
+        }
+    ]
+}
