@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-08 17:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 33.412613979868894,
+            "longitude": -111.6171676669105,
+            "boundary": "S 96TH  ST TO S 104TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-08 16:13 MST",
+            "etr": "2026-10-08 18:15 MST"
+        }
+    ]
+}
