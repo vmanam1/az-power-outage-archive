@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-09 10:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 67
+    },
+    "outages": [
+        {
+            "latitude": 33.4059581801742,
+            "longitude": -111.61757964100201,
+            "boundary": "S 96TH  ST TO S 104TH  ST AND E APACHE  TRL TO E PUEBLO  AVE",
+            "customers": 36,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-09 07:51 MST",
+            "etr": "2026-10-09 13:49 MST"
+        },
+        {
+            "latitude": 33.558983107566505,
+            "longitude": -112.0967389932255,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W DUNLAP  AVE TO W NORTHERN  AVE",
+            "customers": 30,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-09 08:03 MST",
+            "etr": "2026-10-09 12:36 MST"
+        },
+        {
+            "latitude": 33.4369922326212,
+            "longitude": -112.220890101815,
+            "boundary": "S 79TH  AVE TO S 71ST  AVE AND W VAN BUREN  ST TO W DURANGO  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-09 09:37 MST",
+            "etr": "2026-10-09 11:36 MST"
+        }
+    ]
+}
