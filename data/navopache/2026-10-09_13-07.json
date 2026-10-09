@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-09 13:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3,
+        "total_customers": 46002
+    },
+    "outages": [
+        {
+            "latitude": 34.279855723455654,
+            "longitude": -109.84300156752923,
+            "customers": 2,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-09 12:07:25 MST",
+            "etr": null,
+            "incident_id": "535214"
+        },
+        {
+            "latitude": 34.034563466743215,
+            "longitude": -110.48738108722354,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "There is currently no outage at this location. We tested the meter for power and we have good voltage. If your meter has a display then there is power to the meter. We recommend to check all your breakers, including the main disconnect out by the meter. Be sure you turn the main breaker all the way off & then back on. If that does not rectify the problem, you may need to contact an electrician as NEC does not provide a service for equipment on your side of the meter. Thank you",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-09 12:28:06 MST",
+            "etr": null,
+            "incident_id": "535215"
+        }
+    ]
+}
