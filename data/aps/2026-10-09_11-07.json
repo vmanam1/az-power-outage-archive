@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-09 11:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 66
+    },
+    "outages": [
+        {
+            "latitude": 34.27416170872155,
+            "longitude": -111.22065393105551,
+            "city": "Payson",
+            "boundary": "Mountain View Rd.",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-09 01:50:00 MST",
+            "etr": "2026-10-09 04:55:00 MST"
+        },
+        {
+            "latitude": 34.60986107288271,
+            "longitude": -112.2950234026344,
+            "city": "Prescott Valley",
+            "boundary": "Sheridan Ln. to Juniper Cr. and Serpentine Dr. to Badger Rd.",
+            "customers": 49,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-09 02:03:00 MST",
+            "etr": "2026-10-09 05:45:00 MST"
+        },
+        {
+            "latitude": 33.45530455471343,
+            "longitude": -112.05267263002712,
+            "city": "Phoenix",
+            "boundary": "Pierce St. to Filmore St. and 13th St. to 14th St.",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-09 02:43:00 MST",
+            "etr": "2026-10-09 05:35:00 MST"
+        }
+    ]
+}

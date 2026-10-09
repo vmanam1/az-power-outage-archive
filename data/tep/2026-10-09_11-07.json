@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-10-09 11:07:30 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 13,
+        "map_last_refreshed": "Oct 9, 11:06 AM"
+    },
+    "outages": [
+        {
+            "latitude": 32.251145010411854,
+            "longitude": -110.97970898744308,
+            "boundary": {
+                "coordLatSW": "32.251001236048403",
+                "coordLngSW": "-110.98004254532799",
+                "coordLatNE": "32.2512852804931",
+                "coordLngNE": "-110.97938672413801",
+                "coordLatCenter": "32.251144",
+                "coordLngCenter": "-110.97971"
+            },
+            "customers": 13,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-10-09 09:18 MST",
+            "etr": "2026-10-09 11:18 MST",
+            "event": "Planned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-10-09 11:00 MST"
+        },
+        {
+            "latitude": 32.272421952657005,
+            "longitude": -110.839087343481,
+            "boundary": {
+                "coordLatSW": "32.272421952657005",
+                "coordLngSW": "-110.839087343481",
+                "coordLatNE": "32.272421952657005",
+                "coordLngNE": "-110.839087343481",
+                "coordLatCenter": "32.272423",
+                "coordLngCenter": "-110.83909"
+            },
+            "customers": 0,
+            "cause": "Equipment Repair - Replacement",
+            "comments": null,
+            "start_time": "2026-10-08 21:19 MST",
+            "etr": "2026-10-09 04:36 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 42,
+            "last_update": "2026-10-09 04:58 MST"
+        }
+    ]
+}
