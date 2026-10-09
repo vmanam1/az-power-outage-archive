@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-09 07:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 33.364124223604804,
+            "longitude": -111.86950765640151,
+            "boundary": "S DOBSON  RD TO S ALMA SCHOOL  RD AND W LINDNER  AVE TO W ELLIOT  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-09 04:52 MST",
+            "etr": "2026-10-09 07:30 MST"
+        },
+        {
+            "latitude": 33.3537310490686,
+            "longitude": -111.599812645994,
+            "boundary": "S CRISMON  RD TO S MOUNTAIN  RD AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-09 06:34 MST",
+            "etr": "2026-10-09 11:33 MST"
+        },
+        {
+            "latitude": 33.3628451188857,
+            "longitude": -111.8687999164145,
+            "boundary": "S DOBSON  RD TO S ALMA SCHOOL  RD AND W MEDINA  AVE TO W ELLIOT  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-09 06:48 MST",
+            "etr": "2026-10-09 08:48 MST"
+        }
+    ]
+}
