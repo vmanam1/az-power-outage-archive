@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-09 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 19
+    },
+    "outages": [
+        {
+            "latitude": 34.38540186693743,
+            "longitude": -111.4656417009928,
+            "city": "Pine",
+            "boundary": "Mogollon to Warren Dr. and Hunt Dr. to Apache Tl.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-09 01:17:00 MST",
+            "etr": "2026-10-09 04:25:00 MST"
+        },
+        {
+            "latitude": 33.42256235621101,
+            "longitude": -112.60241717219041,
+            "city": "Buckeye",
+            "boundary": "Magnolia St. and 257th Ave.",
+            "customers": 5,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-09 01:36:00 MST",
+            "etr": "2026-10-09 04:25:00 MST"
+        },
+        {
+            "latitude": 34.27416170872155,
+            "longitude": -111.22065393105551,
+            "city": "Payson",
+            "boundary": "Mountain View Rd.",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-09 01:50:00 MST",
+            "etr": "2026-10-09 04:55:00 MST"
+        }
+    ]
+}
