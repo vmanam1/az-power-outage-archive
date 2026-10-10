@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-10-10 00:07:21 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 49,
+        "map_last_refreshed": "Oct 10, 12:06 AM"
+    },
+    "outages": [
+        {
+            "latitude": 32.164622695797505,
+            "longitude": -110.99993905450073,
+            "boundary": {
+                "coordLatSW": "32.163571982994597",
+                "coordLngSW": "-111.001547005372",
+                "coordLatNE": "32.169131289590602",
+                "coordLngNE": "-110.99875211744001",
+                "coordLatCenter": "32.16635",
+                "coordLngCenter": "-111.00015"
+            },
+            "customers": 49,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-10-09 23:14 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-10-10 00:00 MST"
+        },
+        {
+            "latitude": 32.272421952657005,
+            "longitude": -110.839087343481,
+            "boundary": {
+                "coordLatSW": "32.272421952657005",
+                "coordLngSW": "-110.839087343481",
+                "coordLatNE": "32.272421952657005",
+                "coordLngNE": "-110.839087343481",
+                "coordLatCenter": "32.272423",
+                "coordLngCenter": "-110.83909"
+            },
+            "customers": 0,
+            "cause": "Equipment Repair - Replacement",
+            "comments": null,
+            "start_time": "2026-10-08 21:19 MST",
+            "etr": "2026-10-09 04:36 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 42,
+            "last_update": "2026-10-09 04:58 MST"
+        }
+    ]
+}
