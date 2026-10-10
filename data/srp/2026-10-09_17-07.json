@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-09 17:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 89
+    },
+    "outages": [
+        {
+            "latitude": 33.60220677883425,
+            "longitude": -112.21812531468399,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W THUNDERBIRD  RD TO W CACTUS  RD",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-09 15:31 MST",
+            "etr": "2026-10-09 17:30 MST"
+        },
+        {
+            "latitude": 33.60238040672045,
+            "longitude": -112.21751526331201,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W THUNDERBIRD  RD TO W CACTUS  RD",
+            "customers": 29,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-09 15:31 MST",
+            "etr": "2026-10-09 17:40 MST"
+        },
+        {
+            "latitude": 33.3395693497313,
+            "longitude": -111.932210547792,
+            "boundary": "S MILL  AVE TO S RURAL  RD AND E CARVER  RD TO E WARNER  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-09 16:43 MST",
+            "etr": "2026-10-09 18:41 MST"
+        },
+        {
+            "latitude": 33.4409875782138,
+            "longitude": -111.7693505143965,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E MCKELLIPS  RD TO E BROWN  RD",
+            "customers": 54,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-09 16:50 MST",
+            "etr": "2026-10-09 18:50 MST"
+        }
+    ]
+}
