@@ -1,0 +1,124 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-10 16:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 822
+    },
+    "outages": [
+        {
+            "latitude": 35.26509973192727,
+            "longitude": -111.50644153368728,
+            "city": "Flagstaff",
+            "boundary": "East Mercury Dr to Autum Dr and Merilee Ln to Slayton Ranch Rd",
+            "customers": 47,
+            "cause": "Blown fuse",
+            "comments": "Our crews are working to restore the outage caused by a blown fuse.",
+            "start_time": "2026-10-09 23:16:00 MST",
+            "etr": "2026-10-10 11:00:00 MST"
+        },
+        {
+            "latitude": 33.5994233159871,
+            "longitude": -112.30089207302935,
+            "city": "Youngtown",
+            "boundary": "Tennessee Ave. to Rhode Island Ave. and 113th Wy. to 112th Ave.",
+            "customers": 16,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 06:34:00 MST",
+            "etr": "2026-10-10 09:30:00 MST"
+        },
+        {
+            "latitude": 33.44223998364918,
+            "longitude": -111.92223534544623,
+            "city": "Tempe",
+            "boundary": "East Curry Rd and North Scottsdale Rd to North merrler Rd",
+            "customers": 173,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 06:45:00 MST",
+            "etr": "2026-10-10 10:10:00 MST"
+        },
+        {
+            "latitude": 33.52325940035782,
+            "longitude": -112.04804509987649,
+            "city": "Phoenix",
+            "boundary": "Ocotillo Rd To Medlock Dr And 11Th St  To 17Th St",
+            "customers": 11,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 06:47:00 MST",
+            "etr": "2026-10-10 09:30:00 MST"
+        },
+        {
+            "latitude": 33.53971539276298,
+            "longitude": -112.08431951391866,
+            "city": "Phoenix",
+            "boundary": "West Myrtle Ave to West Glendale Ave and North 11th Ave to North 7th Ave",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 07:13:00 MST",
+            "etr": "2026-10-10 09:45:00 MST"
+        },
+        {
+            "latitude": 32.83178563625847,
+            "longitude": -111.63857942971232,
+            "city": "Casa Grande",
+            "boundary": "Cornman Rd. to Stampede Wy. and Roughcut Dr. and Coyote Ln.",
+            "customers": 22,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 07:10:00 MST",
+            "etr": "2026-10-10 11:00:00 MST"
+        },
+        {
+            "latitude": 34.56735382466365,
+            "longitude": -112.37730473211882,
+            "city": "Prescott",
+            "boundary": "East Diamond Dr to East Ramada Dr and",
+            "customers": 78,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 07:43:00 MST",
+            "etr": "2026-10-10 11:15:00 MST"
+        },
+        {
+            "latitude": 33.68769486686343,
+            "longitude": -112.10256073641733,
+            "city": "Phoenix",
+            "boundary": "Williams Dr. to Louise Dr. and 22nd Wy. to 19th Ave.",
+            "customers": 32,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 08:23:00 MST",
+            "etr": "2026-10-10 11:45:00 MST"
+        },
+        {
+            "latitude": 33.567249599826724,
+            "longitude": -112.30886699991478,
+            "city": "Youngtown",
+            "boundary": "Fooks Dr  To Glen Harbor Blvd And 125Th Ave To 103Rd Ave",
+            "customers": 337,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 08:34:00 MST",
+            "etr": "2026-10-10 10:45:00 MST"
+        },
+        {
+            "latitude": 33.45962643864602,
+            "longitude": -112.08249989097071,
+            "city": "Phoenix",
+            "boundary": "West Portland St to West Roosevelt St and North 7th Ave to North 3rd Ave",
+            "customers": 99,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 08:53:00 MST",
+            "etr": "2026-10-10 12:20:00 MST"
+        }
+    ]
+}
