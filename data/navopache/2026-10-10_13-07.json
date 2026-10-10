@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-10 13:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 21,
+        "total_customers": 46002
+    },
+    "outages": [
+        {
+            "latitude": 34.13632600646346,
+            "longitude": -109.28097959309444,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-10 06:50:43 MST",
+            "etr": null,
+            "incident_id": "535220"
+        },
+        {
+            "latitude": 34.20816599256731,
+            "longitude": -110.02217953412466,
+            "customers": 20,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-10-10 10:35:52 MST",
+            "etr": null,
+            "incident_id": "535227"
+        }
+    ]
+}

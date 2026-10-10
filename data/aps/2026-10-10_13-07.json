@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-10 13:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 70
+    },
+    "outages": [
+        {
+            "latitude": 35.26509973192727,
+            "longitude": -111.50644153368728,
+            "city": "Flagstaff",
+            "boundary": "East Mercury Dr to Autum Dr and Merilee Ln to Slayton Ranch Rd",
+            "customers": 60,
+            "cause": "Blown fuse",
+            "comments": "Our crews are working to restore the outage caused by a blown fuse.",
+            "start_time": "2026-10-09 23:16:00 MST",
+            "etr": "2026-10-10 07:45:00 MST"
+        },
+        {
+            "latitude": 33.03699466392514,
+            "longitude": -113.04709220930431,
+            "city": "Date Creek",
+            "boundary": "Painted Rock Dam Rd and Rocky Point Rd",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-10 04:39:00 MST",
+            "etr": "2026-10-10 07:00:00 MST"
+        }
+    ]
+}
