@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-10 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 166
+    },
+    "outages": [
+        {
+            "latitude": 32.641133824195464,
+            "longitude": -114.4037151899147,
+            "city": "Yuma",
+            "boundary": "48th St. to 48th Dr. and Sheila Ave. to Camino Del Diablo",
+            "customers": 40,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-09 22:42:00 MST",
+            "etr": "2026-10-10 02:15:00 MST"
+        },
+        {
+            "latitude": 35.26509973192727,
+            "longitude": -111.50644153368728,
+            "city": "Flagstaff",
+            "boundary": "East Mercury Dr to Autum Dr and Merilee Ln to Slayton Ranch Rd",
+            "customers": 102,
+            "cause": "Blown fuse",
+            "comments": "Our crews are working to restore the outage caused by a blown fuse.",
+            "start_time": "2026-10-09 23:16:00 MST",
+            "etr": "2026-10-10 02:45:00 MST"
+        },
+        {
+            "latitude": 33.59051686519753,
+            "longitude": -111.95441622207865,
+            "city": "Scottsdale",
+            "boundary": "East Sunnyside Dr to East Saind Andrews Wy and North Blackheath Dr to North 60th St",
+            "customers": 18,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-09 23:33:00 MST",
+            "etr": "2026-10-10 02:15:00 MST"
+        },
+        {
+            "latitude": 34.25359508367942,
+            "longitude": -111.32360072427505,
+            "city": "Payson",
+            "boundary": "West Sherwood Dr to West Chateau Cr and North Colcord Rd to North Beeline Highway",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-10 00:48:00 MST",
+            "etr": "2026-10-10 04:15:00 MST"
+        }
+    ]
+}
