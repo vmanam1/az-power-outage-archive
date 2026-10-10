@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-09 23:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 139
+    },
+    "outages": [
+        {
+            "latitude": 33.4405431066128,
+            "longitude": -111.7696638879255,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E MCKELLIPS  RD TO E BROWN  RD",
+            "customers": 41,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-09 16:50 MST",
+            "etr": "2026-10-10 02:00 MST"
+        },
+        {
+            "latitude": 33.465035715205346,
+            "longitude": -111.896867245921,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  RD AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 69,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-09 20:27 MST",
+            "etr": "2026-10-09 22:28 MST"
+        },
+        {
+            "latitude": 33.412613979868894,
+            "longitude": -111.617600014598,
+            "boundary": "S 96TH  ST TO S 104TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 29,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-09 21:00 MST",
+            "etr": "2026-10-10 01:00 MST"
+        }
+    ]
+}
