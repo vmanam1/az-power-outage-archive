@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-10 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 2263
+    },
+    "outages": [
+        {
+            "latitude": 35.26509973192727,
+            "longitude": -111.50644153368728,
+            "city": "Flagstaff",
+            "boundary": "East Mercury Dr to Autum Dr and Merilee Ln to Slayton Ranch Rd",
+            "customers": 102,
+            "cause": "Blown fuse",
+            "comments": "Our crews are working to restore the outage caused by a blown fuse.",
+            "start_time": "2026-10-09 23:16:00 MST",
+            "etr": "2026-10-10 02:45:00 MST"
+        },
+        {
+            "latitude": 34.25359508367942,
+            "longitude": -111.32360072427505,
+            "city": "Payson",
+            "boundary": "West Sherwood Dr to West Chateau Cr and North Colcord Rd to North Beeline Highway",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-10 00:48:00 MST",
+            "etr": "2026-10-10 04:15:00 MST"
+        },
+        {
+            "latitude": 33.72097090004251,
+            "longitude": -112.41327780001075,
+            "city": "Surprise",
+            "boundary": "Peak View Rd To Nw Grand Ave  And 174Th Ave To 147Th Ave",
+            "customers": 2155,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-10 01:42:00 MST",
+            "etr": "2026-10-10 05:45:00 MST"
+        }
+    ]
+}
