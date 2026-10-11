@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-10 21:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1352
+    },
+    "outages": [
+        {
+            "latitude": 34.15133514101529,
+            "longitude": -114.30170211817787,
+            "city": "Parker",
+            "boundary": "3rd St to 6th St and Quartz Ave to Navajo",
+            "customers": 33,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-10 12:25:00 MST",
+            "etr": "2026-10-10 16:35:00 MST"
+        },
+        {
+            "latitude": 32.67951932795469,
+            "longitude": -114.60314955888094,
+            "city": "Yuma",
+            "boundary": "Robin Ln to Airport Access Rd and Chiquita Dr to Avenue 3 East",
+            "customers": 1319,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-10 13:27:00 MST",
+            "etr": "2026-10-10 19:00:00 MST"
+        }
+    ]
+}
