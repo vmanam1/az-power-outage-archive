@@ -1,0 +1,162 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-10-11 07:07:30 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 598,
+        "map_last_refreshed": "Oct 11, 7:06 AM"
+    },
+    "outages": [
+        {
+            "latitude": 35.2071946491901,
+            "longitude": -114.029104801028,
+            "boundary": {
+                "coordLatSW": "35.2071946491901",
+                "coordLngSW": "-114.029104801028",
+                "coordLatNE": "35.2071946491901",
+                "coordLngNE": "-114.029104801028",
+                "coordLatCenter": "35.207195",
+                "coordLngCenter": "-114.029106"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Weather",
+            "comments": null,
+            "start_time": "2026-10-11 05:39 MST",
+            "etr": "2026-10-11 06:24 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 141,
+            "last_update": "2026-10-11 06:25 MST"
+        },
+        {
+            "latitude": 35.22936655379988,
+            "longitude": -114.14977126123176,
+            "boundary": {
+                "coordLatSW": "35.213784510655898",
+                "coordLngSW": "-114.16446240246299",
+                "coordLatNE": "35.2431115217639",
+                "coordLngNE": "-114.115512590989",
+                "coordLatCenter": "35.228447",
+                "coordLngCenter": "-114.139984"
+            },
+            "customers": 538,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-10-11 05:16 MST",
+            "etr": "2026-10-11 10:00 MST",
+            "event": "Unplanned",
+            "division": "UEE",
+            "customers_restored": 0,
+            "last_update": "2026-10-11 07:00 MST"
+        },
+        {
+            "latitude": 35.20510458942675,
+            "longitude": -114.17291172485525,
+            "boundary": {
+                "coordLatSW": "35.200290644314599",
+                "coordLngSW": "-114.17833427153201",
+                "coordLatNE": "35.210273526848397",
+                "coordLngNE": "-114.168527332406",
+                "coordLatCenter": "35.205284",
+                "coordLngCenter": "-114.17343"
+            },
+            "customers": 60,
+            "cause": null,
+            "comments": "Crew On Scene",
+            "start_time": "2026-10-11 04:12 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "UEE",
+            "customers_restored": 0,
+            "last_update": "2026-10-11 07:00 MST"
+        },
+        {
+            "latitude": 34.4626957335438,
+            "longitude": -114.335952975087,
+            "boundary": {
+                "coordLatSW": "34.462695733543796",
+                "coordLngSW": "-114.335952975087",
+                "coordLatNE": "34.462695733543796",
+                "coordLngNE": "-114.335952975087",
+                "coordLatCenter": "34.462696",
+                "coordLngCenter": "-114.33595"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Weather",
+            "comments": null,
+            "start_time": "2026-10-11 03:40 MST",
+            "etr": "2026-10-11 06:02 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 1683,
+            "last_update": "2026-10-11 06:39 MST"
+        },
+        {
+            "latitude": 34.498639802243,
+            "longitude": -114.308365240969,
+            "boundary": {
+                "coordLatSW": "34.498639802242998",
+                "coordLngSW": "-114.308365240969",
+                "coordLatNE": "34.498639802242998",
+                "coordLngNE": "-114.308365240969",
+                "coordLatCenter": "34.49864",
+                "coordLngCenter": "-114.308365"
+            },
+            "customers": 0,
+            "cause": null,
+            "comments": null,
+            "start_time": "2026-10-11 03:35 MST",
+            "etr": "2026-10-11 06:34 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 48,
+            "last_update": "2026-10-11 06:40 MST"
+        },
+        {
+            "latitude": 31.380082980899797,
+            "longitude": -110.957195153839,
+            "boundary": {
+                "coordLatSW": "31.380082980899797",
+                "coordLngSW": "-110.957195153839",
+                "coordLatNE": "31.380082980899797",
+                "coordLngNE": "-110.957195153839",
+                "coordLatCenter": "31.380083",
+                "coordLngCenter": "-110.95719"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Vehicle",
+            "comments": null,
+            "start_time": "2026-10-10 02:38 MST",
+            "etr": "2026-10-10 08:21 MST",
+            "event": "Restored",
+            "division": "USE",
+            "customers_restored": 100,
+            "last_update": "2026-10-10 08:41 MST"
+        },
+        {
+            "latitude": 31.4708552684436,
+            "longitude": -111.018173072207,
+            "boundary": {
+                "coordLatSW": "31.4708552684436",
+                "coordLngSW": "-111.01817307220701",
+                "coordLatNE": "31.4708552684436",
+                "coordLngNE": "-111.01817307220701",
+                "coordLatCenter": "31.470856",
+                "coordLngCenter": "-111.01817"
+            },
+            "customers": 0,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-08-27 07:29 MST",
+            "etr": "2026-08-27 09:30 MST",
+            "event": "Planned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-27 15:22 MST"
+        }
+    ]
+}
