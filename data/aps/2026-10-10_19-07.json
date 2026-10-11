@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-10 19:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 447
+    },
+    "outages": [
+        {
+            "latitude": 33.44223998364918,
+            "longitude": -111.92223534544623,
+            "city": "Tempe",
+            "boundary": "East Curry Rd and North Scottsdale Rd to North merrler Rd",
+            "customers": 431,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 06:45:00 MST",
+            "etr": "2026-10-10 13:30:00 MST"
+        },
+        {
+            "latitude": 33.52325940035782,
+            "longitude": -112.04804509987649,
+            "city": "Phoenix",
+            "boundary": "Ocotillo Rd To Medlock Dr And 11Th St  To 17Th St",
+            "customers": 11,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 06:47:00 MST",
+            "etr": "2026-10-10 13:00:00 MST"
+        },
+        {
+            "latitude": 34.56606043165416,
+            "longitude": -112.37921983160842,
+            "city": "Prescott",
+            "boundary": "Gemstone Dr and Elaine Way",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-10 09:15:00 MST",
+            "etr": "2026-10-10 12:40:00 MST"
+        }
+    ]
+}
