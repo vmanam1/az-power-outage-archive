@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 13:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 391
+    },
+    "outages": [
+        {
+            "latitude": 35.157631790038444,
+            "longitude": -111.77247349528686,
+            "city": "Flagstaff",
+            "boundary": "Forest Rd 231",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 04:26:00 MST",
+            "etr": "2026-10-11 07:30:00 MST"
+        },
+        {
+            "latitude": 34.90975366871913,
+            "longitude": -110.26581137614848,
+            "city": "Joseph City",
+            "boundary": "Section Line Rd North to Lx Ranch Rd. and Obed Rd. to McLaws Rd.",
+            "customers": 139,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 04:46:00 MST",
+            "etr": "2026-10-11 07:30:00 MST"
+        },
+        {
+            "latitude": 35.01665424192009,
+            "longitude": -110.71225924656042,
+            "city": "Winslow",
+            "boundary": "Airport Rd. to Hwy 87 and Desert Dr.",
+            "customers": 31,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 04:55:00 MST",
+            "etr": "2026-10-11 07:35:00 MST"
+        },
+        {
+            "latitude": 35.2148940001478,
+            "longitude": -111.41216900041198,
+            "city": "Flagstaff",
+            "boundary": "El Paso Natural Gas To  I-40 And Leupp Highway To Walking Cane Ranch",
+            "customers": 216,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 05:45:00 MST",
+            "etr": "2026-10-11 08:40:00 MST"
+        }
+    ]
+}

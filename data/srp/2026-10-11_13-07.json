@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-11 13:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 3028
+    },
+    "outages": [
+        {
+            "latitude": 33.531588367002556,
+            "longitude": -112.143586430552,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 10,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-10 17:42 MST",
+            "etr": "2026-10-11 07:00 MST"
+        },
+        {
+            "latitude": 33.47035529085745,
+            "longitude": -111.9003483934645,
+            "boundary": "N MILLER  RD TO N PIMA  LOOP AND E THOMAS  RD TO E ROOSEVELT  ST",
+            "customers": 804,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-11 06:39 MST",
+            "etr": "2026-10-11 08:39 MST"
+        },
+        {
+            "latitude": 33.4872197886999,
+            "longitude": -111.898175281481,
+            "boundary": "N HAYDEN  RD TO N PIMA  LOOP AND E CAMELBACK  RD TO E OAK  ST",
+            "customers": 1049,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-11 07:50 MST",
+            "etr": "2026-10-11 09:38 MST"
+        },
+        {
+            "latitude": 33.46544920293705,
+            "longitude": -112.15096671203,
+            "boundary": "N 51ST  AVE TO N 35TH  AVE AND W ENCANTO  BLVD TO W ROOSEVELT  ST",
+            "customers": 852,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-11 10:41 MST",
+            "etr": "2026-10-11 12:44 MST"
+        },
+        {
+            "latitude": 33.4655315709154,
+            "longitude": -112.1478833567395,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W ENCANTO  BLVD TO W PAPAGO  FWY",
+            "customers": 262,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-11 11:24 MST",
+            "etr": "2026-10-11 14:31 MST"
+        },
+        {
+            "latitude": 33.4893269360742,
+            "longitude": -111.821710313865,
+            "boundary": "N CENTER  ST TO N BEELINE  HWY AND E INDIAN SCHOOL  RD TO E OAK  ST",
+            "customers": 41,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-11 12:20 MST",
+            "etr": "2026-10-11 14:18 MST"
+        },
+        {
+            "latitude": 33.405224079336705,
+            "longitude": -111.81262028414599,
+            "boundary": "S MESA  DR TO S STAPLEY  DR AND E BROADWAY  RD TO E 8TH  AVE",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-11 12:39 MST",
+            "etr": "2026-10-11 16:39 MST"
+        }
+    ]
+}
