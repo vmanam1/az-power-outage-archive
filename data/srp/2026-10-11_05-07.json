@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-11 05:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1417
+    },
+    "outages": [
+        {
+            "latitude": 33.531588367002556,
+            "longitude": -112.143586430552,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 10,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-10 17:42 MST",
+            "etr": "2026-10-11 06:00 MST"
+        },
+        {
+            "latitude": 33.494810558304394,
+            "longitude": -112.1744528502135,
+            "boundary": "N 63RD  AVE TO N 43RD  AVE AND W CAMELBACK  RD TO W THOMAS  RD",
+            "customers": 1407,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-11 05:04 MST",
+            "etr": "2026-10-11 07:04 MST"
+        }
+    ]
+}

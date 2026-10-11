@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 05:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 2719
+    },
+    "outages": [
+        {
+            "latitude": 32.59398669206019,
+            "longitude": -114.59296060462039,
+            "city": "Yuma",
+            "boundary": "County 13th St. to State Highway 195 and S Avenue B to S Avenue 5 East",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:53:00 MST",
+            "etr": "2026-10-11 04:00:00 MST"
+        },
+        {
+            "latitude": 32.664608918119505,
+            "longitude": -114.4008000903424,
+            "city": "Yuma",
+            "boundary": "Frontage Rd. to 35th Pl. and Elena Dr. to Viewpointe Ave.",
+            "customers": 92,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 18:58:00 MST",
+            "etr": "2026-10-10 22:45:00 MST"
+        },
+        {
+            "latitude": 34.20724983894885,
+            "longitude": -112.35024876125031,
+            "city": "Crown King",
+            "boundary": "Elm Dr. to Senator Highway and Demascus Rd. to Spur Rd.",
+            "customers": 102,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 20:49:00 MST",
+            "etr": "2026-10-10 23:45:00 MST"
+        },
+        {
+            "latitude": 32.68054839436244,
+            "longitude": -114.50420353315347,
+            "city": "Yuma",
+            "boundary": "24th St. to 27th St. and Ave 7 1/2 E to Ave 7 3/4",
+            "customers": 16,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 18:38:00 MST",
+            "etr": "2026-10-11 04:00:00 MST"
+        },
+        {
+            "latitude": 34.5943239002598,
+            "longitude": -112.49979640004535,
+            "city": "Prescott",
+            "boundary": "Pioneer Pkwy To Iron Springs Rd And Granite Basin Rd To Campbell Ave",
+            "customers": 2450,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 19:32:00 MST",
+            "etr": "2026-10-10 22:45:00 MST"
+        },
+        {
+            "latitude": 33.65953916466611,
+            "longitude": -112.05453113206053,
+            "city": "Phoenix",
+            "boundary": "Taro Ln. to Wescott Dr. and 12th St. to 13th Pl.",
+            "customers": 29,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-10 21:30:00 MST",
+            "etr": "2026-10-11 00:15:00 MST"
+        }
+    ]
+}
