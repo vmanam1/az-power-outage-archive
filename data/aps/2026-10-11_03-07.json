@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 03:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 2943
+    },
+    "outages": [
+        {
+            "latitude": 32.70398189075928,
+            "longitude": -114.62984657643665,
+            "city": "Yuma",
+            "boundary": "13th St and 9th Ave to 8th Ave",
+            "customers": 8,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:23:00 MST",
+            "etr": "2026-10-10 23:30:00 MST"
+        },
+        {
+            "latitude": 32.59398669206019,
+            "longitude": -114.59296060462039,
+            "city": "Yuma",
+            "boundary": "County 13th St. to State Highway 195 and S Avenue B to S Avenue 5 East",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:53:00 MST",
+            "etr": "2026-10-10 21:00:00 MST"
+        },
+        {
+            "latitude": 32.72632791202459,
+            "longitude": -114.51308930322797,
+            "city": "Yuma",
+            "boundary": "E County 7th St. to D Rd. and Ranch Trail to S Ave. 7 E",
+            "customers": 65,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 17:59:00 MST",
+            "etr": "2026-10-10 21:30:00 MST"
+        },
+        {
+            "latitude": 33.69085432173311,
+            "longitude": -113.95724968916697,
+            "city": "Salome",
+            "boundary": "Mountain View Rd to Pearl Harbor Hwy and US 60 to McVay Rd",
+            "customers": 297,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 19:12:00 MST",
+            "etr": "2026-10-10 23:15:00 MST"
+        },
+        {
+            "latitude": 32.664608918119505,
+            "longitude": -114.4008000903424,
+            "city": "Yuma",
+            "boundary": "Frontage Rd. to 35th Pl. and Elena Dr. to Viewpointe Ave.",
+            "customers": 92,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 18:58:00 MST",
+            "etr": "2026-10-10 22:45:00 MST"
+        },
+        {
+            "latitude": 34.5943239002598,
+            "longitude": -112.49979640004535,
+            "city": "Prescott",
+            "boundary": "Pioneer Pkwy To Iron Springs Rd And Granite Basin Rd To Campbell Ave",
+            "customers": 2451,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 19:32:00 MST",
+            "etr": "2026-10-10 23:35:00 MST"
+        }
+    ]
+}
