@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 04:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 232
+    },
+    "outages": [
+        {
+            "latitude": 32.70398189075928,
+            "longitude": -114.62984657643665,
+            "city": "Yuma",
+            "boundary": "13th St and 9th Ave to 8th Ave",
+            "customers": 8,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:23:00 MST",
+            "etr": "2026-10-10 23:30:00 MST"
+        },
+        {
+            "latitude": 32.59398669206019,
+            "longitude": -114.59296060462039,
+            "city": "Yuma",
+            "boundary": "County 13th St. to State Highway 195 and S Avenue B to S Avenue 5 East",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:53:00 MST",
+            "etr": "2026-10-11 04:00:00 MST"
+        },
+        {
+            "latitude": 32.664608918119505,
+            "longitude": -114.4008000903424,
+            "city": "Yuma",
+            "boundary": "Frontage Rd. to 35th Pl. and Elena Dr. to Viewpointe Ave.",
+            "customers": 92,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 18:58:00 MST",
+            "etr": "2026-10-10 22:45:00 MST"
+        },
+        {
+            "latitude": 34.20724983894885,
+            "longitude": -112.35024876125031,
+            "city": "Crown King",
+            "boundary": "Elm Dr. to Senator Highway and Demascus Rd. to Spur Rd.",
+            "customers": 102,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 20:49:00 MST",
+            "etr": "2026-10-10 23:45:00 MST"
+        }
+    ]
+}
