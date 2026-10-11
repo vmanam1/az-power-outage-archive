@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-10 17:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 137
+    },
+    "outages": [
+        {
+            "latitude": 33.56062957823275,
+            "longitude": -112.1422975248185,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W DUNLAP  AVE TO W NORTHERN  AVE",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-10 13:35 MST",
+            "etr": "2026-10-10 17:30 MST"
+        },
+        {
+            "latitude": 33.485197204148605,
+            "longitude": -111.83839098500701,
+            "boundary": "N EXTENSION  RD TO N CENTER  ST AND E INDIAN SCHOOL  RD TO E OAK  ST",
+            "customers": 36,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-10 14:10 MST",
+            "etr": "2026-10-10 18:30 MST"
+        },
+        {
+            "latitude": 33.39580960205015,
+            "longitude": -111.8714012880875,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 50,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-10 09:26 MST",
+            "etr": "2026-10-10 19:20 MST"
+        },
+        {
+            "latitude": 33.49182306311975,
+            "longitude": -112.18366268563301,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W INDIAN SCHOOL  RD TO W OSBORN  RD",
+            "customers": 41,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-10-10 17:01 MST",
+            "etr": "2026-10-10 22:39 MST"
+        }
+    ]
+}
