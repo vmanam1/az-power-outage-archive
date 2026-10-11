@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 00:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 2573
+    },
+    "outages": [
+        {
+            "latitude": 33.5994233159871,
+            "longitude": -112.30089207302935,
+            "city": "Sun City",
+            "boundary": "Oak Ridge Rd to Edgewood Dr and 111th Ave to Agua Fria Dr",
+            "customers": 28,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-10 14:41:00 MST",
+            "etr": "2026-10-10 22:35:00 MST"
+        },
+        {
+            "latitude": 32.68112824088852,
+            "longitude": -114.60241433183833,
+            "city": "Yuma",
+            "boundary": "Robin Ln to Airport Access Rd and Chiquita Dr to Avenue 3 East",
+            "customers": 31,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 13:40:00 MST",
+            "etr": "2026-10-10 19:10:00 MST"
+        },
+        {
+            "latitude": 35.84433441388766,
+            "longitude": -110.528599874295,
+            "city": "Second Mesa",
+            "boundary": "Hotevilla to Second Mesa Jct and AZ State Hwy 264 to Polacca",
+            "customers": 1361,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-10 16:13:00 MST",
+            "etr": "2026-10-10 20:15:00 MST"
+        },
+        {
+            "latitude": 32.70398189075928,
+            "longitude": -114.62984657643665,
+            "city": "Yuma",
+            "boundary": "13th St and 9th Ave to 8th Ave",
+            "customers": 8,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:23:00 MST",
+            "etr": "2026-10-10 19:35:00 MST"
+        },
+        {
+            "latitude": 32.68613314072763,
+            "longitude": -114.6184081608373,
+            "city": "Yuma",
+            "boundary": "23rd St and Maple Ave",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:40:00 MST",
+            "etr": "2026-10-10 22:00:00 MST"
+        },
+        {
+            "latitude": 32.59398669206019,
+            "longitude": -114.59296060462039,
+            "city": "Yuma",
+            "boundary": "County 13th St. to State Highway 195 and S Avenue B to S Avenue 5 East",
+            "customers": 1133,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:53:00 MST",
+            "etr": "2026-10-10 21:00:00 MST"
+        }
+    ]
+}
