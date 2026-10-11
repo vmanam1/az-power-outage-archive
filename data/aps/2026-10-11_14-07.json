@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 14:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 411
+    },
+    "outages": [
+        {
+            "latitude": 35.157631790038444,
+            "longitude": -111.77247349528686,
+            "city": "Flagstaff",
+            "boundary": "Forest Rd 231",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 04:26:00 MST",
+            "etr": "2026-10-11 07:30:00 MST"
+        },
+        {
+            "latitude": 34.90975366871913,
+            "longitude": -110.26581137614848,
+            "city": "Joseph City",
+            "boundary": "Section Line Rd North to Lx Ranch Rd. and Obed Rd. to McLaws Rd.",
+            "customers": 139,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 04:46:00 MST",
+            "etr": "2026-10-11 07:30:00 MST"
+        },
+        {
+            "latitude": 35.2148940001478,
+            "longitude": -111.41216900041198,
+            "city": "Flagstaff",
+            "boundary": "El Paso Natural Gas To  I-40 And Leupp Highway To Walking Cane Ranch",
+            "customers": 43,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 05:45:00 MST",
+            "etr": "2026-10-11 08:40:00 MST"
+        },
+        {
+            "latitude": 33.58152249569801,
+            "longitude": -112.28211761956116,
+            "city": "Sun City",
+            "boundary": "West Pine Hurst Dr to West Willie Low Cr and North 103rd Ave",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-11 06:07:00 MST",
+            "etr": "2026-10-11 08:30:00 MST"
+        },
+        {
+            "latitude": 35.24822076879629,
+            "longitude": -111.4712894990156,
+            "city": "Flagstaff",
+            "boundary": "Hutton Ranch Rd. to Rosewood Dr. and Clayton Ranch Rd. to O'neil Ln.",
+            "customers": 84,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 06:11:00 MST",
+            "etr": "2026-10-11 09:30:00 MST"
+        },
+        {
+            "latitude": 34.40808323393456,
+            "longitude": -111.26705371300916,
+            "city": "Payson",
+            "boundary": "Forest Svc Rd 138 to Forest Rd 199 and Forest Svc Rd 32A to White Tail Knob",
+            "customers": 134,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 06:15:00 MST",
+            "etr": "2026-10-11 09:25:00 MST"
+        }
+    ]
+}
