@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-11 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1945
+    },
+    "outages": [
+        {
+            "latitude": 33.531588367002556,
+            "longitude": -112.143586430552,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 10,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-10 17:42 MST",
+            "etr": "2026-10-11 07:00 MST"
+        },
+        {
+            "latitude": 33.47035529085745,
+            "longitude": -111.9003483934645,
+            "boundary": "N MILLER  RD TO N PIMA  LOOP AND E THOMAS  RD TO E ROOSEVELT  ST",
+            "customers": 804,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-11 06:39 MST",
+            "etr": "2026-10-11 08:39 MST"
+        },
+        {
+            "latitude": 33.49351618982695,
+            "longitude": -112.1803102835195,
+            "boundary": "N 59TH  AVE TO N 51ST  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 82,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-11 05:04 MST",
+            "etr": "2026-10-11 13:30 MST"
+        },
+        {
+            "latitude": 33.4872197886999,
+            "longitude": -111.898175281481,
+            "boundary": "N HAYDEN  RD TO N PIMA  LOOP AND E CAMELBACK  RD TO E OAK  ST",
+            "customers": 1049,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-11 07:50 MST",
+            "etr": "2026-10-11 09:38 MST"
+        }
+    ]
+}
