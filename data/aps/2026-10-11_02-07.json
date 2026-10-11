@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 02:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 192
+    },
+    "outages": [
+        {
+            "latitude": 32.70398189075928,
+            "longitude": -114.62984657643665,
+            "city": "Yuma",
+            "boundary": "13th St and 9th Ave to 8th Ave",
+            "customers": 8,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:23:00 MST",
+            "etr": "2026-10-10 19:35:00 MST"
+        },
+        {
+            "latitude": 32.68613314072763,
+            "longitude": -114.6184081608373,
+            "city": "Yuma",
+            "boundary": "23rd St and Maple Ave",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:40:00 MST",
+            "etr": "2026-10-10 22:00:00 MST"
+        },
+        {
+            "latitude": 32.59398669206019,
+            "longitude": -114.59296060462039,
+            "city": "Yuma",
+            "boundary": "County 13th St. to State Highway 195 and S Avenue B to S Avenue 5 East",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 16:53:00 MST",
+            "etr": "2026-10-10 21:00:00 MST"
+        },
+        {
+            "latitude": 32.50165518496065,
+            "longitude": -114.78337033205403,
+            "city": "San Luis",
+            "boundary": "Las Brisas Bv to Aquila St and Main St to Santa Fe Dr",
+            "customers": 77,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 17:44:00 MST",
+            "etr": "2026-10-10 21:20:00 MST"
+        },
+        {
+            "latitude": 32.72632791202459,
+            "longitude": -114.51308930322797,
+            "city": "Yuma",
+            "boundary": "E County 7th St. to D Rd. and Ranch Trail to S Ave. 7 E",
+            "customers": 65,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 17:59:00 MST",
+            "etr": "2026-10-10 21:30:00 MST"
+        }
+    ]
+}
