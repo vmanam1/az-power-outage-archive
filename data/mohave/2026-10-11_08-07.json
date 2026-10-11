@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-10-11 08:07:30 MST",
+        "source": "MOHAVE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 288,
+        "total_customers": 47087
+    },
+    "outages": [
+        {
+            "latitude": 35.13112635074101,
+            "longitude": -114.55916579296606,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-10-11 06:36:03 MST",
+            "etr": null,
+            "incident_id": "351106"
+        },
+        {
+            "latitude": 35.111603678523565,
+            "longitude": -114.56787945122322,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-10-11 07:19:53 MST",
+            "etr": null,
+            "incident_id": "351108"
+        },
+        {
+            "latitude": 35.129069232866584,
+            "longitude": -114.56259735735186,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-10-11 08:05:16 MST",
+            "etr": null,
+            "incident_id": "351123"
+        },
+        {
+            "latitude": 34.94596186467165,
+            "longitude": -114.58006060647757,
+            "customers": 282,
+            "cause": null,
+            "comments": null,
+            "boundary": "Western Service Area",
+            "start_time": "2026-10-11 07:44:09 MST",
+            "etr": null,
+            "incident_id": "351122"
+        },
+        {
+            "latitude": 35.08097665263969,
+            "longitude": -113.9043209002103,
+            "customers": 3,
+            "cause": null,
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-10-11 07:12:12 MST",
+            "etr": null,
+            "incident_id": "351124"
+        }
+    ]
+}
