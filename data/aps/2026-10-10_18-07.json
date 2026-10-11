@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-10 18:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 192
+    },
+    "outages": [
+        {
+            "latitude": 33.44223998364918,
+            "longitude": -111.92223534544623,
+            "city": "Tempe",
+            "boundary": "East Curry Rd and North Scottsdale Rd to North merrler Rd",
+            "customers": 173,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 06:45:00 MST",
+            "etr": "2026-10-10 13:30:00 MST"
+        },
+        {
+            "latitude": 33.52325940035782,
+            "longitude": -112.04804509987649,
+            "city": "Phoenix",
+            "boundary": "Ocotillo Rd To Medlock Dr And 11Th St  To 17Th St",
+            "customers": 11,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-10 06:47:00 MST",
+            "etr": "2026-10-10 13:00:00 MST"
+        },
+        {
+            "latitude": 33.49148557078686,
+            "longitude": -112.05480754726673,
+            "city": "Phoenix",
+            "boundary": "East Indianola Ave to East Clarendon Ave and North 12th Street to North Longview Ave",
+            "customers": 8,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-10-10 09:33:00 MST",
+            "etr": "2026-10-10 12:00:00 MST"
+        }
+    ]
+}
