@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-10 20:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 168
+    },
+    "outages": [
+        {
+            "latitude": 34.07671176409517,
+            "longitude": -112.12232150323653,
+            "city": "Black Canyon City",
+            "boundary": "Squaw Valley Rd to Feldspar Ln and Mountain View Rd to Coyote Trl",
+            "customers": 135,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-10 12:26:00 MST",
+            "etr": "2026-10-10 16:00:00 MST"
+        },
+        {
+            "latitude": 34.15133514101529,
+            "longitude": -114.30170211817787,
+            "city": "Parker",
+            "boundary": "3rd St to 6th St and Quartz Ave to Navajo",
+            "customers": 33,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-10 12:25:00 MST",
+            "etr": "2026-10-10 16:35:00 MST"
+        }
+    ]
+}
