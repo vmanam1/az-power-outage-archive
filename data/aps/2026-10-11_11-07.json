@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 11:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 386
+    },
+    "outages": [
+        {
+            "latitude": 33.442142257058535,
+            "longitude": -112.14081412196242,
+            "city": "Phoenix",
+            "boundary": "West Buchanan St to West Grant St and Sough 39th Ave to North 37th Ave",
+            "customers": 7,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-11 01:08:00 MST",
+            "etr": "2026-10-11 05:00:00 MST"
+        },
+        {
+            "latitude": 33.578366668683735,
+            "longitude": -112.55915903773717,
+            "city": "Surprise",
+            "boundary": "Cactus Rd to West Norther Ave and East of North 195th ave",
+            "customers": 36,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 01:05:00 MST",
+            "etr": "2026-10-11 07:00:00 MST"
+        },
+        {
+            "latitude": 34.65258421923812,
+            "longitude": -112.43798978872356,
+            "city": "Prescott",
+            "boundary": "SR-89 to Pioneer Pkwy. and Sierra Pl. to Airport Access Rd.",
+            "customers": 207,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 01:46:00 MST",
+            "etr": "2026-10-11 06:00:00 MST"
+        },
+        {
+            "latitude": 33.329206951072024,
+            "longitude": -112.52050576085513,
+            "city": "Buckeye",
+            "boundary": "Eagle Mountain Rd. to Gail Dr. and Dean Rd. to 215th Ln.",
+            "customers": 97,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 03:27:00 MST",
+            "etr": "2026-10-11 07:00:00 MST"
+        },
+        {
+            "latitude": 34.95900109200521,
+            "longitude": -110.35996131184538,
+            "city": "Joseph City",
+            "boundary": "3rd North to Old US 66 and O Connell Dr. to Edwards Ave.",
+            "customers": 39,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 04:01:00 MST",
+            "etr": "2026-10-11 07:25:00 MST"
+        }
+    ]
+}
