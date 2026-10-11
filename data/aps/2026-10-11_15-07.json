@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 15:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 478
+    },
+    "outages": [
+        {
+            "latitude": 35.157631790038444,
+            "longitude": -111.77247349528686,
+            "city": "Flagstaff",
+            "boundary": "Forest Rd 231",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 04:26:00 MST",
+            "etr": "2026-10-11 10:30:00 MST"
+        },
+        {
+            "latitude": 35.2148940001478,
+            "longitude": -111.41216900041198,
+            "city": "Flagstaff",
+            "boundary": "El Paso Natural Gas To  I-40 And Leupp Highway To Walking Cane Ranch",
+            "customers": 216,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 05:45:00 MST",
+            "etr": "2026-10-11 10:40:00 MST"
+        },
+        {
+            "latitude": 35.24822076879629,
+            "longitude": -111.4712894990156,
+            "city": "Flagstaff",
+            "boundary": "Hutton Ranch Rd. to Rosewood Dr. and Clayton Ranch Rd. to O'neil Ln.",
+            "customers": 84,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 06:11:00 MST",
+            "etr": "2026-10-11 09:30:00 MST"
+        },
+        {
+            "latitude": 34.40808323393456,
+            "longitude": -111.26705371300916,
+            "city": "Payson",
+            "boundary": "Forest Svc Rd 138 to Forest Rd 199 and Forest Svc Rd 32A to White Tail Knob",
+            "customers": 134,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 06:15:00 MST",
+            "etr": "2026-10-11 09:25:00 MST"
+        },
+        {
+            "latitude": 34.95900109200521,
+            "longitude": -110.35996131184538,
+            "city": "Joseph City",
+            "boundary": "3rd North to Old US 66 and O Connell Dr. to Edwards Ave.",
+            "customers": 39,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 07:57:00 MST",
+            "etr": "2026-10-11 11:10:00 MST"
+        }
+    ]
+}

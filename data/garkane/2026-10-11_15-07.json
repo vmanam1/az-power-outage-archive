@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "GARKANE",
+        "scraped_at": "2026-10-11 15:07:21 MST",
+        "source": "GARKANE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 15,
+        "total_customers": 16975
+    },
+    "outages": [
+        {
+            "latitude": 36.30063843163746,
+            "longitude": -112.0979436108871,
+            "customers": 7,
+            "cause": null,
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-10-11 13:24:47 MST",
+            "etr": null,
+            "incident_id": "301790"
+        },
+        {
+            "latitude": 36.37521526486271,
+            "longitude": -112.16670964589602,
+            "customers": 8,
+            "cause": null,
+            "comments": null,
+            "boundary": "SERVICE_AREA",
+            "start_time": "2026-10-11 13:20:13 MST",
+            "etr": null,
+            "incident_id": "301791"
+        }
+    ]
+}
