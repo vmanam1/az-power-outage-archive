@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-12 05:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.60706155604421,
+            "longitude": -112.17685185867333,
+            "city": "Glendale",
+            "boundary": "Eugie Ave to Pershing Ave and 55th Ave",
+            "customers": 5,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-11 19:55:00 MST",
+            "etr": "2026-10-11 22:45:00 MST"
+        }
+    ]
+}
