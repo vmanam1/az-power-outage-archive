@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-12 13:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 771
+    },
+    "outages": [
+        {
+            "latitude": 35.08529854006792,
+            "longitude": -111.65746707629619,
+            "city": "Flagstaff",
+            "boundary": "Comanche St. to Cherokee St. and Cayunga St. to Yaqui St.",
+            "customers": 187,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-12 05:42:00 MST",
+            "etr": "2026-10-12 09:05:00 MST"
+        },
+        {
+            "latitude": 36.052757326950896,
+            "longitude": -112.14012740304685,
+            "city": "Grand Canyon",
+            "boundary": "Colorado River to Clinic Rd. and Rowe Well Rd. to Zuni Way.",
+            "customers": 584,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-12 06:01:00 MST",
+            "etr": "2026-10-12 10:10:00 MST"
+        }
+    ]
+}
