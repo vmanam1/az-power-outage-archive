@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-10-12 14:07:11 MST",
+        "source": "MOHAVE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 79,
+        "total_customers": 47087
+    },
+    "outages": [
+        {
+            "latitude": 35.093311165421966,
+            "longitude": -113.87762296996254,
+            "customers": 53,
+            "cause": "Lightning",
+            "comments": "We are currently experiencing an outage in your area. Our crews are responding to restore your power. Thank you for your patience.",
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-10-12 12:32:00 MST",
+            "etr": null,
+            "incident_id": "351140"
+        },
+        {
+            "latitude": 35.09287750442033,
+            "longitude": -113.87579938993552,
+            "customers": 26,
+            "cause": null,
+            "comments": "We are currently experiencing an outage in your area. Our crews are responding to restore your power. Thank you for your patience.",
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-10-12 12:32:00 MST",
+            "etr": null,
+            "incident_id": "351138"
+        }
+    ]
+}

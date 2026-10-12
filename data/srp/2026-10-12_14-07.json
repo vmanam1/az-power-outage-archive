@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-12 14:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 17
+    },
+    "outages": [
+        {
+            "latitude": 33.4038253729976,
+            "longitude": -111.8075863564845,
+            "boundary": "S HORNE   TO S HARRIS  DR AND E BROADWAY  RD TO E 8TH  AVE",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-10-12 09:48 MST",
+            "etr": "2026-10-12 14:30 MST"
+        },
+        {
+            "latitude": 33.4880954643707,
+            "longitude": -112.227778627045,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-10-12 11:02 MST",
+            "etr": "2026-10-12 18:00 MST"
+        },
+        {
+            "latitude": 33.4300542887532,
+            "longitude": -111.80713684147949,
+            "boundary": "N HORNE   TO N HARRIS  DR AND E BROWN  RD TO E UNIVERSITY  DR",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-10-12 08:04 MST",
+            "etr": "2026-10-12 17:00 MST"
+        }
+    ]
+}

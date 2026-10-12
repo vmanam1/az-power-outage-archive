@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-12 14:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 221
+    },
+    "outages": [
+        {
+            "latitude": 35.08529854006792,
+            "longitude": -111.65746707629619,
+            "city": "Flagstaff",
+            "boundary": "Comanche St. to Cherokee St. and Cayunga St. to Yaqui St.",
+            "customers": 187,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-10-12 05:42:00 MST",
+            "etr": "2026-10-12 09:05:00 MST"
+        },
+        {
+            "latitude": 33.63008273829228,
+            "longitude": -112.11252513161978,
+            "city": "Phoenix",
+            "boundary": "Paradise Lane to Kathleen Rd and Black Canyon Highway to 23rd Ln",
+            "customers": 34,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-12 06:25:00 MST",
+            "etr": "2026-10-12 09:10:00 MST"
+        }
+    ]
+}
