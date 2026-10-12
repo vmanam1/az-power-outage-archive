@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-10-12 15:07:30 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 18,
+        "map_last_refreshed": "Oct 12, 3:06 PM"
+    },
+    "outages": [
+        {
+            "latitude": 34.73946340166804,
+            "longitude": -114.36777632034455,
+            "boundary": {
+                "coordLatSW": "34.723871721015698",
+                "coordLngSW": "-114.44490048306201",
+                "coordLatNE": "34.750879728297697",
+                "coordLngNE": "-114.25169819352899",
+                "coordLatCenter": "34.737377",
+                "coordLngCenter": "-114.3483"
+            },
+            "customers": 18,
+            "cause": "Emergency/Safety Issue",
+            "comments": "Restoration In Progress",
+            "start_time": "2026-10-11 11:57 MST",
+            "etr": "2026-10-12 10:00 MST",
+            "event": "Unplanned",
+            "division": "UEE",
+            "customers_restored": 31,
+            "last_update": "2026-10-12 15:00 MST"
+        },
+        {
+            "latitude": 31.4708552684436,
+            "longitude": -111.018173072207,
+            "boundary": {
+                "coordLatSW": "31.4708552684436",
+                "coordLngSW": "-111.01817307220701",
+                "coordLatNE": "31.4708552684436",
+                "coordLngNE": "-111.01817307220701",
+                "coordLatCenter": "31.470856",
+                "coordLngCenter": "-111.01817"
+            },
+            "customers": 0,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-08-27 07:29 MST",
+            "etr": "2026-08-27 09:30 MST",
+            "event": "Planned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-27 15:22 MST"
+        }
+    ]
+}
