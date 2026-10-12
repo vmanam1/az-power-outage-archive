@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-12 07:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 33.758027631292194,
+            "longitude": -112.57561313204671,
+            "city": "Wittmann",
+            "boundary": "White Tanks Mountain",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-12 00:00:00 MST",
+            "etr": "2026-10-12 03:00:00 MST"
+        }
+    ]
+}
