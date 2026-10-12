@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 19:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 373
+    },
+    "outages": [
+        {
+            "latitude": 35.2148940001478,
+            "longitude": -111.41216900041198,
+            "city": "Flagstaff",
+            "boundary": "El Paso Natural Gas To  I-40 And Leupp Highway To Walking Cane Ranch",
+            "customers": 216,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 05:45:00 MST",
+            "etr": "2026-10-11 13:00:00 MST"
+        },
+        {
+            "latitude": 35.18743399978416,
+            "longitude": -111.41518100035564,
+            "city": "Flagstaff",
+            "boundary": "I-40 To South Winona And Forest Service Road 82 To 35Kv Wapa Switch Yard",
+            "customers": 18,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 10:01:00 MST",
+            "etr": "2026-10-11 13:00:00 MST"
+        },
+        {
+            "latitude": 31.353687989729746,
+            "longitude": -109.54718353182461,
+            "city": "Douglas",
+            "boundary": "21st St to 17th St and AZ80 to A Ave",
+            "customers": 122,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-10-11 10:58:00 MST",
+            "etr": "2026-10-11 14:25:00 MST"
+        },
+        {
+            "latitude": 33.43641195730319,
+            "longitude": -112.12798340480929,
+            "city": "Phoenix",
+            "boundary": "Buckeye Rd to Yuma St and 33rd Ave",
+            "customers": 17,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-11 10:17:00 MST",
+            "etr": "2026-10-11 14:35:00 MST"
+        }
+    ]
+}
