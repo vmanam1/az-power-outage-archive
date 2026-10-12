@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-11 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 597
+    },
+    "outages": [
+        {
+            "latitude": 35.157631790038444,
+            "longitude": -111.77247349528686,
+            "city": "Flagstaff",
+            "boundary": "Forest Rd 231",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 04:26:00 MST",
+            "etr": "2026-10-11 14:30:00 MST"
+        },
+        {
+            "latitude": 35.2148940001478,
+            "longitude": -111.41216900041198,
+            "city": "Flagstaff",
+            "boundary": "El Paso Natural Gas To  I-40 And Leupp Highway To Walking Cane Ranch",
+            "customers": 216,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 05:45:00 MST",
+            "etr": "2026-10-11 11:40:00 MST"
+        },
+        {
+            "latitude": 34.40808323393456,
+            "longitude": -111.26705371300916,
+            "city": "Payson",
+            "boundary": "Forest Svc Rd 138 to Forest Rd 199 and Forest Svc Rd 32A to White Tail Knob",
+            "customers": 134,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 06:15:00 MST",
+            "etr": "2026-10-11 12:25:00 MST"
+        },
+        {
+            "latitude": 34.95900109200521,
+            "longitude": -110.35996131184538,
+            "city": "Joseph City",
+            "boundary": "3rd North to Old US 66 and O Connell Dr. to Edwards Ave.",
+            "customers": 139,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 07:57:00 MST",
+            "etr": "2026-10-11 11:45:00 MST"
+        },
+        {
+            "latitude": 32.912849800179096,
+            "longitude": -112.89162409966177,
+            "city": "Gila Bend",
+            "boundary": "3/M/N/O I-8 To 1/M/S/O I-8 And Painted Rock Rd To Citrus Valley Rd",
+            "customers": 88,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-11 09:47:00 MST",
+            "etr": "2026-10-11 12:05:00 MST"
+        },
+        {
+            "latitude": 35.18743399978416,
+            "longitude": -111.41518100035564,
+            "city": "Flagstaff",
+            "boundary": "I-40 To South Winona And Forest Service Road 82 To 35Kv Wapa Switch Yard",
+            "customers": 15,
+            "cause": "Service interruption to a major power line",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-11 10:01:00 MST",
+            "etr": "2026-10-11 13:00:00 MST"
+        }
+    ]
+}
