@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-12 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 151
+    },
+    "outages": [
+        {
+            "latitude": 33.758027631292194,
+            "longitude": -112.57561313204671,
+            "city": "Wittmann",
+            "boundary": "White Tanks Mountain",
+            "customers": 18,
+            "cause": "Blown fuse",
+            "comments": "Our crews are working to restore the outage caused by a blown fuse.",
+            "start_time": "2026-10-12 00:00:00 MST",
+            "etr": "2026-10-12 03:00:00 MST"
+        },
+        {
+            "latitude": 33.55566616426662,
+            "longitude": -111.94439761624373,
+            "city": "Paradise Valley",
+            "boundary": "Double Tree Ranch Rd to Mockingbird Ln and 56th St to Invergordon Rd",
+            "customers": 112,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-12 00:36:00 MST",
+            "etr": "2026-10-12 04:00:00 MST"
+        },
+        {
+            "latitude": 34.525837478035136,
+            "longitude": -112.49240036280037,
+            "city": "Prescott",
+            "boundary": "Pine Dr. and Hemlock Ave.",
+            "customers": 11,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-12 01:30:00 MST",
+            "etr": "2026-10-12 04:50:00 MST"
+        },
+        {
+            "latitude": 33.60467372496159,
+            "longitude": -111.86331291727792,
+            "city": "Scottsdale",
+            "boundary": "Dreyfus Ave to Sweetwater Ave and 191st St to 102nd St",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-12 01:35:00 MST",
+            "etr": "2026-10-12 02:45:00 MST"
+        },
+        {
+            "latitude": 33.591798482297584,
+            "longitude": -111.81199863206791,
+            "city": "Scottsdale",
+            "boundary": "Cortez Dr. and 124th St.",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-12 01:34:00 MST",
+            "etr": "2026-10-12 04:25:00 MST"
+        }
+    ]
+}

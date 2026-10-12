@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-12 10:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 136
+    },
+    "outages": [
+        {
+            "latitude": 33.758027631292194,
+            "longitude": -112.57561313204671,
+            "city": "Wittmann",
+            "boundary": "White Tanks Mountain",
+            "customers": 15,
+            "cause": "Blown fuse",
+            "comments": "Our crews are working to restore the outage caused by a blown fuse.",
+            "start_time": "2026-10-12 00:00:00 MST",
+            "etr": "2026-10-12 04:00:00 MST"
+        },
+        {
+            "latitude": 33.55566616426662,
+            "longitude": -111.94439761624373,
+            "city": "Paradise Valley",
+            "boundary": "Double Tree Ranch Rd to Mockingbird Ln and 56th St to Invergordon Rd",
+            "customers": 112,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-12 00:36:00 MST",
+            "etr": "2026-10-12 04:00:00 MST"
+        },
+        {
+            "latitude": 33.455300649928155,
+            "longitude": -112.05519405909581,
+            "city": "Phoenix",
+            "boundary": "Pierce St to Fillmore St and 12th St to 13th St",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-12 02:14:00 MST",
+            "etr": "2026-10-12 03:50:00 MST"
+        }
+    ]
+}

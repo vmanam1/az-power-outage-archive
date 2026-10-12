@@ -1,0 +1,124 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-12 10:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 11,
+        "customers_affected": 66
+    },
+    "outages": [
+        {
+            "latitude": 33.5257159303599,
+            "longitude": -111.8951992059855,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  RD AND E LINCOLN  DR TO E JACKRABBIT  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-12 07:12 MST",
+            "etr": "2026-10-12 09:06 MST"
+        },
+        {
+            "latitude": 33.3350712980076,
+            "longitude": -111.640240208056,
+            "boundary": "S HAWES  RD TO S ELLSWORTH  RD AND E SANTAN  FWY TO E STARFIRE  AVE",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-12 08:01 MST",
+            "etr": "2026-10-12 12:30 MST"
+        },
+        {
+            "latitude": 33.39559440396975,
+            "longitude": -111.68327309503499,
+            "boundary": "S POWER  RD TO S 72ND  ST AND E PUEBLO  AVE TO E SUPERSTITION  FWY",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-12 08:13 MST",
+            "etr": "2026-10-12 13:30 MST"
+        },
+        {
+            "latitude": 33.4288285111617,
+            "longitude": -111.63331723332101,
+            "boundary": "N 88TH  ST TO N 96TH  ST AND E BROWN  RD TO E UNIVERSITY  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-12 08:20 MST",
+            "etr": "2026-10-12 13:30 MST"
+        },
+        {
+            "latitude": 33.5248339587103,
+            "longitude": -112.03810720379249,
+            "boundary": "N PIESTEWA  FWY TO N 24TH  ST AND E MARYLAND  AVE TO E MISSOURI  AVE",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-12 08:40 MST",
+            "etr": "2026-10-12 10:37 MST"
+        },
+        {
+            "latitude": 33.4300542887532,
+            "longitude": -111.80713684147949,
+            "boundary": "N HORNE   TO N HARRIS  DR AND E BROWN  RD TO E UNIVERSITY  DR",
+            "customers": 12,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-10-12 08:04 MST",
+            "etr": "2026-10-12 14:00 MST"
+        },
+        {
+            "latitude": 33.4194125376315,
+            "longitude": -111.63747501624749,
+            "boundary": "N 88TH  ST TO N ELLSWORTH  RD AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-12 09:20 MST",
+            "etr": "2026-10-12 12:19 MST"
+        },
+        {
+            "latitude": 33.4668974137573,
+            "longitude": -111.790987722319,
+            "boundary": "N HARRIS  ST TO N GILBERT  RD AND E OAK  ST TO E HERMOSA VISTA  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-12 09:25 MST",
+            "etr": "2026-10-12 11:25 MST"
+        },
+        {
+            "latitude": 33.4580314951938,
+            "longitude": -111.547959924277,
+            "boundary": "N SAN MARCOS  DR TO N WOLVERINE PASS  RD AND W MCDOWELL  BLVD TO W MCKELLIPS  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-12 07:21 MST",
+            "etr": "2026-10-12 13:59 MST"
+        },
+        {
+            "latitude": 33.41660892032985,
+            "longitude": -111.79476879152901,
+            "boundary": "N STAPLEY  DR TO N GILBERT  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-12 09:34 MST",
+            "etr": "2026-10-12 11:33 MST"
+        },
+        {
+            "latitude": 33.4038253729976,
+            "longitude": -111.8075863564845,
+            "boundary": "S HORNE   TO S HARRIS  DR AND E BROADWAY  RD TO E 8TH  AVE",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-10-12 09:48 MST",
+            "etr": "2026-10-12 14:30 MST"
+        }
+    ]
+}
