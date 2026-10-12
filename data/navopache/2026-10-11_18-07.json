@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-11 18:07:01 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 12,
+        "total_customers": 46002
+    },
+    "outages": [
+        {
+            "latitude": 33.83537296293843,
+            "longitude": -109.97193676027685,
+            "customers": 3,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-11 11:14:24 MST",
+            "etr": null,
+            "incident_id": "535255"
+        },
+        {
+            "latitude": 34.14510675525879,
+            "longitude": -109.96763383006532,
+            "customers": 3,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-10-11 11:44:10 MST",
+            "etr": null,
+            "incident_id": "535257"
+        },
+        {
+            "latitude": 33.84073780997313,
+            "longitude": -109.96493888421259,
+            "customers": 6,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-11 12:06:00 MST",
+            "etr": null,
+            "incident_id": "535262"
+        }
+    ]
+}
