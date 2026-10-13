@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-13 06:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 123
+    },
+    "outages": [
+        {
+            "latitude": 33.56403493317373,
+            "longitude": -112.06321223177734,
+            "city": "Phoenix",
+            "boundary": "Alice Ave. to Ruth Ave. and 8th St. to 10th St.",
+            "customers": 24,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-12 17:58:00 MST",
+            "etr": "2026-10-12 23:45:00 MST"
+        },
+        {
+            "latitude": 33.424400244370354,
+            "longitude": -111.95255963166014,
+            "city": "Tempe",
+            "boundary": "5th St. to 7th St. and Beck Ave. to Hardy Dr.",
+            "customers": 99,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-12 21:14:00 MST",
+            "etr": "2026-10-13 00:15:00 MST"
+        }
+    ]
+}

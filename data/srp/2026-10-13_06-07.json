@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-13 06:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 88
+    },
+    "outages": [
+        {
+            "latitude": 33.414999097279846,
+            "longitude": -111.8862335151045,
+            "boundary": "S PRICE  RD TO S EVERGREEN  RD AND E UNIVERSITY  DR TO W BROADWAY  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 04:34 MST",
+            "etr": "2026-10-13 06:32 MST"
+        },
+        {
+            "latitude": 33.493496038688,
+            "longitude": -112.1842748970565,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 81,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-13 03:21 MST",
+            "etr": "2026-10-13 13:00 MST"
+        }
+    ]
+}
