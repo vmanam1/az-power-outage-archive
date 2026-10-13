@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-13 02:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.65034330825163,
+            "longitude": -112.33105901932123,
+            "city": "Sun City West",
+            "boundary": "Brandywine Dr. to Parkwood Dr. and Maplewood Dr. to 125th Ave.",
+            "customers": 24,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-12 17:07:00 MST",
+            "etr": "2026-10-12 20:00:00 MST"
+        }
+    ]
+}
