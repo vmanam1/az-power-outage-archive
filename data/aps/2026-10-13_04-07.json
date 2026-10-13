@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-13 04:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.56403493317373,
+            "longitude": -112.06321223177734,
+            "city": "Phoenix",
+            "boundary": "Alice Ave. to Ruth Ave. and 8th St. to 10th St.",
+            "customers": 24,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-12 17:58:00 MST",
+            "etr": "2026-10-12 22:45:00 MST"
+        }
+    ]
+}
