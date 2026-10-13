@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-13 08:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 92
+    },
+    "outages": [
+        {
+            "latitude": 33.414999097279846,
+            "longitude": -111.8862335151045,
+            "boundary": "S PRICE  RD TO S EVERGREEN  RD AND E UNIVERSITY  DR TO W BROADWAY  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 04:34 MST",
+            "etr": "2026-10-13 06:32 MST"
+        },
+        {
+            "latitude": 33.493496038688,
+            "longitude": -112.1842748970565,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 81,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-13 03:21 MST",
+            "etr": "2026-10-13 13:00 MST"
+        },
+        {
+            "latitude": 33.3207168911458,
+            "longitude": -111.72212598868501,
+            "boundary": "S GREENFIELD  RD TO S WADE  DR AND E KNOX  RD TO E GALVESTON  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 07:51 MST",
+            "etr": "2026-10-13 13:45 MST"
+        },
+        {
+            "latitude": 33.3207168911458,
+            "longitude": -111.72212598868501,
+            "boundary": "S GREENFIELD  RD TO S WADE  DR AND E KNOX  RD TO E GALVESTON  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 07:51 MST",
+            "etr": "2026-10-13 13:45 MST"
+        },
+        {
+            "latitude": 33.377073057349804,
+            "longitude": -112.12576813111801,
+            "boundary": "S 35TH  AVE TO S 27TH  AVE AND W VINEYARD  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 07:54 MST",
+            "etr": "2026-10-13 12:00 MST"
+        },
+        {
+            "latitude": 33.508804801964104,
+            "longitude": -112.272825470656,
+            "boundary": "N 103RD  AVE TO N 95TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-13 07:59 MST",
+            "etr": "2026-10-13 09:58 MST"
+        }
+    ]
+}
