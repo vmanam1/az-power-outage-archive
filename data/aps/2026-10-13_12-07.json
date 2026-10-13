@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-13 12:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.50254144027457,
+            "longitude": -112.07953023311794,
+            "city": "Phoenix",
+            "boundary": "Minnezona Ave. to Campbell Ave. and 7th Ave. to 3rd Ave.",
+            "customers": 26,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-13 02:11:00 MST",
+            "etr": "2026-10-13 08:05:00 MST"
+        },
+        {
+            "latitude": 33.547772874253596,
+            "longitude": -112.07207727232834,
+            "city": "Phoenix",
+            "boundary": "Kaler Dr to Wagon Wheel Dr and 2nd Ave to 1st St",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-13 04:59:00 MST",
+            "etr": "2026-10-13 08:30:00 MST"
+        }
+    ]
+}
