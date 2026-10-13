@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-13 10:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 37
+    },
+    "outages": [
+        {
+            "latitude": 33.6065404922367,
+            "longitude": -112.04161588972737,
+            "city": "Phoenix",
+            "boundary": "Avenida Del Oro to Sweetwater Ave and 18th Place to 20th St",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-13 00:27:00 MST",
+            "etr": "2026-10-13 04:10:00 MST"
+        },
+        {
+            "latitude": 33.50254144027457,
+            "longitude": -112.07953023311794,
+            "city": "Phoenix",
+            "boundary": "Minnezona Ave. to Campbell Ave. and 7th Ave. to 3rd Ave.",
+            "customers": 26,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-13 02:11:00 MST",
+            "etr": "2026-10-13 08:05:00 MST"
+        }
+    ]
+}
