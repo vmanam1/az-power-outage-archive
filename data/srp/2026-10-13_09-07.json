@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-13 09:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 116
+    },
+    "outages": [
+        {
+            "latitude": 33.493496038688,
+            "longitude": -112.1842748970565,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W CAMPBELL  AVE TO W OSBORN  RD",
+            "customers": 81,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-13 03:21 MST",
+            "etr": "2026-10-13 13:00 MST"
+        },
+        {
+            "latitude": 33.3207168911458,
+            "longitude": -111.72212598868501,
+            "boundary": "S GREENFIELD  RD TO S WADE  DR AND E KNOX  RD TO E GALVESTON  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 07:51 MST",
+            "etr": "2026-10-13 13:45 MST"
+        },
+        {
+            "latitude": 33.3207168911458,
+            "longitude": -111.72212598868501,
+            "boundary": "S GREENFIELD  RD TO S WADE  DR AND E KNOX  RD TO E GALVESTON  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 07:51 MST",
+            "etr": "2026-10-13 13:45 MST"
+        },
+        {
+            "latitude": 33.377073057349804,
+            "longitude": -112.12576813111801,
+            "boundary": "S 35TH  AVE TO S 27TH  AVE AND W VINEYARD  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 07:54 MST",
+            "etr": "2026-10-13 12:00 MST"
+        },
+        {
+            "latitude": 33.529428007457255,
+            "longitude": -112.13905983829,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 08:20 MST",
+            "etr": "2026-10-13 12:30 MST"
+        },
+        {
+            "latitude": 33.518426161105694,
+            "longitude": -111.896767966162,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  RD AND E MCDONALD  DR TO E CHAPARRAL  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 08:24 MST",
+            "etr": "2026-10-13 10:23 MST"
+        },
+        {
+            "latitude": 33.3590529083402,
+            "longitude": -112.0800627397895,
+            "boundary": "S 7TH  AVE TO S CENTRAL  AVE AND W DOBBINS  RD TO W OLNEY  AVE",
+            "customers": 16,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 08:46 MST",
+            "etr": "2026-10-13 12:30 MST"
+        }
+    ]
+}

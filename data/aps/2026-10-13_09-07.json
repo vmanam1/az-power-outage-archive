@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-13 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 21
+    },
+    "outages": [
+        {
+            "latitude": 34.92945888822275,
+            "longitude": -110.14586507559635,
+            "city": "Holbrook",
+            "boundary": "Carlos Ave. and Mission Ln.",
+            "customers": 10,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-13 01:03:00 MST",
+            "etr": "2026-10-13 03:10:00 MST"
+        },
+        {
+            "latitude": 33.6065404922367,
+            "longitude": -112.04161588972737,
+            "city": "Phoenix",
+            "boundary": "Avenida Del Oro to Sweetwater Ave and 18th Place to 20th St",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-13 00:27:00 MST",
+            "etr": "2026-10-13 03:10:00 MST"
+        }
+    ]
+}
