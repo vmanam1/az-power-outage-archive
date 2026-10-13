@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-13 07:07:09 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1213
+    },
+    "outages": [
+        {
+            "latitude": 33.56403493317373,
+            "longitude": -112.06321223177734,
+            "city": "Phoenix",
+            "boundary": "Alice Ave. to Ruth Ave. and 8th St. to 10th St.",
+            "customers": 24,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-12 17:58:00 MST",
+            "etr": "2026-10-13 01:30:00 MST"
+        },
+        {
+            "latitude": 33.65823326622128,
+            "longitude": -112.04980583196932,
+            "city": "Phoenix",
+            "boundary": "Wescott Dr to 14th St and 12th St to 16th St",
+            "customers": 16,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-12 23:10:00 MST",
+            "etr": "2026-10-13 02:00:00 MST"
+        },
+        {
+            "latitude": 33.574763679125205,
+            "longitude": -111.79781931639954,
+            "city": "Scottsdale",
+            "boundary": "Gold Dust Ave. to Appaloosa Pl. and 130th St. to 132nd St.",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-12 23:27:00 MST",
+            "etr": "2026-10-13 02:00:00 MST"
+        },
+        {
+            "latitude": 32.87951190008811,
+            "longitude": -111.77532540017556,
+            "city": "Casa Grande",
+            "boundary": "Clayton Rd To Arica Rd And Montgomery Rd To Trekell Rd",
+            "customers": 1147,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-13 00:04:00 MST",
+            "etr": "2026-10-13 04:00:00 MST"
+        }
+    ]
+}
