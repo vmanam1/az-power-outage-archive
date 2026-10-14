@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-14 07:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 169
+    },
+    "outages": [
+        {
+            "latitude": 32.6808910083399,
+            "longitude": -114.64157313205325,
+            "city": "Yuma",
+            "boundary": "25th St. to 27th St. and 21st Dr. to 19th Dr.",
+            "customers": 27,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-13 21:45:00 MST",
+            "etr": "2026-10-14 01:15:00 MST"
+        },
+        {
+            "latitude": 33.588521521842296,
+            "longitude": -112.06350908275793,
+            "city": "Phoenix",
+            "boundary": "7th St. and 10th St.",
+            "customers": 137,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-13 22:30:00 MST",
+            "etr": "2026-10-14 01:25:00 MST"
+        },
+        {
+            "latitude": 34.427826851328035,
+            "longitude": -111.26288728719555,
+            "city": "Payson",
+            "boundary": "Forest Service Rd 138 to Box Elder Ln and Forest Service Rd 9030T",
+            "customers": 5,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-13 23:48:00 MST",
+            "etr": "2026-10-14 03:15:00 MST"
+        }
+    ]
+}
