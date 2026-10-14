@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-13 19:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 33.616963121747055,
+            "longitude": -112.28665273193369,
+            "city": "Sun City",
+            "boundary": "Talisman Rd. to Del Webb Blvd. and Saratoga Circle South to Tropicana Circle South",
+            "customers": 14,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-13 09:31:00 MST",
+            "etr": "2026-10-13 14:30:00 MST"
+        }
+    ]
+}
