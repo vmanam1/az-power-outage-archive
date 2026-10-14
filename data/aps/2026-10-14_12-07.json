@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-14 12:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 32.7022101791524,
+            "longitude": -114.6272482866139,
+            "city": "Yuma",
+            "boundary": "West 14th St to West 15th St and South 7th Ave to South 6th Ave",
+            "customers": 15,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-14 01:44:00 MST",
+            "etr": "2026-10-14 05:45:00 MST"
+        },
+        {
+            "latitude": 33.62012256810765,
+            "longitude": -112.1390666507998,
+            "city": "Phoenix",
+            "boundary": "West Mauna Loa Ln to West Banff Ln and North 38th Ave to North 37th Ave",
+            "customers": 9,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-14 04:52:00 MST",
+            "etr": "2026-10-14 07:00:00 MST"
+        }
+    ]
+}
