@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-14 10:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 33.41910490565115,
+            "longitude": -111.655477528424,
+            "boundary": "N 80TH  ST TO N HAWES  RD AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 19,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-14 07:12 MST",
+            "etr": "2026-10-14 13:00 MST"
+        },
+        {
+            "latitude": 33.4590642683807,
+            "longitude": -111.58685870206,
+            "boundary": "N SIGNAL BUTTE  RD TO N MERIDIAN  RD AND E MCDOWELL  RD TO W MCKELLIPS  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-14 07:53 MST",
+            "etr": "2026-10-14 12:30 MST"
+        },
+        {
+            "latitude": 33.500014030631,
+            "longitude": -112.153708469946,
+            "boundary": "N 47TH  AVE TO GRAND  AVE AND W CAMPBELL  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-14 08:34 MST",
+            "etr": "2026-10-14 10:36 MST"
+        },
+        {
+            "latitude": 33.524617916077105,
+            "longitude": -112.00074357697599,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E LINCOLN  DR TO E STANFORD  DR",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-14 09:32 MST",
+            "etr": "2026-10-14 13:30 MST"
+        }
+    ]
+}
