@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-14 15:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 141
+    },
+    "outages": [
+        {
+            "latitude": 34.41260671800051,
+            "longitude": -111.26474945435535,
+            "city": "Payson",
+            "boundary": "Forest Service Rd 138 to Forest Rd 199 and Shadow Rim Rd to White Tail Knob",
+            "customers": 132,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-14 07:08:00 MST",
+            "etr": "2026-10-14 10:35:00 MST"
+        },
+        {
+            "latitude": 33.3119978260777,
+            "longitude": -111.84884551818615,
+            "city": "Chandler",
+            "boundary": "Oakland St and Iowa St",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-14 07:37:00 MST",
+            "etr": "2026-10-14 09:00:00 MST"
+        }
+    ]
+}
