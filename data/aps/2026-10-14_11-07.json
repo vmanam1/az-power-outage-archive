@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-14 11:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 79
+    },
+    "outages": [
+        {
+            "latitude": 32.7022101791524,
+            "longitude": -114.6272482866139,
+            "city": "Yuma",
+            "boundary": "West 14th St to West 15th St and South 7th Ave to South 6th Ave",
+            "customers": 15,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-14 01:44:00 MST",
+            "etr": "2026-10-14 05:45:00 MST"
+        },
+        {
+            "latitude": 33.6605009013496,
+            "longitude": -112.20481473810997,
+            "city": "Glendale",
+            "boundary": "West Tonto Dr to West Kristal Wy and North 68th Ave to North 67th Dr",
+            "customers": 64,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-14 04:01:00 MST",
+            "etr": "2026-10-14 06:30:00 MST"
+        }
+    ]
+}
