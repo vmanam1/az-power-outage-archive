@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-14 09:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 33.43737615596355,
+            "longitude": -112.09790561630936,
+            "city": "Phoenix",
+            "boundary": "Maricopa St and 18th Ave",
+            "customers": 11,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-13 21:01:00 MST",
+            "etr": "2026-10-14 03:30:00 MST"
+        },
+        {
+            "latitude": 32.7022101791524,
+            "longitude": -114.6272482866139,
+            "city": "Yuma",
+            "boundary": "West 13th St to West 14th St and South 7th Ave to South 6th Ave",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-14 01:46:00 MST",
+            "etr": "2026-10-14 03:45:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-14 09:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 45999
+    },
+    "outages": [
+        {
+            "latitude": 34.41461134827156,
+            "longitude": -110.55157469743565,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "There is currently no outage at this location. We tested the meter for power and we have good voltage. If your meter has a display then there is power to the meter. We recommend to check all your breakers, including the main disconnect out by the meter. Be sure you turn the main breaker all the way off & then back on. If that does not rectify the problem, you may need to contact an electrician as NEC does not provide a service for equipment on your side of the meter. Thank you",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-14 08:00:09 MST",
+            "etr": null,
+            "incident_id": "535301"
+        },
+        {
+            "latitude": 34.11168150560611,
+            "longitude": -109.91156997317562,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-10-14 08:36:23 MST",
+            "etr": null,
+            "incident_id": "535302"
+        },
+        {
+            "latitude": 34.124949081885255,
+            "longitude": -109.26655264962949,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-14 09:01:49 MST",
+            "etr": null,
+            "incident_id": "535303"
+        }
+    ]
+}
