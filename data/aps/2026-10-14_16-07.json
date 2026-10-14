@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-14 16:07:07 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 132
+    },
+    "outages": [
+        {
+            "latitude": 34.41260671800051,
+            "longitude": -111.26474945435535,
+            "city": "Payson",
+            "boundary": "Forest Service Rd 138 to Forest Rd 199 and Shadow Rim Rd to White Tail Knob",
+            "customers": 132,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-14 07:08:00 MST",
+            "etr": "2026-10-14 10:35:00 MST"
+        }
+    ]
+}
