@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-14 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 33.41910490565115,
+            "longitude": -111.655477528424,
+            "boundary": "N 80TH  ST TO N HAWES  RD AND E UNIVERSITY  DR TO E MAIN  ST",
+            "customers": 19,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-14 07:12 MST",
+            "etr": "2026-10-14 13:00 MST"
+        },
+        {
+            "latitude": 33.4590642683807,
+            "longitude": -111.58685870206,
+            "boundary": "N SIGNAL BUTTE  RD TO N MERIDIAN  RD AND E MCDOWELL  RD TO W MCKELLIPS  BLVD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-14 07:53 MST",
+            "etr": "2026-10-14 12:30 MST"
+        }
+    ]
+}

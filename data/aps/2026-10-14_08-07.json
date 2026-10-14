@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-14 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 11
+    },
+    "outages": [
+        {
+            "latitude": 33.43737615596355,
+            "longitude": -112.09790561630936,
+            "city": "Phoenix",
+            "boundary": "Maricopa St and 18th Ave",
+            "customers": 11,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-13 21:01:00 MST",
+            "etr": "2026-10-14 03:30:00 MST"
+        }
+    ]
+}
