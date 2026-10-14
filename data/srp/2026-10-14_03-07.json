@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-14 03:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 33.3830742060729,
+            "longitude": -111.80826055800699,
+            "boundary": "S SUPERSTITION  FWY TO S STAPLEY  DR AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-13 22:54 MST",
+            "etr": "2026-10-14 04:00 MST"
+        },
+        {
+            "latitude": 33.3009127917245,
+            "longitude": -111.899510841651,
+            "boundary": "S CHANDLER VILLAGE  DR TO S PRICE  FWY AND W CHANDLER  BLVD TO W FRYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-13 23:22 MST",
+            "etr": "2026-10-14 04:05 MST"
+        }
+    ]
+}
