@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-15 13:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 80
+    },
+    "outages": [
+        {
+            "latitude": 34.409464812100865,
+            "longitude": -111.26692821836399,
+            "city": "Payson",
+            "boundary": "Forest Service Road 138 to Pleasant Ln and Forest Service Road 199",
+            "customers": 65,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 03:49:00 MST",
+            "etr": "2026-10-15 07:15:00 MST"
+        },
+        {
+            "latitude": 34.362734410246325,
+            "longitude": -110.00157171164422,
+            "city": "Show Low",
+            "boundary": "White Mountain Lake Rd and Silver Creek Dr",
+            "customers": 15,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 05:30:00 MST",
+            "etr": "2026-10-15 08:30:00 MST"
+        }
+    ]
+}

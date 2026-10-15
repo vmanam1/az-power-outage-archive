@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-15 13:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.4151323956752,
+            "longitude": -111.682522831254,
+            "boundary": "S 64TH  ST TO S 72ND  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-15 12:12 MST",
+            "etr": "2026-10-15 19:00 MST"
+        }
+    ]
+}
