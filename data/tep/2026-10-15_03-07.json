@@ -1,0 +1,78 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-10-15 03:07:11 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 52,
+        "map_last_refreshed": "Oct 15, 3:06 AM"
+    },
+    "outages": [
+        {
+            "latitude": 32.321144448514026,
+            "longitude": -111.0418602215872,
+            "boundary": {
+                "coordLatSW": "32.319750430935997",
+                "coordLngSW": "-111.04248430888299",
+                "coordLatNE": "32.3229351943789",
+                "coordLngNE": "-111.04133638621499",
+                "coordLatCenter": "32.321342",
+                "coordLngCenter": "-111.041916"
+            },
+            "customers": 50,
+            "cause": null,
+            "comments": "Crew On Scene",
+            "start_time": "2026-10-15 00:55 MST",
+            "etr": "2026-10-15 03:16 MST",
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-10-15 03:01 MST"
+        },
+        {
+            "latitude": 32.3410700027665,
+            "longitude": -111.015593948678,
+            "boundary": {
+                "coordLatSW": "32.3410700027665",
+                "coordLngSW": "-111.015593948678",
+                "coordLatNE": "32.3410700027665",
+                "coordLngNE": "-111.015593948678",
+                "coordLatCenter": "32.34107",
+                "coordLngCenter": "-111.015594"
+            },
+            "customers": 1,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-10-15 00:40 MST",
+            "etr": "2026-10-15 03:10 MST",
+            "event": "Planned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-10-15 03:00 MST"
+        },
+        {
+            "latitude": 32.3404054293081,
+            "longitude": -111.01548920914999,
+            "boundary": {
+                "coordLatSW": "32.340405429308099",
+                "coordLngSW": "-111.01548920914999",
+                "coordLatNE": "32.340405429308099",
+                "coordLngNE": "-111.01548920914999",
+                "coordLatCenter": "32.340405",
+                "coordLngCenter": "-111.01549"
+            },
+            "customers": 1,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-10-15 00:40 MST",
+            "etr": "2026-10-15 03:10 MST",
+            "event": "Planned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-10-15 03:00 MST"
+        }
+    ]
+}
