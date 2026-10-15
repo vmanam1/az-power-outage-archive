@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-14 22:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 39
+    },
+    "outages": [
+        {
+            "latitude": 34.56985853714548,
+            "longitude": -111.86107081216029,
+            "city": "Camp Verde",
+            "boundary": "Angus Dr. to Finne Flat Rd. and Shorthorn Dr.",
+            "customers": 33,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-14 13:26:00 MST",
+            "etr": "2026-10-14 16:40:00 MST"
+        },
+        {
+            "latitude": 34.74538799113598,
+            "longitude": -112.02806439942455,
+            "city": "Cottonwood",
+            "boundary": "Verde Heights Dr. and Balboa St.",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-14 14:50:00 MST",
+            "etr": "2026-10-14 17:55:00 MST"
+        }
+    ]
+}
