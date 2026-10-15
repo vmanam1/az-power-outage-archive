@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-15 10:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 56
+    },
+    "outages": [
+        {
+            "latitude": 35.218366608033435,
+            "longitude": -111.61945871792291,
+            "city": "Flagstaff",
+            "boundary": "East Park Wy to East Cedar Ave and Grand View Dr",
+            "customers": 27,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 01:06:00 MST",
+            "etr": "2026-10-15 04:00:00 MST"
+        },
+        {
+            "latitude": 34.72023891688146,
+            "longitude": -111.99703591757122,
+            "city": "Cottonwood",
+            "boundary": "AZ 89A to Bates Rd and Uvx Rd",
+            "customers": 16,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-15 01:03:00 MST",
+            "etr": "2026-10-15 04:25:00 MST"
+        },
+        {
+            "latitude": 33.58095083005561,
+            "longitude": -111.9054906865665,
+            "city": "Scottsdale",
+            "boundary": "East Shae Bv to East Quarter Horse Tl and North 81st St to East Appaloosa Tl",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 02:56:00 MST",
+            "etr": "2026-10-15 05:00:00 MST"
+        },
+        {
+            "latitude": 33.82349209123646,
+            "longitude": -111.87169284511762,
+            "city": "Scottsdale",
+            "boundary": "East Cave Creek Rd to North 97th Wy and East Mirabel Club Dr",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-15 02:54:00 MST",
+            "etr": "2026-10-15 04:00:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "DIXIE",
+        "scraped_at": "2026-10-15 10:07:11 MST",
+        "source": "DIXIE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 36722
+    },
+    "outages": [
+        {
+            "latitude": 37.0021394271459,
+            "longitude": -113.60146288528009,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Dixie Area",
+            "start_time": "2026-10-15 09:49:43 MST",
+            "etr": "2026-10-15 12:00:00 MST",
+            "incident_id": "261230"
+        }
+    ]
+}
