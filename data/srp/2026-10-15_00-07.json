@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-15 00:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 51
+    },
+    "outages": [
+        {
+            "latitude": 33.43672176081165,
+            "longitude": -111.7610177312965,
+            "boundary": "N LINDSAY  RD TO N VAL VISTA  DR AND E MCLELLAN  RD TO E ADOBE  ST",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-14 22:49 MST",
+            "etr": "2026-10-15 00:51 MST"
+        },
+        {
+            "latitude": 33.36847082233345,
+            "longitude": -111.79535939118401,
+            "boundary": "N COOPER  RD TO N GILBERT  RD AND W HOUSTON  AVE TO W GUADALUPE  RD",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-14 23:20 MST",
+            "etr": "2026-10-15 01:19 MST"
+        },
+        {
+            "latitude": 33.4065339941232,
+            "longitude": -111.89931005652599,
+            "boundary": "S MCCLINTOCK  DR TO S PRICE  RD AND E APACHE  BLVD TO E ALAMEDA  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-14 22:20 MST",
+            "etr": "2026-10-15 01:00 MST"
+        },
+        {
+            "latitude": 33.579842023874704,
+            "longitude": -112.15360954655401,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W PEORIA  AVE TO W MOUNTAIN VIEW  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-14 23:35 MST",
+            "etr": "2026-10-15 01:36 MST"
+        }
+    ]
+}
