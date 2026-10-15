@@ -1,0 +1,103 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-15 15:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 13,
+        "total_customers": 58062
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.44955915390351,
+            "longitude": -111.3430084291608,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-10-15 08:10:27 MST",
+            "etr": null,
+            "incident_id": "389910"
+        },
+        {
+            "latitude": 32.44440422532543,
+            "longitude": -111.31230401274533,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley North",
+            "start_time": "2026-10-15 14:36:26 MST",
+            "etr": null,
+            "incident_id": "389918"
+        },
+        {
+            "latitude": 32.15950959068152,
+            "longitude": -111.08765332646145,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-08 08:48:41 MST",
+            "etr": null,
+            "incident_id": "389818"
+        },
+        {
+            "latitude": 31.946561226526114,
+            "longitude": -110.79246692405867,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-10-15 14:15:21 MST",
+            "etr": null,
+            "incident_id": "389917"
+        },
+        {
+            "latitude": 32.40339688656136,
+            "longitude": -111.34649389246368,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley North",
+            "start_time": "2026-10-15 14:05:17 MST",
+            "etr": "2026-10-15 17:05:17 MST",
+            "incident_id": "389916"
+        },
+        {
+            "latitude": 32.35373548411346,
+            "longitude": -111.30557563126634,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley South",
+            "start_time": "2026-10-15 13:20:55 MST",
+            "etr": null,
+            "incident_id": "389915"
+        },
+        {
+            "latitude": 32.364707949940474,
+            "longitude": -111.29114868780137,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley South",
+            "start_time": "2026-10-15 13:09:08 MST",
+            "etr": null,
+            "incident_id": "389914"
+        }
+    ]
+}
