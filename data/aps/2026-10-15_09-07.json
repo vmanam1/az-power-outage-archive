@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-15 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 63
+    },
+    "outages": [
+        {
+            "latitude": 35.218366608033435,
+            "longitude": -111.61945871792291,
+            "city": "Flagstaff",
+            "boundary": "East Park Wy to East Cedar Ave and Grand View Dr",
+            "customers": 27,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 01:06:00 MST",
+            "etr": "2026-10-15 04:00:00 MST"
+        },
+        {
+            "latitude": 34.72023891688146,
+            "longitude": -111.99703591757122,
+            "city": "Cottonwood",
+            "boundary": "AZ 89A to Bates Rd and Uvx Rd",
+            "customers": 16,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-15 01:03:00 MST",
+            "etr": "2026-10-15 04:25:00 MST"
+        },
+        {
+            "latitude": 33.617549997190146,
+            "longitude": -112.1648721299619,
+            "city": "Glendale",
+            "boundary": "West Acoma Dr to West Evans Dr and North 51st Ave to North 49th Ave",
+            "customers": 20,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-15 01:36:00 MST",
+            "etr": "2026-10-15 04:30:00 MST"
+        }
+    ]
+}
