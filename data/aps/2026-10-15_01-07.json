@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-15 01:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 244
+    },
+    "outages": [
+        {
+            "latitude": 34.56985853714548,
+            "longitude": -111.86107081216029,
+            "city": "Camp Verde",
+            "boundary": "Angus Dr. to Finne Flat Rd. and Shorthorn Dr.",
+            "customers": 10,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-14 13:26:00 MST",
+            "etr": "2026-10-14 19:00:00 MST"
+        },
+        {
+            "latitude": 35.2148940001478,
+            "longitude": -111.41216900041198,
+            "city": "Flagstaff",
+            "boundary": "El Paso Natural Gas To  I-40 And Leupp Highway To Walking Cane Ranch",
+            "customers": 216,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-14 15:18:00 MST",
+            "etr": "2026-10-14 19:00:00 MST"
+        },
+        {
+            "latitude": 35.18743399978416,
+            "longitude": -111.41518100035564,
+            "city": "Flagstaff",
+            "boundary": "I-40 To South Winona And Forest Service Road 82 To 35Kv Wapa Switch Yard",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-14 15:29:00 MST",
+            "etr": "2026-10-14 19:00:00 MST"
+        }
+    ]
+}
