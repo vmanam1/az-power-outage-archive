@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-15 12:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 191
+    },
+    "outages": [
+        {
+            "latitude": 33.42706389894255,
+            "longitude": -111.5711993466615,
+            "boundary": "N MERIDIAN  RD TO N IRONWOOD  DR AND W TEPEE  ST TO W SUPERSTITION  BLVD",
+            "customers": 48,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-15 07:36 MST",
+            "etr": "2026-10-15 15:00 MST"
+        },
+        {
+            "latitude": 33.3968915910345,
+            "longitude": -111.873861933411,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-15 04:52 MST",
+            "etr": "2026-10-15 13:59 MST"
+        },
+        {
+            "latitude": 33.4104956265947,
+            "longitude": -112.078255859853,
+            "boundary": "S 7TH  AVE TO S CENTRAL  AVE AND W ELWOOD  ST TO W BROADWAY  RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-15 08:01 MST",
+            "etr": "2026-10-15 14:00 MST"
+        },
+        {
+            "latitude": 33.40324572330201,
+            "longitude": -111.562911156624,
+            "boundary": "S DELAWARE  DR TO S SAN MARCOS  DR AND W BROADWAY  AVE TO W 16TH  AVE",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-15 11:42 MST",
+            "etr": "2026-10-15 13:42 MST"
+        },
+        {
+            "latitude": 33.22408241903355,
+            "longitude": -111.874447096638,
+            "boundary": "S SUN LAKES  BLVD TO S ALMA SCHOOL  RD AND W CHANDLER HEIGHTS  RD TO E RIGGS  RD",
+            "customers": 124,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-15 11:58 MST",
+            "etr": "2026-10-15 13:55 MST"
+        }
+    ]
+}
