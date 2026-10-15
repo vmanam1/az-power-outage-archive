@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-15 14:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 21
+    },
+    "outages": [
+        {
+            "latitude": 33.4151323956752,
+            "longitude": -111.682522831254,
+            "boundary": "S 64TH  ST TO S 72ND  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-15 12:12 MST",
+            "etr": "2026-10-15 19:00 MST"
+        },
+        {
+            "latitude": 33.3815429012577,
+            "longitude": -111.717688065763,
+            "boundary": "N HIGLEY  RD TO N 172ND  ST AND E SUPERSTITION  FWY TO E BASELINE  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-15 13:35 MST",
+            "etr": "2026-10-15 15:22 MST"
+        },
+        {
+            "latitude": 33.395447744013296,
+            "longitude": -112.0093812326595,
+            "boundary": "S 32ND  ST TO S 36TH  ST AND E ROESER  RD TO E SOUTHERN  AVE",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-10-15 14:01 MST",
+            "etr": "2026-10-15 15:54 MST"
+        }
+    ]
+}
