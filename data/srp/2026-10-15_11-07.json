@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-15 11:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 74
+    },
+    "outages": [
+        {
+            "latitude": 33.42706389894255,
+            "longitude": -111.5711993466615,
+            "boundary": "N MERIDIAN  RD TO N IRONWOOD  DR AND W TEPEE  ST TO W SUPERSTITION  BLVD",
+            "customers": 48,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-15 07:36 MST",
+            "etr": "2026-10-15 15:00 MST"
+        },
+        {
+            "latitude": 33.41029378337815,
+            "longitude": -112.082784035927,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W ELWOOD  ST TO W BROADWAY  RD",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-15 07:38 MST",
+            "etr": "2026-10-15 14:37 MST"
+        },
+        {
+            "latitude": 33.3968915910345,
+            "longitude": -111.873861933411,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-15 04:52 MST",
+            "etr": "2026-10-15 13:59 MST"
+        },
+        {
+            "latitude": 33.4104956265947,
+            "longitude": -112.078255859853,
+            "boundary": "S 7TH  AVE TO S CENTRAL  AVE AND W ELWOOD  ST TO W BROADWAY  RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-15 08:01 MST",
+            "etr": "2026-10-15 14:00 MST"
+        }
+    ]
+}

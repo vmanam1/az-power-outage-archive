@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-15 11:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 153
+    },
+    "outages": [
+        {
+            "latitude": 33.60647398222007,
+            "longitude": -112.17830264684034,
+            "city": "Glendale",
+            "boundary": "West Eugie Ave to West Pershing Ave and North 56th Ave to North 54th Dr",
+            "customers": 19,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 03:38:00 MST",
+            "etr": "2026-10-15 06:30:00 MST"
+        },
+        {
+            "latitude": 34.409464812100865,
+            "longitude": -111.26692821836399,
+            "city": "Payson",
+            "boundary": "Forest Service Road 138 to Pleasant Ln and Forest Service Road 199",
+            "customers": 134,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 03:49:00 MST",
+            "etr": "2026-10-15 07:15:00 MST"
+        }
+    ]
+}
