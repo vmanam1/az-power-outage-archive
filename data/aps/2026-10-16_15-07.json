@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-16 15:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 617
+    },
+    "outages": [
+        {
+            "latitude": 32.626383435811285,
+            "longitude": -114.54660648942252,
+            "city": "Yuma",
+            "boundary": "47th St to County 15 3/4St and Avenue 4 East to Avenue 7 East",
+            "customers": 305,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-10-16 04:19:00 MST",
+            "etr": "2026-10-16 09:00:00 MST"
+        },
+        {
+            "latitude": 32.71164876537116,
+            "longitude": -114.62065387897901,
+            "city": "Yuma",
+            "boundary": "7th St to Wellington St and 1st Ave",
+            "customers": 21,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-16 05:49:00 MST",
+            "etr": "2026-10-16 10:00:00 MST"
+        },
+        {
+            "latitude": 33.45749542706719,
+            "longitude": -112.06604934231163,
+            "city": "Phoenix",
+            "boundary": "Garfield St and 6th St",
+            "customers": 291,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-16 06:58:00 MST",
+            "etr": "2026-10-16 10:30:00 MST"
+        }
+    ]
+}
