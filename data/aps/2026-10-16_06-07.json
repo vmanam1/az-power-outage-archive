@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-16 06:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 524
+    },
+    "outages": [
+        {
+            "latitude": 34.428581999935,
+            "longitude": -112.59596600002924,
+            "city": "Kirkland",
+            "boundary": "Webster Road To Steven Trail And Donegal Drive To Wexford Drive",
+            "customers": 518,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-15 22:06:00 MST",
+            "etr": "2026-10-16 01:05:00 MST"
+        },
+        {
+            "latitude": 35.243162422682765,
+            "longitude": -111.71593530098548,
+            "city": "Flagstaff",
+            "boundary": "Snow Bowl Rd.",
+            "customers": 6,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-15 22:10:00 MST",
+            "etr": "2026-10-16 00:50:00 MST"
+        }
+    ]
+}
