@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-16 05:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.2843986586778,
+            "longitude": -111.6588046206395,
+            "boundary": "S SOSSAMAN  RD TO S HAWES  RD AND E PECOS  RD TO E GERMANN  RD",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-16 04:21 MST",
+            "etr": "2026-10-16 06:20 MST"
+        },
+        {
+            "latitude": 33.5076464828758,
+            "longitude": -112.086730228506,
+            "boundary": "N 15TH  AVE TO N 7TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-16 04:26 MST",
+            "etr": "2026-10-16 09:47 MST"
+        }
+    ]
+}
