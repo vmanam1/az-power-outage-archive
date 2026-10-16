@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-16 09:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 378
+    },
+    "outages": [
+        {
+            "latitude": 33.5076464828758,
+            "longitude": -112.086730228506,
+            "boundary": "N 15TH  AVE TO N 7TH  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-16 04:26 MST",
+            "etr": "2026-10-16 09:47 MST"
+        },
+        {
+            "latitude": 33.496363134611,
+            "longitude": -111.96270302334099,
+            "boundary": "N 52ND  ST TO N JOKAKE  DR AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-16 07:22 MST",
+            "etr": "2026-10-16 09:20 MST"
+        },
+        {
+            "latitude": 33.42638450436385,
+            "longitude": -111.572587367607,
+            "boundary": "N MERIDIAN  RD TO N IRONWOOD  DR AND W TEPEE  ST TO W SUPERSTITION  BLVD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-16 07:51 MST",
+            "etr": "2026-10-16 12:51 MST"
+        },
+        {
+            "latitude": 33.425441285072196,
+            "longitude": -111.637262059546,
+            "boundary": "N 88TH  ST TO N ELLSWORTH  RD AND E ADOBE  RD TO E UNIVERSITY  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-16 07:56 MST",
+            "etr": "2026-10-16 11:56 MST"
+        },
+        {
+            "latitude": 33.4766300450936,
+            "longitude": -112.022141101128,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E THOMAS  RD TO E OAK  ST",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-16 08:07 MST",
+            "etr": "2026-10-16 10:06 MST"
+        },
+        {
+            "latitude": 33.5130035519324,
+            "longitude": -112.03146532520151,
+            "boundary": "N PIESTEWA  FWY TO N 28TH  ST AND E BETHANY HOME  RD TO E CAMPBELL  AVE",
+            "customers": 314,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-16 07:55 MST",
+            "etr": "2026-10-16 10:01 MST"
+        },
+        {
+            "latitude": 33.32753428190405,
+            "longitude": -111.987071810954,
+            "boundary": "S 40TH  ST TO S 48TH  ST AND E WARNER  RD TO E KNOX  RD",
+            "customers": 35,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-16 07:45 MST",
+            "etr": "2026-10-16 09:45 MST"
+        }
+    ]
+}

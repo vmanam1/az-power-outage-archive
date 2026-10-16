@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-16 09:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 32.491922564835384,
+            "longitude": -114.79271058857684,
+            "city": "San Luis",
+            "boundary": "D St to C St and Teresitas Ave to Los Jardines",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 23:21:00 MST",
+            "etr": "2026-10-16 02:45:00 MST"
+        },
+        {
+            "latitude": 33.73251986916359,
+            "longitude": -111.98866671831097,
+            "city": "Cave Creek",
+            "boundary": "East Pinnacle Vista Dr to East Bajada Rd and North 32nd St to North 44th St",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-16 01:38:00 MST",
+            "etr": "2026-10-16 04:30:00 MST"
+        }
+    ]
+}
