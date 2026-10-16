@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-16 13:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 430
+    },
+    "outages": [
+        {
+            "latitude": 32.626383435811285,
+            "longitude": -114.54660648942252,
+            "city": "Yuma",
+            "boundary": "47th St to County 15 3/4St and Avenue 4 East to Avenue 7 East",
+            "customers": 304,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-16 04:19:00 MST",
+            "etr": "2026-10-16 07:45:00 MST"
+        },
+        {
+            "latitude": 33.430692741144235,
+            "longitude": -110.7790393894359,
+            "city": "Globe",
+            "boundary": "Bluejay Ln to Knolls Rd and Broad St to Black Peak Rd",
+            "customers": 16,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-16 04:30:00 MST",
+            "etr": "2026-10-16 07:30:00 MST"
+        },
+        {
+            "latitude": 32.912849800179096,
+            "longitude": -112.89162409966177,
+            "city": "Gila Bend",
+            "boundary": "3/M/N/O I-8 To 1/M/S/O I-8 And Painted Rock Rd To Citrus Valley Rd",
+            "customers": 89,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-16 05:07:00 MST",
+            "etr": "2026-10-16 07:30:00 MST"
+        },
+        {
+            "latitude": 32.71164876537116,
+            "longitude": -114.62065387897901,
+            "city": "Yuma",
+            "boundary": "7th St to Wellington St and 1st Ave",
+            "customers": 21,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-16 05:49:00 MST",
+            "etr": "2026-10-16 10:00:00 MST"
+        }
+    ]
+}
