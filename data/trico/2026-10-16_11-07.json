@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-16 11:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 19,
+        "total_customers": 58070
+    },
+    "outages": [
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-09-07 08:00:00 MST",
+            "etr": "2026-09-07 10:00:00 MST",
+            "incident_id": "387922"
+        },
+        {
+            "latitude": 32.34734564795124,
+            "longitude": -111.21342644940853,
+            "customers": 4,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-10-16 09:38:34 MST",
+            "etr": "2026-10-16 12:38:34 MST",
+            "incident_id": "389932"
+        },
+        {
+            "latitude": 32.1565588558683,
+            "longitude": -111.08085307975972,
+            "customers": 4,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Valencia",
+            "start_time": "2026-10-16 09:08:48 MST",
+            "etr": "2026-10-16 12:08:48 MST",
+            "incident_id": "389930"
+        },
+        {
+            "latitude": 32.313575233029916,
+            "longitude": -111.25262892841296,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-10-16 08:00:00 MST",
+            "etr": "2026-10-16 13:00:00 MST",
+            "incident_id": "389908"
+        },
+        {
+            "latitude": 32.15950959068152,
+            "longitude": -111.08765332646145,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-08 08:48:41 MST",
+            "etr": null,
+            "incident_id": "389818"
+        },
+        {
+            "latitude": 32.16214844011048,
+            "longitude": -111.02856214706385,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Valencia",
+            "start_time": "2026-10-16 10:53:03 MST",
+            "etr": null,
+            "incident_id": "389936"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-16 11:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 187
+    },
+    "outages": [
+        {
+            "latitude": 32.491922564835384,
+            "longitude": -114.79271058857684,
+            "city": "San Luis",
+            "boundary": "D St to C St and Teresitas Ave to Los Jardines",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 23:21:00 MST",
+            "etr": "2026-10-16 04:45:00 MST"
+        },
+        {
+            "latitude": 33.73251986916359,
+            "longitude": -111.98866671831097,
+            "city": "Cave Creek",
+            "boundary": "East Pinnacle Vista Dr to East Bajada Rd and North 32nd St to North 44th St",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-16 01:38:00 MST",
+            "etr": "2026-10-16 04:30:00 MST"
+        },
+        {
+            "latitude": 33.42480745217536,
+            "longitude": -112.34829604929976,
+            "city": "Avondale",
+            "boundary": "Mountain View Dr and Central Ave to 2nd St",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-16 02:06:00 MST",
+            "etr": "2026-10-16 06:00:00 MST"
+        },
+        {
+            "latitude": 33.56083681964693,
+            "longitude": -111.91519262997554,
+            "city": "Scottsdale",
+            "boundary": "Doubletree Ranch Rd to Via De Ventura and Vaquero Dr",
+            "customers": 29,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-16 03:22:00 MST",
+            "etr": "2026-10-16 07:22:00 MST"
+        },
+        {
+            "latitude": 33.31715400022271,
+            "longitude": -112.62079200022299,
+            "city": "Buckeye",
+            "boundary": "Narramore Rd To S/O Gila River To Wilson Rd To Rooks Rd",
+            "customers": 11,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-16 03:38:00 MST",
+            "etr": "2026-10-16 09:30:00 MST"
+        },
+        {
+            "latitude": 31.35043369662958,
+            "longitude": -109.52549340565898,
+            "city": "Douglas",
+            "boundary": "Hohokam Dr to East 15th St and Washington Ave to Rogers Ave",
+            "customers": 121,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-16 02:28:00 MST",
+            "etr": "2026-10-16 05:45:00 MST"
+        }
+    ]
+}
