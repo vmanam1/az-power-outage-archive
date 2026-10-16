@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-16 08:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 453
+    },
+    "outages": [
+        {
+            "latitude": 35.243162422682765,
+            "longitude": -111.71593530098548,
+            "city": "Flagstaff",
+            "boundary": "Snow Bowl Rd.",
+            "customers": 6,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-15 22:10:00 MST",
+            "etr": "2026-10-16 01:45:00 MST"
+        },
+        {
+            "latitude": 32.491922564835384,
+            "longitude": -114.79271058857684,
+            "city": "San Luis",
+            "boundary": "D St to C St and Teresitas Ave to Los Jardines",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 23:21:00 MST",
+            "etr": "2026-10-16 02:45:00 MST"
+        },
+        {
+            "latitude": 31.350592872705512,
+            "longitude": -109.52138738705665,
+            "city": "Douglas",
+            "boundary": "Hohokam Dr to East 15th St and Apache Dr to Rogers Ave",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 23:24:00 MST",
+            "etr": "2026-10-16 03:45:00 MST"
+        },
+        {
+            "latitude": 33.293905616080025,
+            "longitude": -111.09953974697218,
+            "city": "Superior",
+            "boundary": "Main St and Lobb Ave",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-15 23:30:00 MST",
+            "etr": "2026-10-16 02:00:00 MST"
+        },
+        {
+            "latitude": 33.74726665620713,
+            "longitude": -112.54337778876199,
+            "city": "Morristown",
+            "boundary": "West Dove Valley Rd to West Dixileta Dr and North 239th Ave to North Crozier Rd",
+            "customers": 421,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 23:52:00 MST",
+            "etr": "2026-10-16 03:30:00 MST"
+        }
+    ]
+}
