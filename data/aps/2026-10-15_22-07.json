@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-15 22:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 187
+    },
+    "outages": [
+        {
+            "latitude": 34.40528597707124,
+            "longitude": -111.49639159731024,
+            "city": "Pine",
+            "boundary": "West Fossil Creek Rd to West Bonnie Brae Dr and North Fuller Rd to West Rallis Dr",
+            "customers": 21,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 07:37:00 MST",
+            "etr": "2026-10-15 17:00:00 MST"
+        },
+        {
+            "latitude": 33.4553175918984,
+            "longitude": -111.99213408325531,
+            "city": "Phoenix",
+            "boundary": "Beatrice St. to Gateway Commerce Park Blvd. and 40th St. to 42nd St.",
+            "customers": 166,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-15 14:22:00 MST",
+            "etr": "2026-10-15 18:00:00 MST"
+        }
+    ]
+}
