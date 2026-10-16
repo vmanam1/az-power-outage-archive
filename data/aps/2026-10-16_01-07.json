@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-16 01:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 133
+    },
+    "outages": [
+        {
+            "latitude": 32.50376210207419,
+            "longitude": -114.78551639109814,
+            "city": "San Luis",
+            "boundary": "County 22nd St. South to Los Oros St. and Avenue J to Rio Seco St.",
+            "customers": 133,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-15 16:04:00 MST",
+            "etr": "2026-10-15 19:30:00 MST"
+        }
+    ]
+}
