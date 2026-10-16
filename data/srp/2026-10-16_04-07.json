@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-16 04:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 31
+    },
+    "outages": [
+        {
+            "latitude": 33.3307344095871,
+            "longitude": -111.8657703315155,
+            "boundary": "N DOBSON  RD TO N ALMA SCHOOL  RD AND W WARNER  RD TO W KNOX  RD",
+            "customers": 31,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-16 03:15 MST",
+            "etr": "2026-10-16 05:15 MST"
+        }
+    ]
+}
