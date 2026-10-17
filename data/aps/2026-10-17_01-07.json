@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-17 01:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1623
+    },
+    "outages": [
+        {
+            "latitude": 33.433214412112775,
+            "longitude": -110.77611467789006,
+            "city": "Globe",
+            "boundary": "Copper Canyon Dr. and Black Peak Rd.",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-16 14:32:00 MST",
+            "etr": "2026-10-16 21:00:00 MST"
+        },
+        {
+            "latitude": 33.28564099973538,
+            "longitude": -111.11594900007765,
+            "city": "Superior",
+            "boundary": "Hewitt Station Rd. to Highlands Dr. and Mary Rd. to Ray Rd.",
+            "customers": 1606,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-10-16 17:09:00 MST",
+            "etr": "2026-10-16 20:45:00 MST"
+        }
+    ]
+}
