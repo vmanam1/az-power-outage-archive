@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-17 09:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.6110793420454,
+            "longitude": -112.1994301820435,
+            "boundary": "N 67TH  AVE TO N 63RD  AVE AND W ACOMA  DR TO W SWEETWATER  AVE",
+            "customers": 5,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-17 02:13 MST",
+            "etr": "2026-10-17 10:00 MST"
+        },
+        {
+            "latitude": 33.279814386022096,
+            "longitude": -111.831721824566,
+            "boundary": "S ARIZONA  AVE TO S MCQUEEN  RD AND E WILLIS  RD TO E GERMANN  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-17 06:52 MST",
+            "etr": "2026-10-17 12:00 MST"
+        },
+        {
+            "latitude": 33.232807685819296,
+            "longitude": -111.684611138074,
+            "boundary": "S 180TH  ST TO S 188TH  ST AND E BROOKS FARM  RD TO E CLOUD  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-17 07:54 MST",
+            "etr": "2026-10-17 11:00 MST"
+        }
+    ]
+}
