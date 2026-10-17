@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-16 23:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 78
+    },
+    "outages": [
+        {
+            "latitude": 33.39073926108575,
+            "longitude": -111.65122738186199,
+            "boundary": "S SOSSAMAN  RD TO S 88TH  ST AND E PUEBLO  AVE TO E SANTAN  FWY",
+            "customers": 78,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-16 23:03 MST",
+            "etr": "2026-10-17 01:02 MST"
+        }
+    ]
+}
