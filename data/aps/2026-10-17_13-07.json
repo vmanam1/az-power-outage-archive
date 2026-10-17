@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-17 13:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 35.20249080824521,
+            "longitude": -111.57560353169083,
+            "city": "Flagstaff",
+            "boundary": "Timberline Rd to Campbell Ave and Valley View Dr to US Highway 89",
+            "customers": 20,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-17 04:50:00 MST",
+            "etr": "2026-10-17 08:10:00 MST"
+        }
+    ]
+}
