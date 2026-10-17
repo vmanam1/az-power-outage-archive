@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-17 02:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1498
+    },
+    "outages": [
+        {
+            "latitude": 33.31867539192065,
+            "longitude": -112.061649705294,
+            "boundary": "S 19TH  AVE TO S RAY  RD AND E MINERAL  RD TO E PECOS  RD",
+            "customers": 41,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-16 23:07 MST",
+            "etr": "2026-10-17 01:07 MST"
+        },
+        {
+            "latitude": 33.3492417825785,
+            "longitude": -112.0798774575745,
+            "boundary": "S 23RD  AVE TO S 16TH  ST AND W SOUTH MOUNTAIN  AVE TO W CHANDLER  BLVD",
+            "customers": 1379,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-16 23:12 MST",
+            "etr": "2026-10-17 01:07 MST"
+        },
+        {
+            "latitude": 33.39073926108575,
+            "longitude": -111.65122738186199,
+            "boundary": "S SOSSAMAN  RD TO S 88TH  ST AND E PUEBLO  AVE TO E SANTAN  FWY",
+            "customers": 78,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-16 23:03 MST",
+            "etr": "2026-10-17 03:00 MST"
+        }
+    ]
+}
