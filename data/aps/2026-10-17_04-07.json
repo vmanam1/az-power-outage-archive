@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-17 04:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 2139
+    },
+    "outages": [
+        {
+            "latitude": 33.433214412112775,
+            "longitude": -110.77611467789006,
+            "city": "Globe",
+            "boundary": "Copper Canyon Dr. and Black Peak Rd.",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-16 14:32:00 MST",
+            "etr": "2026-10-16 23:30:00 MST"
+        },
+        {
+            "latitude": 33.28564099973538,
+            "longitude": -111.11594900007765,
+            "city": "Superior",
+            "boundary": "Hewitt Station Rd. to Highlands Dr. and Mary Rd. to Ray Rd.",
+            "customers": 1606,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-16 19:15:00 MST",
+            "etr": "2026-10-16 22:00:00 MST"
+        },
+        {
+            "latitude": 33.532337548698614,
+            "longitude": -112.18756313296595,
+            "city": "Glendale",
+            "boundary": "Ocotillo Rd to Berridge Ln and 61st Ave to 57th Ave",
+            "customers": 516,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-16 19:22:00 MST",
+            "etr": "2026-10-16 23:15:00 MST"
+        }
+    ]
+}
