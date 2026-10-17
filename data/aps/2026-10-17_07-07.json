@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-17 07:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 33.433214412112775,
+            "longitude": -110.77611467789006,
+            "city": "Globe",
+            "boundary": "Copper Canyon Dr. and Black Peak Rd.",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-16 14:32:00 MST",
+            "etr": "2026-10-17 01:00:00 MST"
+        },
+        {
+            "latitude": 33.62880337320136,
+            "longitude": -111.84101190527804,
+            "city": "Scottsdale",
+            "boundary": "Greenway Rd and 111th Place",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-16 23:55:00 MST",
+            "etr": "2026-10-17 02:00:00 MST"
+        }
+    ]
+}
