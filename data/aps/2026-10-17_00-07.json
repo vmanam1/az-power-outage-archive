@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-17 00:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 769
+    },
+    "outages": [
+        {
+            "latitude": 33.433214412112775,
+            "longitude": -110.77611467789006,
+            "city": "Globe",
+            "boundary": "Copper Canyon Dr. and Black Peak Rd.",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-16 14:32:00 MST",
+            "etr": "2026-10-16 17:45:00 MST"
+        },
+        {
+            "latitude": 33.45181199277668,
+            "longitude": -110.829574449019,
+            "city": "Globe",
+            "boundary": "Kelly Ranch Rd and Bixby Rd",
+            "customers": 5,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-16 15:43:00 MST",
+            "etr": "2026-10-16 20:00:00 MST"
+        },
+        {
+            "latitude": 33.28466110114642,
+            "longitude": -111.1044183903807,
+            "city": "Superior",
+            "boundary": "Gibbs St to Ray St and Queen Creek to Ray Rd",
+            "customers": 747,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-16 17:00:00 MST",
+            "etr": "2026-10-16 21:00:00 MST"
+        }
+    ]
+}
