@@ -1,0 +1,183 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-10-16 20:07:21 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 0,
+        "map_last_refreshed": "Oct 16, 8:06 PM"
+    },
+    "outages": [
+        {
+            "latitude": 35.41012994803,
+            "longitude": -114.270288767521,
+            "boundary": {
+                "coordLatSW": "35.410129948029997",
+                "coordLngSW": "-114.270288767521",
+                "coordLatNE": "35.410129948029997",
+                "coordLngNE": "-114.270288767521",
+                "coordLatCenter": "35.41013",
+                "coordLngCenter": "-114.27029"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-10-16 02:49 MST",
+            "etr": "2026-10-16 05:58 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 388,
+            "last_update": "2026-10-16 06:33 MST"
+        },
+        {
+            "latitude": 35.722362,
+            "longitude": -114.488116,
+            "boundary": {
+                "coordLatSW": "35.722361999999997",
+                "coordLngSW": "-114.48811600000001",
+                "coordLatNE": "35.722361999999997",
+                "coordLngNE": "-114.48811600000001",
+                "coordLatCenter": "35.722363",
+                "coordLngCenter": "-114.48811"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-10-16 02:48 MST",
+            "etr": "2026-10-16 05:58 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 441,
+            "last_update": "2026-10-16 06:34 MST"
+        },
+        {
+            "latitude": 35.2431764835657,
+            "longitude": -114.149066154984,
+            "boundary": {
+                "coordLatSW": "35.243176483565698",
+                "coordLngSW": "-114.149066154984",
+                "coordLatNE": "35.243176483565698",
+                "coordLngNE": "-114.149066154984",
+                "coordLatCenter": "35.243176",
+                "coordLngCenter": "-114.14906"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-10-16 02:47 MST",
+            "etr": "2026-10-16 05:13 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 813,
+            "last_update": "2026-10-16 06:16 MST"
+        },
+        {
+            "latitude": 35.7062783839235,
+            "longitude": -114.16895811855,
+            "boundary": {
+                "coordLatSW": "35.706278383923497",
+                "coordLngSW": "-114.16895811854999",
+                "coordLatNE": "35.706278383923497",
+                "coordLngNE": "-114.16895811854999",
+                "coordLatCenter": "35.70628",
+                "coordLngCenter": "-114.16896"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-10-16 02:46 MST",
+            "etr": "2026-10-16 05:58 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 820,
+            "last_update": "2026-10-16 06:34 MST"
+        },
+        {
+            "latitude": 35.5321093836803,
+            "longitude": -114.356157234733,
+            "boundary": {
+                "coordLatSW": "35.5321093836803",
+                "coordLngSW": "-114.356157234733",
+                "coordLatNE": "35.5321093836803",
+                "coordLngNE": "-114.356157234733",
+                "coordLatCenter": "35.53211",
+                "coordLngCenter": "-114.356155"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-10-16 02:46 MST",
+            "etr": "2026-10-16 05:58 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 741,
+            "last_update": "2026-10-16 06:34 MST"
+        },
+        {
+            "latitude": 35.9024255474279,
+            "longitude": -114.086799285954,
+            "boundary": {
+                "coordLatSW": "35.902425547427903",
+                "coordLngSW": "-114.086799285954",
+                "coordLatNE": "35.902425547427903",
+                "coordLngNE": "-114.086799285954",
+                "coordLatCenter": "35.902424",
+                "coordLngCenter": "-114.0868"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-10-16 02:45 MST",
+            "etr": "2026-10-16 05:58 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 1525,
+            "last_update": "2026-10-16 06:34 MST"
+        },
+        {
+            "latitude": 35.2210980206748,
+            "longitude": -114.179806731925,
+            "boundary": {
+                "coordLatSW": "35.221098020674802",
+                "coordLngSW": "-114.179806731925",
+                "coordLatNE": "35.221098020674802",
+                "coordLngNE": "-114.179806731925",
+                "coordLatCenter": "35.2211",
+                "coordLngCenter": "-114.17981"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-10-16 02:45 MST",
+            "etr": "2026-10-16 05:13 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 1110,
+            "last_update": "2026-10-16 06:16 MST"
+        },
+        {
+            "latitude": 31.4708552684436,
+            "longitude": -111.018173072207,
+            "boundary": {
+                "coordLatSW": "31.4708552684436",
+                "coordLngSW": "-111.01817307220701",
+                "coordLatNE": "31.4708552684436",
+                "coordLngNE": "-111.01817307220701",
+                "coordLatCenter": "31.470856",
+                "coordLngCenter": "-111.01817"
+            },
+            "customers": 0,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-08-27 07:29 MST",
+            "etr": "2026-08-27 09:30 MST",
+            "event": "Planned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-27 15:22 MST"
+        }
+    ]
+}
