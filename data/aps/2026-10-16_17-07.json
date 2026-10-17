@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-16 17:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 37
+    },
+    "outages": [
+        {
+            "latitude": 32.71164876537116,
+            "longitude": -114.62065387897901,
+            "city": "Yuma",
+            "boundary": "7th St to Wellington St and 1st Ave",
+            "customers": 21,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-10-16 05:49:00 MST",
+            "etr": "2026-10-16 11:30:00 MST"
+        },
+        {
+            "latitude": 33.43092702919483,
+            "longitude": -110.77808802593931,
+            "city": "Globe",
+            "boundary": "Breezy Hill Rd to Copper Hills Rd and John Moore Rd",
+            "customers": 16,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-16 09:41:00 MST",
+            "etr": "2026-10-16 12:30:00 MST"
+        }
+    ]
+}
