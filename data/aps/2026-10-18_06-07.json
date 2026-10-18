@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-18 06:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 31.42169381819354,
+            "longitude": -109.553444618675,
+            "city": "Douglas",
+            "boundary": "Cordova St. to Madrid St. and Guadalajura Rd. to Aldama Dr.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-17 13:52:00 MST",
+            "etr": "2026-10-18 00:30:00 MST"
+        },
+        {
+            "latitude": 33.695214853706595,
+            "longitude": -112.24595345934708,
+            "city": "Peoria",
+            "boundary": "Pinnacle Peak Rd. to Villa Chula Ln. to 87th Ave. and 86th Ave.",
+            "customers": 13,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-17 22:51:00 MST",
+            "etr": "2026-10-18 01:30:00 MST"
+        }
+    ]
+}
