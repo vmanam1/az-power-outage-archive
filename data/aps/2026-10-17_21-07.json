@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-17 21:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 31.42169381819354,
+            "longitude": -109.553444618675,
+            "city": "Douglas",
+            "boundary": "Cordova St. to Madrid St. and Guadalajura Rd. to Aldama Dr.",
+            "customers": 5,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-17 13:52:00 MST",
+            "etr": "2026-10-17 17:15:00 MST"
+        }
+    ]
+}
