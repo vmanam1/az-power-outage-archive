@@ -4,15 +4,13 @@ let markersGroup;
 let baseTileLayer = null;
 let currentOutages = [];
 
-// CARTO basemaps (no API key). Light/dark variants so the map follows the
-// dashboard theme -- a muted backdrop lets the colored outage markers lead.
+// OpenStreetMap tiles are public and do not require an API key.
 const BASEMAPS = {
-    light: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-    dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
+    light: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    dark: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 };
 const BASEMAP_ATTRIBUTION =
-    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors ' +
-    '&copy; <a href="https://carto.com/attributions">CARTO</a>';
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
 // Swap the basemap tiles to match the active theme. Safe to call repeatedly.
 function applyBasemap(isDark) {
@@ -22,7 +20,7 @@ function applyBasemap(isDark) {
     }
     baseTileLayer = L.tileLayer(isDark ? BASEMAPS.dark : BASEMAPS.light, {
         maxZoom: 19,
-        subdomains: 'abcd',
+        subdomains: 'abc',
         attribution: BASEMAP_ATTRIBUTION
     });
     baseTileLayer.addTo(map);
@@ -54,7 +52,7 @@ function initMap() {
         zoomControl: true
     });
 
-    // Add CARTO tiles matching the current theme
+    // Add public tiles matching the current theme setting.
     applyBasemap(document.body.classList.contains('dark-theme'));
 
     // Set up marker clustering
