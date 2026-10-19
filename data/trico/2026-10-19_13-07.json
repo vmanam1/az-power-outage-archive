@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-19 13:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 6,
+        "total_customers": 58065
+    },
+    "outages": [
+        {
+            "latitude": 31.952285607456048,
+            "longitude": -110.77485994448749,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-10-19 12:38:15 MST",
+            "etr": null,
+            "incident_id": "390041"
+        },
+        {
+            "latitude": 32.13720179654642,
+            "longitude": -111.07382825423691,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": null,
+            "boundary": "Valencia",
+            "start_time": "2026-10-19 06:48:36 MST",
+            "etr": null,
+            "incident_id": "390034"
+        },
+        {
+            "latitude": 31.977976137328827,
+            "longitude": -110.71108854245898,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-10-19 08:08:04 MST",
+            "etr": null,
+            "incident_id": "390035"
+        },
+        {
+            "latitude": 32.30280157468006,
+            "longitude": -111.31694830276487,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley South",
+            "start_time": "2026-10-19 08:42:43 MST",
+            "etr": null,
+            "incident_id": "390036"
+        },
+        {
+            "latitude": 32.15950959068152,
+            "longitude": -111.08765332646145,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-08 08:48:41 MST",
+            "etr": null,
+            "incident_id": "389818"
+        },
+        {
+            "latitude": 31.93491318268985,
+            "longitude": -110.9977409496614,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Sahuarita",
+            "start_time": "2026-10-19 11:05:32 MST",
+            "etr": null,
+            "incident_id": "390039"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-19 13:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 130
+    },
+    "outages": [
+        {
+            "latitude": 33.49394364500615,
+            "longitude": -111.955415485018,
+            "boundary": "N 56TH  ST TO N JOKAKE  DR AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-19 08:01 MST",
+            "etr": "2026-10-19 13:54 MST"
+        },
+        {
+            "latitude": 33.402356563789,
+            "longitude": -111.85603105402299,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-19 11:46 MST",
+            "etr": "2026-10-19 13:27 MST"
+        },
+        {
+            "latitude": 33.49659625533345,
+            "longitude": -111.953456205891,
+            "boundary": "N 56TH  ST TO N 64TH  ST AND E CHAPARRAL  RD TO E OSBORN  RD",
+            "customers": 107,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-19 12:10 MST",
+            "etr": "2026-10-19 14:11 MST"
+        }
+    ]
+}
