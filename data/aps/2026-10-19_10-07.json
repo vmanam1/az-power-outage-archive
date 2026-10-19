@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-19 10:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 33.9591732006597,
+            "longitude": -112.77266318899255,
+            "city": "Wickenburg",
+            "boundary": "Val Vista Rd to South Aircleta Dr and 333rd Ave to North Vulture Mine Rd",
+            "customers": 21,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-19 01:33:00 MST",
+            "etr": "2026-10-19 03:30:00 MST"
+        },
+        {
+            "latitude": 33.59734911422308,
+            "longitude": -111.93932990262073,
+            "city": "Scottsdale",
+            "boundary": "Larkspur Dr to Cactus Rd and 65th Pl to 66th St",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-19 01:38:00 MST",
+            "etr": "2026-10-19 07:30:00 MST"
+        },
+        {
+            "latitude": 31.395670477626222,
+            "longitude": -109.92593509095902,
+            "city": "Bisbee",
+            "boundary": "Santa Cruz Dr and Cochise Dr to Vista Dr",
+            "customers": 28,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-19 02:37:00 MST",
+            "etr": "2026-10-19 06:50:00 MST"
+        }
+    ]
+}
