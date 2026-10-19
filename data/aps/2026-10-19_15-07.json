@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-19 15:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 140
+    },
+    "outages": [
+        {
+            "latitude": 35.216467299796086,
+            "longitude": -111.65671193090878,
+            "city": "Flagstaff",
+            "boundary": "Meade Ln to North Rockridge Rd and North Kitteridge Rd",
+            "customers": 6,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-19 06:02:00 MST",
+            "etr": "2026-10-19 09:15:00 MST"
+        },
+        {
+            "latitude": 34.40815935124851,
+            "longitude": -111.267512602999,
+            "city": "Payson",
+            "boundary": "Box Elder to Upper East Verde Rd and Belluzzi Rd",
+            "customers": 134,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-19 07:16:00 MST",
+            "etr": "2026-10-19 10:45:00 MST"
+        }
+    ]
+}
