@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-19 14:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 13,
+        "total_customers": 45999
+    },
+    "outages": [
+        {
+            "latitude": 33.834925255333445,
+            "longitude": -109.96545092392459,
+            "customers": 2,
+            "cause": "FIRE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-19 11:49:52 MST",
+            "etr": null,
+            "incident_id": "535331"
+        },
+        {
+            "latitude": 34.15550715583469,
+            "longitude": -109.99485278317792,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-10-19 08:39:12 MST",
+            "etr": null,
+            "incident_id": "535322"
+        },
+        {
+            "latitude": 34.16436767322514,
+            "longitude": -109.96549583968883,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-10-19 08:47:18 MST",
+            "etr": null,
+            "incident_id": "535323"
+        },
+        {
+            "latitude": 34.11830067997008,
+            "longitude": -109.28862425616339,
+            "customers": 2,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-19 13:31:34 MST",
+            "etr": null,
+            "incident_id": "535334"
+        },
+        {
+            "latitude": 34.30629880837341,
+            "longitude": -109.84718771675381,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-19 14:01:57 MST",
+            "etr": null,
+            "incident_id": "535335"
+        },
+        {
+            "latitude": 33.833328412444494,
+            "longitude": -109.96574736796842,
+            "customers": 4,
+            "cause": "FIRE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-19 11:09:12 MST",
+            "etr": null,
+            "incident_id": "535326"
+        },
+        {
+            "latitude": 33.834738709805904,
+            "longitude": -109.96615160984632,
+            "customers": 2,
+            "cause": "FIRE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-19 11:44:27 MST",
+            "etr": null,
+            "incident_id": "535329"
+        }
+    ]
+}
