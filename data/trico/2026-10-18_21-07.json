@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-18 21:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 971,
+        "total_customers": 58065
+    },
+    "outages": [
+        {
+            "latitude": 31.89592571728866,
+            "longitude": -110.99500108804446,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Green Valley",
+            "start_time": "2026-10-18 20:08:51 MST",
+            "etr": null,
+            "incident_id": "389984"
+        },
+        {
+            "latitude": 31.87099802697856,
+            "longitude": -111.02960419279357,
+            "customers": 969,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Green Valley",
+            "start_time": "2026-10-18 20:08:46 MST",
+            "etr": "2026-10-18 23:08:46 MST",
+            "incident_id": "389983"
+        },
+        {
+            "latitude": 32.15950959068152,
+            "longitude": -111.08765332646145,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-08 08:48:41 MST",
+            "etr": null,
+            "incident_id": "389818"
+        }
+    ]
+}
