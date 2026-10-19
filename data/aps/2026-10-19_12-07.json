@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-19 12:07:10 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.60189979521147,
+            "longitude": -111.93954495840143,
+            "city": "Scottsdale",
+            "boundary": "East Aster Dr to East Lakespur Dr and North 65th Pl to North 66th St",
+            "customers": 8,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-19 04:41:00 MST",
+            "etr": "2026-10-19 07:35:00 MST"
+        }
+    ]
+}
