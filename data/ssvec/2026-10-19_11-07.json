@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-10-19 11:07:11 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "incident_id": 21228,
+            "latitude": 31.87938428666399,
+            "longitude": -109.643848072109,
+            "city": "Elfrida",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-10-19 10:08:56 MST",
+            "etr": "2026-10-19 13:08:56 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 21216,
+            "latitude": 32.39490659258637,
+            "longitude": -109.95239375879771,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-10-15 10:38:48 MST",
+            "etr": null,
+            "restored_time": null
+        },
+        {
+            "incident_id": 21225,
+            "latitude": 31.97137908452169,
+            "longitude": -110.29537602861957,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-10-19 08:30:21 MST",
+            "etr": "2026-10-19 11:30:21 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 21227,
+            "latitude": 31.95677088840789,
+            "longitude": -109.84878663949247,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-10-19 09:53:07 MST",
+            "etr": "2026-10-19 12:53:07 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 21226,
+            "latitude": 31.915901373879773,
+            "longitude": -110.25326955256249,
+            "city": "Benson",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-10-19 09:13:39 MST",
+            "etr": "2026-10-19 12:13:39 MST",
+            "restored_time": null
+        }
+    ]
+}
