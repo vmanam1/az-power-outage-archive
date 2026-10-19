@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-18 19:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 21
+    },
+    "outages": [
+        {
+            "latitude": 33.61400898026739,
+            "longitude": -112.26335987206232,
+            "city": "Sun City",
+            "boundary": "Boswell Blvd. to Lake Forest Dr. and Cameo Dr.",
+            "customers": 21,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-18 11:22:00 MST",
+            "etr": "2026-10-18 14:15:00 MST"
+        }
+    ]
+}
