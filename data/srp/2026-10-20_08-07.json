@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-20 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.4490398492456,
+            "longitude": -111.623416569487,
+            "boundary": "N ELLSWORTH  RD TO N CRISMON  RD AND E MCKELLIPS  RD TO E MCLELLAN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 07:50 MST",
+            "etr": "2026-10-20 12:50 MST"
+        }
+    ]
+}

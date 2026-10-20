@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-20 08:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 58075
+    },
+    "outages": [
+        {
+            "latitude": 32.55169470999659,
+            "longitude": -111.20294311004139,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Pinal County West",
+            "start_time": "2026-10-20 07:39:51 MST",
+            "etr": null,
+            "incident_id": "390043"
+        },
+        {
+            "latitude": 32.13720179654642,
+            "longitude": -111.07382825423691,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-19 06:48:36 MST",
+            "etr": null,
+            "incident_id": "390034"
+        },
+        {
+            "latitude": 32.15950959068152,
+            "longitude": -111.08765332646145,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-08 08:48:41 MST",
+            "etr": null,
+            "incident_id": "389818"
+        }
+    ]
+}
