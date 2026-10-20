@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-19 17:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 9,
+        "total_customers": 45999
+    },
+    "outages": [
+        {
+            "latitude": 33.834925255333445,
+            "longitude": -109.96545092392459,
+            "customers": 2,
+            "cause": "FIRE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-19 11:49:52 MST",
+            "etr": null,
+            "incident_id": "535331"
+        },
+        {
+            "latitude": 34.15550715583469,
+            "longitude": -109.99485278317792,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-10-19 08:39:12 MST",
+            "etr": null,
+            "incident_id": "535322"
+        },
+        {
+            "latitude": 33.833328412444494,
+            "longitude": -109.96574736796842,
+            "customers": 4,
+            "cause": "FIRE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-19 11:09:12 MST",
+            "etr": null,
+            "incident_id": "535326"
+        },
+        {
+            "latitude": 33.834738709805904,
+            "longitude": -109.96615160984632,
+            "customers": 2,
+            "cause": "FIRE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-19 11:44:27 MST",
+            "etr": null,
+            "incident_id": "535329"
+        }
+    ]
+}
