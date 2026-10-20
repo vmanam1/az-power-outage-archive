@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-19 19:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.392400518789735,
+            "longitude": -112.450252909856,
+            "city": "Goodyear",
+            "boundary": "Southern Ave and Perryville Rd to MC85",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-19 09:27:00 MST",
+            "etr": "2026-10-19 13:25:00 MST"
+        }
+    ]
+}
