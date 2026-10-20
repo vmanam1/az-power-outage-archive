@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-20 09:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 66
+    },
+    "outages": [
+        {
+            "latitude": 33.4490398492456,
+            "longitude": -111.623416569487,
+            "boundary": "N ELLSWORTH  RD TO N CRISMON  RD AND E MCKELLIPS  RD TO E MCLELLAN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 07:50 MST",
+            "etr": "2026-10-20 12:50 MST"
+        },
+        {
+            "latitude": 33.377596626616054,
+            "longitude": -112.0927589038705,
+            "boundary": "S 19TH  AVE TO S 7TH  AVE AND W VINEYARD  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 08:29 MST",
+            "etr": "2026-10-20 13:30 MST"
+        },
+        {
+            "latitude": 33.4566813531808,
+            "longitude": -111.664557578036,
+            "boundary": "N 76TH  ST TO N 80TH  ST AND E HERMOSA VISTA  DR TO E MCKELLIPS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 08:36 MST",
+            "etr": "2026-10-20 12:36 MST"
+        },
+        {
+            "latitude": 33.41114745848844,
+            "longitude": -111.5712180747135,
+            "boundary": "S MERIDIAN  RD TO S IRONWOOD  DR AND W APACHE  TRL TO W BROADWAY  AVE",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-20 08:17 MST",
+            "etr": "2026-10-20 10:16 MST"
+        },
+        {
+            "latitude": 33.46740900452775,
+            "longitude": -111.91703511864449,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 08:42 MST",
+            "etr": "2026-10-20 12:40 MST"
+        },
+        {
+            "latitude": 33.3085842789694,
+            "longitude": -111.593318630742,
+            "boundary": "S SIGNAL BUTTE  RD TO S MERIDIAN  RD AND E GALVESTON  ST TO E WILLIAMS FIELD  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 09:05 MST",
+            "etr": "2026-10-20 14:04 MST"
+        }
+    ]
+}
