@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-20 14:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2,
+        "total_customers": 46004
+    },
+    "outages": [
+        {
+            "latitude": 34.49394362085095,
+            "longitude": -109.40461472566503,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-20 13:52:52 MST",
+            "etr": null,
+            "incident_id": "535342"
+        },
+        {
+            "latitude": 34.1255068099568,
+            "longitude": -109.28762712619786,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-20 08:18:22 MST",
+            "etr": null,
+            "incident_id": "535337"
+        }
+    ]
+}
