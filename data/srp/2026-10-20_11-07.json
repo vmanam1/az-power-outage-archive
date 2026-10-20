@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-20 11:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 1649
+    },
+    "outages": [
+        {
+            "latitude": 33.4490398492456,
+            "longitude": -111.623416569487,
+            "boundary": "N ELLSWORTH  RD TO N CRISMON  RD AND E MCKELLIPS  RD TO E MCLELLAN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 07:50 MST",
+            "etr": "2026-10-20 12:50 MST"
+        },
+        {
+            "latitude": 33.377596626616054,
+            "longitude": -112.0927589038705,
+            "boundary": "S 19TH  AVE TO S 7TH  AVE AND W VINEYARD  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 08:29 MST",
+            "etr": "2026-10-20 13:30 MST"
+        },
+        {
+            "latitude": 33.46740900452775,
+            "longitude": -111.91703511864449,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 15,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 08:42 MST",
+            "etr": "2026-10-20 12:40 MST"
+        },
+        {
+            "latitude": 33.3085842789694,
+            "longitude": -111.593318630742,
+            "boundary": "S SIGNAL BUTTE  RD TO S MERIDIAN  RD AND E GALVESTON  ST TO E WILLIAMS FIELD  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 09:05 MST",
+            "etr": "2026-10-20 14:04 MST"
+        },
+        {
+            "latitude": 33.4964860797342,
+            "longitude": -111.873757579708,
+            "boundary": "N 92ND  ST TO N LONGMORE  RD AND E CAMELBACK  RD TO E OSBORN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 09:48 MST",
+            "etr": "2026-10-20 11:47 MST"
+        },
+        {
+            "latitude": 33.304964182429146,
+            "longitude": -111.70170425410299,
+            "boundary": "S 172ND  ST TO S POWER  RD AND E RAY  RD TO E PECOS  RD",
+            "customers": 1599,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-20 09:54 MST",
+            "etr": "2026-10-20 11:54 MST"
+        },
+        {
+            "latitude": 33.4100849989239,
+            "longitude": -112.292420518412,
+            "boundary": "S 111TH  AVE TO N 103RD  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 18,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 09:54 MST",
+            "etr": "2026-10-20 11:53 MST"
+        },
+        {
+            "latitude": 33.50493119929385,
+            "longitude": -112.2468772129665,
+            "boundary": "N 91ST  AVE TO N 83RD  AVE AND W CAMELBACK  RD TO W CAMPBELL  AVE",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 11:05 MST",
+            "etr": "2026-10-20 13:02 MST"
+        }
+    ]
+}
