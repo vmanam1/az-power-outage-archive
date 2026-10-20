@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-19 18:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 17
+    },
+    "outages": [
+        {
+            "latitude": 33.392400518789735,
+            "longitude": -112.450252909856,
+            "city": "Goodyear",
+            "boundary": "Southern Ave and Perryville Rd to MC85",
+            "customers": 12,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-19 09:27:00 MST",
+            "etr": "2026-10-19 13:25:00 MST"
+        },
+        {
+            "latitude": 33.59290325123457,
+            "longitude": -111.90117016015577,
+            "city": "Scottsdale",
+            "boundary": "Cortez Dr and 83rd Pl",
+            "customers": 5,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-19 10:29:00 MST",
+            "etr": "2026-10-19 13:30:00 MST"
+        }
+    ]
+}
