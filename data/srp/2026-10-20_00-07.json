@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-20 00:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.3798651621998,
+            "longitude": -111.69258705752,
+            "boundary": "S RECKER  RD TO S POWER  RD AND E SUPERSTITION  FWY TO E HOUSTON  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-19 20:54 MST",
+            "etr": "2026-10-20 05:53 MST"
+        },
+        {
+            "latitude": 33.274133943820445,
+            "longitude": -111.8417078845155,
+            "boundary": "S HARTFORD  ST TO S HAMILTON  ST AND W GERMANN  RD TO W RYAN  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-19 21:51 MST",
+            "etr": "2026-10-20 01:45 MST"
+        },
+        {
+            "latitude": 33.5091595199939,
+            "longitude": -112.119000996027,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-19 18:25 MST",
+            "etr": "2026-10-20 03:00 MST"
+        }
+    ]
+}
