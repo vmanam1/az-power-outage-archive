@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-20 15:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.57857606630194,
+            "longitude": -112.25439607611887,
+            "city": "Peoria",
+            "boundary": "West Monroe St and North 90th Dr to North 90th Ave",
+            "customers": 12,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-20 07:31:00 MST",
+            "etr": "2026-10-20 10:30:00 MST"
+        }
+    ]
+}
