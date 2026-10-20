@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-19 20:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.59277507024753,
+            "longitude": -111.90143189239865,
+            "city": "Scottsdale",
+            "boundary": "83rd Pl. and Cortez Dr.",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-19 12:47:00 MST",
+            "etr": "2026-10-19 16:00:00 MST"
+        }
+    ]
+}
