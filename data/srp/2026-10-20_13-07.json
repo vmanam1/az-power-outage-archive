@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-20 13:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.3085842789694,
+            "longitude": -111.593318630742,
+            "boundary": "S SIGNAL BUTTE  RD TO S MERIDIAN  RD AND E GALVESTON  ST TO E WILLIAMS FIELD  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 09:05 MST",
+            "etr": "2026-10-20 14:04 MST"
+        },
+        {
+            "latitude": 33.4817243246831,
+            "longitude": -112.153010261828,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 4,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-20 11:38 MST",
+            "etr": "2026-10-20 16:30 MST"
+        },
+        {
+            "latitude": 33.5520703340235,
+            "longitude": -112.210034158886,
+            "boundary": "N 75TH  AVE TO N 67TH  AVE AND W GRAND  AVE TO W ORANGEWOOD  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-20 11:59 MST",
+            "etr": "2026-10-20 15:58 MST"
+        }
+    ]
+}
