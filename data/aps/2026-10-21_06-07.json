@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-21 06:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 34.415160776967205,
+            "longitude": -112.74049866169835,
+            "city": "Kirkland",
+            "boundary": "Yava Rd to Founders Trl and Single Six Rd",
+            "customers": 16,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-20 20:58:00 MST",
+            "etr": "2026-10-21 00:20:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-21 06:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 335
+    },
+    "outages": [
+        {
+            "latitude": 33.424144828767695,
+            "longitude": -111.7952035951785,
+            "boundary": "N STAPLEY  DR TO N GILBERT  RD AND E 8TH  ST TO E MAIN  ST",
+            "customers": 138,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-20 22:20 MST",
+            "etr": "2026-10-21 10:00 MST"
+        },
+        {
+            "latitude": 33.6043474668964,
+            "longitude": -111.62075498534199,
+            "boundary": "N 136TH  ST TO N BEELINE  HWY AND UNKNOWN TO E QUENTON  ST",
+            "customers": 176,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-21 01:54 MST",
+            "etr": "2026-10-21 11:00 MST"
+        },
+        {
+            "latitude": 33.416333700122905,
+            "longitude": -111.777734090519,
+            "boundary": "N GILBERT  RD TO N LINDSAY  RD AND E UNIVERSITY  DR TO E BROADWAY  AVE",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-21 04:25 MST",
+            "etr": "2026-10-21 10:30 MST"
+        },
+        {
+            "latitude": 33.420085511369194,
+            "longitude": -112.2077354610885,
+            "boundary": "S 71ST  AVE TO S 67TH  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-21 00:56 MST",
+            "etr": "2026-10-21 09:00 MST"
+        },
+        {
+            "latitude": 33.417306698142454,
+            "longitude": -111.7784618289705,
+            "boundary": "N GILBERT  RD TO N LINDSAY  RD AND E UNIVERSITY  DR TO E BROADWAY  AVE",
+            "customers": 8,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-21 05:47 MST",
+            "etr": "2026-10-21 10:44 MST"
+        }
+    ]
+}
