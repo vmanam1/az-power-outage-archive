@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-21 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 77
+    },
+    "outages": [
+        {
+            "latitude": 34.850918782198306,
+            "longitude": -111.82109375990926,
+            "city": "Sedona",
+            "boundary": "Highway 89 And Upper Red Rock Loop",
+            "customers": 33,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 01:26:00 MST",
+            "etr": "2026-10-21 05:00:00 MST"
+        },
+        {
+            "latitude": 35.990593831935215,
+            "longitude": -112.12171688943963,
+            "city": "Grand Canyon",
+            "boundary": "Forest Service Rd 328 to Flame Flower Lp. and Entrance Rd. to Lincoln Log Lp.",
+            "customers": 37,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 01:29:00 MST",
+            "etr": "2026-10-21 04:45:00 MST"
+        },
+        {
+            "latitude": 35.24853602864787,
+            "longitude": -112.66266800294974,
+            "city": "Ash Fork",
+            "boundary": "Crookton Rd and Purple Heart Trail",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 01:47:00 MST",
+            "etr": "2026-10-21 05:00:00 MST"
+        }
+    ]
+}
