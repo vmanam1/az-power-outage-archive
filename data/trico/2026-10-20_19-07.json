@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-20 19:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 248,
+        "total_customers": 58075
+    },
+    "outages": [
+        {
+            "latitude": 31.977770397775213,
+            "longitude": -111.37709949419789,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Sasabe",
+            "start_time": "2026-10-20 17:45:58 MST",
+            "etr": "2026-10-20 20:45:58 MST",
+            "incident_id": "390051"
+        },
+        {
+            "latitude": 32.41910289807107,
+            "longitude": -111.05815265252687,
+            "customers": 174,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-10-20 17:28:39 MST",
+            "etr": null,
+            "incident_id": "390055"
+        },
+        {
+            "latitude": 32.42128681064275,
+            "longitude": -111.05820655144392,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-10-20 17:22:31 MST",
+            "etr": null,
+            "incident_id": "390045"
+        },
+        {
+            "latitude": 32.41941380551882,
+            "longitude": -111.0472021892119,
+            "customers": 68,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-10-20 17:29:07 MST",
+            "etr": null,
+            "incident_id": "390056"
+        },
+        {
+            "latitude": 32.411837975151585,
+            "longitude": -111.06039844073746,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-10-20 17:28:41 MST",
+            "etr": null,
+            "incident_id": "390047"
+        },
+        {
+            "latitude": 32.42009628152473,
+            "longitude": -111.0539934527608,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-10-20 17:34:48 MST",
+            "etr": null,
+            "incident_id": "390049"
+        },
+        {
+            "latitude": 32.15950959068152,
+            "longitude": -111.08765332646145,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-08 08:48:41 MST",
+            "etr": null,
+            "incident_id": "389818"
+        }
+    ]
+}
