@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-21 14:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 5,
+        "total_customers": 46007
+    },
+    "outages": [
+        {
+            "latitude": 34.39866914210917,
+            "longitude": -110.57890144838238,
+            "customers": 2,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 12:59:24 MST",
+            "etr": null,
+            "incident_id": "535357"
+        },
+        {
+            "latitude": 34.28013036463063,
+            "longitude": -109.72949943136494,
+            "customers": 2,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-21 12:31:35 MST",
+            "etr": null,
+            "incident_id": "535358"
+        },
+        {
+            "latitude": 33.98511865445407,
+            "longitude": -109.7489659235745,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-21 13:38:30 MST",
+            "etr": null,
+            "incident_id": "535360"
+        }
+    ]
+}

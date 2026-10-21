@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-21 14:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 770
+    },
+    "outages": [
+        {
+            "latitude": 33.4023449793639,
+            "longitude": -111.623557333975,
+            "boundary": "S ELLSWORTH  RD TO S CRISMON  RD AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 35,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-21 07:52 MST",
+            "etr": "2026-10-21 14:51 MST"
+        },
+        {
+            "latitude": 33.407021303545804,
+            "longitude": -111.790648892566,
+            "boundary": "S HARRIS  DR TO S GILBERT  RD AND E MAIN  ST TO E 8TH  AVE",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-21 08:11 MST",
+            "etr": "2026-10-21 14:10 MST"
+        },
+        {
+            "latitude": 33.4602573295193,
+            "longitude": -111.64887384185701,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-21 08:15 MST",
+            "etr": "2026-10-21 14:15 MST"
+        },
+        {
+            "latitude": 33.5539604082552,
+            "longitude": -112.161424796501,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 62,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 09:01 MST",
+            "etr": "2026-10-21 10:42 MST"
+        },
+        {
+            "latitude": 33.55380050553125,
+            "longitude": -112.161463991664,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 46,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 09:01 MST",
+            "etr": "2026-10-21 10:42 MST"
+        },
+        {
+            "latitude": 33.368462983149,
+            "longitude": -112.069556985652,
+            "boundary": "S 7TH  AVE TO S 12TH  ST AND E BASELINE  RD TO E DOBBINS  RD",
+            "customers": 143,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-21 09:12 MST",
+            "etr": "2026-10-21 13:00 MST"
+        },
+        {
+            "latitude": 33.6043474668964,
+            "longitude": -111.62075498534199,
+            "boundary": "N 136TH  ST TO N BEELINE  HWY AND UNKNOWN TO E QUENTON  ST",
+            "customers": 176,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-21 01:54 MST",
+            "etr": "2026-10-21 16:00 MST"
+        },
+        {
+            "latitude": 33.35243878344415,
+            "longitude": -111.83519493175149,
+            "boundary": "S EXTENSION  RD TO N MCQUEEN  RD AND W GUADALUPE  RD TO E WARNER  RD",
+            "customers": 290,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 12:47 MST",
+            "etr": "2026-10-21 14:46 MST"
+        },
+        {
+            "latitude": 33.4128295061862,
+            "longitude": -111.798189410697,
+            "boundary": "S STAPLEY  DR TO S GILBERT  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 9,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-21 13:46 MST",
+            "etr": "2026-10-21 14:30 MST"
+        }
+    ]
+}
