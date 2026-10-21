@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-20 20:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1314
+    },
+    "outages": [
+        {
+            "latitude": 33.257860845400046,
+            "longitude": -111.8144083996875,
+            "boundary": "S MCQUEEN  RD TO S COOPER  RD AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-20 16:18 MST",
+            "etr": "2026-10-20 22:00 MST"
+        },
+        {
+            "latitude": 33.43888843594695,
+            "longitude": -111.711969353188,
+            "boundary": "N 48TH  ST TO N 64TH  ST AND E HERMOSA VISTA  DR TO E UNIVERSITY  DR",
+            "customers": 1307,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-20 19:24 MST",
+            "etr": "2026-10-20 21:34 MST"
+        }
+    ]
+}
