@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-21 15:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 484
+    },
+    "outages": [
+        {
+            "latitude": 33.6043474668964,
+            "longitude": -111.62075498534199,
+            "boundary": "N 136TH  ST TO N BEELINE  HWY AND UNKNOWN TO E QUENTON  ST",
+            "customers": 176,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-21 01:54 MST",
+            "etr": "2026-10-21 16:00 MST"
+        },
+        {
+            "latitude": 33.5452837243093,
+            "longitude": -112.14365446843999,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 14:23 MST",
+            "etr": "2026-10-21 16:20 MST"
+        },
+        {
+            "latitude": 33.54527459689385,
+            "longitude": -112.1449296587455,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 14:23 MST",
+            "etr": "2026-10-21 16:20 MST"
+        },
+        {
+            "latitude": 33.4128295061862,
+            "longitude": -111.798189410697,
+            "boundary": "S STAPLEY  DR TO S GILBERT  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 9,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-21 13:46 MST",
+            "etr": "2026-10-21 16:30 MST"
+        },
+        {
+            "latitude": 33.545089373851155,
+            "longitude": -112.1461165053505,
+            "boundary": "N 43RD  AVE TO N 39TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 14:23 MST",
+            "etr": "2026-10-21 16:23 MST"
+        },
+        {
+            "latitude": 33.3523890560633,
+            "longitude": -111.83519493175149,
+            "boundary": "S EXTENSION  RD TO N MCQUEEN  RD AND W GUADALUPE  RD TO E WARNER  RD",
+            "customers": 274,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-10-21 12:47 MST",
+            "etr": "2026-10-21 15:30 MST"
+        }
+    ]
+}
