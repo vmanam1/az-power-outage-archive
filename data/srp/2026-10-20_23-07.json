@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-20 23:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1395
+    },
+    "outages": [
+        {
+            "latitude": 33.42228311890295,
+            "longitude": -111.792615559463,
+            "boundary": "N STAPLEY  DR TO N 24TH  ST AND E BROWN  RD TO E BROADWAY  RD",
+            "customers": 1389,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-20 22:20 MST",
+            "etr": "2026-10-21 00:20 MST"
+        },
+        {
+            "latitude": 33.433491302984194,
+            "longitude": -111.78883006584951,
+            "boundary": "N HARRIS  DR TO N 24TH  ST AND E BROWN  RD TO E 8TH  ST",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-20 23:06 MST",
+            "etr": "2026-10-21 01:30 MST"
+        }
+    ]
+}

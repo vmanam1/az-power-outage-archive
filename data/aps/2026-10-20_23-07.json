@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-20 23:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 31.336553892132667,
+            "longitude": -109.54318519786864,
+            "city": "Douglas",
+            "boundary": "3rd St. and Bonita St. to Carmelita Ave.",
+            "customers": 29,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-20 13:36:00 MST",
+            "etr": "2026-10-20 16:55:00 MST"
+        }
+    ]
+}
