@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-21 05:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 60
+    },
+    "outages": [
+        {
+            "latitude": 33.621531948709396,
+            "longitude": -111.95412852672743,
+            "city": "Scottsdale",
+            "boundary": "Hillery Dr to Everett Dr and 59th St to 60th St",
+            "customers": 44,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-20 20:17:00 MST",
+            "etr": "2026-10-20 23:00:00 MST"
+        },
+        {
+            "latitude": 34.415160776967205,
+            "longitude": -112.74049866169835,
+            "city": "Kirkland",
+            "boundary": "Yava Rd to Founders Trl and Single Six Rd",
+            "customers": 16,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-20 20:58:00 MST",
+            "etr": "2026-10-21 00:20:00 MST"
+        }
+    ]
+}

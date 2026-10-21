@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-10-21 05:07:21 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 0,
+        "map_last_refreshed": "Oct 21, 5:06 AM"
+    },
+    "outages": [
+        {
+            "latitude": 32.2207930664166,
+            "longitude": -110.892679675412,
+            "boundary": {
+                "coordLatSW": "32.220793066416597",
+                "coordLngSW": "-110.892679675412",
+                "coordLatNE": "32.220793066416597",
+                "coordLngNE": "-110.892679675412",
+                "coordLatCenter": "32.220795",
+                "coordLngCenter": "-110.89268"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Vehicle",
+            "comments": null,
+            "start_time": "2026-10-20 14:43 MST",
+            "etr": "2026-10-20 15:42 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 413,
+            "last_update": "2026-10-20 15:59 MST"
+        }
+    ]
+}
