@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-21 07:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 831
+    },
+    "outages": [
+        {
+            "latitude": 33.93125250013123,
+            "longitude": -113.12262469997671,
+            "city": "Aguila",
+            "boundary": "County Rd To Hwy 60 And Ray St To 8-Mi-E-O Eagle Eye Rd",
+            "customers": 724,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-20 23:37:00 MST",
+            "etr": "2026-10-21 02:00:00 MST"
+        },
+        {
+            "latitude": 33.9435955001547,
+            "longitude": -113.21665999986358,
+            "city": "Aguila",
+            "boundary": "Black Mountain Rd To 525Th Ave And 3/Mi/W/O Eagle Eye Sub To Aguila Sub",
+            "customers": 99,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-20 23:37:00 MST",
+            "etr": "2026-10-21 02:00:00 MST"
+        },
+        {
+            "latitude": 34.01348291712402,
+            "longitude": -113.2025520876839,
+            "city": "Aguila",
+            "boundary": "Rider Rd. and County Rd.",
+            "customers": 8,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-20 23:56:00 MST",
+            "etr": "2026-10-21 03:05:00 MST"
+        }
+    ]
+}
