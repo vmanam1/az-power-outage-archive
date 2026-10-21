@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-20 22:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 32.661313188125945,
+            "longitude": -114.62094861802035,
+            "city": "Yuma",
+            "boundary": "Mest Verde Wy to West 37th St and Los Feliz Dr to Los Lunas Dr",
+            "customers": 8,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-20 10:47:00 MST",
+            "etr": "2026-10-20 16:25:00 MST"
+        },
+        {
+            "latitude": 31.336553892132667,
+            "longitude": -109.54318519786864,
+            "city": "Wittmann",
+            "boundary": "Patton Rd to 204th Ave and 204th Pl to 203rd Ave",
+            "customers": 26,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-20 13:53:00 MST",
+            "etr": "2026-10-20 16:50:00 MST"
+        }
+    ]
+}

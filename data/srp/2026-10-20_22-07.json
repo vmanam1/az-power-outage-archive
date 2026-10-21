@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-20 22:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.257860845400046,
+            "longitude": -111.8144083996875,
+            "boundary": "S MCQUEEN  RD TO S COOPER  RD AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-20 16:18 MST",
+            "etr": "2026-10-20 23:00 MST"
+        }
+    ]
+}
