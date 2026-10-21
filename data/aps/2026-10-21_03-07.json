@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-21 03:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3488
+    },
+    "outages": [
+        {
+            "latitude": 33.574340543341414,
+            "longitude": -111.86563244369832,
+            "city": "Scottsdale",
+            "boundary": "Mountain View Rd to Via Linda and 101st St to 101st Pl",
+            "customers": 85,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-20 17:56:00 MST",
+            "etr": "2026-10-20 21:30:00 MST"
+        },
+        {
+            "latitude": 34.61428199997527,
+            "longitude": -112.34603899980908,
+            "city": "Prescott Valley",
+            "boundary": "State Route 89A To Bison Lane And Glassford Hills Road To El Camino Real",
+            "customers": 3403,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-20 19:57:00 MST",
+            "etr": "2026-10-20 23:55:00 MST"
+        }
+    ]
+}
