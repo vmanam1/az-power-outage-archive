@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-20 18:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 7010
+    },
+    "outages": [
+        {
+            "latitude": 33.257860845400046,
+            "longitude": -111.8144083996875,
+            "boundary": "S MCQUEEN  RD TO S COOPER  RD AND E QUEEN CREEK  RD TO E OCOTILLO  RD",
+            "customers": 7,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-20 16:18 MST",
+            "etr": "2026-10-20 22:00 MST"
+        },
+        {
+            "latitude": 33.51445203141955,
+            "longitude": -112.091572518413,
+            "boundary": "N 23RD  AVE TO N CENTRAL  AVE AND W BETHANY HOME  RD TO W CAMPBELL  AVE",
+            "customers": 1631,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-20 17:44 MST",
+            "etr": "2026-10-20 19:42 MST"
+        },
+        {
+            "latitude": 33.50977551108115,
+            "longitude": -112.096277674015,
+            "boundary": "N BLACK CANYON  HWY TO N CENTRAL  AVE AND W BETHANY HOME  RD TO W CAMPBELL  AVE",
+            "customers": 1597,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-20 17:44 MST",
+            "etr": "2026-10-20 19:42 MST"
+        },
+        {
+            "latitude": 33.5006957367957,
+            "longitude": -112.096899900499,
+            "boundary": "N BLACK CANYON  HWY TO N CENTRAL  AVE AND W CAMELBACK  RD TO W OSBORN  RD",
+            "customers": 1205,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-20 17:44 MST",
+            "etr": "2026-10-20 19:42 MST"
+        },
+        {
+            "latitude": 33.4275088881394,
+            "longitude": -111.886447033036,
+            "boundary": "S SMITH  RD TO N DOBSON  RD AND E RED MOUNTAIN  FWY TO E APACHE  BLVD",
+            "customers": 1900,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-20 17:45 MST",
+            "etr": "2026-10-20 19:45 MST"
+        },
+        {
+            "latitude": 33.52041636306235,
+            "longitude": -112.10597414358651,
+            "boundary": "N 27TH  AVE TO N 15TH  AVE AND W MARYLAND  AVE TO W CAMELBACK  RD",
+            "customers": 670,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-20 17:44 MST",
+            "etr": "2026-10-20 19:58 MST"
+        }
+    ]
+}
