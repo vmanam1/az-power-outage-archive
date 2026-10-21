@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-21 01:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 114
+    },
+    "outages": [
+        {
+            "latitude": 31.336553892132667,
+            "longitude": -109.54318519786864,
+            "city": "Douglas",
+            "boundary": "3rd St. and Bonita St. to Carmelita Ave.",
+            "customers": 29,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-20 13:36:00 MST",
+            "etr": "2026-10-20 19:00:00 MST"
+        },
+        {
+            "latitude": 33.574340543341414,
+            "longitude": -111.86563244369832,
+            "city": "Scottsdale",
+            "boundary": "Mountain View Rd to Via Linda and 101st St to 101st Pl",
+            "customers": 85,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-20 17:56:00 MST",
+            "etr": "2026-10-20 21:00:00 MST"
+        }
+    ]
+}
