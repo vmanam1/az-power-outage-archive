@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 70
+    },
+    "outages": [
+        {
+            "latitude": 35.837331634984466,
+            "longitude": -110.38143401516955,
+            "city": "Polacca",
+            "boundary": "Hopi Rt. 8 to AZ State Hwy 264",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 00:24:00 MST",
+            "etr": "2026-10-22 03:45:00 MST"
+        },
+        {
+            "latitude": 33.67939460275925,
+            "longitude": -112.34054922981781,
+            "city": "Sun City West",
+            "boundary": "Ballard Dr. to Blue Sky Dr. and Sunglow Dr. to Aurora DR.",
+            "customers": 40,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-22 01:49:00 MST",
+            "etr": "2026-10-22 04:20:00 MST"
+        }
+    ]
+}

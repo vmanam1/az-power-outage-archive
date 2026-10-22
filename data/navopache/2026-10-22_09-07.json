@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-22 09:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 983,
+        "total_customers": 46010
+    },
+    "outages": [
+        {
+            "latitude": 34.1091378199308,
+            "longitude": -109.34398742713138,
+            "customers": 914,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-22 07:50:08 MST",
+            "etr": null,
+            "incident_id": "535594"
+        },
+        {
+            "latitude": 34.39247969404683,
+            "longitude": -110.5483407624124,
+            "customers": 1,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-22 08:09:42 MST",
+            "etr": null,
+            "incident_id": "535596"
+        },
+        {
+            "latitude": 34.39233885098026,
+            "longitude": -110.54901449887556,
+            "customers": 1,
+            "cause": "TORNADO",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-22 08:23:28 MST",
+            "etr": null,
+            "incident_id": "535597"
+        },
+        {
+            "latitude": 34.416286178215735,
+            "longitude": -110.59578977572619,
+            "customers": 25,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 19:00:43 MST",
+            "etr": null,
+            "incident_id": "535366"
+        },
+        {
+            "latitude": 34.38758711181739,
+            "longitude": -110.5520058887721,
+            "customers": 11,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 22:40:06 MST",
+            "etr": null,
+            "incident_id": "535434"
+        },
+        {
+            "latitude": 34.392620536876436,
+            "longitude": -110.55179927625672,
+            "customers": 15,
+            "cause": "TORNADO",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-22 08:41:03 MST",
+            "etr": null,
+            "incident_id": "535600"
+        },
+        {
+            "latitude": 34.420962185142415,
+            "longitude": -110.53629435445066,
+            "customers": 16,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 19:05:52 MST",
+            "etr": null,
+            "incident_id": "535408"
+        }
+    ]
+}
