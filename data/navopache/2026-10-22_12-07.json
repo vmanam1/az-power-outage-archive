@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-22 12:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 70,
+        "total_customers": 46010
+    },
+    "outages": [
+        {
+            "latitude": 34.366382618115985,
+            "longitude": -110.29582433601124,
+            "customers": 68,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-22 12:01:10 MST",
+            "etr": null,
+            "incident_id": "535609"
+        },
+        {
+            "latitude": 34.10847585409874,
+            "longitude": -109.33475274600934,
+            "customers": 1,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-22 10:14:00 MST",
+            "etr": null,
+            "incident_id": "535603"
+        },
+        {
+            "latitude": 34.392976349285014,
+            "longitude": -110.53156921605554,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-22 11:41:56 MST",
+            "etr": null,
+            "incident_id": "535605"
+        }
+    ]
+}

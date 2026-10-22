@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-22 12:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.4129060462219,
+            "longitude": -111.854182664296,
+            "boundary": "S ALMA SCHOOL  RD TO S EXTENSION  RD AND W MAIN  ST TO W BROADWAY  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-22 06:54 MST",
+            "etr": "2026-10-22 14:51 MST"
+        },
+        {
+            "latitude": 33.4957640448814,
+            "longitude": -112.266983613916,
+            "boundary": "N 99TH  AVE TO N 95TH  AVE AND W CAMPBELL  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-22 07:56 MST",
+            "etr": "2026-10-22 13:00 MST"
+        },
+        {
+            "latitude": 33.5366198268418,
+            "longitude": -112.1503454284065,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-22 08:51 MST",
+            "etr": "2026-10-22 15:30 MST"
+        },
+        {
+            "latitude": 33.4576015320381,
+            "longitude": -112.221821467477,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W PAPAGO  FWY TO W VAN BUREN  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-22 08:56 MST",
+            "etr": "2026-10-22 21:32 MST"
+        }
+    ]
+}
