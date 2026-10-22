@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 05:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 555
+    },
+    "outages": [
+        {
+            "latitude": 34.870850877151135,
+            "longitude": -111.83581321189672,
+            "city": "Sedona",
+            "boundary": "Calle De Privado to Top Knot Dr. and Distant Drums Rd. to Dry Creek Rd.",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-21 13:44:00 MST",
+            "etr": "2026-10-21 22:45:00 MST"
+        },
+        {
+            "latitude": 34.91172503715774,
+            "longitude": -111.4672665593057,
+            "city": "Mormon Lake",
+            "boundary": "Lots A luck Ln. to Mormon Lake Rd. and Pine Cir. to Blue Ridge Rd.",
+            "customers": 458,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 18:34:00 MST",
+            "etr": "2026-10-21 23:30:00 MST"
+        },
+        {
+            "latitude": 32.66939601035705,
+            "longitude": -114.53214291895047,
+            "city": "Yuma",
+            "boundary": "Almost Heaven St. to Our World St. and Avenue 5 1/2 East to Sun Chaser Dr.",
+            "customers": 92,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 20:46:00 MST",
+            "etr": "2026-10-22 00:45:00 MST"
+        }
+    ]
+}
