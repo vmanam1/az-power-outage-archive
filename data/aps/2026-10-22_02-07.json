@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 02:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 133
+    },
+    "outages": [
+        {
+            "latitude": 34.870850877151135,
+            "longitude": -111.83581321189672,
+            "city": "Sedona",
+            "boundary": "Calle De Privado to Top Knot Dr. and Distant Drums Rd. to Dry Creek Rd.",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-21 13:44:00 MST",
+            "etr": "2026-10-21 20:45:00 MST"
+        },
+        {
+            "latitude": 34.95020843883209,
+            "longitude": -111.64222727428209,
+            "city": "Munds Park",
+            "boundary": "Sequoia Dr. and Pintail to Penguin Pl.",
+            "customers": 12,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-21 14:05:00 MST",
+            "etr": "2026-10-21 22:00:00 MST"
+        },
+        {
+            "latitude": 34.91172503715774,
+            "longitude": -111.4672665593057,
+            "city": "Mormon Lake",
+            "boundary": "Lots A luck Ln. to Mormon Lake Rd. and Pine Cir. to Blue Ridge Rd.",
+            "customers": 116,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 18:34:00 MST",
+            "etr": "2026-10-21 22:15:00 MST"
+        }
+    ]
+}
