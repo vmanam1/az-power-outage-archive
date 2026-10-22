@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-22 11:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 917,
+        "total_customers": 46010
+    },
+    "outages": [
+        {
+            "latitude": 34.1091378199308,
+            "longitude": -109.34398742713138,
+            "customers": 914,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-22 07:50:08 MST",
+            "etr": null,
+            "incident_id": "535594"
+        },
+        {
+            "latitude": 34.39233885098026,
+            "longitude": -110.54901449887556,
+            "customers": 1,
+            "cause": "TORNADO",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-22 08:23:28 MST",
+            "etr": null,
+            "incident_id": "535597"
+        },
+        {
+            "latitude": 34.39388811167798,
+            "longitude": -110.54700227263885,
+            "customers": 1,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-22 09:43:23 MST",
+            "etr": null,
+            "incident_id": "535601"
+        },
+        {
+            "latitude": 34.10847585409874,
+            "longitude": -109.33475274600934,
+            "customers": 1,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-22 10:14:00 MST",
+            "etr": null,
+            "incident_id": "535603"
+        }
+    ]
+}
