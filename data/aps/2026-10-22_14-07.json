@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 14:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 33.5774915300903,
+            "longitude": -112.08660840329628,
+            "city": "Phoenix",
+            "boundary": "Cinnabar Ave and 11th Ave to 9th Ave",
+            "customers": 25,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-22 06:01:00 MST",
+            "etr": "2026-10-22 09:10:00 MST"
+        },
+        {
+            "latitude": 35.19648235973753,
+            "longitude": -111.47357951577891,
+            "city": "Flagstaff",
+            "boundary": "Wipiti Trl to Rabbit Ridge Rd and Cosnino Rd",
+            "customers": 33,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-22 06:45:00 MST",
+            "etr": "2026-10-22 11:00:00 MST"
+        }
+    ]
+}

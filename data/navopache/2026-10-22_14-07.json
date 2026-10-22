@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-22 14:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 67,
+        "total_customers": 46010
+    },
+    "outages": [
+        {
+            "latitude": 34.28681054925033,
+            "longitude": -109.77858337849604,
+            "customers": 18,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-22 13:56:44 MST",
+            "etr": null,
+            "incident_id": "535633"
+        },
+        {
+            "latitude": 34.405554828401115,
+            "longitude": -110.54799940260438,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-22 13:57:51 MST",
+            "etr": null,
+            "incident_id": "535634"
+        },
+        {
+            "latitude": 34.23580503364394,
+            "longitude": -109.70120249991123,
+            "customers": 47,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-22 13:23:14 MST",
+            "etr": null,
+            "incident_id": "535628"
+        },
+        {
+            "latitude": 34.23590900646112,
+            "longitude": -109.70091503902026,
+            "customers": 1,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-22 13:23:14 MST",
+            "etr": null,
+            "incident_id": "535629"
+        }
+    ]
+}
