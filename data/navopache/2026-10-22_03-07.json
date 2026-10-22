@@ -1,0 +1,125 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-22 03:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 1592,
+        "total_customers": 46010
+    },
+    "outages": [
+        {
+            "latitude": 34.26724353100428,
+            "longitude": -109.77033684418669,
+            "customers": 3,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-22 00:45:00 MST",
+            "etr": null,
+            "incident_id": "535441"
+        },
+        {
+            "latitude": 34.48119332105435,
+            "longitude": -109.61961750579613,
+            "customers": 245,
+            "cause": "TAMPERING",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-22 01:08:21 MST",
+            "etr": null,
+            "incident_id": "535463"
+        },
+        {
+            "latitude": 34.397794493389426,
+            "longitude": -110.54993078046549,
+            "customers": 39,
+            "cause": "DAMAGED MATERIAL OR EQUIP",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 20:21:43 MST",
+            "etr": null,
+            "incident_id": "535431"
+        },
+        {
+            "latitude": 34.416286178215735,
+            "longitude": -110.59578977572619,
+            "customers": 25,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 19:00:43 MST",
+            "etr": null,
+            "incident_id": "535366"
+        },
+        {
+            "latitude": 34.38758711181739,
+            "longitude": -110.5520058887721,
+            "customers": 11,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 22:40:06 MST",
+            "etr": null,
+            "incident_id": "535434"
+        },
+        {
+            "latitude": 34.391656870674254,
+            "longitude": -110.5509907925009,
+            "customers": 1191,
+            "cause": "WIND,TREES",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 19:02:36 MST",
+            "etr": null,
+            "incident_id": "535424"
+        },
+        {
+            "latitude": 34.419391194550286,
+            "longitude": -109.63058593541678,
+            "customers": 53,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-22 00:58:49 MST",
+            "etr": null,
+            "incident_id": "535446"
+        },
+        {
+            "latitude": 34.25355281871491,
+            "longitude": -109.74327060467239,
+            "customers": 8,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-22 00:44:06 MST",
+            "etr": null,
+            "incident_id": "535438"
+        },
+        {
+            "latitude": 34.253434017534424,
+            "longitude": -109.74281246387743,
+            "customers": 1,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-22 00:44:06 MST",
+            "etr": null,
+            "incident_id": "535439"
+        },
+        {
+            "latitude": 34.420962185142415,
+            "longitude": -110.53629435445066,
+            "customers": 16,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 19:05:52 MST",
+            "etr": null,
+            "incident_id": "535408"
+        }
+    ]
+}
