@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-21 18:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 399
+    },
+    "outages": [
+        {
+            "latitude": 33.58583700019089,
+            "longitude": -112.10309100025145,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave. to Desert Cove Rd. and 21St Dr. to 15th Dr.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 08:40:00 MST",
+            "etr": "2026-10-21 16:00:00 MST"
+        },
+        {
+            "latitude": 35.21838089976167,
+            "longitude": -112.4835521997969,
+            "city": "Ash Fork",
+            "boundary": "Railroad Ave To Buzzard Bluff Rd And Old Highway 66 To Monte Carlo Truck Stop",
+            "customers": 181,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 09:19:00 MST",
+            "etr": "2026-10-21 12:35:00 MST"
+        },
+        {
+            "latitude": 34.23428004289814,
+            "longitude": -111.30912063019169,
+            "city": "Payson",
+            "boundary": "Wade Cir. and Mud Springs Rd.",
+            "customers": 19,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 10:26:00 MST",
+            "etr": "2026-10-21 13:40:00 MST"
+        },
+        {
+            "latitude": 34.24807389833831,
+            "longitude": -111.36086974491498,
+            "city": "Payson",
+            "boundary": "Bulla Dr. to Wagon Trl. and Sinead Dr.",
+            "customers": 29,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 10:21:00 MST",
+            "etr": "2026-10-21 13:40:00 MST"
+        },
+        {
+            "latitude": 33.58424422771719,
+            "longitude": -112.0977811286756,
+            "city": "Phoenix",
+            "boundary": "West Desert Cove Ave to West Sahuaro Dr and North 19th Ave to North 17th Dr",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 10:33:00 MST",
+            "etr": "2026-10-21 14:33:00 MST"
+        },
+        {
+            "latitude": 33.58838572984956,
+            "longitude": -112.09350344471743,
+            "city": "Phoenix",
+            "boundary": "Cholla St. to Desert Cove Ave. and 19th Ave. to 15th Ave.",
+            "customers": 153,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-21 11:00:00 MST",
+            "etr": "2026-10-21 14:00:00 MST"
+        }
+    ]
+}
