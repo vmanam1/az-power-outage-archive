@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-21 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 245
+    },
+    "outages": [
+        {
+            "latitude": 33.58583700019089,
+            "longitude": -112.10309100025145,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave. to Desert Cove Rd. and 21St Dr. to 15th Dr.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 08:40:00 MST",
+            "etr": "2026-10-21 10:50:00 MST"
+        },
+        {
+            "latitude": 35.50368639975195,
+            "longitude": -112.17950529966463,
+            "city": "Williams",
+            "boundary": "Howard Mesa Subdivision To 10 Mi. S/O Valle",
+            "customers": 46,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 08:44:00 MST",
+            "etr": "2026-10-21 11:20:00 MST"
+        },
+        {
+            "latitude": 35.21838089976167,
+            "longitude": -112.4835521997969,
+            "city": "Ash Fork",
+            "boundary": "Railroad Ave To Buzzard Bluff Rd And Old Highway 66 To Monte Carlo Truck Stop",
+            "customers": 181,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 09:19:00 MST",
+            "etr": "2026-10-21 12:15:00 MST"
+        },
+        {
+            "latitude": 33.592457954700144,
+            "longitude": -112.12912872894877,
+            "city": "Phoenix",
+            "boundary": "West Altadena Ave to West Cortez Ave and North 33rd Ave to North 32nd Ave",
+            "customers": 6,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 09:27:00 MST",
+            "etr": "2026-10-21 11:15:00 MST"
+        }
+    ]
+}

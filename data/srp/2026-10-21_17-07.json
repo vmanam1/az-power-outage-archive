@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-21 17:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 2279
+    },
+    "outages": [
+        {
+            "latitude": 33.520767700239446,
+            "longitude": -112.149134096218,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W BETHANY HOME  RD TO W MISSOURI  AVE",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 16:01 MST",
+            "etr": "2026-10-21 17:29 MST"
+        },
+        {
+            "latitude": 33.5234210792605,
+            "longitude": -112.12695529992149,
+            "boundary": "N 35TH  AVE TO N 27TH  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 16:06 MST",
+            "etr": "2026-10-21 17:30 MST"
+        },
+        {
+            "latitude": 33.55201262502965,
+            "longitude": -112.13301510179,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 21,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-21 15:29 MST",
+            "etr": "2026-10-21 20:28 MST"
+        },
+        {
+            "latitude": 33.4248385502548,
+            "longitude": -111.6239890270015,
+            "boundary": "N 88TH  ST TO N 104TH  ST AND E BROWN  RD TO E APACHE  TRL",
+            "customers": 959,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 16:33 MST",
+            "etr": "2026-10-21 18:32 MST"
+        },
+        {
+            "latitude": 33.41558535568845,
+            "longitude": -111.61399544542249,
+            "boundary": "N ELLSWORTH  RD TO N MOUNTAIN  RD AND E ADOBE  RD TO E PUEBLO  AVE",
+            "customers": 1062,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 16:38 MST",
+            "etr": "2026-10-21 18:37 MST"
+        },
+        {
+            "latitude": 33.4213996726034,
+            "longitude": -111.6177867113505,
+            "boundary": "N 96TH  ST TO N 104TH  ST AND E ADOBE  RD TO E APACHE  TRL",
+            "customers": 61,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 17:01 MST",
+            "etr": "2026-10-21 18:56 MST"
+        },
+        {
+            "latitude": 33.51195269887005,
+            "longitude": -112.1407950500955,
+            "boundary": "GRAND  AVE TO N 35TH  AVE AND W MISSOURI  AVE TO GRAND  AVE",
+            "customers": 157,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 16:04 MST",
+            "etr": "2026-10-21 18:24 MST"
+        }
+    ]
+}

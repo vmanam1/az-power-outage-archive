@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-10-21 17:07:30 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 0,
+        "map_last_refreshed": "Oct 21, 5:06 PM"
+    },
+    "outages": [
+        {
+            "latitude": 32.32296636046702,
+            "longitude": -110.9075439050894,
+            "boundary": {
+                "coordLatSW": "32.322966360467021",
+                "coordLngSW": "-110.9075439050894",
+                "coordLatNE": "32.322966360467021",
+                "coordLngNE": "-110.9075439050894",
+                "coordLatCenter": "32.322968",
+                "coordLngCenter": "-110.90755"
+            },
+            "customers": 0,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-10-21 09:21 MST",
+            "etr": "2026-10-21 11:33 MST",
+            "event": "Planned",
+            "division": "TEP",
+            "customers_restored": 67,
+            "last_update": "2026-10-21 11:52 MST"
+        },
+        {
+            "latitude": 32.2207930664166,
+            "longitude": -110.892679675412,
+            "boundary": {
+                "coordLatSW": "32.220793066416597",
+                "coordLngSW": "-110.892679675412",
+                "coordLatNE": "32.220793066416597",
+                "coordLngNE": "-110.892679675412",
+                "coordLatCenter": "32.220795",
+                "coordLngCenter": "-110.89268"
+            },
+            "customers": 0,
+            "cause": "Emergency/Safety Issue",
+            "comments": null,
+            "start_time": "2026-10-21 08:00 MST",
+            "etr": "2026-10-21 08:16 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 413,
+            "last_update": "2026-10-21 08:30 MST"
+        }
+    ]
+}
