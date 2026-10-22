@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-22 13:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 82,
+        "total_customers": 46010
+    },
+    "outages": [
+        {
+            "latitude": 34.10847585409874,
+            "longitude": -109.33475274600934,
+            "customers": 1,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-22 10:14:00 MST",
+            "etr": null,
+            "incident_id": "535603"
+        },
+        {
+            "latitude": 34.151292137098,
+            "longitude": -109.99402633311642,
+            "customers": 80,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-10-22 12:23:07 MST",
+            "etr": null,
+            "incident_id": "535618"
+        },
+        {
+            "latitude": 34.26638978275308,
+            "longitude": -109.73787172981407,
+            "customers": 1,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-22 12:23:07 MST",
+            "etr": null,
+            "incident_id": "535619"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 13:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 35.82781633696204,
+            "longitude": -110.38595982997887,
+            "city": "Keams Canyon",
+            "boundary": "Az State Hwy 264 and Az 87",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 23:16:00 MST",
+            "etr": "2026-10-22 08:00:00 MST"
+        }
+    ]
+}
