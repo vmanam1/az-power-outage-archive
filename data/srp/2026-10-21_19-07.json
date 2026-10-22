@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-21 19:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 93
+    },
+    "outages": [
+        {
+            "latitude": 33.55201262502965,
+            "longitude": -112.13301510179,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 21,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-21 15:29 MST",
+            "etr": "2026-10-21 20:28 MST"
+        },
+        {
+            "latitude": 33.4213996726034,
+            "longitude": -111.6177867113505,
+            "boundary": "N 96TH  ST TO N 104TH  ST AND E ADOBE  RD TO E APACHE  TRL",
+            "customers": 61,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 17:01 MST",
+            "etr": "2026-10-21 19:34 MST"
+        },
+        {
+            "latitude": 33.5234210792605,
+            "longitude": -112.12695529992149,
+            "boundary": "N 35TH  AVE TO N 27TH  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 11,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-21 16:06 MST",
+            "etr": "2026-10-21 20:30 MST"
+        }
+    ]
+}
