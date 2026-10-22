@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 06:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 507
+    },
+    "outages": [
+        {
+            "latitude": 34.91172503715774,
+            "longitude": -111.4672665593057,
+            "city": "Mormon Lake",
+            "boundary": "Lots A luck Ln. to Mormon Lake Rd. and Pine Cir. to Blue Ridge Rd.",
+            "customers": 483,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 18:34:00 MST",
+            "etr": "2026-10-22 00:45:00 MST"
+        },
+        {
+            "latitude": 34.49036874524054,
+            "longitude": -112.4470445606491,
+            "city": "Prescott",
+            "boundary": "Ponderosa Dr. to Pine Tree Ln. and Evergreen Dr. to Pinehurst Dr.",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 22:21:00 MST",
+            "etr": "2026-10-22 01:15:00 MST"
+        }
+    ]
+}
