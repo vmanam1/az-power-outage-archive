@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-21 20:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 136
+    },
+    "outages": [
+        {
+            "latitude": 33.58583700019089,
+            "longitude": -112.10309100025145,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave. to Desert Cove Rd. and 21St Dr. to 15th Dr.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 08:40:00 MST",
+            "etr": "2026-10-21 17:10:00 MST"
+        },
+        {
+            "latitude": 35.28093352213003,
+            "longitude": -111.73070775896461,
+            "city": "Flagstaff",
+            "boundary": "Flagstaff Hotshot Ranch Rd. to Taylor Spring Ln. and Snow Bowl Rd.",
+            "customers": 9,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-21 11:35:00 MST",
+            "etr": "2026-10-21 15:00:00 MST"
+        },
+        {
+            "latitude": 34.50222363875016,
+            "longitude": -110.06153720512994,
+            "city": "Snowflake",
+            "boundary": "2nd St. to Larson Ln. and 1st East St. to 9th South",
+            "customers": 16,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-21 11:59:00 MST",
+            "etr": "2026-10-21 15:00:00 MST"
+        },
+        {
+            "latitude": 35.20657126466873,
+            "longitude": -111.4737387295866,
+            "city": "Flagstaff",
+            "boundary": "Purple Heart Tl. to Walnut Canyon Rd. and Walnut Hills Dr. to Wapiti Tl.",
+            "customers": 99,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 12:43:00 MST",
+            "etr": "2026-10-21 16:05:00 MST"
+        }
+    ]
+}
