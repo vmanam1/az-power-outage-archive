@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-22 15:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 213,
+        "total_customers": 46010
+    },
+    "outages": [
+        {
+            "latitude": 34.283663506201066,
+            "longitude": -110.12067980504207,
+            "customers": 139,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-22 14:56:14 MST",
+            "etr": null,
+            "incident_id": "535654"
+        },
+        {
+            "latitude": 34.271927856286915,
+            "longitude": -110.107627283962,
+            "customers": 69,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-22 14:46:31 MST",
+            "etr": null,
+            "incident_id": "535644"
+        },
+        {
+            "latitude": 34.405554828401115,
+            "longitude": -110.54799940260438,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-22 13:57:51 MST",
+            "etr": null,
+            "incident_id": "535634"
+        },
+        {
+            "latitude": 34.259388720177455,
+            "longitude": -110.23434363795754,
+            "customers": 2,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-22 14:13:46 MST",
+            "etr": null,
+            "incident_id": "535636"
+        },
+        {
+            "latitude": 34.28530384287232,
+            "longitude": -110.10327943798626,
+            "customers": 1,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-22 14:23:34 MST",
+            "etr": null,
+            "incident_id": "535638"
+        },
+        {
+            "latitude": 34.23590900646112,
+            "longitude": -109.70091503902026,
+            "customers": 1,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-10-22 13:23:14 MST",
+            "etr": null,
+            "incident_id": "535629"
+        }
+    ]
+}
