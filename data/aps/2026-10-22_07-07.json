@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 07:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 532
+    },
+    "outages": [
+        {
+            "latitude": 34.91172503715774,
+            "longitude": -111.4672665593057,
+            "city": "Mormon Lake",
+            "boundary": "Lots A luck Ln. to Mormon Lake Rd. and Pine Cir. to Blue Ridge Rd.",
+            "customers": 483,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 18:34:00 MST",
+            "etr": "2026-10-22 02:00:00 MST"
+        },
+        {
+            "latitude": 35.223627762257955,
+            "longitude": -111.45705767592055,
+            "city": "Flagstaff",
+            "boundary": "Cedar Valley Ranch Rd. to Triangle Wy. and Crosman Rd. to Townsend Winona Rd.",
+            "customers": 49,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 23:22:00 MST",
+            "etr": "2026-10-22 02:40:00 MST"
+        }
+    ]
+}
