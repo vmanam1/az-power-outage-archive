@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-21 21:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 218
+    },
+    "outages": [
+        {
+            "latitude": 33.58583700019089,
+            "longitude": -112.10309100025145,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave. to Desert Cove Rd. and 21St Dr. to 15th Dr.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 08:40:00 MST",
+            "etr": "2026-10-21 17:10:00 MST"
+        },
+        {
+            "latitude": 35.28093352213003,
+            "longitude": -111.73070775896461,
+            "city": "Flagstaff",
+            "boundary": "Flagstaff Hotshot Ranch Rd. to Taylor Spring Ln. and Snow Bowl Rd.",
+            "customers": 9,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-21 11:35:00 MST",
+            "etr": "2026-10-21 15:00:00 MST"
+        },
+        {
+            "latitude": 34.50222363875016,
+            "longitude": -110.06153720512994,
+            "city": "Snowflake",
+            "boundary": "2nd St. to Larson Ln. and 1st East St. to 9th South",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-21 11:59:00 MST",
+            "etr": "2026-10-21 15:00:00 MST"
+        },
+        {
+            "latitude": 35.20657126466873,
+            "longitude": -111.4737387295866,
+            "city": "Flagstaff",
+            "boundary": "Purple Heart Tl. to Walnut Canyon Rd. and Walnut Hills Dr. to Wapiti Tl.",
+            "customers": 99,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 12:43:00 MST",
+            "etr": "2026-10-21 16:05:00 MST"
+        },
+        {
+            "latitude": 34.870850877151135,
+            "longitude": -111.83581321189672,
+            "city": "Sedona",
+            "boundary": "Calle De Privado to Top Knot Dr. and Distant Drums Rd. to Dry Creek Rd.",
+            "customers": 51,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 13:44:00 MST",
+            "etr": "2026-10-21 17:10:00 MST"
+        },
+        {
+            "latitude": 35.19828034876846,
+            "longitude": -111.59354691865536,
+            "city": "Flagstaff",
+            "boundary": "Rio De Flag Dr. to Butler Ave. and Wood Hollow Way to Continental Dr.",
+            "customers": 42,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 13:55:00 MST",
+            "etr": "2026-10-21 15:45:00 MST"
+        }
+    ]
+}
