@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 584
+    },
+    "outages": [
+        {
+            "latitude": 34.91172503715774,
+            "longitude": -111.4672665593057,
+            "city": "Mormon Lake",
+            "boundary": "Lots A luck Ln. to Mormon Lake Rd. and Pine Cir. to Blue Ridge Rd.",
+            "customers": 499,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 18:34:00 MST",
+            "etr": "2026-10-22 02:00:00 MST"
+        },
+        {
+            "latitude": 35.223627762257955,
+            "longitude": -111.45705767592055,
+            "city": "Flagstaff",
+            "boundary": "Cedar Valley Ranch Rd. to Triangle Wy. and Crosman Rd. to Townsend Winona Rd.",
+            "customers": 49,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-21 23:22:00 MST",
+            "etr": "2026-10-22 02:40:00 MST"
+        },
+        {
+            "latitude": 33.801790194739105,
+            "longitude": -111.93978560538794,
+            "city": "Carefree",
+            "boundary": "Languid Ln. and Ridgeway Dr.",
+            "customers": 6,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-22 00:15:00 MST",
+            "etr": "2026-10-22 03:00:00 MST"
+        },
+        {
+            "latitude": 35.837331634984466,
+            "longitude": -110.38143401516955,
+            "city": "Polacca",
+            "boundary": "Hopi Rt. 8 to AZ State Hwy 264",
+            "customers": 30,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 00:24:00 MST",
+            "etr": "2026-10-22 03:45:00 MST"
+        }
+    ]
+}

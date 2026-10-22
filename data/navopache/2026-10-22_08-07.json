@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-22 08:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1004,
+        "total_customers": 46010
+    },
+    "outages": [
+        {
+            "latitude": 34.1091378199308,
+            "longitude": -109.34398742713138,
+            "customers": 914,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-22 07:50:08 MST",
+            "etr": null,
+            "incident_id": "535594"
+        },
+        {
+            "latitude": 34.416286178215735,
+            "longitude": -110.59578977572619,
+            "customers": 25,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 19:00:43 MST",
+            "etr": null,
+            "incident_id": "535366"
+        },
+        {
+            "latitude": 34.38758711181739,
+            "longitude": -110.5520058887721,
+            "customers": 11,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 22:40:06 MST",
+            "etr": null,
+            "incident_id": "535434"
+        },
+        {
+            "latitude": 34.396363904169654,
+            "longitude": -110.54714600308434,
+            "customers": 38,
+            "cause": "NO CAUSE CODE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-22 03:30:52 MST",
+            "etr": null,
+            "incident_id": "535524"
+        },
+        {
+            "latitude": 34.420962185142415,
+            "longitude": -110.53629435445066,
+            "customers": 16,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-10-21 19:05:52 MST",
+            "etr": null,
+            "incident_id": "535408"
+        }
+    ]
+}

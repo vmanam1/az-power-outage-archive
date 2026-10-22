@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-22 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 1232
+    },
+    "outages": [
+        {
+            "latitude": 33.4129060462219,
+            "longitude": -111.854182664296,
+            "boundary": "S ALMA SCHOOL  RD TO S EXTENSION  RD AND W MAIN  ST TO W BROADWAY  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-22 06:54 MST",
+            "etr": "2026-10-22 14:51 MST"
+        },
+        {
+            "latitude": 33.407109406211,
+            "longitude": -112.288715284061,
+            "boundary": "S 111TH  AVE TO N 103RD  AVE AND W LOWER BUCKEYE  RD TO W ROESER  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-22 06:54 MST",
+            "etr": "2026-10-22 13:30 MST"
+        },
+        {
+            "latitude": 33.5086742211545,
+            "longitude": -111.897854495668,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  RD AND E JACKRABBIT  RD TO E CAMELBACK  RD",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-22 06:59 MST",
+            "etr": "2026-10-22 09:09 MST"
+        },
+        {
+            "latitude": 33.3335340914895,
+            "longitude": -111.983477875199,
+            "boundary": "S 44TH  ST TO S 48TH  ST AND E ELLIOT  RD TO E WARNER  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-22 07:38 MST",
+            "etr": "2026-10-22 10:00 MST"
+        },
+        {
+            "latitude": 33.40669673287745,
+            "longitude": -111.5997895770295,
+            "boundary": "S 104TH  ST TO S MOUNTAIN  RD AND E APACHE  TRL TO E PUEBLO  AVE",
+            "customers": 15,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-22 07:46 MST",
+            "etr": "2026-10-22 09:44 MST"
+        },
+        {
+            "latitude": 33.4957640448814,
+            "longitude": -112.266983613916,
+            "boundary": "N 99TH  AVE TO N 95TH  AVE AND W CAMPBELL  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-22 07:56 MST",
+            "etr": "2026-10-22 13:00 MST"
+        },
+        {
+            "latitude": 33.77770565981565,
+            "longitude": -111.758668287329,
+            "boundary": "WESTERN BOUNDS OF SERVICE TERRITORY TO N 164TH  ST AND NORTHERN BOUNDS OF SERVICE TERRITORY TO E PINNACLE VISTA  DR",
+            "customers": 1203,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-22 08:00 MST",
+            "etr": "2026-10-22 09:59 MST"
+        }
+    ]
+}
