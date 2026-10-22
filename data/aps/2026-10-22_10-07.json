@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 10:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 115
+    },
+    "outages": [
+        {
+            "latitude": 35.19314116675428,
+            "longitude": -111.47981145678993,
+            "city": "Flagstaff",
+            "boundary": "Cosnino Rd. to Walnut Canyon Rd. and Walnut Hills Dr. to Wapiti Trl.",
+            "customers": 99,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 02:35:00 MST",
+            "etr": "2026-10-22 05:50:00 MST"
+        },
+        {
+            "latitude": 33.548027348275916,
+            "longitude": -111.9108972878338,
+            "city": "Scottsdale",
+            "boundary": "Spanish Oaks Dr. to Pinesview Dr.",
+            "customers": 16,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-22 02:39:00 MST",
+            "etr": "2026-10-22 05:20:00 MST"
+        }
+    ]
+}
