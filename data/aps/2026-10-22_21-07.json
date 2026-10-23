@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 21:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 28
+    },
+    "outages": [
+        {
+            "latitude": 34.24922876869649,
+            "longitude": -110.05535515834644,
+            "city": "Show Low",
+            "boundary": "Cross Creek Ln. to Nickolaus Dr. and 14th Dr. to 11th Ave.",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 10:29:00 MST",
+            "etr": "2026-10-22 16:20:00 MST"
+        },
+        {
+            "latitude": 34.79992793297133,
+            "longitude": -109.90633639009853,
+            "city": "Holbrook",
+            "boundary": "US 180 and Petrified Forest Rd.",
+            "customers": 21,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-22 11:24:00 MST",
+            "etr": "2026-10-22 15:15:00 MST"
+        }
+    ]
+}
