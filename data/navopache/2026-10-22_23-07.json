@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-22 23:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3,
+        "total_customers": 46010
+    },
+    "outages": [
+        {
+            "latitude": 34.072446691388436,
+            "longitude": -109.85352083950772,
+            "customers": 3,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-22 22:09:34 MST",
+            "etr": null,
+            "incident_id": "535732"
+        }
+    ]
+}
