@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 18:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 238
+    },
+    "outages": [
+        {
+            "latitude": 35.836002836899276,
+            "longitude": -110.3801327111574,
+            "city": "Polacca",
+            "boundary": "Az State Hwy 264 and Keams Canyon Wash",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-22 07:34:00 MST",
+            "etr": "2026-10-22 12:00:00 MST"
+        },
+        {
+            "latitude": 34.44327212419742,
+            "longitude": -110.06669248922181,
+            "city": "Snowflake",
+            "boundary": "Willow Ln to Huckleberry Ln and Show Low Creek to Bourdon Ranch",
+            "customers": 117,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 08:59:00 MST",
+            "etr": "2026-10-22 12:40:00 MST"
+        },
+        {
+            "latitude": 34.24922876869649,
+            "longitude": -110.05535515834644,
+            "city": "Show Low",
+            "boundary": "Cross Creek Ln. to Nickolaus Dr. and 14th Dr. to 11th Ave.",
+            "customers": 108,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 10:29:00 MST",
+            "etr": "2026-10-22 13:20:00 MST"
+        },
+        {
+            "latitude": 34.248812237041946,
+            "longitude": -110.05518918022467,
+            "city": "Show Low",
+            "boundary": "McNeil and Fox Run",
+            "customers": 7,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-22 08:37:00 MST",
+            "etr": "2026-10-22 11:40:00 MST"
+        }
+    ]
+}
