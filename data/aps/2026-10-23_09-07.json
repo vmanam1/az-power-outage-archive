@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-23 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 286
+    },
+    "outages": [
+        {
+            "latitude": 34.20897134687264,
+            "longitude": -112.34782405738152,
+            "city": "Crown King",
+            "boundary": "Towers Mountain Rd. to Helipad Rd. and Demascus Rd. to Mill Ave.",
+            "customers": 265,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-22 15:48:00 MST",
+            "etr": "2026-10-23 06:30:00 MST"
+        },
+        {
+            "latitude": 33.49406345999237,
+            "longitude": -111.92520684035377,
+            "city": "Scottsdale",
+            "boundary": "East Indian School Rd to East 1st Ave and North Scottsdale Rd to North Brown Ave",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-23 00:39:00 MST",
+            "etr": "2026-10-23 03:00:00 MST"
+        },
+        {
+            "latitude": 32.37991970502428,
+            "longitude": -112.86866828499006,
+            "city": "Ajo",
+            "boundary": "Mckinley Ave.",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-23 00:50:00 MST",
+            "etr": "2026-10-23 04:00:00 MST"
+        },
+        {
+            "latitude": 33.574343120997774,
+            "longitude": -112.00216029961732,
+            "city": "Phoenix",
+            "boundary": "East Mountain View Dr to East Carol Ave and North 37th St",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-23 01:14:00 MST",
+            "etr": "2026-10-23 05:15:00 MST"
+        }
+    ]
+}

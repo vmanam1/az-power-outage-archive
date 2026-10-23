@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-23 09:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 7,
+        "total_customers": 58077
+    },
+    "outages": [
+        {
+            "latitude": 32.02986872235168,
+            "longitude": -111.27791650366444,
+            "customers": 2,
+            "cause": "99 UNKNOWN/UNDETERMINED",
+            "comments": null,
+            "boundary": "Three Points",
+            "start_time": "2026-10-23 07:25:39 MST",
+            "etr": "2026-10-23 10:25:39 MST",
+            "incident_id": "390085"
+        },
+        {
+            "latitude": 32.293294788446225,
+            "longitude": -111.22185264677474,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-10-23 08:00:00 MST",
+            "etr": "2026-10-23 10:00:00 MST",
+            "incident_id": "390064"
+        },
+        {
+            "latitude": 32.15636872792622,
+            "longitude": -111.03288304358105,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-22 08:08:01 MST",
+            "etr": null,
+            "incident_id": "390075"
+        },
+        {
+            "latitude": 32.292998634522796,
+            "longitude": -111.2233258838409,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-10-23 08:09:49 MST",
+            "etr": null,
+            "incident_id": "390086"
+        },
+        {
+            "latitude": 32.52976364602754,
+            "longitude": -110.85889733932858,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Pinal County East",
+            "start_time": "2026-10-23 08:34:26 MST",
+            "etr": null,
+            "incident_id": "390087"
+        },
+        {
+            "latitude": 32.15950959068152,
+            "longitude": -111.08765332646145,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-08 08:48:41 MST",
+            "etr": null,
+            "incident_id": "389818"
+        }
+    ]
+}

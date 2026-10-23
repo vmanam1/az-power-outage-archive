@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-23 09:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 55
+    },
+    "outages": [
+        {
+            "latitude": 33.4544621960814,
+            "longitude": -112.25796387743051,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 25,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-23 07:21 MST",
+            "etr": "2026-10-23 15:14 MST"
+        },
+        {
+            "latitude": 33.4545517828422,
+            "longitude": -112.255958469083,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-23 07:30 MST",
+            "etr": "2026-10-23 15:17 MST"
+        },
+        {
+            "latitude": 33.46131551432475,
+            "longitude": -111.64361546274651,
+            "boundary": "N HAWES  RD TO N 88TH  ST AND E MCDOWELL  RD TO E HERMOSA VISTA  DR",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-23 08:02 MST",
+            "etr": "2026-10-23 11:59 MST"
+        },
+        {
+            "latitude": 33.292983505433796,
+            "longitude": -111.96796051145199,
+            "boundary": "S PEARL HARBOR MEMORIAL  HWY TO S 56TH  ST AND W SANTAN  FWY TO E PECOS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-23 08:29 MST",
+            "etr": "2026-10-23 10:08 MST"
+        },
+        {
+            "latitude": 33.3668378847795,
+            "longitude": -111.90565141899751,
+            "boundary": "S MCCLINTOCK  DR TO S COUNTRY CLUB  WAY AND E BASELINE  RD TO E GUADALUPE  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-23 08:38 MST",
+            "etr": "2026-10-23 10:35 MST"
+        }
+    ]
+}
