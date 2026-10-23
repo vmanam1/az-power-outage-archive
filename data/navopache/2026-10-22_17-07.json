@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-22 17:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 1845,
+        "total_customers": 46010
+    },
+    "outages": [
+        {
+            "latitude": 34.23129694589186,
+            "longitude": -110.06764327066027,
+            "customers": 229,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-22 15:23:54 MST",
+            "etr": null,
+            "incident_id": "535663"
+        },
+        {
+            "latitude": 33.83726823248915,
+            "longitude": -109.07502284787572,
+            "customers": 1616,
+            "cause": "LIGHTNING",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-22 16:12:40 MST",
+            "etr": null,
+            "incident_id": "535728"
+        }
+    ]
+}

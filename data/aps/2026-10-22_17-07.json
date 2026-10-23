@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 17:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 285
+    },
+    "outages": [
+        {
+            "latitude": 35.836002836899276,
+            "longitude": -110.3801327111574,
+            "city": "Polacca",
+            "boundary": "Az State Hwy 264 and Keams Canyon Wash",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-22 07:34:00 MST",
+            "etr": "2026-10-22 11:00:00 MST"
+        },
+        {
+            "latitude": 34.25052276891855,
+            "longitude": -110.05579626618525,
+            "city": "Show Low",
+            "boundary": "Cross Creek Ln. to Nickolaus Dr. and McNeil St. to 11th Ave.",
+            "customers": 115,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 08:45:00 MST",
+            "etr": "2026-10-22 11:30:00 MST"
+        },
+        {
+            "latitude": 34.35140688726896,
+            "longitude": -110.04106897819356,
+            "city": "Show Low",
+            "boundary": "White Mountain Lake Rd. to Woodside Trl. and Christmas Tree Rd. to Ranch Rd.",
+            "customers": 48,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 08:53:00 MST",
+            "etr": "2026-10-22 12:15:00 MST"
+        },
+        {
+            "latitude": 34.44327212419742,
+            "longitude": -110.06669248922181,
+            "city": "Snowflake",
+            "boundary": "Willow Ln to Huckleberry Ln and Show Low Creek to Bourdon Ranch",
+            "customers": 116,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 08:59:00 MST",
+            "etr": "2026-10-22 12:40:00 MST"
+        }
+    ]
+}

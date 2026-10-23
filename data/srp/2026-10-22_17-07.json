@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-22 17:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 624
+    },
+    "outages": [
+        {
+            "latitude": 33.4576015320381,
+            "longitude": -112.221821467477,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W PAPAGO  FWY TO W VAN BUREN  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-22 08:56 MST",
+            "etr": "2026-10-22 21:32 MST"
+        },
+        {
+            "latitude": 33.281456417811,
+            "longitude": -111.904367874412,
+            "boundary": "S KYRENE  RD TO S ELLIS  ST AND W CHANDLER  BLVD TO E CHANDLER HEIGHTS  RD",
+            "customers": 619,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-22 15:51 MST",
+            "etr": "2026-10-22 17:46 MST"
+        },
+        {
+            "latitude": 33.385673526246606,
+            "longitude": -112.32201822028051,
+            "boundary": "S DYSART  RD TO S 119TH  AVE AND W SOUTHERN  AVE TO W INDIAN SPRINGS  RD",
+            "customers": 4,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-22 16:10 MST",
+            "etr": "2026-10-22 20:08 MST"
+        }
+    ]
+}
