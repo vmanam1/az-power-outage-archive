@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-22 20:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 35.836002836899276,
+            "longitude": -110.3801327111574,
+            "city": "Polacca",
+            "boundary": "Az State Hwy 264 and Keams Canyon Wash",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-22 07:34:00 MST",
+            "etr": "2026-10-22 13:55:00 MST"
+        },
+        {
+            "latitude": 34.44327212419742,
+            "longitude": -110.06669248922181,
+            "city": "Snowflake",
+            "boundary": "Willow Ln to Huckleberry Ln and Show Low Creek to Bourdon Ranch",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 08:59:00 MST",
+            "etr": "2026-10-22 14:40:00 MST"
+        },
+        {
+            "latitude": 34.24922876869649,
+            "longitude": -110.05535515834644,
+            "city": "Show Low",
+            "boundary": "Cross Creek Ln. to Nickolaus Dr. and 14th Dr. to 11th Ave.",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-22 10:29:00 MST",
+            "etr": "2026-10-22 16:20:00 MST"
+        },
+        {
+            "latitude": 34.79992793297133,
+            "longitude": -109.90633639009853,
+            "city": "Holbrook",
+            "boundary": "US 180 and Petrified Forest Rd.",
+            "customers": 21,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-22 11:24:00 MST",
+            "etr": "2026-10-22 15:15:00 MST"
+        }
+    ]
+}
