@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-23 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 44
+    },
+    "outages": [
+        {
+            "latitude": 33.53166626658915,
+            "longitude": -112.090506069914,
+            "boundary": "N 19TH  AVE TO N 7TH  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 4,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-23 01:31 MST",
+            "etr": "2026-10-23 11:30 MST"
+        },
+        {
+            "latitude": 33.4544621960814,
+            "longitude": -112.25796387743051,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 25,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-23 07:21 MST",
+            "etr": "2026-10-23 15:14 MST"
+        },
+        {
+            "latitude": 33.4545517828422,
+            "longitude": -112.255958469083,
+            "boundary": "N 95TH  AVE TO N 87TH  AVE AND W ROOSEVELT  ST TO W VAN BUREN  ST",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-23 07:30 MST",
+            "etr": "2026-10-23 15:17 MST"
+        },
+        {
+            "latitude": 33.46131551432475,
+            "longitude": -111.64361546274651,
+            "boundary": "N HAWES  RD TO N 88TH  ST AND E MCDOWELL  RD TO E HERMOSA VISTA  DR",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-23 08:02 MST",
+            "etr": "2026-10-23 11:59 MST"
+        }
+    ]
+}
