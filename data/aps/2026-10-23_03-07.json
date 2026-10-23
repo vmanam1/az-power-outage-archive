@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-23 03:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 265
+    },
+    "outages": [
+        {
+            "latitude": 34.20897134687264,
+            "longitude": -112.34782405738152,
+            "city": "Crown King",
+            "boundary": "Towers Mountain Rd. to Helipad Rd. and Demascus Rd. to Mill Ave.",
+            "customers": 265,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-22 15:48:00 MST",
+            "etr": "2026-10-22 21:00:00 MST"
+        }
+    ]
+}
