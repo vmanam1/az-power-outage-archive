@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-24 05:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 200
+    },
+    "outages": [
+        {
+            "latitude": 33.5832067544311,
+            "longitude": -112.196806615041,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W CHOLLA  ST TO W MOUNTAIN VIEW  RD",
+            "customers": 35,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-24 04:21 MST",
+            "etr": "2026-10-24 06:21 MST"
+        },
+        {
+            "latitude": 33.48935666099635,
+            "longitude": -111.7050504656145,
+            "boundary": "N HIGLEY  RD TO N POWER  RD AND E SHEA  BLVD TO E THOMAS  RD",
+            "customers": 141,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-24 02:41 MST",
+            "etr": "2026-10-24 06:00 MST"
+        },
+        {
+            "latitude": 33.386020150590596,
+            "longitude": -112.08840655840001,
+            "boundary": "S 19TH  AVE TO S 7TH  AVE AND W SOUTHERN  AVE TO W BASELINE  RD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-24 04:36 MST",
+            "etr": "2026-10-24 08:49 MST"
+        },
+        {
+            "latitude": 33.4406844180272,
+            "longitude": -111.8522325454195,
+            "boundary": "N ALMA SCHOOL  RD TO N COUNTRY CLUB  DR AND W MCLELLAN  RD TO W RIO SALADO  PKWY",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-24 04:19 MST",
+            "etr": "2026-10-24 06:22 MST"
+        }
+    ]
+}
