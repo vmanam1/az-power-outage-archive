@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-24 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 34.06102076691805,
+            "longitude": -112.14857128913818,
+            "city": "Black Canyon City",
+            "boundary": "Mesquite Dr and Sunrise Cr",
+            "customers": 17,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-24 01:12:00 MST",
+            "etr": "2026-10-24 04:05:00 MST"
+        },
+        {
+            "latitude": 31.340087453379454,
+            "longitude": -109.55323523216208,
+            "city": "Douglas",
+            "boundary": "8th St to 5th St and F Ave",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-24 02:00:00 MST",
+            "etr": "2026-10-24 05:10:00 MST"
+        }
+    ]
+}
