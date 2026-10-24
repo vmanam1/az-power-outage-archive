@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-24 14:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 31.340087453379454,
+            "longitude": -109.55323523216208,
+            "city": "Douglas",
+            "boundary": "8th St to 5th St and F Ave",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-24 02:00:00 MST",
+            "etr": "2026-10-24 07:30:00 MST"
+        },
+        {
+            "latitude": 33.45069451096139,
+            "longitude": -113.23979137588455,
+            "city": "Tonopah",
+            "boundary": "Centennial Rd to Buckeye Rd and 555th Ave to Van Buren St",
+            "customers": 6,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-10-24 04:15:00 MST",
+            "etr": "2026-10-24 07:45:00 MST"
+        }
+    ]
+}
