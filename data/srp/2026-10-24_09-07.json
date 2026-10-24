@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-24 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.489888940354604,
+            "longitude": -111.708122097036,
+            "boundary": "N HIGLEY  RD TO N RECKER  RD AND E SHEA  BLVD TO E THOMAS  RD",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-24 02:41 MST",
+            "etr": "2026-10-24 14:30 MST"
+        },
+        {
+            "latitude": 33.386020150590596,
+            "longitude": -112.08840655840001,
+            "boundary": "S 19TH  AVE TO S 7TH  AVE AND W SOUTHERN  AVE TO W BASELINE  RD",
+            "customers": 1,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-24 04:36 MST",
+            "etr": "2026-10-24 10:49 MST"
+        },
+        {
+            "latitude": 33.416114106107,
+            "longitude": -111.65728689593149,
+            "boundary": "N SOSSAMAN  RD TO S HAWES  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-24 08:42 MST",
+            "etr": "2026-10-24 11:39 MST"
+        }
+    ]
+}

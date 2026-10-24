@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-24 09:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2,
+        "total_customers": 58061
+    },
+    "outages": [
+        {
+            "latitude": 32.52976364602754,
+            "longitude": -110.85889733932858,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Pinal County East",
+            "start_time": "2026-10-23 08:34:26 MST",
+            "etr": null,
+            "incident_id": "390087"
+        },
+        {
+            "latitude": 32.31529859580324,
+            "longitude": -111.18748310399955,
+            "customers": 1,
+            "cause": "99 UNKNOWN/UNDETERMINED",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-10-23 11:51:21 MST",
+            "etr": null,
+            "incident_id": "390092"
+        }
+    ]
+}
