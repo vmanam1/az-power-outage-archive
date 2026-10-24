@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-23 20:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 123
+    },
+    "outages": [
+        {
+            "latitude": 33.42099126472225,
+            "longitude": -112.20767839806399,
+            "boundary": "S 75TH  AVE TO S 63RD  AVE AND W DURANGO  ST TO W BROADWAY  RD",
+            "customers": 123,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-23 16:27 MST",
+            "etr": "2026-10-23 23:00 MST"
+        }
+    ]
+}
