@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-23 17:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.58660547683995,
+            "longitude": -112.28585723242712,
+            "city": "Sun City",
+            "boundary": "West Sun City Bv to West Snead Dr and North 105th Av",
+            "customers": 5,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-23 09:33:00 MST",
+            "etr": "2026-10-23 12:15:00 MST"
+        }
+    ]
+}
