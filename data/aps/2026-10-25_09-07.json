@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-25 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 373
+    },
+    "outages": [
+        {
+            "latitude": 33.605335288091126,
+            "longitude": -112.04237231701067,
+            "city": "Phoenix",
+            "boundary": "Avenida Del Oro to Sweetwater Ave. and 18th St. to 18th Pl.",
+            "customers": 6,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-24 22:37:00 MST",
+            "etr": "2026-10-25 03:30:00 MST"
+        },
+        {
+            "latitude": 35.35929300917195,
+            "longitude": -112.16531347315929,
+            "city": "Williams",
+            "boundary": "Juniper Ave. to Lily Ln. and State Route 64 to Pine St.",
+            "customers": 334,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-25 00:31:00 MST",
+            "etr": "2026-10-25 05:30:00 MST"
+        },
+        {
+            "latitude": 33.63516218405655,
+            "longitude": -111.99944429994964,
+            "city": "Phoenix",
+            "boundary": "Sandra Tr. to Paradise Ln. and 38th St. to 38th Way",
+            "customers": 20,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-25 00:57:00 MST",
+            "etr": "2026-10-25 06:00:00 MST"
+        },
+        {
+            "latitude": 34.23542168327222,
+            "longitude": -111.32420984491975,
+            "city": "Payson",
+            "boundary": "Wade Ln. and Beeline Highway.",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-25 01:06:00 MST",
+            "etr": "2026-10-25 05:06:00 MST"
+        }
+    ]
+}
