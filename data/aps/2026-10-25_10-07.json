@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-25 10:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 92
+    },
+    "outages": [
+        {
+            "latitude": 35.35929300917195,
+            "longitude": -112.16531347315929,
+            "city": "Williams",
+            "boundary": "Juniper Ave. to Lily Ln. and State Route 64 to Pine St.",
+            "customers": 58,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-25 00:31:00 MST",
+            "etr": "2026-10-25 05:30:00 MST"
+        },
+        {
+            "latitude": 33.63516218405655,
+            "longitude": -111.99944429994964,
+            "city": "Phoenix",
+            "boundary": "Sandra Tr. to Paradise Ln. and 38th St. to 38th Way",
+            "customers": 20,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-25 00:57:00 MST",
+            "etr": "2026-10-25 06:00:00 MST"
+        },
+        {
+            "latitude": 33.43057580267237,
+            "longitude": -112.07977213235597,
+            "city": "Phoenix",
+            "boundary": "Mohave St to Apache St and 5th Ave",
+            "customers": 14,
+            "cause": "Temporary equipment problems",
+            "comments": "We are working to restore the power outage caused by temporary problems with our equipment.",
+            "start_time": "2026-10-25 02:32:00 MST",
+            "etr": "2026-10-25 05:05:00 MST"
+        }
+    ]
+}
