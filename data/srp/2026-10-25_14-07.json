@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-25 14:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.2495688596612,
+            "longitude": -111.805684515352,
+            "boundary": "S ADAMS  AVE TO S EMMETT  DR AND E QUEEN CREEK  RD TO E BROOKS FARM  RD",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-25 13:32 MST",
+            "etr": "2026-10-25 18:52 MST"
+        }
+    ]
+}
