@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-26 08:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.3045283357146,
+            "longitude": -111.82298287309101,
+            "boundary": "N HAMILTON  ST TO N VELERO  ST AND E GALVESTON  ST TO E FRYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-26 07:35 MST",
+            "etr": "2026-10-26 13:00 MST"
+        },
+        {
+            "latitude": 33.5756846298436,
+            "longitude": -112.189416261403,
+            "boundary": "N 63RD  AVE TO N 59TH  AVE AND W PEORIA  AVE TO W OLIVE  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-26 08:00 MST",
+            "etr": "2026-10-26 16:00 MST"
+        },
+        {
+            "latitude": 33.4553798382246,
+            "longitude": -111.77306282253551,
+            "boundary": "N 24TH  ST TO N 32ND  ST AND E HERMOSA VISTA  DR TO E MCKELLIPS  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-26 08:06 MST",
+            "etr": "2026-10-26 10:04 MST"
+        }
+    ]
+}
