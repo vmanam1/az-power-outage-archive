@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-26 07:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2267
+    },
+    "outages": [
+        {
+            "latitude": 31.349249175954725,
+            "longitude": -109.54946767719922,
+            "city": "Douglas",
+            "boundary": "15th St. to 14th St. and D Ave. to C Ave.",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-25 21:43:00 MST",
+            "etr": "2026-10-26 09:00:00 MST"
+        },
+        {
+            "latitude": 34.523695200023255,
+            "longitude": -111.83015550006645,
+            "city": "Camp Verde",
+            "boundary": "N/O Highway 260 To Squaw Peak Mountain And Salt Mine Rd To Field Service Road 626",
+            "customers": 2259,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-26 00:01:00 MST",
+            "etr": "2026-10-26 04:15:00 MST"
+        }
+    ]
+}
