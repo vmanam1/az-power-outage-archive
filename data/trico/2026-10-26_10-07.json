@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-26 10:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12,
+        "total_customers": 58061
+    },
+    "outages": [
+        {
+            "latitude": 31.895269811874872,
+            "longitude": -111.1762361966408,
+            "customers": 12,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "McGee Ranch",
+            "start_time": "2026-10-26 08:00:00 MST",
+            "etr": "2026-10-26 13:00:00 MST",
+            "incident_id": "390093"
+        }
+    ]
+}
