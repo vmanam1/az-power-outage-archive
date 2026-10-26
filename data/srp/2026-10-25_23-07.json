@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-25 23:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 4
+    },
+    "outages": [
+        {
+            "latitude": 33.274133943820445,
+            "longitude": -111.8417078845155,
+            "boundary": "S HARTFORD  ST TO S HAMILTON  ST AND W GERMANN  RD TO W RYAN  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-25 22:23 MST",
+            "etr": "2026-10-26 08:11 MST"
+        }
+    ]
+}
