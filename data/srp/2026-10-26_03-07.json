@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-26 03:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 59
+    },
+    "outages": [
+        {
+            "latitude": 33.45511351917205,
+            "longitude": -111.8934802919395,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  LOOP AND E ROOSEVELT  ST TO E MCKELLIPS  RD",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-26 02:19 MST",
+            "etr": "2026-10-26 04:17 MST"
+        },
+        {
+            "latitude": 33.455699363570204,
+            "longitude": -111.8950224646005,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  LOOP AND E ROOSEVELT  ST TO E MCKELLIPS  RD",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-26 02:28 MST",
+            "etr": "2026-10-26 04:22 MST"
+        },
+        {
+            "latitude": 33.45511351917205,
+            "longitude": -111.8934802919395,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  LOOP AND E ROOSEVELT  ST TO E MCKELLIPS  RD",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-26 02:29 MST",
+            "etr": "2026-10-26 04:22 MST"
+        },
+        {
+            "latitude": 33.457497052314494,
+            "longitude": -111.893969086507,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  LOOP AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-26 02:29 MST",
+            "etr": "2026-10-26 04:22 MST"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-10-26 03:07:11 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 394,
+        "map_last_refreshed": "Oct 26, 3:06 AM"
+    },
+    "outages": [
+        {
+            "latitude": 32.24672534368015,
+            "longitude": -111.00866627302936,
+            "boundary": {
+                "coordLatSW": "32.243168923833203",
+                "coordLngSW": "-111.011246035906",
+                "coordLatNE": "32.248571013842501",
+                "coordLngNE": "-111.003901187011",
+                "coordLatCenter": "32.24587",
+                "coordLngCenter": "-111.00757"
+            },
+            "customers": 394,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-10-26 01:49 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-10-26 03:01 MST"
+        },
+        {
+            "latitude": 32.2344434489993,
+            "longitude": -110.935412462968,
+            "boundary": {
+                "coordLatSW": "32.234443448999301",
+                "coordLngSW": "-110.935412462968",
+                "coordLatNE": "32.234443448999301",
+                "coordLngNE": "-110.935412462968",
+                "coordLatCenter": "32.234444",
+                "coordLngCenter": "-110.93541"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Vehicle",
+            "comments": null,
+            "start_time": "2026-10-25 02:33 MST",
+            "etr": "2026-10-25 08:37 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 126,
+            "last_update": "2026-10-25 09:26 MST"
+        }
+    ]
+}
