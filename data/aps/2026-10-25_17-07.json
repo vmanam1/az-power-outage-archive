@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-25 17:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 17
+    },
+    "outages": [
+        {
+            "latitude": 33.58233907393502,
+            "longitude": -112.01766338795971,
+            "city": "Phoenix",
+            "boundary": "Shea Bv to Cannon Dr and 28th St to 30th St",
+            "customers": 17,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-25 08:30:00 MST",
+            "etr": "2026-10-25 11:25:00 MST"
+        }
+    ]
+}
