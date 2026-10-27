@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-27 06:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 54
+    },
+    "outages": [
+        {
+            "latitude": 33.5376894533809,
+            "longitude": -112.0958997115215,
+            "boundary": "N 19TH  AVE TO N 15TH  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 54,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-27 01:04 MST",
+            "etr": "2026-10-27 08:03 MST"
+        }
+    ]
+}
