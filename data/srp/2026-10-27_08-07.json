@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-27 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 233
+    },
+    "outages": [
+        {
+            "latitude": 33.39530029040695,
+            "longitude": -111.90021024578249,
+            "boundary": "S MCCLINTOCK  DR TO S PRICE  RD AND E ALAMEDA  DR TO E SOUTHERN  AVE",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-27 07:26 MST",
+            "etr": "2026-10-27 13:00 MST"
+        },
+        {
+            "latitude": 33.4145915028424,
+            "longitude": -111.676524578272,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-27 07:28 MST",
+            "etr": "2026-10-27 15:00 MST"
+        },
+        {
+            "latitude": 33.43171744757945,
+            "longitude": -112.1646942444235,
+            "boundary": "S 51ST  AVE TO S 47TH  AVE AND W BUCKEYE  RD TO W LOWER BUCKEYE  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-27 07:30 MST",
+            "etr": "2026-10-27 14:29 MST"
+        },
+        {
+            "latitude": 33.46403903271935,
+            "longitude": -112.147910498803,
+            "boundary": "N 47TH  AVE TO N 35TH  AVE AND W ENCANTO  BLVD TO W ROOSEVELT  ST",
+            "customers": 164,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-27 07:43 MST",
+            "etr": "2026-10-27 12:30 MST"
+        },
+        {
+            "latitude": 33.535793409826994,
+            "longitude": -112.131947270025,
+            "boundary": "N 35TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-27 07:51 MST",
+            "etr": "2026-10-27 13:00 MST"
+        },
+        {
+            "latitude": 33.2920194086319,
+            "longitude": -111.87122327347299,
+            "boundary": "S DOBSON  RD TO S ARROWHEAD  DR AND W FRYE  RD TO W SANTAN  FWY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-27 07:54 MST",
+            "etr": "2026-10-27 09:53 MST"
+        },
+        {
+            "latitude": 33.5376894533809,
+            "longitude": -112.0958997115215,
+            "boundary": "N 19TH  AVE TO N 15TH  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 54,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-27 01:04 MST",
+            "etr": "2026-10-27 11:30 MST"
+        }
+    ]
+}
