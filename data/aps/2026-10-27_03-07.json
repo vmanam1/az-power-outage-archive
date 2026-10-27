@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-27 03:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 456
+    },
+    "outages": [
+        {
+            "latitude": 33.00310840020271,
+            "longitude": -110.78754350038048,
+            "city": "Hayden",
+            "boundary": "13Th St To Gila River Dr And Highway 177 To Gila River Dr",
+            "customers": 456,
+            "cause": "A Neighboring Utility",
+            "comments": "An adjoining utility that serves our customers has experienced an interruption in service. We are working closely with them to restore power to your area.",
+            "start_time": "2026-10-26 19:41:00 MST",
+            "etr": "2026-10-26 22:45:00 MST"
+        }
+    ]
+}
