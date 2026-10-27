@@ -191,6 +191,21 @@ function toggleDisplayModeInputs(mode) {
     }
 }
 
+function applySnapshotTimeFilter(timestamp) {
+    const displaySelect = document.getElementById('display_mode');
+    const snapshotInput = document.getElementById('snapshot_time');
+    if (!displaySelect || !snapshotInput || !timestamp) return;
+
+    const localTimestamp = timestamp
+        .replace(/\s(?:MST|MDT|UTC|GMT)$/, '')
+        .replace(' ', 'T');
+    displaySelect.value = 'snapshot_at_time';
+    snapshotInput.value = localTimestamp;
+    toggleDisplayModeInputs('snapshot_at_time');
+    updateFilterChips();
+    fetchData();
+}
+
 function getActiveFilterQueryString() {
     const params = new URLSearchParams();
     

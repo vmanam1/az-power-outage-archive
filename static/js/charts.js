@@ -407,6 +407,12 @@ function updateCharts(outages, timelineData) {
         responsive: true,
         maintainAspectRatio: false,
         interaction: { mode: 'index', intersect: false },
+        onClick: (evt, elements) => {
+            if (elements.length && typeof applySnapshotTimeFilter === 'function') {
+                applySnapshotTimeFilter(timelineTimes[elements[0].index]);
+            }
+        },
+        onHover: hoverCursor,
         plugins: {
             legend: { display: false },
             tooltip: {

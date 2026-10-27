@@ -212,6 +212,14 @@ class TestDashboardArchiveReader(unittest.TestCase):
         self.assertEqual(len(outs), 2) # out1 (aps) and srp out
         self.assertEqual(summary["total_customers"], 50)
 
+        # The browser's datetime-local input sends an ISO T separator.
+        outs, summary = apply_filters(snapshots, {
+            "display_mode": "snapshot_at_time",
+            "snapshot_time": "2026-07-15T11:30"
+        })
+        self.assertEqual(len(outs), 2)
+        self.assertEqual(summary["total_customers"], 50)
+
         # 3. Historical mode in date range
         # Should pull all outages from all 3 files (1+2+1 = 4 total)
         outs, summary = apply_filters(snapshots, {

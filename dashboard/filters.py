@@ -14,6 +14,13 @@ def strip_tz(val):
             return val_str[:-len(suffix)]
     return val_str
 
+def parse_snapshot_time(val):
+    normalized = strip_tz(val).replace("T", " ")
+    try:
+        return datetime.fromisoformat(normalized)
+    except ValueError:
+        return None
+
 def get_outage_key(outage):
     """
     Generates a unique key for deduplicating historical outages.
@@ -92,9 +99,12 @@ def apply_filters(snapshots, params):
         # Newest snapshot at or before snapshot_time per provider
         latest_snaps = {}
         target_time = snapshot_time or datetime.now().strftime("%Y-%m-%d %H:%M:%S MST")
+        target_datetime = parse_snapshot_time(target_time)
         for s in prov_snapshots:
             prov = s["provider"]
-            if strip_tz(s["scraped_at"]) <= strip_tz(target_time):
+            scraped_datetime = parse_snapshot_time(s["scraped_at"])
+            if (target_datetime is not None and scraped_datetime is not None
+                    and scraped_datetime <= target_datetime):
                 if prov not in latest_snaps or s["scraped_at"] > latest_snaps[prov]["scraped_at"]:
                     latest_snaps[prov] = s
         selected_snapshots = list(latest_snaps.values())
