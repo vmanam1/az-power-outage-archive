@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-27 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 45
+    },
+    "outages": [
+        {
+            "latitude": 31.357951761861173,
+            "longitude": -109.57064594690921,
+            "city": "Pirtleville",
+            "boundary": "Grace Ave. to Pirtle Ave. and Franklin St. to McKinley St.",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-27 01:00:00 MST",
+            "etr": "2026-10-27 04:00:00 MST"
+        },
+        {
+            "latitude": 32.726539138989736,
+            "longitude": -114.63888938909079,
+            "city": "Yuma",
+            "boundary": "Water St. to 4th St. and 17th Ave. to 5th Ave.",
+            "customers": 22,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-27 00:20:00 MST",
+            "etr": "2026-10-27 05:45:00 MST"
+        },
+        {
+            "latitude": 34.502811930727674,
+            "longitude": -110.12864453419482,
+            "city": "Snowflake",
+            "boundary": "Putter Dr. to Bryant Ave. and Porter St. to Fairway Rd.",
+            "customers": 15,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-27 02:00:00 MST",
+            "etr": "2026-10-27 05:30:00 MST"
+        }
+    ]
+}
