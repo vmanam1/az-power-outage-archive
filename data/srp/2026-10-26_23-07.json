@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-26 23:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 154
+    },
+    "outages": [
+        {
+            "latitude": 33.3760838262107,
+            "longitude": -111.9948425544795,
+            "boundary": "S 36TH  ST TO S 44TH  ST AND E VINEYARD  RD TO E ELLIOT  RD",
+            "customers": 51,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-10-26 14:40 MST",
+            "etr": "2026-10-27 02:00 MST"
+        },
+        {
+            "latitude": 33.3760838262107,
+            "longitude": -111.9948425544795,
+            "boundary": "S 36TH  ST TO S 44TH  ST AND E VINEYARD  RD TO E ELLIOT  RD",
+            "customers": 51,
+            "cause": "Excavation damaged underground lines",
+            "comments": "Excavation equipment caused damage to underground power lines. SRP crews are working to restore power.",
+            "start_time": "2026-10-26 14:40 MST",
+            "etr": "2026-10-27 02:00 MST"
+        },
+        {
+            "latitude": 33.3932732354859,
+            "longitude": -112.0054470698175,
+            "boundary": "S 32ND  ST TO S 40TH  ST AND E ROESER  RD TO E VINEYARD  RD",
+            "customers": 52,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-26 22:41 MST",
+            "etr": "2026-10-28 06:00 MST"
+        }
+    ]
+}
