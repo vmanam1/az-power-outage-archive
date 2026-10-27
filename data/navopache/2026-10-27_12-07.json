@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-27 12:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 4,
+        "total_customers": 46003
+    },
+    "outages": [
+        {
+            "latitude": 33.84198383890609,
+            "longitude": -109.96218105628996,
+            "customers": 4,
+            "cause": "MAINTENANCE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-10-27 10:40:13 MST",
+            "etr": null,
+            "incident_id": "535786"
+        }
+    ]
+}

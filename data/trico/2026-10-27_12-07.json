@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-27 12:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 5,
+        "total_customers": 58043
+    },
+    "outages": [
+        {
+            "latitude": 32.281090926740035,
+            "longitude": -111.32503314032309,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley South",
+            "start_time": "2026-10-27 07:34:59 MST",
+            "etr": null,
+            "incident_id": "390183"
+        },
+        {
+            "latitude": 32.40073470837087,
+            "longitude": -111.30278187073235,
+            "customers": 1,
+            "cause": "70 VEHICLES",
+            "comments": null,
+            "boundary": "Avra Valley North",
+            "start_time": "2026-10-27 05:33:55 MST",
+            "etr": null,
+            "incident_id": "390184"
+        },
+        {
+            "latitude": 32.17133438608783,
+            "longitude": -111.15544019781055,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Bopp Rd",
+            "start_time": "2026-10-27 12:04:57 MST",
+            "etr": "2026-10-27 15:04:57 MST",
+            "incident_id": "390189"
+        }
+    ]
+}
