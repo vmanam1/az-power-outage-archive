@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-27 16:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2212
+    },
+    "outages": [
+        {
+            "latitude": 34.76272920526184,
+            "longitude": -112.39727890900514,
+            "city": "Chino Valley",
+            "boundary": "Perkinsville Rd. and I U Bar Rd. to Heart Prairie Ln.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-27 08:24:00 MST",
+            "etr": "2026-10-27 14:15:00 MST"
+        },
+        {
+            "latitude": 32.92639299986328,
+            "longitude": -111.73973199984859,
+            "city": "Casa Grande",
+            "boundary": "Mccartney Rd. To Rodeo Ranch And E/O Pinal Ave. To Colorado St.",
+            "customers": 2205,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-27 08:53:00 MST",
+            "etr": "2026-10-27 11:15:00 MST"
+        }
+    ]
+}

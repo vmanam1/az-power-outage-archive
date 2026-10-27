@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-27 16:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 46003
+    },
+    "outages": [
+        {
+            "latitude": 34.13735952046465,
+            "longitude": -109.28308165085959,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-10-27 15:40:43 MST",
+            "etr": null,
+            "incident_id": "535789"
+        }
+    ]
+}
