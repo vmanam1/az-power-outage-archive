@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-27 20:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 1009
+    },
+    "outages": [
+        {
+            "latitude": 33.525800767184705,
+            "longitude": -112.126793295733,
+            "boundary": "N 35TH  AVE TO N 27TH  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 88,
+            "cause": "Other outage cause",
+            "comments": "An object has made contact with power lines in your area. SRP crews are working to restore power.",
+            "start_time": "2026-10-27 15:23 MST",
+            "etr": "2026-10-27 22:00 MST"
+        },
+        {
+            "latitude": 33.3570069207963,
+            "longitude": -111.451380363859,
+            "boundary": "S BLOSSOM ROCK  TRL TO UNKNOWN AND E BASELINE  AVE TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-27 17:19 MST",
+            "etr": "2026-10-28 05:30 MST"
+        },
+        {
+            "latitude": 33.52904904663635,
+            "longitude": -112.129895110886,
+            "boundary": "N 39TH  AVE TO N 27TH  AVE AND W GLENDALE  AVE TO W MISSOURI  AVE",
+            "customers": 920,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-27 20:04 MST",
+            "etr": "2026-10-27 22:03 MST"
+        }
+    ]
+}
