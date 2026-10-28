@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-27 19:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 970
+    },
+    "outages": [
+        {
+            "latitude": 32.92639299986328,
+            "longitude": -111.73973199984859,
+            "city": "Casa Grande",
+            "boundary": "Mccartney Rd. To Rodeo Ranch And E/O Pinal Ave. To Colorado St.",
+            "customers": 970,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-10-27 08:53:00 MST",
+            "etr": "2026-10-27 14:00:00 MST"
+        }
+    ]
+}
