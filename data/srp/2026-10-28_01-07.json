@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-28 01:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1
+    },
+    "outages": [
+        {
+            "latitude": 33.3570069207963,
+            "longitude": -111.451380363859,
+            "boundary": "S BLOSSOM ROCK  TRL TO UNKNOWN AND E BASELINE  AVE TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-27 17:19 MST",
+            "etr": "2026-10-28 05:30 MST"
+        }
+    ]
+}
