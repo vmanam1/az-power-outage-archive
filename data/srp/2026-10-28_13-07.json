@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-28 13:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 97
+    },
+    "outages": [
+        {
+            "latitude": 33.426923574294406,
+            "longitude": -111.8021479564,
+            "boundary": "N HORNE   TO N HARRIS  DR AND E 8TH  ST TO E UNIVERSITY  DR",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-28 09:44 MST",
+            "etr": "2026-10-28 14:00 MST"
+        },
+        {
+            "latitude": 33.56792659234185,
+            "longitude": -112.08539726251,
+            "boundary": "N 15TH  AVE TO N CENTRAL  AVE AND W MOUNTAIN VIEW  RD TO W BUTLER  DR",
+            "customers": 24,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-28 08:50 MST",
+            "etr": "2026-10-28 15:00 MST"
+        },
+        {
+            "latitude": 33.57685427412555,
+            "longitude": -112.15700192484499,
+            "boundary": "N 51ST  AVE TO N 43RD  AVE AND W PEORIA  AVE TO W OLIVE  AVE",
+            "customers": 48,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-28 12:50 MST",
+            "etr": "2026-10-28 14:49 MST"
+        },
+        {
+            "latitude": 33.3799503842977,
+            "longitude": -112.084684256072,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W VINEYARD  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-28 08:43 MST",
+            "etr": "2026-10-28 14:42 MST"
+        }
+    ]
+}
