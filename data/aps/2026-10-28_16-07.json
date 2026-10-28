@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-28 16:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 45
+    },
+    "outages": [
+        {
+            "latitude": 33.631467666203825,
+            "longitude": -112.16229063414339,
+            "city": "Glendale",
+            "boundary": "Paradise Ln. to Marconi Ave. and 50th Ave. to 47th Ave.",
+            "customers": 45,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-28 08:39:00 MST",
+            "etr": "2026-10-28 11:15:00 MST"
+        }
+    ]
+}
