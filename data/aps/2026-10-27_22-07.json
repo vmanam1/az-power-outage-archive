@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-27 22:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 694
+    },
+    "outages": [
+        {
+            "latitude": 33.48735978434522,
+            "longitude": -112.93513376239456,
+            "city": "Tonopah",
+            "boundary": "Saddle Mountain to Paradise and 411th Ave to Palo Verde",
+            "customers": 14,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-27 12:26:00 MST",
+            "etr": "2026-10-27 15:30:00 MST"
+        },
+        {
+            "latitude": 32.916923628293894,
+            "longitude": -111.70882330474512,
+            "city": "Casa Grande",
+            "boundary": "Frank Rd and Kortsen Rd",
+            "customers": 680,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-27 14:43:00 MST",
+            "etr": "2026-10-28 16:30:00 MST"
+        }
+    ]
+}
