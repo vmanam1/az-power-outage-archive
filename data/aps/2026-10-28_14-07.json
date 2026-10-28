@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-28 14:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 37
+    },
+    "outages": [
+        {
+            "latitude": 34.10512269371284,
+            "longitude": -112.8284359324336,
+            "city": "Congress",
+            "boundary": "Obsidian Dr to Running Bear Rd and Quarry Ln to Running Horse Rd",
+            "customers": 37,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-28 00:08:00 MST",
+            "etr": "2026-10-28 07:40:00 MST"
+        }
+    ]
+}
