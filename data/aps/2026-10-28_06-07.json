@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-28 06:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.42470469391818,
+            "longitude": -111.95269374204722,
+            "city": "Tempe",
+            "boundary": "Hardy Dr. and 7th St.",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-27 22:17:00 MST",
+            "etr": "2026-10-28 01:00:00 MST"
+        }
+    ]
+}
