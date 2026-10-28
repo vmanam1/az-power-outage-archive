@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-28 08:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 32.42432119811411,
+            "longitude": -112.87203684693127,
+            "city": "Ajo",
+            "boundary": "Hayworth Rd. to Lewis Rd. and Elliot Rd. to Rosser Rd.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-28 00:31:00 MST",
+            "etr": "2026-10-28 06:30:00 MST"
+        }
+    ]
+}
