@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-28 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 47
+    },
+    "outages": [
+        {
+            "latitude": 32.42432119811411,
+            "longitude": -112.87203684693127,
+            "city": "Ajo",
+            "boundary": "Hayworth Rd. to Lewis Rd. and Elliot Rd. to Rosser Rd.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-28 00:31:00 MST",
+            "etr": "2026-10-28 06:30:00 MST"
+        },
+        {
+            "latitude": 34.55998261525973,
+            "longitude": -112.38454547131244,
+            "city": "Prescott",
+            "boundary": "Gloria Dr. to Donna Dr. and Lois Dr. to Miner Dr.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-28 02:00:00 MST",
+            "etr": "2026-10-28 04:30:00 MST"
+        },
+        {
+            "latitude": 34.82523586036531,
+            "longitude": -111.8141260887991,
+            "city": "Sedona",
+            "boundary": "Jones Ln. to Disney Ln. and Red Rock Loop Rd. to Jones Ln.",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-28 02:00:00 MST",
+            "etr": "2026-10-28 05:30:00 MST"
+        },
+        {
+            "latitude": 33.589938245204685,
+            "longitude": -112.28502383120205,
+            "city": "Sun City",
+            "boundary": "105th Ave and Hacienda Ave",
+            "customers": 10,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-28 01:05:00 MST",
+            "etr": "2026-10-28 05:15:00 MST"
+        },
+        {
+            "latitude": 33.58561682897507,
+            "longitude": -112.12967279090566,
+            "city": "Phoenix",
+            "boundary": "Desert Cove Ave to Mercer Ln and 33rd Ave to 31st Dr",
+            "customers": 15,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-28 02:48:00 MST",
+            "etr": "2026-10-28 05:40:00 MST"
+        }
+    ]
+}
