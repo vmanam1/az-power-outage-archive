@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-29 05:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 27
+    },
+    "outages": [
+        {
+            "latitude": 33.402356563789,
+            "longitude": -111.85603105402299,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 15,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-28 23:28 MST",
+            "etr": "2026-10-29 05:31 MST"
+        },
+        {
+            "latitude": 33.5396684141392,
+            "longitude": -112.1359088516515,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 3,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-28 19:29 MST",
+            "etr": "2026-10-29 07:00 MST"
+        },
+        {
+            "latitude": 33.5396684141392,
+            "longitude": -112.1359088516515,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 3,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-28 19:29 MST",
+            "etr": "2026-10-29 07:00 MST"
+        },
+        {
+            "latitude": 33.37717529683525,
+            "longitude": -111.957177781734,
+            "boundary": "S PRIEST  DR TO S HARDY  DR AND W SUPERSTITION  FWY TO E CALLE SONORA  ",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-29 04:09 MST",
+            "etr": "2026-10-29 06:08 MST"
+        },
+        {
+            "latitude": 33.53898305166175,
+            "longitude": -112.09828412387,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 05:00 MST",
+            "etr": "2026-10-29 06:58 MST"
+        }
+    ]
+}

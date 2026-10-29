@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-29 05:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 323
+    },
+    "outages": [
+        {
+            "latitude": 33.45248311712863,
+            "longitude": -112.69302176109147,
+            "city": "Buckeye",
+            "boundary": "West McDowell Rd to Pearl Harbor Memorial Highway and North Johnson Rd to Sun Valley Pw",
+            "customers": 323,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-28 21:14:00 MST",
+            "etr": "2026-10-29 00:45:00 MST"
+        }
+    ]
+}
