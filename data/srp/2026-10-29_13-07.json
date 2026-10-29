@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-29 13:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 75
+    },
+    "outages": [
+        {
+            "latitude": 33.507196700720996,
+            "longitude": -112.14336000907349,
+            "boundary": "GRAND  AVE TO N 35TH  AVE AND W MISSOURI  AVE TO GRAND  AVE",
+            "customers": 22,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 08:58 MST",
+            "etr": "2026-10-29 13:30 MST"
+        },
+        {
+            "latitude": 33.466784310916296,
+            "longitude": -112.201405570157,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W ENCANTO  BLVD TO W PAPAGO  FWY",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 11:39 MST",
+            "etr": "2026-10-29 13:26 MST"
+        },
+        {
+            "latitude": 33.468371563972454,
+            "longitude": -112.2022296336555,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W ENCANTO  BLVD TO W PAPAGO  FWY",
+            "customers": 27,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 11:47 MST",
+            "etr": "2026-10-29 13:45 MST"
+        },
+        {
+            "latitude": 33.4736990733863,
+            "longitude": -111.9083268769545,
+            "boundary": "N MILLER  RD TO N GRANITE REEF  RD AND E THOMAS  RD TO E MCDOWELL  RD",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 12:48 MST",
+            "etr": "2026-10-29 14:46 MST"
+        }
+    ]
+}
