@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-28 22:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 85
+    },
+    "outages": [
+        {
+            "latitude": 33.5396684141392,
+            "longitude": -112.1359088516515,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 3,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-28 19:29 MST",
+            "etr": "2026-10-28 23:30 MST"
+        },
+        {
+            "latitude": 33.5396684141392,
+            "longitude": -112.1359088516515,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 3,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-28 19:29 MST",
+            "etr": "2026-10-28 23:30 MST"
+        },
+        {
+            "latitude": 33.52208183726895,
+            "longitude": -112.1303401361385,
+            "boundary": "N 39TH  AVE TO N 27TH  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 73,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-28 18:17 MST",
+            "etr": "2026-10-29 02:12 MST"
+        },
+        {
+            "latitude": 33.5869339370489,
+            "longitude": -112.1866320834895,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W CHOLLA  ST TO W PEORIA  AVE",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-28 19:47 MST",
+            "etr": "2026-10-29 02:48 MST"
+        }
+    ]
+}

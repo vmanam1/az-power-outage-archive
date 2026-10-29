@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-28 22:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 2383
+    },
+    "outages": [
+        {
+            "latitude": 33.64502657211948,
+            "longitude": -112.16063608381545,
+            "city": "Glendale",
+            "boundary": "West Linder Dr and North Sandtrap CT",
+            "customers": 6,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-28 13:32:00 MST",
+            "etr": "2026-10-29 16:00:00 MST"
+        },
+        {
+            "latitude": 34.90601795409437,
+            "longitude": -112.4785280436854,
+            "city": "Paulden",
+            "boundary": "Silent Spring Canyon to Sante Fe Rd and Feather Mountain Rd to Enid Dr",
+            "customers": 832,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-28 14:03:00 MST",
+            "etr": "2026-10-28 18:05:00 MST"
+        },
+        {
+            "latitude": 33.625288999687776,
+            "longitude": -112.1107420000353,
+            "city": "Phoenix",
+            "boundary": "Paradise Ln To Evans Dr And Interstate - 17 To 19Th Ave",
+            "customers": 1435,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-28 14:10:00 MST",
+            "etr": "2026-10-28 18:15:00 MST"
+        },
+        {
+            "latitude": 33.545599917773295,
+            "longitude": -112.2959300974035,
+            "city": "Glendale",
+            "boundary": "Kaler Dr to Morten Ave and 110th Ave to 109th Dr",
+            "customers": 45,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-28 14:14:00 MST",
+            "etr": "2026-10-28 17:05:00 MST"
+        },
+        {
+            "latitude": 34.60775561990987,
+            "longitude": -112.31661498361338,
+            "city": "Prescott Valley",
+            "boundary": "East Tracy Dr to Loos Dr and North Katie Circle West",
+            "customers": 15,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-28 14:18:00 MST",
+            "etr": "2026-10-28 17:45:00 MST"
+        },
+        {
+            "latitude": 33.61441333867639,
+            "longitude": -112.07793614390017,
+            "city": "Phoenix",
+            "boundary": "West Moon Valley Rd to West Tam O Shanter Dr and North Canterbury Dr",
+            "customers": 50,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-28 14:41:00 MST",
+            "etr": "2026-10-28 18:15:00 MST"
+        }
+    ]
+}
