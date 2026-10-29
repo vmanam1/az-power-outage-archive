@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-28 18:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.631467666203825,
+            "longitude": -112.16229063414339,
+            "city": "Glendale",
+            "boundary": "Paradise Ln. to Marconi Ave. and 50th Ave. to 47th Ave.",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-28 08:39:00 MST",
+            "etr": "2026-10-28 12:30:00 MST"
+        },
+        {
+            "latitude": 34.705166574045776,
+            "longitude": -112.00191683102248,
+            "city": "Cottonwood",
+            "boundary": "Broken Rock Cir. to E. Arrowhead Ln. and Rancho Manna Cir. to Arrowhead Ln.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-28 09:20:00 MST",
+            "etr": "2026-10-28 12:45:00 MST"
+        }
+    ]
+}
