@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-29 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 224
+    },
+    "outages": [
+        {
+            "latitude": 32.410795807355534,
+            "longitude": -112.87526873918513,
+            "city": "Ajo",
+            "boundary": "Nelson Rd. and Elliott Rd.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-29 00:38:00 MST",
+            "etr": "2026-10-29 08:30:00 MST"
+        },
+        {
+            "latitude": 33.79509852066645,
+            "longitude": -112.0804981624467,
+            "city": "Phoenix",
+            "boundary": "Carefree Highway to Paint Your Wagon Trl. and Tower Rd. to 7th St.",
+            "customers": 140,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-29 01:06:00 MST",
+            "etr": "2026-10-29 06:55:00 MST"
+        },
+        {
+            "latitude": 34.31241237717903,
+            "longitude": -112.09803161041786,
+            "city": "Mayer",
+            "boundary": "Concho Ln to Quail Run Dr and Red Rock Ln to Rolling Ridge Dr",
+            "customers": 78,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-29 02:24:00 MST",
+            "etr": "2026-10-29 05:45:00 MST"
+        }
+    ]
+}

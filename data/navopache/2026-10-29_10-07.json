@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-10-29 10:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 54,
+        "total_customers": 45998
+    },
+    "outages": [
+        {
+            "latitude": 34.259165983277704,
+            "longitude": -110.09016403483628,
+            "customers": 54,
+            "cause": "MAINTENANCE",
+            "comments": "Planned outage. We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-10-29 09:00:07 MST",
+            "etr": null,
+            "incident_id": "535807"
+        }
+    ]
+}
