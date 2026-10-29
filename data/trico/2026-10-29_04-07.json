@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-29 04:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 58061
+    },
+    "outages": [
+        {
+            "latitude": 32.502463503118086,
+            "longitude": -111.29678112463358,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Pinal County West",
+            "start_time": "2026-10-29 03:09:43 MST",
+            "etr": null,
+            "incident_id": "390202"
+        }
+    ]
+}
