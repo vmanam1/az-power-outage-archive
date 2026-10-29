@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-29 14:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 389
+    },
+    "outages": [
+        {
+            "latitude": 35.20175699977191,
+            "longitude": -111.63324699964305,
+            "city": "Flagstaff",
+            "boundary": "Gemini Dr. to RT. 66 and San Francisco St. to Mountain View Ave.",
+            "customers": 350,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-29 05:42:00 MST",
+            "etr": "2026-10-29 08:45:00 MST"
+        },
+        {
+            "latitude": 34.646249207735785,
+            "longitude": -112.41515541909173,
+            "city": "Prescott",
+            "boundary": "Melville Rd. to AZ89A and Wilkinson Dr.",
+            "customers": 39,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-29 06:23:00 MST",
+            "etr": "2026-10-29 09:35:00 MST"
+        }
+    ]
+}
