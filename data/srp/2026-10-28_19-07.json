@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-28 19:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 73
+    },
+    "outages": [
+        {
+            "latitude": 33.52208183726895,
+            "longitude": -112.1303401361385,
+            "boundary": "N 39TH  AVE TO N 27TH  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 73,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-28 18:17 MST",
+            "etr": "2026-10-28 20:12 MST"
+        }
+    ]
+}

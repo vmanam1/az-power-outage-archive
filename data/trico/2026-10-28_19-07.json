@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-28 19:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3,
+        "total_customers": 58053
+    },
+    "outages": [
+        {
+            "latitude": 31.977770397775213,
+            "longitude": -111.37709949419789,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Sasabe",
+            "start_time": "2026-10-28 16:24:49 MST",
+            "etr": "2026-10-28 19:24:49 MST",
+            "incident_id": "390200"
+        },
+        {
+            "latitude": 31.926801369328142,
+            "longitude": -110.72698872299009,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-10-28 18:53:06 MST",
+            "etr": null,
+            "incident_id": "390201"
+        }
+    ]
+}

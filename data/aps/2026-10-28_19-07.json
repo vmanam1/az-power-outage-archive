@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-28 19:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 34.705166574045776,
+            "longitude": -112.00191683102248,
+            "city": "Cottonwood",
+            "boundary": "Broken Rock Cir. to E. Arrowhead Ln. and Rancho Manna Cir. to Arrowhead Ln.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-28 09:20:00 MST",
+            "etr": "2026-10-28 12:45:00 MST"
+        }
+    ]
+}
