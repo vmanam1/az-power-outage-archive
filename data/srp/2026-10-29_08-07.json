@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-29 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.5396684141392,
+            "longitude": -112.1359088516515,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W ORANGEWOOD  AVE TO W MARYLAND  AVE",
+            "customers": 3,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-10-28 19:29 MST",
+            "etr": "2026-10-29 09:00 MST"
+        },
+        {
+            "latitude": 33.402356563789,
+            "longitude": -111.85603105402299,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 15,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-28 23:28 MST",
+            "etr": "2026-10-29 09:30 MST"
+        },
+        {
+            "latitude": 33.4435776279382,
+            "longitude": -111.616510642751,
+            "boundary": "N 96TH  ST TO N 104TH  ST AND E MCKELLIPS  RD TO E BROWN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 07:43 MST",
+            "etr": "2026-10-29 12:39 MST"
+        },
+        {
+            "latitude": 33.3285866452105,
+            "longitude": -111.88624572434,
+            "boundary": "N PRICE  FWY TO N DOBSON  RD AND W WARNER  RD TO W RAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 07:45 MST",
+            "etr": "2026-10-29 09:44 MST"
+        },
+        {
+            "latitude": 33.40619552493875,
+            "longitude": -111.9045851490655,
+            "boundary": "S MCCLINTOCK  DR TO S COUNTRY CLUB  WAY AND E APACHE  BLVD TO E ALAMEDA  DR",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 08:00 MST",
+            "etr": "2026-10-29 13:30 MST"
+        }
+    ]
+}
