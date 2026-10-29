@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-29 07:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 58061
+    },
+    "outages": [
+        {
+            "latitude": 31.894080018035453,
+            "longitude": -110.99600720116283,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Green Valley",
+            "start_time": "2026-10-29 07:02:18 MST",
+            "etr": null,
+            "incident_id": "390205"
+        }
+    ]
+}
