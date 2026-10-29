@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-29 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 174
+    },
+    "outages": [
+        {
+            "latitude": 33.45248311712863,
+            "longitude": -112.69302176109147,
+            "city": "Buckeye",
+            "boundary": "West McDowell Rd to Pearl Harbor Memorial Highway and North Johnson Rd to Sun Valley Pw",
+            "customers": 7,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-28 21:14:00 MST",
+            "etr": "2026-10-29 03:55:00 MST"
+        },
+        {
+            "latitude": 32.410795807355534,
+            "longitude": -112.87526873918513,
+            "city": "Ajo",
+            "boundary": "Nelson Rd. and Elliott Rd.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-29 00:38:00 MST",
+            "etr": "2026-10-29 08:30:00 MST"
+        },
+        {
+            "latitude": 33.79509852066645,
+            "longitude": -112.0804981624467,
+            "city": "Phoenix",
+            "boundary": "Carefree Highway to Paint Your Wagon Trl. and Tower Rd. to 7th St.",
+            "customers": 140,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-10-29 01:06:00 MST",
+            "etr": "2026-10-29 06:55:00 MST"
+        },
+        {
+            "latitude": 33.43125579368465,
+            "longitude": -112.08992930512007,
+            "city": "Phoenix",
+            "boundary": "Mohave St. to Apache St. and 15th Ave. to 13th Ave.",
+            "customers": 21,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-29 02:03:00 MST",
+            "etr": "2026-10-29 04:55:00 MST"
+        }
+    ]
+}
