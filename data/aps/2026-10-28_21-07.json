@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-28 21:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.64502657211948,
+            "longitude": -112.16063608381545,
+            "city": "Glendale",
+            "boundary": "West Linder Dr and North Sandtrap CT",
+            "customers": 6,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-28 13:32:00 MST",
+            "etr": "2026-10-29 16:00:00 MST"
+        }
+    ]
+}
