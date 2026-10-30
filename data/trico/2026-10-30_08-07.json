@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-30 08:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3,
+        "total_customers": 58068
+    },
+    "outages": [
+        {
+            "latitude": 32.16706090723576,
+            "longitude": -111.06442289321087,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-30 07:00:00 MST",
+            "etr": "2026-10-30 10:00:00 MST",
+            "incident_id": "390040"
+        }
+    ]
+}

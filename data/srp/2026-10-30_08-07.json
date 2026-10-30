@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-30 08:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 263
+    },
+    "outages": [
+        {
+            "latitude": 33.45920073370725,
+            "longitude": -111.75015835554251,
+            "boundary": "N 32ND  ST TO N GREENFIELD  RD AND E QUENTON  DR TO E MCLELLAN  RD",
+            "customers": 201,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-29 16:35 MST",
+            "etr": "2026-10-30 05:45 MST"
+        },
+        {
+            "latitude": 33.40840334632885,
+            "longitude": -111.65375217935201,
+            "boundary": "S 80TH  ST TO S HAWES  RD AND E MAIN  ST TO E PUEBLO  AVE",
+            "customers": 9,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 02:17 MST",
+            "etr": "2026-10-30 10:00 MST"
+        },
+        {
+            "latitude": 33.462783351020306,
+            "longitude": -112.010495398818,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E MCDOWELL  RD TO E ROOSEVELT  ST",
+            "customers": 8,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 07:30 MST",
+            "etr": "2026-10-30 09:22 MST"
+        },
+        {
+            "latitude": 33.414683954505904,
+            "longitude": -111.644380259128,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-30 07:39 MST",
+            "etr": "2026-10-30 09:36 MST"
+        },
+        {
+            "latitude": 33.43280455310795,
+            "longitude": -111.8582881215705,
+            "boundary": "N LONGMORE   TO N EXTENSION  RD AND W MCLELLAN  RD TO W UNIVERSITY  DR",
+            "customers": 44,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 07:11 MST",
+            "etr": "2026-10-30 09:12 MST"
+        }
+    ]
+}
