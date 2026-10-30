@@ -1,0 +1,124 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-30 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 10,
+        "customers_affected": 7486
+    },
+    "outages": [
+        {
+            "latitude": 35.232598195839884,
+            "longitude": -111.66935647671087,
+            "city": "Flagstaff",
+            "boundary": "Lois Ln. to Fremont Blvd. and Shannon Dr. to Gregg Dr.",
+            "customers": 66,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-29 23:36:00 MST",
+            "etr": "2026-10-30 03:00:00 MST"
+        },
+        {
+            "latitude": 33.45424409475654,
+            "longitude": -112.47380247679456,
+            "city": "Buckeye",
+            "boundary": "Pearl harbor Memorial Highway to Taylor St. and Jackrabbit Tl. to 192nd Ave.",
+            "customers": 336,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 00:34:00 MST",
+            "etr": "2026-10-30 04:05:00 MST"
+        },
+        {
+            "latitude": 33.47735039966562,
+            "longitude": -112.38076070013716,
+            "city": "Goodyear",
+            "boundary": "Earll Dr To Encanto Blvd And Pebble Creek Pkwy To Bullard Ave",
+            "customers": 1848,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 01:14:00 MST",
+            "etr": "2026-10-30 03:30:00 MST"
+        },
+        {
+            "latitude": 33.47502800034187,
+            "longitude": -112.35167000023436,
+            "city": "Litchfield Park",
+            "boundary": "Indian School Rd To Mcdowell Rd And 144Th Ave To Dysart Rd",
+            "customers": 1342,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 01:11:00 MST",
+            "etr": "2026-10-30 06:00:00 MST"
+        },
+        {
+            "latitude": 33.479492000313385,
+            "longitude": -112.34063800043589,
+            "city": "Litchfield Park",
+            "boundary": "Indian School Rd To Mcdowell Rd  And Old Litchfield Rd To 123Rd Dr",
+            "customers": 1304,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 01:24:00 MST",
+            "etr": "2026-10-30 06:00:00 MST"
+        },
+        {
+            "latitude": 33.512808999645905,
+            "longitude": -112.35960399987546,
+            "city": "Litchfield Park",
+            "boundary": "Peck Dr To Indian School Rd And Litchfield Rd To 133Rd Ave",
+            "customers": 1589,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 01:26:00 MST",
+            "etr": "2026-10-30 06:00:00 MST"
+        },
+        {
+            "latitude": 33.493095999863925,
+            "longitude": -112.3516099999599,
+            "city": "Litchfield Park",
+            "boundary": "Sonoma Dr To Indian School Rd And 142Nd Ln To Fairview Dr",
+            "customers": 748,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 01:25:00 MST",
+            "etr": "2026-10-30 06:00:00 MST"
+        },
+        {
+            "latitude": 32.98824846174456,
+            "longitude": -111.44473313427719,
+            "city": "Valley Farms",
+            "boundary": "Vah Ki Inn Rd to Graythorn Wy and Attaway Rd to Cleamans Rd",
+            "customers": 153,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 01:33:00 MST",
+            "etr": "2026-10-30 05:00:00 MST"
+        },
+        {
+            "latitude": 33.60784668314078,
+            "longitude": -112.32391460288227,
+            "city": "El Mirage",
+            "boundary": "Santa Fe Ln to Ventura St and Grand Ave",
+            "customers": 80,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 01:38:00 MST",
+            "etr": "2026-10-30 05:15:00 MST"
+        },
+        {
+            "latitude": 33.671817708165115,
+            "longitude": -112.31507734632468,
+            "city": "Sun City",
+            "boundary": "Alabama Ave to Palmer Dr and 99th Ave to Sun Valley Dr",
+            "customers": 20,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-30 01:56:00 MST",
+            "etr": "2026-10-30 04:50:00 MST"
+        }
+    ]
+}

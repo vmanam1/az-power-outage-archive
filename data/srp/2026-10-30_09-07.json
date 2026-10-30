@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-30 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 397
+    },
+    "outages": [
+        {
+            "latitude": 33.45920073370725,
+            "longitude": -111.75015835554251,
+            "boundary": "N 32ND  ST TO N GREENFIELD  RD AND E QUENTON  DR TO E MCLELLAN  RD",
+            "customers": 201,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-29 16:35 MST",
+            "etr": "2026-10-30 05:45 MST"
+        },
+        {
+            "latitude": 33.414683954505904,
+            "longitude": -111.644380259128,
+            "boundary": "S HAWES  RD TO N 88TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-30 07:39 MST",
+            "etr": "2026-10-30 09:36 MST"
+        },
+        {
+            "latitude": 33.43280455310795,
+            "longitude": -111.8582881215705,
+            "boundary": "N LONGMORE   TO N EXTENSION  RD AND W MCLELLAN  RD TO W UNIVERSITY  DR",
+            "customers": 44,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 07:11 MST",
+            "etr": "2026-10-30 09:12 MST"
+        },
+        {
+            "latitude": 33.4209110569046,
+            "longitude": -111.57063214198399,
+            "boundary": "N MERIDIAN  RD TO N IRONWOOD  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 55,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-30 08:13 MST",
+            "etr": "2026-10-30 13:47 MST"
+        },
+        {
+            "latitude": 33.19603634734,
+            "longitude": -111.66795030542801,
+            "boundary": "S MANDARIN  DR TO S 196TH  ST AND W SUN DANCE  DR TO W SKYLINE  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-30 08:20 MST",
+            "etr": "2026-10-30 10:30 MST"
+        },
+        {
+            "latitude": 33.54433902464835,
+            "longitude": -112.1450942447315,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W NORTHERN  AVE TO W GLENDALE  AVE",
+            "customers": 42,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 08:43 MST",
+            "etr": "2026-10-30 10:37 MST"
+        },
+        {
+            "latitude": 33.47138414898615,
+            "longitude": -111.875137994171,
+            "boundary": "N PIMA  LOOP TO N ALMA SCHOOL  RD AND E THOMAS  RD TO E LEHI  RD",
+            "customers": 53,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 08:56 MST",
+            "etr": "2026-10-30 10:54 MST"
+        }
+    ]
+}
