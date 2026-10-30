@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-30 11:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 5,
+        "total_customers": 58068
+    },
+    "outages": [
+        {
+            "latitude": 32.16706090723576,
+            "longitude": -111.06442289321087,
+            "customers": 3,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-10-30 07:00:00 MST",
+            "etr": "2026-10-30 10:00:00 MST",
+            "incident_id": "390040"
+        },
+        {
+            "latitude": 32.385139290317,
+            "longitude": -111.31388504764561,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-10-30 10:03:46 MST",
+            "etr": "2026-10-30 13:03:46 MST",
+            "incident_id": "390217"
+        },
+        {
+            "latitude": 31.926801369328142,
+            "longitude": -110.72698872299009,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-10-30 10:22:41 MST",
+            "etr": null,
+            "incident_id": "390218"
+        }
+    ]
+}

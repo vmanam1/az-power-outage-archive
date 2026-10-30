@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-30 11:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1917
+    },
+    "outages": [
+        {
+            "latitude": 33.45920073370725,
+            "longitude": -111.75015835554251,
+            "boundary": "N 32ND  ST TO N GREENFIELD  RD AND E QUENTON  DR TO E MCLELLAN  RD",
+            "customers": 201,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-29 16:35 MST",
+            "etr": "2026-10-30 05:45 MST"
+        },
+        {
+            "latitude": 33.43171620858355,
+            "longitude": -111.85766149070349,
+            "boundary": "N LONGMORE   TO N EXTENSION  RD AND W MCLELLAN  RD TO W UNIVERSITY  DR",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 07:11 MST",
+            "etr": "2026-10-30 13:00 MST"
+        },
+        {
+            "latitude": 33.313274573122,
+            "longitude": -111.4078320672075,
+            "boundary": "S IDAHO  RD TO N WILLIAMS  DR AND E BASELINE  AVE TO NON-DEDICATED  ",
+            "customers": 1688,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 10:01 MST",
+            "etr": "2026-10-30 12:00 MST"
+        },
+        {
+            "latitude": 33.61218151258385,
+            "longitude": -112.19536869126401,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W ACOMA  DR TO W SWEETWATER  AVE",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 09:47 MST",
+            "etr": "2026-10-30 12:03 MST"
+        },
+        {
+            "latitude": 33.481446340723,
+            "longitude": -111.8967305370755,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  RD AND E OSBORN  RD TO E OAK  ST",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 09:50 MST",
+            "etr": "2026-10-30 14:30 MST"
+        },
+        {
+            "latitude": 33.481446340723,
+            "longitude": -111.8967305370755,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  RD AND E OSBORN  RD TO E OAK  ST",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "Weather is affecting the electrical system in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 09:50 MST",
+            "etr": "2026-10-30 14:30 MST"
+        }
+    ]
+}
