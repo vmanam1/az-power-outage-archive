@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-30 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 2347
+    },
+    "outages": [
+        {
+            "latitude": 33.45424409475654,
+            "longitude": -112.47380247679456,
+            "city": "Buckeye",
+            "boundary": "Pearl harbor Memorial Highway to Taylor St. and Jackrabbit Tl. to 192nd Ave.",
+            "customers": 336,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 00:34:00 MST",
+            "etr": "2026-10-30 04:05:00 MST"
+        },
+        {
+            "latitude": 33.60784668314078,
+            "longitude": -112.32391460288227,
+            "city": "El Mirage",
+            "boundary": "Santa Fe Ln to Ventura St and Grand Ave",
+            "customers": 77,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 01:38:00 MST",
+            "etr": "2026-10-30 05:15:00 MST"
+        },
+        {
+            "latitude": 33.671817708165115,
+            "longitude": -112.31507734632468,
+            "city": "Sun City",
+            "boundary": "Alabama Ave to Palmer Dr and 99th Ave to Sun Valley Dr",
+            "customers": 20,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-30 01:56:00 MST",
+            "etr": "2026-10-30 04:50:00 MST"
+        },
+        {
+            "latitude": 33.62455406680981,
+            "longitude": -112.17293620924939,
+            "city": "Glendale",
+            "boundary": "Greenway Rd. to Acapulco Ln. and 53rd Ave. to 51st Ln.",
+            "customers": 41,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-30 02:22:00 MST",
+            "etr": "2026-10-30 04:50:00 MST"
+        },
+        {
+            "latitude": 33.59747591388161,
+            "longitude": -112.29317283182661,
+            "city": "Sun City",
+            "boundary": "Grand Ave to Alabama Ave and 111th Ave to 107th Ave",
+            "customers": 50,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-30 02:41:00 MST",
+            "etr": "2026-10-30 06:15:00 MST"
+        },
+        {
+            "latitude": 33.87895599994858,
+            "longitude": -112.14224200039473,
+            "city": "New River",
+            "boundary": "Tunnel Mine Rd  To Venture Ct And Sonoran Arroyo Ln To Celebration Way",
+            "customers": 1823,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-30 02:59:00 MST",
+            "etr": "2026-10-30 06:55:00 MST"
+        }
+    ]
+}
