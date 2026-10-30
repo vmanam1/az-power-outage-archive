@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-30 12:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 69
+    },
+    "outages": [
+        {
+            "latitude": 33.62455406680981,
+            "longitude": -112.17293620924939,
+            "city": "Glendale",
+            "boundary": "Greenway Rd. to Acapulco Ln. and 53rd Ave. to 51st Ln.",
+            "customers": 31,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-30 02:22:00 MST",
+            "etr": "2026-10-30 11:00:00 MST"
+        },
+        {
+            "latitude": 33.49134811369065,
+            "longitude": -112.35274696078409,
+            "city": "Litchfield Park",
+            "boundary": "Sagebrush St to Cascada Rd and Neolin Ave",
+            "customers": 12,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-30 02:48:00 MST",
+            "etr": "2026-10-30 07:45:00 MST"
+        },
+        {
+            "latitude": 33.47793765614311,
+            "longitude": -112.35653317285708,
+            "city": "Goodyear",
+            "boundary": "Thomas Rd and Litchfield Rd",
+            "customers": 26,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-30 03:01:00 MST",
+            "etr": "2026-10-30 06:10:00 MST"
+        }
+    ]
+}
