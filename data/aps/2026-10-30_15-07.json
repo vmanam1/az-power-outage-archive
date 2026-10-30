@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-30 15:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 42
+    },
+    "outages": [
+        {
+            "latitude": 33.49134811369065,
+            "longitude": -112.35274696078409,
+            "city": "Litchfield Park",
+            "boundary": "Sagebrush St to Cascada Rd and Neolin Ave",
+            "customers": 12,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-30 02:48:00 MST",
+            "etr": "2026-10-30 13:45:00 MST"
+        },
+        {
+            "latitude": 33.47555121084912,
+            "longitude": -112.35478263035449,
+            "city": "Goodyear",
+            "boundary": "Cambridge Ave to Palm Valley Blvd and Wilshire Dr to 137th Ave",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-30 07:02:00 MST",
+            "etr": "2026-10-30 13:00:00 MST"
+        }
+    ]
+}
