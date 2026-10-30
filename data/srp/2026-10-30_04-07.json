@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-30 04:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 331
+    },
+    "outages": [
+        {
+            "latitude": 33.45920073370725,
+            "longitude": -111.75015835554251,
+            "boundary": "N 32ND  ST TO N GREENFIELD  RD AND E QUENTON  DR TO E MCLELLAN  RD",
+            "customers": 201,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-29 16:35 MST",
+            "etr": "2026-10-29 21:31 MST"
+        },
+        {
+            "latitude": 33.4843402733106,
+            "longitude": -111.7182227299115,
+            "boundary": "N 40TH  ST TO N RECKER  RD AND E SHEA  BLVD TO E MCDOWELL  RD",
+            "customers": 119,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 01:35 MST",
+            "etr": "2026-10-30 04:05 MST"
+        },
+        {
+            "latitude": 33.28134572930995,
+            "longitude": -111.678607539563,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E PECOS  RD TO E GERMANN  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-30 03:44 MST",
+            "etr": "2026-10-30 05:43 MST"
+        },
+        {
+            "latitude": 33.40840334632885,
+            "longitude": -111.65375217935201,
+            "boundary": "S 80TH  ST TO S HAWES  RD AND E MAIN  ST TO E PUEBLO  AVE",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 02:17 MST",
+            "etr": "2026-10-30 06:30 MST"
+        }
+    ]
+}
