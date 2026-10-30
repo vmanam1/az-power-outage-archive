@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-29 17:07:01 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 35.20175699977191,
+            "longitude": -111.63324699964305,
+            "city": "Flagstaff",
+            "boundary": "Gemini Dr. to RT. 66 and San Francisco St. to Mountain View Ave.",
+            "customers": 5,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-29 05:42:00 MST",
+            "etr": "2026-10-29 12:00:00 MST"
+        }
+    ]
+}
