@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-30 02:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 346
+    },
+    "outages": [
+        {
+            "latitude": 33.45920073370725,
+            "longitude": -111.75015835554251,
+            "boundary": "N 32ND  ST TO N GREENFIELD  RD AND E QUENTON  DR TO E MCLELLAN  RD",
+            "customers": 201,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-29 16:35 MST",
+            "etr": "2026-10-29 21:31 MST"
+        },
+        {
+            "latitude": 33.3066312770139,
+            "longitude": -111.8662543850525,
+            "boundary": "N DOBSON  RD TO N ALMA SCHOOL  RD AND W GALVESTON  ST TO W FRYE  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 23:16 MST",
+            "etr": "2026-10-30 06:14 MST"
+        },
+        {
+            "latitude": 33.30647826325765,
+            "longitude": -111.8664282122845,
+            "boundary": "N DOBSON  RD TO N ALMA SCHOOL  RD AND W GALVESTON  ST TO W FRYE  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 23:16 MST",
+            "etr": "2026-10-30 06:15 MST"
+        },
+        {
+            "latitude": 33.413344080384306,
+            "longitude": -111.67833395061899,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 20,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-29 23:20 MST",
+            "etr": "2026-10-30 05:15 MST"
+        },
+        {
+            "latitude": 33.4843402733106,
+            "longitude": -111.7182227299115,
+            "boundary": "N 40TH  ST TO N RECKER  RD AND E SHEA  BLVD TO E MCDOWELL  RD",
+            "customers": 119,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 01:35 MST",
+            "etr": "2026-10-30 03:34 MST"
+        }
+    ]
+}

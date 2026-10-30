@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-30 02:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 124,
+        "total_customers": 58068
+    },
+    "outages": [
+        {
+            "latitude": 32.378789606110026,
+            "longitude": -111.33734005971722,
+            "customers": 124,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley North",
+            "start_time": "2026-10-30 01:18:55 MST",
+            "etr": "2026-10-30 04:18:55 MST",
+            "incident_id": "390213"
+        }
+    ]
+}
