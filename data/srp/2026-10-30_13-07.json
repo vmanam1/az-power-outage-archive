@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-30 13:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.272272197104996,
+            "longitude": -111.358541812276,
+            "boundary": "N SCHNEPF  RD TO S GRAY WOLF  TRL AND E US HIGHWAY 60   TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 10:01 MST",
+            "etr": "2026-10-30 23:30 MST"
+        },
+        {
+            "latitude": 33.61218151258385,
+            "longitude": -112.19536869126401,
+            "boundary": "N 67TH  AVE TO N 59TH  AVE AND W ACOMA  DR TO W SWEETWATER  AVE",
+            "customers": 5,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 09:47 MST",
+            "etr": "2026-10-30 16:30 MST"
+        },
+        {
+            "latitude": 33.48108223846525,
+            "longitude": -111.8981752037795,
+            "boundary": "N HAYDEN  RD TO N PIMA  RD AND E OSBORN  RD TO E OAK  ST",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-30 12:36 MST",
+            "etr": "2026-10-30 14:33 MST"
+        },
+        {
+            "latitude": 33.454168402891,
+            "longitude": -111.91038090433949,
+            "boundary": "N MILLER  RD TO N GRANITE REEF  RD AND E ROOSEVELT  ST TO E MCKELLIPS  RD",
+            "customers": 5,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 12:39 MST",
+            "etr": "2026-10-30 19:00 MST"
+        },
+        {
+            "latitude": 33.5301201451891,
+            "longitude": -112.14760700297799,
+            "boundary": "N 43RD  AVE TO N 39TH  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 11:51 MST",
+            "etr": "2026-10-30 16:00 MST"
+        },
+        {
+            "latitude": 33.43171620858355,
+            "longitude": -111.85766149070349,
+            "boundary": "N LONGMORE   TO N EXTENSION  RD AND W MCLELLAN  RD TO W UNIVERSITY  DR",
+            "customers": 13,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 07:11 MST",
+            "etr": "2026-10-30 14:00 MST"
+        }
+    ]
+}
