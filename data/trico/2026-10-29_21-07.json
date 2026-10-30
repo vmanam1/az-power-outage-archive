@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-29 21:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2,
+        "total_customers": 58061
+    },
+    "outages": [
+        {
+            "latitude": 31.977770397775213,
+            "longitude": -111.37709949419789,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Sasabe",
+            "start_time": "2026-10-29 17:34:35 MST",
+            "etr": "2026-10-29 20:34:35 MST",
+            "incident_id": "390209"
+        }
+    ]
+}
