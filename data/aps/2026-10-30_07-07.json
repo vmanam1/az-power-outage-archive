@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-30 07:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 134
+    },
+    "outages": [
+        {
+            "latitude": 33.02540548329791,
+            "longitude": -113.12506815797373,
+            "city": "Dateland",
+            "boundary": "Rocky Point Rd. and Oatman Rd.",
+            "customers": 24,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-29 23:00:00 MST",
+            "etr": "2026-10-30 02:05:00 MST"
+        },
+        {
+            "latitude": 35.232598195839884,
+            "longitude": -111.66935647671087,
+            "city": "Flagstaff",
+            "boundary": "Lois Ln. to Fremont Blvd. and Shannon Dr. to Gregg Dr.",
+            "customers": 110,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-29 23:36:00 MST",
+            "etr": "2026-10-30 03:00:00 MST"
+        }
+    ]
+}
