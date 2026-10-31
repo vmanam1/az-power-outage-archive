@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-31 00:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.3193001074121,
+            "longitude": -111.7686974115565,
+            "boundary": "S LINDSAY  RD TO S VAL VISTA  DR AND E RAY  RD TO E LOS ALAMOS  ST",
+            "customers": 2,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 22:50 MST",
+            "etr": "2026-10-31 04:36 MST"
+        },
+        {
+            "latitude": 33.272272197104996,
+            "longitude": -111.358541812276,
+            "boundary": "N SCHNEPF  RD TO S GRAY WOLF  TRL AND E US HIGHWAY 60   TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 10:01 MST",
+            "etr": "2026-10-31 06:00 MST"
+        },
+        {
+            "latitude": 33.5481193070807,
+            "longitude": -112.15518670140301,
+            "boundary": "N 47TH  AVE TO N 43RD  AVE AND W NORTHERN  AVE TO W ORANGEWOOD  AVE",
+            "customers": 5,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 15:04 MST",
+            "etr": "2026-10-31 01:30 MST"
+        }
+    ]
+}

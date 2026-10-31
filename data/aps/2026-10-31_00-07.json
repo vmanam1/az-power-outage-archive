@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-31 00:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1039
+    },
+    "outages": [
+        {
+            "latitude": 33.5797929998619,
+            "longitude": -111.9392829997831,
+            "city": "Scottsdale",
+            "boundary": "Cholla St To Double Tree Ranch Rd And 60Th St To 71St Pl",
+            "customers": 949,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-10-30 11:05:00 MST",
+            "etr": "2026-10-30 21:00:00 MST"
+        },
+        {
+            "latitude": 33.57412199986333,
+            "longitude": -111.9275250004366,
+            "city": "Scottsdale",
+            "boundary": "Mercer Ln To Gainey Suites Dr And 71St Pl To 73Rd Wy",
+            "customers": 53,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-10-30 11:05:00 MST",
+            "etr": "2026-10-30 21:00:00 MST"
+        },
+        {
+            "latitude": 33.69271647570154,
+            "longitude": -111.88425058312053,
+            "city": "Scottsdale",
+            "boundary": "Calle De Valle Dr to Calle De Las Brisas and 90th St to 93rd St",
+            "customers": 30,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-10-30 12:21:00 MST",
+            "etr": "2026-10-30 18:00:00 MST"
+        },
+        {
+            "latitude": 33.657269098001,
+            "longitude": -111.92631227570136,
+            "city": "Phoenix",
+            "boundary": "Pima Freeway to East Mayo Blvd and North Scottsdale Rd",
+            "customers": 7,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-30 12:33:00 MST",
+            "etr": "2026-10-30 18:00:00 MST"
+        }
+    ]
+}
