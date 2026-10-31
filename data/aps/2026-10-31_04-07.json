@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-31 04:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 126
+    },
+    "outages": [
+        {
+            "latitude": 33.5797929998619,
+            "longitude": -111.9392829997831,
+            "city": "Scottsdale",
+            "boundary": "Cholla St To Double Tree Ranch Rd And 60Th St To 71St Pl",
+            "customers": 73,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-10-30 18:45:00 MST",
+            "etr": "2026-10-31 05:00:00 MST"
+        },
+        {
+            "latitude": 33.57412199986333,
+            "longitude": -111.9275250004366,
+            "city": "Scottsdale",
+            "boundary": "Mercer Ln To Gainey Suites Dr And 71St Pl To 73Rd Wy",
+            "customers": 53,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-10-30 11:05:00 MST",
+            "etr": "2026-10-31 05:00:00 MST"
+        }
+    ]
+}
