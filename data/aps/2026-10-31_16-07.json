@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-31 16:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 34.488998264185604,
+            "longitude": -111.81530564593743,
+            "city": "Camp Verde",
+            "boundary": "FR9240 and Beasley Flat Rd.",
+            "customers": 22,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-31 08:40:00 MST",
+            "etr": "2026-10-31 11:25:00 MST"
+        },
+        {
+            "latitude": 33.02524742666899,
+            "longitude": -113.12502650219568,
+            "city": "Dateland",
+            "boundary": "Government Rd. to Agua Caliente Rd. and Rocky Point Rd.",
+            "customers": 24,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-31 08:38:00 MST",
+            "etr": "2026-10-31 12:15:00 MST"
+        }
+    ]
+}
