@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-31 10:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.272272197104996,
+            "longitude": -111.358541812276,
+            "boundary": "N SCHNEPF  RD TO S GRAY WOLF  TRL AND E US HIGHWAY 60   TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 10:01 MST",
+            "etr": "2026-10-31 14:00 MST"
+        },
+        {
+            "latitude": 33.3062028974479,
+            "longitude": -111.91930138682,
+            "boundary": "N DESERT BREEZE W BLVD TO N MCCLINTOCK  DR AND W GALVESTON  ST TO W MILKY  WAY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-31 06:57 MST",
+            "etr": "2026-10-31 11:00 MST"
+        },
+        {
+            "latitude": 33.2722800024684,
+            "longitude": -111.812493356772,
+            "boundary": "S AIRPORT  BLVD TO S COOPER  RD AND E GERMANN  RD TO E QUEEN CREEK  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-31 07:37 MST",
+            "etr": "2026-10-31 12:34 MST"
+        }
+    ]
+}
