@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-30 20:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 4198
+    },
+    "outages": [
+        {
+            "latitude": 33.272272197104996,
+            "longitude": -111.358541812276,
+            "boundary": "N SCHNEPF  RD TO S GRAY WOLF  TRL AND E US HIGHWAY 60   TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 10:01 MST",
+            "etr": "2026-10-30 23:30 MST"
+        },
+        {
+            "latitude": 33.5481193070807,
+            "longitude": -112.15518670140301,
+            "boundary": "N 47TH  AVE TO N 43RD  AVE AND W NORTHERN  AVE TO W ORANGEWOOD  AVE",
+            "customers": 5,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 15:04 MST",
+            "etr": "2026-10-30 22:30 MST"
+        },
+        {
+            "latitude": 33.40371462974865,
+            "longitude": -112.090724465177,
+            "boundary": "S 23RD  AVE TO S CENTRAL  AVE AND W ELWOOD  ST TO W SOUTHERN  AVE",
+            "customers": 1069,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 17:46 MST",
+            "etr": "2026-10-30 19:46 MST"
+        },
+        {
+            "latitude": 33.5596124514404,
+            "longitude": -112.09200938873701,
+            "boundary": "N 23RD  AVE TO N 7TH  AVE AND W MOUNTAIN VIEW  RD TO W ORANGEWOOD  AVE",
+            "customers": 1022,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 18:04 MST",
+            "etr": "2026-10-30 20:03 MST"
+        },
+        {
+            "latitude": 33.4037759856441,
+            "longitude": -111.6258119297795,
+            "boundary": "S 88TH  ST TO S CRISMON  RD AND E UNIVERSITY  DR TO E SUPERSTITION  FWY",
+            "customers": 2092,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 18:17 MST",
+            "etr": "2026-10-30 20:24 MST"
+        },
+        {
+            "latitude": 33.50400565464865,
+            "longitude": -112.0063417065495,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 19:01 MST",
+            "etr": "2026-10-30 20:58 MST"
+        }
+    ]
+}
