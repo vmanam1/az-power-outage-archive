@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-31 12:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.272272197104996,
+            "longitude": -111.358541812276,
+            "boundary": "N SCHNEPF  RD TO S GRAY WOLF  TRL AND E US HIGHWAY 60   TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-30 10:01 MST",
+            "etr": "2026-10-31 14:00 MST"
+        },
+        {
+            "latitude": 33.3062028974479,
+            "longitude": -111.91930138682,
+            "boundary": "N DESERT BREEZE W BLVD TO N MCCLINTOCK  DR AND W GALVESTON  ST TO W MILKY  WAY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-31 06:57 MST",
+            "etr": "2026-10-31 13:00 MST"
+        },
+        {
+            "latitude": 33.3062028974479,
+            "longitude": -111.91930138682,
+            "boundary": "N DESERT BREEZE W BLVD TO N MCCLINTOCK  DR AND W GALVESTON  ST TO W MILKY  WAY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-31 06:57 MST",
+            "etr": "2026-10-31 13:00 MST"
+        },
+        {
+            "latitude": 33.4098608034154,
+            "longitude": -111.652268449047,
+            "boundary": "S 80TH  ST TO N 88TH  ST AND E MAIN  ST TO E PUEBLO  AVE",
+            "customers": 10,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-31 12:06 MST",
+            "etr": "2026-10-31 14:01 MST"
+        }
+    ]
+}
