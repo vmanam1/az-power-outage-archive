@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-30 19:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 2448
+    },
+    "outages": [
+        {
+            "latitude": 33.566734408646745,
+            "longitude": -112.05121615911762,
+            "city": "Phoenix",
+            "boundary": "East Mountain View Rd to East Alice ave and North 12th St to North 19th St",
+            "customers": 614,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-30 10:43:00 MST",
+            "etr": "2026-10-30 16:45:00 MST"
+        },
+        {
+            "latitude": 33.5797929998619,
+            "longitude": -111.9392829997831,
+            "city": "Scottsdale",
+            "boundary": "Cholla St To Double Tree Ranch Rd And 60Th St To 71St Pl",
+            "customers": 1029,
+            "cause": "Service interruption to a major power line",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 11:05:00 MST",
+            "etr": "2026-10-30 15:15:00 MST"
+        },
+        {
+            "latitude": 33.57412199986333,
+            "longitude": -111.9275250004366,
+            "city": "Scottsdale",
+            "boundary": "Mercer Ln To Gainey Suites Dr And 71St Pl To 73Rd Wy",
+            "customers": 731,
+            "cause": "Service interruption to a major power line",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-30 11:05:00 MST",
+            "etr": "2026-10-30 15:15:00 MST"
+        },
+        {
+            "latitude": 33.587723696953354,
+            "longitude": -111.83281215073825,
+            "city": "Scottsdale",
+            "boundary": "Via Linda and 115th St",
+            "customers": 74,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-10-30 11:16:00 MST",
+            "etr": "2026-10-30 14:10:00 MST"
+        }
+    ]
+}
