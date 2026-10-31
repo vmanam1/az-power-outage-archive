@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-30 18:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 656
+    },
+    "outages": [
+        {
+            "latitude": 33.71025664776139,
+            "longitude": -112.1502550553741,
+            "city": "Glendale",
+            "boundary": "Chama Dr to Whispering Wind Dr and 43rd Ave to 41st Ave",
+            "customers": 42,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-10-30 10:04:00 MST",
+            "etr": "2026-10-30 12:40:00 MST"
+        },
+        {
+            "latitude": 33.566734408646745,
+            "longitude": -112.05121615911762,
+            "city": "Phoenix",
+            "boundary": "East Mountain View Rd to East Alice ave and North 12th St to North 19th St",
+            "customers": 614,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-30 10:43:00 MST",
+            "etr": "2026-10-30 16:45:00 MST"
+        }
+    ]
+}
