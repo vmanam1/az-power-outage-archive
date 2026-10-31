@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-10-31 11:07:30 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 101,
+        "map_last_refreshed": "Oct 31, 11:06 AM"
+    },
+    "outages": [
+        {
+            "latitude": 32.16881567994572,
+            "longitude": -111.12181260676952,
+            "boundary": {
+                "coordLatSW": "32.162865065364997",
+                "coordLngSW": "-111.126098296115",
+                "coordLatNE": "32.176399030775698",
+                "coordLngNE": "-111.11861436099599",
+                "coordLatCenter": "32.169632",
+                "coordLngCenter": "-111.12236"
+            },
+            "customers": 101,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-10-31 10:10 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-10-31 10:50 MST"
+        },
+        {
+            "latitude": 32.155534638305156,
+            "longitude": -111.02905639053756,
+            "boundary": {
+                "coordLatSW": "32.155534638305156",
+                "coordLngSW": "-111.02905639053756",
+                "coordLatNE": "32.155534638305156",
+                "coordLngNE": "-111.02905639053756",
+                "coordLatCenter": "32.155533",
+                "coordLngCenter": "-111.02905"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Weather",
+            "comments": null,
+            "start_time": "2026-10-31 08:30 MST",
+            "etr": "2026-10-31 09:31 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 71,
+            "last_update": "2026-10-31 09:49 MST"
+        }
+    ]
+}
