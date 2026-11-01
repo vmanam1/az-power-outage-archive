@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-01 01:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 1125
+    },
+    "outages": [
+        {
+            "latitude": 33.27398655169295,
+            "longitude": -112.64659153163959,
+            "city": "Buckeye",
+            "boundary": "Highway 85 and Buckeye Hills Dr",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 11:09:00 MST",
+            "etr": "2026-10-31 22:30:00 MST"
+        },
+        {
+            "latitude": 33.9489905718675,
+            "longitude": -112.7670166728657,
+            "city": "Wickenburg",
+            "boundary": "US 60 and Vulture Mine Rd",
+            "customers": 53,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 13:52:00 MST",
+            "etr": "2026-10-31 22:30:00 MST"
+        },
+        {
+            "latitude": 33.575520759871424,
+            "longitude": -111.94026334472738,
+            "city": "Paradise Valley",
+            "boundary": "Turquoise Ave. to Caron Dr. and Invergordon Rd. to 68th St.",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 14:32:00 MST",
+            "etr": "2026-10-31 18:55:00 MST"
+        },
+        {
+            "latitude": 33.59602179130677,
+            "longitude": -112.10463498683256,
+            "city": "Peoria",
+            "boundary": "Monroe St. to Palo Verde Ave. and 91st Ave. to 85th Ave.",
+            "customers": 476,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 17:43:00 MST",
+            "etr": "2026-10-31 21:15:00 MST"
+        },
+        {
+            "latitude": 34.23007000017806,
+            "longitude": -114.1807740003427,
+            "city": "Parker",
+            "boundary": "Rio Lindo Shores Dr. to Betor Shores Dr. and Highway 95",
+            "customers": 552,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 15:42:00 MST",
+            "etr": "2026-10-31 22:05:00 MST"
+        },
+        {
+            "latitude": 33.53791031419658,
+            "longitude": -112.16450365810034,
+            "city": "Glendale",
+            "boundary": "Glendale and 49th Ave",
+            "customers": 8,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 17:54:00 MST",
+            "etr": "2026-10-31 20:50:00 MST"
+        }
+    ]
+}
