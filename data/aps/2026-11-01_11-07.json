@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-01 11:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 1185
+    },
+    "outages": [
+        {
+            "latitude": 33.27398655169295,
+            "longitude": -112.64659153163959,
+            "city": "Buckeye",
+            "boundary": "Highway 85 and Buckeye Hills Dr",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 11:09:00 MST",
+            "etr": "2026-11-01 05:00:00 MST"
+        },
+        {
+            "latitude": 33.53791031419658,
+            "longitude": -112.16450365810034,
+            "city": "Glendale",
+            "boundary": "Glendale and 49th Ave",
+            "customers": 19,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 17:54:00 MST",
+            "etr": "2026-11-01 05:30:00 MST"
+        },
+        {
+            "latitude": 33.35957896263757,
+            "longitude": -112.69336660187115,
+            "city": "Buckeye",
+            "boundary": "Baseline Rd to Brunner Rd and Johnson Rd to Palo Verde Rd",
+            "customers": 44,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 21:56:00 MST",
+            "etr": "2026-11-01 04:45:00 MST"
+        },
+        {
+            "latitude": 33.62104529185703,
+            "longitude": -112.17403710001997,
+            "city": "Glendale",
+            "boundary": "Country Gables Dr to Banff Ln and 55th Ave to 53rd Ave",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 22:13:00 MST",
+            "etr": "2026-11-01 06:00:00 MST"
+        },
+        {
+            "latitude": 33.72188747518167,
+            "longitude": -111.85006780189433,
+            "city": "Scottsdale",
+            "boundary": "Jomax Rd. to Candlewood Dr. and Alma School Rd. to 108th Pl.",
+            "customers": 10,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 01:39:00 MST",
+            "etr": "2026-11-01 05:15:00 MST"
+        },
+        {
+            "latitude": 32.6701434001116,
+            "longitude": -114.55648190020787,
+            "city": "Yuma",
+            "boundary": "36Th Street To Avenue 3E And Avenue 5 1/2 E To 5 E",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 01:57:00 MST",
+            "etr": "2026-11-01 06:00:00 MST"
+        },
+        {
+            "latitude": 32.683995499998915,
+            "longitude": -114.59954670014396,
+            "city": "Yuma",
+            "boundary": "22Nd St To Palo Verde St And Madison Ave To Kathleen Ave",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 02:15:00 MST",
+            "etr": "2026-11-01 05:15:00 MST"
+        },
+        {
+            "latitude": 33.45796743793222,
+            "longitude": -112.01688090234666,
+            "city": "Phoenix",
+            "boundary": "Portland St. to Garfield St. and 30th St. to 35th St.",
+            "customers": 108,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-10-31 23:20:00 MST",
+            "etr": "2026-11-01 05:15:00 MST"
+        },
+        {
+            "latitude": 34.846319000052006,
+            "longitude": -111.7726259995777,
+            "city": "Sedona",
+            "boundary": "Forest Rd To Back-O-Beyond Rd And Rainbow Rd To Juniper Way",
+            "customers": 965,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 03:34:00 MST",
+            "etr": "2026-11-01 06:45:00 MST"
+        }
+    ]
+}
