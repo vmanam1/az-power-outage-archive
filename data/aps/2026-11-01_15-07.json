@@ -1,0 +1,179 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-01 15:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 15,
+        "customers_affected": 7042
+    },
+    "outages": [
+        {
+            "latitude": 33.27398655169295,
+            "longitude": -112.64659153163959,
+            "city": "Buckeye",
+            "boundary": "Highway 85 and Buckeye Hills Dr",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 11:09:00 MST",
+            "etr": "2026-11-01 10:00:00 MST"
+        },
+        {
+            "latitude": 32.683995499998915,
+            "longitude": -114.59954670014396,
+            "city": "Yuma",
+            "boundary": "22Nd St To Palo Verde St And Madison Ave To Kathleen Ave",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 02:15:00 MST",
+            "etr": "2026-11-01 12:00:00 MST"
+        },
+        {
+            "latitude": 34.846319000052006,
+            "longitude": -111.7726259995777,
+            "city": "Sedona",
+            "boundary": "Forest Rd To Back-O-Beyond Rd And Rainbow Rd To Juniper Way",
+            "customers": 95,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 03:34:00 MST",
+            "etr": "2026-11-01 10:00:00 MST"
+        },
+        {
+            "latitude": 35.2367430000113,
+            "longitude": -111.80832000043672,
+            "city": "Bellemont",
+            "boundary": "Curtis Court to Grant St. and Lava River Cave Rd. to Alpine Dr.",
+            "customers": 692,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 05:44:00 MST",
+            "etr": "2026-11-01 09:15:00 MST"
+        },
+        {
+            "latitude": 33.54461449966291,
+            "longitude": -112.07571159994804,
+            "city": "Phoenix",
+            "boundary": "Northern Ave To Flynn Ln  And 9Th Ave To 7Th St",
+            "customers": 939,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 05:29:00 MST",
+            "etr": "2026-11-01 09:30:00 MST"
+        },
+        {
+            "latitude": 33.7182925002373,
+            "longitude": -111.87919739974726,
+            "city": "Scottsdale",
+            "boundary": "Morning Vista Ln To Desert Vista  Rd And 82Nd St  To Alma School Pkwy",
+            "customers": 34,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-01 07:12:00 MST",
+            "etr": "2026-11-01 09:30:00 MST"
+        },
+        {
+            "latitude": 35.35191610004175,
+            "longitude": -112.16321779972118,
+            "city": "Williams",
+            "boundary": "Leona Loop Road To Pronghorn Ranch Road To Clark Lane To Pine Street",
+            "customers": 1183,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-01 07:24:00 MST",
+            "etr": "2026-11-01 09:45:00 MST"
+        },
+        {
+            "latitude": 35.257765600087346,
+            "longitude": -112.187183200398,
+            "city": "Williams",
+            "boundary": "Airport Rd To Bill Williams Ave And 7Th St To Frank Way",
+            "customers": 1350,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-01 07:24:00 MST",
+            "etr": "2026-11-01 10:30:00 MST"
+        },
+        {
+            "latitude": 36.052757326950896,
+            "longitude": -112.14012740304685,
+            "city": "Grand Canyon",
+            "boundary": "Colorado River to Clinic Rd. and Rowe Well Rd. to Zuni Way.",
+            "customers": 584,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-01 07:28:00 MST",
+            "etr": "2026-11-01 09:45:00 MST"
+        },
+        {
+            "latitude": 36.048245624865416,
+            "longitude": -112.12390335740015,
+            "city": "Grand Canyon",
+            "boundary": "Mather Point Rd. to Center Rd. and Village Loop Dr. to Rim Dr.",
+            "customers": 554,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-01 07:28:00 MST",
+            "etr": "2026-11-01 09:45:00 MST"
+        },
+        {
+            "latitude": 33.88409399964053,
+            "longitude": -113.83563800011297,
+            "city": "Grand Canyon",
+            "boundary": "Highgrove To Airpark Lane And Cessna To Laramy Dr.",
+            "customers": 237,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-01 07:33:00 MST",
+            "etr": "2026-11-01 10:00:00 MST"
+        },
+        {
+            "latitude": 35.97521500023319,
+            "longitude": -112.12378099967194,
+            "city": "Tusayan",
+            "boundary": "Park Entrance To Grand Canyon Airport And Usfs Slurry Station To E/O Hwy. 64",
+            "customers": 321,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-01 07:29:00 MST",
+            "etr": "2026-11-01 10:30:00 MST"
+        },
+        {
+            "latitude": 35.730222400251016,
+            "longitude": -112.12191810038517,
+            "city": "Grand Canyon",
+            "boundary": "Woodland View Rd To Woodland Ranch Rd And Us 180 To Sublime Dr",
+            "customers": 79,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-01 07:32:00 MST",
+            "etr": "2026-11-01 10:30:00 MST"
+        },
+        {
+            "latitude": 35.50368639975195,
+            "longitude": -112.17950529966463,
+            "city": "Williams",
+            "boundary": "Howard Mesa Subdivision To 10 Mi. S/O Valle",
+            "customers": 47,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-01 07:33:00 MST",
+            "etr": "2026-11-01 11:15:00 MST"
+        },
+        {
+            "latitude": 34.18347942827696,
+            "longitude": -111.33975070023335,
+            "city": "Payson",
+            "boundary": "Beeline Hwy. to Oxbow Trl. and Anderson Ln. to Gibson Ranch Rd.",
+            "customers": 905,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 07:58:00 MST",
+            "etr": "2026-11-01 11:00:00 MST"
+        }
+    ]
+}

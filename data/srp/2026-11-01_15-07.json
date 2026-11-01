@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-01 15:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 240
+    },
+    "outages": [
+        {
+            "latitude": 33.5547384714289,
+            "longitude": -112.13892125654249,
+            "boundary": "N 43RD  AVE TO N 31ST  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 226,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-11-01 12:57 MST",
+            "etr": "2026-11-01 23:30 MST"
+        },
+        {
+            "latitude": 33.5514665807778,
+            "longitude": -112.08519605981999,
+            "boundary": "N 15TH  AVE TO N 7TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-01 12:34 MST",
+            "etr": "2026-11-01 16:30 MST"
+        },
+        {
+            "latitude": 33.5514665807778,
+            "longitude": -112.08519605981999,
+            "boundary": "N 15TH  AVE TO N 7TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 7,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-01 12:34 MST",
+            "etr": "2026-11-01 16:30 MST"
+        }
+    ]
+}
