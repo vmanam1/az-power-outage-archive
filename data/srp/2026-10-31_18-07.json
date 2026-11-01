@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-31 18:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1103
+    },
+    "outages": [
+        {
+            "latitude": 33.39083482938385,
+            "longitude": -112.07601868109549,
+            "boundary": "S 7TH  AVE TO S CENTRAL  AVE AND W ROESER  RD TO W VINEYARD  RD",
+            "customers": 9,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-31 15:27 MST",
+            "etr": "2026-10-31 19:30 MST"
+        },
+        {
+            "latitude": 33.385000540542094,
+            "longitude": -112.075423929943,
+            "boundary": "S 15TH  AVE TO S 12TH  ST AND W ROESER  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 1085,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-31 16:20 MST",
+            "etr": "2026-10-31 18:19 MST"
+        },
+        {
+            "latitude": 33.4146238566082,
+            "longitude": -111.60716600612,
+            "boundary": "S 96TH  ST TO N MOUNTAIN  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-31 17:25 MST",
+            "etr": "2026-10-31 23:18 MST"
+        },
+        {
+            "latitude": 33.414685848214404,
+            "longitude": -111.614506050293,
+            "boundary": "S 96TH  ST TO S 104TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-31 17:25 MST",
+            "etr": "2026-10-31 23:19 MST"
+        }
+    ]
+}
