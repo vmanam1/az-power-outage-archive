@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-01 16:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 286,
+        "total_customers": 45998
+    },
+    "outages": [
+        {
+            "latitude": 33.8341865326583,
+            "longitude": -109.12390916564429,
+            "customers": 69,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-11-01 16:00:46 MST",
+            "etr": null,
+            "incident_id": "535980"
+        },
+        {
+            "latitude": 34.25661931613863,
+            "longitude": -110.08743315637217,
+            "customers": 192,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "6 - Linden",
+            "start_time": "2026-11-01 14:44:25 MST",
+            "etr": null,
+            "incident_id": "535974"
+        },
+        {
+            "latitude": 34.38747591344338,
+            "longitude": -110.55785392127254,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-11-01 16:02:22 MST",
+            "etr": null,
+            "incident_id": "535978"
+        },
+        {
+            "latitude": 34.259670852737166,
+            "longitude": -110.09302067744018,
+            "customers": 1,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-11-01 14:34:29 MST",
+            "etr": null,
+            "incident_id": "535969"
+        },
+        {
+            "latitude": 33.99254465964376,
+            "longitude": -110.28415522046889,
+            "customers": 23,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "3 - Reservation",
+            "start_time": "2026-11-01 12:21:23 MST",
+            "etr": null,
+            "incident_id": "535948"
+        }
+    ]
+}
