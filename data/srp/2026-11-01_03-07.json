@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-01 03:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.3872320983199,
+            "longitude": -111.9345284314595,
+            "boundary": "S MILL  AVE TO S RURAL  RD AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-01 00:16 MST",
+            "etr": "2026-11-01 04:22 MST"
+        }
+    ]
+}
