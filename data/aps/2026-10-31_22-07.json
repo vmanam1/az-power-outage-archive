@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-31 22:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 559
+    },
+    "outages": [
+        {
+            "latitude": 33.27398655169295,
+            "longitude": -112.64659153163959,
+            "city": "Buckeye",
+            "boundary": "Highway 85 and Buckeye Hills Dr",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 11:09:00 MST",
+            "etr": "2026-10-31 17:35:00 MST"
+        },
+        {
+            "latitude": 33.9489905718675,
+            "longitude": -112.7670166728657,
+            "city": "Wickenburg",
+            "boundary": "US 60 and Vulture Mine Rd",
+            "customers": 408,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 13:52:00 MST",
+            "etr": "2026-11-01 16:55:00 MST"
+        },
+        {
+            "latitude": 33.575520759871424,
+            "longitude": -111.94026334472738,
+            "city": "Paradise Valley",
+            "boundary": "Turquoise Ave. to Caron Dr. and Invergordon Rd. to 68th St.",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 14:32:00 MST",
+            "etr": "2026-10-31 17:25:00 MST"
+        },
+        {
+            "latitude": 33.61855452921904,
+            "longitude": -111.93003900313286,
+            "city": "Scottsdale",
+            "boundary": "71st to Hern Rd and 69th St to Scottsdale Rd",
+            "customers": 110,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 14:45:00 MST",
+            "etr": "2026-10-31 18:10:00 MST"
+        },
+        {
+            "latitude": 33.608726747135115,
+            "longitude": -111.92082672958857,
+            "city": "Scottsdale",
+            "boundary": "Redfield Rd to Sutton Rd and Scottsdale Rd to Smith Circle",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 14:54:00 MST",
+            "etr": "2026-10-31 18:00:00 MST"
+        }
+    ]
+}
