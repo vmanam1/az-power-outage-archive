@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-01 13:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 3146
+    },
+    "outages": [
+        {
+            "latitude": 33.27398655169295,
+            "longitude": -112.64659153163959,
+            "city": "Buckeye",
+            "boundary": "Highway 85 and Buckeye Hills Dr",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 11:09:00 MST",
+            "etr": "2026-11-01 07:30:00 MST"
+        },
+        {
+            "latitude": 33.53791031419658,
+            "longitude": -112.16450365810034,
+            "city": "Glendale",
+            "boundary": "Glendale and 49th Ave",
+            "customers": 11,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 17:54:00 MST",
+            "etr": "2026-11-01 07:30:00 MST"
+        },
+        {
+            "latitude": 32.683995499998915,
+            "longitude": -114.59954670014396,
+            "city": "Yuma",
+            "boundary": "22Nd St To Palo Verde St And Madison Ave To Kathleen Ave",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 02:15:00 MST",
+            "etr": "2026-11-01 08:45:00 MST"
+        },
+        {
+            "latitude": 34.846319000052006,
+            "longitude": -111.7726259995777,
+            "city": "Sedona",
+            "boundary": "Forest Rd To Back-O-Beyond Rd And Rainbow Rd To Juniper Way",
+            "customers": 1015,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 03:34:00 MST",
+            "etr": "2026-11-01 07:00:00 MST"
+        },
+        {
+            "latitude": 33.54461449966291,
+            "longitude": -112.07571159994804,
+            "city": "Phoenix",
+            "boundary": "Northern Ave To Flynn Ln  And 9Th Ave To 7Th St",
+            "customers": 1407,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 05:29:00 MST",
+            "etr": "2026-11-01 07:45:00 MST"
+        },
+        {
+            "latitude": 35.2367430000113,
+            "longitude": -111.80832000043672,
+            "city": "Bellemont",
+            "boundary": "Curtis Court to Grant St. and Lava River Cave Rd. to Alpine Dr.",
+            "customers": 691,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 05:44:00 MST",
+            "etr": "2026-11-01 08:00:00 MST"
+        }
+    ]
+}

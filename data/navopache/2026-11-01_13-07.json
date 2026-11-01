@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-01 13:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 139,
+        "total_customers": 45998
+    },
+    "outages": [
+        {
+            "latitude": 33.89622443129032,
+            "longitude": -110.175989077093,
+            "customers": 109,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-11-01 05:45:13 MST",
+            "etr": null,
+            "incident_id": "535917"
+        },
+        {
+            "latitude": 33.93855913707084,
+            "longitude": -109.18847108512296,
+            "customers": 7,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-11-01 12:57:05 MST",
+            "etr": null,
+            "incident_id": "535954"
+        },
+        {
+            "latitude": 33.99254465964376,
+            "longitude": -110.28415522046889,
+            "customers": 23,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "3 - Reservation",
+            "start_time": "2026-11-01 12:21:23 MST",
+            "etr": null,
+            "incident_id": "535948"
+        }
+    ]
+}
