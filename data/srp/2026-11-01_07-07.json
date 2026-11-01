@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-01 07:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 548
+    },
+    "outages": [
+        {
+            "latitude": 33.396195735998845,
+            "longitude": -112.0545140028705,
+            "boundary": "S 7TH  ST TO S 16TH  ST AND E ROESER  RD TO E SOUTHERN  AVE",
+            "customers": 5,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-01 06:09 MST",
+            "etr": "2026-11-01 08:08 MST"
+        },
+        {
+            "latitude": 33.397209624242706,
+            "longitude": -112.05447079913401,
+            "boundary": "S 7TH  ST TO S 16TH  ST AND E ROESER  RD TO E SOUTHERN  AVE",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-01 06:10 MST",
+            "etr": "2026-11-01 08:08 MST"
+        },
+        {
+            "latitude": 33.48600200043385,
+            "longitude": -112.02296179582049,
+            "boundary": "N 20TH  ST TO N 36TH  ST AND E INDIAN SCHOOL  RD TO E THOMAS  RD",
+            "customers": 531,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-01 06:53 MST",
+            "etr": "2026-11-01 08:50 MST"
+        },
+        {
+            "latitude": 33.3989368110741,
+            "longitude": -112.054449174709,
+            "boundary": "S 7TH  ST TO S 16TH  ST AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-01 06:09 MST",
+            "etr": "2026-11-01 08:13 MST"
+        }
+    ]
+}
