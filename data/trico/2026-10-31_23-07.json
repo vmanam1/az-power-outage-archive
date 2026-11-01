@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-10-31 23:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 47,
+        "total_customers": 58076
+    },
+    "outages": [
+        {
+            "latitude": 32.24913439709731,
+            "longitude": -111.23996268290513,
+            "customers": 47,
+            "cause": "99 UNKNOWN/UNDETERMINED",
+            "comments": null,
+            "boundary": "Milewide Rd",
+            "start_time": "2026-10-31 20:07:22 MST",
+            "etr": "2026-10-31 23:07:22 MST",
+            "incident_id": "390228"
+        }
+    ]
+}

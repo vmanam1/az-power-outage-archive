@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-10-31 23:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 657
+    },
+    "outages": [
+        {
+            "latitude": 33.27398655169295,
+            "longitude": -112.64659153163959,
+            "city": "Buckeye",
+            "boundary": "Highway 85 and Buckeye Hills Dr",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 11:09:00 MST",
+            "etr": "2026-10-31 17:35:00 MST"
+        },
+        {
+            "latitude": 33.9489905718675,
+            "longitude": -112.7670166728657,
+            "city": "Wickenburg",
+            "boundary": "US 60 and Vulture Mine Rd",
+            "customers": 53,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 13:52:00 MST",
+            "etr": "2026-10-31 17:35:00 MST"
+        },
+        {
+            "latitude": 33.575520759871424,
+            "longitude": -111.94026334472738,
+            "city": "Paradise Valley",
+            "boundary": "Turquoise Ave. to Caron Dr. and Invergordon Rd. to 68th St.",
+            "customers": 24,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 14:32:00 MST",
+            "etr": "2026-10-31 17:25:00 MST"
+        },
+        {
+            "latitude": 33.608726747135115,
+            "longitude": -111.92082672958857,
+            "city": "Scottsdale",
+            "boundary": "Redfield Rd to Sutton Rd and Scottsdale Rd to Smith Circle",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 14:54:00 MST",
+            "etr": "2026-10-31 18:00:00 MST"
+        },
+        {
+            "latitude": 33.59602179130677,
+            "longitude": -112.10463498683256,
+            "city": "Phoenix",
+            "boundary": "Shaw Butte Dr to Paradise Dr and 23rd Ave to 21st Ave",
+            "customers": 11,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-10-31 15:24:00 MST",
+            "etr": "2026-10-31 22:00:00 MST"
+        },
+        {
+            "latitude": 34.23007000017806,
+            "longitude": -114.1807740003427,
+            "city": "Parker",
+            "boundary": "Rio Lindo Shores Dr. to Betor Shores Dr. and Highway 95",
+            "customers": 552,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-10-31 15:42:00 MST",
+            "etr": "2026-10-31 18:10:00 MST"
+        }
+    ]
+}
