@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-10-31 21:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 191
+    },
+    "outages": [
+        {
+            "latitude": 33.4146238566082,
+            "longitude": -111.60716600612,
+            "boundary": "S 96TH  ST TO N MOUNTAIN  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-31 17:25 MST",
+            "etr": "2026-10-31 23:18 MST"
+        },
+        {
+            "latitude": 33.414685848214404,
+            "longitude": -111.614506050293,
+            "boundary": "S 96TH  ST TO S 104TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-10-31 17:25 MST",
+            "etr": "2026-10-31 23:19 MST"
+        },
+        {
+            "latitude": 33.39083482938385,
+            "longitude": -112.07601868109549,
+            "boundary": "S 7TH  AVE TO S CENTRAL  AVE AND W ROESER  RD TO W VINEYARD  RD",
+            "customers": 9,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-31 15:27 MST",
+            "etr": "2026-10-31 21:30 MST"
+        },
+        {
+            "latitude": 33.39083482938385,
+            "longitude": -112.07601868109549,
+            "boundary": "S 7TH  AVE TO S CENTRAL  AVE AND W ROESER  RD TO W VINEYARD  RD",
+            "customers": 9,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-10-31 15:27 MST",
+            "etr": "2026-10-31 21:30 MST"
+        },
+        {
+            "latitude": 33.333393401231746,
+            "longitude": -111.864973338933,
+            "boundary": "N DOBSON  RD TO N ALMA SCHOOL  RD AND W ELLIOT  RD TO W KNOX  RD",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-31 19:37 MST",
+            "etr": "2026-10-31 21:46 MST"
+        },
+        {
+            "latitude": 33.3927623857991,
+            "longitude": -111.6988728763535,
+            "boundary": "S HIGLEY  RD TO S POWER  RD AND E BROADWAY  RD TO E BASELINE  RD",
+            "customers": 142,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-10-31 20:45 MST",
+            "etr": "2026-10-31 23:02 MST"
+        }
+    ]
+}
