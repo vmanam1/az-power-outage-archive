@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-02 12:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1893
+    },
+    "outages": [
+        {
+            "latitude": 33.633052755657204,
+            "longitude": -111.7648625171125,
+            "boundary": "UNKNOWN TO N BEELINE  HWY AND E JOMAX  RD TO E VIA LINDA  ",
+            "customers": 553,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-02 10:17 MST",
+            "etr": "2026-11-02 12:17 MST"
+        },
+        {
+            "latitude": 33.34667406893385,
+            "longitude": -111.72898955922801,
+            "boundary": "S GREENFIELD  RD TO S HIGLEY  RD AND E ELLIOT  RD TO E WARNER  RD",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-02 11:03 MST",
+            "etr": "2026-11-02 13:01 MST"
+        },
+        {
+            "latitude": 33.508077430300204,
+            "longitude": -112.283797873571,
+            "boundary": "N 111TH  AVE TO N 99TH  AVE AND W BETHANY HOME  RD TO W INDIAN SCHOOL  RD",
+            "customers": 1307,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-02 11:22 MST",
+            "etr": "2026-11-02 13:04 MST"
+        },
+        {
+            "latitude": 33.40911966416765,
+            "longitude": -112.043978803841,
+            "boundary": "S 16TH  ST TO S 20TH  ST AND E ELWOOD  ST TO E BROADWAY  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-02 07:27 MST",
+            "etr": "2026-11-02 13:00 MST"
+        },
+        {
+            "latitude": 33.40911966416765,
+            "longitude": -112.043978803841,
+            "boundary": "S 16TH  ST TO S 20TH  ST AND E ELWOOD  ST TO E BROADWAY  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-02 07:27 MST",
+            "etr": "2026-11-02 13:00 MST"
+        }
+    ]
+}
