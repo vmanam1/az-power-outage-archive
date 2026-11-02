@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-02 00:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2,
+        "total_customers": 58076
+    },
+    "outages": [
+        {
+            "latitude": 31.867938809635145,
+            "longitude": -111.0049993371581,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Green Valley",
+            "start_time": "2026-11-01 22:00:44 MST",
+            "etr": "2026-11-02 01:00:44 MST",
+            "incident_id": "390232"
+        },
+        {
+            "latitude": 32.420596760647726,
+            "longitude": -111.14333989093176,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-11-01 23:58:05 MST",
+            "etr": null,
+            "incident_id": "390233"
+        }
+    ]
+}
