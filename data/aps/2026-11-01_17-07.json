@@ -1,0 +1,146 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-01 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 12,
+        "customers_affected": 2341
+    },
+    "outages": [
+        {
+            "latitude": 32.683995499998915,
+            "longitude": -114.59954670014396,
+            "city": "Yuma",
+            "boundary": "22Nd St To Palo Verde St And Madison Ave To Kathleen Ave",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 02:15:00 MST",
+            "etr": "2026-11-01 12:00:00 MST"
+        },
+        {
+            "latitude": 35.2367430000113,
+            "longitude": -111.80832000043672,
+            "city": "Bellemont",
+            "boundary": "Curtis Court to Grant St. and Lava River Cave Rd. to Alpine Dr.",
+            "customers": 692,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 05:44:00 MST",
+            "etr": "2026-11-01 11:00:00 MST"
+        },
+        {
+            "latitude": 34.18347942827696,
+            "longitude": -111.33975070023335,
+            "city": "Payson",
+            "boundary": "Beeline Hwy. to Oxbow Trl. and Anderson Ln. to Gibson Ranch Rd.",
+            "customers": 906,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 07:58:00 MST",
+            "etr": "2026-11-01 11:00:00 MST"
+        },
+        {
+            "latitude": 32.697114561247766,
+            "longitude": -114.6422086038785,
+            "city": "Yuma",
+            "boundary": "Magnolia Ave.",
+            "customers": 5,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 08:11:00 MST",
+            "etr": "2026-11-01 14:10:00 MST"
+        },
+        {
+            "latitude": 34.55096352019286,
+            "longitude": -109.93234504122843,
+            "city": "Snowflake",
+            "boundary": "Concho Hwy. to Aztec Rd. and Knudson Ln. to Reata Ln.",
+            "customers": 8,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 06:05:00 MST",
+            "etr": "2026-11-01 10:30:00 MST"
+        },
+        {
+            "latitude": 35.701407636722486,
+            "longitude": -112.09985856182188,
+            "city": "Williams",
+            "boundary": "South Rim Ranch Rd. and State Route 64",
+            "customers": 15,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 08:08:00 MST",
+            "etr": "2026-11-01 13:00:00 MST"
+        },
+        {
+            "latitude": 33.54461941416948,
+            "longitude": -112.07682031414643,
+            "city": "Phoenix",
+            "boundary": "Gardenia Dr. to State Ave. and 3rd Ave. to Central Ave.",
+            "customers": 30,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-01 09:22:00 MST",
+            "etr": "2026-11-01 13:05:00 MST"
+        },
+        {
+            "latitude": 35.16405824517438,
+            "longitude": -111.65513347507192,
+            "city": "Flagstaff",
+            "boundary": "Leupp Dr. to Kofa Dr. and Gila Dr. to Zuni Dr.",
+            "customers": 158,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 09:26:00 MST",
+            "etr": "2026-11-01 11:45:00 MST"
+        },
+        {
+            "latitude": 33.9366583029534,
+            "longitude": -114.00637321516436,
+            "city": "Bouse",
+            "boundary": "Saguaro Dr. to Murphy St. and Santa Fe Ave. to Black Mountain Dr.",
+            "customers": 106,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 09:32:00 MST",
+            "etr": "2026-11-01 12:35:00 MST"
+        },
+        {
+            "latitude": 35.358548619926644,
+            "longitude": -112.15817568898208,
+            "city": "Williams",
+            "boundary": "Bell Vis Lp. to El Paso Pipeline Easement Rd. and Honeysuckle Rd. to Pine St.",
+            "customers": 334,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 09:40:00 MST",
+            "etr": "2026-11-01 13:00:00 MST"
+        },
+        {
+            "latitude": 32.66194458094014,
+            "longitude": -114.5126470150029,
+            "city": "Yuma",
+            "boundary": "2nd St. South to County 5th St. and West Main Canal to Avenue 7 1/2 East",
+            "customers": 63,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 09:46:00 MST",
+            "etr": "2026-11-01 12:00:00 MST"
+        },
+        {
+            "latitude": 33.58299933633476,
+            "longitude": -111.94152107505836,
+            "city": "Scottsdale",
+            "boundary": "Shea Blvd. and 65th Pl.",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 09:51:00 MST",
+            "etr": "2026-11-01 12:50:00 MST"
+        }
+    ]
+}
