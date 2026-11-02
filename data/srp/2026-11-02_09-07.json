@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-02 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 907
+    },
+    "outages": [
+        {
+            "latitude": 33.40911966416765,
+            "longitude": -112.043978803841,
+            "boundary": "S 16TH  ST TO S 20TH  ST AND E ELWOOD  ST TO E BROADWAY  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-02 07:27 MST",
+            "etr": "2026-11-02 11:00 MST"
+        },
+        {
+            "latitude": 33.42278990993425,
+            "longitude": -111.592083704459,
+            "boundary": "N SIGNAL BUTTE  RD TO N MOUNTAIN  RD AND E ADOBE  RD TO E APACHE  TRL",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-02 07:52 MST",
+            "etr": "2026-11-02 12:00 MST"
+        },
+        {
+            "latitude": 33.4227574720867,
+            "longitude": -111.59307784546999,
+            "boundary": "N SIGNAL BUTTE  RD TO N MOUNTAIN  RD AND E ADOBE  RD TO E APACHE  TRL",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-02 07:52 MST",
+            "etr": "2026-11-02 12:00 MST"
+        },
+        {
+            "latitude": 33.4189931906576,
+            "longitude": -111.568691988996,
+            "boundary": "N DELAWARE  DR TO N IRONWOOD  DR AND W SUPERSTITION  BLVD TO W APACHE  TRL",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-02 07:58 MST",
+            "etr": "2026-11-02 12:00 MST"
+        },
+        {
+            "latitude": 33.4212044963539,
+            "longitude": -111.574237660441,
+            "boundary": "N MERIDIAN  RD TO N IRONWOOD  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-02 08:52 MST",
+            "etr": "2026-11-02 11:00 MST"
+        },
+        {
+            "latitude": 33.257798190146204,
+            "longitude": -111.6470334895115,
+            "boundary": "S SOSSAMAN  RD TO S CRISMON  RD AND E RYAN  RD TO E CHANDLER HEIGHTS  RD",
+            "customers": 862,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-02 08:17 MST",
+            "etr": "2026-11-02 10:29 MST"
+        }
+    ]
+}
