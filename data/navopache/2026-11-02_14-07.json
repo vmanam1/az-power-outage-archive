@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-02 14:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 11,
+        "total_customers": 45998
+    },
+    "outages": [
+        {
+            "latitude": 33.9806791278135,
+            "longitude": -109.75130154331353,
+            "customers": 5,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-11-01 16:14:34 MST",
+            "etr": null,
+            "incident_id": "536000"
+        },
+        {
+            "latitude": 34.25921795527373,
+            "longitude": -110.09338000355388,
+            "customers": 2,
+            "cause": "MAINTENANCE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-11-02 13:54:05 MST",
+            "etr": null,
+            "incident_id": "536015"
+        },
+        {
+            "latitude": 34.259670852737166,
+            "longitude": -110.09302067744018,
+            "customers": 1,
+            "cause": "WEATHER",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-11-01 14:34:29 MST",
+            "etr": null,
+            "incident_id": "535969"
+        },
+        {
+            "latitude": 34.13399869484725,
+            "longitude": -109.97189184451264,
+            "customers": 3,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-11-02 10:17:06 MST",
+            "etr": null,
+            "incident_id": "536010"
+        }
+    ]
+}
