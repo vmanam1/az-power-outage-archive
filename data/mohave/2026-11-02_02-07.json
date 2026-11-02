@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-11-02 02:07:21 MST",
+        "source": "MOHAVE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 286,
+        "total_customers": 47130
+    },
+    "outages": [
+        {
+            "latitude": 34.74166033351704,
+            "longitude": -113.6173001837413,
+            "customers": 90,
+            "cause": "Extreme Storm",
+            "comments": "This is an important message from Mohave Electric Cooperative with an update on the current outage in your area. Crews are working to replace transmission poles washed out by this evening¿s storms. Your estimated time of restoral is currently Monday November 2nd at 8:00 am. Thank you for your patience as crews work to complete repairs and restore your power.",
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-11-01 18:12:43 MST",
+            "etr": "2026-11-02 08:00:00 MST",
+            "incident_id": "351317"
+        },
+        {
+            "latitude": 34.74161604315372,
+            "longitude": -113.6173001837413,
+            "customers": 158,
+            "cause": "Extreme Storm",
+            "comments": "This is an important message from Mohave Electric Cooperative with an update on the current outage in your area. Crews are working to replace transmission poles washed out by this evening¿s storms. Your estimated time of restoral is currently Monday November 2nd at 8:00 am. Thank you for your patience as crews work to complete repairs and restore your power.",
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-11-01 21:19:29 MST",
+            "etr": "2026-11-02 08:00:00 MST",
+            "incident_id": "351319"
+        },
+        {
+            "latitude": 34.59365736733482,
+            "longitude": -113.53414313787879,
+            "customers": 8,
+            "cause": "Extreme Storm",
+            "comments": "This is an important message from Mohave Electric Cooperative with an update on the current outage in your area. Crews are working to replace transmission poles washed out by this evening¿s storms. Your estimated time of restoral is currently Monday November 2nd at 8:00 am. Thank you for your patience as crews work to complete repairs and restore your power.",
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-11-01 21:52:58 MST",
+            "etr": "2026-11-02 08:00:00 MST",
+            "incident_id": "351334"
+        },
+        {
+            "latitude": 34.593524258588154,
+            "longitude": -113.53425991886574,
+            "customers": 29,
+            "cause": "Extreme Storm",
+            "comments": "This is an important message from Mohave Electric Cooperative with an update on the current outage in your area. Crews are working to replace transmission poles washed out by this evening¿s storms. Your estimated time of restoral is currently Monday November 2nd at 8:00 am. Thank you for your patience as crews work to complete repairs and restore your power.",
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-11-01 21:49:34 MST",
+            "etr": "2026-11-02 08:00:00 MST",
+            "incident_id": "351333"
+        },
+        {
+            "latitude": 34.7009400904729,
+            "longitude": -113.61664441358381,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-11-01 23:18:50 MST",
+            "etr": null,
+            "incident_id": "351335"
+        }
+    ]
+}
