@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-03 12:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 33.12845028718855,
+            "longitude": -111.444642059333,
+            "boundary": "N ALADDIN  RD TO N COOPER  RD AND E MAGMA  RD TO E DIXIE  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-03 07:28 MST",
+            "etr": "2026-11-03 15:00 MST"
+        },
+        {
+            "latitude": 33.41144874079785,
+            "longitude": -112.2037096270295,
+            "boundary": "S 71ST  AVE TO S 63RD  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-03 08:11 MST",
+            "etr": "2026-11-03 13:10 MST"
+        },
+        {
+            "latitude": 33.40189760830005,
+            "longitude": -111.62926568673049,
+            "boundary": "S ELLSWORTH  RD TO S 96TH  ST AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-03 10:22 MST",
+            "etr": "2026-11-03 13:20 MST"
+        }
+    ]
+}
