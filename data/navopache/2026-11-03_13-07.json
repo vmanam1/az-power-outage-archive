@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-03 13:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 8,
+        "total_customers": 45984
+    },
+    "outages": [
+        {
+            "latitude": 33.9806791278135,
+            "longitude": -109.75130154331353,
+            "customers": 5,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-11-01 16:14:34 MST",
+            "etr": null,
+            "incident_id": "536000"
+        },
+        {
+            "latitude": 34.40220470520494,
+            "longitude": -110.57998840987631,
+            "customers": 2,
+            "cause": "MAINTENANCE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-11-03 12:59:48 MST",
+            "etr": null,
+            "incident_id": "536034"
+        },
+        {
+            "latitude": 34.29651071631526,
+            "longitude": -110.21663784370507,
+            "customers": 1,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-11-02 22:52:20 MST",
+            "etr": null,
+            "incident_id": "536020"
+        }
+    ]
+}
