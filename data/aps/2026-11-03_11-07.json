@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-03 11:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 217
+    },
+    "outages": [
+        {
+            "latitude": 34.8516021849032,
+            "longitude": -111.76750351657013,
+            "city": "Sedona",
+            "boundary": "Forest Rd To Back-O-Beyond Rd And Rainbow Rd To Juniper Way",
+            "customers": 33,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 10:08:00 MST",
+            "etr": "2026-11-03 05:00:00 MST"
+        },
+        {
+            "latitude": 34.91443882110951,
+            "longitude": -111.72761818859783,
+            "city": "Sedona",
+            "boundary": "AZ 89A to Wilson Canyon Rd. and Quail Tail Trl.",
+            "customers": 76,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-01 12:25:00 MST",
+            "etr": "2026-11-03 05:00:00 MST"
+        },
+        {
+            "latitude": 34.79110374766999,
+            "longitude": -111.89846691836178,
+            "city": "Cornville",
+            "boundary": "Hidden Valley Rd. and Echo Canyon Rd.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-02 00:41:00 MST",
+            "etr": "2026-11-03 05:00:00 MST"
+        },
+        {
+            "latitude": 33.42522148894113,
+            "longitude": -112.34585330187018,
+            "city": "Avondale",
+            "boundary": "Locust Ln to Mountain View Dr and 2nd St to 4th St",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-03 01:00:00 MST",
+            "etr": "2026-11-03 05:00:00 MST"
+        },
+        {
+            "latitude": 33.61314229706533,
+            "longitude": -112.05709881628154,
+            "city": "Phoenix",
+            "boundary": "Dailey St to Roberts Rd and 12th St",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-03 01:55:00 MST",
+            "etr": "2026-11-03 05:00:00 MST"
+        },
+        {
+            "latitude": 35.09748453411492,
+            "longitude": -111.58085891864806,
+            "city": "Flagstaff",
+            "boundary": "Lake Mary Rd. to Crimson Rd. and Happy Trails Rd. to Fire Rd. 132D",
+            "customers": 64,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-11-03 01:56:00 MST",
+            "etr": "2026-11-03 05:00:00 MST"
+        },
+        {
+            "latitude": 34.4192890331956,
+            "longitude": -112.92155481778002,
+            "city": "Bagdad",
+            "boundary": "Pecks Peak Rd and Carson Rd",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-03 02:59:00 MST",
+            "etr": "2026-11-03 07:15:00 MST"
+        }
+    ]
+}
