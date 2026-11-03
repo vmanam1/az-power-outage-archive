@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-03 04:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 17711
+    },
+    "outages": [
+        {
+            "latitude": 33.3440442316122,
+            "longitude": -112.173702488374,
+            "boundary": "UNKNOWN TO S 23RD  AVE AND W VINEYARD  RD TO W PECOS  RD",
+            "customers": 4005,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-03 01:59 MST",
+            "etr": "2026-11-03 06:00 MST"
+        },
+        {
+            "latitude": 33.37742586657985,
+            "longitude": -112.194975095427,
+            "boundary": "S 79TH  AVE TO S 47TH  AVE AND W ROESER  RD TO W OLNEY  AVE",
+            "customers": 3900,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-03 01:56 MST",
+            "etr": "2026-11-03 06:00 MST"
+        },
+        {
+            "latitude": 33.36393846990135,
+            "longitude": -112.115253487494,
+            "boundary": "S 43RD  AVE TO S 7TH  AVE AND W SOUTHERN  AVE TO W CHANDLER  BLVD",
+            "customers": 4579,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-03 01:36 MST",
+            "etr": "2026-11-03 06:00 MST"
+        },
+        {
+            "latitude": 33.36140787806945,
+            "longitude": -112.1916222313305,
+            "boundary": "S 79TH  AVE TO S 43RD  AVE AND W VINEYARD  RD TO W CARVER  RD",
+            "customers": 3062,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-03 01:34 MST",
+            "etr": "2026-11-03 06:00 MST"
+        },
+        {
+            "latitude": 33.350206733214705,
+            "longitude": -112.17359126038849,
+            "boundary": "S 59TH  AVE TO S 47TH  AVE AND W SOUTH MOUNTAIN  AVE TO W ESTRELLA  DR",
+            "customers": 1442,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-03 01:34 MST",
+            "etr": "2026-11-03 06:00 MST"
+        },
+        {
+            "latitude": 33.35524781139845,
+            "longitude": -112.150753041045,
+            "boundary": "S 51ST  AVE TO S 35TH  AVE AND W SOUTH MOUNTAIN  AVE TO W CARVER  RD",
+            "customers": 723,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-03 01:34 MST",
+            "etr": "2026-11-03 06:00 MST"
+        }
+    ]
+}
