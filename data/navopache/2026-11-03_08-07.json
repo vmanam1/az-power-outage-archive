@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-03 08:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 6,
+        "total_customers": 45984
+    },
+    "outages": [
+        {
+            "latitude": 33.9806791278135,
+            "longitude": -109.75130154331353,
+            "customers": 5,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "3 - Reservation",
+            "start_time": "2026-11-01 16:14:34 MST",
+            "etr": null,
+            "incident_id": "536000"
+        },
+        {
+            "latitude": 34.29651071631526,
+            "longitude": -110.21663784370507,
+            "customers": 1,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-11-02 22:52:20 MST",
+            "etr": null,
+            "incident_id": "536020"
+        }
+    ]
+}
