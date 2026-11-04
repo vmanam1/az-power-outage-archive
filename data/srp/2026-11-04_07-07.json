@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-04 07:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 71
+    },
+    "outages": [
+        {
+            "latitude": 33.4119819724934,
+            "longitude": -111.632058539065,
+            "boundary": "N 88TH  ST TO S 96TH  ST AND E APACHE  TRL TO E BROADWAY  RD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 06:21 MST",
+            "etr": "2026-11-04 07:29 MST"
+        },
+        {
+            "latitude": 33.481731409360705,
+            "longitude": -112.0080779178245,
+            "boundary": "N 32ND  ST TO N 36TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 06:37 MST",
+            "etr": "2026-11-04 08:36 MST"
+        },
+        {
+            "latitude": 33.4815590534521,
+            "longitude": -112.006357280587,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 06:39 MST",
+            "etr": "2026-11-04 08:31 MST"
+        },
+        {
+            "latitude": 33.48265837595085,
+            "longitude": -112.0080398667815,
+            "boundary": "N 32ND  ST TO N 36TH  ST AND E OSBORN  RD TO E THOMAS  RD",
+            "customers": 14,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 06:40 MST",
+            "etr": "2026-11-04 08:37 MST"
+        }
+    ]
+}
