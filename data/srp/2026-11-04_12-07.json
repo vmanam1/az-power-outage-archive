@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-04 12:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.288267104211045,
+            "longitude": -111.741594631212,
+            "boundary": "S 156TH  ST TO S GREENFIELD  RD AND E PECOS  RD TO E WILLIS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 08:34 MST",
+            "etr": "2026-11-04 12:22 MST"
+        },
+        {
+            "latitude": 33.51847812606255,
+            "longitude": -112.13992399348601,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 10:36 MST",
+            "etr": "2026-11-04 14:35 MST"
+        },
+        {
+            "latitude": 33.3894220877879,
+            "longitude": -111.876276128524,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W SOUTHERN  AVE TO W SUPERSTITION  FWY",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-04 09:39 MST",
+            "etr": "2026-11-04 18:00 MST"
+        },
+        {
+            "latitude": 33.2524689264393,
+            "longitude": -111.881677301968,
+            "boundary": "S DOBSON  RD TO S DOBSON  RD AND W QUEEN CREEK  RD TO W OCOTILLO  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 09:30 MST",
+            "etr": "2026-11-04 12:30 MST"
+        },
+        {
+            "latitude": 33.427966253331505,
+            "longitude": -111.75228593419,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E ADOBE  ST TO E UNIVERSITY  DR",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 11:24 MST",
+            "etr": "2026-11-04 15:30 MST"
+        }
+    ]
+}
