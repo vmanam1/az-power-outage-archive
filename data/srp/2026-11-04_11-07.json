@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-04 11:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 132
+    },
+    "outages": [
+        {
+            "latitude": 33.41124850489105,
+            "longitude": -111.6772017904015,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 07:53 MST",
+            "etr": "2026-11-04 14:00 MST"
+        },
+        {
+            "latitude": 33.50089688142535,
+            "longitude": -112.22549116978601,
+            "boundary": "N 83RD  AVE TO N 71ST  AVE AND W CAMELBACK  RD TO W INDIAN SCHOOL  RD",
+            "customers": 84,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 08:01 MST",
+            "etr": "2026-11-04 12:21 MST"
+        },
+        {
+            "latitude": 33.288267104211045,
+            "longitude": -111.741594631212,
+            "boundary": "S 156TH  ST TO S GREENFIELD  RD AND E PECOS  RD TO E WILLIS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 08:34 MST",
+            "etr": "2026-11-04 12:22 MST"
+        },
+        {
+            "latitude": 33.2524689264393,
+            "longitude": -111.881677301968,
+            "boundary": "S DOBSON  RD TO S DOBSON  RD AND W QUEEN CREEK  RD TO W OCOTILLO  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 09:30 MST",
+            "etr": "2026-11-04 11:30 MST"
+        },
+        {
+            "latitude": 33.3896524872761,
+            "longitude": -111.878380189751,
+            "boundary": "S EVERGREEN  RD TO S DOBSON  RD AND W SOUTHERN  AVE TO W SUPERSTITION  FWY",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 10:12 MST",
+            "etr": "2026-11-04 11:56 MST"
+        },
+        {
+            "latitude": 33.39036848742175,
+            "longitude": -111.8777942408735,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SUPERSTITION  FWY",
+            "customers": 20,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 09:39 MST",
+            "etr": "2026-11-04 11:53 MST"
+        },
+        {
+            "latitude": 33.51847812606255,
+            "longitude": -112.13992399348601,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 10:36 MST",
+            "etr": "2026-11-04 14:35 MST"
+        }
+    ]
+}
