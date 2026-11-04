@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-04 13:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 34.79110374766999,
+            "longitude": -111.89846691836178,
+            "city": "Cornville",
+            "boundary": "Hidden Valley Rd. and Echo Canyon Rd.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-02 00:41:00 MST",
+            "etr": "2026-11-06 05:00:00 MST"
+        },
+        {
+            "latitude": 34.47187533424928,
+            "longitude": -112.49188471365761,
+            "city": "Prescott",
+            "boundary": "Pinecone Way to Deer Trl. and Geronimo Rd. to Ponderosa Park Rd.",
+            "customers": 23,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-04 02:12:00 MST",
+            "etr": "2026-11-04 06:45:00 MST"
+        },
+        {
+            "latitude": 33.648748616676116,
+            "longitude": -112.29286717466131,
+            "city": "Sun City",
+            "boundary": "Mimosa Dr. to Acacia Dr. and Willowbrook Dr. to 107th Ave.",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-11-04 02:58:00 MST",
+            "etr": "2026-11-04 07:30:00 MST"
+        }
+    ]
+}
