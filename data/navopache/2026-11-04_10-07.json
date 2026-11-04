@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-04 10:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 45991
+    },
+    "outages": [
+        {
+            "latitude": 34.26672385918792,
+            "longitude": -110.0872894259267,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "6 - Linden",
+            "start_time": "2026-11-04 08:17:23 MST",
+            "etr": null,
+            "incident_id": "536040"
+        },
+        {
+            "latitude": 34.031466564956425,
+            "longitude": -109.45735481600303,
+            "customers": 1,
+            "cause": "MAINTENANCE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-11-04 09:56:00 MST",
+            "etr": null,
+            "incident_id": "536041"
+        },
+        {
+            "latitude": 34.29651071631526,
+            "longitude": -110.21663784370507,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-11-02 22:52:20 MST",
+            "etr": null,
+            "incident_id": "536020"
+        }
+    ]
+}
