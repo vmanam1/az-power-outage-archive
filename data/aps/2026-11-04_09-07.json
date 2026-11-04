@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-04 09:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 34.79110374766999,
+            "longitude": -111.89846691836178,
+            "city": "Cornville",
+            "boundary": "Hidden Valley Rd. and Echo Canyon Rd.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-02 00:41:00 MST",
+            "etr": "2026-11-06 05:00:00 MST"
+        },
+        {
+            "latitude": 33.457081897292035,
+            "longitude": -112.0572625126825,
+            "city": "Phoenix",
+            "boundary": "Garfield St. to Mckinley St. and 11th St. to 13th St.",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-04 01:00:00 MST",
+            "etr": "2026-11-04 05:00:00 MST"
+        }
+    ]
+}
