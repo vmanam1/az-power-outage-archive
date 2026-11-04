@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-04 08:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 398
+    },
+    "outages": [
+        {
+            "latitude": 33.4815590534521,
+            "longitude": -112.006357280587,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 22,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 06:39 MST",
+            "etr": "2026-11-04 08:31 MST"
+        },
+        {
+            "latitude": 33.4520163347496,
+            "longitude": -112.163765147849,
+            "boundary": "N 51ST  AVE TO N 47TH  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 07:32 MST",
+            "etr": "2026-11-04 09:16 MST"
+        },
+        {
+            "latitude": 33.481731409360705,
+            "longitude": -112.0080779178245,
+            "boundary": "N 32ND  ST TO N 36TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 23,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 06:37 MST",
+            "etr": "2026-11-04 08:38 MST"
+        },
+        {
+            "latitude": 33.41124850489105,
+            "longitude": -111.6772017904015,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 17,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 07:53 MST",
+            "etr": "2026-11-04 14:00 MST"
+        },
+        {
+            "latitude": 33.4053452207988,
+            "longitude": -111.62017098745551,
+            "boundary": "S 96TH  ST TO S CRISMON  RD AND E APACHE  TRL TO E PUEBLO  AVE",
+            "customers": 23,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 07:59 MST",
+            "etr": "2026-11-04 13:00 MST"
+        },
+        {
+            "latitude": 33.50089688142535,
+            "longitude": -112.22549116978601,
+            "boundary": "N 83RD  AVE TO N 71ST  AVE AND W CAMELBACK  RD TO W INDIAN SCHOOL  RD",
+            "customers": 84,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 08:01 MST",
+            "etr": "2026-11-04 12:21 MST"
+        },
+        {
+            "latitude": 33.481338471270746,
+            "longitude": -112.008526175935,
+            "boundary": "N 28TH  ST TO N 40TH  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 225,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 06:40 MST",
+            "etr": "2026-11-04 08:37 MST"
+        },
+        {
+            "latitude": 33.4444684728555,
+            "longitude": -111.627690501847,
+            "boundary": "N ELLSWORTH  RD TO N 96TH  ST AND E MCKELLIPS  RD TO E BROWN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 08:05 MST",
+            "etr": "2026-11-04 12:00 MST"
+        }
+    ]
+}
