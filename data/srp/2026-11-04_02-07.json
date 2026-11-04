@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-04 02:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 56
+    },
+    "outages": [
+        {
+            "latitude": 33.370917207388956,
+            "longitude": -111.9278771934005,
+            "boundary": "S COLLEGE  AVE TO S LAKESHORE  DR AND E BASELINE  RD TO E GUADALUPE  RD",
+            "customers": 26,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-03 20:14 MST",
+            "etr": "2026-11-04 06:00 MST"
+        },
+        {
+            "latitude": 33.553559365907,
+            "longitude": -112.13373013687,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 1,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-03 16:43 MST",
+            "etr": "2026-11-04 04:00 MST"
+        },
+        {
+            "latitude": 33.602057098284746,
+            "longitude": -112.226689084864,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W THUNDERBIRD  RD TO W CACTUS  RD",
+            "customers": 29,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-04 01:41 MST",
+            "etr": "2026-11-04 03:40 MST"
+        }
+    ]
+}
