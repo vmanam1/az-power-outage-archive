@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-05 12:07:01 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 730
+    },
+    "outages": [
+        {
+            "latitude": 33.481446340723,
+            "longitude": -111.8967305370755,
+            "boundary": "N GRANITE REEF  RD TO N PIMA  RD AND E OSBORN  RD TO E OAK  ST",
+            "customers": 5,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 09:42 MST",
+            "etr": "2026-11-05 13:00 MST"
+        },
+        {
+            "latitude": 33.5009350974846,
+            "longitude": -112.1676331920775,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W CAMELBACK  RD TO W INDIAN SCHOOL  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 10:03 MST",
+            "etr": "2026-11-05 14:00 MST"
+        },
+        {
+            "latitude": 33.4291751458061,
+            "longitude": -110.808857829951,
+            "boundary": "N HWY 188   TO EASTERN BOUNDS OF SERVICE TERRITORY AND NORTHERN BOUNDS OF SERVICE TERRITORY TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 10:09 MST",
+            "etr": "2026-11-05 14:05 MST"
+        },
+        {
+            "latitude": 33.2635787679933,
+            "longitude": -111.5435437327015,
+            "boundary": "N IRONWOOD  DR TO N SIERRA VISTA  RD AND E PECOS  RD TO E SOUTHWOOD  RD",
+            "customers": 718,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-05 11:19 MST",
+            "etr": "2026-11-05 13:16 MST"
+        }
+    ]
+}
