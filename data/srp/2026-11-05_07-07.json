@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-05 07:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 99
+    },
+    "outages": [
+        {
+            "latitude": 33.2480601609181,
+            "longitude": -111.579078180487,
+            "boundary": "S MERIDIAN  RD TO N KENNEDY  DR AND W PIMA  RD TO W CHANDLER HEIGHTS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 00:49 MST",
+            "etr": "2026-11-05 07:47 MST"
+        },
+        {
+            "latitude": 33.3959830532022,
+            "longitude": -111.8727884404245,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 45,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-05 07:02 MST",
+            "etr": "2026-11-05 08:58 MST"
+        },
+        {
+            "latitude": 33.395722411434804,
+            "longitude": -111.8734659139545,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-05 07:03 MST",
+            "etr": "2026-11-05 08:59 MST"
+        },
+        {
+            "latitude": 33.39637769158375,
+            "longitude": -111.8723707583285,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-05 07:03 MST",
+            "etr": "2026-11-05 08:59 MST"
+        }
+    ]
+}
