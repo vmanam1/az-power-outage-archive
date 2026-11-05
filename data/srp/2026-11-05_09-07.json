@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-05 09:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 72
+    },
+    "outages": [
+        {
+            "latitude": 33.49851810609205,
+            "longitude": -112.029216759727,
+            "boundary": "N 20TH  ST TO N 28TH  ST AND E CAMPBELL  AVE TO E INDIAN SCHOOL  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 07:39 MST",
+            "etr": "2026-11-05 12:30 MST"
+        },
+        {
+            "latitude": 33.421888741112696,
+            "longitude": -111.5737666094215,
+            "boundary": "N MERIDIAN  DR TO N IRONWOOD  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 20,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 07:54 MST",
+            "etr": "2026-11-05 13:00 MST"
+        },
+        {
+            "latitude": 33.2928552746758,
+            "longitude": -111.7433355958745,
+            "boundary": "S VAL VISTA  DR TO S SANTAN VILLAGE  PKWY AND E PECOS  RD TO E WILLIS  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 08:02 MST",
+            "etr": "2026-11-05 12:49 MST"
+        },
+        {
+            "latitude": 33.20179366055265,
+            "longitude": -111.5696458792345,
+            "boundary": "N GARY  RD TO N GANTZEL  RD AND E ALGARVE  PL TO W EMPIRE  RD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 08:02 MST",
+            "etr": "2026-11-05 10:00 MST"
+        },
+        {
+            "latitude": 33.395722411434804,
+            "longitude": -111.8734659139545,
+            "boundary": "S EVERGREEN  RD TO S LONGMORE   AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-05 07:02 MST",
+            "etr": "2026-11-05 09:10 MST"
+        },
+        {
+            "latitude": 33.286822907869,
+            "longitude": -111.743014162646,
+            "boundary": "S 156TH  ST TO S GREENFIELD  RD AND E PECOS  RD TO E GERMANN  RD",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 09:01 MST",
+            "etr": "2026-11-05 13:00 MST"
+        }
+    ]
+}
