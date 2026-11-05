@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-04 21:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 104
+    },
+    "outages": [
+        {
+            "latitude": 33.395451531320205,
+            "longitude": -111.8542409430365,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 76,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 18:58 MST",
+            "etr": "2026-11-05 05:00 MST"
+        },
+        {
+            "latitude": 33.370917207388956,
+            "longitude": -111.9278771934005,
+            "boundary": "S COLLEGE  AVE TO S LAKESHORE  DR AND E BASELINE  RD TO E GUADALUPE  RD",
+            "customers": 27,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 20:00 MST",
+            "etr": "2026-11-05 04:00 MST"
+        },
+        {
+            "latitude": 33.4259889167044,
+            "longitude": -112.100200536395,
+            "boundary": "S 23RD  AVE TO S 15TH  AVE AND W MARICOPA  FWY TO W LOWER BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 20:30 MST",
+            "etr": "2026-11-05 05:00 MST"
+        }
+    ]
+}
