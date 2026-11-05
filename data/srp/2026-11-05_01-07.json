@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-05 01:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 137
+    },
+    "outages": [
+        {
+            "latitude": 33.395451531320205,
+            "longitude": -111.8542409430365,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W 8TH  AVE TO W SOUTHERN  AVE",
+            "customers": 76,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 18:58 MST",
+            "etr": "2026-11-05 05:00 MST"
+        },
+        {
+            "latitude": 33.370917207388956,
+            "longitude": -111.9278771934005,
+            "boundary": "S COLLEGE  AVE TO S LAKESHORE  DR AND E BASELINE  RD TO E GUADALUPE  RD",
+            "customers": 27,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 20:00 MST",
+            "etr": "2026-11-05 04:00 MST"
+        },
+        {
+            "latitude": 33.4259889167044,
+            "longitude": -112.100200536395,
+            "boundary": "S 23RD  AVE TO S 15TH  AVE AND W MARICOPA  FWY TO W LOWER BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 20:30 MST",
+            "etr": "2026-11-05 05:00 MST"
+        },
+        {
+            "latitude": 33.3642788165311,
+            "longitude": -111.87172769746499,
+            "boundary": "S DOBSON  RD TO S ALMA SCHOOL  RD AND W LINDNER  AVE TO W ELLIOT  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 23:28 MST",
+            "etr": "2026-11-05 06:23 MST"
+        },
+        {
+            "latitude": 33.35133447236019,
+            "longitude": -111.68903695509,
+            "boundary": "N ROADRUNNER  DR TO S SOSSAMAN  RD AND E OLNEY  AVE TO E MESQUITE  ST",
+            "customers": 21,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-04 23:43 MST",
+            "etr": "2026-11-05 06:39 MST"
+        },
+        {
+            "latitude": 33.2480601609181,
+            "longitude": -111.579078180487,
+            "boundary": "S MERIDIAN  RD TO N KENNEDY  DR AND W PIMA  RD TO W CHANDLER HEIGHTS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 00:49 MST",
+            "etr": "2026-11-05 02:47 MST"
+        },
+        {
+            "latitude": 33.55388850323435,
+            "longitude": -112.13700389518951,
+            "boundary": "N 39TH  AVE TO N 35TH  AVE AND W BUTLER  DR TO W ORANGEWOOD  AVE",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 00:57 MST",
+            "etr": "2026-11-05 06:00 MST"
+        }
+    ]
+}
