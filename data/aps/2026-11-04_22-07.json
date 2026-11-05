@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-04 22:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 33
+    },
+    "outages": [
+        {
+            "latitude": 34.79110374766999,
+            "longitude": -111.89846691836178,
+            "city": "Cornville",
+            "boundary": "Hidden Valley Rd. and Echo Canyon Rd.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-02 00:41:00 MST",
+            "etr": "2026-11-06 05:00:00 MST"
+        },
+        {
+            "latitude": 34.597968750788354,
+            "longitude": -112.3184804978959,
+            "city": "Prescott Valley",
+            "boundary": "Loos Dr and Navajo Dr",
+            "customers": 21,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-04 12:58:00 MST",
+            "etr": "2026-11-04 17:00:00 MST"
+        }
+    ]
+}
