@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-05 14:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 20,
+        "total_customers": 58066
+    },
+    "outages": [
+        {
+            "latitude": 32.29533746479869,
+            "longitude": -111.22593099816523,
+            "customers": 6,
+            "cause": "10 CONSTRUCTION",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-11-05 08:00:00 MST",
+            "etr": "2026-11-05 12:00:00 MST",
+            "incident_id": "390192"
+        },
+        {
+            "latitude": 32.295329871291536,
+            "longitude": -111.22273299575329,
+            "customers": 13,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-11-05 11:38:28 MST",
+            "etr": "2026-11-05 14:38:28 MST",
+            "incident_id": "390286"
+        },
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        }
+    ]
+}

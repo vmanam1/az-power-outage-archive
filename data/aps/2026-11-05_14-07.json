@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-05 14:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 50
+    },
+    "outages": [
+        {
+            "latitude": 34.79110374766999,
+            "longitude": -111.89846691836178,
+            "city": "Cornville",
+            "boundary": "Hidden Valley Rd. and Echo Canyon Rd.",
+            "customers": 12,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-02 00:41:00 MST",
+            "etr": "2026-11-06 05:00:00 MST"
+        },
+        {
+            "latitude": 33.182397100298395,
+            "longitude": -111.04510030014382,
+            "city": "Kearny",
+            "boundary": "Silver Creek to Along 177 Highway",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-05 03:17:00 MST",
+            "etr": "2026-11-05 08:00:00 MST"
+        },
+        {
+            "latitude": 34.85853184422828,
+            "longitude": -111.82775315975665,
+            "city": "Sedona",
+            "boundary": "Moki Dr. to Navoti Dr. and Hillside Vista Dr. to Rimstone Cir.",
+            "customers": 26,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-05 06:05:00 MST",
+            "etr": "2026-11-05 08:00:00 MST"
+        }
+    ]
+}
