@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-06 01:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1019
+    },
+    "outages": [
+        {
+            "latitude": 33.4724814284443,
+            "longitude": -111.986523553612,
+            "boundary": "N 40TH  ST TO N 48TH  ST AND E THOMAS  RD TO E MCDOWELL  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 21:44 MST",
+            "etr": "2026-11-06 07:00 MST"
+        },
+        {
+            "latitude": 33.4151038857675,
+            "longitude": -111.671216675679,
+            "boundary": "S 72ND  ST TO S SOSSAMAN  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-05 23:10 MST",
+            "etr": "2026-11-06 06:00 MST"
+        },
+        {
+            "latitude": 33.2911010072406,
+            "longitude": -111.8125745905005,
+            "boundary": "S MCQUEEN  RD TO S 132ND  ST AND E CHANDLER  BLVD TO E GERMANN  RD",
+            "customers": 1014,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-05 23:30 MST",
+            "etr": "2026-11-06 01:38 MST"
+        },
+        {
+            "latitude": 33.287119145831554,
+            "longitude": -111.790983957915,
+            "boundary": "S 132ND  ST TO S 140TH  ST AND E PECOS  RD TO SANTAN  FWY",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-06 00:18 MST",
+            "etr": "2026-11-06 04:08 MST"
+        }
+    ]
+}
