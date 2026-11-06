@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-06 12:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 32.66348281582504,
+            "longitude": -114.43267614703932,
+            "city": "Yuma",
+            "boundary": "35th Pl. to 36th St. and Scottsdale Dr. to 34th Pl.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-06 03:53:00 MST",
+            "etr": "2026-11-06 07:15:00 MST"
+        }
+    ]
+}
