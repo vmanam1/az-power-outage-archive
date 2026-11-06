@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-06 07:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.4630447934343,
+            "longitude": -112.277042508855,
+            "boundary": "N 103RD  AVE TO N 99TH  AVE AND W ENCANTO  BLVD TO W ROOSEVELT  ST",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-06 04:33 MST",
+            "etr": "2026-11-06 10:00 MST"
+        }
+    ]
+}
