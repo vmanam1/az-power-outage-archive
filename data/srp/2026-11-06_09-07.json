@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-06 09:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 2312
+    },
+    "outages": [
+        {
+            "latitude": 33.37115327094685,
+            "longitude": -112.104530387654,
+            "boundary": "S 23RD  AVE TO S 19TH  AVE AND W BASELINE  RD TO W DOBBINS  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-06 07:36 MST",
+            "etr": "2026-11-06 09:34 MST"
+        },
+        {
+            "latitude": 33.6331775607418,
+            "longitude": -110.938207642236,
+            "boundary": "N HWY 288   TO UNKNOWN AND NORTHERN BOUNDS OF SERVICE TERRITORY TO UNKNOWN",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-06 07:54 MST",
+            "etr": "2026-11-06 10:30 MST"
+        },
+        {
+            "latitude": 33.297310953264756,
+            "longitude": -111.87503024184551,
+            "boundary": "S ELLIS  ST TO S ALMA SCHOOL  RD AND W GALVESTON  ST TO W WILLIS  RD",
+            "customers": 836,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-06 07:23 MST",
+            "etr": "2026-11-06 09:31 MST"
+        },
+        {
+            "latitude": 33.3887180526681,
+            "longitude": -111.885339979959,
+            "boundary": "S PIMA  LOOP TO S DOBSON  RD AND E SOUTHERN  AVE TO E SUPERSTITION  FWY",
+            "customers": 34,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-06 08:17 MST",
+            "etr": "2026-11-06 10:06 MST"
+        },
+        {
+            "latitude": 33.5285185541441,
+            "longitude": -112.119105243897,
+            "boundary": "N 31ST  AVE TO N BLACK CANYON  HWY AND W MARYLAND  AVE TO W BETHANY HOME  RD",
+            "customers": 50,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-06 08:19 MST",
+            "etr": "2026-11-06 13:16 MST"
+        },
+        {
+            "latitude": 33.314090708238155,
+            "longitude": -111.87480732432451,
+            "boundary": "N BULLMOOSE  DR TO N ALMA SCHOOL  RD AND W WARNER  RD TO W FRYE  RD",
+            "customers": 1336,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-06 08:32 MST",
+            "etr": "2026-11-06 10:19 MST"
+        },
+        {
+            "latitude": 33.53924190730435,
+            "longitude": -112.2358030233805,
+            "boundary": "N 87TH  AVE TO N 79TH  AVE AND W EMIL ROVEY  PKWY TO W MARYLAND  AVE",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-06 08:38 MST",
+            "etr": "2026-11-06 10:37 MST"
+        },
+        {
+            "latitude": 33.483381162575654,
+            "longitude": -112.244424961607,
+            "boundary": "N 91ST  AVE TO N 83RD  AVE AND W INDIAN SCHOOL  RD TO W ENCANTO  BLVD",
+            "customers": 44,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-06 07:48 MST",
+            "etr": "2026-11-06 09:53 MST"
+        },
+        {
+            "latitude": 33.408171152975854,
+            "longitude": -111.6118664226785,
+            "boundary": "S CRISMON  RD TO S 104TH  ST AND E APACHE  TRL TO E PUEBLO  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-06 08:56 MST",
+            "etr": "2026-11-06 10:30 MST"
+        }
+    ]
+}
