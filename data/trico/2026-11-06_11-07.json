@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-06 11:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 7,
+        "total_customers": 58065
+    },
+    "outages": [
+        {
+            "latitude": 32.18130252268235,
+            "longitude": -111.12993702689083,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Bopp Rd",
+            "start_time": "2026-11-06 07:44:00 MST",
+            "etr": null,
+            "incident_id": "390291"
+        },
+        {
+            "latitude": 32.298063492761685,
+            "longitude": -111.22250841693223,
+            "customers": 2,
+            "cause": "10 CONSTRUCTION",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-11-06 08:00:00 MST",
+            "etr": "2026-11-06 12:00:00 MST",
+            "incident_id": "390193"
+        },
+        {
+            "latitude": 31.57866463758967,
+            "longitude": -111.2911576709542,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Arivaca",
+            "start_time": "2026-11-06 08:35:08 MST",
+            "etr": null,
+            "incident_id": "390292"
+        },
+        {
+            "latitude": 32.3275737598955,
+            "longitude": -111.22181671416337,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-11-06 08:36:24 MST",
+            "etr": null,
+            "incident_id": "390293"
+        },
+        {
+            "latitude": 31.950174259468376,
+            "longitude": -110.78069001068224,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-11-06 10:28:09 MST",
+            "etr": null,
+            "incident_id": "390294"
+        },
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        }
+    ]
+}
