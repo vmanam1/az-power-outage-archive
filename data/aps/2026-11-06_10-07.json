@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-06 10:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 54
+    },
+    "outages": [
+        {
+            "latitude": 33.78452716435096,
+            "longitude": -111.94233290234357,
+            "city": "Cave Creek",
+            "boundary": "Dove Valley to Ron Rico Rd. and 64th St. to 66th St.",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-06 01:32:00 MST",
+            "etr": "2026-11-06 05:30:00 MST"
+        },
+        {
+            "latitude": 34.33300236688258,
+            "longitude": -111.30103386035842,
+            "city": "Payson",
+            "boundary": "Beaver Flat Rd. to Palomino Dr. and Palomino Pl.",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-06 02:03:00 MST",
+            "etr": "2026-11-06 04:00:00 MST"
+        },
+        {
+            "latitude": 33.67248579128307,
+            "longitude": -112.12538733113037,
+            "city": "Phoenix",
+            "boundary": "Irma Ln. to Tonopah Dr. and 30th Dr. to 30th Ave.",
+            "customers": 39,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-06 02:31:00 MST",
+            "etr": "2026-11-06 05:30:00 MST"
+        }
+    ]
+}
