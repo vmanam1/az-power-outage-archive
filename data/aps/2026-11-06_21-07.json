@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-06 21:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 34.794096015994846,
+            "longitude": -111.89951074006065,
+            "city": "Cornville",
+            "boundary": "AZ 89A and North Page Springs Rd",
+            "customers": 12,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-11-06 11:36:00 MST",
+            "etr": "2026-11-10 11:00:00 MST"
+        }
+    ]
+}
