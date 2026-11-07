@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-06 17:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 103
+    },
+    "outages": [
+        {
+            "latitude": 32.89567184508868,
+            "longitude": -111.84277268228666,
+            "city": "Casa Grande",
+            "boundary": "Clayton Rd. to Guardia Dr. and Bradbury Dr. to Candlestick Dr.",
+            "customers": 6,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-06 08:52:00 MST",
+            "etr": "2026-11-06 12:15:00 MST"
+        },
+        {
+            "latitude": 34.55057628419784,
+            "longitude": -112.3522728111125,
+            "city": "Buckeye",
+            "boundary": "Old Black Canyon Highway to Vista Del Oro Dr. and Fitzmaurice Dr. to Destiny Dr.",
+            "customers": 97,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-06 09:38:00 MST",
+            "etr": "2026-11-06 13:00:00 MST"
+        }
+    ]
+}
