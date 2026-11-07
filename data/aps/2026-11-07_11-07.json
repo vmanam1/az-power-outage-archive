@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-07 11:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 203
+    },
+    "outages": [
+        {
+            "latitude": 34.794096015994846,
+            "longitude": -111.89951074006065,
+            "city": "Cornville",
+            "boundary": "AZ 89A and North Page Springs Rd",
+            "customers": 12,
+            "cause": "Power pole(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power pole(s).",
+            "start_time": "2026-11-06 11:36:00 MST",
+            "etr": "2026-11-10 11:00:00 MST"
+        },
+        {
+            "latitude": 33.559477467147836,
+            "longitude": -111.9496478154302,
+            "city": "Paradise Valley",
+            "boundary": "Orchid Ln to Mockingbird Ln and Morning Glory Rd to 62nd St",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-07 00:10:00 MST",
+            "etr": "2026-11-07 08:00:00 MST"
+        },
+        {
+            "latitude": 33.58501459018998,
+            "longitude": -111.93212548231404,
+            "city": "Scottsdale",
+            "boundary": "Mescal St to Sahuaro Dr and 68th Pl to 69th St",
+            "customers": 185,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-07 03:00:00 MST",
+            "etr": "2026-11-07 06:40:00 MST"
+        }
+    ]
+}
