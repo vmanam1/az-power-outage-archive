@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-07 09:07:01 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 96
+    },
+    "outages": [
+        {
+            "latitude": 33.4303778418598,
+            "longitude": -111.9657437876435,
+            "boundary": "S HOHOKAM  EXPY TO S PRIEST  DR AND E SKY HARBOR  BLVD TO W UNIVERSITY  DR",
+            "customers": 16,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-07 06:21 MST",
+            "etr": "2026-11-07 13:00 MST"
+        },
+        {
+            "latitude": 33.401345797741044,
+            "longitude": -111.96001655337349,
+            "boundary": "S MARICOPA  FWY TO S HARDY  DR AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-07 06:30 MST",
+            "etr": "2026-11-07 12:00 MST"
+        },
+        {
+            "latitude": 33.508534679593595,
+            "longitude": -112.1360954510745,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W MISSOURI  AVE TO W CAMPBELL  AVE",
+            "customers": 62,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-11-07 04:57 MST",
+            "etr": "2026-11-07 14:30 MST"
+        },
+        {
+            "latitude": 33.47801347829575,
+            "longitude": -111.75099098003051,
+            "boundary": "N VAL VISTA  DR TO N 40TH  ST AND E THOMAS  RD TO E QUENTON  DR",
+            "customers": 16,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-07 07:11 MST",
+            "etr": "2026-11-07 13:00 MST"
+        }
+    ]
+}
