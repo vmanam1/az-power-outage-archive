@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-08 06:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 33.4046010021367,
+            "longitude": -111.8811060993855,
+            "boundary": "S PIMA  LOOP TO S DOBSON  RD AND W BROADWAY  RD TO W 8TH  AVE",
+            "customers": 41,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-08 04:27 MST",
+            "etr": "2026-11-08 06:32 MST"
+        }
+    ]
+}
