@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-08 16:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 34.873204825032325,
+            "longitude": -111.79753023225291,
+            "city": "Sedona",
+            "boundary": "Kinsey Ct to Maxwell House Dr and Farmer Brothers Dr to Little Elf Rd",
+            "customers": 11,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-08 07:45:00 MST",
+            "etr": "2026-11-08 11:05:00 MST"
+        },
+        {
+            "latitude": 34.363146800761356,
+            "longitude": -110.00056997691469,
+            "city": "Show Low",
+            "boundary": "White Mountain Lake Rd and Silver Creek Dr",
+            "customers": 5,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-08 06:26:00 MST",
+            "etr": "2026-11-08 13:00:00 MST"
+        }
+    ]
+}
