@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-08 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 33.74971917093087,
+            "longitude": -111.85995321631869,
+            "city": "Scottsdale",
+            "boundary": "White Feather Ln",
+            "customers": 10,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-07 21:43:00 MST",
+            "etr": "2026-11-08 04:00:00 MST"
+        },
+        {
+            "latitude": 33.74901219370284,
+            "longitude": -111.98740900504798,
+            "city": "Cave Creek",
+            "boundary": "Via Donna Rd. and Peak View Rd.",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-08 01:33:00 MST",
+            "etr": "2026-11-08 05:30:00 MST"
+        },
+        {
+            "latitude": 33.59455209734619,
+            "longitude": -111.85149680501738,
+            "city": "Scottsdale",
+            "boundary": "Laurel Ln to Sunnyside Dr and 106th St to 105th St",
+            "customers": 20,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-08 01:49:00 MST",
+            "etr": "2026-11-08 04:30:00 MST"
+        }
+    ]
+}
