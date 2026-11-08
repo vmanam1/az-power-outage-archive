@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-08 08:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 97,
+        "total_customers": 58066
+    },
+    "outages": [
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        },
+        {
+            "latitude": 32.11860906709936,
+            "longitude": -111.12323559487038,
+            "customers": 95,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Valencia",
+            "start_time": "2026-11-08 05:57:22 MST",
+            "etr": "2026-11-08 08:57:22 MST",
+            "incident_id": "390312"
+        },
+        {
+            "latitude": 32.12022200711897,
+            "longitude": -111.23696230985573,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Three Points",
+            "start_time": "2026-11-08 07:18:42 MST",
+            "etr": null,
+            "incident_id": "390313"
+        }
+    ]
+}
