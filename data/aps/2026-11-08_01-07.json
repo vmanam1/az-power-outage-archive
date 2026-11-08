@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-08 01:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 33.81757370127282,
+            "longitude": -111.92526664479549,
+            "city": "Carefree",
+            "boundary": "Bloody Basin Rd to Stagecoach Ps and Tom Darlington Dr to Sidewinder Rd",
+            "customers": 22,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-07 14:52:00 MST",
+            "etr": "2026-11-07 19:15:00 MST"
+        }
+    ]
+}
