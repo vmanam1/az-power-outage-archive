@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-08 00:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 319
+    },
+    "outages": [
+        {
+            "latitude": 33.4065770842512,
+            "longitude": -112.08290336393,
+            "boundary": "S 15TH  AVE TO S CENTRAL  AVE AND W ELWOOD  ST TO W ROESER  RD",
+            "customers": 123,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-11-07 13:24 MST",
+            "etr": "2026-11-08 03:30 MST"
+        },
+        {
+            "latitude": 33.47503589260265,
+            "longitude": -112.1385949776995,
+            "boundary": "N 43RD  AVE TO N 31ST  AVE AND W THOMAS  RD TO W MCDOWELL  RD",
+            "customers": 195,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-07 22:12 MST",
+            "etr": "2026-11-08 06:00 MST"
+        },
+        {
+            "latitude": 33.473602494876104,
+            "longitude": -112.134787816856,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W THOMAS  RD TO W MCDOWELL  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-07 23:34 MST",
+            "etr": "2026-11-08 06:00 MST"
+        }
+    ]
+}
