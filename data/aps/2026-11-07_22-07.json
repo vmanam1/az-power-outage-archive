@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-07 22:07:01 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.70328878198384,
+            "longitude": -112.24837447563165,
+            "city": "Peoria",
+            "boundary": "West Calle Lejos to West Camino De Oro and North 89th Ave to North 87th Ave",
+            "customers": 12,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-07 14:40:00 MST",
+            "etr": "2026-11-07 17:15:00 MST"
+        }
+    ]
+}
