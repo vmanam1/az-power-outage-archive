@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-08 05:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 53
+    },
+    "outages": [
+        {
+            "latitude": 33.5873823833532,
+            "longitude": -111.7068437237555,
+            "boundary": "N 144TH  ST TO N BEELINE  HWY AND E JOMAX  RD TO E SHEA  BLVD",
+            "customers": 12,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-08 03:27 MST",
+            "etr": "2026-11-08 05:30 MST"
+        },
+        {
+            "latitude": 33.4046010021367,
+            "longitude": -111.8811060993855,
+            "boundary": "S PIMA  LOOP TO S DOBSON  RD AND W BROADWAY  RD TO W 8TH  AVE",
+            "customers": 41,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-08 04:27 MST",
+            "etr": "2026-11-08 06:32 MST"
+        }
+    ]
+}
