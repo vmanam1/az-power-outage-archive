@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-08 15:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 47
+    },
+    "outages": [
+        {
+            "latitude": 33.3978707687642,
+            "longitude": -111.5135185472935,
+            "boundary": "S CORTEZ  RD TO S ARROYA  RD AND E BROADWAY  AVE TO E SUPERSTITION  FWY",
+            "customers": 31,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-08 14:15 MST",
+            "etr": "2026-11-08 20:00 MST"
+        },
+        {
+            "latitude": 33.462783351020306,
+            "longitude": -112.010495398818,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E MCDOWELL  RD TO E ROOSEVELT  ST",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-08 12:05 MST",
+            "etr": "2026-11-08 17:00 MST"
+        },
+        {
+            "latitude": 33.462783351020306,
+            "longitude": -112.010495398818,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E MCDOWELL  RD TO E ROOSEVELT  ST",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-08 12:05 MST",
+            "etr": "2026-11-08 17:00 MST"
+        }
+    ]
+}

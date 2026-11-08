@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-08 15:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 35
+    },
+    "outages": [
+        {
+            "latitude": 33.66657360572527,
+            "longitude": -111.91173567201375,
+            "city": "Scottsdale",
+            "boundary": "77th Way and Condos in Grayhawk",
+            "customers": 24,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-08 06:14:00 MST",
+            "etr": "2026-11-08 08:50:00 MST"
+        },
+        {
+            "latitude": 34.873204825032325,
+            "longitude": -111.79753023225291,
+            "city": "Sedona",
+            "boundary": "Kinsey Ct to Maxwell House Dr and Farmer Brothers Dr to Little Elf Rd",
+            "customers": 11,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-08 07:45:00 MST",
+            "etr": "2026-11-08 11:05:00 MST"
+        }
+    ]
+}
