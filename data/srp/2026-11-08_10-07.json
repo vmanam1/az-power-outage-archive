@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-08 10:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 33.582485333393,
+            "longitude": -112.153373262928,
+            "boundary": "N 47TH  AVE TO N 39TH  AVE AND W CHOLLA  ST TO W MOUNTAIN VIEW  RD",
+            "customers": 6,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-08 07:12 MST",
+            "etr": "2026-11-08 13:00 MST"
+        },
+        {
+            "latitude": 33.307341249927745,
+            "longitude": -111.8619972893195,
+            "boundary": "N ARROWHEAD  DR TO N ALMA SCHOOL  RD AND W GALVESTON  ST TO W FRYE  RD",
+            "customers": 27,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-08 07:41 MST",
+            "etr": "2026-11-08 13:00 MST"
+        },
+        {
+            "latitude": 33.435708289145,
+            "longitude": -112.168924569294,
+            "boundary": "S 55TH  AVE TO S 47TH  AVE AND W VAN BUREN  ST TO W LOWER BUCKEYE  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-08 08:32 MST",
+            "etr": "2026-11-08 14:00 MST"
+        },
+        {
+            "latitude": 33.41336166899665,
+            "longitude": -111.617600014598,
+            "boundary": "S 96TH  ST TO S 104TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 4,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-08 09:17 MST",
+            "etr": "2026-11-08 13:46 MST"
+        }
+    ]
+}
