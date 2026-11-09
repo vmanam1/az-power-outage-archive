@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-09 13:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 34.03648523473593,
+            "longitude": -112.82123581685379,
+            "city": "Wickenburg",
+            "boundary": "US 93 and Quail Run",
+            "customers": 14,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-09 04:02:00 MST",
+            "etr": "2026-11-09 06:40:00 MST"
+        },
+        {
+            "latitude": 33.49947218680872,
+            "longitude": -111.92163986122755,
+            "city": "Scottsdale",
+            "boundary": "Stetson Dr. to 6th Ave. and Wells Fargo Ave. to Civc Center Pl.",
+            "customers": 10,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-09 05:08:00 MST",
+            "etr": "2026-11-09 07:40:00 MST"
+        }
+    ]
+}
