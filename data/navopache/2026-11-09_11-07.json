@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-09 11:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 4,
+        "total_customers": 45988
+    },
+    "outages": [
+        {
+            "latitude": 34.514049887722706,
+            "longitude": -109.38609146450392,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-11-09 07:49:21 MST",
+            "etr": null,
+            "incident_id": "536059"
+        },
+        {
+            "latitude": 34.264697108420506,
+            "longitude": -110.08283378211684,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "6 - Linden",
+            "start_time": "2026-11-09 08:41:55 MST",
+            "etr": null,
+            "incident_id": "536063"
+        },
+        {
+            "latitude": 34.10646761145504,
+            "longitude": -109.90706941360155,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-11-09 10:25:26 MST",
+            "etr": null,
+            "incident_id": "536064"
+        },
+        {
+            "latitude": 34.42035454133832,
+            "longitude": -110.55917444474036,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-11-09 10:55:06 MST",
+            "etr": null,
+            "incident_id": "536065"
+        }
+    ]
+}
