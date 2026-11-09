@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-09 16:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 34.03648523473593,
+            "longitude": -112.82123581685379,
+            "city": "Wickenburg",
+            "boundary": "US 93 and Quail Run",
+            "customers": 14,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-09 04:02:00 MST",
+            "etr": "2026-11-09 09:20:00 MST"
+        }
+    ]
+}
