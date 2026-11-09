@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-09 14:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 33.400748528621094,
+            "longitude": -112.0755144622265,
+            "boundary": "S 7TH  AVE TO S 7TH  ST AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 18,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-11-09 13:52 MST",
+            "etr": "2026-11-09 15:52 MST"
+        }
+    ]
+}
