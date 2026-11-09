@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-08 17:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 34.873204825032325,
+            "longitude": -111.79753023225291,
+            "city": "Sedona",
+            "boundary": "Kinsey Ct to Maxwell House Dr and Farmer Brothers Dr to Little Elf Rd",
+            "customers": 11,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-08 07:45:00 MST",
+            "etr": "2026-11-08 13:00:00 MST"
+        },
+        {
+            "latitude": 34.363146800761356,
+            "longitude": -110.00056997691469,
+            "city": "Show Low",
+            "boundary": "White Mountain Lake Rd and Silver Creek Dr",
+            "customers": 5,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-08 06:26:00 MST",
+            "etr": "2026-11-08 13:00:00 MST"
+        },
+        {
+            "latitude": 33.725396154825916,
+            "longitude": -111.98335495937471,
+            "city": "Phoenix",
+            "boundary": "Rowel Rd and 45th St to 45th Pl",
+            "customers": 13,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-08 09:50:00 MST",
+            "etr": "2026-11-08 11:30:00 MST"
+        }
+    ]
+}
