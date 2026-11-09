@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-08 19:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 109
+    },
+    "outages": [
+        {
+            "latitude": 34.873204825032325,
+            "longitude": -111.79753023225291,
+            "city": "Sedona",
+            "boundary": "Kinsey Ct to Maxwell House Dr and Farmer Brothers Dr to Little Elf Rd",
+            "customers": 11,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-08 07:45:00 MST",
+            "etr": "2026-11-08 13:00:00 MST"
+        },
+        {
+            "latitude": 33.64848866064008,
+            "longitude": -112.20893804568826,
+            "city": "Glendale",
+            "boundary": "Union Hills Dr. to Grovers Ave. and 70th Ave. to 68th Dr.",
+            "customers": 42,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-08 10:06:00 MST",
+            "etr": "2026-11-08 13:00:00 MST"
+        },
+        {
+            "latitude": 34.866462706956106,
+            "longitude": -111.81708347297011,
+            "city": "Sedona",
+            "boundary": "Thunder Mountain Rd to Kachina Dr and Dry Creek Rd to Hozoni Dr",
+            "customers": 56,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-08 10:27:00 MST",
+            "etr": "2026-11-08 13:50:00 MST"
+        }
+    ]
+}
