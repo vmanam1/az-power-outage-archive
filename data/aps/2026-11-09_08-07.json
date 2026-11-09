@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-09 08:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 33.60810046013517,
+            "longitude": -111.92905837432095,
+            "city": "Scottsdale",
+            "boundary": "70th St to Joan De Arc and 69th St to N Scottsdale Rd",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-09 01:01:00 MST",
+            "etr": "2026-11-09 02:30:00 MST"
+        }
+    ]
+}
