@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-10 00:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 146
+    },
+    "outages": [
+        {
+            "latitude": 33.63424276402162,
+            "longitude": -112.17078570534127,
+            "city": "Glendale",
+            "boundary": "Aire Libre Ave. to Paradise Ln. and 54th Ave. to 50th Dr.",
+            "customers": 146,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-09 15:00:00 MST",
+            "etr": "2026-11-09 19:00:00 MST"
+        }
+    ]
+}
