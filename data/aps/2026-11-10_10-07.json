@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-10 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 35.29649521416777,
+            "longitude": -111.71008080420908,
+            "city": "Flagstaff",
+            "boundary": "North Snow Bowl Rd",
+            "customers": 5,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-10 00:24:00 MST",
+            "etr": "2026-11-10 03:45:00 MST"
+        },
+        {
+            "latitude": 32.75444770911825,
+            "longitude": -111.65987314461442,
+            "city": "Arizona City",
+            "boundary": "W Cornado Dr to W Santa Cruz Blvd and S Cleator Rd to South Tacna Rd",
+            "customers": 7,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-10 02:02:00 MST",
+            "etr": "2026-11-10 06:30:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-10 10:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.3911943687314,
+            "longitude": -111.429402176767,
+            "boundary": "S WHITETAIL  RD TO S BLACKHAWK  RD AND E SOUTHERN  AVE TO E OBSIDIAN  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 08:28 MST",
+            "etr": "2026-11-10 14:00 MST"
+        },
+        {
+            "latitude": 33.26104957710385,
+            "longitude": -111.875577068284,
+            "boundary": "S DOBSON  RD TO S EARL  BLVD AND W EARL  BLVD TO W OCOTILLO  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 08:31 MST",
+            "etr": "2026-11-10 13:30 MST"
+        },
+        {
+            "latitude": 33.26104957710385,
+            "longitude": -111.875577068284,
+            "boundary": "S DOBSON  RD TO S EARL  BLVD AND W EARL  BLVD TO W OCOTILLO  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 08:31 MST",
+            "etr": "2026-11-10 13:30 MST"
+        },
+        {
+            "latitude": 33.38797968485105,
+            "longitude": -111.62023981675,
+            "boundary": "S 96TH  ST TO S CRISMON  RD AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 09:27 MST",
+            "etr": "2026-11-10 11:24 MST"
+        },
+        {
+            "latitude": 33.4618210947013,
+            "longitude": -112.229598249342,
+            "boundary": "N 83RD  AVE TO N 75TH  AVE AND W MCDOWELL  RD TO W ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 09:40 MST",
+            "etr": "2026-11-10 11:38 MST"
+        },
+        {
+            "latitude": 33.44364384849375,
+            "longitude": -112.3115065129605,
+            "boundary": "N 119TH  AVE TO S AVONDALE  BLVD AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 09:41 MST",
+            "etr": "2026-11-10 12:00 MST"
+        }
+    ]
+}
