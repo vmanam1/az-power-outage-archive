@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-10 08:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 35.29649521416777,
+            "longitude": -111.71008080420908,
+            "city": "Flagstaff",
+            "boundary": "North Snow Bowl Rd",
+            "customers": 6,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-10 00:24:00 MST",
+            "etr": "2026-11-10 03:30:00 MST"
+        }
+    ]
+}
