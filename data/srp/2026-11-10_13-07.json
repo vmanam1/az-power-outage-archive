@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-10 13:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 62
+    },
+    "outages": [
+        {
+            "latitude": 33.26104957710385,
+            "longitude": -111.875577068284,
+            "boundary": "S DOBSON  RD TO S EARL  BLVD AND W EARL  BLVD TO W OCOTILLO  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 08:31 MST",
+            "etr": "2026-11-10 13:30 MST"
+        },
+        {
+            "latitude": 33.26104957710385,
+            "longitude": -111.875577068284,
+            "boundary": "S DOBSON  RD TO S EARL  BLVD AND W EARL  BLVD TO W OCOTILLO  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 08:31 MST",
+            "etr": "2026-11-10 13:30 MST"
+        },
+        {
+            "latitude": 33.39165647891525,
+            "longitude": -111.92833710772601,
+            "boundary": "S COLLEGE  AVE TO S DORSEY  LN AND E ALAMEDA  DR TO E SUPERSTITION  FWY",
+            "customers": 58,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-11-10 10:36 MST",
+            "etr": "2026-11-10 15:00 MST"
+        }
+    ]
+}
