@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-10 11:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 1119
+    },
+    "outages": [
+        {
+            "latitude": 33.26104957710385,
+            "longitude": -111.875577068284,
+            "boundary": "S DOBSON  RD TO S EARL  BLVD AND W EARL  BLVD TO W OCOTILLO  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 08:31 MST",
+            "etr": "2026-11-10 13:30 MST"
+        },
+        {
+            "latitude": 33.26104957710385,
+            "longitude": -111.875577068284,
+            "boundary": "S DOBSON  RD TO S EARL  BLVD AND W EARL  BLVD TO W OCOTILLO  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 08:31 MST",
+            "etr": "2026-11-10 13:30 MST"
+        },
+        {
+            "latitude": 33.44364384849375,
+            "longitude": -112.3115065129605,
+            "boundary": "N 119TH  AVE TO S AVONDALE  BLVD AND W VAN BUREN  ST TO W BUCKEYE  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 09:41 MST",
+            "etr": "2026-11-10 12:00 MST"
+        },
+        {
+            "latitude": 33.3918323827314,
+            "longitude": -111.9342614572775,
+            "boundary": "S HARDY  DR TO S DORSEY  LN AND E ALAMEDA  DR TO E SUPERSTITION  FWY",
+            "customers": 587,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-10 10:36 MST",
+            "etr": "2026-11-10 12:35 MST"
+        },
+        {
+            "latitude": 33.46095339523265,
+            "longitude": -111.533731287335,
+            "boundary": "N SAN MARCOS  DR TO N GOLDFIELD  RD AND UNKNOWN TO E LOST DUTCHMAN  BLVD",
+            "customers": 520,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-10 10:36 MST",
+            "etr": "2026-11-10 14:00 MST"
+        }
+    ]
+}
