@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-10 09:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 301
+    },
+    "outages": [
+        {
+            "latitude": 35.29649521416777,
+            "longitude": -111.71008080420908,
+            "city": "Flagstaff",
+            "boundary": "North Snow Bowl Rd",
+            "customers": 6,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-10 00:24:00 MST",
+            "etr": "2026-11-10 03:30:00 MST"
+        },
+        {
+            "latitude": 33.54606704313096,
+            "longitude": -112.04010223386351,
+            "city": "Phoenix",
+            "boundary": "Piesta Freeway and Morten Ave",
+            "customers": 16,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-10 01:04:00 MST",
+            "etr": "2026-11-10 03:00:00 MST"
+        },
+        {
+            "latitude": 34.696896046031235,
+            "longitude": -112.55255567389891,
+            "city": "Prescott",
+            "boundary": "Grand Vista Dr. to Cougar Canyon Rd. and River Bend Trl. to Williamson Valley Rd.",
+            "customers": 261,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-10 01:01:00 MST",
+            "etr": "2026-11-10 03:00:00 MST"
+        },
+        {
+            "latitude": 33.811173916869016,
+            "longitude": -111.94944411794793,
+            "city": "Cave Creek",
+            "boundary": "Restin Rd to 56th St and Stagecoach to 61st St",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-10 01:45:00 MST",
+            "etr": "2026-11-10 03:00:00 MST"
+        },
+        {
+            "latitude": 32.911408891945364,
+            "longitude": -111.76506237892151,
+            "city": "Casa Grande",
+            "boundary": "Rambler Ct. and Saint Andrews Dr.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-10 02:00:00 MST",
+            "etr": "2026-11-10 04:30:00 MST"
+        }
+    ]
+}
