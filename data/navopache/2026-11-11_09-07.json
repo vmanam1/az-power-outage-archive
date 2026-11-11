@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-11 09:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2,
+        "total_customers": 45997
+    },
+    "outages": [
+        {
+            "latitude": 34.1062221563071,
+            "longitude": -109.87701178419073,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-11-11 08:58:58 MST",
+            "etr": null,
+            "incident_id": "536088"
+        },
+        {
+            "latitude": 34.114477984039226,
+            "longitude": -109.86829812593356,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-11-11 08:39:24 MST",
+            "etr": null,
+            "incident_id": "536087"
+        }
+    ]
+}
