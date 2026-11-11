@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-11 13:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 34.93922964685539,
+            "longitude": -111.64466571878148,
+            "city": "Munds Park",
+            "boundary": "Hopi Dr and Meadow View Dr",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-11-11 01:52:00 MST",
+            "etr": "2026-11-11 07:00:00 MST"
+        },
+        {
+            "latitude": 33.830427471039606,
+            "longitude": -111.95205393225746,
+            "city": "Camp Creek",
+            "boundary": "Cave creek Rd and Ranch Manana Blvd",
+            "customers": 29,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-11 04:54:00 MST",
+            "etr": "2026-11-11 07:50:00 MST"
+        }
+    ]
+}

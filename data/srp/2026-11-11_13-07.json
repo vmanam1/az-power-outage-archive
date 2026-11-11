@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-11 13:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 33.356704506899504,
+            "longitude": -111.986255182403,
+            "boundary": "S WARNER-ELLIOT  LOOP TO S 48TH  ST AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 18,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-11 11:38 MST",
+            "etr": "2026-11-11 13:38 MST"
+        }
+    ]
+}
