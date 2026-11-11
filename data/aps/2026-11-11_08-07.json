@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-11 08:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.82908359784292,
+            "longitude": -111.89611525920365,
+            "city": "Carefree",
+            "boundary": "Cow Track Dr to Serene St and Paint Pony Dr",
+            "customers": 25,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-10 23:17:00 MST",
+            "etr": "2026-11-11 02:10:00 MST"
+        }
+    ]
+}
