@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-10 19:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 180,
+        "total_customers": 58073
+    },
+    "outages": [
+        {
+            "latitude": 32.42003561719995,
+            "longitude": -111.05431684626312,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-11-10 17:08:49 MST",
+            "etr": null,
+            "incident_id": "390340"
+        },
+        {
+            "latitude": 32.42197685535936,
+            "longitude": -111.0566794154607,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-11-10 17:34:56 MST",
+            "etr": null,
+            "incident_id": "390341"
+        },
+        {
+            "latitude": 32.413764222554775,
+            "longitude": -111.04925933121282,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-11-10 17:47:44 MST",
+            "etr": null,
+            "incident_id": "390343"
+        },
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        },
+        {
+            "latitude": 32.41910289807107,
+            "longitude": -111.05815265252687,
+            "customers": 174,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-11-10 16:59:17 MST",
+            "etr": null,
+            "incident_id": "390344"
+        },
+        {
+            "latitude": 32.434866830170286,
+            "longitude": -111.0691031158418,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Dove Mountain",
+            "start_time": "2026-11-10 17:59:56 MST",
+            "etr": null,
+            "incident_id": "390345"
+        },
+        {
+            "latitude": 32.414173734419194,
+            "longitude": -111.05861079332183,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-11-10 18:15:32 MST",
+            "etr": null,
+            "incident_id": "390346"
+        }
+    ]
+}
