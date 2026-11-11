@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-10 17:07:21 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 2,
+        "total_customers": 58073
+    },
+    "outages": [
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        },
+        {
+            "latitude": 32.41966404732046,
+            "longitude": -111.06081166576821,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Thornydale",
+            "start_time": "2026-11-10 16:59:17 MST",
+            "etr": null,
+            "incident_id": "390339"
+        }
+    ]
+}
