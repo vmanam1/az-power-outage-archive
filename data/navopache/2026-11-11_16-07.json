@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-11 16:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 45997
+    },
+    "outages": [
+        {
+            "latitude": 34.1062221563071,
+            "longitude": -109.87701178419073,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "UPGD Member requested disconnect to upgrade their panel",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-11-11 08:58:58 MST",
+            "etr": null,
+            "incident_id": "536088"
+        },
+        {
+            "latitude": 34.39280585602797,
+            "longitude": -110.5315602329027,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": "NO OUTAGE. Voltage Complaint Took offline to remove recorder",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-11-11 15:58:23 MST",
+            "etr": null,
+            "incident_id": "536092"
+        },
+        {
+            "latitude": 34.114477984039226,
+            "longitude": -109.86829812593356,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-11-11 08:39:24 MST",
+            "etr": null,
+            "incident_id": "536087"
+        }
+    ]
+}
