@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-10 21:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.49533419473865,
+            "longitude": -112.33721620433093,
+            "city": "Litchfield Park",
+            "boundary": "Las Cruces Dr. and 129th Ave.",
+            "customers": 5,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-11-10 12:11:00 MST",
+            "etr": "2026-11-10 15:05:00 MST"
+        }
+    ]
+}
