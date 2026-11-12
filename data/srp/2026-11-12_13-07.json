@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-12 13:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 33.384776885506554,
+            "longitude": -111.778172877974,
+            "boundary": "S 24TH  ST TO S LINDSAY  RD AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-12 09:47 MST",
+            "etr": "2026-11-12 12:30 MST"
+        },
+        {
+            "latitude": 33.51769414286715,
+            "longitude": -112.1366743988075,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 19,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 10:25 MST",
+            "etr": "2026-11-12 15:22 MST"
+        },
+        {
+            "latitude": 33.46110165834625,
+            "longitude": -112.3164529128495,
+            "boundary": "N EL MIRAGE  RD TO N AVONDALE  BLVD AND W MCDOWELL  RD TO W PAPAGO  FWY",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 12:04 MST",
+            "etr": "2026-11-12 14:04 MST"
+        }
+    ]
+}
