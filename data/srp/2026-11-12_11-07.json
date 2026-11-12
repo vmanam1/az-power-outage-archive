@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-12 11:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 96
+    },
+    "outages": [
+        {
+            "latitude": 33.62038473932805,
+            "longitude": -112.2072601537065,
+            "boundary": "N 71ST  AVE TO N 67TH  AVE AND W GREENWAY  RD TO W ACOMA  DR",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 08:17 MST",
+            "etr": "2026-11-12 12:30 MST"
+        },
+        {
+            "latitude": 33.41741519555845,
+            "longitude": -111.5130915538675,
+            "boundary": "N CORTEZ  RD TO N ARROYA  RD AND E SUPERSTITION  BLVD TO E JUNCTION  ST",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 09:10 MST",
+            "etr": "2026-11-12 13:09 MST"
+        },
+        {
+            "latitude": 33.384776885506554,
+            "longitude": -111.778172877974,
+            "boundary": "S 24TH  ST TO S LINDSAY  RD AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-12 09:47 MST",
+            "etr": "2026-11-12 12:30 MST"
+        },
+        {
+            "latitude": 33.51769414286715,
+            "longitude": -112.1366743988075,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 19,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 10:25 MST",
+            "etr": "2026-11-12 15:22 MST"
+        },
+        {
+            "latitude": 33.40615853987205,
+            "longitude": -111.627081635118,
+            "boundary": "S ELLSWORTH  RD TO S CRISMON  RD AND E APACHE  TRL TO E PUEBLO  AVE",
+            "customers": 44,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-12 10:29 MST",
+            "etr": "2026-11-12 12:22 MST"
+        }
+    ]
+}

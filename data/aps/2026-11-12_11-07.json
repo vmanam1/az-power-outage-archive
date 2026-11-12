@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-12 11:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 249
+    },
+    "outages": [
+        {
+            "latitude": 33.75743269220929,
+            "longitude": -111.94510704636633,
+            "city": "Cave Creek",
+            "boundary": "Milton Dr to Dixileta Dr and 61st St to 64th St",
+            "customers": 14,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-12 01:22:00 MST",
+            "etr": "2026-11-12 07:15:00 MST"
+        },
+        {
+            "latitude": 34.375592406278436,
+            "longitude": -111.46040810177449,
+            "city": "Pine",
+            "boundary": "Amber Way and McCracken Ln",
+            "customers": 11,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-12 02:36:00 MST",
+            "etr": "2026-11-12 06:50:00 MST"
+        },
+        {
+            "latitude": 33.56832630591157,
+            "longitude": -111.85454111826014,
+            "city": "Scottsdale",
+            "boundary": "Mountain View Rd. to Bella Vista Dr. and 104th St. to 105th PL.",
+            "customers": 27,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-12 02:58:00 MST",
+            "etr": "2026-11-12 06:00:00 MST"
+        },
+        {
+            "latitude": 33.56943076534481,
+            "longitude": -111.91987607576102,
+            "city": "Scottsdale",
+            "boundary": "Gainey Club Dr and Gainey Ranch Rd",
+            "customers": 27,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-12 03:10:00 MST",
+            "etr": "2026-11-12 06:05:00 MST"
+        },
+        {
+            "latitude": 33.45766718888692,
+            "longitude": -112.13910383206941,
+            "city": "Phoenix",
+            "boundary": "Garfield St to Van Buren St and 38th Ave to 37th Ave",
+            "customers": 14,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-12 02:54:00 MST",
+            "etr": "2026-11-12 06:30:00 MST"
+        },
+        {
+            "latitude": 34.406157651040786,
+            "longitude": -111.2657928026421,
+            "city": "Payson",
+            "boundary": "Forest Service Rd 138 to Forest Service 32A Rd and Shadow Rim Ranch Rd to White Tail Knob",
+            "customers": 134,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-12 03:41:00 MST",
+            "etr": "2026-11-12 07:15:00 MST"
+        },
+        {
+            "latitude": 33.573606559292,
+            "longitude": -111.86364894558469,
+            "city": "Scottsdale",
+            "boundary": "Topaz Dr. to Via Linda and 100th St. to 104th St.",
+            "customers": 22,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-12 03:29:00 MST",
+            "etr": "2026-11-12 06:30:00 MST"
+        }
+    ]
+}
