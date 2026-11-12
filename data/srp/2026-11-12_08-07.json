@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-12 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 11
+    },
+    "outages": [
+        {
+            "latitude": 33.2608414175362,
+            "longitude": -111.544177772968,
+            "boundary": "N SUBURBAN  AVE TO N COYOTE  RD AND E PIMA  RD TO E AIRPORT  DR",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 07:17 MST",
+            "etr": "2026-11-12 11:30 MST"
+        },
+        {
+            "latitude": 33.4110718272755,
+            "longitude": -111.80026519575449,
+            "boundary": "S STAPLEY  DR TO N HARRIS  DR AND E MAIN  ST TO E BROADWAY  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 08:00 MST",
+            "etr": "2026-11-12 09:30 MST"
+        },
+        {
+            "latitude": 33.3901972540527,
+            "longitude": -111.433037533594,
+            "boundary": "S EDGEMORE  RD TO S BLACKHAWK  RD AND NON-DEDICATED   TO E OBSIDIAN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 08:03 MST",
+            "etr": "2026-11-12 12:30 MST"
+        }
+    ]
+}
