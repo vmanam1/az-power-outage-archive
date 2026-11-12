@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-11 20:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.391146367278,
+            "longitude": -111.927935706212,
+            "boundary": "S COLLEGE  AVE TO S DORSEY  LN AND E ALAMEDA  DR TO E SUPERSTITION  FWY",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-11 19:13 MST",
+            "etr": "2026-11-12 04:00 MST"
+        }
+    ]
+}

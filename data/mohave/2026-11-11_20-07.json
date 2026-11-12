@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "MOHAVE",
+        "scraped_at": "2026-11-11 20:07:11 MST",
+        "source": "MOHAVE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 24,
+        "total_customers": 47109
+    },
+    "outages": [
+        {
+            "latitude": 34.70085146608539,
+            "longitude": -113.61184740996595,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-11-11 17:33:21 MST",
+            "etr": null,
+            "incident_id": "351490"
+        },
+        {
+            "latitude": 34.682814428219665,
+            "longitude": -113.59565976854385,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-11-11 17:47:19 MST",
+            "etr": null,
+            "incident_id": "351495"
+        },
+        {
+            "latitude": 34.698798307869865,
+            "longitude": -113.60172339671252,
+            "customers": 21,
+            "cause": null,
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-11-11 17:22:36 MST",
+            "etr": null,
+            "incident_id": "351496"
+        },
+        {
+            "latitude": 34.69196638950367,
+            "longitude": -113.60199289129778,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "Eastern Service Area",
+            "start_time": "2026-11-11 17:29:47 MST",
+            "etr": null,
+            "incident_id": "351488"
+        }
+    ]
+}
