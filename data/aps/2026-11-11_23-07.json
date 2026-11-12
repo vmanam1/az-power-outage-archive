@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-11 23:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 16
+    },
+    "outages": [
+        {
+            "latitude": 33.633502327935624,
+            "longitude": -112.0191048641905,
+            "city": "Phoenix",
+            "boundary": "Le Marche Ave. and 28th St. to 30th St.",
+            "customers": 16,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-11 15:29:00 MST",
+            "etr": "2026-11-11 17:50:00 MST"
+        }
+    ]
+}
