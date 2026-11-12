@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-12 15:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 83
+    },
+    "outages": [
+        {
+            "latitude": 33.244214351656055,
+            "longitude": -112.46471804609159,
+            "city": "Buckeye",
+            "boundary": "Ocotillo Rd to Riggs Rd and Birchwood Ln to Sandia Rd",
+            "customers": 83,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-12 07:21:00 MST",
+            "etr": "2026-11-12 10:55:00 MST"
+        }
+    ]
+}

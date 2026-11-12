@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-12 15:07:30 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 58078
+    },
+    "outages": [
+        {
+            "latitude": 32.467333814727,
+            "longitude": -111.10045431926193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-11-12 07:54:32 MST",
+            "etr": null,
+            "incident_id": "390353"
+        },
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        },
+        {
+            "latitude": 32.097957873626214,
+            "longitude": -111.21939126289593,
+            "customers": 1,
+            "cause": "99 UNKNOWN/UNDETERMINED",
+            "comments": null,
+            "boundary": "Three Points",
+            "start_time": "2026-11-12 12:15:50 MST",
+            "etr": "2026-11-12 15:15:50 MST",
+            "incident_id": "390358"
+        }
+    ]
+}
