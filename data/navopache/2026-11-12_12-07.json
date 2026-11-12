@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-12 12:07:30 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 6,
+        "total_customers": 46000
+    },
+    "outages": [
+        {
+            "latitude": 34.16579478370875,
+            "longitude": -109.9882411826859,
+            "customers": 4,
+            "cause": "MAINTENANCE",
+            "comments": "Planned outage. We are aware of your outage. Our crews had to turn off the power to safely perform some maintenance work. They will restore power just as soon as is possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-11-12 11:32:34 MST",
+            "etr": null,
+            "incident_id": "536102"
+        },
+        {
+            "latitude": 33.842647882832075,
+            "longitude": -109.96508261465807,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "3 - Reservation",
+            "start_time": "2026-11-12 11:59:08 MST",
+            "etr": null,
+            "incident_id": "536103"
+        },
+        {
+            "latitude": 34.416604836752214,
+            "longitude": -110.53542298862494,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-11-12 07:32:42 MST",
+            "etr": null,
+            "incident_id": "536098"
+        }
+    ]
+}
