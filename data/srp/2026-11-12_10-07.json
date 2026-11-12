@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-12 10:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 68
+    },
+    "outages": [
+        {
+            "latitude": 33.3901972540527,
+            "longitude": -111.433037533594,
+            "boundary": "S EDGEMORE  RD TO S BLACKHAWK  RD AND NON-DEDICATED   TO E OBSIDIAN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 08:03 MST",
+            "etr": "2026-11-12 12:30 MST"
+        },
+        {
+            "latitude": 33.62038473932805,
+            "longitude": -112.2072601537065,
+            "boundary": "N 71ST  AVE TO N 67TH  AVE AND W GREENWAY  RD TO W ACOMA  DR",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 08:17 MST",
+            "etr": "2026-11-12 12:30 MST"
+        },
+        {
+            "latitude": 33.38132844359935,
+            "longitude": -112.116354149952,
+            "boundary": "S 31ST  AVE TO S 23RD  AVE AND W VINEYARD  RD TO W BASELINE  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 08:29 MST",
+            "etr": "2026-11-12 13:26 MST"
+        },
+        {
+            "latitude": 33.5171587792818,
+            "longitude": -112.134634343458,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 27,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 08:49 MST",
+            "etr": "2026-11-12 10:47 MST"
+        },
+        {
+            "latitude": 33.41741519555845,
+            "longitude": -111.5130915538675,
+            "boundary": "N CORTEZ  RD TO N ARROYA  RD AND E SUPERSTITION  BLVD TO E JUNCTION  ST",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 09:10 MST",
+            "etr": "2026-11-12 13:09 MST"
+        },
+        {
+            "latitude": 33.43369340002805,
+            "longitude": -111.58126657934551,
+            "boundary": "N MOUNTAIN  RD TO N DELAWARE  DR AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 2,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-12 09:40 MST",
+            "etr": "2026-11-12 11:39 MST"
+        },
+        {
+            "latitude": 33.384776885506554,
+            "longitude": -111.778172877974,
+            "boundary": "S 24TH  ST TO S LINDSAY  RD AND E SOUTHERN  AVE TO E BASELINE  RD",
+            "customers": 27,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-12 09:47 MST",
+            "etr": "2026-11-12 12:30 MST"
+        },
+        {
+            "latitude": 33.4024817238752,
+            "longitude": -111.98362158620199,
+            "boundary": "S 44TH  PL TO S 48TH  ST AND E BROADWAY  RD TO E ROESER  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-12 08:09 MST",
+            "etr": "2026-11-12 10:30 MST"
+        }
+    ]
+}

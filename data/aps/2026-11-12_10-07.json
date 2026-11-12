@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-12 10:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 68
+    },
+    "outages": [
+        {
+            "latitude": 33.48773227466409,
+            "longitude": -112.10657021936429,
+            "city": "Phoenix",
+            "boundary": "Osborn Rd. to Mulberry Dr. and 23rd Dr. to 22nd Ave.",
+            "customers": 16,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-12 01:00:00 MST",
+            "etr": "2026-11-12 06:00:00 MST"
+        },
+        {
+            "latitude": 33.75743269220929,
+            "longitude": -111.94510704636633,
+            "city": "Cave Creek",
+            "boundary": "Milton Dr to Dixileta Dr and 61st St to 64th St",
+            "customers": 14,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-12 01:22:00 MST",
+            "etr": "2026-11-12 07:15:00 MST"
+        },
+        {
+            "latitude": 34.375592406278436,
+            "longitude": -111.46040810177449,
+            "city": "Pine",
+            "boundary": "Amber Way and McCracken Ln",
+            "customers": 11,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-12 02:36:00 MST",
+            "etr": "2026-11-12 06:50:00 MST"
+        },
+        {
+            "latitude": 33.56832630591157,
+            "longitude": -111.85454111826014,
+            "city": "Scottsdale",
+            "boundary": "Mountain View Rd. to Bella Vista Dr. and 104th St. to 105th PL.",
+            "customers": 27,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-12 02:58:00 MST",
+            "etr": "2026-11-12 06:00:00 MST"
+        }
+    ]
+}
