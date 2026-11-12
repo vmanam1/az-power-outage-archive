@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-12 16:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 83
+    },
+    "outages": [
+        {
+            "latitude": 33.244214351656055,
+            "longitude": -112.46471804609159,
+            "city": "Buckeye",
+            "boundary": "Ocotillo Rd to Riggs Rd and Birchwood Ln to Sandia Rd",
+            "customers": 83,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-12 07:21:00 MST",
+            "etr": "2026-11-12 10:55:00 MST"
+        }
+    ]
+}
