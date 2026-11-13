@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-13 12:07:30 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 11
+    },
+    "outages": [
+        {
+            "latitude": 33.368162589917446,
+            "longitude": -111.9122244731685,
+            "boundary": "S LAKESHORE  DR TO S COUNTRY CLUB  WAY AND E BASELINE  RD TO E GUADALUPE  RD",
+            "customers": 11,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-13 12:03 MST",
+            "etr": "2026-11-13 16:45 MST"
+        }
+    ]
+}

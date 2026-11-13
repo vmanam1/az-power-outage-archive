@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-13 12:07:30 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 32.70252779789375,
+            "longitude": -114.62731995869882,
+            "city": "Yuma",
+            "boundary": "14th St and 7th Ave to 6th Ave",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-13 01:02:00 MST",
+            "etr": "2026-11-13 06:30:00 MST"
+        },
+        {
+            "latitude": 33.60991957303165,
+            "longitude": -112.3175055006225,
+            "city": "El Mirage",
+            "boundary": "Ventura St to Thunderbird Rd and Luna St",
+            "customers": 25,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-13 04:23:00 MST",
+            "etr": "2026-11-13 07:30:00 MST"
+        }
+    ]
+}
