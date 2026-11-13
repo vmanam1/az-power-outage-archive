@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-13 14:07:10 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 52
+    },
+    "outages": [
+        {
+            "latitude": 33.60991957303165,
+            "longitude": -112.3175055006225,
+            "city": "El Mirage",
+            "boundary": "Ventura St to Thunderbird Rd and Luna St",
+            "customers": 25,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-11-13 04:23:00 MST",
+            "etr": "2026-11-13 08:20:00 MST"
+        },
+        {
+            "latitude": 33.34828599990954,
+            "longitude": -112.67707400039522,
+            "city": "Buckeye",
+            "boundary": "Baseline Rd To Galine Rd And Old Us Hwy 80 To Rooks Rd",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-13 05:36:00 MST",
+            "etr": "2026-11-13 08:05:00 MST"
+        },
+        {
+            "latitude": 34.59084418913591,
+            "longitude": -112.42979879006283,
+            "city": "Gila Bend",
+            "boundary": "Williams St and Harrington Way",
+            "customers": 10,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-13 06:07:00 MST",
+            "etr": "2026-11-13 08:50:00 MST"
+        }
+    ]
+}
