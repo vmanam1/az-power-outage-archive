@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-13 09:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 89
+    },
+    "outages": [
+        {
+            "latitude": 32.70252779789375,
+            "longitude": -114.62731995869882,
+            "city": "Yuma",
+            "boundary": "14th St and 7th Ave to 6th Ave",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-13 01:02:00 MST",
+            "etr": "2026-11-13 05:30:00 MST"
+        },
+        {
+            "latitude": 32.70350283487623,
+            "longitude": -114.62734141675602,
+            "city": "Yuma",
+            "boundary": "13th St and 7th Ave to 6th Ave",
+            "customers": 11,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-13 01:03:00 MST",
+            "etr": "2026-11-13 03:30:00 MST"
+        },
+        {
+            "latitude": 33.74175751817724,
+            "longitude": -112.3879474029715,
+            "city": "Surprise",
+            "boundary": "Roy Rogers Rd. to West Dynamite Blvd. and 155th Ave. to 151st Ave.",
+            "customers": 69,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-13 01:04:00 MST",
+            "etr": "2026-11-13 04:15:00 MST"
+        }
+    ]
+}
