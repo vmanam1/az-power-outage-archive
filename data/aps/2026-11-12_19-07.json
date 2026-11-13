@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-12 19:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 34.263531339342705,
+            "longitude": -110.06949235740103,
+            "city": "Show Low",
+            "boundary": "Thorton to Sylvester Cr and 25th Wy to 22nd Ave",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-12 11:00:00 MST",
+            "etr": "2026-11-12 13:00:00 MST"
+        }
+    ]
+}
