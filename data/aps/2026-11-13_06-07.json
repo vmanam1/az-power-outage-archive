@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-13 06:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 28
+    },
+    "outages": [
+        {
+            "latitude": 33.578952758307466,
+            "longitude": -111.89991977804381,
+            "city": "Scottsdale",
+            "boundary": "Arabian Tl to 88th St and Appaloosa Tl to Mustang Tl",
+            "customers": 28,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-12 21:30:00 MST",
+            "etr": "2026-11-13 00:05:00 MST"
+        }
+    ]
+}
