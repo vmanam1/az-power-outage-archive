@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-13 11:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 34
+    },
+    "outages": [
+        {
+            "latitude": 33.409558861275656,
+            "longitude": -111.796796991408,
+            "boundary": "S STAPLEY  DR TO S GILBERT  RD AND E MAIN  ST TO E 8TH  AVE",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-13 08:31 MST",
+            "etr": "2026-11-13 12:30 MST"
+        },
+        {
+            "latitude": 33.3793198918776,
+            "longitude": -112.098591762442,
+            "boundary": "S 23RD  AVE TO S 15TH  AVE AND W VINEYARD  RD TO W SOUTH MOUNTAIN  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-13 09:01 MST",
+            "etr": "2026-11-13 13:00 MST"
+        },
+        {
+            "latitude": 33.53007719307065,
+            "longitude": -111.89937777963951,
+            "boundary": "N HAYDEN  RD TO N PIMA  RD AND E INDIAN BEND  RD TO E MCDONALD  DR",
+            "customers": 10,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-13 10:37 MST",
+            "etr": "2026-11-13 12:36 MST"
+        },
+        {
+            "latitude": 33.5146919001519,
+            "longitude": -112.1842189164515,
+            "boundary": "N 63RD  AVE TO N 55TH  AVE AND W BETHANY HOME  RD TO W CAMELBACK  RD",
+            "customers": 13,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-13 10:58 MST",
+            "etr": "2026-11-13 13:01 MST"
+        }
+    ]
+}
