@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-13 08:07:21 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 55
+    },
+    "outages": [
+        {
+            "latitude": 33.4483957939604,
+            "longitude": -111.7229435269755,
+            "boundary": "N 48TH  ST TO N HIGLEY  RD AND E MCKELLIPS  RD TO E MCLELLAN  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-13 06:18 MST",
+            "etr": "2026-11-13 13:00 MST"
+        },
+        {
+            "latitude": 33.527151193118854,
+            "longitude": -112.14534118798099,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W MARYLAND  AVE TO W BETHANY HOME  RD",
+            "customers": 8,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-13 07:20 MST",
+            "etr": "2026-11-13 09:18 MST"
+        },
+        {
+            "latitude": 33.424355712879404,
+            "longitude": -111.614731363414,
+            "boundary": "N 96TH  ST TO N 104TH  ST AND E ADOBE  RD TO E UNIVERSITY  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-13 07:41 MST",
+            "etr": "2026-11-13 11:00 MST"
+        },
+        {
+            "latitude": 33.471753069296796,
+            "longitude": -112.16635966690899,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W THOMAS  RD TO W MCDOWELL  RD",
+            "customers": 43,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-13 08:00 MST",
+            "etr": "2026-11-13 09:58 MST"
+        }
+    ]
+}
