@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-14 09:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 183
+    },
+    "outages": [
+        {
+            "latitude": 33.4022568733281,
+            "longitude": -111.958658902598,
+            "boundary": "S MARICOPA  FWY TO S HARDY  DR AND W BROADWAY  RD TO W ALAMEDA  DR",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-14 06:17 MST",
+            "etr": "2026-11-14 18:30 MST"
+        },
+        {
+            "latitude": 33.49856964288655,
+            "longitude": -112.10367580166499,
+            "boundary": "N 23RD  AVE TO N 19TH  AVE AND W CAMPBELL  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 30,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-14 01:01 MST",
+            "etr": "2026-11-14 10:00 MST"
+        },
+        {
+            "latitude": 33.4049732743594,
+            "longitude": -111.941480906809,
+            "boundary": "S HARDY  DR TO S COLLEGE  AVE AND W 13TH  ST TO W ALAMEDA  DR",
+            "customers": 113,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-14 08:34 MST",
+            "etr": "2026-11-14 13:30 MST"
+        },
+        {
+            "latitude": 33.49289083116335,
+            "longitude": -112.0158047198765,
+            "boundary": "N 28TH  ST TO N 32ND  ST AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 39,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-14 06:57 MST",
+            "etr": "2026-11-14 10:00 MST"
+        }
+    ]
+}
