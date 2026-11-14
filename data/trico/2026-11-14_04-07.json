@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-14 04:07:24 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3,
+        "total_customers": 58087
+    },
+    "outages": [
+        {
+            "latitude": 32.467333814727,
+            "longitude": -111.10045431926193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-11-12 07:54:32 MST",
+            "etr": null,
+            "incident_id": "390353"
+        },
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        },
+        {
+            "latitude": 32.51239523051311,
+            "longitude": -110.90594211076447,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Pinal County East",
+            "start_time": "2026-11-13 07:57:58 MST",
+            "etr": null,
+            "incident_id": "390359"
+        }
+    ]
+}

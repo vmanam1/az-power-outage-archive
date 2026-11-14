@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-14 04:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 33.49856964288655,
+            "longitude": -112.10367580166499,
+            "boundary": "N 23RD  AVE TO N 19TH  AVE AND W CAMPBELL  AVE TO W INDIAN SCHOOL  RD",
+            "customers": 30,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-14 01:01 MST",
+            "etr": "2026-11-14 07:09 MST"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-14 04:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 34.692828273369024,
+            "longitude": -111.98677063166434,
+            "city": "Cottonwood",
+            "boundary": "Mission Ln to Maricopa Dr and Mohave Ln to Union Dr",
+            "customers": 6,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-11-13 17:04:00 MST",
+            "etr": "2026-11-13 23:30:00 MST"
+        }
+    ]
+}
