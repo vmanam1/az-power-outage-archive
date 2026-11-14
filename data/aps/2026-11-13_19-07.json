@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-13 19:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 34.59084418913591,
+            "longitude": -112.42979879006283,
+            "city": "Gila Bend",
+            "boundary": "Williams St and Harrington Way",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-13 06:07:00 MST",
+            "etr": "2026-11-13 13:45:00 MST"
+        },
+        {
+            "latitude": 33.43116122515113,
+            "longitude": -112.35291600395762,
+            "city": "Avondale",
+            "boundary": "Rhodes Ave and 3rd Ave",
+            "customers": 5,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-11-13 07:12:00 MST",
+            "etr": "2026-11-13 15:30:00 MST"
+        },
+        {
+            "latitude": 33.58182864870721,
+            "longitude": -112.033394995134,
+            "city": "Phoenix",
+            "boundary": "North Ln. and 22nd Wy. to 23rd St.",
+            "customers": 6,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-11-13 11:26:00 MST",
+            "etr": "2026-11-13 14:15:00 MST"
+        }
+    ]
+}
