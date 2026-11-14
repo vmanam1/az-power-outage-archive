@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-13 17:07:46 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.34828599990954,
+            "longitude": -112.67707400039522,
+            "city": "Buckeye",
+            "boundary": "Baseline Rd To Galine Rd And Old Us Hwy 80 To Rooks Rd",
+            "customers": 17,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-13 05:36:00 MST",
+            "etr": "2026-11-13 12:00:00 MST"
+        },
+        {
+            "latitude": 34.59084418913591,
+            "longitude": -112.42979879006283,
+            "city": "Gila Bend",
+            "boundary": "Williams St and Harrington Way",
+            "customers": 7,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-13 06:07:00 MST",
+            "etr": "2026-11-13 11:30:00 MST"
+        },
+        {
+            "latitude": 33.43116122515113,
+            "longitude": -112.35291600395762,
+            "city": "Avondale",
+            "boundary": "Rhodes Ave and 3rd Ave",
+            "customers": 5,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-13 07:12:00 MST",
+            "etr": "2026-11-13 12:10:00 MST"
+        }
+    ]
+}
