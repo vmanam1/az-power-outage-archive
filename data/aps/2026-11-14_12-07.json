@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-14 12:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1131
+    },
+    "outages": [
+        {
+            "latitude": 35.22400082591912,
+            "longitude": -111.6054041009924,
+            "city": "Flagstaff",
+            "boundary": "Hamblin St to East Route 88 and Cedar Ave to Marketplace Dr",
+            "customers": 1131,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-14 02:01:00 MST",
+            "etr": "2026-11-14 06:10:00 MST"
+        }
+    ]
+}
