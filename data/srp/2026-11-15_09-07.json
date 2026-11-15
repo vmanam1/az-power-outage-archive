@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-15 09:07:44 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 122
+    },
+    "outages": [
+        {
+            "latitude": 33.5293714389054,
+            "longitude": -112.13317739540099,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 58,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-15 06:30 MST",
+            "etr": "2026-11-15 10:45 MST"
+        },
+        {
+            "latitude": 33.5293714389054,
+            "longitude": -112.13317739540099,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W GLENDALE  AVE TO W BETHANY HOME  RD",
+            "customers": 58,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-15 06:30 MST",
+            "etr": "2026-11-15 10:45 MST"
+        },
+        {
+            "latitude": 33.40168576728905,
+            "longitude": -111.736106897048,
+            "boundary": "S 40TH  ST TO S ROANOKE   AND E BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-15 07:08 MST",
+            "etr": "2026-11-15 13:00 MST"
+        }
+    ]
+}

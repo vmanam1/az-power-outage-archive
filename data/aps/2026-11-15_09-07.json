@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-15 09:07:44 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 99
+    },
+    "outages": [
+        {
+            "latitude": 33.82607359080319,
+            "longitude": -111.87873471796858,
+            "city": "Scottsdale",
+            "boundary": "Bajada Rd. to Cave Creek Rd. and 92nd Pl. to 95th Way.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-14 22:11:00 MST",
+            "etr": "2026-11-15 04:00:00 MST"
+        },
+        {
+            "latitude": 34.585277091753746,
+            "longitude": -112.47141900290234,
+            "city": "Prescott",
+            "boundary": "Ridge Rd and Sandia Dr",
+            "customers": 7,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-11-15 00:03:00 MST",
+            "etr": "2026-11-15 03:00:00 MST"
+        },
+        {
+            "latitude": 34.08621722877815,
+            "longitude": -112.11938177365579,
+            "city": "Black Canyon City",
+            "boundary": "Tara Springs Rd. to Perry Rd. and Shadow Mountain Rd. Ranch Rd.",
+            "customers": 50,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-15 01:43:00 MST",
+            "etr": "2026-11-15 04:40:00 MST"
+        },
+        {
+            "latitude": 33.60783568297607,
+            "longitude": -112.37734601599435,
+            "city": "Surprise",
+            "boundary": "Waddell Rd. to Sweetwater Ave. and Whisperwood Dr. to Bullard Ave.",
+            "customers": 37,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-15 01:55:00 MST",
+            "etr": "2026-11-15 04:45:00 MST"
+        }
+    ]
+}
