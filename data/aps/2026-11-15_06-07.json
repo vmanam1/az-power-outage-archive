@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-15 06:07:34 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.82607359080319,
+            "longitude": -111.87873471796858,
+            "city": "Scottsdale",
+            "boundary": "Bajada Rd. to Cave Creek Rd. and 92nd Pl. to 95th Way.",
+            "customers": 12,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-14 22:11:00 MST",
+            "etr": "2026-11-15 01:00:00 MST"
+        }
+    ]
+}
