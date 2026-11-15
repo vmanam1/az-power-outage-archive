@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-11-14 20:07:44 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 722,
+        "map_last_refreshed": "Nov 14, 8:06 PM"
+    },
+    "outages": [
+        {
+            "latitude": 31.8078947568612,
+            "longitude": -111.003546202339,
+            "boundary": {
+                "coordLatSW": "31.783444504410902",
+                "coordLngSW": "-111.03432097505001",
+                "coordLatNE": "31.803142618322301",
+                "coordLngNE": "-111.01732416098201",
+                "coordLatCenter": "31.793293",
+                "coordLngCenter": "-111.025826"
+            },
+            "customers": 722,
+            "cause": null,
+            "comments": "Restoration In Progress",
+            "start_time": "2026-11-14 17:06 MST",
+            "etr": "2026-11-14 19:35 MST",
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 974,
+            "last_update": "2026-11-14 20:00 MST"
+        },
+        {
+            "latitude": 32.1077663737059,
+            "longitude": -110.615914982795,
+            "boundary": {
+                "coordLatSW": "32.1077663737059",
+                "coordLngSW": "-110.615914982795",
+                "coordLatNE": "32.1077663737059",
+                "coordLngNE": "-110.615914982795",
+                "coordLatCenter": "32.107765",
+                "coordLngCenter": "-110.61591"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-11-13 17:16 MST",
+            "etr": "2026-11-14 11:11 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 55,
+            "last_update": "2026-11-14 11:21 MST"
+        }
+    ]
+}

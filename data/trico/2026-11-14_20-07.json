@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-14 20:07:44 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 56,
+        "total_customers": 58087
+    },
+    "outages": [
+        {
+            "latitude": 32.33171065424424,
+            "longitude": -111.17841011962867,
+            "customers": 54,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Picture Rocks",
+            "start_time": "2026-11-14 16:48:54 MST",
+            "etr": null,
+            "incident_id": "390386"
+        },
+        {
+            "latitude": 32.40151592549402,
+            "longitude": -111.3264973942364,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Avra Valley North",
+            "start_time": "2026-11-14 20:01:50 MST",
+            "etr": null,
+            "incident_id": "390387"
+        },
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        }
+    ]
+}
