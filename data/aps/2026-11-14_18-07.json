@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-14 18:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 34.59529402325193,
+            "longitude": -112.34927583279702,
+            "city": "Prescott Valley",
+            "boundary": "Bison Ln. to Paradise Ln. and MeadowLark Dr. to Valley View Dr.",
+            "customers": 12,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-14 07:09:00 MST",
+            "etr": "2026-11-14 14:30:00 MST"
+        }
+    ]
+}
