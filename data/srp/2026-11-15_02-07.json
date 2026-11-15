@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-15 02:07:45 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 676
+    },
+    "outages": [
+        {
+            "latitude": 33.5244056455024,
+            "longitude": -112.2026852582195,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 36,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-14 23:20 MST",
+            "etr": "2026-11-15 04:01 MST"
+        },
+        {
+            "latitude": 33.60257650576495,
+            "longitude": -112.187038949502,
+            "boundary": "N 67TH  AVE TO N 55TH  AVE AND W THUNDERBIRD  RD TO W CHOLLA  ST",
+            "customers": 627,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-15 01:14 MST",
+            "etr": "2026-11-15 03:13 MST"
+        },
+        {
+            "latitude": 33.423294083059744,
+            "longitude": -111.5789731988205,
+            "boundary": "N MOUNTAIN  RD TO N DELAWARE  DR AND W TEPEE  ST TO W APACHE  TRL",
+            "customers": 13,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-15 02:00 MST",
+            "etr": "2026-11-15 03:58 MST"
+        }
+    ]
+}
