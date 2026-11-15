@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-15 11:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 48
+    },
+    "outages": [
+        {
+            "latitude": 34.08621722877815,
+            "longitude": -112.11938177365579,
+            "city": "Black Canyon City",
+            "boundary": "Tara Springs Rd. to Perry Rd. and Shadow Mountain Rd. Ranch Rd.",
+            "customers": 48,
+            "cause": "Blown fuse",
+            "comments": "Our crews are working to restore the electrical equipment issue caused by a blown fuse.",
+            "start_time": "2026-11-15 01:43:00 MST",
+            "etr": "2026-11-15 06:00:00 MST"
+        }
+    ]
+}
