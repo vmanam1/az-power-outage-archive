@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-15 14:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 34.59570883972517,
+            "longitude": -112.34974350292046,
+            "city": "Prescott",
+            "boundary": "Bison Ln to Paradise Ln and Starlight Dr to Valley View dr",
+            "customers": 12,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-15 04:42:00 MST",
+            "etr": "2026-11-15 07:35:00 MST"
+        }
+    ]
+}
