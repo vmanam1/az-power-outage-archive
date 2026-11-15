@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-15 05:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 80
+    },
+    "outages": [
+        {
+            "latitude": 33.535689708285105,
+            "longitude": -112.1018245326745,
+            "boundary": "N 23RD  AVE TO N 15TH  AVE AND W GLENDALE  AVE TO W MARYLAND  AVE",
+            "customers": 80,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-15 05:03 MST",
+            "etr": "2026-11-15 08:00 MST"
+        }
+    ]
+}
