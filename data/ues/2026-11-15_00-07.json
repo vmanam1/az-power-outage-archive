@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "provider": "UES",
+        "scraped_at": "2026-11-15 00:07:34 MST",
+        "source": "UniSource Electric Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 0,
+        "map_last_refreshed": "Nov 15, 12:06 AM"
+    },
+    "outages": [
+        {
+            "latitude": 35.233354381585,
+            "longitude": -114.540458780086,
+            "boundary": {
+                "coordLatSW": "35.233354381585002",
+                "coordLngSW": "-114.540458780086",
+                "coordLatNE": "35.233354381585002",
+                "coordLngNE": "-114.540458780086",
+                "coordLatCenter": "35.233353",
+                "coordLngCenter": "-114.54046"
+            },
+            "customers": 0,
+            "cause": "Equipment Damage - Weather",
+            "comments": null,
+            "start_time": "2026-11-14 02:14 MST",
+            "etr": "2026-11-14 04:10 MST",
+            "event": "Restored",
+            "division": "UEE",
+            "customers_restored": 87,
+            "last_update": "2026-11-14 06:03 MST"
+        },
+        {
+            "latitude": 31.4708552684436,
+            "longitude": -111.018173072207,
+            "boundary": {
+                "coordLatSW": "31.4708552684436",
+                "coordLngSW": "-111.01817307220701",
+                "coordLatNE": "31.4708552684436",
+                "coordLngNE": "-111.01817307220701",
+                "coordLatCenter": "31.470856",
+                "coordLngCenter": "-111.01817"
+            },
+            "customers": 0,
+            "cause": "Planned maintenance",
+            "comments": "Reliability improvements underway",
+            "start_time": "2026-08-27 07:29 MST",
+            "etr": "2026-08-27 09:30 MST",
+            "event": "Planned",
+            "division": "USE",
+            "customers_restored": 0,
+            "last_update": "2026-08-27 15:22 MST"
+        }
+    ]
+}
