@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 03:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 99
+    },
+    "outages": [
+        {
+            "latitude": 35.1966325902046,
+            "longitude": -111.56555456639258,
+            "city": "Flagstaff",
+            "boundary": "Purple Heart Tl. to Walnut Canyon Rd. and Walnut Hills Dr. to Wapiti Tl.",
+            "customers": 99,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-15 18:54:00 MST",
+            "etr": "2026-11-15 22:15:00 MST"
+        }
+    ]
+}
