@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-16 09:07:24 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 10,
+        "total_customers": 46009
+    },
+    "outages": [
+        {
+            "latitude": 34.152667430882644,
+            "longitude": -109.95790507553694,
+            "customers": 1,
+            "cause": "NO OUTAGE",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-11-16 08:20:58 MST",
+            "etr": null,
+            "incident_id": "536115"
+        },
+        {
+            "latitude": 34.279061485818765,
+            "longitude": -109.74697166364349,
+            "customers": 9,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "4 - St Johns",
+            "start_time": "2026-11-16 08:46:10 MST",
+            "etr": null,
+            "incident_id": "536118"
+        }
+    ]
+}
