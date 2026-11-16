@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 12:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 34.56737646768898,
+            "longitude": -111.85324586080816,
+            "city": "Camp Verde",
+            "boundary": "Finnie Flat Rd to Hollamon St and Woods St to Coppinger St",
+            "customers": 40,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 03:50:00 MST",
+            "etr": "2026-11-16 06:40:00 MST"
+        },
+        {
+            "latitude": 33.748245865763955,
+            "longitude": -111.95589955800503,
+            "city": "Cave Creek",
+            "boundary": "Peak View Rd to 59th St and 58th St to 60th St",
+            "customers": 6,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 04:25:00 MST",
+            "etr": "2026-11-16 08:25:00 MST"
+        }
+    ]
+}
