@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-16 10:07:34 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.4607002582809,
+            "longitude": -111.64817920484751,
+            "boundary": "N 80TH  ST TO N 88TH  ST AND E MCDOWELL  RD TO E MCKELLIPS  RD",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-16 08:34 MST",
+            "etr": "2026-11-16 13:30 MST"
+        },
+        {
+            "latitude": 33.3713693301692,
+            "longitude": -111.431702604725,
+            "boundary": "S EDGEMORE  RD TO S BLACKHAWK  RD AND E BASELINE  AVE TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-16 08:36 MST",
+            "etr": "2026-11-16 11:00 MST"
+        },
+        {
+            "latitude": 33.397506670962855,
+            "longitude": -111.73280313517151,
+            "boundary": "S GREENFIELD  RD TO S ROANOKE   AND E PUEBLO  AVE TO E SOUTHERN  AVE",
+            "customers": 14,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-16 08:50 MST",
+            "etr": "2026-11-16 14:00 MST"
+        },
+        {
+            "latitude": 33.40556157570635,
+            "longitude": -111.521640904773,
+            "boundary": "S TOMAHAWK  RD TO S GOLDFIELD  RD AND E BROADWAY  AVE TO E 16TH  AVE",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-16 08:55 MST",
+            "etr": "2026-11-16 15:00 MST"
+        },
+        {
+            "latitude": 33.3970831991277,
+            "longitude": -111.770667984396,
+            "boundary": "S 24TH  ST TO S 32ND  ST AND E PUEBLO  AVE TO E SOUTHERN  AVE",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-16 09:32 MST",
+            "etr": "2026-11-16 12:00 MST"
+        }
+    ]
+}

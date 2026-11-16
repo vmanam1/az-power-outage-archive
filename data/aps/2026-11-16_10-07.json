@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 10:07:34 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 88
+    },
+    "outages": [
+        {
+            "latitude": 33.521078685283626,
+            "longitude": -112.07653394920017,
+            "city": "Phoenix",
+            "boundary": "Bethany Home Lane to Montebello Ave and 3rd Ave to Central Ave",
+            "customers": 21,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 01:01:00 MST",
+            "etr": "2026-11-16 05:00:00 MST"
+        },
+        {
+            "latitude": 34.70870680221489,
+            "longitude": -111.9851427639953,
+            "city": "Cottonwood",
+            "boundary": "Comanche Dr and El Paso Dr",
+            "customers": 17,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-16 01:33:00 MST",
+            "etr": "2026-11-16 04:20:00 MST"
+        },
+        {
+            "latitude": 32.70212405374832,
+            "longitude": -114.67563817558674,
+            "city": "Yuma",
+            "boundary": "14th St to 14th Ln and 46th Ave to 44th Ave",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-16 02:44:00 MST",
+            "etr": "2026-11-16 04:30:00 MST"
+        },
+        {
+            "latitude": 33.617046917738485,
+            "longitude": -112.19063157405891,
+            "city": "Glendale",
+            "boundary": "Country Gables Dr to Hearn Rd and 63rd Ave to 60th Dr",
+            "customers": 44,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-16 02:26:00 MST",
+            "etr": "2026-11-16 05:20:00 MST"
+        }
+    ]
+}
