@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 15:07:34 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 34.723156609171404,
+            "longitude": -112.33874349212924,
+            "city": "Prescott",
+            "boundary": "Tatanka Tl to Kelly Rd and Pendleton Ln to Forest Service Rd 642",
+            "customers": 6,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 06:54:00 MST",
+            "etr": "2026-11-16 11:00:00 MST"
+        },
+        {
+            "latitude": 32.980590371952815,
+            "longitude": -111.78459150256832,
+            "city": "Casa Grande",
+            "boundary": "Ghost Ranch Rd to Wickiup Dr and Geronimo Dr to Bobcat Rd",
+            "customers": 28,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 07:01:00 MST",
+            "etr": "2026-11-16 10:20:00 MST"
+        },
+        {
+            "latitude": 33.68569276610452,
+            "longitude": -112.20269260299854,
+            "city": "Glendale",
+            "boundary": "Via Montoya Dr and 66th Ave",
+            "customers": 6,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 03:04:00 MST",
+            "etr": "2026-11-16 08:30:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-16 15:07:34 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.3922177309372,
+            "longitude": -111.743615526783,
+            "boundary": "S VAL VISTA  DR TO S GREENFIELD  RD AND E PUEBLO  AVE TO E SUPERSTITION  FWY",
+            "customers": 8,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-11-16 15:04 MST",
+            "etr": "2026-11-16 17:05 MST"
+        }
+    ]
+}
