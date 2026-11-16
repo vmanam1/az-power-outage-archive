@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-15 19:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 20
+    },
+    "outages": [
+        {
+            "latitude": 33.3815687075557,
+            "longitude": -111.97735545416751,
+            "boundary": "S 44TH  ST TO S WENDLER  DR AND W VINEYARD  RD TO W BASELINE  RD",
+            "customers": 20,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-15 18:16 MST",
+            "etr": "2026-11-15 20:16 MST"
+        }
+    ]
+}

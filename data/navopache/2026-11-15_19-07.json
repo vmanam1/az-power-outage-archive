@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-15 19:07:24 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3,
+        "total_customers": 46009
+    },
+    "outages": [
+        {
+            "latitude": 33.88448715982156,
+            "longitude": -109.15431713801597,
+            "customers": 2,
+            "cause": null,
+            "comments": null,
+            "boundary": "5 - Springerville",
+            "start_time": "2026-11-15 15:44:46 MST",
+            "etr": null,
+            "incident_id": "536113"
+        },
+        {
+            "latitude": 34.115139902901845,
+            "longitude": -109.97351779517713,
+            "customers": 1,
+            "cause": "UNKNOWN CAUSE",
+            "comments": null,
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-11-15 15:16:56 MST",
+            "etr": null,
+            "incident_id": "536114"
+        }
+    ]
+}

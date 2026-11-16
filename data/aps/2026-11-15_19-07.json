@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-15 19:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 43
+    },
+    "outages": [
+        {
+            "latitude": 33.54994077129895,
+            "longitude": -111.89389976038811,
+            "city": "Scottsdale",
+            "boundary": "Via Paseo Del Norte to Via De Lona and Via Del Mundo to Pima Rd.",
+            "customers": 43,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-15 11:32:00 MST",
+            "etr": "2026-11-15 14:15:00 MST"
+        }
+    ]
+}
