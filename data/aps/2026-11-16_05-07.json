@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 05:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 75
+    },
+    "outages": [
+        {
+            "latitude": 35.1966325902046,
+            "longitude": -111.56555456639258,
+            "city": "Flagstaff",
+            "boundary": "Purple Heart Tl. to Walnut Canyon Rd. and Walnut Hills Dr. to Wapiti Tl.",
+            "customers": 47,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-15 18:54:00 MST",
+            "etr": "2026-11-16 00:15:00 MST"
+        },
+        {
+            "latitude": 34.84123451798889,
+            "longitude": -111.77342871884422,
+            "city": "Sedona",
+            "boundary": "Red Rock Scenic Byway to Siesta Way and San Miguel Dr.",
+            "customers": 28,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-15 19:39:00 MST",
+            "etr": "2026-11-15 23:30:00 MST"
+        }
+    ]
+}
