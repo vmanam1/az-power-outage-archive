@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-15 18:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 92
+    },
+    "outages": [
+        {
+            "latitude": 33.960516446352315,
+            "longitude": -112.76787687622557,
+            "city": "Wickenburg",
+            "boundary": "US 60 to Palo Verde Ln and Vulture Mine Rd to Verde Dr",
+            "customers": 92,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-15 09:13:00 MST",
+            "etr": "2026-11-15 12:15:00 MST"
+        }
+    ]
+}
