@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 11:07:43 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 89
+    },
+    "outages": [
+        {
+            "latitude": 33.521078685283626,
+            "longitude": -112.07653394920017,
+            "city": "Phoenix",
+            "boundary": "Bethany Home Lane to Montebello Ave and 3rd Ave to Central Ave",
+            "customers": 21,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 01:01:00 MST",
+            "etr": "2026-11-16 05:00:00 MST"
+        },
+        {
+            "latitude": 33.592016740810244,
+            "longitude": -111.85112130563536,
+            "city": "Scottsdale",
+            "boundary": "Mary Katherine Dr to Cholla Ln and 104th St to 108th St",
+            "customers": 28,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 03:39:00 MST",
+            "etr": "2026-11-16 06:10:00 MST"
+        },
+        {
+            "latitude": 34.56737646768898,
+            "longitude": -111.85324586080816,
+            "city": "Camp Verde",
+            "boundary": "Finnie Flat Rd to Hollamon St and Woods St to Coppinger St",
+            "customers": 40,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-16 03:50:00 MST",
+            "etr": "2026-11-16 06:40:00 MST"
+        }
+    ]
+}
