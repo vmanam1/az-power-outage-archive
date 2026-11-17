@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-17 14:07:24 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 586,
+        "total_customers": 58086
+    },
+    "outages": [
+        {
+            "latitude": 32.427974713998466,
+            "longitude": -111.31992172635572,
+            "customers": 1,
+            "cause": "98 OTHER NON-OUTAGE (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-11-17 08:16:58 MST",
+            "etr": null,
+            "incident_id": "390406"
+        },
+        {
+            "latitude": 32.39297526258461,
+            "longitude": -111.31981392852161,
+            "customers": 2,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-11-17 10:26:34 MST",
+            "etr": null,
+            "incident_id": "390409"
+        },
+        {
+            "latitude": 32.1248248159922,
+            "longitude": -111.1203609859608,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Valencia",
+            "start_time": "2026-11-16 10:04:27 MST",
+            "etr": null,
+            "incident_id": "390398"
+        },
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        },
+        {
+            "latitude": 32.39238360592883,
+            "longitude": -111.31981392852161,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-11-17 11:06:40 MST",
+            "etr": null,
+            "incident_id": "390411"
+        },
+        {
+            "latitude": 32.43489715735015,
+            "longitude": -110.78938570263374,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Mt Lemmon",
+            "start_time": "2026-11-17 13:03:27 MST",
+            "etr": null,
+            "incident_id": "390412"
+        },
+        {
+            "latitude": 32.42859646666634,
+            "longitude": -111.33260593816927,
+            "customers": 1,
+            "cause": "11 MAINTENANCE",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley North",
+            "start_time": "2026-11-17 13:08:51 MST",
+            "etr": null,
+            "incident_id": "390413"
+        },
+        {
+            "latitude": 32.44019667537855,
+            "longitude": -110.7860349866235,
+            "customers": 576,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Mt Lemmon",
+            "start_time": "2026-11-17 10:00:00 MST",
+            "etr": "2026-11-17 16:30:00 MST",
+            "incident_id": "390403"
+        },
+        {
+            "latitude": 32.16455147569881,
+            "longitude": -111.07430436133758,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Valencia",
+            "start_time": "2026-11-17 13:28:22 MST",
+            "etr": null,
+            "incident_id": "390414"
+        }
+    ]
+}
