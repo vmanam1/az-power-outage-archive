@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-16 22:07:21 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6735,
+        "total_customers": 46009
+    },
+    "outages": [
+        {
+            "latitude": 34.4324473044098,
+            "longitude": -110.56822047965271,
+            "customers": 6735,
+            "cause": null,
+            "comments": null,
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-11-16 21:54:24 MST",
+            "etr": null,
+            "incident_id": "536124"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 22:07:21 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 239
+    },
+    "outages": [
+        {
+            "latitude": 33.541385726749226,
+            "longitude": -112.07033051622469,
+            "city": "Phoenix",
+            "boundary": "Palmaire Ave to Glenn Dr and Central Ave to 2nd Pl",
+            "customers": 5,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 12:09:00 MST",
+            "etr": "2026-11-16 19:00:00 MST"
+        },
+        {
+            "latitude": 33.60857265574688,
+            "longitude": -112.37768594837932,
+            "city": "Surprise",
+            "boundary": "Geordia Dr to Valentin St and 105th Ln to Bullard Ave",
+            "customers": 37,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 14:41:00 MST",
+            "etr": "2026-11-16 17:20:00 MST"
+        },
+        {
+            "latitude": 33.67041108167392,
+            "longitude": -112.19629280369186,
+            "city": "Glendale",
+            "boundary": "Arrowhead Loop Rd to Pontiac Dr and 64th Ave to 63rd Ave",
+            "customers": 197,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-16 15:00:00 MST",
+            "etr": "2026-11-16 18:30:00 MST"
+        }
+    ]
+}
