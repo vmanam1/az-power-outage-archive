@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 20:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.541385726749226,
+            "longitude": -112.07033051622469,
+            "city": "Phoenix",
+            "boundary": "Palmaire Ave to Glenn Dr and Central Ave to 2nd Pl",
+            "customers": 7,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-16 12:09:00 MST",
+            "etr": "2026-11-16 14:15:00 MST"
+        }
+    ]
+}
