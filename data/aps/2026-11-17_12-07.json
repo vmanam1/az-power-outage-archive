@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-17 12:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 13
+    },
+    "outages": [
+        {
+            "latitude": 33.64417980711806,
+            "longitude": -112.09278407114296,
+            "city": "Phoenix",
+            "boundary": "Helena Dr. to Campo Bello Dr. and 16th Ave. to 15th Ave.",
+            "customers": 6,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-17 03:15:00 MST",
+            "etr": "2026-11-17 06:00:00 MST"
+        },
+        {
+            "latitude": 33.37810098001284,
+            "longitude": -112.55953447333881,
+            "city": "Buckeye",
+            "boundary": "Salome Highway to Pearl Harbor Mem Highway and Ave 72 E to Salome Rd",
+            "customers": 7,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-17 03:12:00 MST",
+            "etr": "2026-11-17 06:45:00 MST"
+        }
+    ]
+}
