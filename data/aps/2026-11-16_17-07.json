@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 17:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 26
+    },
+    "outages": [
+        {
+            "latitude": 34.723156609171404,
+            "longitude": -112.33874349212924,
+            "city": "Prescott",
+            "boundary": "Tatanka Tl to Kelly Rd and Pendleton Ln to Forest Service Rd 642",
+            "customers": 6,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 06:54:00 MST",
+            "etr": "2026-11-16 11:00:00 MST"
+        },
+        {
+            "latitude": 33.6590514073509,
+            "longitude": -112.0929883318689,
+            "city": "Phoenix",
+            "boundary": "Taro Ln and 17th Ave to 15th Ave",
+            "customers": 20,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 09:29:00 MST",
+            "etr": "2026-11-16 12:25:00 MST"
+        }
+    ]
+}
