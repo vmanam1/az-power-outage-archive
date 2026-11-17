@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-11-16 21:07:24 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 106,
+        "map_last_refreshed": "Nov 16, 9:07 PM"
+    },
+    "outages": [
+        {
+            "latitude": 32.31384906935747,
+            "longitude": -111.02322664887998,
+            "boundary": {
+                "coordLatSW": "32.311713173199401",
+                "coordLngSW": "-111.02460423953099",
+                "coordLatNE": "32.315813465344299",
+                "coordLngNE": "-111.02155275339001",
+                "coordLatCenter": "32.313766",
+                "coordLngCenter": "-111.02308"
+            },
+            "customers": 106,
+            "cause": null,
+            "comments": "We are aware of an outage at your location and will update with more details as they are available.",
+            "start_time": "2026-11-16 20:46 MST",
+            "etr": null,
+            "event": "Unplanned",
+            "division": "TEP",
+            "customers_restored": 0,
+            "last_update": "2026-11-16 21:03 MST"
+        }
+    ]
+}

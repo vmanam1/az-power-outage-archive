@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 21:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 5
+    },
+    "outages": [
+        {
+            "latitude": 33.541385726749226,
+            "longitude": -112.07033051622469,
+            "city": "Phoenix",
+            "boundary": "Palmaire Ave to Glenn Dr and Central Ave to 2nd Pl",
+            "customers": 5,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 12:09:00 MST",
+            "etr": "2026-11-16 15:15:00 MST"
+        }
+    ]
+}
