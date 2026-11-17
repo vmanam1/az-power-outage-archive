@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-17 06:07:04 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.3461369982738,
+            "longitude": -111.89637795708799,
+            "boundary": "S SHUTTERFLY  WAY TO N PRICE  FWY AND E ELLIOT  RD TO W MESQUITE  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 04:12 MST",
+            "etr": "2026-11-17 08:30 MST"
+        },
+        {
+            "latitude": 33.4777995230772,
+            "longitude": -112.135451681421,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W THOMAS  RD TO W ENCANTO  BLVD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 05:55 MST",
+            "etr": "2026-11-17 15:00 MST"
+        },
+        {
+            "latitude": 33.28080833848,
+            "longitude": -111.777216834664,
+            "boundary": "S MUSTANG  DR TO S LINDSAY  RD AND E WILLIS  RD TO E GERMANN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 05:57 MST",
+            "etr": "2026-11-17 11:56 MST"
+        }
+    ]
+}
