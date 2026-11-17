@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-16 23:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 471
+    },
+    "outages": [
+        {
+            "latitude": 33.541385726749226,
+            "longitude": -112.07033051622469,
+            "city": "Phoenix",
+            "boundary": "Palmaire Ave to Glenn Dr and Central Ave to 2nd Pl",
+            "customers": 7,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-11-16 12:09:00 MST",
+            "etr": "2026-11-16 19:00:00 MST"
+        },
+        {
+            "latitude": 33.67041108167392,
+            "longitude": -112.19629280369186,
+            "city": "Glendale",
+            "boundary": "Arrowhead Loop Rd to Pontiac Dr and 64th Ave to 63rd Ave",
+            "customers": 197,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-16 15:00:00 MST",
+            "etr": "2026-11-16 18:30:00 MST"
+        },
+        {
+            "latitude": 35.32106485074247,
+            "longitude": -112.95388022974839,
+            "city": "Seligman",
+            "boundary": "Historic Rte 66 to Purple Heart Trl and Loma Vista Ln to Sunrise Ln",
+            "customers": 222,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-16 15:00:00 MST",
+            "etr": "2026-11-16 17:30:00 MST"
+        },
+        {
+            "latitude": 33.582346334708504,
+            "longitude": -112.14790074888084,
+            "city": "Phoenix",
+            "boundary": "42nd Ave. and 41st Ave.",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-16 15:07:00 MST",
+            "etr": "2026-11-16 16:50:00 MST"
+        },
+        {
+            "latitude": 33.60913588030656,
+            "longitude": -112.07212234619604,
+            "city": "Phoenix",
+            "boundary": "Eugie Ave. to Thunderbird Rd. and 1st St. to 3rd St.",
+            "customers": 32,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-16 15:41:00 MST",
+            "etr": "2026-11-16 18:10:00 MST"
+        }
+    ]
+}
