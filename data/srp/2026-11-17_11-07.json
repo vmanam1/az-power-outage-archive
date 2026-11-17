@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-17 11:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 63
+    },
+    "outages": [
+        {
+            "latitude": 33.43322839145415,
+            "longitude": -111.61703270118201,
+            "boundary": "N 96TH  ST TO N 104TH  ST AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 09:11 MST",
+            "etr": "2026-11-17 14:00 MST"
+        },
+        {
+            "latitude": 33.43322839145415,
+            "longitude": -111.61703270118201,
+            "boundary": "N 96TH  ST TO N 104TH  ST AND E BROWN  RD TO E ADOBE  RD",
+            "customers": 9,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 09:11 MST",
+            "etr": "2026-11-17 14:00 MST"
+        },
+        {
+            "latitude": 33.3901909111991,
+            "longitude": -111.43846793165,
+            "boundary": "S EDGEMORE  RD TO S WHITETAIL  RD AND E SOUTHERN  AVE TO E OBSIDIAN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 09:21 MST",
+            "etr": "2026-11-17 13:21 MST"
+        },
+        {
+            "latitude": 33.48138481184215,
+            "longitude": -111.9739610467895,
+            "boundary": "N 48TH  ST TO N 52ND  ST AND E OSBORN  RD TO E OAK  ST",
+            "customers": 36,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-17 07:45 MST",
+            "etr": "2026-11-17 17:00 MST"
+        },
+        {
+            "latitude": 33.6250937412294,
+            "longitude": -111.75248405142949,
+            "boundary": "UNKNOWN TO N BEELINE  HWY AND E JOMAX  RD TO E SHEA  BLVD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 10:16 MST",
+            "etr": "2026-11-17 12:13 MST"
+        },
+        {
+            "latitude": 33.2615030434182,
+            "longitude": -111.812199353945,
+            "boundary": "S ADAMS  AVE TO S COOPER  RD AND E RYAN  RD TO E APPLEBY  RD",
+            "customers": 6,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-11-17 11:00 MST",
+            "etr": "2026-11-17 11:55 MST"
+        }
+    ]
+}
