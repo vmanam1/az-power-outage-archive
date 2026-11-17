@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-17 10:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 502
+    },
+    "outages": [
+        {
+            "latitude": 33.522005771635236,
+            "longitude": -112.05870311844578,
+            "city": "Phoenix",
+            "boundary": "Bethany Home Rd. to Montebello Ave. and 11th St. to 12th St.",
+            "customers": 39,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 23:23:00 MST",
+            "etr": "2026-11-17 05:15:00 MST"
+        },
+        {
+            "latitude": 32.69693440519253,
+            "longitude": -114.64204530183794,
+            "city": "Yuma",
+            "boundary": "16th Pl and Magnolia Ave",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-17 00:49:00 MST",
+            "etr": "2026-11-17 05:00:00 MST"
+        },
+        {
+            "latitude": 34.9065141457515,
+            "longitude": -111.4636199481228,
+            "city": "Mormon Lake",
+            "boundary": "Mormon Lake Rd and Lake Mary Rd",
+            "customers": 458,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-17 02:45:00 MST",
+            "etr": "2026-11-17 04:00:00 MST"
+        }
+    ]
+}
