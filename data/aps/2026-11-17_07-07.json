@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-17 07:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 560
+    },
+    "outages": [
+        {
+            "latitude": 34.9065141457515,
+            "longitude": -111.4636199481228,
+            "city": "Mormon Lake",
+            "boundary": "Camp Mardear to Forest Road 305 and Lake Mary Rd.",
+            "customers": 458,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-16 22:18:00 MST",
+            "etr": "2026-11-17 01:40:00 MST"
+        },
+        {
+            "latitude": 33.578905226874106,
+            "longitude": -111.95428681706701,
+            "city": "Paradise Valley",
+            "boundary": "Shea Blvd to Mountain View Rd and Montrose Way",
+            "customers": 21,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-16 23:15:00 MST",
+            "etr": "2026-11-17 01:50:00 MST"
+        },
+        {
+            "latitude": 33.643927353870765,
+            "longitude": -112.17879485803901,
+            "city": "Glendale",
+            "boundary": "Saint John Rd to Angela Dr and 56th Ave to 55th Dr",
+            "customers": 42,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-16 23:19:00 MST",
+            "etr": "2026-11-17 01:55:00 MST"
+        },
+        {
+            "latitude": 33.522005771635236,
+            "longitude": -112.05870311844578,
+            "city": "Phoenix",
+            "boundary": "Bethany Home Rd. to Montebello Ave. and 11th St. to 12th St.",
+            "customers": 39,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-16 23:23:00 MST",
+            "etr": "2026-11-17 05:15:00 MST"
+        }
+    ]
+}
