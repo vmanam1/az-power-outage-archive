@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-17 01:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 249
+    },
+    "outages": [
+        {
+            "latitude": 33.541385726749226,
+            "longitude": -112.07033051622469,
+            "city": "Phoenix",
+            "boundary": "Palmaire Ave to Glenn Dr and Central Ave to 2nd Pl",
+            "customers": 7,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-11-16 12:09:00 MST",
+            "etr": "2026-11-16 19:00:00 MST"
+        },
+        {
+            "latitude": 35.32106485074247,
+            "longitude": -112.95388022974839,
+            "city": "Seligman",
+            "boundary": "Historic Rte 66 to Purple Heart Trl and Loma Vista Ln to Sunrise Ln",
+            "customers": 222,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-16 15:00:00 MST",
+            "etr": "2026-11-16 19:00:00 MST"
+        },
+        {
+            "latitude": 33.65879131793602,
+            "longitude": -112.09473429835342,
+            "city": "Phoenix",
+            "boundary": "Taro Ln. to Wescott Dr. and 17th Ave. to 15th Dr.",
+            "customers": 20,
+            "cause": "Transformer replacement",
+            "comments": "Our crews are working to restore the outage caused by a damaged transformer.",
+            "start_time": "2026-11-16 17:22:00 MST",
+            "etr": "2026-11-16 19:40:00 MST"
+        }
+    ]
+}
