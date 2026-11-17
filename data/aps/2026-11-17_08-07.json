@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-17 08:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 368
+    },
+    "outages": [
+        {
+            "latitude": 33.643927353870765,
+            "longitude": -112.17879485803901,
+            "city": "Glendale",
+            "boundary": "Saint John Rd to Angela Dr and 56th Ave to 55th Dr",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-16 23:19:00 MST",
+            "etr": "2026-11-17 01:55:00 MST"
+        },
+        {
+            "latitude": 33.522005771635236,
+            "longitude": -112.05870311844578,
+            "city": "Phoenix",
+            "boundary": "Bethany Home Rd. to Montebello Ave. and 11th St. to 12th St.",
+            "customers": 39,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-16 23:23:00 MST",
+            "etr": "2026-11-17 05:15:00 MST"
+        },
+        {
+            "latitude": 33.77750029991848,
+            "longitude": -111.97812500012992,
+            "city": "Cave Creek",
+            "boundary": "Black Mountain Pkwy To Montgomery Rd And 40Th St To 56Th St",
+            "customers": 298,
+            "cause": "Storm/Weather",
+            "comments": "Severe weather in the area has damaged equipment. We are working to restore power as quickly and safely as possible.",
+            "start_time": "2026-11-17 00:17:00 MST",
+            "etr": "2026-11-17 02:35:00 MST"
+        },
+        {
+            "latitude": 32.69693440519253,
+            "longitude": -114.64204530183794,
+            "city": "Yuma",
+            "boundary": "16th Pl and Magnolia Ave",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-17 00:49:00 MST",
+            "etr": "2026-11-17 05:00:00 MST"
+        }
+    ]
+}
