@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-18 08:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 86
+    },
+    "outages": [
+        {
+            "latitude": 33.3106814182833,
+            "longitude": -111.866450471465,
+            "boundary": "N DOBSON  RD TO N ALMA SCHOOL  RD AND W RAY  RD TO W CHANDLER  BLVD",
+            "customers": 49,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-18 07:13 MST",
+            "etr": "2026-11-18 09:13 MST"
+        },
+        {
+            "latitude": 33.506763669384355,
+            "longitude": -111.904812783699,
+            "boundary": "N HAYDEN  RD TO N GRANITE REEF  RD AND E JACKRABBIT  RD TO E CAMELBACK  RD",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-18 07:32 MST",
+            "etr": "2026-11-18 14:00 MST"
+        },
+        {
+            "latitude": 33.4241468942074,
+            "longitude": -111.6201973066495,
+            "boundary": "N 96TH  ST TO N CRISMON  RD AND E ADOBE  RD TO E APACHE  TRL",
+            "customers": 26,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-18 08:04 MST",
+            "etr": "2026-11-18 12:02 MST"
+        }
+    ]
+}
