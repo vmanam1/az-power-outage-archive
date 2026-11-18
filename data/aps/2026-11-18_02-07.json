@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-18 02:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 836
+    },
+    "outages": [
+        {
+            "latitude": 33.63515800018828,
+            "longitude": -112.14912670041035,
+            "city": "Phoenix",
+            "boundary": "Cathy Cl To Acoma Dr And Kings Ave To 35Th Ave",
+            "customers": 836,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-17 18:21:00 MST",
+            "etr": "2026-11-17 20:35:00 MST"
+        }
+    ]
+}
