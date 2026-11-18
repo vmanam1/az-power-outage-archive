@@ -1,0 +1,92 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-18 16:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 7,
+        "customers_affected": 17,
+        "total_customers": 58078
+    },
+    "outages": [
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        },
+        {
+            "latitude": 32.29852668156498,
+            "longitude": -111.25715643744554,
+            "customers": 1,
+            "cause": "10 CONSTRUCTION",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley South",
+            "start_time": "2026-11-18 08:01:04 MST",
+            "etr": "2026-11-18 13:00:00 MST",
+            "incident_id": "390366"
+        },
+        {
+            "latitude": 32.43489715735015,
+            "longitude": -110.78938570263374,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Mt Lemmon",
+            "start_time": "2026-11-18 06:18:28 MST",
+            "etr": null,
+            "incident_id": "390443"
+        },
+        {
+            "latitude": 32.43375988112435,
+            "longitude": -111.07172619647179,
+            "customers": 6,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-11-18 08:30:21 MST",
+            "etr": "2026-11-18 10:00:00 MST",
+            "incident_id": "390399"
+        },
+        {
+            "latitude": 32.45666185914138,
+            "longitude": -111.07095364532735,
+            "customers": 6,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-11-18 13:00:00 MST",
+            "etr": "2026-11-18 15:00:00 MST",
+            "incident_id": "390400"
+        },
+        {
+            "latitude": 31.77783333255922,
+            "longitude": -110.81753890364196,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Madera Canyon",
+            "start_time": "2026-11-18 11:41:38 MST",
+            "etr": null,
+            "incident_id": "390447"
+        },
+        {
+            "latitude": 31.988696815743044,
+            "longitude": -110.77738421043621,
+            "customers": 1,
+            "cause": "60 BIRDS/SMALL",
+            "comments": null,
+            "boundary": "Corona de Tucson",
+            "start_time": "2026-11-18 14:29:37 MST",
+            "etr": "2026-11-18 17:29:37 MST",
+            "incident_id": "390449"
+        }
+    ]
+}
