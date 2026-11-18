@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-18 07:07:04 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 578,
+        "total_customers": 58078
+    },
+    "outages": [
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        },
+        {
+            "latitude": 32.43489715735015,
+            "longitude": -110.78938570263374,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Mt Lemmon",
+            "start_time": "2026-11-18 06:18:28 MST",
+            "etr": null,
+            "incident_id": "390443"
+        },
+        {
+            "latitude": 32.44019667537855,
+            "longitude": -110.7860349866235,
+            "customers": 576,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Mt Lemmon",
+            "start_time": "2026-11-18 06:00:00 MST",
+            "etr": "2026-11-18 16:30:00 MST",
+            "incident_id": "390415"
+        }
+    ]
+}
