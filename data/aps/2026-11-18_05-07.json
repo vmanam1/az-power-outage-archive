@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-18 05:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 152
+    },
+    "outages": [
+        {
+            "latitude": 33.63515800018828,
+            "longitude": -112.14912670041035,
+            "city": "Phoenix",
+            "boundary": "Cathy Cl To Acoma Dr And Kings Ave To 35Th Ave",
+            "customers": 152,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-11-17 18:21:00 MST",
+            "etr": "2026-11-18 00:00:00 MST"
+        }
+    ]
+}
