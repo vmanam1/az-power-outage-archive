@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-17 22:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.483358288646,
+            "longitude": -111.753287298545,
+            "boundary": "N GILBERT  RD TO N 40TH  ST AND E BEELINE  HWY TO E THOMAS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 21:03 MST",
+            "etr": "2026-11-18 05:00 MST"
+        },
+        {
+            "latitude": 33.4661010153204,
+            "longitude": -111.92093749587801,
+            "boundary": "N SCOTTSDALE  RD TO N 76TH  ST AND E OAK  ST TO E ROOSEVELT  ST",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 21:15 MST",
+            "etr": "2026-11-18 02:00 MST"
+        },
+        {
+            "latitude": 33.300580498294096,
+            "longitude": -111.898159955011,
+            "boundary": "S CHANDLER VILLAGE  DR TO S PRICE  FWY AND W CHANDLER  BLVD TO W FRYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 21:54 MST",
+            "etr": "2026-11-17 23:56 MST"
+        }
+    ]
+}
