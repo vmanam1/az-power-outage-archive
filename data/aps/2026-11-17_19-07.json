@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-17 19:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 33.37810098001284,
+            "longitude": -112.55953447333881,
+            "city": "Buckeye",
+            "boundary": "Salome Highway to Pearl Harbor Mem Highway and Ave 72 E to Salome Rd",
+            "customers": 8,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-17 03:12:00 MST",
+            "etr": "2026-11-17 12:30:00 MST"
+        }
+    ]
+}

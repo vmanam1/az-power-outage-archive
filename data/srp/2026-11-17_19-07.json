@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-17 19:07:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 14
+    },
+    "outages": [
+        {
+            "latitude": 33.5146717104262,
+            "longitude": -110.864859879286,
+            "boundary": "N HWY 188   TO UNKNOWN AND NORTHERN BOUNDS OF SERVICE TERRITORY TO E US HIGHWAY 60  ",
+            "customers": 1,
+            "cause": "Downed power lines",
+            "comments": "Power lines are down in the area. SRP crews are working to restore power.",
+            "start_time": "2026-11-17 14:07 MST",
+            "etr": "2026-11-17 20:06 MST"
+        },
+        {
+            "latitude": 33.4520587138225,
+            "longitude": -112.219735447221,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W ROOSEVELT  ST TO W BUCKEYE  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 18:28 MST",
+            "etr": "2026-11-17 23:00 MST"
+        },
+        {
+            "latitude": 33.2183500784145,
+            "longitude": -111.879574487068,
+            "boundary": "S SUN LAKES  BLVD TO S DOBSON  RD AND W CHANDLER HEIGHTS  RD TO E HUNT  HWY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 18:36 MST",
+            "etr": "2026-11-17 21:30 MST"
+        },
+        {
+            "latitude": 33.564919331473305,
+            "longitude": -112.144488815673,
+            "boundary": "N 43RD  AVE TO N 35TH  AVE AND W DUNLAP  AVE TO W BUTLER  DR",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-17 18:01 MST",
+            "etr": "2026-11-17 20:00 MST"
+        }
+    ]
+}
