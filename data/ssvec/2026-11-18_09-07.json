@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SSVEC",
+        "scraped_at": "2026-11-18 09:07:24 MST",
+        "source": "SSVEC ArcGIS Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "incident_id": 21523,
+            "latitude": 31.971999971318205,
+            "longitude": -110.31869301855204,
+            "city": "Benson",
+            "customers": 2,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-11-18 08:57:11 MST",
+            "etr": "2026-11-18 11:57:11 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 21518,
+            "latitude": 31.559049036412862,
+            "longitude": -110.30152108303412,
+            "city": "Sierra Vista",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-11-18 07:24:49 MST",
+            "etr": "2026-11-18 10:24:49 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 21521,
+            "latitude": 31.9942899996236,
+            "longitude": -109.89568699973573,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Investigating",
+            "comments": "Power Out",
+            "start_time": "2026-11-18 08:48:41 MST",
+            "etr": "2026-11-18 11:48:41 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 21520,
+            "latitude": 32.29035639738747,
+            "longitude": -109.90023149857407,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-11-18 08:38:00 MST",
+            "etr": "2026-11-18 11:38:00 MST",
+            "restored_time": null
+        },
+        {
+            "incident_id": 21519,
+            "latitude": 32.29140731505738,
+            "longitude": -109.89943756952397,
+            "city": "Willcox",
+            "customers": 1,
+            "cause": "Planned Outage",
+            "comments": "Power Out",
+            "start_time": "2026-11-18 08:38:00 MST",
+            "etr": "2026-11-18 11:38:00 MST",
+            "restored_time": null
+        }
+    ]
+}
