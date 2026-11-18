@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-17 23:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1646
+    },
+    "outages": [
+        {
+            "latitude": 33.61287709998961,
+            "longitude": -112.38675520024891,
+            "city": "Surprise",
+            "boundary": "Paradise Ln. to Waddell Rd. and Sarival Rd. to Bullard Ave.",
+            "customers": 1646,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-17 15:25:00 MST",
+            "etr": "2026-11-17 17:45:00 MST"
+        }
+    ]
+}
