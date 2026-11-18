@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-18 12:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 61
+    },
+    "outages": [
+        {
+            "latitude": 35.283501093244425,
+            "longitude": -111.50828655290664,
+            "city": "Flagstaff",
+            "boundary": "Mcgee Rd to Neptune Dr and Patriot Dr to Stardust Trail",
+            "customers": 61,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-18 04:23:00 MST",
+            "etr": "2026-11-18 07:55:00 MST"
+        }
+    ]
+}
