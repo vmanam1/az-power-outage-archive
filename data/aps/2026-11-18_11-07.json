@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-18 11:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 21
+    },
+    "outages": [
+        {
+            "latitude": 33.46050297807606,
+            "longitude": -112.06786471622827,
+            "city": "Phoenix",
+            "boundary": "Portland St and 5th St",
+            "customers": 5,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-18 01:32:00 MST",
+            "etr": "2026-11-18 05:05:00 MST"
+        },
+        {
+            "latitude": 34.79120219110415,
+            "longitude": -112.53630339060953,
+            "city": "Prescott",
+            "boundary": "Saint John Rd to Angela Dr and 37th Dr to 36th Dr",
+            "customers": 16,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-18 02:07:00 MST",
+            "etr": "2026-11-18 04:25:00 MST"
+        }
+    ]
+}
