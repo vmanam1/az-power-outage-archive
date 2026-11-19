@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-19 07:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 79
+    },
+    "outages": [
+        {
+            "latitude": 33.95340356329487,
+            "longitude": -112.70039804707831,
+            "city": "Wickenburg",
+            "boundary": "297th Ave to 295th Ave and Us 60 to 293rd Ave",
+            "customers": 79,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-19 00:00:00 MST",
+            "etr": "2026-11-19 02:30:00 MST"
+        }
+    ]
+}
