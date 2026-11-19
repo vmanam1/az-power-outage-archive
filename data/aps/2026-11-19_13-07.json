@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-19 13:07:04 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 216
+    },
+    "outages": [
+        {
+            "latitude": 34.50338956200683,
+            "longitude": -111.8324191333099,
+            "city": "Camp Verde",
+            "boundary": "Salt Mine Rd and Squaw Peak Rd",
+            "customers": 167,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-19 01:04:00 MST",
+            "etr": "2026-11-19 07:00:00 MST"
+        },
+        {
+            "latitude": 33.64815514872696,
+            "longitude": -112.01885018911251,
+            "city": "Phoenix",
+            "boundary": "28th St and Grovers Ave",
+            "customers": 49,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-19 05:16:00 MST",
+            "etr": "2026-11-19 09:00:00 MST"
+        }
+    ]
+}
