@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-19 12:07:20 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 82
+    },
+    "outages": [
+        {
+            "latitude": 33.46096114797255,
+            "longitude": -112.0049479748325,
+            "boundary": "N 32ND  ST TO N 40TH  ST AND E MCDOWELL  RD TO E ROOSEVELT  ST",
+            "customers": 11,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-19 09:22 MST",
+            "etr": "2026-11-19 14:00 MST"
+        },
+        {
+            "latitude": 33.4152973169185,
+            "longitude": -111.8596118366075,
+            "boundary": "N LONGMORE   TO N ALMA SCHOOL  RD AND W UNIVERSITY  DR TO W BROADWAY  RD",
+            "customers": 2,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-19 09:39 MST",
+            "etr": "2026-11-19 14:35 MST"
+        },
+        {
+            "latitude": 33.5692730630643,
+            "longitude": -111.748200792973,
+            "boundary": "N 140TH  ST TO N BEELINE  HWY AND E SHEA  BLVD TO E BEELINE  HWY",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-19 10:01 MST",
+            "etr": "2026-11-19 14:30 MST"
+        },
+        {
+            "latitude": 33.482057795675004,
+            "longitude": -112.173801511189,
+            "boundary": "N 55TH  AVE TO N 51ST  AVE AND W OSBORN  RD TO W ENCANTO  BLVD",
+            "customers": 7,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-19 10:28 MST",
+            "etr": "2026-11-19 12:22 MST"
+        },
+        {
+            "latitude": 33.568520882407554,
+            "longitude": -112.26033121820899,
+            "boundary": "N 95TH  AVE TO N AGUA FRIA  FWY AND W MOUNTAIN VIEW  RD TO W BUTLER  DR",
+            "customers": 31,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-19 11:10 MST",
+            "etr": "2026-11-19 13:12 MST"
+        },
+        {
+            "latitude": 33.5019513827352,
+            "longitude": -111.994641941416,
+            "boundary": "N 36TH  ST TO N 44TH  ST AND E CAMELBACK  RD TO E INDIAN SCHOOL  RD",
+            "customers": 30,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-19 12:03 MST",
+            "etr": "2026-11-19 14:00 MST"
+        }
+    ]
+}
