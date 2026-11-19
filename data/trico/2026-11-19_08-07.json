@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-19 08:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 9,
+        "customers_affected": 15,
+        "total_customers": 58071
+    },
+    "outages": [
+        {
+            "latitude": 32.31378780818435,
+            "longitude": -111.25115569134681,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-11-19 07:00:00 MST",
+            "etr": "2026-11-19 12:00:00 MST",
+            "incident_id": "390417"
+        },
+        {
+            "latitude": 32.0468424619132,
+            "longitude": -111.23508483091166,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Three Points",
+            "start_time": "2026-11-19 08:00:00 MST",
+            "etr": "2026-11-19 13:00:00 MST",
+            "incident_id": "390485"
+        },
+        {
+            "latitude": 32.29959732203486,
+            "longitude": -111.25797390435422,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley South",
+            "start_time": "2026-11-19 08:00:00 MST",
+            "etr": "2026-11-19 14:00:00 MST",
+            "incident_id": "390420"
+        },
+        {
+            "latitude": 31.885789168770653,
+            "longitude": -111.01097313379833,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Green Valley",
+            "start_time": "2026-11-19 07:46:46 MST",
+            "etr": null,
+            "incident_id": "390486"
+        },
+        {
+            "latitude": 32.24768328693548,
+            "longitude": -111.23928894644193,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Milewide Rd",
+            "start_time": "2026-11-02 07:16:55 MST",
+            "etr": null,
+            "incident_id": "390234"
+        },
+        {
+            "latitude": 32.45672249882446,
+            "longitude": -111.07402588359946,
+            "customers": 1,
+            "cause": "19 OTHER SCHEDULED (SEE REMARKS)",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-11-19 07:50:14 MST",
+            "etr": null,
+            "incident_id": "390487"
+        },
+        {
+            "latitude": 32.42648855610767,
+            "longitude": -111.06412644916708,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Dove Mountain",
+            "start_time": "2026-11-19 07:50:14 MST",
+            "etr": null,
+            "incident_id": "390488"
+        },
+        {
+            "latitude": 32.471896296180766,
+            "longitude": -111.12460103410243,
+            "customers": 7,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Dove Mountain",
+            "start_time": "2026-11-19 08:00:00 MST",
+            "etr": "2026-11-19 10:00:00 MST",
+            "incident_id": "390401"
+        },
+        {
+            "latitude": 31.77783333255922,
+            "longitude": -110.81753890364196,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Madera Canyon",
+            "start_time": "2026-11-18 11:41:38 MST",
+            "etr": null,
+            "incident_id": "390447"
+        }
+    ]
+}

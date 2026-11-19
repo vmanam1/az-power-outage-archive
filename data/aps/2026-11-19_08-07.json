@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-19 08:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 69
+    },
+    "outages": [
+        {
+            "latitude": 33.39988911435145,
+            "longitude": -110.86295674508881,
+            "city": "Miami",
+            "boundary": "Grandview Ave to Pinal St and Hillcrest Ave to Gregory Ave",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-19 00:41:00 MST",
+            "etr": "2026-11-19 06:30:00 MST"
+        },
+        {
+            "latitude": 33.66857618609212,
+            "longitude": -112.29828071810913,
+            "city": "Sun City",
+            "boundary": "110th Ave to Beardsley Rd and 127th Ave to 108th Ln",
+            "customers": 56,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-19 00:50:00 MST",
+            "etr": "2026-11-19 03:20:00 MST"
+        }
+    ]
+}
