@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-19 03:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 36
+    },
+    "outages": [
+        {
+            "latitude": 33.49917423822918,
+            "longitude": -112.07720861272462,
+            "city": "Phoenix",
+            "boundary": "Montecito Ave. to Glenrosa Ave. and 3rd Ave. to 2nd Ave.",
+            "customers": 36,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-18 17:05:00 MST",
+            "etr": "2026-11-18 22:15:00 MST"
+        }
+    ]
+}
