@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-19 10:07:04 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 180
+    },
+    "outages": [
+        {
+            "latitude": 33.39988911435145,
+            "longitude": -110.86295674508881,
+            "city": "Miami",
+            "boundary": "Grandview Ave to Pinal St and Hillcrest Ave to Gregory Ave",
+            "customers": 13,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-19 00:41:00 MST",
+            "etr": "2026-11-19 06:30:00 MST"
+        },
+        {
+            "latitude": 34.50338956200683,
+            "longitude": -111.8324191333099,
+            "city": "Camp Verde",
+            "boundary": "Salt Mine Rd and Squaw Peak Rd",
+            "customers": 167,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-19 01:04:00 MST",
+            "etr": "2026-11-19 07:00:00 MST"
+        }
+    ]
+}
