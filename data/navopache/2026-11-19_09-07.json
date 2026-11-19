@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-19 09:07:54 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1,
+        "total_customers": 46002
+    },
+    "outages": [
+        {
+            "latitude": 34.110283231718974,
+            "longitude": -109.92651793950544,
+            "customers": 1,
+            "cause": "MEMBER REQUESTED",
+            "comments": "UPGD Member requested disconnect to upgrade their panel",
+            "boundary": "2 - Pinetop",
+            "start_time": "2026-11-19 08:22:05 MST",
+            "etr": null,
+            "incident_id": "536171"
+        }
+    ]
+}
