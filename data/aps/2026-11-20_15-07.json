@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-20 15:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 34.380279355838674,
+            "longitude": -111.45227192010904,
+            "city": "Pine",
+            "boundary": "Highway AZ 87 and West South Rd",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 05:02:00 MST",
+            "etr": "2026-11-20 10:00:00 MST"
+        },
+        {
+            "latitude": 33.674856157933945,
+            "longitude": -112.0578996742388,
+            "city": "Phoenix",
+            "boundary": "Potter Dr. and 12th St.",
+            "customers": 7,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-20 07:10:00 MST",
+            "etr": "2026-11-20 10:00:00 MST"
+        },
+        {
+            "latitude": 34.37867226611164,
+            "longitude": -111.45315147407845,
+            "city": "Pine",
+            "boundary": "South Rd. and Juniper Trl.",
+            "customers": 5,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 07:14:00 MST",
+            "etr": "2026-11-20 11:14:00 MST"
+        }
+    ]
+}

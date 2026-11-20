@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-20 15:07:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 144
+    },
+    "outages": [
+        {
+            "latitude": 33.4946019804505,
+            "longitude": -111.87380620431901,
+            "boundary": "N 92ND  ST TO N LONGMORE  RD AND E CAMELBACK  RD TO E OSBORN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-20 11:41 MST",
+            "etr": "2026-11-20 15:36 MST"
+        },
+        {
+            "latitude": 33.4158388436686,
+            "longitude": -111.713158025296,
+            "boundary": "N HIGLEY  RD TO S 56TH  ST AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-20 12:25 MST",
+            "etr": "2026-11-20 15:24 MST"
+        },
+        {
+            "latitude": 33.3927623857991,
+            "longitude": -111.6988728763535,
+            "boundary": "S HIGLEY  RD TO S POWER  RD AND E BROADWAY  RD TO E BASELINE  RD",
+            "customers": 142,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-20 14:18 MST",
+            "etr": "2026-11-20 16:18 MST"
+        }
+    ]
+}
