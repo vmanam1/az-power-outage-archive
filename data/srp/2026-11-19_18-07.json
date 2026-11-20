@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-19 18:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.521765596169146,
+            "longitude": -112.03520584563,
+            "boundary": "N 20TH  ST TO N 24TH  ST AND E BETHANY HOME  RD TO E MISSOURI  AVE",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-19 16:44 MST",
+            "etr": "2026-11-19 18:50 MST"
+        }
+    ]
+}
