@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-19 17:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 89
+    },
+    "outages": [
+        {
+            "latitude": 33.4734860511321,
+            "longitude": -112.00990500191949,
+            "boundary": "N 28TH  ST TO N 36TH  ST AND E THOMAS  RD TO E MCDOWELL  RD",
+            "customers": 63,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-19 15:46 MST",
+            "etr": "2026-11-19 17:17 MST"
+        },
+        {
+            "latitude": 33.40119581553865,
+            "longitude": -111.854341582369,
+            "boundary": "S LONGMORE   TO S EXTENSION  RD AND W BROADWAY  RD TO W SOUTHERN  AVE",
+            "customers": 23,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-19 16:43 MST",
+            "etr": "2026-11-19 18:41 MST"
+        },
+        {
+            "latitude": 33.521765596169146,
+            "longitude": -112.03520584563,
+            "boundary": "N 20TH  ST TO N 24TH  ST AND E BETHANY HOME  RD TO E MISSOURI  AVE",
+            "customers": 3,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-19 16:44 MST",
+            "etr": "2026-11-19 18:29 MST"
+        }
+    ]
+}
