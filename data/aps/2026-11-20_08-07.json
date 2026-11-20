@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-20 08:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 384
+    },
+    "outages": [
+        {
+            "latitude": 34.50952696830864,
+            "longitude": -110.07333817628637,
+            "city": "Snowflake",
+            "boundary": "3rd Street North to Main St and 2nd West St to Larson Ln",
+            "customers": 343,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-20 00:16:00 MST",
+            "etr": "2026-11-20 03:40:00 MST"
+        },
+        {
+            "latitude": 33.449092871247636,
+            "longitude": -112.10708105802871,
+            "city": "Phoenix",
+            "boundary": "Adams St to Washinton St and Black Canyon Way to 21st Ave",
+            "customers": 31,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 00:35:00 MST",
+            "etr": "2026-11-20 06:30:00 MST"
+        },
+        {
+            "latitude": 34.02484256919784,
+            "longitude": -112.80412970105652,
+            "city": "Wickenburg",
+            "boundary": "AZ 89 and Wickenburg Ranch Way",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 00:40:00 MST",
+            "etr": "2026-11-20 04:00:00 MST"
+        }
+    ]
+}
