@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-20 14:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 53
+    },
+    "outages": [
+        {
+            "latitude": 33.449092871247636,
+            "longitude": -112.10708105802871,
+            "city": "Phoenix",
+            "boundary": "Adams St to Washinton St and Black Canyon Way to 21st Ave",
+            "customers": 31,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 00:35:00 MST",
+            "etr": "2026-11-20 07:55:00 MST"
+        },
+        {
+            "latitude": 34.380279355838674,
+            "longitude": -111.45227192010904,
+            "city": "Pine",
+            "boundary": "Highway AZ 87 and West South Rd",
+            "customers": 22,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 05:02:00 MST",
+            "etr": "2026-11-20 07:55:00 MST"
+        }
+    ]
+}
