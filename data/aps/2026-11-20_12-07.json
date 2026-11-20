@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-20 12:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 74
+    },
+    "outages": [
+        {
+            "latitude": 33.449092871247636,
+            "longitude": -112.10708105802871,
+            "city": "Phoenix",
+            "boundary": "Adams St to Washinton St and Black Canyon Way to 21st Ave",
+            "customers": 31,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 00:35:00 MST",
+            "etr": "2026-11-20 06:30:00 MST"
+        },
+        {
+            "latitude": 34.45923851383565,
+            "longitude": -110.07855402030313,
+            "city": "Taylor",
+            "boundary": "Love Lake Rd. to Sandstone Dr. and Suncrest Ln.",
+            "customers": 7,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-11-20 01:59:00 MST",
+            "etr": "2026-11-20 05:40:00 MST"
+        },
+        {
+            "latitude": 33.525014002064786,
+            "longitude": -112.0595433010529,
+            "city": "Phoenix",
+            "boundary": "Cavalier Dr to Bethany Home Rd and Rovey Ave to 11th St",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 04:28:00 MST",
+            "etr": "2026-11-20 05:50:00 MST"
+        },
+        {
+            "latitude": 34.840329429648655,
+            "longitude": -111.77309954737805,
+            "city": "Sedona",
+            "boundary": "Red Rock Scenic Byway and Siesta Way",
+            "customers": 30,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-20 04:46:00 MST",
+            "etr": "2026-11-20 08:00:00 MST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-20 12:07:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 48
+    },
+    "outages": [
+        {
+            "latitude": 33.471961179592654,
+            "longitude": -112.2008630146445,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W THOMAS  RD TO W MCDOWELL  RD",
+            "customers": 43,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-20 07:57 MST",
+            "etr": "2026-11-20 13:59 MST"
+        },
+        {
+            "latitude": 33.359328393227855,
+            "longitude": -111.6750600385405,
+            "boundary": "S POWER  RD TO S SOSSAMAN  RD AND E GUADALUPE  RD TO E ELLIOT  RD",
+            "customers": 4,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-20 11:36 MST",
+            "etr": "2026-11-20 13:36 MST"
+        },
+        {
+            "latitude": 33.4946019804505,
+            "longitude": -111.87380620431901,
+            "boundary": "N 92ND  ST TO N LONGMORE  RD AND E CAMELBACK  RD TO E OSBORN  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-20 11:41 MST",
+            "etr": "2026-11-20 15:36 MST"
+        }
+    ]
+}
