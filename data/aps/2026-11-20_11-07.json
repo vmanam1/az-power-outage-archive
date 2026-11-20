@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-20 11:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 5,
+        "customers_affected": 137
+    },
+    "outages": [
+        {
+            "latitude": 33.449092871247636,
+            "longitude": -112.10708105802871,
+            "city": "Phoenix",
+            "boundary": "Adams St to Washinton St and Black Canyon Way to 21st Ave",
+            "customers": 31,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 00:35:00 MST",
+            "etr": "2026-11-20 06:30:00 MST"
+        },
+        {
+            "latitude": 34.02484256919784,
+            "longitude": -112.80412970105652,
+            "city": "Wickenburg",
+            "boundary": "AZ 89 and Wickenburg Ranch Way",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 00:40:00 MST",
+            "etr": "2026-11-20 04:30:00 MST"
+        },
+        {
+            "latitude": 34.45923851383565,
+            "longitude": -110.07855402030313,
+            "city": "Taylor",
+            "boundary": "Love Lake Rd. to Sandstone Dr. and Suncrest Ln.",
+            "customers": 7,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-11-20 01:59:00 MST",
+            "etr": "2026-11-20 04:50:00 MST"
+        },
+        {
+            "latitude": 33.52429727922769,
+            "longitude": -112.05953731557817,
+            "city": "Phoenix",
+            "boundary": "Calle Mio and Bethany Home Rd",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 02:06:00 MST",
+            "etr": "2026-11-20 05:30:00 MST"
+        },
+        {
+            "latitude": 35.1876830656592,
+            "longitude": -111.67969594729053,
+            "city": "Flagstaff",
+            "boundary": "Route 66 to Handle Wy. and Northwestern St. to Kaibab Ln.",
+            "customers": 83,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-20 03:18:00 MST",
+            "etr": "2026-11-20 06:30:00 MST"
+        }
+    ]
+}
