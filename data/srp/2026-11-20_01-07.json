@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-20 01:07:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 33.461225982233344,
+            "longitude": -112.22001578796,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W MCDOWELL  RD TO W ROOSEVELT  ST",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-19 19:55 MST",
+            "etr": "2026-11-20 02:00 MST"
+        }
+    ]
+}
