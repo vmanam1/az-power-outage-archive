@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-20 00:07:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 33.461225982233344,
+            "longitude": -112.22001578796,
+            "boundary": "N 79TH  AVE TO N 71ST  AVE AND W MCDOWELL  RD TO W ROOSEVELT  ST",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-19 19:55 MST",
+            "etr": "2026-11-20 02:00 MST"
+        },
+        {
+            "latitude": 33.455298273273854,
+            "longitude": -111.91946632376201,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E ROOSEVELT  ST TO E MCKELLIPS  RD",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-11-19 23:59 MST",
+            "etr": "2026-11-20 01:52 MST"
+        },
+        {
+            "latitude": 33.455298273273854,
+            "longitude": -111.91946632376201,
+            "boundary": "N SCOTTSDALE  RD TO N HAYDEN  RD AND E ROOSEVELT  ST TO E MCKELLIPS  RD",
+            "customers": 10,
+            "cause": "Other outage cause",
+            "comments": "An electrical safety hazard has been identified. SRP crews are working to restore power.",
+            "start_time": "2026-11-19 23:59 MST",
+            "etr": "2026-11-20 01:52 MST"
+        }
+    ]
+}
