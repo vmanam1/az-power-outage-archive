@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-20 04:07:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 33.408486020181854,
+            "longitude": -111.981107842102,
+            "boundary": "S 44TH  ST TO S MARICOPA  FWY AND E MARICOPA  FWY TO E ROESER  RD",
+            "customers": 41,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-20 02:59 MST",
+            "etr": "2026-11-20 05:03 MST"
+        }
+    ]
+}
