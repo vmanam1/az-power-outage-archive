@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-20 02:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 95
+    },
+    "outages": [
+        {
+            "latitude": 33.45024703585818,
+            "longitude": -112.02105283573127,
+            "city": "Phoenix",
+            "boundary": "Van Buren ST. to Washington St. and 27th St. to 29th St.",
+            "customers": 33,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-19 15:06:00 MST",
+            "etr": "2026-11-19 21:00:00 MST"
+        },
+        {
+            "latitude": 33.54813702332528,
+            "longitude": -111.89320301807061,
+            "city": "Scottsdale",
+            "boundary": "Roadrunner Rd. to Via Del Valle and Via De La Siesta to Pima Rd.",
+            "customers": 62,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-19 15:48:00 MST",
+            "etr": "2026-11-19 20:15:00 MST"
+        }
+    ]
+}
