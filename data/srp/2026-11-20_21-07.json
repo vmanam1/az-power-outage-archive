@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-20 21:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 2
+    },
+    "outages": [
+        {
+            "latitude": 33.263769613841504,
+            "longitude": -111.8915123162765,
+            "boundary": "S PEARL HARBOR MEMORIAL  HWY TO S PRICE  RD AND W GERMANN  RD TO W OCOTILLO  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-20 20:48 MST",
+            "etr": "2026-11-20 23:35 MST"
+        }
+    ]
+}
