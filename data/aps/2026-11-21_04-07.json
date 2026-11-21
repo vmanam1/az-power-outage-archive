@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-21 04:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 64
+    },
+    "outages": [
+        {
+            "latitude": 34.699988000357145,
+            "longitude": -111.97602270431152,
+            "city": "Cottonwood",
+            "boundary": "Comanche Dr. to Mustang Dr. and Eastern Dr. to Verde View Dr.",
+            "customers": 64,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-20 16:53:00 MST",
+            "etr": "2026-11-20 22:00:00 MST"
+        }
+    ]
+}
