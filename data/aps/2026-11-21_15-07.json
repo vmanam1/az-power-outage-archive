@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-21 15:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 1395
+    },
+    "outages": [
+        {
+            "latitude": 33.601729976202,
+            "longitude": -112.00789561959992,
+            "city": "Phoenix",
+            "boundary": "Acoma Dr to Cactus Rd and 32nd St to 40th St",
+            "customers": 1395,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-21 07:58:00 MST",
+            "etr": "2026-11-21 11:40:00 MST"
+        }
+    ]
+}
