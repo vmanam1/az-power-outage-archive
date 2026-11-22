@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-22 07:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 87
+    },
+    "outages": [
+        {
+            "latitude": 34.59866228407834,
+            "longitude": -112.44442206661934,
+            "city": "Prescott",
+            "boundary": "Willow Lake Rd. to Lakeview Rd. and Timber Line Rd. to Simpson Ln.",
+            "customers": 87,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-21 22:41:00 MST",
+            "etr": "2026-11-22 02:05:00 MST"
+        }
+    ]
+}
