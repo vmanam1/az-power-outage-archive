@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-21 23:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 32
+    },
+    "outages": [
+        {
+            "latitude": 33.43011209901865,
+            "longitude": -111.5656245459,
+            "boundary": "N DELAWARE  DR TO N SAN MARCOS  DR AND W LOST DUTCHMAN  BLVD TO W SUPERSTITION  BLVD",
+            "customers": 32,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-21 22:36 MST",
+            "etr": "2026-11-22 00:18 MST"
+        }
+    ]
+}
