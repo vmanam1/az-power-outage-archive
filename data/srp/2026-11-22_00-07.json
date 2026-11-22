@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-22 00:07:04 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 393
+    },
+    "outages": [
+        {
+            "latitude": 33.14128076435455,
+            "longitude": -111.56697218635651,
+            "boundary": "UNKNOWN TO N ATTAWAY  RD AND W ROBERTS  RD TO SOUTHERN BOUNDS OF SERVICE TERRITORY",
+            "customers": 354,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-21 23:32 MST",
+            "etr": "2026-11-22 01:28 MST"
+        },
+        {
+            "latitude": 33.4168923859596,
+            "longitude": -112.1662266912185,
+            "boundary": "S 51ST  AVE TO S 47TH  AVE AND W LOWER BUCKEYE  RD TO W BROADWAY  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-21 23:53 MST",
+            "etr": "2026-11-22 04:44 MST"
+        },
+        {
+            "latitude": 33.5244056455024,
+            "longitude": -112.2026852582195,
+            "boundary": "N 71ST  AVE TO N 63RD  AVE AND W MARYLAND  AVE TO W MISSOURI  AVE",
+            "customers": 36,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-22 00:04 MST",
+            "etr": "2026-11-22 04:07 MST"
+        }
+    ]
+}
