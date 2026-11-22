@@ -1,0 +1,54 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-22 10:07:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 46
+    },
+    "outages": [
+        {
+            "latitude": 33.45285906058575,
+            "longitude": -111.9108702801995,
+            "boundary": "N MILLER  RD TO N GRANITE REEF  RD AND E ROOSEVELT  ST TO E WEBER  DR",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-22 07:13 MST",
+            "etr": "2026-11-22 11:30 MST"
+        },
+        {
+            "latitude": 33.2318752062872,
+            "longitude": -111.784131116557,
+            "boundary": "S GILBERT  RD TO S MUSTANG  DR AND E CHANDLER HEIGHTS  RD TO E CLOUD  RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-22 07:46 MST",
+            "etr": "2026-11-22 13:29 MST"
+        },
+        {
+            "latitude": 33.49289083116335,
+            "longitude": -112.0158047198765,
+            "boundary": "N 28TH  ST TO N 32ND  ST AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 37,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-22 08:59 MST",
+            "etr": "2026-11-22 11:00 MST"
+        },
+        {
+            "latitude": 33.4158520318546,
+            "longitude": -111.709178465869,
+            "boundary": "N HIGLEY  RD TO S RECKER  RD AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 1,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-22 09:45 MST",
+            "etr": "2026-11-22 11:49 MST"
+        }
+    ]
+}
