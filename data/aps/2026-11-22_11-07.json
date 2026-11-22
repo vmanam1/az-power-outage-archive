@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-22 11:07:04 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 10
+    },
+    "outages": [
+        {
+            "latitude": 31.416338194664835,
+            "longitude": -109.88238326220511,
+            "city": "Bisbee",
+            "boundary": "Cole Ave. to D'Autremont Ave. and Bisbee Rd. to Hovland St.",
+            "customers": 10,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-22 00:54:00 MST",
+            "etr": "2026-11-22 05:30:00 MST"
+        }
+    ]
+}
