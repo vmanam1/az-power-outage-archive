@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-22 09:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 8,
+        "customers_affected": 58
+    },
+    "outages": [
+        {
+            "latitude": 33.45285906058575,
+            "longitude": -111.9108702801995,
+            "boundary": "N MILLER  RD TO N GRANITE REEF  RD AND E ROOSEVELT  ST TO E WEBER  DR",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-22 07:13 MST",
+            "etr": "2026-11-22 11:30 MST"
+        },
+        {
+            "latitude": 33.5184828831173,
+            "longitude": -112.16900890289699,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W GRAND  AVE TO W CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-22 07:21 MST",
+            "etr": "2026-11-22 15:12 MST"
+        },
+        {
+            "latitude": 33.5181048180741,
+            "longitude": -112.16923520339,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W GRAND  AVE TO W CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-22 07:21 MST",
+            "etr": "2026-11-22 15:11 MST"
+        },
+        {
+            "latitude": 33.5180773345095,
+            "longitude": -112.169235123354,
+            "boundary": "N 55TH  AVE TO N 47TH  AVE AND W GRAND  AVE TO W CAMELBACK  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-22 07:22 MST",
+            "etr": "2026-11-22 15:10 MST"
+        },
+        {
+            "latitude": 33.13750775026675,
+            "longitude": -111.62386784598601,
+            "boundary": "N ELLSWORTH  AVE TO N THOMPSON  RD AND W JUDD  RD TO W ARIZONA FARMS  RD",
+            "customers": 5,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-11-21 23:32 MST",
+            "etr": "2026-11-22 10:00 MST"
+        },
+        {
+            "latitude": 33.13750775026675,
+            "longitude": -111.62386784598601,
+            "boundary": "N ELLSWORTH  AVE TO N THOMPSON  RD AND W JUDD  RD TO W ARIZONA FARMS  RD",
+            "customers": 5,
+            "cause": "Electrical equipment damage",
+            "comments": "Electrical equipment has been hit or damaged. SRP crews are working to restore power.",
+            "start_time": "2026-11-21 23:32 MST",
+            "etr": "2026-11-22 10:00 MST"
+        },
+        {
+            "latitude": 33.49289083116335,
+            "longitude": -112.0158047198765,
+            "boundary": "N 28TH  ST TO N 32ND  ST AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 37,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-22 08:59 MST",
+            "etr": "2026-11-22 10:55 MST"
+        },
+        {
+            "latitude": 33.2318752062872,
+            "longitude": -111.784131116557,
+            "boundary": "S GILBERT  RD TO S MUSTANG  DR AND E CHANDLER HEIGHTS  RD TO E CLOUD  RD",
+            "customers": 5,
+            "cause": "Other outage cause",
+            "comments": "A transformer has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-22 07:46 MST",
+            "etr": "2026-11-22 13:29 MST"
+        }
+    ]
+}
