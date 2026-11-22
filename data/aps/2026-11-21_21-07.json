@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-21 21:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 8
+    },
+    "outages": [
+        {
+            "latitude": 32.59051813176675,
+            "longitude": -114.7200012063984,
+            "city": "Somerton",
+            "boundary": "Gardenia St and Yucca St",
+            "customers": 8,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-21 13:52:00 MST",
+            "etr": "2026-11-21 17:20:00 MST"
+        }
+    ]
+}
