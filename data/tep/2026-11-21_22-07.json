@@ -1,0 +1,141 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-11-21 22:07:11 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 0,
+        "map_last_refreshed": "Nov 21, 10:07 PM"
+    },
+    "outages": [
+        {
+            "latitude": 32.3233178091551,
+            "longitude": -110.905630711032,
+            "boundary": {
+                "coordLatSW": "32.3233178091551",
+                "coordLngSW": "-110.905630711032",
+                "coordLatNE": "32.3233178091551",
+                "coordLngNE": "-110.905630711032",
+                "coordLatCenter": "32.32332",
+                "coordLngCenter": "-110.90563"
+            },
+            "customers": 0,
+            "cause": "Unable to Determine",
+            "comments": null,
+            "start_time": "2026-11-21 17:50 MST",
+            "etr": "2026-11-21 18:25 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 1190,
+            "last_update": "2026-11-21 18:45 MST"
+        },
+        {
+            "latitude": 32.3231602790025,
+            "longitude": -110.906015332324,
+            "boundary": {
+                "coordLatSW": "32.323160279002501",
+                "coordLngSW": "-110.906015332324",
+                "coordLatNE": "32.323160279002501",
+                "coordLngNE": "-110.906015332324",
+                "coordLatCenter": "32.323162",
+                "coordLngCenter": "-110.90601"
+            },
+            "customers": 0,
+            "cause": "Unable to Determine",
+            "comments": null,
+            "start_time": "2026-11-21 17:50 MST",
+            "etr": "2026-11-21 18:25 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 1059,
+            "last_update": "2026-11-21 18:44 MST"
+        },
+        {
+            "latitude": 32.2556507349844,
+            "longitude": -110.878638888673,
+            "boundary": {
+                "coordLatSW": "32.2556507349844",
+                "coordLngSW": "-110.878638888673",
+                "coordLatNE": "32.2556507349844",
+                "coordLngNE": "-110.878638888673",
+                "coordLatCenter": "32.25565",
+                "coordLngCenter": "-110.87864"
+            },
+            "customers": 0,
+            "cause": "Unable to Determine",
+            "comments": null,
+            "start_time": "2026-11-21 17:50 MST",
+            "etr": "2026-11-21 18:25 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 2060,
+            "last_update": "2026-11-21 18:44 MST"
+        },
+        {
+            "latitude": 32.3231006886676,
+            "longitude": -110.906017693581,
+            "boundary": {
+                "coordLatSW": "32.323100688667601",
+                "coordLngSW": "-110.90601769358101",
+                "coordLatNE": "32.323100688667601",
+                "coordLngNE": "-110.90601769358101",
+                "coordLatCenter": "32.3231",
+                "coordLngCenter": "-110.90602"
+            },
+            "customers": 0,
+            "cause": "Unable to Determine",
+            "comments": null,
+            "start_time": "2026-11-21 17:50 MST",
+            "etr": "2026-11-21 18:25 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 1517,
+            "last_update": "2026-11-21 18:45 MST"
+        },
+        {
+            "latitude": 32.3230413696997,
+            "longitude": -110.906020158026,
+            "boundary": {
+                "coordLatSW": "32.323041369699702",
+                "coordLngSW": "-110.906020158026",
+                "coordLatNE": "32.323041369699702",
+                "coordLngNE": "-110.906020158026",
+                "coordLatCenter": "32.32304",
+                "coordLngCenter": "-110.90602"
+            },
+            "customers": 0,
+            "cause": "Unable to Determine",
+            "comments": null,
+            "start_time": "2026-11-21 17:50 MST",
+            "etr": "2026-11-21 18:25 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 1682,
+            "last_update": "2026-11-21 18:45 MST"
+        },
+        {
+            "latitude": 32.2556497483578,
+            "longitude": -110.878584669332,
+            "boundary": {
+                "coordLatSW": "32.255649748357797",
+                "coordLngSW": "-110.878584669332",
+                "coordLatNE": "32.255649748357797",
+                "coordLngNE": "-110.878584669332",
+                "coordLatCenter": "32.25565",
+                "coordLngCenter": "-110.878586"
+            },
+            "customers": 0,
+            "cause": "Unable to Determine",
+            "comments": null,
+            "start_time": "2026-11-21 17:50 MST",
+            "etr": "2026-11-21 18:25 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 901,
+            "last_update": "2026-11-21 18:44 MST"
+        }
+    ]
+}
