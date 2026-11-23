@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-23 02:07:04 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 137
+    },
+    "outages": [
+        {
+            "latitude": 33.594735792969935,
+            "longitude": -112.0116065600386,
+            "city": "Phoenix",
+            "boundary": "Cactus Rd to 32nd St",
+            "customers": 6,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-22 15:14:00 MST",
+            "etr": "2026-11-22 20:45:00 MST"
+        },
+        {
+            "latitude": 33.502090736933226,
+            "longitude": -112.36050812995441,
+            "city": "Litchfield Park",
+            "boundary": "La Loma Ave. to Campbell Ave. and Litchfield Rd. to Old Litchfield Rd.",
+            "customers": 21,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-22 18:03:00 MST",
+            "etr": "2026-11-22 20:50:00 MST"
+        },
+        {
+            "latitude": 33.43867547984384,
+            "longitude": -112.0893357603641,
+            "city": "Phoenix",
+            "boundary": "Hadley St. to Buckeye Rd. and 15th Ave. to 11th Ave.",
+            "customers": 110,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-22 18:46:00 MST",
+            "etr": "2026-11-22 21:40:00 MST"
+        }
+    ]
+}
