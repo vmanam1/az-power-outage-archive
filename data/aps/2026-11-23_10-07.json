@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-23 10:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 3,
+        "customers_affected": 86
+    },
+    "outages": [
+        {
+            "latitude": 33.739065720181216,
+            "longitude": -112.38845042090304,
+            "city": "Surprise",
+            "boundary": "Desert Vista Tl. and 153rd Ave. to 151st Ave.",
+            "customers": 69,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-23 00:49:00 MST",
+            "etr": "2026-11-23 03:25:00 MST"
+        },
+        {
+            "latitude": 35.0424552519662,
+            "longitude": -110.72236979586299,
+            "city": "Winslow",
+            "boundary": "Hipkoe Dr. and Kathie Dr.",
+            "customers": 8,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-23 02:00:00 MST",
+            "etr": "2026-11-23 05:15:00 MST"
+        },
+        {
+            "latitude": 34.06594833369989,
+            "longitude": -112.14894752603703,
+            "city": "Black Canyon City",
+            "boundary": "K-Mine Rd. to Mud Springs Rd. and Old Black Canyon Hwy. to Albins St.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-23 02:09:00 MST",
+            "etr": "2026-11-23 05:00:00 MST"
+        }
+    ]
+}
