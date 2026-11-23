@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-23 14:07:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.4908864856158,
+            "longitude": -111.99844946188199,
+            "boundary": "N 36TH  ST TO N 44TH  ST AND E INDIAN SCHOOL  RD TO E OSBORN  RD",
+            "customers": 24,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-23 10:44 MST",
+            "etr": "2026-11-23 14:41 MST"
+        }
+    ]
+}
