@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-23 11:07:54 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 34.06594833369989,
+            "longitude": -112.14894752603703,
+            "city": "Black Canyon City",
+            "boundary": "K-Mine Rd. to Mud Springs Rd. and Old Black Canyon Hwy. to Albins St.",
+            "customers": 9,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-23 02:09:00 MST",
+            "etr": "2026-11-23 05:00:00 MST"
+        },
+        {
+            "latitude": 33.66304176782936,
+            "longitude": -112.08530319969748,
+            "city": "Phoenix",
+            "boundary": "Oraibi Dr. to Utopia Rd. and 13th Ave. to 7th Ave.",
+            "customers": 32,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-23 03:45:00 MST",
+            "etr": "2026-11-23 06:40:00 MST"
+        }
+    ]
+}
