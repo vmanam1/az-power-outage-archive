@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-23 09:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 22
+    },
+    "outages": [
+        {
+            "latitude": 33.739065720181216,
+            "longitude": -112.38845042090304,
+            "city": "Surprise",
+            "boundary": "Desert Vista Tl. and 153rd Ave. to 151st Ave.",
+            "customers": 16,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-23 00:49:00 MST",
+            "etr": "2026-11-23 03:25:00 MST"
+        },
+        {
+            "latitude": 33.60775859798987,
+            "longitude": -112.03553372123041,
+            "city": "Phoenix",
+            "boundary": "Sweetwater Ave. and Cave Creek Rd. to 22nd St.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-23 00:27:00 MST",
+            "etr": "2026-11-23 03:55:00 MST"
+        }
+    ]
+}
