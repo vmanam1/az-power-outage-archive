@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-22 18:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 33.67905845296665,
+            "longitude": -112.33970206819924,
+            "city": "Sun City West",
+            "boundary": "Ballad Dr. to Blue Sky Dr. and Sunglow Dr. to Aurora Dr.",
+            "customers": 40,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-22 10:47:00 MST",
+            "etr": "2026-11-22 13:40:00 MST"
+        }
+    ]
+}
