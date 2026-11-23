@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-23 03:07:22 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 37
+    },
+    "outages": [
+        {
+            "latitude": 33.502090736933226,
+            "longitude": -112.36050812995441,
+            "city": "Litchfield Park",
+            "boundary": "La Loma Ave. to Campbell Ave. and Litchfield Rd. to Old Litchfield Rd.",
+            "customers": 5,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-22 18:03:00 MST",
+            "etr": "2026-11-22 20:50:00 MST"
+        },
+        {
+            "latitude": 33.64932597073076,
+            "longitude": -112.19987418730365,
+            "city": "Glendale",
+            "boundary": "Union Hills Dr to Robert Lee St and 67th Ave to Wagoner Rd",
+            "customers": 32,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-22 19:20:00 MST",
+            "etr": "2026-11-22 22:10:00 MST"
+        }
+    ]
+}
