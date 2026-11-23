@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-23 16:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.2482793188413,
+            "longitude": -111.595401749626,
+            "boundary": "S SIGNAL BUTTE  RD TO S 228TH  ST AND E APPLEBY  RD TO E CLOUD  RD",
+            "customers": 2,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-23 14:21 MST",
+            "etr": "2026-11-23 17:30 MST"
+        },
+        {
+            "latitude": 33.448367598968204,
+            "longitude": -111.73191630152,
+            "boundary": "N GREENFIELD  RD TO N 48TH  ST AND E MCKELLIPS  RD TO E MCLELLAN  RD",
+            "customers": 1,
+            "cause": "Other outage cause",
+            "comments": "Electrical equipment has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-23 14:47 MST",
+            "etr": "2026-11-23 18:30 MST"
+        }
+    ]
+}
