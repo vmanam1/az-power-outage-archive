@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-22 19:07:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 28
+    },
+    "outages": [
+        {
+            "latitude": 33.38830095343545,
+            "longitude": -112.319614297584,
+            "boundary": "S EL MIRAGE  RD TO S 119TH  AVE AND W BROADWAY  RD TO W INDIAN SPRINGS  RD",
+            "customers": 28,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-22 15:10 MST",
+            "etr": "2026-11-22 23:59 MST"
+        }
+    ]
+}
