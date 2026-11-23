@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "TEP",
+        "scraped_at": "2026-11-22 21:07:11 MST",
+        "source": "TEP Outage Map Feed",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 0,
+        "map_last_refreshed": "Nov 22, 9:06 PM"
+    },
+    "outages": [
+        {
+            "latitude": 32.2354514933989,
+            "longitude": -110.719709695703,
+            "boundary": {
+                "coordLatSW": "32.235451493398898",
+                "coordLngSW": "-110.719709695703",
+                "coordLatNE": "32.235451493398898",
+                "coordLngNE": "-110.719709695703",
+                "coordLatCenter": "32.23545",
+                "coordLngCenter": "-110.71971"
+            },
+            "customers": 0,
+            "cause": "Poles/Wire Down",
+            "comments": null,
+            "start_time": "2026-11-22 04:24 MST",
+            "etr": "2026-11-22 07:22 MST",
+            "event": "Restored",
+            "division": "TEP",
+            "customers_restored": 80,
+            "last_update": "2026-11-22 07:40 MST"
+        }
+    ]
+}
