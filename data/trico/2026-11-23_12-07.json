@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-23 12:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 11,
+        "total_customers": 58070
+    },
+    "outages": [
+        {
+            "latitude": 32.31378780818435,
+            "longitude": -111.25115569134681,
+            "customers": 1,
+            "cause": "10 CONSTRUCTION",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-11-19 07:40:44 MST",
+            "etr": "2026-11-19 12:00:00 MST",
+            "incident_id": "390417"
+        },
+        {
+            "latitude": 32.09641303140943,
+            "longitude": -111.22448471055759,
+            "customers": 3,
+            "cause": "11 MAINTENANCE",
+            "comments": null,
+            "boundary": "Three Points",
+            "start_time": "2026-11-23 10:14:38 MST",
+            "etr": "2026-11-23 13:14:38 MST",
+            "incident_id": "390549"
+        },
+        {
+            "latitude": 32.14175050441934,
+            "longitude": -111.07289400634131,
+            "customers": 1,
+            "cause": "Pending Investigation",
+            "comments": null,
+            "boundary": "Valencia",
+            "start_time": "2026-11-23 11:04:48 MST",
+            "etr": "2026-11-23 14:04:48 MST",
+            "incident_id": "390550"
+        },
+        {
+            "latitude": 32.33255319120527,
+            "longitude": -111.20378752640858,
+            "customers": 6,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-11-19 13:00:00 MST",
+            "etr": "2026-11-16 15:00:00 MST",
+            "incident_id": "390402"
+        }
+    ]
+}
