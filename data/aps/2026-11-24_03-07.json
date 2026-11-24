@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-24 03:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 23
+    },
+    "outages": [
+        {
+            "latitude": 33.61455715195836,
+            "longitude": -112.03959897159022,
+            "city": "Phoenix",
+            "boundary": "20th Place to Sheena Dr and 18th St to 21st Place",
+            "customers": 23,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-23 18:51:00 MST",
+            "etr": "2026-11-23 21:30:00 MST"
+        }
+    ]
+}
