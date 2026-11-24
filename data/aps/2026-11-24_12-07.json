@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-24 12:07:20 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 233
+    },
+    "outages": [
+        {
+            "latitude": 32.6479055412951,
+            "longitude": -114.71103103421306,
+            "city": "Yuma",
+            "boundary": "County 11th St. to County 14th St. and Avenue F to Fortuna Ave.",
+            "customers": 226,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-24 02:32:00 MST",
+            "etr": "2026-11-24 05:45:00 MST"
+        },
+        {
+            "latitude": 33.39348199979095,
+            "longitude": -110.8695222000221,
+            "city": "Globe",
+            "boundary": "60-70 Highway To Dacite Drive And Signal Mountain Road To Snell Avenue",
+            "customers": 7,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-11-24 02:56:00 MST",
+            "etr": "2026-11-24 08:25:00 MST"
+        }
+    ]
+}
