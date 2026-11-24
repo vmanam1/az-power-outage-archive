@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-24 15:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 25
+    },
+    "outages": [
+        {
+            "latitude": 33.60852545186361,
+            "longitude": -112.05317035957658,
+            "city": "Phoenix",
+            "boundary": "Voltaire Ave. to 13th Pl. and 12th Pl. to 14th Way",
+            "customers": 25,
+            "cause": "Damage to Electrical Equipment",
+            "comments": "We are working to restore the power outage caused by damage to electrical equipment.",
+            "start_time": "2026-11-24 06:59:00 MST",
+            "etr": "2026-11-24 10:00:00 MST"
+        }
+    ]
+}
