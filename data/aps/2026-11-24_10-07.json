@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-24 10:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1325
+    },
+    "outages": [
+        {
+            "latitude": 34.86262092527328,
+            "longitude": -111.79568168714607,
+            "city": "Sedona",
+            "boundary": "Moeur St. to Dusty Rose Dr. and Shelby Dr. to Hunt Ave.",
+            "customers": 77,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-24 01:57:00 MST",
+            "etr": "2026-11-24 05:25:00 MST"
+        },
+        {
+            "latitude": 34.50204773977968,
+            "longitude": -110.12853433067241,
+            "city": "Snowflake",
+            "boundary": "Player Dr. to Bryant Ave. and Porter St. to Fairway Rd.",
+            "customers": 15,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-24 01:00:00 MST",
+            "etr": "2026-11-24 04:30:00 MST"
+        },
+        {
+            "latitude": 32.6479055412951,
+            "longitude": -114.71103103421306,
+            "city": "Yuma",
+            "boundary": "County 11th St. to County 14th St. and Avenue F to Fortuna Ave.",
+            "customers": 223,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-24 02:32:00 MST",
+            "etr": "2026-11-24 05:25:00 MST"
+        },
+        {
+            "latitude": 33.39348199979095,
+            "longitude": -110.8695222000221,
+            "city": "Globe",
+            "boundary": "60-70 Highway To Dacite Drive And Signal Mountain Road To Snell Avenue",
+            "customers": 1010,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-24 02:56:00 MST",
+            "etr": "2026-11-24 06:00:00 MST"
+        }
+    ]
+}
