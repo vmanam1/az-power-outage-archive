@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-24 02:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3
+    },
+    "outages": [
+        {
+            "latitude": 33.41638933771545,
+            "longitude": -111.79976532348951,
+            "boundary": "N STAPLEY  DR TO N HARRIS  DR AND E UNIVERSITY  DR TO E BROADWAY  RD",
+            "customers": 3,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-24 01:34 MST",
+            "etr": "2026-11-24 06:00 MST"
+        }
+    ]
+}
