@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-24 14:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9
+    },
+    "outages": [
+        {
+            "latitude": 33.401571833165846,
+            "longitude": -112.051081201452,
+            "boundary": "S 12TH  ST TO S 16TH  ST AND E BROADWAY  RD TO E ROESER  RD",
+            "customers": 9,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-24 13:51 MST",
+            "etr": "2026-11-24 15:41 MST"
+        }
+    ]
+}

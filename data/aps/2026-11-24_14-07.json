@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-24 14:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 767
+    },
+    "outages": [
+        {
+            "latitude": 33.39348199979095,
+            "longitude": -110.8695222000221,
+            "city": "Globe",
+            "boundary": "60-70 Highway To Dacite Drive And Signal Mountain Road To Snell Avenue",
+            "customers": 7,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-11-24 02:56:00 MST",
+            "etr": "2026-11-24 08:25:00 MST"
+        },
+        {
+            "latitude": 34.78605599994056,
+            "longitude": -111.76204800023898,
+            "city": "Sedona",
+            "boundary": "Red Bute Drive To Avenida De Piedras And Oak Creek Drive To Concho Drive",
+            "customers": 760,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-24 05:14:00 MST",
+            "etr": "2026-11-24 08:15:00 MST"
+        }
+    ]
+}
