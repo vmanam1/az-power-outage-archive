@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-24 11:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 4,
+        "customers_affected": 1252
+    },
+    "outages": [
+        {
+            "latitude": 32.6479055412951,
+            "longitude": -114.71103103421306,
+            "city": "Yuma",
+            "boundary": "County 11th St. to County 14th St. and Avenue F to Fortuna Ave.",
+            "customers": 226,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-24 02:32:00 MST",
+            "etr": "2026-11-24 05:25:00 MST"
+        },
+        {
+            "latitude": 33.39348199979095,
+            "longitude": -110.8695222000221,
+            "city": "Globe",
+            "boundary": "60-70 Highway To Dacite Drive And Signal Mountain Road To Snell Avenue",
+            "customers": 1010,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-24 02:56:00 MST",
+            "etr": "2026-11-24 06:00:00 MST"
+        },
+        {
+            "latitude": 34.62873481566102,
+            "longitude": -112.64832316101219,
+            "city": "Skull Valley",
+            "boundary": "Forest Service Road 102 and Railroad Service Rd.",
+            "customers": 6,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-24 02:00:00 MST",
+            "etr": "2026-11-24 04:45:00 MST"
+        },
+        {
+            "latitude": 33.66080600524588,
+            "longitude": -114.06279160115629,
+            "city": "Salome",
+            "boundary": "Gold Nugget Rd. and I-10",
+            "customers": 10,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-24 03:07:00 MST",
+            "etr": "2026-11-24 06:00:00 MST"
+        }
+    ]
+}
