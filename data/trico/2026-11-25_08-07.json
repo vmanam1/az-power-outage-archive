@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "provider": "TRICO",
+        "scraped_at": "2026-11-25 08:07:11 MST",
+        "source": "TRICO NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 3,
+        "total_customers": 58081
+    },
+    "outages": [
+        {
+            "latitude": 32.31378780818435,
+            "longitude": -111.25115569134681,
+            "customers": 1,
+            "cause": "10 CONSTRUCTION",
+            "comments": "Planned outage",
+            "boundary": "Picture Rocks",
+            "start_time": "2026-11-19 07:40:44 MST",
+            "etr": "2026-11-19 12:00:00 MST",
+            "incident_id": "390417"
+        },
+        {
+            "latitude": 32.29728897504839,
+            "longitude": -111.26093834479222,
+            "customers": 2,
+            "cause": "Pending Investigation",
+            "comments": "Planned outage",
+            "boundary": "Avra Valley South",
+            "start_time": "2026-11-25 08:00:00 MST",
+            "etr": "2026-11-25 11:00:00 MST",
+            "incident_id": "390546"
+        }
+    ]
+}
