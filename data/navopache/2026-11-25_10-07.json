@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-25 10:07:11 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 9,
+        "total_customers": 45998
+    },
+    "outages": [
+        {
+            "latitude": 33.954469279224625,
+            "longitude": -109.24712209003128,
+            "customers": 9,
+            "cause": null,
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "5 - Springerville",
+            "start_time": "2026-11-25 09:46:45 MST",
+            "etr": null,
+            "incident_id": "536228"
+        }
+    ]
+}
