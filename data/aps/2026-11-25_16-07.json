@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-25 16:07:04 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 15
+    },
+    "outages": [
+        {
+            "latitude": 36.118900610719614,
+            "longitude": -111.2329074743504,
+            "city": "Tuba City",
+            "boundary": "Navajo Trl. to and Main St.",
+            "customers": 9,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-25 08:22:00 MST",
+            "etr": "2026-11-25 12:40:00 MST"
+        },
+        {
+            "latitude": 33.63656033633605,
+            "longitude": -112.12724558882206,
+            "city": "Phoenix",
+            "boundary": "Kings Ave. and 33rd Ave.",
+            "customers": 6,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-11-25 08:58:00 MST",
+            "etr": "2026-11-25 11:20:00 MST"
+        }
+    ]
+}
