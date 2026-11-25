@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-25 12:07:11 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 12
+    },
+    "outages": [
+        {
+            "latitude": 33.421370103795454,
+            "longitude": -111.704434301563,
+            "boundary": "N 56TH  ST TO N 64TH  ST AND E ADOBE  RD TO E MAIN  ST",
+            "customers": 12,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-25 09:23 MST",
+            "etr": "2026-11-25 12:45 MST"
+        }
+    ]
+}
