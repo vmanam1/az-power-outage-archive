@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-25 03:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 18
+    },
+    "outages": [
+        {
+            "latitude": 33.56255043675633,
+            "longitude": -112.08390671828266,
+            "city": "Phoenix",
+            "boundary": "Why Worry Ln to 9th Ave and 7th Ave",
+            "customers": 18,
+            "cause": "Planned outage",
+            "comments": "Scheduled maintenance or upgrades are being performed to improve reliability in the area.",
+            "start_time": "2026-11-24 15:47:00 MST",
+            "etr": "2026-11-24 21:00:00 MST"
+        }
+    ]
+}
