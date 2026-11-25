@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-25 07:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 586
+    },
+    "outages": [
+        {
+            "latitude": 33.53033183435098,
+            "longitude": -112.16731051876573,
+            "city": "Glendale",
+            "boundary": "Sierra Vista Dr. to Bethany Home Rd. and 60th Ave. to 49th Ave.",
+            "customers": 586,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-24 23:57:00 MST",
+            "etr": "2026-11-25 04:00:00 MST"
+        }
+    ]
+}
