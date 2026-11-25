@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-25 14:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 211
+    },
+    "outages": [
+        {
+            "latitude": 32.66943213634543,
+            "longitude": -114.53210000193776,
+            "city": "Yuma",
+            "boundary": "Almost Heaven St. to Going Nowhere Ln. and Party Time Blvd. to Driftin Ave.",
+            "customers": 211,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-25 06:08:00 MST",
+            "etr": "2026-11-25 09:30:00 MST"
+        }
+    ]
+}
