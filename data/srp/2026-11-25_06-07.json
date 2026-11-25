@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-25 06:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 7
+    },
+    "outages": [
+        {
+            "latitude": 33.4777995230772,
+            "longitude": -112.135451681421,
+            "boundary": "N 39TH  AVE TO N 31ST  AVE AND W THOMAS  RD TO W ENCANTO  BLVD",
+            "customers": 6,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-25 05:50 MST",
+            "etr": "2026-11-25 07:30 MST"
+        },
+        {
+            "latitude": 33.4889738323747,
+            "longitude": -112.292635332917,
+            "boundary": "N 111TH  AVE TO N 107TH  AVE AND W INDIAN SCHOOL  RD TO W THOMAS  RD",
+            "customers": 1,
+            "cause": "Critical equipment maintenance",
+            "comments": "An SRP maintenance crew is performing critical maintenance work to repair or upgrade equipment. Power will be restored as quickly as possible.",
+            "start_time": "2026-11-25 05:57 MST",
+            "etr": "2026-11-25 07:55 MST"
+        }
+    ]
+}
