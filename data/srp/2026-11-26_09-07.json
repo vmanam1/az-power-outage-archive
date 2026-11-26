@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-26 09:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 29
+    },
+    "outages": [
+        {
+            "latitude": 33.3900919953142,
+            "longitude": -111.6672077138265,
+            "boundary": "S 72ND  ST TO S HAWES  RD AND E PUEBLO  AVE TO E BASELINE  RD",
+            "customers": 29,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-26 07:41 MST",
+            "etr": "2026-11-26 09:42 MST"
+        }
+    ]
+}
