@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-26 05:07:11 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 24
+    },
+    "outages": [
+        {
+            "latitude": 33.406579000137796,
+            "longitude": -112.7639999998859,
+            "city": "Buckeye",
+            "boundary": "Interstate- 10 To Old Us Highway 80 And 339Th Ave  To Palo Verde Rd",
+            "customers": 24,
+            "cause": "Power line(s) down",
+            "comments": "Our crews are working to restore the outage caused by downed power line(s).",
+            "start_time": "2026-11-25 12:46:00 MST",
+            "etr": "2026-11-25 23:35:00 MST"
+        }
+    ]
+}
