@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-26 12:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 41
+    },
+    "outages": [
+        {
+            "latitude": 32.73835526494082,
+            "longitude": -111.65608185885672,
+            "city": "Arizona City",
+            "boundary": "Monaco Blvd to Aliso Dr and Altos Dr to Cherry Hill Dr",
+            "customers": 41,
+            "cause": "Being Investigated",
+            "comments": "We are assessing the issue and will provide an update once we know more. Thank you for your patience.",
+            "start_time": "2026-11-26 04:30:00 MST",
+            "etr": "2026-11-26 08:00:00 MST"
+        }
+    ]
+}
