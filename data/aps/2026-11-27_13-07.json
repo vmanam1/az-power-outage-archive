@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-27 13:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 30
+    },
+    "outages": [
+        {
+            "latitude": 32.7249455440475,
+            "longitude": -114.65531694357355,
+            "city": "Yuma",
+            "boundary": "1st St to West Main Canal and East St to 27th Dr",
+            "customers": 30,
+            "cause": "Vehicle accident",
+            "comments": "We are working to restore the power outage caused by a vehicle that damaged our equipment.",
+            "start_time": "2026-11-27 05:00:00 MST",
+            "etr": "2026-11-27 09:00:00 MST"
+        }
+    ]
+}
