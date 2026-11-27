@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-27 05:07:54 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 76
+    },
+    "outages": [
+        {
+            "latitude": 33.2111213192589,
+            "longitude": -111.84433461687351,
+            "boundary": "S ALMA SCHOOL  RD TO S ARIZONA  AVE AND E RIGGS  RD TO E HUNT  HWY",
+            "customers": 25,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-27 03:22 MST",
+            "etr": "2026-11-27 05:26 MST"
+        },
+        {
+            "latitude": 33.40817849659885,
+            "longitude": -111.9837010833055,
+            "boundary": "S 40TH  ST TO S 48TH  ST AND E MARICOPA  FWY TO E ROESER  RD",
+            "customers": 51,
+            "cause": "Underground cable failure",
+            "comments": "An underground power cable has failed. SRP crews are working to restore power.",
+            "start_time": "2026-11-26 20:36 MST",
+            "etr": "2026-11-27 06:00 MST"
+        }
+    ]
+}
