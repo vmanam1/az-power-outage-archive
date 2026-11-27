@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-26 20:07:44 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 4
+    },
+    "outages": [
+        {
+            "latitude": 33.55797845381555,
+            "longitude": -112.0930199701275,
+            "boundary": "N 19TH  AVE TO N 7TH  AVE AND W BUTLER  DR TO W NORTHERN  AVE",
+            "customers": 4,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-26 18:54 MST",
+            "etr": "2026-11-26 20:41 MST"
+        }
+    ]
+}
