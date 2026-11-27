@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-27 09:07:04 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 2,
+        "customers_affected": 91
+    },
+    "outages": [
+        {
+            "latitude": 33.428922515332296,
+            "longitude": -112.49671751693552,
+            "city": "Buckeye",
+            "boundary": "Yuma Rd to Lower Buckeye Rd and Dean Rd to 203rd Ave",
+            "customers": 65,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-27 01:20:00 MST",
+            "etr": "2026-11-27 05:00:00 MST"
+        },
+        {
+            "latitude": 33.61322008719491,
+            "longitude": -112.07715437334608,
+            "city": "Phoenix",
+            "boundary": "Tam O Shanter Dr. to Boca Raton Rd. and Canterbury Dr.",
+            "customers": 26,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-27 01:48:00 MST",
+            "etr": "2026-11-27 04:20:00 MST"
+        }
+    ]
+}
