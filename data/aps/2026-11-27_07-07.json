@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-27 07:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 6
+    },
+    "outages": [
+        {
+            "latitude": 33.47508205693196,
+            "longitude": -112.50420712629375,
+            "city": "Buckeye",
+            "boundary": "Point Ridge Rd to Stone Hill Rd and Verrado Wy",
+            "customers": 6,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-26 22:46:00 MST",
+            "etr": "2026-11-27 01:20:00 MST"
+        }
+    ]
+}
