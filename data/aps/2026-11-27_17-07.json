@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-27 17:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 32
+    },
+    "outages": [
+        {
+            "latitude": 34.74049531780408,
+            "longitude": -112.05039243005322,
+            "city": "Clarkdale",
+            "boundary": "Black Hills Dr and Canyon Dr to Windy St",
+            "customers": 32,
+            "cause": "Faulted cable",
+            "comments": "Our crews are working to restore the outage caused by faulted cable.",
+            "start_time": "2026-11-27 06:41:00 MST",
+            "etr": "2026-11-27 11:30:00 MST"
+        }
+    ]
+}
