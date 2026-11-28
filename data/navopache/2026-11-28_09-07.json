@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-28 09:07:24 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 6,
+        "customers_affected": 11,
+        "total_customers": 45995
+    },
+    "outages": [
+        {
+            "latitude": 34.14356777379335,
+            "longitude": -109.9809199131193,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-11-28 08:42:49 MST",
+            "etr": null,
+            "incident_id": "536254"
+        },
+        {
+            "latitude": 34.40941619778124,
+            "longitude": -110.59384941471221,
+            "customers": 2,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-11-28 08:41:46 MST",
+            "etr": null,
+            "incident_id": "536255"
+        },
+        {
+            "latitude": 34.40943102035291,
+            "longitude": -110.59382246525368,
+            "customers": 5,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "7 - Heber/Overgaard",
+            "start_time": "2026-11-28 08:41:46 MST",
+            "etr": null,
+            "incident_id": "536258"
+        },
+        {
+            "latitude": 34.13226618164997,
+            "longitude": -109.97689546064589,
+            "customers": 1,
+            "cause": "UNKNOWN CAUSE",
+            "comments": "We are aware of the outage & crews are responding at this time. We will restore power as soon as possible. We apologize for the inconvenience & thank you for your patience.",
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-11-28 08:44:12 MST",
+            "etr": null,
+            "incident_id": "536259"
+        },
+        {
+            "latitude": 34.13854916122059,
+            "longitude": -109.97352677832997,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-11-28 08:50:21 MST",
+            "etr": null,
+            "incident_id": "536260"
+        },
+        {
+            "latitude": 34.142549205426036,
+            "longitude": -109.9807941489795,
+            "customers": 1,
+            "cause": null,
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-11-28 08:42:17 MST",
+            "etr": null,
+            "incident_id": "536250"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "provider": "APS",
+        "scraped_at": "2026-11-28 09:07:24 MST",
+        "source": "APS ArcGIS REST API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 40
+    },
+    "outages": [
+        {
+            "latitude": 33.48138144108289,
+            "longitude": -111.93363582519113,
+            "city": "Scottsdale",
+            "boundary": "Pinchot Ave and 68t St. to 68th Pl.",
+            "customers": 40,
+            "cause": "Outage Reported in Area",
+            "comments": "Multiple customers have reported an outage in this area. We are investigating and will provide an update once we know more.  Thank you for your patience.",
+            "start_time": "2026-11-28 01:28:00 MST",
+            "etr": "2026-11-28 04:05:00 MST"
+        }
+    ]
+}
