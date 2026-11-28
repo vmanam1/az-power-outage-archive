@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "provider": "NAVOPACHE",
+        "scraped_at": "2026-11-28 00:07:24 MST",
+        "source": "NAVOPACHE NISC Hosted Outage Map (outagemap.coop)",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 3,
+        "total_customers": 45995
+    },
+    "outages": [
+        {
+            "latitude": 34.140244370360925,
+            "longitude": -109.97652715137934,
+            "customers": 3,
+            "cause": "EQUIPMENT / MATERIAL FAILURE",
+            "comments": null,
+            "boundary": "1 - Lakeside",
+            "start_time": "2026-11-27 18:56:21 MST",
+            "etr": null,
+            "incident_id": "536248"
+        }
+    ]
+}

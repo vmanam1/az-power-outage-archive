@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "provider": "SRP",
+        "scraped_at": "2026-11-28 00:07:24 MST",
+        "source": "SRP Outage API",
+        "scraper_version": "1.0.0"
+    },
+    "summary": {
+        "outage_count": 1,
+        "customers_affected": 17
+    },
+    "outages": [
+        {
+            "latitude": 33.39898981805145,
+            "longitude": -111.8865134302625,
+            "boundary": "S PIMA  LOOP TO S ROOSEVELT  RD AND W BROADWAY  RD TO E SOUTHERN  AVE",
+            "customers": 17,
+            "cause": "Cause under investigation",
+            "comments": "We are investigating the cause of the outage.",
+            "start_time": "2026-11-27 23:52 MST",
+            "etr": "2026-11-28 01:51 MST"
+        }
+    ]
+}
